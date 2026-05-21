@@ -665,6 +665,137 @@ def render_landing(landing: dict, categories: dict[str, dict], products: dict[st
     return render_template(TEMPLATE_PATH.read_text(encoding="utf-8"), values)
 
 
+def landing_url(slug: str, base_url: str = "") -> str:
+    path = f"/{quote(slug)}/"
+    return f"{base_url.rstrip('/')}{path}" if base_url else path
+
+
+def render_index(landings: list[dict], categories: dict[str, dict], base_url: str) -> str:
+    canonical_url = f"{base_url.rstrip('/')}/" if base_url else "/"
+    featured = landings[:12]
+    latest = landings[:48]
+    category_counts = []
+    for category_id, category in categories.items():
+        if category_id == "home":
+            continue
+        count = sum(1 for landing in landings if category_id in category_ids_for(landing))
+        if count:
+            category_counts.append((count, category))
+    category_counts.sort(key=lambda item: (-item[0], item[1]["nombre"]))
+
+    featured_html = []
+    for index, landing in enumerate(featured, start=1):
+        slug = landing.get("slug") or slugify(landing["keyword"])
+        featured_html.append(
+            f'<article class="guide-card guide-card-{index}"><span class="card-kicker">Guia {index:02d}</span>'
+            f'<h3><a href="/{esc(slug)}/">{esc(landing["h1"])}</a></h3>'
+            f'<p>{esc(landing["meta_description"])}</p>'
+            f'<a class="text-link" href="/{esc(slug)}/">Leer guia <span>-></span></a></article>'
+        )
+
+    category_html = []
+    for count, category in category_counts[:8]:
+        category_html.append(
+            f'<article class="topic-card"><span>{count} guias</span><h3>{esc(category["nombre"])}</h3>'
+            f'<p>{esc(category["descripcion"])}</p>'
+            f'<a href="{esc(category["url"])}" target="_blank" rel="noopener">Ver categoria en PC MIDI</a></article>'
+        )
+
+    latest_html = []
+    for landing in latest:
+        slug = landing.get("slug") or slugify(landing["keyword"])
+        latest_html.append(f'<li><a href="/{esc(slug)}/">{esc(landing["h1"])}</a><span>{esc(landing["keyword"])}</span></li>')
+
+    schema = {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Blog PC MIDI Center",
+        "url": canonical_url,
+        "description": "Guias de compra para produccion musical, home studio, streaming, controladores MIDI, interfaces de audio, microfonos y monitoreo.",
+    }
+
+    return f'''<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog PC MIDI Center | Guias de compra para produccion musical</title>
+  <meta name="description" content="Guias para elegir controladores MIDI, interfaces de audio, microfonos, auriculares, monitores, sintetizadores y equipos para home studio en Argentina.">
+  <link rel="canonical" href="{esc(canonical_url)}">
+  <meta name="robots" content="index,follow">
+  <script type="application/ld+json">{esc(json.dumps(schema, ensure_ascii=False)).replace('&quot;', '"')}</script>
+  <style>
+    * {{ box-sizing: border-box; }}
+    :root {{ --paper:#F4F1EA; --paper-2:#ECE7DB; --ink:#1D1D1B; --muted:#706B61; --orange:#EB6517; --dark:#11110F; --line:rgba(29,29,27,.16); }}
+    body {{ margin:0; font-family: Georgia, 'Times New Roman', serif; background:var(--paper); color:var(--ink); }}
+    a {{ color:inherit; }}
+    .container {{ width:min(1180px, calc(100% - 32px)); margin:0 auto; }}
+    .nav {{ display:flex; align-items:center; justify-content:space-between; gap:24px; padding:22px 0; border-bottom:1px solid var(--line); font-family:Arial,sans-serif; }}
+    .logo {{ display:flex; align-items:center; gap:14px; text-decoration:none; font-weight:900; letter-spacing:-.03em; }}
+    .logo img {{ width:138px; height:auto; }}
+    .nav-links {{ display:flex; gap:18px; font-size:13px; font-weight:800; text-transform:uppercase; letter-spacing:.08em; }}
+    .nav-links a {{ text-decoration:none; color:var(--muted); }}
+    .hero {{ position:relative; overflow:hidden; padding:72px 0 54px; }}
+    .hero:before {{ content:""; position:absolute; inset:0; background:linear-gradient(90deg, rgba(29,29,27,.06) 1px, transparent 1px), linear-gradient(rgba(29,29,27,.06) 1px, transparent 1px); background-size:42px 42px; mask-image:linear-gradient(180deg,#000,transparent); pointer-events:none; }}
+    .hero-grid {{ position:relative; display:grid; grid-template-columns:minmax(0,1.1fr) 360px; gap:42px; align-items:end; }}
+    .eyebrow {{ display:inline-flex; padding:8px 11px; border:1px solid var(--line); border-radius:999px; font:800 12px/1 Arial,sans-serif; text-transform:uppercase; letter-spacing:.1em; color:var(--orange); background:rgba(255,255,255,.35); }}
+    h1 {{ margin:22px 0 18px; font-size:clamp(46px, 8vw, 104px); line-height:.88; letter-spacing:-.07em; max-width:920px; }}
+    .lede {{ margin:0; max-width:760px; font:400 clamp(18px,2.3vw,25px)/1.35 Arial,sans-serif; color:#38352F; }}
+    .hero-actions {{ display:flex; gap:14px; flex-wrap:wrap; margin-top:30px; font-family:Arial,sans-serif; }}
+    .btn {{ display:inline-flex; align-items:center; justify-content:center; min-height:48px; padding:0 20px; border:2px solid var(--ink); border-radius:999px; text-decoration:none; font-weight:900; }}
+    .btn-primary {{ background:var(--orange); box-shadow:5px 5px 0 var(--ink); }}
+    .btn-ghost {{ background:transparent; }}
+    .meter {{ background:var(--dark); color:var(--paper); border-radius:28px; padding:24px; box-shadow:10px 10px 0 rgba(235,101,23,.28); font-family:Arial,sans-serif; }}
+    .meter strong {{ display:block; font-size:58px; letter-spacing:-.08em; }}
+    .meter span {{ color:#B8B0A1; text-transform:uppercase; font-size:12px; letter-spacing:.12em; }}
+    .bars {{ display:grid; grid-template-columns:repeat(12,1fr); align-items:end; gap:5px; height:116px; margin-top:24px; }}
+    .bars i {{ display:block; background:var(--orange); border-radius:99px 99px 0 0; min-height:18px; }}
+    .section {{ padding:56px 0; }}
+    .section-head {{ display:flex; justify-content:space-between; gap:24px; align-items:end; margin-bottom:24px; border-top:2px solid var(--ink); padding-top:20px; }}
+    .section-head h2 {{ margin:0; font-size:clamp(30px,4vw,54px); line-height:.95; letter-spacing:-.05em; }}
+    .section-head p {{ margin:0; max-width:460px; font:16px/1.5 Arial,sans-serif; color:var(--muted); }}
+    .guide-grid {{ display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }}
+    .guide-card, .topic-card {{ background:rgba(255,255,255,.38); border:1px solid var(--line); border-radius:24px; padding:22px; min-height:245px; display:flex; flex-direction:column; }}
+    .guide-card-1 {{ grid-column:span 2; background:var(--ink); color:var(--paper); }}
+    .guide-card h3, .topic-card h3 {{ margin:12px 0; font-size:28px; line-height:1; letter-spacing:-.04em; }}
+    .guide-card p, .topic-card p {{ margin:0; font:15px/1.45 Arial,sans-serif; color:inherit; opacity:.78; }}
+    .guide-card a, .topic-card a {{ text-decoration:none; }}
+    .card-kicker, .topic-card span {{ font:900 12px/1 Arial,sans-serif; color:var(--orange); text-transform:uppercase; letter-spacing:.12em; }}
+    .text-link {{ margin-top:auto; padding-top:22px; font:900 13px/1 Arial,sans-serif; text-transform:uppercase; letter-spacing:.08em; }}
+    .topic-grid {{ display:grid; grid-template-columns:repeat(4,1fr); gap:14px; }}
+    .topic-card {{ min-height:230px; }}
+    .topic-card a {{ margin-top:auto; color:var(--orange); font:900 13px/1.2 Arial,sans-serif; text-transform:uppercase; }}
+    .latest {{ columns:2; column-gap:34px; padding:0; margin:0; list-style:none; }}
+    .latest li {{ break-inside:avoid; padding:14px 0; border-bottom:1px solid var(--line); }}
+    .latest a {{ display:block; font:900 17px/1.2 Arial,sans-serif; text-decoration:none; }}
+    .latest span {{ display:block; margin-top:5px; font:13px/1.35 Arial,sans-serif; color:var(--muted); }}
+    .cta-band {{ margin:42px 0 0; padding:30px; background:var(--dark); color:var(--paper); border-radius:30px; display:flex; align-items:center; justify-content:space-between; gap:20px; }}
+    .cta-band h2 {{ margin:0; font-size:36px; line-height:1; letter-spacing:-.05em; }}
+    footer {{ padding:32px 0 46px; color:var(--muted); font:14px/1.5 Arial,sans-serif; }}
+    @media (max-width: 860px) {{ .hero-grid, .guide-grid, .topic-grid {{ grid-template-columns:1fr; }} .guide-card-1 {{ grid-column:auto; }} .latest {{ columns:1; }} .nav {{ align-items:flex-start; }} .nav-links {{ display:none; }} .cta-band {{ display:block; }} .cta-band .btn {{ margin-top:18px; }} }}
+  </style>
+</head>
+<body>
+  <header class="container nav">
+    <a class="logo" href="/"><img src="/assets/LogoPCMIDINegro.png" alt="PC MIDI Center"><span>Blog</span></a>
+    <nav class="nav-links"><a href="#guias">Guias</a><a href="#temas">Temas</a><a href="#indice">Indice</a><a href="https://www.pcmidi.com.ar/" target="_blank" rel="noopener">Tienda</a></nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div><span class="eyebrow">Guias de compra PC MIDI Center</span><h1>Elegir mejor tecnologia para producir musica.</h1><p class="lede">Comparativas y guias practicas para armar home studio, grabar voces, elegir controladores MIDI, mejorar streaming y conectar mejor tu setup.</p><div class="hero-actions"><a class="btn btn-primary" href="#guias">Explorar guias</a><a class="btn btn-ghost" href="https://www.pcmidi.com.ar/" target="_blank" rel="noopener">Ir a pcmidi.com.ar</a></div></div>
+        <aside class="meter"><span>Archivo indexable</span><strong>{len(landings)}</strong><span>guias publicadas</span><div class="bars" aria-hidden="true"><i style="height:38%"></i><i style="height:62%"></i><i style="height:84%"></i><i style="height:46%"></i><i style="height:92%"></i><i style="height:58%"></i><i style="height:74%"></i><i style="height:42%"></i><i style="height:100%"></i><i style="height:68%"></i><i style="height:52%"></i><i style="height:88%"></i></div></aside>
+      </div>
+    </section>
+    <section class="section" id="guias"><div class="container"><div class="section-head"><h2>Guias destacadas</h2><p>Entradas orientadas a problemas reales de compra: que conectar, que comparar y que categoria revisar antes de decidir.</p></div><div class="guide-grid">{''.join(featured_html)}</div></div></section>
+    <section class="section" id="temas"><div class="container"><div class="section-head"><h2>Temas principales</h2><p>Cada tema enlaza con categorias reales de PC MIDI Center para pasar de la duda tecnica a opciones concretas.</p></div><div class="topic-grid">{''.join(category_html)}</div><div class="cta-band"><h2>Catalogo comercial en PC MIDI Center.</h2><a class="btn btn-primary" href="https://www.pcmidi.com.ar/" target="_blank" rel="noopener">Ver tienda</a></div></div></section>
+    <section class="section" id="indice"><div class="container"><div class="section-head"><h2>Ultimas guias</h2><p>Indice editorial de busquedas frecuentes sobre produccion musical, audio, streaming y home studio.</p></div><ul class="latest">{''.join(latest_html)}</ul></div></section>
+  </main>
+  <footer class="container">PC MIDI Center comercializa tecnologia para produccion musical. Este blog ayuda a comparar alternativas segun uso real y enlaza a categorias disponibles en pcmidi.com.ar.</footer>
+</body>
+</html>'''
+
+
 def build(base_url: str = "") -> None:
     categories = load_categories()
     products = load_products()
@@ -683,8 +814,7 @@ def build(base_url: str = "") -> None:
         if source.exists():
             shutil.copy2(source, ASSETS_DIR / logo)
 
-    index_items = []
-    sitemap_urls = []
+    sitemap_urls = [f"{base_url.rstrip('/')}/" if base_url else "/"]
     for landing in landings:
         slug = landing.get("slug") or slugify(landing["keyword"])
         html_text = render_landing(landing, categories, products, base_url)
@@ -692,12 +822,10 @@ def build(base_url: str = "") -> None:
         landing_dir.mkdir(parents=True, exist_ok=True)
         output = landing_dir / "index.html"
         output.write_text(html_text, encoding="utf-8")
-        index_items.append(f'<li><a href="/{esc(slug)}/">{esc(landing["h1"])}</a><span>{esc(landing["keyword"])}</span></li>')
-        loc = f"{base_url.rstrip('/')}/{quote(slug)}/" if base_url else f"/{quote(slug)}/"
+        loc = landing_url(slug, base_url)
         sitemap_urls.append(loc)
 
-    index_html = """<!DOCTYPE html>
-<html lang="es-AR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Landings PC MIDI Center</title><meta name="description" content="Indice de landings estaticas SEO de PC MIDI Center."><style>body{font-family:Arial,sans-serif;background:#F4F1EA;color:#1D1D1B;margin:0;padding:40px}main{max-width:980px;margin:auto}a{color:#EB6517;font-weight:700}li{margin:18px 0}span{display:block;color:#79766F;margin-top:4px}</style></head><body><main><h1>Landings PC MIDI Center</h1><p>Indice generado automaticamente.</p><ul>__ITEMS__</ul></main></body></html>""".replace("__ITEMS__", "\n".join(index_items))
+    index_html = render_index(landings, categories, base_url)
     (SITE_DIR / "index.html").write_text(index_html, encoding="utf-8")
 
     sitemap_xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
