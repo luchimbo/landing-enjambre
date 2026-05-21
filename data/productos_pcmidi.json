@@ -1,0 +1,425 @@
+[
+  {
+    "id": "arturia-minilab-3",
+    "nombre": "Arturia MiniLab 3 Controlador MIDI 25 Teclas",
+    "marca": "Arturia",
+    "modelo": "MiniLab 3",
+    "categoria_id": "controladores-midi",
+    "url": "https://www.pcmidi.com.ar/productos/arturia-minilab-3-controlador-midi-25-teclas/",
+    "uso": "controlador compacto con teclas, pads y controles para produccion con DAW"
+  },
+  {
+    "id": "arturia-beatstep",
+    "nombre": "BEATSTEP CONTROLADOR MIDI SEQUENCER",
+    "marca": "Arturia",
+    "modelo": "BeatStep",
+    "categoria_id": "controladores-midi",
+    "url": "https://www.pcmidi.com.ar/productos/beatstep-controlador-midi-sequencer/",
+    "uso": "control MIDI y secuenciacion por pasos"
+  },
+  {
+    "id": "midiplus-ak490",
+    "nombre": "MIDIPLUS AK490 Teclado Controlador MIDI USB 4 Octavas Sensitivo",
+    "marca": "MIDIPLUS",
+    "modelo": "AK490",
+    "categoria_id": "controladores-midi",
+    "url": "https://www.pcmidi.com.ar/productos/midiplus-ak490-teclado-controlador-midi-usb-4-octavas-sensitivo/",
+    "uso": "teclado controlador de 49 teclas para tocar acordes y melodias"
+  },
+  {
+    "id": "midiplus-akm322",
+    "nombre": "Midiplus AKM322 Teclado Controlador MIDI USB 32 Miniteclas Sensitivas Arpeggiador",
+    "marca": "Midiplus",
+    "modelo": "AKM322",
+    "categoria_id": "controladores-midi",
+    "url": "https://www.pcmidi.com.ar/productos/midiplus-akm322-teclado-controlador-midi-usb-32-miniteclas-sensitivas-arpeggiador/",
+    "uso": "controlador compacto para escritorio chico"
+  },
+  {
+    "id": "arturia-keystep-pro",
+    "nombre": "Arturia Keystep Pro Controlador MIDI y Secuenciador",
+    "marca": "Arturia",
+    "modelo": "KeyStep Pro",
+    "categoria_id": "controladores-midi",
+    "url": "https://www.pcmidi.com.ar/productos/arturia-keystep-pro-controlador-midi-y-secuenciador-iibdh/",
+    "uso": "controlador y secuenciador para setups con hardware y DAW"
+  },
+  {
+    "id": "arturia-minifuse-1-black",
+    "nombre": "Placa de sonido Arturia MiniFuse 1 Black",
+    "marca": "Arturia",
+    "modelo": "MiniFuse 1",
+    "categoria_id": "interfaces-audio",
+    "url": "https://www.pcmidi.com.ar/productos/placa-de-sonido-arturia-minifuse-1-black-s6mek/",
+    "uso": "interfaz compacta para grabar una fuente principal"
+  },
+  {
+    "id": "arturia-minifuse-2-black",
+    "nombre": "Placa de sonido Arturia MiniFuse 2 Black",
+    "marca": "Arturia",
+    "modelo": "MiniFuse 2",
+    "categoria_id": "interfaces-audio",
+    "url": "https://www.pcmidi.com.ar/productos/placa-de-sonido-arturia-minifuse-2-black-cnxis/",
+    "uso": "interfaz de dos entradas para voz, instrumento o setup chico"
+  },
+  {
+    "id": "arturia-minifuse-4-black",
+    "nombre": "Placa de sonido Arturia MiniFuse 4 Black",
+    "marca": "Arturia",
+    "modelo": "MiniFuse 4",
+    "categoria_id": "interfaces-audio",
+    "url": "https://www.pcmidi.com.ar/productos/placa-de-sonido-arturia-minifuse-4-black-j3x14/",
+    "uso": "interfaz con mas entradas para setups que crecen"
+  },
+  {
+    "id": "arturia-minifuse-recording-pack",
+    "nombre": "Arturia MiniFuse Recording Pack Black Edition",
+    "marca": "Arturia",
+    "modelo": "MiniFuse Recording Pack",
+    "categoria_id": "interfaces-audio",
+    "url": "https://www.pcmidi.com.ar/productos/minifuse-recording-pack-complete-audio-solution1/",
+    "uso": "pack orientado a empezar a grabar con una cadena basica"
+  },
+  {
+    "id": "midiplus-studio-m",
+    "nombre": "Placa de sonido profesional USB MIDIPLUS Studio M 24 bits 192kHz",
+    "marca": "MIDIPLUS",
+    "modelo": "Studio M",
+    "categoria_id": "interfaces-audio",
+    "url": "https://www.pcmidi.com.ar/productos/placa-de-sonido-profesional-usb-midiplus-studio-m-24-bits-192khz/",
+    "uso": "interfaz USB para grabacion y monitoreo"
+  },
+  {
+    "id": "audio-technica-at2020",
+    "nombre": "Micrófono Condensador Audio Technica AT2020",
+    "marca": "Audio Technica",
+    "modelo": "AT2020",
+    "categoria_id": "microfonos-profesionales",
+    "url": "https://www.pcmidi.com.ar/productos/microfono-condensador-audio-technica-at2020/",
+    "uso": "microfono condensador para voces, podcast e instrumentos"
+  },
+  {
+    "id": "alctron-um900",
+    "nombre": "Microfono Condensador USB Alctron UM900",
+    "marca": "Alctron",
+    "modelo": "UM900",
+    "categoria_id": "microfonos-streaming",
+    "url": "https://www.pcmidi.com.ar/productos/microfono-condensador-usb-alctron-um900/",
+    "uso": "microfono USB para creadores, podcast y streaming"
+  },
+  {
+    "id": "alctron-mc001",
+    "nombre": "Micrófono Condensador Alctron MC001 Cardioide",
+    "marca": "Alctron",
+    "modelo": "MC001",
+    "categoria_id": "microfonos-profesionales",
+    "url": "https://www.pcmidi.com.ar/productos/microfono-condensador-alctron-mc001-cardioide/",
+    "uso": "microfono condensador cardioide para grabacion"
+  },
+  {
+    "id": "alctron-ma614",
+    "nombre": "Brazo articulado para micrófono de mesa Alctron MA614",
+    "marca": "Alctron",
+    "modelo": "MA614",
+    "categoria_id": "accesorios-microfonos",
+    "url": "https://www.pcmidi.com.ar/productos/brazo-articulado-para-microfono-de-mesa-alctron-ma614/",
+    "uso": "brazo de mesa para ubicar el microfono con comodidad"
+  },
+  {
+    "id": "arturia-microfreak",
+    "nombre": "Arturia MicroFreak Sintetizador Híbrido",
+    "marca": "Arturia",
+    "modelo": "MicroFreak",
+    "categoria_id": "sintes-analogicos-hibridos",
+    "url": "https://www.pcmidi.com.ar/productos/arturia-microfreak-sintetizador-hibrido/",
+    "uso": "sintetizador hibrido para diseno sonoro y aprendizaje de sintesis"
+  },
+  {
+    "id": "audio-technica-ath-m20x",
+    "nombre": "Auricular Profesional Audio Technica ATH-M20x",
+    "marca": "Audio Technica",
+    "modelo": "ATH-M20x",
+    "categoria_id": "auriculares",
+    "url": "https://www.pcmidi.com.ar/productos/auricular-profesional-audio-technica-ath-m20x/",
+    "uso": "auricular cerrado para monitoreo y grabacion"
+  },
+  {
+    "id": "audio-technica-ath-m50x",
+    "nombre": "Auricular Profesional Audio Technica ATH-M50x",
+    "marca": "Audio Technica",
+    "modelo": "ATH-M50x",
+    "categoria_id": "auriculares",
+    "url": "https://www.pcmidi.com.ar/productos/auricular-profesional-audio-technica-ath-m50x/",
+    "uso": "auricular cerrado de monitoreo para referencia y grabacion"
+  },
+  {
+    "id": "midiplus-ms5",
+    "nombre": "Par Monitores De Estudio Midiplus MS5 5 pulgadas",
+    "marca": "Midiplus",
+    "modelo": "MS5",
+    "categoria_id": "monitores-estudio",
+    "url": "https://www.pcmidi.com.ar/productos/par-monitores-de-estudio-midiplus-ms5-5/",
+    "uso": "monitores de estudio para home studio"
+  },
+  {
+    "id": "midiplus-ms6",
+    "nombre": "Par Monitores De Estudio Midiplus MS6 6 pulgadas",
+    "marca": "Midiplus",
+    "modelo": "MS6",
+    "categoria_id": "monitores-estudio",
+    "url": "https://www.pcmidi.com.ar/productos/par-monitores-de-estudio-midiplus-ms6-6/",
+    "uso": "monitores de estudio para referencia en espacios mas amplios"
+  },
+  {
+    "id": "arturia-minilab-3-black",
+    "nombre": "Arturia MiniLab 3 Black Edition Controlador MIDI 25 Teclas",
+    "marca": "Arturia",
+    "modelo": "MiniLab 3 Black Edition",
+    "categoria_id": "controladores-midi",
+    "url": "https://www.pcmidi.com.ar/productos/arturia-minilab-3-black-edition-controlador-midi-25-teclas/",
+    "uso": "controlador compacto con teclas, pads y controles para produccion con DAW"
+  },
+  {
+    "id": "arturia-minilab-3-deep-black",
+    "nombre": "Arturia MiniLab 3 Deep Black Edition Controlador MIDI 25 Teclas",
+    "marca": "Arturia",
+    "modelo": "MiniLab 3 Deep Black Edition",
+    "categoria_id": "controladores-midi",
+    "url": "https://www.pcmidi.com.ar/productos/arturia-minilab-3-deep-black-edition-controlador-midi-25-teclas/",
+    "uso": "controlador compacto para escritorio y produccion con instrumentos virtuales"
+  },
+  {
+    "id": "arturia-microlab-mk3-negro",
+    "nombre": "Controlador MIDI ARTURIA MicroLab mk3 Negro",
+    "marca": "Arturia",
+    "modelo": "MicroLab mk3",
+    "categoria_id": "controladores-midi",
+    "url": "https://www.pcmidi.com.ar/productos/controlador-midi-arturia-microlab-mk3-negro/",
+    "uso": "controlador MIDI compacto para tocar instrumentos virtuales"
+  },
+  {
+    "id": "arturia-keylab-88-mk3",
+    "nombre": "ARTURIA KeyLab 88 MK3",
+    "marca": "Arturia",
+    "modelo": "KeyLab 88 MK3",
+    "categoria_id": "controladores-midi",
+    "url": "https://www.pcmidi.com.ar/productos/arturia-keylab-88-mk3-87lp3/",
+    "uso": "controlador de 88 teclas para interpretacion y produccion avanzada"
+  },
+  {
+    "id": "arturia-minifreak-vocoder",
+    "nombre": "ARTURIA MiniFreak Vocoder",
+    "marca": "Arturia",
+    "modelo": "MiniFreak Vocoder",
+    "categoria_id": "sintes-analogicos-hibridos",
+    "url": "https://www.pcmidi.com.ar/productos/arturia-minifreak-vocoder/",
+    "uso": "sintetizador hibrido con vocoder para diseno sonoro y performance"
+  },
+  {
+    "id": "arturia-minifreak",
+    "nombre": "ARTURIA MiniFreak Vocoder",
+    "marca": "Arturia",
+    "modelo": "MiniFreak",
+    "categoria_id": "sintes-analogicos-hibridos",
+    "url": "https://www.pcmidi.com.ar/productos/arturia-minifreak-vocoder/",
+    "uso": "sintetizador hibrido MiniFreak disponible como referencia de la linea"
+  },
+  {
+    "id": "arturia-polybrute",
+    "nombre": "Arturia Polybrute Sintetizador Analógico",
+    "marca": "Arturia",
+    "modelo": "PolyBrute",
+    "categoria_id": "sintes-analogicos-hibridos",
+    "url": "https://www.pcmidi.com.ar/productos/sintetizador-analogico-arturia-polybrute/",
+    "uso": "sintetizador analogico polifonico para diseno sonoro avanzado"
+  },
+  {
+    "id": "arturia-microfreak-microphone",
+    "nombre": "Micrófono Arturia MicroFreak",
+    "marca": "Arturia",
+    "modelo": "MicroFreak Microphone",
+    "categoria_id": "sintetizadores",
+    "url": "https://www.pcmidi.com.ar/productos/microfono-arturia-microfreak-sovyo/",
+    "uso": "microfono accesorio para Arturia MicroFreak"
+  },
+  {
+    "id": "synido-livemix-duet",
+    "nombre": "Placa de Sonido Synido LiveMix Duet",
+    "marca": "Synido",
+    "modelo": "LiveMix Duet",
+    "categoria_id": "interfaces-audio",
+    "url": "https://www.pcmidi.com.ar/productos/placa-de-sonido-synido-livemix-duet/",
+    "uso": "interfaz de audio para streaming, creacion de contenido y grabacion simple"
+  },
+  {
+    "id": "synido-livemix-solo-violeta",
+    "nombre": "Placa de Sonido Synido LiveMix Solo Violeta",
+    "marca": "Synido",
+    "modelo": "LiveMix Solo",
+    "categoria_id": "interfaces-audio",
+    "url": "https://www.pcmidi.com.ar/productos/placa-de-sonido-synido-livemix-solo-violeta/",
+    "uso": "interfaz compacta para creadores y transmisiones"
+  },
+  {
+    "id": "synido-livemix-solo-gris",
+    "nombre": "Placa de Sonido Synido LiveMix Solo Gris",
+    "marca": "Synido",
+    "modelo": "LiveMix Solo",
+    "categoria_id": "interfaces-audio",
+    "url": "https://www.pcmidi.com.ar/productos/placa-de-sonido-synido-livemix-solo-gris/",
+    "uso": "interfaz compacta para streaming, voz y contenido"
+  },
+  {
+    "id": "synido-livedock-live-10",
+    "nombre": "Placa de Sonido Synido LiveDock Live 10",
+    "marca": "Synido",
+    "modelo": "LiveDock Live 10",
+    "categoria_id": "interfaces-audio",
+    "url": "https://www.pcmidi.com.ar/productos/placa-de-sonido-synido-livedock-live-10/",
+    "uso": "interfaz orientada a directo, streaming y ruteo de audio"
+  },
+  {
+    "id": "synido-livedock-pro-a20",
+    "nombre": "Placa de Sonido Synido LiveDock Pro A20",
+    "marca": "Synido",
+    "modelo": "LiveDock Pro A20",
+    "categoria_id": "interfaces-audio",
+    "url": "https://www.pcmidi.com.ar/productos/placa-de-sonido-synido-livedock-pro-a20/",
+    "uso": "interfaz para directo, contenido y conexiones de audio flexibles"
+  },
+  {
+    "id": "synido-tempokey-25-violeta",
+    "nombre": "Controlador MIDI Synido TempoKEY 25 Violeta",
+    "marca": "Synido",
+    "modelo": "TempoKEY 25",
+    "categoria_id": "controladores-midi",
+    "url": "https://www.pcmidi.com.ar/productos/controlador-midi-synido-tempokey-25-violeta/",
+    "uso": "controlador MIDI compacto de 25 teclas para produccion"
+  },
+  {
+    "id": "synido-tempokey-25",
+    "nombre": "Controlador MIDI Synido TempoKEY 25 Negro",
+    "marca": "Synido",
+    "modelo": "TempoKEY 25",
+    "categoria_id": "controladores-midi",
+    "url": "https://www.pcmidi.com.ar/productos/controlador-midi-synido-tempokey-25-negro/",
+    "uso": "controlador MIDI compacto de 25 teclas para produccion con DAWs"
+  },
+  {
+    "id": "synido-tempokey-25-negro",
+    "nombre": "Controlador MIDI Synido TempoKEY 25 Negro",
+    "marca": "Synido",
+    "modelo": "TempoKEY 25",
+    "categoria_id": "controladores-midi",
+    "url": "https://www.pcmidi.com.ar/productos/controlador-midi-synido-tempokey-25-negro/",
+    "uso": "controlador MIDI compacto para escritorio y DAWs"
+  },
+  {
+    "id": "synido-tempokey-w25",
+    "nombre": "Synido TempoKEY W25 Controlador MIDI Inalámbrico",
+    "marca": "Synido",
+    "modelo": "TempoKEY W25",
+    "categoria_id": "controladores-midi",
+    "url": "https://www.pcmidi.com.ar/productos/synido-tempokey-w25-controlador-midi-inalambrico-20my5/",
+    "uso": "controlador MIDI inalambrico compacto para produccion"
+  },
+  {
+    "id": "synido-tempopad-p16",
+    "nombre": "LaunchPad Synido TempoPAD P-16 Controlador MIDI",
+    "marca": "Synido",
+    "modelo": "TempoPAD P-16",
+    "categoria_id": "controladores-pads",
+    "url": "https://www.pcmidi.com.ar/productos/launchpad-synido-tempopad-p-16-controlador-midi/",
+    "uso": "controlador de pads para beats, clips y disparo de samples"
+  },
+  {
+    "id": "synido-tempopad-c16",
+    "nombre": "LaunchPad Synido TempoPAD C-16 Controlador MIDI",
+    "marca": "Synido",
+    "modelo": "TempoPAD C-16",
+    "categoria_id": "controladores-pads",
+    "url": "https://www.pcmidi.com.ar/productos/launchpad-synido-tempopad-c-16-controlador-midi/",
+    "uso": "controlador de pads para performance, loops y samples"
+  },
+  {
+    "id": "synido-tempopad-z1",
+    "nombre": "LaunchPad Synido TempoPAD Z-1 Controlador MIDI",
+    "marca": "Synido",
+    "modelo": "TempoPAD Z-1",
+    "categoria_id": "controladores-pads",
+    "url": "https://www.pcmidi.com.ar/productos/launchpad-synido-tempopad-z-1-controlador-midi/",
+    "uso": "controlador de pads compacto para disparar sonidos y escenas"
+  },
+  {
+    "id": "synido-sw100",
+    "nombre": "Synido SW100 Transmisor Inalámbrico para Instrumentos",
+    "marca": "Synido",
+    "modelo": "SW100",
+    "categoria_id": "interfaces-audio",
+    "url": "https://www.pcmidi.com.ar/productos/synido-sw100-transmisor-inalambrico-para-instrumentos-1o2ez/",
+    "uso": "transmisor inalambrico para conectar instrumentos sin cable directo"
+  },
+  {
+    "id": "midiplus-usb800",
+    "nombre": "Micrófono Condenser Midiplus USB800",
+    "marca": "Midiplus",
+    "modelo": "USB800",
+    "categoria_id": "microfonos-streaming",
+    "url": "https://www.pcmidi.com.ar/productos/microfono-condenser-midiplus-usb800/",
+    "uso": "microfono USB para voz, streaming y contenido"
+  },
+  {
+    "id": "midiplus-bm800",
+    "nombre": "Micrófono Condenser Midiplus BM800",
+    "marca": "Midiplus",
+    "modelo": "BM800",
+    "categoria_id": "microfonos",
+    "url": "https://www.pcmidi.com.ar/productos/microfono-condenser-midiplus-bm800/",
+    "uso": "microfono condenser para voz y grabacion inicial"
+  },
+  {
+    "id": "midiplus-i61",
+    "nombre": "MIDIPLUS i61 Teclado Controlador",
+    "marca": "MIDIPLUS",
+    "modelo": "i61",
+    "categoria_id": "controladores-midi",
+    "url": "https://www.pcmidi.com.ar/productos/midiplus-i61-teclado-controlador/",
+    "uso": "controlador de 61 teclas para tocar con mas rango"
+  },
+  {
+    "id": "midiplus-midi-merge-4",
+    "nombre": "MIDIPLUS MIDI MERGE 4",
+    "marca": "MIDIPLUS",
+    "modelo": "MIDI MERGE 4",
+    "categoria_id": "interfaces-audio",
+    "url": "https://www.pcmidi.com.ar/productos/midiplus-midi-merge-4/",
+    "uso": "utilidad MIDI para combinar senales de equipos externos"
+  },
+  {
+    "id": "midiplus-ed6",
+    "nombre": "Batería Electrónica MIDIPLUS ED6",
+    "marca": "MIDIPLUS",
+    "modelo": "ED6",
+    "categoria_id": "baterias-electronicas",
+    "url": "https://www.pcmidi.com.ar/productos/bateria-electronica-midiplus-ed6-gg84n/",
+    "uso": "bateria electronica para practica y conexion MIDI"
+  },
+  {
+    "id": "midiplus-ed8",
+    "nombre": "Bateria electronica Midiplus ED8",
+    "marca": "Midiplus",
+    "modelo": "ED8",
+    "categoria_id": "baterias-electronicas",
+    "url": "https://www.pcmidi.com.ar/productos/bateria-electronica-midiplus-ed8-4xf10/",
+    "uso": "bateria electronica para practica, estudio y control MIDI"
+  },
+  {
+    "id": "midiplus-mi3-v2",
+    "nombre": "Parlantes Monitores De Estudio Activos Midiplus MI3 V2 3 pulgadas Par Bluetooth",
+    "marca": "Midiplus",
+    "modelo": "MI3 V2",
+    "categoria_id": "monitores-estudio",
+    "url": "https://www.pcmidi.com.ar/productos/parlantes-monitores-de-estudio-activos-midiplus-mi3-3-par-bluetooth/",
+    "uso": "monitores compactos para escritorio y home studio chico"
+  }
+]

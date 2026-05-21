@@ -1,0 +1,6 @@
+{
+  "buildCommand": "python build_landings.py build --base-url https://blog.pcmidicenter.com",
+  "outputDirectory": "site",
+  "cleanUrls": true,
+  "trailingSlash": true
+}

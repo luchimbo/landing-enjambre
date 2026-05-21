@@ -1,0 +1,11 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+outputs/
+reports/
+tmp_*
+data/*.db
+data/ig_state.json
+src/authority_swarm/

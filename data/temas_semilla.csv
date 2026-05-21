@@ -1,0 +1,153 @@
+keyword,intencion,categorias_sugeridas
+controlador MIDI para FL Studio,comparar opciones antes de comprar,controladores-midi;controladores-pads
+controlador MIDI para Ableton,comparar integracion con DAW,controladores-midi;controladores-pads
+interfaz de audio para grabar voz en casa,elegir primera placa de sonido,interfaces-audio;microfonos;auriculares
+placa de sonido para guitarra,elegir interfaz para instrumento,interfaces-audio;auriculares
+microfono para podcast,decidir entre USB o XLR,microfonos-streaming;interfaces-audio;accesorios-microfonos
+microfono para streaming,mejorar audio de directos,microfonos-streaming;auriculares;accesorios-microfonos
+monitores de estudio para home studio chico,elegir monitoreo para cuarto pequeno,monitores-estudio;auriculares
+auriculares cerrados para grabar voces,evitar bleed al grabar,auriculares;microfonos;interfaces-audio
+sintetizador para aprender sintesis,elegir primer sinte,sintetizadores;sintes-analogicos-hibridos
+bateria electronica para departamento,practicar con bajo volumen,baterias-electronicas;auriculares
+setup de streaming con buen audio,armar cadena de audio para creadores,microfonos-streaming;interfaces-audio;auriculares;camaras
+Arturia MiniLab 3 vs KeyLab,comparar controladores Arturia,controladores-midi;software-vstis
+home studio para principiantes,armar setup inicial,interfaces-audio;microfonos;monitores-estudio;auriculares;controladores-midi
+Arturia MiniLab 3 para Ableton,elegir controlador compacto Arturia,controladores-midi;software-vstis
+Arturia MiniLab 3 para FL Studio,elegir controlador compacto para beats y melodias,controladores-midi;controladores-pads
+Arturia KeyStep Pro para hardware,elegir controlador secuenciador,controladores-midi;secuenciadores;sintetizadores
+Arturia MicroFreak para empezar en sintesis,elegir primer sinte hardware,sintes-analogicos-hibridos;sintetizadores
+Arturia MiniFreak vs MicroFreak,comparar sintes Arturia,sintes-analogicos-hibridos;sintetizadores
+Arturia PolyBrute para estudio,investigar sinte avanzado,sintes-analogicos-hibridos;sintetizadores
+Synido TempoKEY 25 para producir,elegir controlador compacto,controladores-midi
+Synido TempoPAD para beats,elegir controlador de pads,controladores-pads;controladores-midi
+Synido LiveMix para streaming,elegir interfaz para creadores,interfaces-audio;microfonos-streaming
+Synido LiveDock para directo,elegir interfaz/ruteo para contenido,interfaces-audio
+MIDIPLUS AK490 para principiantes,elegir teclado MIDI de 49 teclas,controladores-midi
+MIDIPLUS AKM322 para escritorio chico,elegir controlador compacto,controladores-midi
+MIDIPLUS i61 para tocar con mas teclas,elegir controlador de 61 teclas,controladores-midi
+MIDIPLUS Studio M para home studio,elegir interfaz de audio economica,interfaces-audio
+Midiplus MS5 para home studio,elegir monitores de 5 pulgadas,monitores-estudio
+Midiplus MS6 para home studio,elegir monitores de 6 pulgadas,monitores-estudio
+Midiplus MI3 para escritorio chico,elegir monitores compactos,monitores-estudio
+Midiplus ED6 para practicar bateria,elegir bateria electronica,baterias-electronicas;auriculares
+Midiplus ED8 vs ED6,comparar baterias electronicas,baterias-electronicas
+microfono USB para podcast,empezar podcast sin interfaz,microfonos-streaming;auriculares
+microfono XLR para podcast,elegir microfono con interfaz,microfonos;interfaces-audio;accesorios-microfonos
+microfono condensador para voz,elegir microfono para grabacion,microfonos-profesionales;interfaces-audio
+Audio Technica AT2020 para home studio,evaluar microfono condensador,microfonos-profesionales;interfaces-audio
+Alctron UM900 para streaming,elegir microfono USB,microfonos-streaming
+brazo para microfono de streaming,mejorar ergonomia y audio,accesorios-microfonos;microfonos-streaming
+filtro pop para grabar voz,evitar plosivas,accesorios-microfonos;microfonos
+auriculares para grabar podcast,elegir monitoreo cerrado,auriculares;microfonos-streaming
+Audio Technica ATH-M20x para grabar,elegir auricular cerrado,auriculares
+Audio Technica ATH-M50x para monitoreo,elegir auricular de referencia,auriculares
+auriculares para bateria electronica,practicar sin molestar,auriculares;baterias-electronicas
+monitores para mezclar en cuarto chico,elegir referencia para home studio,monitores-estudio;auriculares
+monitores 5 pulgadas o 6 pulgadas,comparar tamano de monitor,monitores-estudio
+interfaz de audio para podcast,elegir placa para voz,interfaces-audio;microfonos-streaming
+interfaz de audio para streaming,elegir placa con monitoreo,interfaces-audio;microfonos-streaming
+interfaz de audio con dos entradas,elegir placa para voz e instrumento,interfaces-audio
+placa de sonido para guitarra y voz,elegir interfaz versatil,interfaces-audio;microfonos
+home studio para rap,armar setup de voz y beats,interfaces-audio;microfonos;controladores-midi;auriculares
+home studio para guitarra,armar setup de instrumento,interfaces-audio;auriculares;monitores-estudio
+setup para beatmaking,armar flujo con pads y controlador,controladores-pads;controladores-midi;auriculares
+setup para producir musica electronica,combinar controlador sinte e interfaz,controladores-midi;sintetizadores;interfaces-audio
+setup portable para producir,elegir equipos compactos,controladores-midi;interfaces-audio;auriculares
+teclado MIDI chico para notebook,elegir controlador portatil,controladores-midi
+controlador MIDI con pads,elegir teclas y pads en un equipo,controladores-midi;controladores-pads
+controlador MIDI 25 teclas vs 49 teclas,comparar tamano de controlador,controladores-midi
+controlador MIDI 49 teclas vs 61 teclas,comparar rango de teclado,controladores-midi
+controlador MIDI para Logic,elegir controlador para DAW,controladores-midi
+controlador MIDI para Cubase,elegir controlador para DAW,controladores-midi
+controlador MIDI para Reaper,elegir controlador para DAW,controladores-midi
+sintetizador para bajos,elegir sinte para sonidos graves,sintes-analogicos-hibridos;sintetizadores
+sintetizador para ambient,elegir sinte para texturas,sintes-analogicos-hibridos;sintetizadores
+sintetizador hardware para home studio,elegir sinte fisico,sintetizadores;sintes-analogicos-hibridos
+secuenciador hardware para sintetizadores,elegir secuenciador,secuenciadores;sintetizadores
+controlador para sintetizadores hardware,elegir teclado/secuenciador,controladores-midi;secuenciadores
+bateria electronica para principiantes,elegir primer kit,baterias-electronicas;auriculares
+bateria electronica silenciosa,elegir kit para departamento,baterias-electronicas;auriculares
+bateria electronica con MIDI,elegir kit para produccion,baterias-electronicas
+camara y microfono para streaming,armar setup audiovisual,camaras;microfonos-streaming
+setup para YouTube con buen audio,elegir microfono interfaz y camara,microfonos-streaming;interfaces-audio;camaras
+setup para Twitch con microfono,elegir audio para directo,microfonos-streaming;auriculares
+regalo para productor musical,elegir equipos utiles,controladores-midi;auriculares;microfonos
+regalo para musico principiante,elegir equipo inicial,controladores-midi;auriculares;microfonos
+microfono para podcast con invitado,elegir cadena para dos voces,microfonos-streaming;interfaces-audio;auriculares
+microfono para locucion en casa,elegir voz hablada,microfonos-profesionales;interfaces-audio;accesorios-microfonos
+microfono para grabar reels,elegir audio para contenido,microfonos-streaming;camaras;accesorios-microfonos
+microfono para clases online,elegir audio claro,microfonos-streaming;auriculares
+microfono para cantar en home studio,elegir microfono para voces,microfonos-profesionales;interfaces-audio;accesorios-microfonos
+microfono dinamico vs condensador para podcast,comparar tipos de microfono,microfonos;microfonos-streaming;interfaces-audio
+microfono USB vs interfaz de audio,decidir cadena simple o escalable,microfonos-streaming;interfaces-audio
+interfaz de audio para dos microfonos,elegir placa para podcast con invitado,interfaces-audio;microfonos;auriculares
+interfaz de audio para bajo electrico,elegir placa para instrumento,interfaces-audio;auriculares
+interfaz de audio para teclado y voz,elegir entradas para setup mixto,interfaces-audio;microfonos;controladores-midi
+interfaz de audio para notebook,elegir placa portable,interfaces-audio;auriculares
+interfaz de audio para iPad o mobile,elegir setup movil,interfaces-audio;microfonos-streaming
+interfaz con phantom power para microfono condensador,elegir placa compatible,interfaces-audio;microfonos-profesionales
+interfaz de audio para monitores de estudio,conectar monitoreo activo,interfaces-audio;monitores-estudio
+monitores de estudio para escritorio,elegir tamano compacto,monitores-estudio;interfaces-audio
+monitores de estudio para cuarto sin tratar,elegir referencia prudente,monitores-estudio;auriculares
+monitores activos para producir,elegir monitoreo principal,monitores-estudio
+monitores de estudio vs auriculares,comparar monitoreo para producir,monitores-estudio;auriculares
+monitores para editar video con buen audio,elegir referencia audiovisual,monitores-estudio;camaras
+auriculares para producir musica,elegir monitoreo personal,auriculares
+auriculares para mezclar de noche,elegir referencia silenciosa,auriculares
+auriculares cerrados vs abiertos para home studio,comparar tipos de auricular,auriculares;monitores-estudio
+auriculares para streaming,elegir monitoreo para directo,auriculares;microfonos-streaming
+auriculares para tocar guitarra con interfaz,monitorear instrumento,auriculares;interfaces-audio
+controlador MIDI para aprender piano,elegir teclado para estudiar,controladores-midi
+controlador MIDI para tocar acordes,elegir cantidad de teclas,controladores-midi
+controlador MIDI para beats de trap,elegir pads y teclas,controladores-midi;controladores-pads
+controlador MIDI para reggaeton,elegir pads y workflow,controladores-midi;controladores-pads
+controlador MIDI para techno,elegir control para electronica,controladores-midi;controladores-pads;sintetizadores
+controlador MIDI para sintetizadores virtuales,elegir teclas y controles,controladores-midi
+controlador MIDI portable para viajar,elegir equipo compacto,controladores-midi;auriculares
+controlador MIDI con perillas,elegir control de parametros,controladores-midi
+pads MIDI para finger drumming,elegir controlador de percusion,controladores-pads;controladores-midi
+pads MIDI para disparar samples,elegir pads para live set,controladores-pads;controladores-midi
+secuenciador para dawless,elegir flujo sin computadora,secuenciadores;sintetizadores
+secuenciador para modular y sintes,elegir CV gate MIDI,secuenciadores;sintetizadores
+sinte analogico para principiantes,elegir primer sintetizador,sintes-analogicos-hibridos;sintetizadores
+sinte hibrido para directo,elegir sintetizador performance,sintes-analogicos-hibridos;sintetizadores
+sintetizador para sonidos lead,elegir timbres principales,sintes-analogicos-hibridos;sintetizadores
+sintetizador para pads y atmosferas,elegir texturas,sintes-analogicos-hibridos;sintetizadores
+sintetizador con vocoder,elegir voz procesada,sintes-analogicos-hibridos;sintetizadores;microfonos
+bateria electronica para practicar de noche,elegir kit silencioso,baterias-electronicas;auriculares
+bateria electronica para chicos,elegir kit inicial,baterias-electronicas;auriculares
+bateria electronica para tocar en vivo,elegir kit y monitoreo,baterias-electronicas;auriculares
+bateria electronica para grabar MIDI,elegir kit para produccion,baterias-electronicas;interfaces-audio
+modulo de bateria electronica,elegir cerebro del kit,baterias-modulos;baterias-electronicas
+pads y platillos para bateria electronica,expandir kit,baterias-cuerpos-platillos;baterias-electronicas
+camara para streaming con microfono,elegir setup audiovisual,camaras;microfonos-streaming
+camara para YouTube home studio,elegir imagen y audio,camaras;microfonos-streaming
+setup para podcast de video,elegir camara microfono e interfaz,camaras;microfonos-streaming;interfaces-audio
+setup para cursos online,elegir audio y camara,camaras;microfonos-streaming;auriculares
+setup para transmisiones en vivo,elegir audio video y monitoreo,camaras;microfonos-streaming;interfaces-audio
+setup para productor en departamento,elegir equipo compacto,controladores-midi;interfaces-audio;auriculares
+setup para cantante compositor,elegir voz teclado e interfaz,microfonos-profesionales;interfaces-audio;controladores-midi
+setup para guitarrista productor,elegir interfaz auriculares y control,interfaces-audio;auriculares;controladores-midi
+setup para beatmaker principiante,elegir controlador pads y auriculares,controladores-pads;controladores-midi;auriculares
+setup para musica urbana en casa,elegir voz beats y monitoreo,microfonos;interfaces-audio;controladores-midi;auriculares
+setup para musica electronica sin computadora,elegir secuenciador y sinte,secuenciadores;sintetizadores;sintes-analogicos-hibridos
+setup compacto para escritorio chico,elegir equipo de poco espacio,controladores-midi;interfaces-audio;auriculares
+home studio con poco espacio,elegir equipo compacto,interfaces-audio;microfonos;auriculares;controladores-midi
+home studio para voz y guitarra,elegir cadena mixta,interfaces-audio;microfonos;auriculares
+home studio para piano y voz,elegir teclado microfono e interfaz,controladores-midi;microfonos;interfaces-audio
+home studio para crear contenido,elegir audio video y control,microfonos-streaming;camaras;interfaces-audio
+home studio sin molestar vecinos,elegir monitoreo silencioso,auriculares;baterias-electronicas;controladores-midi
+que comprar primero para home studio,priorizar equipo inicial,interfaces-audio;microfonos;auriculares
+upgrade para home studio principiante,elegir siguiente mejora,monitores-estudio;microfonos;interfaces-audio
+cadena de audio para grabar voz,elegir microfono interfaz accesorios,microfonos;interfaces-audio;accesorios-microfonos
+cadena de audio para streaming,elegir microfono interfaz auriculares,microfonos-streaming;interfaces-audio;auriculares
+cadena de audio para guitarra,elegir interfaz y monitoreo,interfaces-audio;auriculares
+equipo para empezar a producir musica,elegir setup inicial,controladores-midi;interfaces-audio;auriculares
+equipo para grabar covers en casa,elegir voz instrumento y monitoreo,microfonos;interfaces-audio;auriculares
+equipo para hacer beats en notebook,elegir controlador y auriculares,controladores-midi;controladores-pads;auriculares
+equipo para podcast economico,elegir microfono y monitoreo,microfonos-streaming;auriculares
+equipo para streaming sin complicarse,elegir microfono USB y camara,microfonos-streaming;camaras
+regalo para cantante,elegir microfono auriculares y accesorios,microfonos;auriculares;accesorios-microfonos
+regalo para baterista,elegir practica electronica,baterias-electronicas;auriculares
+regalo para tecladista,elegir controlador o sinte,controladores-midi;sintetizadores
+regalo para streamer,elegir microfono camara y auriculares,microfonos-streaming;camaras;auriculares

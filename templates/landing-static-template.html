@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ seo_title }}</title>
+  <meta name="description" content="{{ meta_description }}">
+  <link rel="canonical" href="{{ canonical_url }}">
+  <meta name="robots" content="index,follow">
+  <style>
+    * { box-sizing: border-box; }
+    :root {
+      --paper: #F4F1EA;
+      --paper-2: #ECE7DB;
+      --paper-3: #E2DCCB;
+      --ink: #1D1D1B;
+      --ink-2: #2A2A28;
+      --ink-3: #4A4A47;
+      --ink-mute: #79766F;
+      --rule: rgba(29, 29, 27, 0.14);
+      --rule-strong: rgba(29, 29, 27, 0.30);
+      --brand-yellow: #F6A00C;
+      --brand-orange: #EB6517;
+      --brand-violet: #652581;
+      --brand-black: #1D1D1B;
+      --accent: var(--brand-orange);
+      --accent-ink: #FFFFFF;
+      --font-sans: "Colaborate", "Liberation Sans", "Helvetica Neue", Arial, sans-serif;
+      --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+      --container: 1320px;
+      --container-pad: clamp(20px, 4vw, 56px);
+      --t-hero: clamp(40px, 6.8vw, 96px);
+      --t-h2: clamp(32px, 4.4vw, 64px);
+      --t-h3: clamp(20px, 1.7vw, 26px);
+    }
+    html, body { margin: 0; padding: 0; }
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: var(--font-sans);
+      font-size: 16px;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+      background-image: radial-gradient(rgba(29,29,27,0.025) 1px, transparent 1px), radial-gradient(rgba(29,29,27,0.015) 1px, transparent 1px);
+      background-size: 5px 5px, 3px 3px;
+      background-position: 0 0, 2px 2px;
+    }
+    .cursor-halo { position: fixed; left: 0; top: 0; width: 280px; height: 280px; border-radius: 50%; pointer-events: none; z-index: 999; opacity: 0; transform: translate(-50%, -50%); background: radial-gradient(circle, rgba(235,101,23,0.18), rgba(235,101,23,0)); mix-blend-mode: multiply; transition: opacity 220ms ease; }
+    body.has-pointer .cursor-halo { opacity: 1; }
+    a { color: inherit; text-decoration: none; }
+    .container { max-width: var(--container); margin: 0 auto; padding-left: var(--container-pad); padding-right: var(--container-pad); width: 100%; }
+    .mono-label { font-family: var(--font-mono); font-size: 11.5px; font-weight: 500; letter-spacing: 0.04em; text-transform: uppercase; color: var(--ink); display: inline-flex; align-items: center; gap: 0.4em; }
+    .mono-label.dim { color: var(--ink-mute); font-weight: 400; }
+    .cta { display: inline-flex; align-items: center; gap: 0.6em; font-weight: 600; border: 1px solid transparent; transition: transform 160ms ease, background 160ms ease, color 160ms ease, box-shadow 160ms ease; white-space: nowrap; }
+    .cta-sm { padding: 0.55em 0.9em; font-size: 13px; }
+    .cta-md { padding: 0.85em 1.4em; font-size: 15px; }
+    .cta-lg { padding: 1.1em 1.8em; font-size: 17px; }
+    .cta-mega { padding: 1.6em 2.6em; font-size: clamp(20px, 2.4vw, 30px); }
+    .cta-primary, .cta-mega { background: var(--accent); color: var(--accent-ink); }
+    .cta-primary:hover, .cta-mega:hover { background: var(--ink); box-shadow: 6px 6px 0 0 var(--accent); transform: translate(-2px, -2px); }
+    .cta-ghost-light { color: var(--paper); border-color: rgba(244,241,234,0.45); }
+    .cta-ghost-light:hover { background: var(--paper); color: var(--ink); }
+    .cta-arrow { font-family: var(--font-mono); }
+    .site-header { position: sticky; top: 0; z-index: 50; background: color-mix(in oklab, var(--paper) 92%, transparent); backdrop-filter: saturate(140%) blur(8px); border-bottom: 1px solid var(--rule); }
+    .header-grid { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 1.5rem; padding-top: 14px; padding-bottom: 14px; }
+    .brand-logo { display: inline-flex; align-items: center; }
+    .logo-img { width: min(210px, 46vw); height: auto; }
+    .site-nav { display: flex; gap: 1.5rem; font-family: var(--font-mono); font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--ink-3); }
+    .header-cta { display: flex; align-items: center; gap: 1rem; justify-content: flex-end; }
+    .hero { position: relative; overflow: hidden; background: var(--ink); color: var(--paper); }
+    .hero-bg-grid { position: absolute; inset: 0; background-image: linear-gradient(rgba(244,241,234,0.055) 1px, transparent 1px), linear-gradient(90deg, rgba(244,241,234,0.055) 1px, transparent 1px); background-size: 42px 42px; opacity: 0.8; }
+    .hero-bg-glow { position: absolute; right: 4%; top: 10%; width: min(44vw, 620px); height: min(44vw, 620px); background: radial-gradient(circle, rgba(235,101,23,0.38), rgba(235,101,23,0)); filter: blur(10px); animation: glowFloat 8s ease-in-out infinite alternate; }
+    .hero-grid { position: relative; z-index: 1; display: grid; grid-template-columns: minmax(0, 1.04fr) minmax(320px, 0.72fr); gap: clamp(36px, 5vw, 80px); align-items: center; padding-top: clamp(72px, 10vw, 148px); padding-bottom: clamp(52px, 8vw, 112px); }
+    .hero-eyebrow { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.3rem; }
+    .rec-dot { width: 12px; height: 12px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 5px rgba(235,101,23,0.18); }
+    .hero-title { margin: 0; max-width: 1000px; font-size: var(--t-hero); line-height: 0.92; letter-spacing: -0.055em; font-weight: 700; color: var(--paper); overflow-wrap: normal; word-break: normal; text-wrap: balance; }
+    .hero-lede { max-width: 760px; margin: 1.6rem 0 0; font-size: clamp(18px, 1.8vw, 25px); line-height: 1.35; color: rgba(244,241,234,0.78); }
+    .hero-ctas { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 2.2rem; }
+    .hero-tickers { display: flex; flex-wrap: wrap; gap: 0.8rem 1.1rem; margin-top: 2rem; color: rgba(244,241,234,0.72); font-family: var(--font-mono); font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.04em; }
+    .studio-panel { position: relative; border: 1px solid rgba(244,241,234,0.38); background: linear-gradient(145deg, rgba(244,241,234,0.08), rgba(244,241,234,0.02)); box-shadow: 18px 18px 0 rgba(235,101,23,0.25); padding: 18px; }
+    .sp-top, .sp-foot { display: flex; justify-content: space-between; align-items: center; font-family: var(--font-mono); font-size: 11px; color: rgba(244,241,234,0.64); }
+    .sp-body { margin-top: 18px; border: 1px solid rgba(244,241,234,0.25); padding: 20px; min-height: 360px; }
+    .vu { display: grid; grid-template-columns: repeat(16, 1fr); align-items: end; gap: 6px; height: 180px; margin: 18px 0; }
+    .vu span { display: block; background: var(--accent); min-height: 18px; opacity: 0.95; transform-origin: bottom; animation: vuPulse 980ms ease-in-out infinite alternate; animation-delay: calc(var(--i) * 55ms); }
+    .step-row { display: grid; grid-template-columns: repeat(16, 1fr); gap: 5px; margin-top: 24px; }
+    .step-row span { height: 18px; background: var(--brand-yellow); opacity: 0.28; animation: ledStep 1.9s steps(1) infinite; animation-delay: calc(var(--i) * 95ms); }
+    .step-row span:nth-child(1), .step-row span:nth-child(5), .step-row span:nth-child(9), .step-row span:nth-child(13) { opacity: 1; }
+    .knobs { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; margin-top: 28px; }
+    .knob { aspect-ratio: 1; border: 2px solid rgba(244,241,234,0.5); border-radius: 50%; position: relative; animation: knobDrift 5.5s ease-in-out infinite alternate; }
+    .knob:after { content: ""; position: absolute; left: 50%; top: 8px; width: 3px; height: 22px; background: var(--accent); transform: translateX(-50%); }
+    .marquee { overflow: hidden; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); background: var(--paper-2); }
+    .marquee-track { display: flex; gap: 2rem; width: max-content; padding: 13px 0; font-family: var(--font-mono); font-size: 11.5px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-3); animation: marqueeMove 28s linear infinite; }
+    .section { padding: clamp(58px, 8vw, 112px) 0; }
+    .section-dark { position: relative; overflow: hidden; background: var(--ink); color: var(--paper); }
+    .section-head { max-width: 900px; margin-bottom: 2.4rem; }
+    .section-title { margin: 0.6rem 0 0; font-size: var(--t-h2); line-height: 0.98; letter-spacing: -0.045em; }
+    .section-sub { max-width: 760px; color: var(--ink-3); font-size: 18px; }
+    .section-dark .section-sub { color: rgba(244,241,234,0.72); }
+    .comp-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; background: var(--rule-strong); border: 1px solid var(--rule-strong); }
+    .product-strip { margin: 2rem 0 2.4rem; padding: 1.2rem; border: 1px solid var(--rule-strong); background: var(--paper-2); }
+    .product-strip-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; margin-top: 1rem; background: var(--rule); border: 1px solid var(--rule); }
+    .product-pill { display: flex; flex-direction: column; gap: 0.35rem; padding: 1rem; background: var(--paper); transition: transform 160ms ease, box-shadow 160ms ease; }
+    .product-pill:hover { transform: translate(-2px, -2px); box-shadow: 5px 5px 0 var(--accent); }
+    .product-pill span { font-weight: 700; }
+    .product-pill small { color: var(--ink-3); line-height: 1.35; }
+    .comp-card { background: var(--paper); padding: clamp(22px, 3vw, 34px); min-height: 360px; display: flex; flex-direction: column; }
+    .comp-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.2rem; }
+    .comp-num { font-family: var(--font-mono); color: var(--accent); }
+    .comp-name { margin: 0 0 1rem; font-size: var(--t-h3); line-height: 1.05; }
+    .comp-text { color: var(--ink-3); }
+    .comp-link { margin-top: auto; display: inline-flex; justify-content: space-between; gap: 1rem; padding-top: 1.2rem; border-top: 1px solid var(--rule); font-weight: 600; color: var(--accent); }
+    .steps-list { list-style: none; margin: 0; padding: 0; border-top: 1px solid rgba(244,241,234,0.2); }
+    .step-item { display: grid; grid-template-columns: 180px 1fr; gap: 2rem; padding: 28px 0; border-bottom: 1px solid rgba(244,241,234,0.2); }
+    .step-num-big { font-size: 52px; font-weight: 700; color: var(--accent); }
+    .step-title { margin: 0 0 0.45rem; font-size: clamp(22px, 2.2vw, 34px); }
+    .step-text { margin: 0; color: rgba(244,241,234,0.74); font-size: 18px; }
+    .support-panel { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); gap: 1px; background: var(--rule-strong); border: 1px solid var(--rule-strong); }
+    .support-copy, .support-links { background: var(--paper); padding: clamp(24px, 3.4vw, 42px); }
+    .support-copy p, .support-links p { color: var(--ink-3); font-size: 18px; margin: 0 0 1rem; }
+    .support-list { margin: 1.4rem 0 0; padding: 0; list-style: none; display: grid; gap: 0.8rem; }
+    .support-list li { color: var(--ink-3); border-top: 1px solid var(--rule); padding-top: 0.8rem; }
+    .support-list strong { color: var(--ink); }
+    .faq-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--rule-strong); border: 1px solid var(--rule-strong); }
+    .faq-item { background: var(--paper); padding: clamp(22px, 3vw, 34px); }
+    .faq-item h3 { margin: 0.8rem 0 0.6rem; font-size: 24px; line-height: 1.08; }
+    .faq-item p { color: var(--ink-3); }
+    .mega { background: var(--ink); color: var(--paper); padding: clamp(58px, 8vw, 120px) 0; }
+    .mega-grid { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 2rem; }
+    .mega h2 { margin: 0.4rem 0; font-size: clamp(42px, 6vw, 96px); line-height: 0.92; letter-spacing: -0.055em; }
+    footer { padding: 28px 0; color: var(--ink-mute); font-family: var(--font-mono); font-size: 12px; }
+    .brand-mark-light { width: 190px; height: auto; margin-bottom: 1.4rem; }
+    .reveal { opacity: 0; transform: translateY(26px); transition: opacity 700ms ease, transform 700ms ease; transition-delay: var(--delay, 0ms); }
+    .reveal.in { opacity: 1; transform: translateY(0); }
+    .hero .reveal { transform: translateY(34px); }
+    @keyframes glowFloat { from { transform: translate3d(0,0,0) scale(0.95); opacity: 0.72; } to { transform: translate3d(-8%, 5%, 0) scale(1.08); opacity: 1; } }
+    @keyframes vuPulse { from { transform: scaleY(0.72); filter: brightness(0.86); } to { transform: scaleY(1.12); filter: brightness(1.16); } }
+    @keyframes ledStep { 0%, 100% { opacity: 0.28; } 45%, 55% { opacity: 1; } }
+    @keyframes knobDrift { from { transform: rotate(-7deg); } to { transform: rotate(13deg); } }
+    @keyframes marqueeMove { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+    @media (prefers-reduced-motion: reduce) { *, *:before, *:after { animation: none !important; transition: none !important; scroll-behavior: auto !important; } .reveal { opacity: 1; transform: none; } }
+    @media (max-width: 980px) {
+      .header-grid { grid-template-columns: 1fr; }
+      .site-nav, .header-cta { justify-content: flex-start; flex-wrap: wrap; }
+      .hero-grid { grid-template-columns: 1fr; }
+      .comp-grid, .faq-grid { grid-template-columns: 1fr 1fr; }
+      .support-panel { grid-template-columns: 1fr; }
+      .product-strip-grid { grid-template-columns: 1fr 1fr; }
+      .mega-grid { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 640px) {
+      .hero-title { font-size: clamp(38px, 14vw, 64px); letter-spacing: -0.04em; }
+      .comp-grid, .faq-grid { grid-template-columns: 1fr; }
+      .product-strip-grid { grid-template-columns: 1fr; }
+      .step-item { grid-template-columns: 1fr; gap: 0.5rem; }
+      .studio-panel { box-shadow: 8px 8px 0 rgba(235,101,23,0.25); }
+      .sp-body { min-height: 260px; }
+    }
+  </style>
+  <script type="application/ld+json">{{ faq_json_ld }}</script>
+</head>
+<body>
+  <div class="cursor-halo" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="container header-grid">
+      <a class="brand-logo" href="https://www.pcmidi.com.ar/" target="_blank" rel="noopener" aria-label="PC MIDI Center"><img src="../assets/LogoPCMIDINegro.png" alt="PC MIDI Center" class="logo-img"></a>
+      <nav class="site-nav">
+        <a href="#productos">Componentes</a>
+        <a href="#guia">Guia</a>
+        <a href="#beneficios">Por que</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <div class="header-cta">
+        <span class="mono-label dim">{{ code }}</span>
+        <a class="cta cta-primary cta-sm" href="{{ primary_url }}" target="_blank" rel="noopener"><span>{{ cta_text }}</span><span class="cta-arrow">→</span></a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-bg-grid" aria-hidden="true"></div>
+      <div class="hero-bg-glow" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div>
+          <img src="../assets/LogoPCMIDIBlanco.png" alt="PC MIDI Center" class="brand-mark-light reveal" style="--delay: 0ms;">
+          <div class="hero-eyebrow reveal" style="--delay: 90ms;"><span class="rec-dot" aria-hidden="true"></span><span class="mono-label">{{ eyebrow }}</span></div>
+          <h1 class="hero-title reveal" style="--delay: 180ms;">{{ h1 }}</h1>
+          <p class="hero-lede reveal" style="--delay: 300ms;">{{ hero_lede }}</p>
+          <div class="hero-ctas reveal" style="--delay: 420ms;">
+            <a class="cta cta-primary cta-lg" href="{{ primary_url }}" target="_blank" rel="noopener"><span>{{ cta_text }}</span><span class="cta-arrow">→</span></a>
+            <a class="cta cta-ghost-light cta-lg" href="#guia"><span>Ver guia tecnica</span><span class="cta-arrow">↓</span></a>
+          </div>
+          <div class="hero-tickers reveal" style="--delay: 540ms;">
+            <span>PC MIDI CENTER</span><span>TECNOLOGIA PARA PRODUCCION MUSICAL</span><span>PCMIDI.COM.AR</span>
+          </div>
+        </div>
+        <aside class="studio-panel reveal" style="--delay: 260ms;" aria-label="Panel visual PC MIDI">
+          <div class="sp-top"><span>PC MIDI</span><span>{{ code }}</span></div>
+          <div class="sp-body">
+            <span class="mono-label dim">SIGNAL · L/R</span>
+            <div class="vu" aria-hidden="true">{{ vu_bars }}</div>
+            <div class="step-row" aria-hidden="true">{{ step_leds }}</div>
+            <div class="knobs" aria-hidden="true"><span class="knob"></span><span class="knob"></span><span class="knob"></span><span class="knob"></span></div>
+          </div>
+          <div class="sp-foot"><span>FIG. 01</span><span>{{ primary_name }}</span></div>
+        </aside>
+      </div>
+    </section>
+    <div class="marquee"><div class="marquee-track container"><span>PC MIDI CENTER</span><span>TECNOLOGIA PARA PRODUCCION MUSICAL</span><span>{{ keyword }}</span><span>PCMIDI.COM.AR</span><span>PC MIDI CENTER</span><span>TECNOLOGIA PARA PRODUCCION MUSICAL</span><span>{{ keyword }}</span><span>PCMIDI.COM.AR</span></div></div>
+    <section id="productos" class="section">
+      <div class="container">
+        <div class="section-head reveal"><span class="mono-label">§ 02 · Opciones recomendadas</span><h2 class="section-title">{{ components_title }}</h2><p class="section-sub">{{ components_subtitle }}</p></div>
+        {{ product_links_html }}
+        <div class="comp-grid">{{ components_html }}</div>
+      </div>
+    </section>
+    <section id="guia" class="section section-dark">
+      <div class="hero-bg-grid" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-head reveal"><span class="mono-label">§ 03 · Procedimiento</span><h2 class="section-title">Como resolver esta busqueda, paso a paso.</h2><p class="section-sub">La idea es ordenar la compra por uso real, no por una lista generica de especificaciones.</p></div>
+        <ol class="steps-list">{{ steps_html }}</ol>
+      </div>
+    </section>
+    <section id="beneficios" class="section">
+      <div class="container">
+        <div class="section-head reveal"><span class="mono-label">§ 04 · Compra orientada</span><h2 class="section-title">Elegir mejor empieza por entender tu setup.</h2><p class="section-sub">No siempre conviene mirar un producto aislado. Para comprar con mas criterio, primero hay que ordenar que vas a conectar, donde lo vas a usar y que parte de tu flujo queres mejorar.</p></div>
+        <div class="support-panel reveal">
+          <div class="support-copy">
+            <p>PC MIDI Center comercializa tecnologia para produccion musical y organiza su catalogo por categorias utiles para comparar alternativas reales.</p>
+            <p>La idea de esta guia es ayudarte a llegar a la categoria correcta, no empujarte a un producto unico.</p>
+          </div>
+          <div class="support-links">
+            <p>Antes de elegir, revisa tres cosas:</p>
+            <ul class="support-list">
+              <li><strong>Uso principal:</strong> producir, grabar voz, tocar en vivo, hacer streaming o practicar.</li>
+              <li><strong>Conexiones:</strong> USB, MIDI, XLR, auriculares, monitores o instrumentos externos.</li>
+              <li><strong>Espacio de trabajo:</strong> escritorio chico, home studio, sala tratada o setup movil.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="faq" class="section">
+      <div class="container">
+        <div class="section-head reveal"><span class="mono-label">§ 05 · Preguntas frecuentes</span><h2 class="section-title">Dudas comunes antes de elegir.</h2></div>
+        <div class="faq-grid">{{ faqs_html }}</div>
+      </div>
+    </section>
+    <section class="mega">
+      <div class="container mega-grid">
+        <div class="reveal"><img src="../assets/LogoPCMIDIBlanco.png" alt="PC MIDI Center" class="brand-mark-light"><span class="mono-label">{{ keyword }}</span><h2>Comparar opciones en PC MIDI Center.</h2><p>Consulta categorias relacionadas y elegi segun tu caso de uso, tu espacio y tu forma de producir.</p></div>
+        <a class="cta cta-mega" href="{{ primary_url }}" target="_blank" rel="noopener"><span>{{ cta_text }}</span><span class="cta-arrow">→</span></a>
+      </div>
+    </section>
+  </main>
+  <footer><div class="container">PC MIDI Center · <a href="https://www.pcmidi.com.ar/" target="_blank" rel="noopener">pcmidi.com.ar</a> · <a href="../index.html">Indice de landings</a></div></footer>
+  <script>
+    (function () {
+      var revealItems = Array.prototype.slice.call(document.querySelectorAll('.reveal, .comp-card, .step-item, .benefit-cell, .faq-item'));
+      if ('IntersectionObserver' in window) {
+        var observer = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('in');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+        revealItems.forEach(function (el, index) {
+          el.classList.add('reveal');
+          if (!el.style.getPropertyValue('--delay')) el.style.setProperty('--delay', Math.min(index * 35, 260) + 'ms');
+          observer.observe(el);
+        });
+      } else {
+        revealItems.forEach(function (el) { el.classList.add('in'); });
+      }
+      var halo = document.querySelector('.cursor-halo');
+      if (halo && window.matchMedia('(pointer: fine)').matches) {
+        document.body.classList.add('has-pointer');
+        window.addEventListener('pointermove', function (event) {
+          halo.style.transform = 'translate(' + (event.clientX - 140) + 'px,' + (event.clientY - 140) + 'px)';
+        }, { passive: true });
+      }
+    })();
+  </script>
+</body>
+</html>

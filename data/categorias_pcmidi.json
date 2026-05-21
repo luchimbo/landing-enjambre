@@ -1,0 +1,135 @@
+[
+  {
+    "id": "home",
+    "nombre": "PC MIDI Center",
+    "url": "https://www.pcmidi.com.ar/",
+    "descripcion": "Tienda online de PC MIDI Center.",
+    "keywords": ["pc midi", "pcmidi", "tienda", "catalogo"]
+  },
+  {
+    "id": "controladores-midi",
+    "nombre": "Controladores MIDI",
+    "url": "https://www.pcmidi.com.ar/controladores-midi/",
+    "descripcion": "Teclados, pads y superficies de control para producir con instrumentos virtuales y DAWs.",
+    "keywords": ["controlador midi", "teclado midi", "ableton", "fl studio", "logic", "pads", "keylab", "minilab"]
+  },
+  {
+    "id": "controladores-pads",
+    "nombre": "Pads MIDI",
+    "url": "https://www.pcmidi.com.ar/controladores-midi/pads1/",
+    "descripcion": "Controladores de pads para beatmaking, finger drumming y disparo de samples.",
+    "keywords": ["pads", "beatmaking", "finger drumming", "samples", "drum pad"]
+  },
+  {
+    "id": "interfaces-audio",
+    "nombre": "Interfaces de audio",
+    "url": "https://www.pcmidi.com.ar/interfaces/de-audio/",
+    "descripcion": "Placas e interfaces para grabar voces, instrumentos y conectar monitores.",
+    "keywords": ["interfaz de audio", "placa de sonido", "grabar voz", "guitarra", "phantom", "latencia"]
+  },
+  {
+    "id": "microfonos",
+    "nombre": "Microfonos",
+    "url": "https://www.pcmidi.com.ar/microfonos/",
+    "descripcion": "Microfonos para voces, instrumentos, podcast, streaming y produccion musical.",
+    "keywords": ["microfono", "voz", "podcast", "streaming", "condensador", "dinamico"]
+  },
+  {
+    "id": "microfonos-streaming",
+    "nombre": "Microfonos para streaming y creadores",
+    "url": "https://www.pcmidi.com.ar/microfonos/youtubers-y-streaming/",
+    "descripcion": "Microfonos orientados a streaming, YouTube, Twitch, podcast y creacion de contenido.",
+    "keywords": ["streaming", "youtube", "twitch", "podcast", "creador", "usb"]
+  },
+  {
+    "id": "microfonos-profesionales",
+    "nombre": "Microfonos profesionales",
+    "url": "https://www.pcmidi.com.ar/microfonos/profesionales/",
+    "descripcion": "Microfonos para grabacion de voces e instrumentos con mayor control de la cadena de audio.",
+    "keywords": ["microfono profesional", "voces", "locucion", "condensador", "xlr"]
+  },
+  {
+    "id": "accesorios-microfonos",
+    "nombre": "Accesorios para microfonos",
+    "url": "https://www.pcmidi.com.ar/microfonos/accesorios-para-microfonos/",
+    "descripcion": "Soportes, filtros pop, brazos y accesorios para armar una cadena de microfono funcional.",
+    "keywords": ["soporte", "pop filter", "brazo", "shockmount", "pie de micro", "cable xlr"]
+  },
+  {
+    "id": "auriculares-monitores",
+    "nombre": "Auriculares y monitores",
+    "url": "https://www.pcmidi.com.ar/auriculares-y-monitores/",
+    "descripcion": "Opciones de monitoreo para grabacion, mezcla, produccion y practica.",
+    "keywords": ["auriculares", "monitores", "monitoreo", "home studio", "mezcla"]
+  },
+  {
+    "id": "auriculares",
+    "nombre": "Auriculares",
+    "url": "https://www.pcmidi.com.ar/auriculares-y-monitores/auriculares/",
+    "descripcion": "Auriculares cerrados o de referencia para grabar, producir y monitorear.",
+    "keywords": ["auriculares", "cerrados", "tracking", "grabar voces", "monitoreo"]
+  },
+  {
+    "id": "monitores-estudio",
+    "nombre": "Monitores de estudio",
+    "url": "https://www.pcmidi.com.ar/auriculares-y-monitores/monitores-de-estudio/",
+    "descripcion": "Monitores activos para referencia en home studio y produccion musical.",
+    "keywords": ["monitores de estudio", "home studio", "nearfield", "mezcla", "referencia"]
+  },
+  {
+    "id": "sintetizadores",
+    "nombre": "Sintetizadores",
+    "url": "https://www.pcmidi.com.ar/sintetizadores/",
+    "descripcion": "Sintetizadores, modulos, secuenciadores, software y accesorios para sintesis.",
+    "keywords": ["sintetizador", "sinte", "sintesis", "analogico", "digital", "arturia", "microfreak"]
+  },
+  {
+    "id": "sintes-analogicos-hibridos",
+    "nombre": "Sintetizadores analogicos e hibridos",
+    "url": "https://www.pcmidi.com.ar/sintetizadores/sintes-analogicos-e-hibridos/",
+    "descripcion": "Sintetizadores analogicos e hibridos para aprender sintesis, tocar y disenar sonidos.",
+    "keywords": ["sintetizador analogico", "sinte hibrido", "microfreak", "minifreak", "sintesis"]
+  },
+  {
+    "id": "secuenciadores",
+    "nombre": "Secuenciadores",
+    "url": "https://www.pcmidi.com.ar/sintetizadores/secuenciadores/",
+    "descripcion": "Secuenciadores para controlar patrones, sintes y equipos externos.",
+    "keywords": ["secuenciador", "secuencia", "hardware", "pattern", "cv", "gate"]
+  },
+  {
+    "id": "software-vstis",
+    "nombre": "Software y VSTis",
+    "url": "https://www.pcmidi.com.ar/sintetizadores/software-vstis/",
+    "descripcion": "Software musical, instrumentos virtuales y herramientas para produccion.",
+    "keywords": ["software", "vst", "vsti", "analog lab", "plugins", "instrumentos virtuales"]
+  },
+  {
+    "id": "baterias-electronicas",
+    "nombre": "Baterias electronicas",
+    "url": "https://www.pcmidi.com.ar/baterias-electronicas/",
+    "descripcion": "Kits, modulos y componentes para bateria electronica y practica silenciosa.",
+    "keywords": ["bateria electronica", "departamento", "practicar", "midi drums", "mesh"]
+  },
+  {
+    "id": "baterias-cuerpos-platillos",
+    "nombre": "Cuerpos y platillos para baterias electronicas",
+    "url": "https://www.pcmidi.com.ar/baterias-electronicas/cuerpos-y-platillos1/",
+    "descripcion": "Pads, cuerpos y platillos para expandir o configurar una bateria electronica.",
+    "keywords": ["pads bateria", "platillos electronicos", "mesh", "cuerpos", "trigger"]
+  },
+  {
+    "id": "baterias-modulos",
+    "nombre": "Modulos de bateria electronica",
+    "url": "https://www.pcmidi.com.ar/baterias-electronicas/modulos/",
+    "descripcion": "Modulos para gestionar sonidos, triggers y conexion MIDI de baterias electronicas.",
+    "keywords": ["modulo bateria", "midi", "triggers", "sonidos", "kit"]
+  },
+  {
+    "id": "camaras",
+    "nombre": "Camaras",
+    "url": "https://www.pcmidi.com.ar/camaras/",
+    "descripcion": "Camaras para creadores, streaming y contenido audiovisual.",
+    "keywords": ["camara", "streaming", "youtube", "video", "creadores"]
+  }
+]
