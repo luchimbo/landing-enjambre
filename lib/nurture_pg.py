@@ -107,13 +107,63 @@ def lead_magnet_resource_text(magnet: dict, landing: dict) -> str:
                 "[ ] Compara categorias antes de decidir por un modelo.",
             ]
         lines.extend(items[:8])
-    elif resource_type in {"comparativa", "mapa de decision"}:
+    elif resource_type == "comparativa":
         lines.append("Puntos de comparacion:")
         for component in landing.get("components", [])[:5]:
             cat = component.get("cat") or "Opcion"
             why = component.get("why") or "Puede servir segun tu setup."
             look = component.get("look") or "Comparar detalles antes de elegir."
             lines.append(f"- {cat}: {why} Que mirar: {look}")
+    elif resource_type == "mapa de decision":
+        lines.append("Mapa de decision:")
+        steps = landing.get("steps", [])[:5]
+        if steps:
+            for index, step in enumerate(steps, start=1):
+                title_step = step.get("t") or "Decision"
+                body_step = step.get("b") or "Revisalo antes de avanzar."
+                lines.append(f"{index}. Si estas en esta etapa: {title_step}. Criterio: {body_step}")
+        else:
+            lines.extend([
+                "1. Si todavia no definiste el uso principal, empezá por eso.",
+                "2. Si ya sabes que queres conectar, revisa entradas y compatibilidad.",
+                "3. Si tenes poco espacio, prioriza formatos compactos.",
+            ])
+    elif resource_type == "configuracion":
+        lines.append("Configuracion sugerida:")
+        for step in landing.get("steps", [])[:6]:
+            title_step = step.get("t") or "Paso"
+            body_step = step.get("b") or "Aplicalo segun tu setup."
+            lines.append(f"- {title_step}: {body_step}")
+    elif resource_type == "plantilla":
+        lines.append("Plantilla para completar:")
+        lines.append("- Uso principal: ______________________________")
+        lines.append("- Equipo que ya tenes: ________________________")
+        lines.append("- Que necesitas conectar: _____________________")
+        lines.append("- Espacio disponible: _________________________")
+        lines.append("- Categoria a comparar primero: _______________")
+        for component in landing.get("components", [])[:3]:
+            cat = component.get("cat") or "Categoria"
+            lines.append(f"- {cat}: cumple / no cumple / revisar")
+    elif resource_type == "script":
+        lines.append("Guion de preguntas antes de comprar:")
+        questions = [faq.get("q") for faq in landing.get("faqs", []) if faq.get("q")]
+        if questions:
+            for question in questions[:6]:
+                lines.append(f"- {question}")
+        else:
+            lines.extend([
+                "- Que uso principal le voy a dar?",
+                "- Que necesito conectar hoy?",
+                "- Que podria necesitar conectar mas adelante?",
+                "- Tengo espacio suficiente para este formato?",
+            ])
+    elif resource_type == "preset":
+        lines.append("Preset recomendado como punto de partida:")
+        lines.append("- Guardá esta configuracion como referencia inicial y ajustala segun tu equipo.")
+        for step in landing.get("steps", [])[:4]:
+            title_step = step.get("t") or "Ajuste"
+            body_step = step.get("b") or "Adaptalo a tu flujo de trabajo."
+            lines.append(f"- {title_step}: {body_step}")
     else:
         lines.append("Guia breve:")
         for step in landing.get("steps", [])[:5]:
