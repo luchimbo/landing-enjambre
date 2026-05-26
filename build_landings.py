@@ -1,12 +1,15 @@
 import argparse
 import csv
+import hashlib
 import html
 import json
 import os
 import re
 import shutil
+import time
 import urllib.error
 import urllib.request
+from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import quote
 
@@ -17,6 +20,7 @@ TEMPLATES_DIR = ROOT / "templates"
 SITE_DIR = ROOT / "site"
 ASSETS_DIR = SITE_DIR / "assets"
 REPORTS_DIR = ROOT / "reports"
+GENERATION_EVENTS_PATH = REPORTS_DIR / "generation_events.jsonl"
 
 CATEGORIES_PATH = DATA_DIR / "categorias_pcmidi.json"
 PRODUCTS_PATH = DATA_DIR / "productos_pcmidi.json"
@@ -24,6 +28,8 @@ SEED_TOPICS_PATH = DATA_DIR / "temas_semilla.csv"
 LANDINGS_PATH = DATA_DIR / "landings_aprobadas.jsonl"
 OPPORTUNITIES_PATH = DATA_DIR / "oportunidades_research.jsonl"
 TEMPLATE_PATH = TEMPLATES_DIR / "landing-static-template.html"
+MAX_GENERATE_PER_RUN = 50
+MAX_GENERATE_PER_DAY = 50
 
 FORBIDDEN_CLAIMS = [
     "stock garantizado",
@@ -85,6 +91,25 @@ def load_products() -> dict[str, dict]:
         return {}
     products = json.loads(PRODUCTS_PATH.read_text(encoding="utf-8"))
     return {item["id"]: item for item in products}
+
+
+def load_lead_magnets() -> dict[str, dict]:
+    """Carga lead magnets indexados por slug."""
+    magnets = {}
+    path = DATA_DIR / "lead_magnets.jsonl"
+    if not path.exists():
+        return magnets
+    for line in path.read_text(encoding="utf-8").splitlines():
+        if not line.strip():
+            continue
+        try:
+            record = json.loads(line)
+            slug = record.get("slug")
+            if slug:
+                magnets[slug] = record.get("lead_magnet", {})
+        except json.JSONDecodeError:
+            continue
+    return magnets
 
 
 def load_landings() -> list[dict]:
@@ -220,6 +245,75 @@ def render_template(template: str, values: dict[str, str]) -> str:
     for key, value in values.items():
         template = template.replace("{{ " + key + " }}", value)
     return template
+
+
+def write_report(name: str, data: dict) -> Path:
+    REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+    stamp = datetime.now(timezone.utc).strftime("%Y%m%d-%H%M%S-%f")
+    path = REPORTS_DIR / f"{stamp}-{name}.json"
+    payload = {"timestamp_utc": stamp, **data}
+    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return path
+
+
+def append_generation_event(run_id: str, event: dict) -> None:
+    payload = {
+        "timestamp_utc": datetime.now(timezone.utc).strftime("%Y%m%d-%H%M%S-%f"),
+        "run_id": run_id,
+        **event,
+    }
+    append_jsonl(GENERATION_EVENTS_PATH, [payload])
+
+
+def file_sha256(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
+def collect_site_manifest() -> dict:
+    files = []
+    if SITE_DIR.exists():
+        for path in sorted(item for item in SITE_DIR.rglob("*") if item.is_file()):
+            files.append({
+                "path": path.relative_to(SITE_DIR).as_posix(),
+                "size": path.stat().st_size,
+                "sha256": file_sha256(path),
+            })
+    return {"file_count": len(files), "files": files}
+
+
+def today_stamp() -> str:
+    return datetime.now(timezone.utc).strftime("%Y%m%d")
+
+
+def generated_today_count() -> int:
+    count = 0
+    for path in REPORTS_DIR.glob(f"{today_stamp()}-*-generate.json"):
+        try:
+            report = json.loads(path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            continue
+        if not report.get("dry_run"):
+            count += int(report.get("created_count", 0))
+    return count
+
+
+def enforce_generation_limits(limit: int) -> int:
+    if limit < 0:
+        raise SystemExit("El limite no puede ser negativo")
+    used_today = generated_today_count()
+    remaining_today = MAX_GENERATE_PER_DAY - used_today
+    allowed = min(limit, MAX_GENERATE_PER_RUN, max(remaining_today, 0))
+    if limit > MAX_GENERATE_PER_RUN:
+        report_path = write_report("generate-blocked", {"command": "generate", "status": "blocked", "reason": "run_limit", "requested": limit, "max_per_run": MAX_GENERATE_PER_RUN})
+        raise SystemExit(f"Generate bloqueado: limite por ejecucion excedido. Reporte: {report_path}")
+    if remaining_today <= 0 and limit:
+        report_path = write_report("generate-blocked", {"command": "generate", "status": "blocked", "reason": "daily_limit", "requested": limit, "used_today": used_today, "max_per_day": MAX_GENERATE_PER_DAY})
+        raise SystemExit(f"Generate bloqueado: limite diario alcanzado. Reporte: {report_path}")
+    return allowed
 
 
 def compact_catalog(categories: dict[str, dict], products: dict[str, dict]) -> dict:
@@ -549,7 +643,11 @@ def research_opportunities(limit: int, use_web: bool = True) -> None:
     print(f"Oportunidades nuevas: {len(opportunities)} en {OPPORTUNITIES_PATH}")
 
 
-def generate_landings(limit: int, model: str, dry_run: bool = False) -> None:
+def generate_landings(limit: int, model: str, dry_run: bool = False, max_seconds: int = 0) -> dict:
+    requested_limit = limit
+    limit = enforce_generation_limits(limit) if not dry_run else min(limit, MAX_GENERATE_PER_RUN)
+    started_at = time.monotonic()
+    run_id = datetime.now(timezone.utc).strftime("%Y%m%d-%H%M%S-%f")
     categories = load_categories()
     products = load_products()
     existing = load_landings()
@@ -557,14 +655,32 @@ def generate_landings(limit: int, model: str, dry_run: bool = False) -> None:
     existing_keywords = {topic_key_from_record(item) for item in existing}
     topics = load_seed_topics() + load_jsonl(OPPORTUNITIES_PATH)
     created = 0
+    created_items = []
+    skipped_items = []
+    blocked_items = []
+    processed = 0
+    stopped_reason = "limit_reached"
 
     for topic in topics:
         if created >= limit:
             break
+        if max_seconds and time.monotonic() - started_at >= max_seconds:
+            stopped_reason = "max_seconds_reached"
+            break
+        processed += 1
         if topic_key_from_record(topic) in existing_keywords:
+            skipped = {"keyword": topic.get("keyword") or topic.get("busqueda_objetivo"), "reason": "already_exists"}
+            skipped_items.append(skipped)
+            append_generation_event(run_id, {"command": "generate", "event": "skipped", "dry_run": dry_run, **skipped})
             continue
-        system, user = generation_prompt(topic, categories, products)
-        landing = normalize_generated_landing(chat_json(system, user, model=model))
+        try:
+            system, user = generation_prompt(topic, categories, products)
+            landing = normalize_generated_landing(chat_json(system, user, model=model))
+        except Exception as exc:
+            blocked = {"keyword": topic.get("keyword") or topic.get("busqueda_objetivo"), "reason": "generation_error", "error": str(exc)}
+            blocked_items.append(blocked)
+            append_generation_event(run_id, {"command": "generate", "event": "blocked", "dry_run": dry_run, **blocked})
+            continue
         if landing["slug"] in existing_slugs:
             landing["slug"] = slugify(f"{landing['slug']}-{created + 1}")
         candidate_list = existing + [landing]
@@ -573,6 +689,9 @@ def generate_landings(limit: int, model: str, dry_run: bool = False) -> None:
             print("Saltada por validacion: " + landing.get("slug", topic.get("keyword", "sin-slug")))
             for error in errors:
                 print(f"- {error}")
+            blocked = {"keyword": topic.get("keyword") or landing.get("keyword"), "slug": landing.get("slug"), "reason": "validation_error", "errors": errors}
+            blocked_items.append(blocked)
+            append_generation_event(run_id, {"command": "generate", "event": "blocked", "dry_run": dry_run, **blocked})
             continue
         print(f"Generada: {landing['slug']} ({landing['keyword']})")
         if not dry_run:
@@ -581,15 +700,79 @@ def generate_landings(limit: int, model: str, dry_run: bool = False) -> None:
         existing_slugs.add(landing["slug"])
         existing_keywords.add(topic_key_from_record(landing))
         created += 1
+        created_item = {"slug": landing["slug"], "keyword": landing["keyword"]}
+        created_items.append(created_item)
+        append_generation_event(run_id, {"command": "generate", "event": "created", "dry_run": dry_run, **created_item})
 
+    if created < limit and stopped_reason == "limit_reached":
+        stopped_reason = "no_more_topics_or_all_skipped"
     print(f"Landings nuevas: {created}")
+    summary = {
+        "command": "generate",
+        "status": "ok",
+        "model": model,
+        "run_id": run_id,
+        "dry_run": dry_run,
+        "requested_limit": requested_limit,
+        "effective_limit": limit,
+        "processed_count": processed,
+        "created_count": created,
+        "stopped_reason": stopped_reason,
+        "elapsed_seconds": round(time.monotonic() - started_at, 2),
+        "max_seconds": max_seconds,
+        "skipped_count": len(skipped_items),
+        "blocked_count": len(blocked_items),
+        "created": created_items,
+        "skipped": skipped_items[:200],
+        "blocked": blocked_items[:200],
+    }
+    report_path = write_report("generate", summary)
+    print(f"Reporte generado: {report_path}")
+    return {**summary, "report": str(report_path)}
 
 
-def render_landing(landing: dict, categories: dict[str, dict], products: dict[str, dict], base_url: str) -> str:
+def render_landing(landing: dict, categories: dict[str, dict], products: dict[str, dict], base_url: str, lead_magnets: dict[str, dict] | None = None) -> str:
     primary = categories[landing["primary_category_id"]]
     category_ids = category_ids_for(landing)
     selected = [categories[item] for item in category_ids]
     selected_products = [products[item] for item in landing.get("product_ids", []) if item in products]
+
+    # Renderizar lead magnet si existe
+    lead_magnet_html = ""
+    slug = landing.get("slug") or slugify(landing.get("keyword", ""))
+    magnet = (lead_magnets or {}).get(slug)
+    if magnet:
+        magnet_title = esc(magnet.get("title", ""))
+        magnet_desc = esc(magnet.get("description", ""))
+        magnet_cta = esc(magnet.get("cta_text", "Descargar recurso"))
+        magnet_type = esc(magnet.get("resource_type", "recurso"))
+        magnet_value = esc(magnet.get("value_proposition", ""))
+        
+        lead_magnet_html = f'''<section id="lead-magnet" class="section lead-magnet-section">
+      <div class="container lead-magnet-grid">
+        <div class="lead-magnet-content">
+          <span class="lead-magnet-badge">{magnet_type.upper()} GRATUITO</span>
+          <h2>{magnet_title}</h2>
+          <p>{magnet_desc}</p>
+          {f'<p><strong>{magnet_value}</strong></p>' if magnet_value else ''}
+        </div>
+        <div class="lead-magnet-form">
+          <h3>Recibir el {magnet_type}</h3>
+          <p>Dejanos tu email y te enviamos el recurso directamente.</p>
+          <form action="/api/leads" method="POST" class="lm-form">
+            <input type="email" name="email" placeholder="tu@email.com" required class="lm-input" aria-label="Email">
+            <input type="text" name="nombre" placeholder="Nombre (opcional)" class="lm-input" aria-label="Nombre">
+            <label class="lm-privacy" style="display:flex; gap:.55rem; align-items:flex-start; margin:.2rem 0 .9rem;"><input type="checkbox" name="consentimiento" value="true" required style="margin-top:.2rem;">Acepto recibir este recurso y la secuencia de emails relacionada.</label>
+            <input type="hidden" name="slug" value="{esc(slug)}">
+            <input type="hidden" name="keyword" value="{esc(landing.get('keyword', ''))}">
+            <input type="hidden" name="lead_magnet" value="{magnet_title}">
+            <button type="submit" class="lm-submit">{magnet_cta}</button>
+            <div class="lm-status" role="status" aria-live="polite" style="margin-top:.8rem; font-size:13px;"></div>
+          </form>
+          <span class="lm-privacy">No enviamos spam. Podes darte de baja en cualquier momento.</span>
+        </div>
+      </div>
+    </section>'''
 
     components = landing.get("components", [])
     components_html = []
@@ -623,7 +806,7 @@ def render_landing(landing: dict, categories: dict[str, dict], products: dict[st
     vu_bars = "".join(f'<span style="height:{height}px; --i:{index}"></span>' for index, height in enumerate([42, 70, 94, 132, 156, 120, 86, 58, 144, 168, 124, 92, 64, 112, 150, 78]))
     step_leds = "".join(f'<span style="--i:{index}"></span>' for index in range(16))
     slug = landing.get("slug") or slugify(landing["keyword"])
-    canonical_url = f"{base_url.rstrip('/')}/{quote(slug)}/" if base_url else f"/{quote(slug)}/"
+    canonical_url = landing_url(slug, base_url)
     components_title = landing.get("components_title") or f"Opciones para resolver: {landing['keyword']}"
     components_subtitle = landing.get("components_subtitle") or (
         f"Estas categorias ayudan a comparar {primary['nombre'].lower()} y accesorios relacionados segun el uso real: "
@@ -651,6 +834,7 @@ def render_landing(landing: dict, categories: dict[str, dict], products: dict[st
         "code": esc("PC MIDI · " + slug[:18].upper()),
         "eyebrow": esc("Guia tecnica · " + primary["nombre"]),
         "h1": esc(landing["h1"]),
+        "lead_magnet_html": lead_magnet_html,
         "hero_lede": esc(landing["hero_lede"]),
         "keyword": esc(landing["keyword"]),
         "components_title": esc(components_title),
@@ -661,6 +845,8 @@ def render_landing(landing: dict, categories: dict[str, dict], products: dict[st
         "faqs_html": "\n".join(faqs_html),
         "vu_bars": vu_bars,
         "step_leds": step_leds,
+        "asset_prefix": "../",
+        "index_href": "../index.html",
     }
     return render_template(TEMPLATE_PATH.read_text(encoding="utf-8"), values)
 
@@ -668,6 +854,34 @@ def render_landing(landing: dict, categories: dict[str, dict], products: dict[st
 def landing_url(slug: str, base_url: str = "") -> str:
     path = f"/{quote(slug)}/"
     return f"{base_url.rstrip('/')}{path}" if base_url else path
+
+
+def validate_built_site(landings: list[dict], sitemap_urls: list[str]) -> list[str]:
+    errors: list[str] = []
+    required_files = [SITE_DIR / "index.html", SITE_DIR / "sitemap.xml", SITE_DIR / "robots.txt"]
+    for path in required_files:
+        if not path.exists():
+            errors.append(f"site: falta {path.relative_to(ROOT)}")
+
+    sitemap_path = SITE_DIR / "sitemap.xml"
+    robots_path = SITE_DIR / "robots.txt"
+    sitemap_text = sitemap_path.read_text(encoding="utf-8") if sitemap_path.exists() else ""
+    robots_text = robots_path.read_text(encoding="utf-8") if robots_path.exists() else ""
+
+    if "Sitemap:" not in robots_text or "sitemap.xml" not in robots_text:
+        errors.append("site: robots.txt no referencia sitemap.xml")
+
+    for loc in sitemap_urls:
+        if f"<loc>{esc(loc)}</loc>" not in sitemap_text:
+            errors.append(f"site: sitemap no incluye {loc}")
+
+    for landing in landings:
+        slug = landing.get("slug") or slugify(landing["keyword"])
+        output = SITE_DIR / slug / "index.html"
+        if not output.exists():
+            errors.append(f"site: falta landing generada {output.relative_to(ROOT)}")
+
+    return errors
 
 
 def render_index(landings: list[dict], categories: dict[str, dict], base_url: str) -> str:
@@ -800,11 +1014,17 @@ def build(base_url: str = "") -> None:
     categories = load_categories()
     products = load_products()
     landings = load_landings()
+    lead_magnets = load_lead_magnets()
     errors = validate_landings(landings, categories, products)
     if errors:
-        raise SystemExit("Validacion fallida:\n" + "\n".join(f"- {error}" for error in errors))
+        report_path = write_report("build-blocked", {"command": "build", "status": "blocked", "stage": "data_validation", "errors": errors})
+        raise SystemExit("Validacion fallida:\n" + "\n".join(f"- {error}" for error in errors) + f"\nReporte: {report_path}")
 
+    previous_manifest_path = None
     if SITE_DIR.exists():
+        previous_manifest = collect_site_manifest()
+        if previous_manifest["file_count"]:
+            previous_manifest_path = write_report("site-previous-manifest", {"command": "build", "status": "snapshot", "site_dir": str(SITE_DIR), **previous_manifest})
         shutil.rmtree(SITE_DIR)
     SITE_DIR.mkdir(parents=True, exist_ok=True)
     ASSETS_DIR.mkdir(parents=True, exist_ok=True)
@@ -817,7 +1037,7 @@ def build(base_url: str = "") -> None:
     sitemap_urls = [f"{base_url.rstrip('/')}/" if base_url else "/"]
     for landing in landings:
         slug = landing.get("slug") or slugify(landing["keyword"])
-        html_text = render_landing(landing, categories, products, base_url)
+        html_text = render_landing(landing, categories, products, base_url, lead_magnets)
         landing_dir = SITE_DIR / slug
         landing_dir.mkdir(parents=True, exist_ok=True)
         output = landing_dir / "index.html"
@@ -836,6 +1056,23 @@ def build(base_url: str = "") -> None:
 
     sitemap_ref = f"Sitemap: {base_url.rstrip('/')}/sitemap.xml" if base_url else "Sitemap: sitemap.xml"
     (SITE_DIR / "robots.txt").write_text(f"User-agent: *\nAllow: /\n{sitemap_ref}\n", encoding="utf-8")
+    site_errors = validate_built_site(landings, sitemap_urls)
+    if site_errors:
+        report_path = write_report("build-blocked", {"command": "build", "status": "blocked", "stage": "site_validation", "errors": site_errors})
+        raise SystemExit("Validacion de site fallida:\n" + "\n".join(f"- {error}" for error in site_errors) + f"\nReporte: {report_path}")
+    current_manifest = collect_site_manifest()
+    current_manifest_path = write_report("site-current-manifest", {"command": "build", "status": "snapshot", "site_dir": str(SITE_DIR), **current_manifest})
+    report_path = write_report("build", {
+        "command": "build",
+        "status": "ok",
+        "landings": len(landings),
+        "site_dir": str(SITE_DIR),
+        "sitemap_urls": len(sitemap_urls),
+        "previous_manifest": str(previous_manifest_path) if previous_manifest_path else None,
+        "current_manifest": str(current_manifest_path),
+        "file_count": current_manifest["file_count"],
+    })
+    print(f"Reporte generado: {report_path}")
 
 
 def validate_command() -> None:
@@ -844,8 +1081,79 @@ def validate_command() -> None:
     landings = load_landings()
     errors = validate_landings(landings, categories, products)
     if errors:
-        raise SystemExit("Validacion fallida:\n" + "\n".join(f"- {error}" for error in errors))
+        report_path = write_report("validate-blocked", {"command": "validate", "status": "blocked", "errors": errors})
+        raise SystemExit("Validacion fallida:\n" + "\n".join(f"- {error}" for error in errors) + f"\nReporte: {report_path}")
+    report_path = write_report("validate", {"command": "validate", "status": "ok", "landings": len(landings), "categories": len(categories), "products": len(products)})
     print(f"OK: {len(landings)} landings, {len(categories)} categorias y {len(products)} productos validados.")
+    print(f"Reporte generado: {report_path}")
+
+
+def run_pipeline(limit: int, model: str, base_url: str = "", dry_run: bool = False, max_seconds: int = 0) -> None:
+    steps = []
+    try:
+        validate_command()
+        steps.append({"step": "validate_before", "status": "ok"})
+        generate_summary = generate_landings(limit=limit, model=model, dry_run=dry_run, max_seconds=max_seconds)
+        steps.append({"step": "generate", "status": "ok", "report": generate_summary.get("report"), "created": generate_summary.get("created_count")})
+        validate_command()
+        steps.append({"step": "validate_after", "status": "ok"})
+        if dry_run:
+            report_path = write_report("run", {"command": "run", "status": "ok", "dry_run": True, "steps": steps})
+            print(f"Run dry-run completado. Reporte generado: {report_path}")
+            return
+        build(base_url=base_url)
+        steps.append({"step": "build", "status": "ok"})
+        report_path = write_report("run", {"command": "run", "status": "ok", "dry_run": False, "steps": steps})
+        print(f"Run completado. Reporte generado: {report_path}")
+    except SystemExit as exc:
+        report_path = write_report("run-blocked", {"command": "run", "status": "blocked", "dry_run": dry_run, "steps": steps, "error": str(exc)})
+        raise SystemExit(f"Run bloqueado. Reporte: {report_path}\n{exc}") from exc
+
+
+def deploy(base_url: str = "") -> None:
+    validate_command()
+    build(base_url=base_url)
+    report_path = write_report("deploy-pending", {
+        "command": "deploy",
+        "status": "pending_configuration",
+        "reason": "No hay destino de deploy configurado en codigo.",
+        "site_dir": str(SITE_DIR),
+    })
+    print(f"Deploy no configurado; validacion y build OK. Reporte generado: {report_path}")
+
+
+def rollback() -> None:
+    previous = sorted(REPORTS_DIR.glob("*-site-previous-manifest.json"))
+    if not previous:
+        report_path = write_report("rollback-blocked", {"command": "rollback", "status": "blocked", "reason": "no_previous_manifest"})
+        raise SystemExit(f"Rollback bloqueado: no hay manifest anterior. Reporte: {report_path}")
+    report_path = write_report("rollback-pending", {
+        "command": "rollback",
+        "status": "pending_backup_restore",
+        "reason": "Existen manifests auditables, pero no backup fisico restaurable configurado.",
+        "latest_previous_manifest": str(previous[-1]),
+    })
+    print(f"Rollback pendiente de backup fisico. Reporte generado: {report_path}")
+
+
+def selftest() -> None:
+    errors = []
+    if slugify("Micrófono Ñ USB") != "microfono-n-usb":
+        errors.append("slugify no normaliza acentos")
+    categories = {"home": {"nombre": "Home", "url": "https://www.pcmidi.com.ar/", "descripcion": ""}, "controladores-midi": {"nombre": "Controladores MIDI", "url": "https://www.pcmidi.com.ar/controladores-midi/", "descripcion": ""}}
+    products = {"arturia-minilab-3": {"nombre": "Arturia MiniLab 3", "marca": "Arturia", "modelo": "MiniLab 3", "categoria_id": "controladores-midi", "url": "https://www.pcmidi.com.ar/productos/arturia-minilab-3-controlador-midi-25-teclas/"}}
+    sample = {"slug": "test", "keyword": "controlador midi", "intent": "comprar", "seo_title": "Controlador MIDI test", "meta_description": "Guia segura para controlador MIDI test", "h1": "Controlador MIDI test", "hero_lede": "Texto", "primary_category_id": "controladores-midi", "product_ids": ["arturia-minilab-3"], "components": [{"cat": "MIDI"}], "steps": [{"n": "01"}], "faqs": [{"q": "Que", "a": "Respuesta"}]}
+    if validate_landings([sample], categories, products):
+        errors.append("validate_landings rechaza una landing valida minima")
+    blocked = dict(sample)
+    blocked["h1"] = "Con stock garantizado"
+    if not validate_landings([blocked], categories, products):
+        errors.append("validate_landings no bloquea claims prohibidos")
+    if errors:
+        report_path = write_report("selftest-blocked", {"command": "selftest", "status": "blocked", "errors": errors})
+        raise SystemExit("Selftest fallido:\n" + "\n".join(f"- {error}" for error in errors) + f"\nReporte: {report_path}")
+    report_path = write_report("selftest", {"command": "selftest", "status": "ok"})
+    print(f"Selftest OK. Reporte generado: {report_path}")
 
 
 def main() -> None:
@@ -861,6 +1169,17 @@ def main() -> None:
     generate_parser.add_argument("--limit", type=int, default=5, help="Cantidad maxima de landings nuevas")
     generate_parser.add_argument("--model", default=os.environ.get("OPENROUTER_MODEL", DEFAULT_MODEL), help="Modelo OpenRouter")
     generate_parser.add_argument("--dry-run", action="store_true", help="Genera y valida sin guardar")
+    generate_parser.add_argument("--max-seconds", type=int, default=0, help="Corta ordenadamente la generacion despues de N segundos")
+    run_parser = sub.add_parser("run")
+    run_parser.add_argument("--limit", type=int, default=5, help="Cantidad maxima de landings nuevas")
+    run_parser.add_argument("--model", default=os.environ.get("OPENROUTER_MODEL", DEFAULT_MODEL), help="Modelo OpenRouter")
+    run_parser.add_argument("--base-url", default="", help="URL del subdominio para canonical/sitemap")
+    run_parser.add_argument("--dry-run", action="store_true", help="Ejecuta sin guardar landings ni reconstruir site")
+    run_parser.add_argument("--max-seconds", type=int, default=0, help="Corta ordenadamente la generacion despues de N segundos")
+    deploy_parser = sub.add_parser("deploy")
+    deploy_parser.add_argument("--base-url", default="", help="URL del subdominio para canonical/sitemap")
+    sub.add_parser("rollback")
+    sub.add_parser("selftest")
     args = parser.parse_args()
     if args.command == "validate":
         validate_command()
@@ -870,7 +1189,15 @@ def main() -> None:
     elif args.command == "research":
         research_opportunities(limit=args.limit, use_web=not args.no_web)
     elif args.command == "generate":
-        generate_landings(limit=args.limit, model=args.model, dry_run=args.dry_run)
+        generate_landings(limit=args.limit, model=args.model, dry_run=args.dry_run, max_seconds=args.max_seconds)
+    elif args.command == "run":
+        run_pipeline(limit=args.limit, model=args.model, base_url=args.base_url, dry_run=args.dry_run, max_seconds=args.max_seconds)
+    elif args.command == "deploy":
+        deploy(base_url=args.base_url)
+    elif args.command == "rollback":
+        rollback()
+    elif args.command == "selftest":
+        selftest()
 
 
 if __name__ == "__main__":

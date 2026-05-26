@@ -1,0 +1,364 @@
+import hmac
+import hashlib
+import json
+import os
+import re
+from datetime import datetime, timezone
+from pathlib import Path
+from typing import Any
+
+import psycopg
+from psycopg.rows import dict_row
+
+from lib.env import load_env
+from lib.mailer import send_email
+
+
+ROOT = Path(__file__).resolve().parent.parent
+DATA_DIR = ROOT / "data"
+LEAD_MAGNETS_FILE = DATA_DIR / "lead_magnets.jsonl"
+LANDINGS_FILE = DATA_DIR / "landings_aprobadas.jsonl"
+
+load_env()
+
+
+def database_url() -> str:
+    return os.environ.get("DATABASE_URL", "").strip()
+
+
+def enabled() -> bool:
+    return bool(database_url())
+
+
+def connect():
+    return psycopg.connect(database_url(), row_factory=dict_row)
+
+
+def validate_email(email: str) -> bool:
+    return bool(re.match(r"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$", email or ""))
+
+
+def truthy(value) -> bool:
+    if isinstance(value, bool):
+        return value
+    if value is None:
+        return False
+    return str(value).strip().lower() in {"1", "true", "yes", "si", "sí", "on"}
+
+
+def unsubscribe_token(email: str) -> str:
+    secret = os.getenv("NURTURE_UNSUBSCRIBE_SECRET") or os.getenv("NURTURE_SMTP_PASS", "")
+    return hmac.new(secret.encode("utf-8"), email.lower().encode("utf-8"), hashlib.sha256).hexdigest()
+
+
+def unsubscribe_url(email: str) -> str:
+    base_url = os.getenv("NURTURE_UNSUBSCRIBE_BASE_URL", "").strip()
+    if not base_url:
+        return ""
+    return f"{base_url.rstrip('/')}?email={email.lower()}&token={unsubscribe_token(email)}"
+
+
+def load_jsonl_by_slug(path: Path, nested_key: str | None = None) -> dict[str, dict]:
+    rows: dict[str, dict] = {}
+    if not path.exists():
+        return rows
+    for line in path.read_text(encoding="utf-8").splitlines():
+        if not line.strip():
+            continue
+        try:
+            record = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        slug = record.get("slug")
+        if slug:
+            rows[slug] = record.get(nested_key, {}) if nested_key else record
+    return rows
+
+
+def load_landings() -> dict[str, dict]:
+    return load_jsonl_by_slug(LANDINGS_FILE)
+
+
+def load_lead_magnets() -> dict[str, dict]:
+    return load_jsonl_by_slug(LEAD_MAGNETS_FILE, "lead_magnet")
+
+
+def init_db() -> None:
+    with connect() as conn:
+        with conn.cursor() as cur:
+            cur.execute(
+                """
+                CREATE TABLE IF NOT EXISTS leads (
+                    id BIGSERIAL PRIMARY KEY,
+                    email TEXT NOT NULL UNIQUE,
+                    whatsapp TEXT,
+                    nombre TEXT,
+                    slug TEXT NOT NULL,
+                    keyword TEXT,
+                    category_id TEXT,
+                    product_ids JSONB,
+                    lead_magnet_slug TEXT,
+                    lead_magnet_title TEXT,
+                    consentimiento BOOLEAN NOT NULL DEFAULT FALSE,
+                    opt_in_confirmed BOOLEAN NOT NULL DEFAULT FALSE,
+                    status TEXT NOT NULL DEFAULT 'active',
+                    created_at TIMESTAMPTZ DEFAULT now(),
+                    updated_at TIMESTAMPTZ DEFAULT now()
+                )
+                """
+            )
+            cur.execute(
+                """
+                CREATE TABLE IF NOT EXISTS nurture_messages (
+                    id BIGSERIAL PRIMARY KEY,
+                    lead_id BIGINT NOT NULL REFERENCES leads(id) ON DELETE CASCADE,
+                    day_number INTEGER NOT NULL,
+                    subject TEXT NOT NULL,
+                    body TEXT NOT NULL,
+                    status TEXT NOT NULL DEFAULT 'pending',
+                    sent_at TIMESTAMPTZ,
+                    error_message TEXT,
+                    retry_count INTEGER DEFAULT 0,
+                    last_retry TIMESTAMPTZ,
+                    created_at TIMESTAMPTZ DEFAULT now(),
+                    UNIQUE (lead_id, day_number)
+                )
+                """
+            )
+            cur.execute(
+                """
+                CREATE TABLE IF NOT EXISTS lead_events (
+                    id BIGSERIAL PRIMARY KEY,
+                    lead_id BIGINT NOT NULL REFERENCES leads(id) ON DELETE CASCADE,
+                    event_type TEXT NOT NULL,
+                    event_data JSONB,
+                    created_at TIMESTAMPTZ DEFAULT now()
+                )
+                """
+            )
+            cur.execute("CREATE INDEX IF NOT EXISTS idx_leads_email ON leads(email)")
+            cur.execute("CREATE INDEX IF NOT EXISTS idx_leads_status ON leads(status)")
+            cur.execute("CREATE INDEX IF NOT EXISTS idx_nurture_status ON nurture_messages(status)")
+            cur.execute("CREATE INDEX IF NOT EXISTS idx_nurture_lead_day ON nurture_messages(lead_id, day_number)")
+            cur.execute("CREATE INDEX IF NOT EXISTS idx_events_lead ON lead_events(lead_id)")
+            cur.execute("CREATE INDEX IF NOT EXISTS idx_events_type ON lead_events(event_type)")
+
+
+def create_lead(data: dict) -> tuple[int, str]:
+    email = data.get("email", "").strip().lower()
+    if not email:
+        return 0, "Email requerido"
+    if not validate_email(email):
+        return 0, "Email invalido"
+    if not truthy(data.get("consentimiento", False)):
+        return 0, "Consentimiento requerido"
+    slug = data.get("slug", "").strip()
+    if not slug:
+        return 0, "Slug requerido"
+
+    landings = load_landings()
+    magnets = load_lead_magnets()
+    if slug not in landings:
+        return 0, f"Landing '{slug}' no encontrada"
+    landing = landings[slug]
+    magnet = magnets.get(slug, {})
+    sequence = magnet.get("nurture_sequence", {})
+
+    with connect() as conn:
+        with conn.cursor() as cur:
+            cur.execute("SELECT id, status FROM leads WHERE email = %s", (email,))
+            existing = cur.fetchone()
+            if existing:
+                if existing["status"] == "unsubscribed":
+                    cur.execute("UPDATE leads SET status = 'active', updated_at = now() WHERE id = %s", (existing["id"],))
+                return int(existing["id"]), "Lead ya existente, actualizado"
+
+            cur.execute(
+                """
+                INSERT INTO leads (email, whatsapp, nombre, slug, keyword, category_id, product_ids,
+                                   lead_magnet_slug, lead_magnet_title, consentimiento, opt_in_confirmed, status)
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, TRUE, TRUE, 'active')
+                RETURNING id
+                """,
+                (
+                    email,
+                    data.get("whatsapp", "").strip(),
+                    data.get("nombre", "").strip(),
+                    slug,
+                    landing.get("keyword", ""),
+                    landing.get("primary_category_id", ""),
+                    json.dumps(landing.get("product_ids", [])),
+                    slug,
+                    magnet.get("title", ""),
+                ),
+            )
+            lead_id = int(cur.fetchone()["id"])
+            cur.execute(
+                "INSERT INTO lead_events (lead_id, event_type, event_data) VALUES (%s, %s, %s)",
+                (lead_id, "captured", json.dumps({"slug": slug, "keyword": landing.get("keyword", ""), "source": "api"})),
+            )
+            for day_key, msg_data in sequence.items():
+                if not msg_data:
+                    continue
+                day_num = int(day_key.replace("day_", ""))
+                subject = msg_data.get("subject", "")
+                body = msg_data.get("body", "")
+                if subject and body:
+                    cur.execute(
+                        """
+                        INSERT INTO nurture_messages (lead_id, day_number, subject, body, status)
+                        VALUES (%s, %s, %s, %s, 'pending')
+                        ON CONFLICT (lead_id, day_number) DO NOTHING
+                        """,
+                        (lead_id, day_num, subject, body),
+                    )
+
+            day0 = sequence.get("day_0", {})
+            if day0:
+                body = day0.get("body", "")
+                nombre = data.get("nombre", "").strip()
+                if nombre:
+                    body = body.replace("¡Hola!", f"¡Hola {nombre}!")
+                ok, error = send_email(
+                    to_email=email,
+                    subject=day0.get("subject", "Bienvenido a PC MIDI Center"),
+                    body_text=body,
+                    unsubscribe_url=unsubscribe_url(email),
+                )
+                if ok:
+                    cur.execute("UPDATE nurture_messages SET status = 'sent', sent_at = now() WHERE lead_id = %s AND day_number = 0", (lead_id,))
+                    cur.execute("INSERT INTO lead_events (lead_id, event_type, event_data) VALUES (%s, %s, %s)", (lead_id, "email_sent", json.dumps({"day": 0, "subject": day0.get("subject", ""), "auto": True})))
+                else:
+                    cur.execute("UPDATE nurture_messages SET status = 'failed', error_message = %s WHERE lead_id = %s AND day_number = 0", (error, lead_id))
+                    cur.execute("INSERT INTO lead_events (lead_id, event_type, event_data) VALUES (%s, %s, %s)", (lead_id, "email_failed", json.dumps({"day": 0, "error": error, "auto": True})))
+            return lead_id, "Lead creado exitosamente"
+
+
+def unsubscribe(email: str, token: str = "") -> tuple[bool, str]:
+    email = email.strip().lower()
+    if not email:
+        return False, "Email requerido"
+    if token and not hmac.compare_digest(token, unsubscribe_token(email)):
+        return False, "Token invalido"
+    with connect() as conn:
+        with conn.cursor() as cur:
+            cur.execute("SELECT id FROM leads WHERE email = %s", (email,))
+            row = cur.fetchone()
+            if not row:
+                return False, "Email no encontrado"
+            lead_id = int(row["id"])
+            cur.execute("UPDATE leads SET status = 'unsubscribed', updated_at = now() WHERE id = %s", (lead_id,))
+            cur.execute("UPDATE nurture_messages SET status = 'cancelled' WHERE lead_id = %s AND status = 'pending'", (lead_id,))
+            cur.execute("INSERT INTO lead_events (lead_id, event_type, event_data) VALUES (%s, %s, %s)", (lead_id, "unsubscribed", json.dumps({"source": "api"})))
+    return True, "Baja procesada correctamente"
+
+
+def stats() -> dict[str, Any]:
+    with connect() as conn:
+        with conn.cursor() as cur:
+            cur.execute("SELECT COUNT(*) AS total FROM leads")
+            total = cur.fetchone()["total"]
+            cur.execute("SELECT COUNT(*) AS total FROM leads WHERE status = 'active'")
+            active = cur.fetchone()["total"]
+            cur.execute("SELECT COUNT(*) AS total FROM leads WHERE status = 'unsubscribed'")
+            unsubscribed = cur.fetchone()["total"]
+            cur.execute("SELECT status, COUNT(*) AS total FROM nurture_messages GROUP BY status")
+            message_rows = {row["status"]: row["total"] for row in cur.fetchall()}
+    return {
+        "leads": {"total": total, "active": active, "unsubscribed": unsubscribed},
+        "messages": {"sent": message_rows.get("sent", 0), "pending": message_rows.get("pending", 0), "failed": message_rows.get("failed", 0)},
+    }
+
+
+def process_pending(limit: int = 50, dry_run: bool = False) -> dict[str, Any]:
+    results = {"processed": 0, "sent": 0, "skipped": 0, "failed": 0, "errors": []}
+    with connect() as conn:
+        with conn.cursor() as cur:
+            cur.execute(
+                """
+                SELECT m.id, m.lead_id, m.day_number, m.subject, m.body,
+                       l.email, l.nombre
+                FROM nurture_messages m
+                JOIN leads l ON m.lead_id = l.id
+                WHERE m.status = 'pending'
+                  AND l.status = 'active'
+                  AND l.opt_in_confirmed = TRUE
+                  AND (l.created_at + (m.day_number || ' days')::interval) <= now()
+                ORDER BY m.lead_id, m.day_number
+                LIMIT %s
+                """,
+                (limit,),
+            )
+            rows = cur.fetchall()
+            for msg in rows:
+                results["processed"] += 1
+                body = msg["body"]
+                if msg.get("nombre"):
+                    body = body.replace("¡Hola!", f"¡Hola {msg['nombre']}!")
+                    body = body.replace("Hola de nuevo", f"Hola de nuevo {msg['nombre']}")
+                ok, error = send_email(
+                    to_email=msg["email"],
+                    subject=msg["subject"],
+                    body_text=body,
+                    dry_run=dry_run,
+                    unsubscribe_url=unsubscribe_url(msg["email"]),
+                )
+                if ok:
+                    if not dry_run:
+                        cur.execute("UPDATE nurture_messages SET status = 'sent', sent_at = now() WHERE id = %s", (msg["id"],))
+                        cur.execute("INSERT INTO lead_events (lead_id, event_type, event_data) VALUES (%s, %s, %s)", (msg["lead_id"], "email_sent", json.dumps({"day": msg["day_number"], "subject": msg["subject"]})))
+                    results["sent"] += 1
+                    print(f"  [OK] Enviado dia {msg['day_number']} a {msg['email']}: {msg['subject']}")
+                else:
+                    if not dry_run:
+                        cur.execute("UPDATE nurture_messages SET status = 'failed', error_message = %s WHERE id = %s", (error, msg["id"]))
+                        cur.execute("INSERT INTO lead_events (lead_id, event_type, event_data) VALUES (%s, %s, %s)", (msg["lead_id"], "email_failed", json.dumps({"day": msg["day_number"], "error": error})))
+                    results["failed"] += 1
+                    results["errors"].append({"lead_id": msg["lead_id"], "email": msg["email"], "error": error})
+                    print(f"  [FAIL] Fallo dia {msg['day_number']} a {msg['email']}: {error}")
+    return results
+
+
+def retry_failed(limit: int = 20, dry_run: bool = False) -> dict[str, Any]:
+    results = {"processed": 0, "sent": 0, "failed": 0}
+    with connect() as conn:
+        with conn.cursor() as cur:
+            cur.execute(
+                """
+                SELECT m.id, m.lead_id, m.day_number, m.subject, m.body,
+                       l.email, l.nombre
+                FROM nurture_messages m
+                JOIN leads l ON m.lead_id = l.id
+                WHERE m.status = 'failed'
+                  AND l.status = 'active'
+                  AND COALESCE(m.retry_count, 0) < 3
+                  AND (m.last_retry IS NULL OR m.last_retry + interval '1 hour' <= now())
+                ORDER BY m.lead_id, m.day_number
+                LIMIT %s
+                """,
+                (limit,),
+            )
+            rows = cur.fetchall()
+            for msg in rows:
+                results["processed"] += 1
+                body = msg["body"]
+                if msg.get("nombre"):
+                    body = body.replace("¡Hola!", f"¡Hola {msg['nombre']}!")
+                    body = body.replace("Hola de nuevo", f"Hola de nuevo {msg['nombre']}")
+                ok, error = send_email(
+                    to_email=msg["email"],
+                    subject=msg["subject"],
+                    body_text=body,
+                    dry_run=dry_run,
+                    unsubscribe_url=unsubscribe_url(msg["email"]),
+                )
+                if ok:
+                    if not dry_run:
+                        cur.execute("UPDATE nurture_messages SET status = 'sent', sent_at = now(), retry_count = COALESCE(retry_count, 0) + 1 WHERE id = %s", (msg["id"],))
+                        cur.execute("INSERT INTO lead_events (lead_id, event_type, event_data) VALUES (%s, %s, %s)", (msg["lead_id"], "email_sent", json.dumps({"day": msg["day_number"], "subject": msg["subject"], "retry": True})))
+                    results["sent"] += 1
+                else:
+                    if not dry_run:
+                        cur.execute("UPDATE nurture_messages SET retry_count = COALESCE(retry_count, 0) + 1, last_retry = now(), error_message = %s WHERE id = %s", (error, msg["id"]))
+                    results["failed"] += 1
+    return results

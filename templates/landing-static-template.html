@@ -52,7 +52,7 @@
     .container { max-width: var(--container); margin: 0 auto; padding-left: var(--container-pad); padding-right: var(--container-pad); width: 100%; }
     .mono-label { font-family: var(--font-mono); font-size: 11.5px; font-weight: 500; letter-spacing: 0.04em; text-transform: uppercase; color: var(--ink); display: inline-flex; align-items: center; gap: 0.4em; }
     .mono-label.dim { color: var(--ink-mute); font-weight: 400; }
-    .cta { display: inline-flex; align-items: center; gap: 0.6em; font-weight: 600; border: 1px solid transparent; transition: transform 160ms ease, background 160ms ease, color 160ms ease, box-shadow 160ms ease; white-space: nowrap; }
+    .cta { display: inline-flex; align-items: center; justify-content: center; gap: 0.6em; max-width: 100%; font-weight: 600; border: 1px solid transparent; transition: transform 160ms ease, background 160ms ease, color 160ms ease, box-shadow 160ms ease; white-space: nowrap; }
     .cta-sm { padding: 0.55em 0.9em; font-size: 13px; }
     .cta-md { padding: 0.85em 1.4em; font-size: 15px; }
     .cta-lg { padding: 1.1em 1.8em; font-size: 17px; }
@@ -69,6 +69,8 @@
     .site-nav { display: flex; gap: 1.5rem; font-family: var(--font-mono); font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--ink-3); }
     .header-cta { display: flex; align-items: center; gap: 1rem; justify-content: flex-end; }
     .hero { position: relative; overflow: hidden; background: var(--ink); color: var(--paper); }
+    .hero .mono-label, .section-dark .mono-label, .mega .mono-label { color: rgba(244,241,234,0.78); }
+    .hero .mono-label.dim, .section-dark .mono-label.dim, .mega .mono-label.dim { color: rgba(244,241,234,0.64); }
     .hero-bg-grid { position: absolute; inset: 0; background-image: linear-gradient(rgba(244,241,234,0.055) 1px, transparent 1px), linear-gradient(90deg, rgba(244,241,234,0.055) 1px, transparent 1px); background-size: 42px 42px; opacity: 0.8; }
     .hero-bg-glow { position: absolute; right: 4%; top: 10%; width: min(44vw, 620px); height: min(44vw, 620px); background: radial-gradient(circle, rgba(235,101,23,0.38), rgba(235,101,23,0)); filter: blur(10px); animation: glowFloat 8s ease-in-out infinite alternate; }
     .hero-grid { position: relative; z-index: 1; display: grid; grid-template-columns: minmax(0, 1.04fr) minmax(320px, 0.72fr); gap: clamp(36px, 5vw, 80px); align-items: center; padding-top: clamp(72px, 10vw, 148px); padding-bottom: clamp(52px, 8vw, 112px); }
@@ -125,9 +127,24 @@
     .faq-item { background: var(--paper); padding: clamp(22px, 3vw, 34px); }
     .faq-item h3 { margin: 0.8rem 0 0.6rem; font-size: 24px; line-height: 1.08; }
     .faq-item p { color: var(--ink-3); }
+    .lead-magnet-section { background: var(--paper-2); border-top: 2px solid var(--accent); border-bottom: 2px solid var(--accent); }
+    .lead-magnet-grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr); gap: clamp(28px, 4vw, 56px); align-items: center; }
+    .lead-magnet-content h2 { margin: 0 0 1rem; font-size: clamp(28px, 3.5vw, 42px); line-height: 1.05; letter-spacing: -0.03em; }
+    .lead-magnet-content p { color: var(--ink-3); font-size: 17px; line-height: 1.55; margin: 0 0 1.2rem; }
+    .lead-magnet-badge { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.4em 0.9em; background: var(--accent); color: var(--accent-ink); font-family: var(--font-mono); font-size: 11.5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; border-radius: 999px; margin-bottom: 1rem; }
+    .lead-magnet-form { background: var(--paper); border: 1px solid var(--rule-strong); padding: clamp(24px, 3vw, 36px); border-radius: 4px; }
+    .lead-magnet-form h3 { margin: 0 0 0.6rem; font-size: 22px; }
+    .lead-magnet-form p { color: var(--ink-3); font-size: 14px; margin: 0 0 1.2rem; }
+    .lm-input { width: 100%; padding: 0.85em 1em; border: 1px solid var(--rule-strong); background: var(--paper); font-family: var(--font-sans); font-size: 15px; margin-bottom: 0.8rem; transition: border-color 160ms ease; }
+    .lm-input:focus { outline: none; border-color: var(--accent); }
+    .lm-submit { width: 100%; padding: 1em; background: var(--accent); color: var(--accent-ink); border: none; font-family: var(--font-sans); font-size: 15px; font-weight: 600; cursor: pointer; transition: background 160ms ease; }
+    .lm-submit:hover { background: var(--ink); }
+    .lm-privacy { display: block; margin-top: 0.8rem; font-family: var(--font-mono); font-size: 11px; color: var(--ink-mute); }
+    @media (max-width: 860px) { .lead-magnet-grid { grid-template-columns: 1fr; } }
     .mega { background: var(--ink); color: var(--paper); padding: clamp(58px, 8vw, 120px) 0; }
     .mega-grid { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 2rem; }
     .mega h2 { margin: 0.4rem 0; font-size: clamp(42px, 6vw, 96px); line-height: 0.92; letter-spacing: -0.055em; }
+    .mega p { color: rgba(244,241,234,0.78); }
     footer { padding: 28px 0; color: var(--ink-mute); font-family: var(--font-mono); font-size: 12px; }
     .brand-mark-light { width: 190px; height: auto; margin-bottom: 1.4rem; }
     .reveal { opacity: 0; transform: translateY(26px); transition: opacity 700ms ease, transform 700ms ease; transition-delay: var(--delay, 0ms); }
@@ -149,6 +166,10 @@
       .mega-grid { grid-template-columns: 1fr; }
     }
     @media (max-width: 640px) {
+      :root { --container-pad: 16px; }
+      .cta { white-space: normal; text-align: center; line-height: 1.2; }
+      .cta-lg, .cta-mega { width: 100%; padding-left: 1.1em; padding-right: 1.1em; }
+      .cta-mega { font-size: clamp(18px, 6vw, 24px); }
       .hero-title { font-size: clamp(38px, 14vw, 64px); letter-spacing: -0.04em; }
       .comp-grid, .faq-grid { grid-template-columns: 1fr; }
       .product-strip-grid { grid-template-columns: 1fr; }
@@ -163,7 +184,7 @@
   <div class="cursor-halo" aria-hidden="true"></div>
   <header class="site-header">
     <div class="container header-grid">
-      <a class="brand-logo" href="https://www.pcmidi.com.ar/" target="_blank" rel="noopener" aria-label="PC MIDI Center"><img src="../assets/LogoPCMIDINegro.png" alt="PC MIDI Center" class="logo-img"></a>
+      <a class="brand-logo" href="https://www.pcmidi.com.ar/" target="_blank" rel="noopener" aria-label="PC MIDI Center"><img src="{{ asset_prefix }}assets/LogoPCMIDINegro.png" alt="PC MIDI Center" class="logo-img"></a>
       <nav class="site-nav">
         <a href="#productos">Componentes</a>
         <a href="#guia">Guia</a>
@@ -182,7 +203,7 @@
       <div class="hero-bg-glow" aria-hidden="true"></div>
       <div class="container hero-grid">
         <div>
-          <img src="../assets/LogoPCMIDIBlanco.png" alt="PC MIDI Center" class="brand-mark-light reveal" style="--delay: 0ms;">
+          <img src="{{ asset_prefix }}assets/LogoPCMIDIBlanco.png" alt="PC MIDI Center" class="brand-mark-light reveal" style="--delay: 0ms;">
           <div class="hero-eyebrow reveal" style="--delay: 90ms;"><span class="rec-dot" aria-hidden="true"></span><span class="mono-label">{{ eyebrow }}</span></div>
           <h1 class="hero-title reveal" style="--delay: 180ms;">{{ h1 }}</h1>
           <p class="hero-lede reveal" style="--delay: 300ms;">{{ hero_lede }}</p>
@@ -221,6 +242,7 @@
         <ol class="steps-list">{{ steps_html }}</ol>
       </div>
     </section>
+    {{ lead_magnet_html }}
     <section id="beneficios" class="section">
       <div class="container">
         <div class="section-head reveal"><span class="mono-label">§ 04 · Compra orientada</span><h2 class="section-title">Elegir mejor empieza por entender tu setup.</h2><p class="section-sub">No siempre conviene mirar un producto aislado. Para comprar con mas criterio, primero hay que ordenar que vas a conectar, donde lo vas a usar y que parte de tu flujo queres mejorar.</p></div>
@@ -248,12 +270,12 @@
     </section>
     <section class="mega">
       <div class="container mega-grid">
-        <div class="reveal"><img src="../assets/LogoPCMIDIBlanco.png" alt="PC MIDI Center" class="brand-mark-light"><span class="mono-label">{{ keyword }}</span><h2>Comparar opciones en PC MIDI Center.</h2><p>Consulta categorias relacionadas y elegi segun tu caso de uso, tu espacio y tu forma de producir.</p></div>
+        <div class="reveal"><img src="{{ asset_prefix }}assets/LogoPCMIDIBlanco.png" alt="PC MIDI Center" class="brand-mark-light"><span class="mono-label">{{ keyword }}</span><h2>Comparar opciones en PC MIDI Center.</h2><p>Consulta categorias relacionadas y elegi segun tu caso de uso, tu espacio y tu forma de producir.</p></div>
         <a class="cta cta-mega" href="{{ primary_url }}" target="_blank" rel="noopener"><span>{{ cta_text }}</span><span class="cta-arrow">→</span></a>
       </div>
     </section>
   </main>
-  <footer><div class="container">PC MIDI Center · <a href="https://www.pcmidi.com.ar/" target="_blank" rel="noopener">pcmidi.com.ar</a> · <a href="../index.html">Indice de landings</a></div></footer>
+  <footer><div class="container">PC MIDI Center · <a href="https://www.pcmidi.com.ar/" target="_blank" rel="noopener">pcmidi.com.ar</a> · <a href="{{ index_href }}">Indice de landings</a></div></footer>
   <script>
     (function () {
       var revealItems = Array.prototype.slice.call(document.querySelectorAll('.reveal, .comp-card, .step-item, .benefit-cell, .faq-item'));
@@ -281,6 +303,29 @@
           halo.style.transform = 'translate(' + (event.clientX - 140) + 'px,' + (event.clientY - 140) + 'px)';
         }, { passive: true });
       }
+      Array.prototype.slice.call(document.querySelectorAll('.lm-form')).forEach(function (form) {
+        form.addEventListener('submit', function (event) {
+          event.preventDefault();
+          var status = form.querySelector('.lm-status');
+          var button = form.querySelector('.lm-submit');
+          var data = {};
+          Array.prototype.slice.call(new FormData(form).entries()).forEach(function (entry) { data[entry[0]] = entry[1]; });
+          data.consentimiento = !!form.querySelector('[name="consentimiento"]:checked');
+          if (status) status.textContent = 'Enviando recurso...';
+          if (button) button.disabled = true;
+          fetch(form.action, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) })
+            .then(function (response) { return response.json().then(function (payload) { return { ok: response.ok, payload: payload }; }); })
+            .then(function (result) {
+              if (!result.ok) throw new Error(result.payload.error || 'No se pudo registrar el email.');
+              if (status) status.textContent = 'Listo. Te enviamos el recurso por email.';
+              form.reset();
+            })
+            .catch(function (error) {
+              if (status) status.textContent = error.message || 'No se pudo enviar. Intenta nuevamente.';
+            })
+            .finally(function () { if (button) button.disabled = false; });
+        });
+      });
     })();
   </script>
 </body>
