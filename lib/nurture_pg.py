@@ -83,6 +83,52 @@ def load_lead_magnets() -> dict[str, dict]:
     return load_jsonl_by_slug(LEAD_MAGNETS_FILE, "lead_magnet")
 
 
+def lead_magnet_resource_text(magnet: dict, landing: dict) -> str:
+    """Construye el recurso prometido como contenido real dentro del email."""
+    title = magnet.get("title") or "Recurso PC MIDI Labs"
+    resource_type = (magnet.get("resource_type") or "recurso").lower()
+    lines = ["", "---", title]
+
+    if resource_type == "checklist":
+        lines.append("Checklist practica:")
+        items: list[str] = []
+        for component in landing.get("components", [])[:4]:
+            cat = component.get("cat") or "Categoria"
+            look = component.get("look") or component.get("why") or "Comparar segun tu caso de uso."
+            items.append(f"[ ] {cat}: {look}")
+        for step in landing.get("steps", [])[:4]:
+            title_step = step.get("t") or "Paso recomendado"
+            body_step = step.get("b") or "Revisalo antes de decidir."
+            items.append(f"[ ] {title_step}: {body_step}")
+        if not items:
+            items = [
+                "[ ] Defini el uso principal antes de elegir.",
+                "[ ] Revisa conexiones, espacio disponible y compatibilidad.",
+                "[ ] Compara categorias antes de decidir por un modelo.",
+            ]
+        lines.extend(items[:8])
+    elif resource_type in {"comparativa", "mapa de decision"}:
+        lines.append("Puntos de comparacion:")
+        for component in landing.get("components", [])[:5]:
+            cat = component.get("cat") or "Opcion"
+            why = component.get("why") or "Puede servir segun tu setup."
+            look = component.get("look") or "Comparar detalles antes de elegir."
+            lines.append(f"- {cat}: {why} Que mirar: {look}")
+    else:
+        lines.append("Guia breve:")
+        for step in landing.get("steps", [])[:5]:
+            title_step = step.get("t") or "Paso recomendado"
+            body_step = step.get("b") or "Revisalo antes de decidir."
+            lines.append(f"- {title_step}: {body_step}")
+
+    primary_category = landing.get("primary_category_id", "")
+    if primary_category:
+        lines.append("")
+        lines.append(f"Categoria principal para revisar: {primary_category}")
+    lines.append("Si queres comparar alternativas, podes usar esta lista mientras miras opciones en pcmidi.com.ar.")
+    return "\n".join(lines)
+
+
 def init_db() -> None:
     with connect() as conn:
         with conn.cursor() as cur:
@@ -219,6 +265,7 @@ def create_lead(data: dict) -> tuple[int, str]:
                 nombre = data.get("nombre", "").strip()
                 if nombre:
                     body = body.replace("¡Hola!", f"¡Hola {nombre}!")
+                body = body.rstrip() + "\n" + lead_magnet_resource_text(magnet, landing)
                 ok, error = send_email(
                     to_email=email,
                     subject=day0.get("subject", "Bienvenido a PC MIDI Center"),

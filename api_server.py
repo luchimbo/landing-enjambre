@@ -128,6 +128,32 @@ def load_landings() -> dict[str, dict]:
     return landings
 
 
+def lead_magnet_resource_text(magnet: dict, landing: dict) -> str:
+    title = magnet.get("title") or "Recurso PC MIDI Labs"
+    resource_type = (magnet.get("resource_type") or "recurso").lower()
+    lines = ["", "---", title]
+    if resource_type == "checklist":
+        lines.append("Checklist practica:")
+        items = []
+        for component in landing.get("components", [])[:4]:
+            cat = component.get("cat") or "Categoria"
+            look = component.get("look") or component.get("why") or "Comparar segun tu caso de uso."
+            items.append(f"[ ] {cat}: {look}")
+        for step in landing.get("steps", [])[:4]:
+            title_step = step.get("t") or "Paso recomendado"
+            body_step = step.get("b") or "Revisalo antes de decidir."
+            items.append(f"[ ] {title_step}: {body_step}")
+        lines.extend(items[:8])
+    else:
+        lines.append("Guia breve:")
+        for step in landing.get("steps", [])[:5]:
+            title_step = step.get("t") or "Paso recomendado"
+            body_step = step.get("b") or "Revisalo antes de decidir."
+            lines.append(f"- {title_step}: {body_step}")
+    lines.append("Si queres comparar alternativas, podes usar esta lista mientras miras opciones en pcmidi.com.ar.")
+    return "\n".join(lines)
+
+
 def create_lead(data: dict) -> tuple[int, str]:
     """Crea un lead y su secuencia de nurturing."""
     email = data.get("email", "").strip().lower()
@@ -243,6 +269,7 @@ def create_lead(data: dict) -> tuple[int, str]:
             body = welcome_msg.get("body", "")
             if nombre:
                 body = body.replace("¡Hola!", f"¡Hola {nombre}!")
+            body = body.rstrip() + "\n" + lead_magnet_resource_text(magnet, landing)
             
             success, error = send_email(
                 to_email=email,
