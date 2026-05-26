@@ -762,7 +762,7 @@ def render_landing(landing: dict, categories: dict[str, dict], products: dict[st
           <form action="/api/leads/" method="POST" class="lm-form">
             <input type="email" name="email" placeholder="tu@email.com" required class="lm-input" aria-label="Email">
             <input type="text" name="nombre" placeholder="Nombre (opcional)" class="lm-input" aria-label="Nombre">
-            <label class="lm-privacy" style="display:flex; gap:.55rem; align-items:flex-start; margin:.2rem 0 .9rem;"><input type="checkbox" name="consentimiento" value="true" required style="margin-top:.2rem;">Acepto recibir este recurso y la secuencia de emails relacionada.</label>
+            <label class="lm-privacy" style="display:flex; gap:.55rem; align-items:flex-start; margin:.2rem 0 .9rem;"><input type="checkbox" name="consentimiento" value="true" required style="margin-top:.2rem;">Acepto recibir este recurso, informacion util y novedades de PC MIDI Labs.</label>
             <input type="hidden" name="slug" value="{esc(slug)}">
             <input type="hidden" name="keyword" value="{esc(landing.get('keyword', ''))}">
             <input type="hidden" name="lead_magnet" value="{magnet_title}">
