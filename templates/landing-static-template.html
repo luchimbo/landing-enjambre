@@ -308,9 +308,22 @@
           event.preventDefault();
           var status = form.querySelector('.lm-status');
           var button = form.querySelector('.lm-submit');
-          var data = {};
-          Array.prototype.slice.call(new FormData(form).entries()).forEach(function (entry) { data[entry[0]] = entry[1]; });
-          data.consentimiento = !!form.querySelector('[name="consentimiento"]:checked');
+          var emailInput = form.querySelector('[name="email"]');
+          var nombreInput = form.querySelector('[name="nombre"]');
+          var slugInput = form.querySelector('[name="slug"]');
+          var keywordInput = form.querySelector('[name="keyword"]');
+          var consentInput = form.querySelector('[name="consentimiento"]');
+          var data = {
+            email: emailInput ? emailInput.value.trim() : '',
+            nombre: nombreInput ? nombreInput.value.trim() : '',
+            slug: slugInput ? slugInput.value : '',
+            keyword: keywordInput ? keywordInput.value : '',
+            consentimiento: !!(consentInput && consentInput.checked)
+          };
+          if (!data.email) {
+            if (status) status.textContent = 'Ingresa tu email para recibir el recurso.';
+            return;
+          }
           if (status) status.textContent = 'Enviando recurso...';
           if (button) button.disabled = true;
           fetch(form.action, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) })
