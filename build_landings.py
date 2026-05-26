@@ -759,7 +759,7 @@ def render_landing(landing: dict, categories: dict[str, dict], products: dict[st
         <div class="lead-magnet-form">
           <h3>Recibir el {magnet_type}</h3>
           <p>Dejanos tu email y te enviamos el recurso directamente.</p>
-          <form action="/api/leads" method="POST" class="lm-form">
+          <form action="/api/leads/" method="POST" class="lm-form">
             <input type="email" name="email" placeholder="tu@email.com" required class="lm-input" aria-label="Email">
             <input type="text" name="nombre" placeholder="Nombre (opcional)" class="lm-input" aria-label="Nombre">
             <label class="lm-privacy" style="display:flex; gap:.55rem; align-items:flex-start; margin:.2rem 0 .9rem;"><input type="checkbox" name="consentimiento" value="true" required style="margin-top:.2rem;">Acepto recibir este recurso y la secuencia de emails relacionada.</label>
