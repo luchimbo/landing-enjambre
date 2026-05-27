@@ -31,7 +31,8 @@ class handler(BaseHTTPRequestHandler):
         try:
             secret = os.getenv("NURTURE_CRON_SECRET", "")
             query = {key: values[-1] for key, values in parse_qs(urlparse(self.path).query).items()}
-            if secret and query.get("secret") != secret:
+            is_vercel_cron = bool(self.headers.get("x-vercel-cron"))
+            if secret and query.get("secret") != secret and not is_vercel_cron:
                 _send(self, 403, {"error": "No autorizado"})
                 return
             nurture_pg.init_db()

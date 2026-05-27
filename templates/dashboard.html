@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="es" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PC MIDI · Panel de Agentes</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: { extend: { colors: { brand: { orange: '#EB6517', violet: '#652581' } } } }
+    }
+  </script>
+  <style>
+    body { font-family: 'Courier New', Courier, monospace; }
+    .fade-in { animation: fadeIn 0.4s ease-out; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes pulse-dot { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .dot-pulse { animation: pulse-dot 2s ease-in-out infinite; }
+    .feed-scroll { overflow-y: auto; max-height: 360px; }
+    .feed-scroll::-webkit-scrollbar { width: 3px; }
+    .feed-scroll::-webkit-scrollbar-track { background: transparent; }
+    .feed-scroll::-webkit-scrollbar-thumb { background: #374151; border-radius: 2px; }
+    .steps-scroll { overflow-y: auto; max-height: 260px; }
+    .steps-scroll::-webkit-scrollbar { width: 3px; }
+    .steps-scroll::-webkit-scrollbar-track { background: transparent; }
+    .steps-scroll::-webkit-scrollbar-thumb { background: #374151; border-radius: 2px; }
+  </style>
+</head>
+<body class="dark bg-gray-950 text-gray-100 min-h-screen text-sm">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-10 bg-gray-950/90 backdrop-blur border-b border-gray-800/60 px-6 py-3 flex items-center justify-between">
+    <div class="flex items-center gap-3">
+      <span class="font-bold tracking-wide" style="color:#EB6517">PC MIDI</span>
+      <span class="text-gray-600">·</span>
+      <span class="text-gray-300 text-xs uppercase tracking-widest">Panel de Agentes</span>
+    </div>
+    <div class="flex items-center gap-5">
+      <span class="text-gray-600 text-xs">Actualizado: <span id="last-updated" class="text-gray-400">--:--:--</span></span>
+      <div class="flex items-center gap-1.5">
+        <span id="live-dot" class="inline-block w-2 h-2 rounded-full bg-green-400 dot-pulse"></span>
+        <span id="live-label" class="text-xs text-green-400 uppercase tracking-wide">En vivo</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="p-5 space-y-5 max-w-screen-2xl mx-auto">
+
+    <!-- Metric cards -->
+    <div class="grid grid-cols-2 xl:grid-cols-4 gap-4">
+
+      <div class="bg-gray-900 border border-gray-800 rounded-xl p-4">
+        <div class="flex items-center gap-2 mb-3">
+          <span class="text-base">👥</span>
+          <span class="text-xs text-gray-500 uppercase tracking-widest">Leads</span>
+        </div>
+        <div class="space-y-1.5">
+          <div class="flex justify-between items-baseline">
+            <span class="text-gray-500 text-xs">Total</span>
+            <span id="m-leads-total" class="text-white font-bold text-lg leading-none">—</span>
+          </div>
+          <div class="flex justify-between">
+            <span class="text-gray-500 text-xs">Activos</span>
+            <span id="m-leads-active" class="text-green-400 text-xs">—</span>
+          </div>
+          <div class="flex justify-between">
+            <span class="text-gray-500 text-xs">Bajas</span>
+            <span id="m-leads-unsub" class="text-gray-600 text-xs">—</span>
+          </div>
+        </div>
+      </div>
+
+      <div id="card-emails" class="bg-gray-900 border border-gray-800 rounded-xl p-4 transition-colors duration-500">
+        <div class="flex items-center gap-2 mb-3">
+          <span class="text-base">✉️</span>
+          <span class="text-xs text-gray-500 uppercase tracking-widest">Emails</span>
+        </div>
+        <div class="space-y-1.5">
+          <div class="flex justify-between items-baseline">
+            <span class="text-gray-500 text-xs">Enviados</span>
+            <span id="m-emails-sent" class="text-white font-bold text-lg leading-none">—</span>
+          </div>
+          <div class="flex justify-between">
+            <span class="text-gray-500 text-xs">Pendientes</span>
+            <span id="m-emails-pending" class="text-amber-400 text-xs">—</span>
+          </div>
+          <div class="flex justify-between">
+            <span class="text-gray-500 text-xs">Fallidos</span>
+            <span id="m-emails-failed" class="text-red-400 text-xs">—</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-gray-900 border border-gray-800 rounded-xl p-4">
+        <div class="flex items-center gap-2 mb-3">
+          <span class="text-base">📢</span>
+          <span class="text-xs text-gray-500 uppercase tracking-widest">Publicaciones</span>
+        </div>
+        <div class="space-y-1.5">
+          <div class="flex justify-between items-baseline">
+            <span class="text-gray-500 text-xs">Publicados</span>
+            <span id="m-posts-pub" class="text-green-400 font-bold text-lg leading-none">—</span>
+          </div>
+          <div class="flex justify-between">
+            <span class="text-gray-500 text-xs">Propuestos</span>
+            <span id="m-posts-prop" class="text-amber-400 text-xs">—</span>
+          </div>
+          <div class="flex justify-between">
+            <span class="text-gray-500 text-xs">Bloqueados</span>
+            <span id="m-posts-blocked" class="text-red-400 text-xs">—</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-gray-900 border border-gray-800 rounded-xl p-4">
+        <div class="flex items-center gap-2 mb-3">
+          <span class="text-base">💬</span>
+          <span class="text-xs text-gray-500 uppercase tracking-widest">Engagement</span>
+        </div>
+        <div class="space-y-1.5">
+          <div class="flex justify-between items-baseline">
+            <span class="text-gray-500 text-xs">Acciones</span>
+            <span id="m-eng-total" class="text-white font-bold text-lg leading-none">—</span>
+          </div>
+          <div class="flex justify-between">
+            <span class="text-gray-500 text-xs">Simuladas</span>
+            <span id="m-eng-dry" class="text-gray-500 text-xs">—</span>
+          </div>
+          <div class="flex justify-between">
+            <span class="text-gray-500 text-xs">Publicadas</span>
+            <span id="m-eng-live" class="text-green-400 text-xs">—</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Agentes + Flujo -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+      <!-- Estado de agentes -->
+      <div class="bg-gray-900 border border-gray-800 rounded-xl p-4">
+        <h2 class="text-xs text-gray-500 uppercase tracking-widest mb-3">Estado de Agentes</h2>
+        <div id="agents-list" class="space-y-1">
+          <p class="text-gray-700 text-xs animate-pulse">Cargando...</p>
+        </div>
+      </div>
+
+      <!-- Último flujo -->
+      <div class="bg-gray-900 border border-gray-800 rounded-xl p-4">
+        <div class="flex items-center justify-between mb-1">
+          <h2 class="text-xs text-gray-500 uppercase tracking-widest">Último Flujo</h2>
+          <span id="wf-status-badge" class="text-xs px-2 py-0.5 rounded bg-gray-800 text-gray-500">—</span>
+        </div>
+        <p id="wf-header" class="text-gray-600 text-xs mb-3">—</p>
+        <div id="workflow-steps" class="steps-scroll space-y-1">
+          <p class="text-gray-700 text-xs animate-pulse">Cargando...</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Feed + GEO -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+      <!-- Feed de actividad -->
+      <div class="bg-gray-900 border border-gray-800 rounded-xl p-4">
+        <div class="flex items-center justify-between mb-3">
+          <h2 class="text-xs text-gray-500 uppercase tracking-widest">Actividad Reciente</h2>
+          <span id="feed-count" class="text-xs text-gray-700">0 eventos</span>
+        </div>
+        <div id="activity-feed" class="feed-scroll space-y-0.5">
+          <p class="text-gray-700 text-xs animate-pulse">Cargando...</p>
+        </div>
+      </div>
+
+      <!-- GEO Summary -->
+      <div class="bg-gray-900 border border-gray-800 rounded-xl p-4">
+        <h2 class="text-xs text-gray-500 uppercase tracking-widest mb-3">Resumen GEO / SEO</h2>
+        <div id="geo-content" class="space-y-3">
+          <p class="text-gray-700 text-xs animate-pulse">Cargando...</p>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+<script>
+const ENDPOINTS = {
+  summary:  '/api/dashboard/summary',
+  agents:   '/api/dashboard/agents',
+  workflow: '/api/dashboard/last-workflow',
+  activity: '/api/dashboard/activity?limit=40',
+  geo:      '/api/dashboard/geo-summary',
+};
+
+const ESTADOS = {
+  ok: 'OK', failed: 'Error', blocked: 'Bloqueado',
+  ok_with_warnings: 'OK c/alertas', dry_run: 'Simulación',
+  proposed: 'Propuesto', published: 'Publicado', pending: 'Pendiente',
+  sent: 'Enviado', cancelled: 'Cancelado',
+  comment_dryrun: 'Comentario simulado', comment_posted: 'Comentario publicado',
+  unknown: 'Desconocido',
+};
+
+const AGENTES_META = [
+  { key: 'nurture',      label: 'Nurture',      icon: '✉' },
+  { key: 'conversion',   label: 'Conversión',   icon: '📊' },
+  { key: 'distribution', label: 'Distribución', icon: '📝' },
+  { key: 'publicacion',  label: 'Publicación',  icon: '📢' },
+  { key: 'geo_audit',    label: 'GEO Audit',    icon: '🔍' },
+  { key: 'engagement',   label: 'Engagement',   icon: '💬' },
+];
+
+const SRC_STYLE = {
+  engagement:   { bg: 'bg-purple-900/40', text: 'text-purple-300', label: 'Engagement' },
+  distribution: { bg: 'bg-blue-900/40',   text: 'text-blue-300',   label: 'Distribución' },
+  geo_audit:    { bg: 'bg-emerald-900/40',text: 'text-emerald-300',label: 'GEO Audit' },
+  feedback:     { bg: 'bg-amber-900/40',  text: 'text-amber-300',  label: 'Conversión' },
+};
+
+function statusDotCls(s) {
+  if (s === 'ok') return 'bg-green-400 dot-pulse';
+  if (s === 'failed') return 'bg-red-500';
+  if (s && s.includes('warning')) return 'bg-amber-400';
+  return 'bg-gray-600';
+}
+
+function statusTextCls(s) {
+  if (s === 'ok') return 'text-green-400';
+  if (s === 'failed') return 'text-red-400';
+  if (s && s.includes('warning')) return 'text-amber-400';
+  return 'text-gray-500';
+}
+
+function fmtTime(ts) {
+  if (!ts) return '—';
+  try {
+    if (/^\d{8}-\d{6}/.test(ts)) {
+      return ts.slice(9,11) + ':' + ts.slice(11,13) + ':' + ts.slice(13,15);
+    }
+    return new Date(ts).toLocaleTimeString('es-AR', { hour:'2-digit', minute:'2-digit', second:'2-digit' });
+  } catch { return ts.slice(0,8); }
+}
+
+function fmtDateTime(ts) {
+  if (!ts) return '—';
+  try {
+    if (/^\d{8}-\d{6}/.test(ts)) {
+      const yr=ts.slice(0,4), mo=ts.slice(4,6), d=ts.slice(6,8);
+      const h=ts.slice(9,11), m=ts.slice(11,13);
+      return `${d}/${mo}/${yr} ${h}:${m}`;
+    }
+    const dt = new Date(ts);
+    return dt.toLocaleDateString('es-AR',{day:'2-digit',month:'2-digit',year:'numeric'})
+           + ' ' + dt.toLocaleTimeString('es-AR',{hour:'2-digit',minute:'2-digit'});
+  } catch { return ts; }
+}
+
+function mkEl(tag, cls, text) {
+  const e = document.createElement(tag);
+  if (cls) e.className = cls;
+  if (text !== undefined) e.textContent = text;
+  return e;
+}
+
+// ── Render summary ──────────────────────────────────────────────────────────
+function renderSummary(d) {
+  const set = (id, v) => { const e=document.getElementById(id); if(e) e.textContent=(v!==null&&v!==undefined)?v:'—'; };
+  set('m-leads-total',   d.leads?.total);
+  set('m-leads-active',  d.leads?.active);
+  set('m-leads-unsub',   d.leads?.unsubscribed);
+  set('m-emails-sent',   d.emails?.sent);
+  set('m-emails-pending',d.emails?.pending);
+  set('m-emails-failed', d.emails?.failed);
+  set('m-posts-pub',     d.posts?.published);
+  set('m-posts-prop',    d.posts?.proposed);
+  set('m-posts-blocked', d.posts?.blocked);
+  set('m-eng-total',     d.engagement?.total);
+  set('m-eng-dry',       d.engagement?.dry_run);
+  set('m-eng-live',      d.engagement?.live);
+
+  // Resaltar card de emails si hay fallidos
+  const card = document.getElementById('card-emails');
+  if (card) {
+    card.classList.toggle('border-red-800', (d.emails?.failed || 0) > 0);
+    card.classList.toggle('border-gray-800', (d.emails?.failed || 0) === 0);
+  }
+}
+
+// ── Render agents ───────────────────────────────────────────────────────────
+function renderAgents(data) {
+  const container = document.getElementById('agents-list');
+  if (!container) return;
+  container.innerHTML = '';
+
+  for (const meta of AGENTES_META) {
+    const info = data[meta.key] || {};
+    const status = info.status || 'unknown';
+
+    const row = document.createElement('div');
+    row.className = 'flex items-center gap-2 py-1.5 border-b border-gray-800/40 last:border-0';
+
+    // Dot
+    const dot = document.createElement('span');
+    dot.className = `inline-block w-2 h-2 rounded-full flex-shrink-0 ${statusDotCls(status)}`;
+
+    // Ícono + nombre
+    const icon = mkEl('span', 'text-gray-600 w-5 text-center flex-shrink-0', meta.icon);
+    const name = mkEl('span', 'text-gray-200 w-24 flex-shrink-0 text-xs', meta.label);
+
+    // Badge estado
+    const badge = mkEl('span',
+      `text-xs px-1.5 py-0.5 rounded bg-gray-800 w-20 text-center flex-shrink-0 ${statusTextCls(status)}`,
+      ESTADOS[status] || status
+    );
+    if (info.dry_run) badge.title = 'Modo simulación';
+
+    // Hora último run
+    const time = mkEl('span', 'text-gray-600 text-xs w-16 flex-shrink-0', fmtTime(info.last_run));
+
+    // Info extra
+    const extra = mkEl('span', 'text-gray-600 text-xs truncate flex-1');
+    const parts = [];
+    if (info.sent !== undefined)              parts.push(`env:${info.sent}`);
+    if (info.pending !== undefined)           parts.push(`pend:${info.pending}`);
+    if (info.landings_analyzed !== undefined) parts.push(`${info.landings_analyzed} landings`);
+    if (info.recommendations !== undefined)   parts.push(`${info.recommendations} recom.`);
+    if (info.pieces_proposed !== undefined)   parts.push(`prop:${info.pieces_proposed}`);
+    if (info.pieces_blocked !== undefined)    parts.push(`bloq:${info.pieces_blocked}`);
+    if (info.audited !== undefined)           parts.push(`${info.audited} auditados`);
+    if (info.gaps_found !== undefined)        parts.push(`${info.gaps_found} gaps`);
+    if (info.platform)                        parts.push(info.platform);
+    if (info.actions !== undefined)           parts.push(`${info.actions} acc.`);
+    if (info.published !== undefined && meta.key === 'publicacion') parts.push(`pub:${info.published}`);
+    extra.textContent = parts.join('  ') || '—';
+
+    row.append(dot, icon, name, badge, time, extra);
+    container.appendChild(row);
+  }
+}
+
+// ── Render workflow ─────────────────────────────────────────────────────────
+function renderWorkflow(data) {
+  const stepsEl  = document.getElementById('workflow-steps');
+  const headerEl = document.getElementById('wf-header');
+  const badgeEl  = document.getElementById('wf-status-badge');
+  if (!stepsEl) return;
+
+  if (!data || !data.command) {
+    stepsEl.innerHTML = '<p class="text-gray-700 text-xs">Sin datos de flujo disponibles</p>';
+    return;
+  }
+
+  const status = data.status || 'unknown';
+  badgeEl.textContent = ESTADOS[status] || status;
+  badgeEl.className = `text-xs px-2 py-0.5 rounded bg-gray-800 ${statusTextCls(status)}`;
+
+  const wfName = data.command === 'daily' ? 'Flujo Diario'
+               : data.command === 'weekly' ? 'Flujo Semanal'
+               : data.command;
+  const dry = data.dry_run ? ' · Simulación' : '';
+  headerEl.textContent = `${wfName} · ${fmtDateTime(data.timestamp_utc)}${dry}`;
+
+  stepsEl.innerHTML = '';
+  const steps = data.steps || [];
+  if (!steps.length) {
+    stepsEl.innerHTML = '<p class="text-gray-700 text-xs">Sin pasos registrados</p>';
+    return;
+  }
+
+  for (const step of steps) {
+    const ok = step.status === 'ok';
+    const fail = step.status === 'failed';
+    const iconChar = ok ? '✓' : fail ? '✗' : '·';
+    const iconCls  = ok ? 'text-green-500' : fail ? 'text-red-500' : 'text-gray-600';
+    const dur = step.duration_seconds != null ? `${step.duration_seconds}s` : '—';
+
+    const row = document.createElement('div');
+    row.className = 'flex items-center gap-2 text-xs py-0.5';
+    row.innerHTML = `
+      <span class="${iconCls} w-4 text-center flex-shrink-0">${iconChar}</span>
+      <span class="text-gray-300 flex-1 truncate">${step.step}</span>
+      <span class="${statusTextCls(step.status)} w-20 text-right flex-shrink-0">${ESTADOS[step.status] || step.status}</span>
+      <span class="text-gray-600 w-12 text-right flex-shrink-0">${dur}</span>
+    `;
+    stepsEl.appendChild(row);
+  }
+}
+
+// ── Render activity feed ────────────────────────────────────────────────────
+let lastActivityTs = null;
+
+function renderActivityFeed(items) {
+  const container = document.getElementById('activity-feed');
+  const countEl   = document.getElementById('feed-count');
+  if (!container) return;
+
+  const newItems = lastActivityTs
+    ? items.filter(i => i._ts > lastActivityTs)
+    : items;
+
+  if (!lastActivityTs) {
+    // Initial render
+    container.innerHTML = '';
+    if (!items.length) {
+      container.innerHTML = '<p class="text-gray-700 text-xs">Sin actividad registrada todavía</p>';
+      return;
+    }
+    for (const item of items) container.appendChild(buildFeedItem(item, false));
+  } else {
+    // Prepend new items with animation
+    for (const item of [...newItems].reverse()) {
+      const el = buildFeedItem(item, true);
+      container.prepend(el);
+    }
+  }
+
+  if (items.length) lastActivityTs = items[0]._ts;
+
+  // Max 60 items in DOM
+  while (container.children.length > 60) container.removeChild(container.lastChild);
+
+  if (countEl) countEl.textContent = `${container.children.length} eventos`;
+}
+
+function buildFeedItem(item, animate) {
+  const div = document.createElement('div');
+  div.className = 'flex items-start gap-2 py-1 border-b border-gray-800/20 last:border-0' + (animate ? ' fade-in' : '');
+
+  const src = item._source || 'unknown';
+  const style = SRC_STYLE[src] || { bg: 'bg-gray-800/50', text: 'text-gray-400', label: src };
+
+  const badge = mkEl('span',
+    `text-xs px-1.5 py-0.5 rounded flex-shrink-0 ${style.bg} ${style.text}`,
+    style.label
+  );
+  const ts  = mkEl('span', 'text-gray-700 text-xs flex-shrink-0 w-14', fmtTime(item._ts));
+  const desc = mkEl('span', 'text-gray-400 text-xs truncate flex-1');
+
+  if (src === 'engagement') {
+    const action = ESTADOS[item.action] || item.action || '';
+    const plat = item.platform ? `[${item.platform}] ` : '';
+    desc.textContent = `${plat}${action}` + (item.target_url ? ` — ${item.target_url}` : '');
+  } else if (src === 'distribution') {
+    const ch = item.channel || '';
+    const title = item.title || '';
+    const st = ESTADOS[item.status] || item.status || '';
+    desc.textContent = [ch, title, st].filter(Boolean).join(' · ');
+  } else if (src === 'geo_audit') {
+    const cat = item.category ? `[${item.category}] ` : '';
+    const prompt = (item.prompt || '').slice(0, 70);
+    desc.textContent = cat + prompt;
+  } else if (src === 'feedback') {
+    desc.textContent = item.suggestion || item.prompt || item.gap_type || '—';
+  } else {
+    desc.textContent = JSON.stringify(item).slice(0, 80);
+  }
+
+  div.append(badge, ts, desc);
+  return div;
+}
+
+// ── Render GEO summary ──────────────────────────────────────────────────────
+function renderGeo(data) {
+  const container = document.getElementById('geo-content');
+  if (!container) return;
+  container.innerHTML = '';
+
+  // Stats row
+  const statsRow = document.createElement('div');
+  statsRow.className = 'grid grid-cols-2 gap-3';
+  const mentioned = data.pcmidi_mentioned_count || 0;
+  statsRow.innerHTML = `
+    <div class="bg-gray-800/50 rounded-lg p-3 text-center">
+      <div class="text-2xl font-bold text-white">${data.total_audited || 0}</div>
+      <div class="text-xs text-gray-500 mt-0.5">Auditorías totales</div>
+    </div>
+    <div class="bg-gray-800/50 rounded-lg p-3 text-center">
+      <div class="text-2xl font-bold ${mentioned > 0 ? 'text-green-400' : 'text-red-400'}">${mentioned}</div>
+      <div class="text-xs text-gray-500 mt-0.5">PC MIDI visible</div>
+    </div>
+  `;
+  container.appendChild(statsRow);
+
+  // Score bar
+  if (data.avg_score !== undefined) {
+    const pct = Math.round((data.avg_score / 5) * 100);
+    const barWrap = document.createElement('div');
+    barWrap.innerHTML = `
+      <div class="flex justify-between text-xs mb-1">
+        <span class="text-gray-500">Score promedio</span>
+        <span class="text-gray-300">${data.avg_score.toFixed(2)}/5</span>
+      </div>
+      <div class="w-full h-1.5 bg-gray-800 rounded-full overflow-hidden">
+        <div id="score-bar" class="h-full rounded-full" style="width:${pct}%; background: linear-gradient(to right,#EB6517,#652581)"></div>
+      </div>
+    `;
+    container.appendChild(barWrap);
+  }
+
+  // Competidores
+  if (data.top_competitors && data.top_competitors.length) {
+    const compWrap = document.createElement('div');
+    const tagsDiv = document.createElement('div');
+    tagsDiv.className = 'flex flex-wrap gap-1 mt-1';
+    compWrap.innerHTML = '<div class="text-xs text-gray-500 mb-1">Competidores detectados</div>';
+    data.top_competitors.slice(0, 6).forEach(c => {
+      tagsDiv.appendChild(mkEl('span', 'text-xs px-2 py-0.5 rounded bg-gray-800 text-gray-400', c));
+    });
+    compWrap.appendChild(tagsDiv);
+    container.appendChild(compWrap);
+  }
+
+  // Gaps recientes
+  if (data.recent_gaps && data.recent_gaps.length) {
+    const gapsWrap = document.createElement('div');
+    gapsWrap.innerHTML = '<div class="text-xs text-gray-500 mb-1">Gaps de contenido recientes</div>';
+    data.recent_gaps.slice(0, 3).forEach(gap => {
+      const card = document.createElement('div');
+      card.className = 'bg-gray-800/40 rounded-lg p-2 mb-1.5';
+      const text = gap.suggestion || gap.prompt || gap.gap_type || '—';
+      card.innerHTML = `
+        <div class="text-xs text-gray-300 truncate">${text}</div>
+        ${gap.category ? `<div class="text-xs text-gray-600 mt-0.5">${gap.category}</div>` : ''}
+      `;
+      gapsWrap.appendChild(card);
+    });
+    container.appendChild(gapsWrap);
+  } else {
+    container.appendChild(mkEl('p', 'text-gray-700 text-xs', 'Sin gaps detectados todavía'));
+  }
+}
+
+// ── Poller ──────────────────────────────────────────────────────────────────
+class DashboardPoller {
+  constructor() { this.ok = true; }
+
+  async fetchAll() {
+    try {
+      const [summary, agents, workflow, activity, geo] = await Promise.all([
+        fetch(ENDPOINTS.summary).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
+        fetch(ENDPOINTS.agents).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
+        fetch(ENDPOINTS.workflow).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
+        fetch(ENDPOINTS.activity).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
+        fetch(ENDPOINTS.geo).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
+      ]);
+      renderSummary(summary);
+      renderAgents(agents);
+      renderWorkflow(workflow);
+      renderActivityFeed(activity);
+      renderGeo(geo);
+      document.getElementById('last-updated').textContent =
+        new Date().toLocaleTimeString('es-AR', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+      this.setLive(true);
+    } catch (err) {
+      this.setLive(false);
+      console.error('Dashboard error:', err);
+    }
+  }
+
+  setLive(ok) {
+    const dot   = document.getElementById('live-dot');
+    const label = document.getElementById('live-label');
+    if (ok) {
+      dot.className   = 'inline-block w-2 h-2 rounded-full bg-green-400 dot-pulse';
+      label.textContent = 'En vivo';
+      label.className   = 'text-xs text-green-400 uppercase tracking-wide';
+    } else {
+      dot.className   = 'inline-block w-2 h-2 rounded-full bg-red-500';
+      label.textContent = 'Sin conexión';
+      label.className   = 'text-xs text-red-400 uppercase tracking-wide';
+    }
+  }
+
+  start() {
+    this.fetchAll();
+    setInterval(() => this.fetchAll(), 7000);
+  }
+}
+
+document.addEventListener('DOMContentLoaded', () => new DashboardPoller().start());
+</script>
+</body>
+</html>

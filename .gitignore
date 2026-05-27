@@ -12,3 +12,5 @@ site/
 tmp_*
 src/
 pyproject.toml
+agente_engagement/sessions/
+agente_engagement/node_modules/

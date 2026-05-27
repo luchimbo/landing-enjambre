@@ -331,6 +331,7 @@
             .then(function (result) {
               if (!result.ok) throw new Error(result.payload.error || 'No se pudo registrar el email.');
               if (status) status.textContent = 'Listo. Te enviamos el recurso por email.';
+              try { navigator.sendBeacon('/api/events', JSON.stringify({ event_type: 'form_submit', slug: data.slug })); } catch(e) {}
               form.reset();
             })
             .catch(function (error) {
@@ -339,6 +340,33 @@
             .finally(function () { if (button) button.disabled = false; });
         });
       });
+      Array.prototype.slice.call(document.querySelectorAll('a.cta')).forEach(function (link) {
+        link.addEventListener('click', function () {
+          try { navigator.sendBeacon('/api/events', JSON.stringify({ event_type: 'cta_click', slug: '{{ slug }}', url: link.href })); } catch(e) {}
+        });
+      });
+      function sessionId() {
+        try {
+          var key = 'pcmidi_session_id';
+          var existing = window.localStorage.getItem(key);
+          if (existing) return existing;
+          var value = Date.now().toString(36) + '-' + Math.random().toString(36).slice(2, 12);
+          window.localStorage.setItem(key, value);
+          return value;
+        } catch(e) { return ''; }
+      }
+      try {
+        navigator.sendBeacon('/api/events', JSON.stringify({
+          event_type: 'page_view',
+          slug: '{{ slug }}',
+          session_id: sessionId(),
+          url: window.location.href,
+          referrer: document.referrer || '',
+          utm_source: new URLSearchParams(window.location.search).get('utm_source') || '',
+          utm_medium: new URLSearchParams(window.location.search).get('utm_medium') || '',
+          utm_campaign: new URLSearchParams(window.location.search).get('utm_campaign') || ''
+        }));
+      } catch(e) {}
     })();
   </script>
 </body>

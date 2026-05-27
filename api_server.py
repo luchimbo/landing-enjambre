@@ -23,7 +23,8 @@ import hashlib
 from datetime import datetime, timezone
 from pathlib import Path
 
-from flask import Flask, jsonify, request
+from collections import Counter
+from flask import Flask, jsonify, render_template, request
 
 # Agregar parent al path para importar desde lib/
 ROOT = Path(__file__).resolve().parent
@@ -37,7 +38,12 @@ app = Flask(__name__)
 DATA_DIR = ROOT / "data"
 DB_PATH = DATA_DIR / "nurture.db"
 LEAD_MAGNETS_FILE = DATA_DIR / "lead_magnets.jsonl"
-LANDINGS_FILE = DATA_DIR / "landings_aprobadas.jsonl"
+LANDINGS_FILE     = DATA_DIR / "landings_aprobadas.jsonl"
+REPORTS_DIR       = ROOT / "reports"
+ENGAGEMENT_LOG    = DATA_DIR / "engagement_log.jsonl"
+DISTRIBUTION_LOG  = DATA_DIR / "distribution_log.jsonl"
+GEO_AUDITS_LOG    = DATA_DIR / "geo_audits.jsonl"
+CONTENT_FEEDBACK  = DATA_DIR / "content_feedback.jsonl"
 
 # Cargar .env
 ENV_FILE = ROOT / ".env"
@@ -69,6 +75,12 @@ def truthy(value) -> bool:
 def request_data() -> dict:
     if request.is_json:
         return request.get_json(silent=True) or {}
+    raw = request.get_data(as_text=True) or ""
+    if raw.strip().startswith("{"):
+        try:
+            return json.loads(raw)
+        except json.JSONDecodeError:
+            return {}
     return dict(request.form.items())
 
 
@@ -470,6 +482,24 @@ def unsubscribe():
         return jsonify({"error": str(e)}), 500
 
 
+@app.route("/api/events", methods=["POST"])
+def record_event():
+    """Registra eventos de comportamiento desde el frontend (clics en CTAs, envíos de formulario)."""
+    try:
+        data = request_data()
+        event_type = str(data.get("event_type", "")).strip()
+        slug = str(data.get("slug", "")).strip() or None
+        extra = {k: v for k, v in data.items() if k not in {"event_type", "slug"}}
+        if nurture_pg.enabled():
+            ok, message = nurture_pg.record_page_event(event_type, slug, extra)
+            if not ok:
+                return jsonify({"error": message}), 400
+            return jsonify({"success": True})
+        return jsonify({"success": True, "note": "db_not_configured"})
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
 @app.route("/api/stats", methods=["GET"])
 def get_stats():
     """Retorna estadísticas del sistema."""
@@ -513,11 +543,290 @@ def get_stats():
     })
 
 
+# ─── Dashboard utilities ───────────────────────────────────────────────────────
+
+def _iter_jsonl(path):
+    if not path.exists():
+        return
+    with open(path, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if line:
+                try:
+                    yield json.loads(line)
+                except json.JSONDecodeError:
+                    continue
+
+
+def _tail_jsonl(path, n=50):
+    if not path.exists():
+        return []
+    size = path.stat().st_size
+    if size == 0:
+        return []
+    chunk = min(size, max(n * 4096, 65536))
+    with open(path, "rb") as f:
+        f.seek(max(0, size - chunk))
+        at_start = f.tell() == 0
+        raw = f.read().decode("utf-8", errors="replace")
+    lines = raw.splitlines()
+    if not at_start and len(lines) > 1:
+        lines = lines[1:]
+    valid = []
+    for line in lines:
+        line = line.strip()
+        if not line:
+            continue
+        try:
+            valid.append(json.loads(line))
+        except json.JSONDecodeError:
+            continue
+    return valid[-n:]
+
+
+def _count_jsonl_lines(path):
+    if not path.exists():
+        return 0
+    with open(path, "rb") as f:
+        return sum(1 for line in f if line.strip())
+
+
+def _count_jsonl_where(path, field, value):
+    return sum(1 for r in _iter_jsonl(path) if r.get(field) == value)
+
+
+def _norm_ts(ts):
+    if not ts:
+        return ""
+    if "T" in ts:
+        return ts.replace("Z", "+00:00")
+    try:
+        parts = ts.split("-")
+        if len(parts) >= 2:
+            d, t = parts[0], parts[1]
+            micro = parts[2] if len(parts) > 2 else "000000"
+            return f"{d[:4]}-{d[4:6]}-{d[6:8]}T{t[:2]}:{t[2:4]}:{t[4:6]}.{micro}+00:00"
+    except Exception:
+        pass
+    return ts
+
+
+def _latest_report(patterns):
+    candidates = []
+    for pat in patterns:
+        candidates.extend(REPORTS_DIR.glob(pat))
+    if not candidates:
+        return None
+    latest = max(candidates, key=lambda p: p.name)
+    try:
+        return json.loads(latest.read_text(encoding="utf-8"))
+    except Exception:
+        return None
+
+
+def _count_report_items(value):
+    if value is None:
+        return 0
+    if isinstance(value, int):
+        return value
+    if isinstance(value, (list, tuple, dict)):
+        return len(value)
+    return 0
+
+
+def _report_status(raw):
+    if raw.get("status"):
+        return raw["status"]
+    if raw.get("returncode") not in (None, 0):
+        return "failed"
+    if raw.get("failed", 0):
+        return "failed"
+    return "ok"
+
+
+# ─── Dashboard endpoints ────────────────────────────────────────────────────────
+
+@app.route("/dashboard")
+def dashboard():
+    return render_template("dashboard.html")
+
+
+@app.route("/api/dashboard/summary")
+def dashboard_summary():
+    leads = {"total": 0, "active": 0, "unsubscribed": 0}
+    emails = {"sent": 0, "pending": 0, "failed": 0}
+    try:
+        conn = get_db_connection()
+        cur = conn.cursor()
+        cur.execute("SELECT COUNT(*) FROM leads")
+        leads["total"] = cur.fetchone()[0]
+        cur.execute("SELECT COUNT(*) FROM leads WHERE status='active'")
+        leads["active"] = cur.fetchone()[0]
+        cur.execute("SELECT COUNT(*) FROM leads WHERE status='unsubscribed'")
+        leads["unsubscribed"] = cur.fetchone()[0]
+        cur.execute("SELECT COUNT(*) FROM nurture_messages WHERE status='sent'")
+        emails["sent"] = cur.fetchone()[0]
+        cur.execute("SELECT COUNT(*) FROM nurture_messages WHERE status='pending'")
+        emails["pending"] = cur.fetchone()[0]
+        cur.execute("SELECT COUNT(*) FROM nurture_messages WHERE status='failed'")
+        emails["failed"] = cur.fetchone()[0]
+        conn.close()
+    except Exception:
+        pass
+
+    posts = {
+        "published": _count_jsonl_where(DISTRIBUTION_LOG, "status", "published"),
+        "proposed":  _count_jsonl_where(DISTRIBUTION_LOG, "status", "proposed"),
+        "blocked":   _count_jsonl_where(DISTRIBUTION_LOG, "status", "blocked"),
+    }
+
+    eng_total = _count_jsonl_lines(ENGAGEMENT_LOG)
+    eng_dry   = _count_jsonl_where(ENGAGEMENT_LOG, "status", "dry_run")
+    engagement = {
+        "total":   eng_total,
+        "dry_run": eng_dry,
+        "live":    eng_total - eng_dry,
+    }
+
+    return jsonify({
+        "leads":      leads,
+        "emails":     emails,
+        "posts":      posts,
+        "engagement": engagement,
+        "geo_audits": {
+            "total":      _count_jsonl_lines(GEO_AUDITS_LOG),
+            "gaps_found": _count_jsonl_lines(CONTENT_FEEDBACK),
+        },
+    })
+
+
+@app.route("/api/dashboard/agents")
+def dashboard_agents():
+    AGENT_PATTERNS = {
+        "nurture":      ["*-nurture-*.json"],
+        "conversion":   ["*-conversion-*.json"],
+        "distribution": ["*-distribution-*.json"],
+        "publicacion":  ["*-publicacion-*.json"],
+        "geo_audit":    ["*-geo-audit-*.json"],
+        "engagement":   ["*-engage.json", "*-engage-*.json", "*-engagement-*.json"],
+    }
+    daily = _latest_report(["*-daily.json"])
+    daily_steps = {}
+    if daily:
+        for s in (daily.get("steps") or []):
+            daily_steps[s.get("step", "")] = s
+
+    result = {}
+    for agent, patterns in AGENT_PATTERNS.items():
+        raw = _latest_report(patterns)
+        if raw:
+            info = {
+                "last_run": raw.get("timestamp_utc", ""),
+                "status":   _report_status(raw),
+                "dry_run":  raw.get("dry_run", False),
+            }
+            if agent == "nurture":
+                r = raw.get("results", {})
+                info.update({"sent": r.get("sent", 0), "pending": r.get("pending", 0), "failed": r.get("failed", 0)})
+            elif agent == "conversion":
+                info.update({
+                    "landings_analyzed": raw.get("landings", raw.get("landings_analyzed", 0)),
+                    "recommendations":   _count_report_items(raw.get("recommendations")),
+                })
+            elif agent == "distribution":
+                info.update({"pieces_proposed": raw.get("pieces_proposed", 0), "pieces_blocked": raw.get("pieces_blocked", 0)})
+            elif agent == "publicacion":
+                info.update({"published": raw.get("published", 0), "found": raw.get("found", 0)})
+            elif agent == "geo_audit":
+                info.update({"audited": _count_jsonl_lines(GEO_AUDITS_LOG), "gaps_found": _count_jsonl_lines(CONTENT_FEEDBACK)})
+            elif agent == "engagement":
+                info.update({"platform": raw.get("platform", ""), "actions": _count_jsonl_lines(ENGAGEMENT_LOG)})
+        else:
+            fallback_key = {
+                "nurture": "nurture", "conversion": "conversion",
+                "distribution": "distribution-generate", "publicacion": "publish",
+                "geo_audit": "geo-audit", "engagement": "engagement",
+            }.get(agent, agent)
+            ds = daily_steps.get(fallback_key, {})
+            info = {
+                "last_run": ds.get("started_utc", ""),
+                "status":   ds.get("status", "unknown"),
+                "dry_run":  daily.get("dry_run", False) if daily else False,
+            }
+        result[agent] = info
+    return jsonify(result)
+
+
+@app.route("/api/dashboard/last-workflow")
+def dashboard_last_workflow():
+    report = _latest_report(["*-daily.json", "*-weekly.json"])
+    if not report:
+        return jsonify({})
+
+    def _parse_step_ts(ts):
+        if not ts:
+            return None
+        try:
+            return datetime.strptime(ts[:15], "%Y%m%d-%H%M%S")
+        except ValueError:
+            return None
+
+    for step in (report.get("steps") or []):
+        t0 = _parse_step_ts(step.get("started_utc"))
+        t1 = _parse_step_ts(step.get("finished_utc"))
+        step["duration_seconds"] = round((t1 - t0).total_seconds(), 1) if t0 and t1 else None
+    return jsonify(report)
+
+
+@app.route("/api/dashboard/activity")
+def dashboard_activity():
+    limit = min(int(request.args.get("limit", 30)), 100)
+    items = []
+
+    for rec in _tail_jsonl(ENGAGEMENT_LOG, n=limit):
+        items.append({"_source": "engagement", "_ts": _norm_ts(rec.get("ts", "")), **rec})
+
+    for rec in _tail_jsonl(DISTRIBUTION_LOG, n=limit):
+        items.append({"_source": "distribution", "_ts": _norm_ts(rec.get("created_at_utc", "")), **rec})
+
+    for rec in _tail_jsonl(GEO_AUDITS_LOG, n=limit):
+        light = {k: v for k, v in rec.items() if k != "response_text"}
+        items.append({"_source": "geo_audit", "_ts": _norm_ts(rec.get("timestamp_utc", "")), **light})
+
+    for rec in _tail_jsonl(CONTENT_FEEDBACK, n=limit):
+        items.append({"_source": "feedback", "_ts": _norm_ts(rec.get("timestamp_utc", "")), **rec})
+
+    items.sort(key=lambda x: x.get("_ts", ""), reverse=True)
+    return jsonify(items[:limit])
+
+
+@app.route("/api/dashboard/geo-summary")
+def dashboard_geo_summary():
+    entries = _tail_jsonl(GEO_AUDITS_LOG, n=100)
+    scores = [e.get("score", 0) for e in entries if "score" in e]
+    all_competitors = []
+    for e in entries:
+        all_competitors.extend(e.get("competitors") or [])
+
+    recent_gaps = list(_tail_jsonl(CONTENT_FEEDBACK, n=5))
+    recent_gaps.reverse()
+
+    return jsonify({
+        "total_audited":          _count_jsonl_lines(GEO_AUDITS_LOG),
+        "pcmidi_mentioned_count": sum(1 for e in entries if e.get("pcmidi_mentioned")),
+        "avg_score":              round(sum(scores) / len(scores), 2) if scores else 0.0,
+        "top_competitors":        [c for c, _ in Counter(all_competitors).most_common(8)],
+        "recent_gaps":            recent_gaps,
+    })
+
+
 if __name__ == "__main__":
     print("API Server iniciado en http://localhost:5000")
     print("Endpoints:")
     print("  GET  /api/health")
     print("  POST /api/leads")
+    print("  POST /api/events")
     print("  POST /api/unsubscribe")
     print("  GET  /api/stats")
+    print("  GET  /dashboard")
     app.run(host="0.0.0.0", port=5000, debug=False)

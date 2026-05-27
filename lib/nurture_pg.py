@@ -18,8 +18,30 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 LEAD_MAGNETS_FILE = DATA_DIR / "lead_magnets.jsonl"
 LANDINGS_FILE = DATA_DIR / "landings_aprobadas.jsonl"
+CATEGORIES_FILE = DATA_DIR / "categorias_pcmidi.json"
 
 load_env()
+
+_categories_map: dict[str, dict] | None = None
+
+
+def load_categories() -> dict[str, dict]:
+    """Carga categorias desde el JSON y devuelve un dict por id."""
+    global _categories_map
+    if _categories_map is not None:
+        return _categories_map
+    _categories_map = {}
+    if not CATEGORIES_FILE.exists():
+        return _categories_map
+    try:
+        data = json.loads(CATEGORIES_FILE.read_text(encoding="utf-8"))
+        for cat in data:
+            cid = cat.get("id")
+            if cid:
+                _categories_map[cid] = cat
+    except (json.JSONDecodeError, OSError):
+        pass
+    return _categories_map
 
 
 def database_url() -> str:
@@ -232,12 +254,25 @@ def init_db() -> None:
                 )
                 """
             )
+            cur.execute(
+                """
+                CREATE TABLE IF NOT EXISTS page_events (
+                    id BIGSERIAL PRIMARY KEY,
+                    event_type TEXT NOT NULL,
+                    slug TEXT,
+                    event_data JSONB,
+                    created_at TIMESTAMPTZ DEFAULT now()
+                )
+                """
+            )
             cur.execute("CREATE INDEX IF NOT EXISTS idx_leads_email ON leads(email)")
             cur.execute("CREATE INDEX IF NOT EXISTS idx_leads_status ON leads(status)")
             cur.execute("CREATE INDEX IF NOT EXISTS idx_nurture_status ON nurture_messages(status)")
             cur.execute("CREATE INDEX IF NOT EXISTS idx_nurture_lead_day ON nurture_messages(lead_id, day_number)")
             cur.execute("CREATE INDEX IF NOT EXISTS idx_events_lead ON lead_events(lead_id)")
             cur.execute("CREATE INDEX IF NOT EXISTS idx_events_type ON lead_events(event_type)")
+            cur.execute("CREATE INDEX IF NOT EXISTS idx_page_events_slug ON page_events(slug)")
+            cur.execute("CREATE INDEX IF NOT EXISTS idx_page_events_type ON page_events(event_type)")
 
 
 def create_lead(data: dict) -> tuple[int, str]:
@@ -316,11 +351,19 @@ def create_lead(data: dict) -> tuple[int, str]:
                 if nombre:
                     body = body.replace("¡Hola!", f"¡Hola {nombre}!")
                 body = body.rstrip() + "\n" + lead_magnet_resource_text(magnet, landing)
+                cat_id = landing.get("primary_category_id", "")
+                categories = load_categories()
+                cat_info = categories.get(cat_id, {})
                 ok, error = send_email(
                     to_email=email,
                     subject=day0.get("subject", "Bienvenido a PC MIDI Center"),
                     body_text=body,
                     unsubscribe_url=unsubscribe_url(email),
+                    category_url=cat_info.get("url", ""),
+                    category_name=cat_info.get("nombre", ""),
+                    lead_id=lead_id,
+                    slug=slug,
+                    day_number=0,
                 )
                 if ok:
                     cur.execute("UPDATE nurture_messages SET status = 'sent', sent_at = now() WHERE lead_id = %s AND day_number = 0", (lead_id,))
@@ -351,6 +394,8 @@ def unsubscribe(email: str, token: str = "") -> tuple[bool, str]:
 
 
 def stats() -> dict[str, Any]:
+    if not enabled():
+        return {"leads": {"total": 0, "active": 0, "unsubscribed": 0}, "messages": {"sent": 0, "pending": 0, "failed": 0}}
     with connect() as conn:
         with conn.cursor() as cur:
             cur.execute("SELECT COUNT(*) AS total FROM leads")
@@ -374,7 +419,7 @@ def process_pending(limit: int = 50, dry_run: bool = False) -> dict[str, Any]:
             cur.execute(
                 """
                 SELECT m.id, m.lead_id, m.day_number, m.subject, m.body,
-                       l.email, l.nombre
+                       l.email, l.nombre, l.category_id, l.slug
                 FROM nurture_messages m
                 JOIN leads l ON m.lead_id = l.id
                 WHERE m.status = 'pending'
@@ -387,18 +432,25 @@ def process_pending(limit: int = 50, dry_run: bool = False) -> dict[str, Any]:
                 (limit,),
             )
             rows = cur.fetchall()
+            categories = load_categories()
             for msg in rows:
                 results["processed"] += 1
                 body = msg["body"]
                 if msg.get("nombre"):
                     body = body.replace("¡Hola!", f"¡Hola {msg['nombre']}!")
                     body = body.replace("Hola de nuevo", f"Hola de nuevo {msg['nombre']}")
+                cat_info = categories.get(msg.get("category_id", ""), {})
                 ok, error = send_email(
                     to_email=msg["email"],
                     subject=msg["subject"],
                     body_text=body,
                     dry_run=dry_run,
                     unsubscribe_url=unsubscribe_url(msg["email"]),
+                    category_url=cat_info.get("url", ""),
+                    category_name=cat_info.get("nombre", ""),
+                    lead_id=msg["lead_id"],
+                    slug=msg.get("slug", ""),
+                    day_number=msg["day_number"],
                 )
                 if ok:
                     if not dry_run:
@@ -423,7 +475,7 @@ def retry_failed(limit: int = 20, dry_run: bool = False) -> dict[str, Any]:
             cur.execute(
                 """
                 SELECT m.id, m.lead_id, m.day_number, m.subject, m.body,
-                       l.email, l.nombre
+                       l.email, l.nombre, l.category_id, l.slug
                 FROM nurture_messages m
                 JOIN leads l ON m.lead_id = l.id
                 WHERE m.status = 'failed'
@@ -436,18 +488,25 @@ def retry_failed(limit: int = 20, dry_run: bool = False) -> dict[str, Any]:
                 (limit,),
             )
             rows = cur.fetchall()
+            categories = load_categories()
             for msg in rows:
                 results["processed"] += 1
                 body = msg["body"]
                 if msg.get("nombre"):
                     body = body.replace("¡Hola!", f"¡Hola {msg['nombre']}!")
                     body = body.replace("Hola de nuevo", f"Hola de nuevo {msg['nombre']}")
+                cat_info = categories.get(msg.get("category_id", ""), {})
                 ok, error = send_email(
                     to_email=msg["email"],
                     subject=msg["subject"],
                     body_text=body,
                     dry_run=dry_run,
                     unsubscribe_url=unsubscribe_url(msg["email"]),
+                    category_url=cat_info.get("url", ""),
+                    category_name=cat_info.get("nombre", ""),
+                    lead_id=msg["lead_id"],
+                    slug=msg.get("slug", ""),
+                    day_number=msg["day_number"],
                 )
                 if ok:
                     if not dry_run:
@@ -459,3 +518,38 @@ def retry_failed(limit: int = 20, dry_run: bool = False) -> dict[str, Any]:
                         cur.execute("UPDATE nurture_messages SET retry_count = COALESCE(retry_count, 0) + 1, last_retry = now(), error_message = %s WHERE id = %s", (error, msg["id"]))
                     results["failed"] += 1
     return results
+
+
+ALLOWED_EVENT_TYPES = {"cta_click", "form_submit", "page_view", "email_click"}
+
+
+def record_page_event(event_type: str, slug: str | None, extra: dict | None = None) -> tuple[bool, str]:
+    if event_type not in ALLOWED_EVENT_TYPES:
+        return False, f"Tipo de evento no permitido: {event_type}"
+    if not enabled():
+        return False, "Base de datos no configurada"
+    event_data = extra or {}
+    with connect() as conn:
+        with conn.cursor() as cur:
+            cur.execute(
+                "INSERT INTO page_events (event_type, slug, event_data) VALUES (%s, %s, %s)",
+                (event_type, slug or "", json.dumps(event_data)),
+            )
+    return True, "ok"
+
+
+def record_email_click(lead_id: int, slug: str, extra: dict | None = None) -> tuple[bool, str]:
+    if not enabled():
+        return False, "Base de datos no configurada"
+    event_data = {"slug": slug, **(extra or {})}
+    with connect() as conn:
+        with conn.cursor() as cur:
+            cur.execute(
+                "INSERT INTO lead_events (lead_id, event_type, event_data) VALUES (%s, %s, %s)",
+                (lead_id, "email_click", json.dumps(event_data)),
+            )
+            cur.execute(
+                "INSERT INTO page_events (event_type, slug, event_data) VALUES (%s, %s, %s)",
+                ("email_click", slug or "", json.dumps(event_data)),
+            )
+    return True, "ok"

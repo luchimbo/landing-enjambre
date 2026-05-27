@@ -2,5 +2,11 @@
   "buildCommand": "python build_landings.py build --base-url https://blog.pcmidicenter.com",
   "outputDirectory": "site",
   "cleanUrls": true,
-  "trailingSlash": true
+  "trailingSlash": true,
+  "crons": [
+    {
+      "path": "/api/nurture",
+      "schedule": "0 */4 * * *"
+    }
+  ]
 }
