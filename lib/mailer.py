@@ -41,7 +41,16 @@ def _tracking_secret() -> str:
 
 
 def _tracking_base_url() -> str:
-    return os.getenv("NURTURE_TRACK_BASE_URL") or os.getenv("NURTURE_UNSUBSCRIBE_BASE_URL", "").replace("/api/unsubscribe/", "")
+    explicit = os.getenv("NURTURE_TRACK_BASE_URL", "").strip()
+    if explicit:
+        return explicit
+    raw = os.getenv("NURTURE_UNSUBSCRIBE_BASE_URL", "").strip()
+    if not raw:
+        return ""
+    parsed = urllib.parse.urlparse(raw)
+    if parsed.scheme and parsed.netloc:
+        return f"{parsed.scheme}://{parsed.netloc}"
+    return raw
 
 
 def signed_tracking_url(category_url: str, lead_id: int | None = None, slug: str = "", day_number: int | None = None) -> str:
@@ -164,8 +173,8 @@ def _build_cta_html(category_url: str, category_name: str) -> str:
     return f'''
 <div style="margin: 28px 0; text-align: center;">
   <div style="background: linear-gradient(135deg, #fef6f1 0%, #fff 100%); border: 2px solid #EB6517; border-radius: 12px; padding: 24px;">
-    <p style="margin: 0 0 16px 0; font-size: 16px; color: #1D1D1B; font-weight: 600;">¿Listo para comparar opciones reales?</p>
-    <p style="margin: 0 0 20px 0; font-size: 14px; color: #666;">Revisa {display_name} en PC MIDI Center y elegi segun tu caso de uso.</p>
+    <p style="margin: 0 0 16px 0; font-size: 16px; color: #1D1D1B; font-weight: 600;">¿Querés ver modelos concretos?</p>
+    <p style="margin: 0 0 20px 0; font-size: 14px; color: #666;">Mirá los {display_name} que tenemos en PC MIDI Center y compará según lo que estés buscando.</p>
     <a href="{category_url}" style="display: inline-block; background: linear-gradient(135deg, #EB6517 0%, #d45a14 100%); color: #ffffff; text-decoration: none; padding: 14px 32px; border-radius: 8px; font-size: 15px; font-weight: 600; letter-spacing: 0.5px; box-shadow: 0 4px 12px rgba(235,101,23,0.3);">Ver {display_name}</a>
   </div>
 </div>'''
@@ -177,8 +186,8 @@ def build_html_body(body_text: str, unsubscribe_url: str = "", category_url: str
     if unsubscribe_url:
         unsubscribe_html = f'''<div style="margin-top: 20px; padding-top: 16px; border-top: 1px solid #eee;">
 <span style="font-size: 12px; color: #888;">
-Si no queres recibir mas emails de esta guia, podes darte de baja desde
-<a href="{unsubscribe_url}" style="color: #EB6517; text-decoration: underline;">este enlace</a>.
+Si ya no querés recibir estos correos, podés
+<a href="{unsubscribe_url}" style="color: #EB6517; text-decoration: underline;">darte de baja acá</a>.
 </span></div>'''
 
     content_html = _parse_email_body(body_text)
@@ -261,7 +270,7 @@ def send_email(
 
         # Adjuntar versiones texto y HTML
         if unsubscribe_url:
-            body_text = body_text.rstrip() + f"\n\nPara darte de baja de esta secuencia: {unsubscribe_url}"
+            body_text = body_text.rstrip() + f"\n\nSi ya no querés recibir estos correos, podés darte de baja acá: {unsubscribe_url}"
 
         msg.attach(MIMEText(body_text, "plain", "utf-8"))
         msg.attach(MIMEText(build_html_body(

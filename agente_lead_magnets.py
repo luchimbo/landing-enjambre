@@ -181,7 +181,15 @@ Tipos de recursos permitidos:
 - script: guion de preguntas o proceso
 - mapa de decision: diagrama de flujo de decision
 
-La secuencia de nutricion debe aportar valor real y mantener relacion directa con la intencion original."""
+La secuencia de nutricion debe aportar valor real y mantener relacion directa con la intencion original.
+
+Tono y estilo de los emails (MUY IMPORTANTE):
+- Escribi como una persona real de Argentina que sabe del tema, no como un folleto de marketing.
+- Usa voseo natural (tenes, queres, mira, fijate, proba), sin sonar forzado.
+- Evita frases vacias de marketing tipo "opciones reales", "segun tu caso de uso", "lleva tu sonido al siguiente nivel", "no te lo podes perder".
+- Nada de urgencia falsa ni venta agresiva. El objetivo es ayudar a decidir, no presionar.
+- Frases cortas y directas. Que se lea como un mensaje util de alguien que te quiere dar una mano.
+- El cierre hacia productos debe ser una invitacion suave y honesta a mirar opciones, no un grito de venta."""
 
     user = f"""Landing:
 - keyword: {landing.get('keyword', '')}
@@ -200,15 +208,15 @@ Genera un lead magnet JSON con exactamente esta forma:
   "nurture_sequence": {{
     "day_0": {{
       "subject": "asunto del email",
-      "body": "cuerpo del email que entrega el recurso (2-3 parrafos maximo, con tono util y amigable)"
+      "body": "cuerpo del email que entrega el recurso (2-3 parrafos maximo, voseo natural, calido y sin sonar a marketing)"
     }},
     "day_3": {{
       "subject": "asunto del email",
-      "body": "tip tecnico util relacionado con la busqueda (2-3 parrafos, sin venta agresiva)"
+      "body": "tip tecnico util relacionado con la busqueda (2-3 parrafos, voseo natural, sin venta agresiva ni frases hechas)"
     }},
     "day_5": {{
-      "subject": "asunto del email", 
-      "body": "cierre suave hacia categorias o productos relevantes (2-3 parrafos, mencionando que puede comparar opciones en pcmidi.com.ar)"
+      "subject": "asunto del email",
+      "body": "cierre suave hacia categorias o productos relevantes (2-3 parrafos, voseo natural, invitando con honestidad a mirar opciones en pcmidi.com.ar sin presionar)"
     }}
   }},
   "form_fields": ["email", "nombre_opcional"],
