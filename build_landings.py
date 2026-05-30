@@ -27,6 +27,7 @@ PRODUCTS_PATH = DATA_DIR / "productos_pcmidi.json"
 SEED_TOPICS_PATH = DATA_DIR / "temas_semilla.csv"
 LANDINGS_PATH = DATA_DIR / "landings_aprobadas.jsonl"
 OPPORTUNITIES_PATH = DATA_DIR / "oportunidades_research.jsonl"
+CONTENT_FEEDBACK_PATH = DATA_DIR / "content_feedback.jsonl"
 TEMPLATE_PATH = TEMPLATES_DIR / "landing-static-template.html"
 MAX_GENERATE_PER_RUN = 50
 MAX_GENERATE_PER_DAY = 50
@@ -643,6 +644,114 @@ def research_opportunities(limit: int, use_web: bool = True) -> None:
     print(f"Oportunidades nuevas: {len(opportunities)} en {OPPORTUNITIES_PATH}")
 
 
+def discover_opportunities(limit: int = 30, use_reddit: bool = True, use_youtube: bool = True) -> None:
+    """Descubre nuevas oportunidades desde content_feedback, Reddit y YouTube RSS."""
+    categories = load_categories()
+    products = load_products()
+    existing_landings = load_landings()
+    existing_opps = load_jsonl(OPPORTUNITIES_PATH)
+    seen = {topic_key_from_record(item) for item in existing_landings}
+    seen.update(topic_key_from_record(item) for item in existing_opps)
+
+    opportunities: list[dict] = []
+
+    # Fuente 1: gaps de content_feedback.jsonl (sin HTTP, gratis)
+    signals_to_discover = {"high_traffic_low_capture", "strong_conversion_pattern", "leads_low_commercial_intent"}
+    for entry in load_jsonl(CONTENT_FEEDBACK_PATH):
+        if len(opportunities) >= limit:
+            break
+        signal = entry.get("signal", "")
+        entry_type = entry.get("type", "")
+        if signal not in signals_to_discover and entry_type != "gap":
+            continue
+        slug = entry.get("slug", "")
+        keyword = entry.get("keyword") or slug.replace("-", " ").strip()
+        if not keyword:
+            continue
+        key = topic_key(keyword)
+        if not key or key in seen:
+            continue
+        opp = opportunity_from_keyword(keyword, "gap_detectado_conversion", "content_feedback", categories, products)
+        if opp:
+            opportunities.append(opp)
+            seen.add(key)
+
+    # Fuente 2: Reddit — títulos de posts en subreddits de música
+    if use_reddit and len(opportunities) < limit:
+        try:
+            import sys as _sys
+            _sys.path.insert(0, str(ROOT / "src"))
+            from authority_swarm.sources.reddit import search_reddit
+            question_signals = ["?", "cual", "cuál", "cómo", "como", "que ", "qué ", "recomendacion", "ayuda", "help", "suggest", "recommend"]
+            seeds = load_seed_topics()[:15]
+            for seed in seeds:
+                if len(opportunities) >= limit:
+                    break
+                kw = seed.get("keyword", "")
+                if not kw:
+                    continue
+                try:
+                    results = search_reddit(kw, limit=3)
+                except Exception:
+                    continue
+                for result in results:
+                    if len(opportunities) >= limit:
+                        break
+                    title = (result.get("title") or "").strip()
+                    snippet = (result.get("snippet") or result.get("original_text") or "")[:500]
+                    if not title or not any(s in title.lower() for s in question_signals):
+                        continue
+                    if not (8 <= len(title) <= 95):
+                        continue
+                    key = topic_key(title)
+                    if not key or key in seen:
+                        continue
+                    opp = opportunity_from_keyword(title, "pregunta_detectada_reddit", "reddit", categories, products, evidence=snippet)
+                    if opp:
+                        opportunities.append(opp)
+                        seen.add(key)
+        except Exception as exc:
+            print(f"discover: reddit no disponible ({exc})")
+
+    # Fuente 3: YouTube RSS — títulos de videos como seed candidates
+    if use_youtube and len(opportunities) < limit:
+        try:
+            import sys as _sys
+            _sys.path.insert(0, str(ROOT / "src"))
+            from authority_swarm.sources.youtube_rss import search_youtube_rss
+            seeds = load_seed_topics()[:10]
+            for seed in seeds:
+                if len(opportunities) >= limit:
+                    break
+                kw = seed.get("keyword", "")
+                if not kw:
+                    continue
+                try:
+                    results = search_youtube_rss(kw, limit=3)
+                except Exception:
+                    continue
+                for result in results:
+                    if len(opportunities) >= limit:
+                        break
+                    title = (result.get("title") or "").strip()
+                    snippet = (result.get("snippet") or result.get("original_text") or "")[:500]
+                    if not title or not (8 <= len(title) <= 95):
+                        continue
+                    key = topic_key(title)
+                    if not key or key in seen:
+                        continue
+                    opp = opportunity_from_keyword(title, "contenido_detectado_youtube", "youtube_rss", categories, products, evidence=snippet)
+                    if opp:
+                        opportunities.append(opp)
+                        seen.add(key)
+        except Exception as exc:
+            print(f"discover: youtube_rss no disponible ({exc})")
+
+    if opportunities:
+        append_jsonl(OPPORTUNITIES_PATH, opportunities)
+    print(f"discover: {len(opportunities)} nuevas oportunidades (feedback={sum(1 for o in opportunities if o.get('source')=='content_feedback')}, reddit={sum(1 for o in opportunities if o.get('source')=='reddit')}, youtube={sum(1 for o in opportunities if o.get('source')=='youtube_rss')})")
+
+
 def generate_landings(limit: int, model: str, dry_run: bool = False, max_seconds: int = 0) -> dict:
     requested_limit = limit
     limit = enforce_generation_limits(limit) if not dry_run else min(limit, MAX_GENERATE_PER_RUN)
@@ -759,7 +868,7 @@ def render_landing(landing: dict, categories: dict[str, dict], products: dict[st
         <div class="lead-magnet-form">
           <h3>Recibir el {magnet_type}</h3>
           <p>Dejanos tu email y te enviamos el recurso directamente.</p>
-          <form action="/api/leads/" method="POST" class="lm-form">
+          <form action="/api/leads" method="POST" class="lm-form">
             <input type="email" name="email" placeholder="tu@email.com" required class="lm-input" aria-label="Email">
             <input type="text" name="nombre" placeholder="Nombre (opcional)" class="lm-input" aria-label="Nombre">
             <label class="lm-privacy" style="display:flex; gap:.55rem; align-items:flex-start; margin:.2rem 0 .9rem;"><input type="checkbox" name="consentimiento" value="true" required style="margin-top:.2rem;">Acepto recibir este recurso, informacion util y novedades de PC MIDI Labs.</label>
@@ -1165,13 +1274,17 @@ def main() -> None:
     research_parser = sub.add_parser("research")
     research_parser.add_argument("--limit", type=int, default=50, help="Cantidad maxima de oportunidades nuevas")
     research_parser.add_argument("--no-web", action="store_true", help="No intenta buscar sugerencias web")
+    discover_parser = sub.add_parser("discover")
+    discover_parser.add_argument("--limit", type=int, default=30, help="Maximo de oportunidades a descubrir")
+    discover_parser.add_argument("--no-reddit", action="store_true", help="No busca en Reddit")
+    discover_parser.add_argument("--no-youtube", action="store_true", help="No busca en YouTube RSS")
     generate_parser = sub.add_parser("generate")
-    generate_parser.add_argument("--limit", type=int, default=5, help="Cantidad maxima de landings nuevas")
+    generate_parser.add_argument("--limit", type=int, default=50, help="Cantidad maxima de landings nuevas")
     generate_parser.add_argument("--model", default=os.environ.get("OPENROUTER_MODEL", DEFAULT_MODEL), help="Modelo OpenRouter")
     generate_parser.add_argument("--dry-run", action="store_true", help="Genera y valida sin guardar")
     generate_parser.add_argument("--max-seconds", type=int, default=0, help="Corta ordenadamente la generacion despues de N segundos")
     run_parser = sub.add_parser("run")
-    run_parser.add_argument("--limit", type=int, default=5, help="Cantidad maxima de landings nuevas")
+    run_parser.add_argument("--limit", type=int, default=50, help="Cantidad maxima de landings nuevas")
     run_parser.add_argument("--model", default=os.environ.get("OPENROUTER_MODEL", DEFAULT_MODEL), help="Modelo OpenRouter")
     run_parser.add_argument("--base-url", default="", help="URL del subdominio para canonical/sitemap")
     run_parser.add_argument("--dry-run", action="store_true", help="Ejecuta sin guardar landings ni reconstruir site")
@@ -1188,6 +1301,8 @@ def main() -> None:
         print(f"Sitio generado en {SITE_DIR}")
     elif args.command == "research":
         research_opportunities(limit=args.limit, use_web=not args.no_web)
+    elif args.command == "discover":
+        discover_opportunities(limit=args.limit, use_reddit=not args.no_reddit, use_youtube=not args.no_youtube)
     elif args.command == "generate":
         generate_landings(limit=args.limit, model=args.model, dry_run=args.dry_run, max_seconds=args.max_seconds)
     elif args.command == "run":

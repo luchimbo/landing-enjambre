@@ -3,18 +3,25 @@ import hashlib
 import json
 import os
 import re
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
-
-import psycopg
-from psycopg.rows import dict_row
 
 from lib.env import load_env
 from lib.mailer import send_email
 
 
 ROOT = Path(__file__).resolve().parent.parent
+VENDOR_DIR = ROOT / ".vendor" / "py313"
+if VENDOR_DIR.exists():
+    vendor_path = str(VENDOR_DIR)
+    if vendor_path not in sys.path:
+        sys.path.insert(0, vendor_path)
+
+import psycopg
+from psycopg.rows import dict_row
+
 DATA_DIR = ROOT / "data"
 LEAD_MAGNETS_FILE = DATA_DIR / "lead_magnets.jsonl"
 LANDINGS_FILE = DATA_DIR / "landings_aprobadas.jsonl"

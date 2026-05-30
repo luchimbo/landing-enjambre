@@ -190,6 +190,10 @@ python swarm.py validate
 python swarm.py build --base-url https://blog.pcmidicenter.com
 python swarm.py deploy --base-url https://blog.pcmidicenter.com
 
+# Supervisor permanente
+python swarm.py watch
+python swarm.py watch --once --dry-run --no-browser --no-geo
+
 # Agentes especificos
 python swarm.py nurture --limit 50
 python swarm.py conversion --window-days 30 --min-views 50

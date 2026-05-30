@@ -10,7 +10,7 @@
 #>
 param(
     [switch]$DryRun,
-    [int]$Limit = 5,
+    [int]$Limit = 50,
     [string]$BaseUrl = "https://blog.pcmidicenter.com"
 )
 

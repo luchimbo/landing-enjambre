@@ -23,7 +23,16 @@ import hashlib
 from datetime import datetime, timezone
 from pathlib import Path
 
+import functools
+import subprocess
+import time
 from collections import Counter
+
+ROOT = Path(__file__).resolve().parent
+VENDOR_DIR = ROOT / ".vendor"
+if VENDOR_DIR.exists():
+    sys.path.insert(0, str(VENDOR_DIR))
+
 from flask import Flask, jsonify, render_template, request
 
 # Agregar parent al path para importar desde lib/
@@ -44,6 +53,21 @@ ENGAGEMENT_LOG    = DATA_DIR / "engagement_log.jsonl"
 DISTRIBUTION_LOG  = DATA_DIR / "distribution_log.jsonl"
 GEO_AUDITS_LOG    = DATA_DIR / "geo_audits.jsonl"
 CONTENT_FEEDBACK  = DATA_DIR / "content_feedback.jsonl"
+HEARTBEAT_PATH    = DATA_DIR / "agent_heartbeat.json"
+
+AGENT_PROCESS_MAP = {
+    "research": ["build_landings.py research", "swarm.py research"],
+    "generate": ["build_landings.py generate", "swarm.py generate"],
+    "build": ["build_landings.py build", "swarm.py build"],
+    "nurture": ["agente_4_nurture.py", "swarm.py nurture"],
+    "conversion": ["agente_conversion.py", "swarm.py conversion", "swarm.py feedback"],
+    "distribution": ["agente_distribucion.py", "swarm.py distribution"],
+    "publicacion": ["agente_publicacion.py", "swarm.py publish", "swarm.py assist-comment"],
+    "geo_audit": ["agente_geo_audit.py", "swarm.py geo-audit"],
+    "browser": ["agente_browser_cdp.py", "swarm.py auto-browser", "swarm.py auto-distribution"],
+    "weekly": ["swarm.py weekly", "swarm.py daily", "swarm.py midday"],
+}
+_AGENT_STATUS_CACHE = {"expires": 0.0, "data": None}
 
 # Cargar .env
 ENV_FILE = ROOT / ".env"
@@ -377,7 +401,7 @@ def health_check():
     })
 
 
-@app.route("/api/leads", methods=["POST"])
+@app.route("/api/leads", methods=["POST"], strict_slashes=False)
 def create_lead_endpoint():
     """
     Recibe datos del formulario de una landing.
@@ -543,6 +567,16 @@ def get_stats():
     })
 
 
+# ─── Dashboard auth ────────────────────────────────────────────────────────────
+
+def _dashboard_auth(f):
+    """Dashboard abierto para uso local."""
+    @functools.wraps(f)
+    def decorated(*args, **kwargs):
+        return f(*args, **kwargs)
+    return decorated
+
+
 # ─── Dashboard utilities ───────────────────────────────────────────────────────
 
 def _iter_jsonl(path):
@@ -595,6 +629,48 @@ def _count_jsonl_where(path, field, value):
     return sum(1 for r in _iter_jsonl(path) if r.get(field) == value)
 
 
+def _publication_status(rec: dict) -> str:
+    if rec.get("auto_published_channels"):
+        return "published"
+    if rec.get("auto_publish_failures"):
+        return "failed"
+    return rec.get("status") or "unknown"
+
+
+def _publication_item(rec: dict) -> dict:
+    publish_result = rec.get("auto_publish_result") or {}
+    channel = rec.get("channel") or rec.get("community") or "distribucion"
+    action = "publicacion" if rec.get("content_type") in {"post_educativo", "snippet_social"} else "comentario"
+    if rec.get("approval_mode") == "auto_listen":
+        action = "respuesta"
+    return {
+        "source": "distribution",
+        "action": action,
+        "channel": channel,
+        "community": rec.get("community") or channel,
+        "status": _publication_status(rec),
+        "title": rec.get("title") or rec.get("source_thread_title") or rec.get("landing_slug") or "Publicacion",
+        "body": rec.get("body", ""),
+        "target_url": (
+            rec.get("published_url")
+            or rec.get("source_thread_url")
+            or publish_result.get("url")
+            or rec.get("landing_url")
+            or ""
+        ),
+        "landing_url": rec.get("landing_url", ""),
+        "published_channels": sorted((rec.get("auto_published_channels") or {}).keys()),
+        "failure_channels": sorted((rec.get("auto_publish_failures") or {}).keys()),
+        "ts": _norm_ts(
+            rec.get("published_at")
+            or rec.get("auto_publish_attempted_at_utc")
+            or rec.get("approved_at_utc")
+            or rec.get("created_at_utc")
+            or ""
+        ),
+    }
+
+
 def _norm_ts(ts):
     if not ts:
         return ""
@@ -609,6 +685,13 @@ def _norm_ts(ts):
     except Exception:
         pass
     return ts
+
+
+def _sort_ts(value):
+    norm = _norm_ts(value)
+    if not norm:
+        return ""
+    return norm
 
 
 def _latest_report(patterns):
@@ -634,6 +717,110 @@ def _count_report_items(value):
     return 0
 
 
+def _running_python_processes() -> list[dict]:
+    if os.name == "nt":
+        cmd = [
+            "powershell",
+            "-NoProfile",
+            "-Command",
+            (
+                "Get-CimInstance Win32_Process | "
+                "Where-Object { $_.Name -match 'python|py.exe' } | "
+                "Select-Object ProcessId,CommandLine | ConvertTo-Json -Compress"
+            ),
+        ]
+        try:
+            proc = subprocess.run(cmd, capture_output=True, text=True, timeout=4)
+            if proc.returncode != 0 or not proc.stdout.strip():
+                return []
+            raw = json.loads(proc.stdout)
+            rows = raw if isinstance(raw, list) else [raw]
+            return [
+                {"pid": row.get("ProcessId"), "cmd": row.get("CommandLine") or ""}
+                for row in rows
+                if row.get("CommandLine")
+            ]
+        except Exception:
+            return []
+
+    try:
+        proc = subprocess.run(["ps", "-eo", "pid=,args="], capture_output=True, text=True, timeout=4)
+    except Exception:
+        return []
+    rows = []
+    for line in proc.stdout.splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        pid, _, cmdline = line.partition(" ")
+        if "python" in cmdline.lower():
+            rows.append({"pid": pid, "cmd": cmdline})
+    return rows
+
+
+def _read_agent_heartbeat() -> dict:
+    if not HEARTBEAT_PATH.exists():
+        return {}
+    try:
+        heartbeat = json.loads(HEARTBEAT_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+    updated = heartbeat.get("updated_at") or ""
+    try:
+        dt = datetime.fromisoformat(updated.replace("Z", "+00:00"))
+        heartbeat["age_seconds"] = max(0, round((datetime.now(timezone.utc) - dt).total_seconds()))
+        heartbeat["fresh"] = heartbeat["age_seconds"] <= 90
+    except Exception:
+        heartbeat["age_seconds"] = None
+        heartbeat["fresh"] = False
+    return heartbeat
+
+
+def _active_agent_status() -> dict:
+    now = time.time()
+    cached = _AGENT_STATUS_CACHE.get("data")
+    if cached and now < _AGENT_STATUS_CACHE.get("expires", 0):
+        return cached
+
+    current_pid = str(os.getpid())
+    agents = []
+    for proc in _running_python_processes():
+        pid = str(proc.get("pid") or "")
+        cmdline = " ".join((proc.get("cmd") or "").split())
+        lower = cmdline.lower().replace("\\", "/")
+        if pid == current_pid or "api_server.py" in lower:
+            continue
+        for agent, needles in AGENT_PROCESS_MAP.items():
+            if any(needle.lower().replace("\\", "/") in lower for needle in needles):
+                agents.append({"agent": agent, "pid": pid, "command": cmdline[:240]})
+                break
+
+    seen = set()
+    unique_agents = []
+    for item in agents:
+        key = (item["agent"], item["pid"])
+        if key not in seen:
+            seen.add(key)
+            unique_agents.append(item)
+
+    data = {
+        "state": "active" if unique_agents else "sleeping",
+        "active_count": len(unique_agents),
+        "active_agents": unique_agents,
+        "checked_at": datetime.now(timezone.utc).isoformat(),
+    }
+    heartbeat = _read_agent_heartbeat()
+    if heartbeat:
+        data["heartbeat"] = heartbeat
+        if heartbeat.get("fresh") and data["state"] == "sleeping":
+            data["state"] = "guard"
+        if heartbeat.get("fresh") and heartbeat.get("state") == "working":
+            data["state"] = "active"
+    _AGENT_STATUS_CACHE["data"] = data
+    _AGENT_STATUS_CACHE["expires"] = now + 5
+    return data
+
+
 def _report_status(raw):
     if raw.get("status"):
         return raw["status"]
@@ -644,40 +831,112 @@ def _report_status(raw):
     return "ok"
 
 
+def _recent_report_items(limit=8):
+    allowed = (
+        "swarm-daily", "swarm-weekly", "nurture-process", "conversion-run",
+        "distribution-run", "publicacion-publish", "publicacion-search",
+        "geo-audit-run", "swarm-engage", "generate", "build",
+    )
+    candidates = []
+    for path in REPORTS_DIR.glob("*.json"):
+        if not any(token in path.name for token in allowed):
+            continue
+        candidates.append(path)
+    candidates.sort(key=lambda p: p.name, reverse=True)
+
+    items = []
+    for path in candidates[:limit * 2]:
+        try:
+            raw = json.loads(path.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        command = raw.get("command") or path.stem
+        status = _report_status(raw)
+        title = {
+            "daily": "Flujo diario ejecutado",
+            "weekly": "Flujo semanal ejecutado",
+            "process": "Nurture procesado",
+            "run": "Agente ejecutado",
+            "distribution": "Piezas de distribucion generadas",
+            "publish": "Publicacion procesada",
+            "search": "Busqueda de hilos procesada",
+            "build": "Sitio estatico construido",
+            "generate": "Landings generadas",
+            "engage": "Engagement ejecutado",
+        }.get(command, command)
+        detail_bits = []
+        if raw.get("steps"):
+            detail_bits.append(f"{len(raw.get('steps') or [])} pasos")
+        if raw.get("landings_selected") is not None:
+            detail_bits.append(f"{raw.get('landings_selected')} landings")
+        if raw.get("pieces_proposed") is not None:
+            detail_bits.append(f"{raw.get('pieces_proposed')} propuestas")
+        if raw.get("pieces_blocked") is not None:
+            detail_bits.append(f"{raw.get('pieces_blocked')} bloqueadas")
+        if raw.get("published") is not None:
+            detail_bits.append(f"{raw.get('published')} publicadas")
+        if raw.get("landings_analyzed") is not None:
+            detail_bits.append(f"{raw.get('landings_analyzed')} landings analizadas")
+        if raw.get("results"):
+            results = raw.get("results") or {}
+            detail_bits.append(
+                f"{results.get('sent', 0)} enviados, {results.get('failed', 0)} fallidos"
+            )
+        items.append({
+            "source": "report",
+            "kind": command,
+            "title": title,
+            "detail": " · ".join(detail_bits) or path.name,
+            "status": status,
+            "ts": _norm_ts(raw.get("timestamp_utc", "")),
+        })
+    return items
+
+
 # ─── Dashboard endpoints ────────────────────────────────────────────────────────
 
 @app.route("/dashboard")
+@_dashboard_auth
 def dashboard():
-    return render_template("dashboard.html")
+    return render_template("dashboard.html", auth_b64="")
 
 
 @app.route("/api/dashboard/summary")
+@_dashboard_auth
 def dashboard_summary():
     leads = {"total": 0, "active": 0, "unsubscribed": 0}
     emails = {"sent": 0, "pending": 0, "failed": 0}
     try:
-        conn = get_db_connection()
-        cur = conn.cursor()
-        cur.execute("SELECT COUNT(*) FROM leads")
-        leads["total"] = cur.fetchone()[0]
-        cur.execute("SELECT COUNT(*) FROM leads WHERE status='active'")
-        leads["active"] = cur.fetchone()[0]
-        cur.execute("SELECT COUNT(*) FROM leads WHERE status='unsubscribed'")
-        leads["unsubscribed"] = cur.fetchone()[0]
-        cur.execute("SELECT COUNT(*) FROM nurture_messages WHERE status='sent'")
-        emails["sent"] = cur.fetchone()[0]
-        cur.execute("SELECT COUNT(*) FROM nurture_messages WHERE status='pending'")
-        emails["pending"] = cur.fetchone()[0]
-        cur.execute("SELECT COUNT(*) FROM nurture_messages WHERE status='failed'")
-        emails["failed"] = cur.fetchone()[0]
-        conn.close()
+        if nurture_pg.enabled():
+            pg_stats = nurture_pg.stats()
+            leads = pg_stats["leads"]
+            emails = pg_stats["messages"]
+        else:
+            conn = get_db_connection()
+            cur = conn.cursor()
+            cur.execute("SELECT COUNT(*) FROM leads")
+            leads["total"] = cur.fetchone()[0]
+            cur.execute("SELECT COUNT(*) FROM leads WHERE status='active'")
+            leads["active"] = cur.fetchone()[0]
+            cur.execute("SELECT COUNT(*) FROM leads WHERE status='unsubscribed'")
+            leads["unsubscribed"] = cur.fetchone()[0]
+            cur.execute("SELECT COUNT(*) FROM nurture_messages WHERE status='sent'")
+            emails["sent"] = cur.fetchone()[0]
+            cur.execute("SELECT COUNT(*) FROM nurture_messages WHERE status='pending'")
+            emails["pending"] = cur.fetchone()[0]
+            cur.execute("SELECT COUNT(*) FROM nurture_messages WHERE status='failed'")
+            emails["failed"] = cur.fetchone()[0]
+            conn.close()
     except Exception:
         pass
 
+    post_statuses = Counter(_publication_status(r) for r in _iter_jsonl(DISTRIBUTION_LOG))
     posts = {
-        "published": _count_jsonl_where(DISTRIBUTION_LOG, "status", "published"),
-        "proposed":  _count_jsonl_where(DISTRIBUTION_LOG, "status", "proposed"),
-        "blocked":   _count_jsonl_where(DISTRIBUTION_LOG, "status", "blocked"),
+        "published": post_statuses.get("published", 0),
+        "approved":  post_statuses.get("approved", 0),
+        "proposed":  post_statuses.get("proposed", 0),
+        "failed":    post_statuses.get("failed", 0),
+        "blocked":   post_statuses.get("blocked", 0),
     }
 
     eng_total = _count_jsonl_lines(ENGAGEMENT_LOG)
@@ -700,7 +959,14 @@ def dashboard_summary():
     })
 
 
+@app.route("/api/dashboard/agent-status")
+@_dashboard_auth
+def dashboard_agent_status():
+    return jsonify(_active_agent_status())
+
+
 @app.route("/api/dashboard/agents")
+@_dashboard_auth
 def dashboard_agents():
     AGENT_PATTERNS = {
         "nurture":      ["*-nurture-*.json"],
@@ -758,6 +1024,7 @@ def dashboard_agents():
 
 
 @app.route("/api/dashboard/last-workflow")
+@_dashboard_auth
 def dashboard_last_workflow():
     report = _latest_report(["*-daily.json", "*-weekly.json"])
     if not report:
@@ -779,6 +1046,7 @@ def dashboard_last_workflow():
 
 
 @app.route("/api/dashboard/activity")
+@_dashboard_auth
 def dashboard_activity():
     limit = min(int(request.args.get("limit", 30)), 100)
     items = []
@@ -800,7 +1068,100 @@ def dashboard_activity():
     return jsonify(items[:limit])
 
 
+@app.route("/api/dashboard/new-work")
+@_dashboard_auth
+def dashboard_new_work():
+    limit = min(int(request.args.get("limit", 8)), 20)
+    items = []
+
+    items.extend(_recent_report_items(limit=limit))
+
+    for rec in _tail_jsonl(DISTRIBUTION_LOG, n=limit * 2):
+        channel = rec.get("channel") or rec.get("community") or "distribucion"
+        status = rec.get("status") or "unknown"
+        title = rec.get("title") or rec.get("source_thread_title") or rec.get("landing_slug") or "Pieza de distribucion"
+        items.append({
+            "source": "distribution",
+            "kind": channel,
+            "title": f"{channel}: {title}",
+            "detail": rec.get("notes") or rec.get("body", "")[:140],
+            "status": status,
+            "ts": _norm_ts(rec.get("created_at_utc", "")),
+            "url": rec.get("source_thread_url") or rec.get("landing_url") or rec.get("published_url") or "",
+        })
+
+    for rec in _tail_jsonl(CONTENT_FEEDBACK, n=limit):
+        items.append({
+            "source": "feedback",
+            "kind": rec.get("type") or rec.get("gap_type") or "feedback",
+            "title": "Nueva oportunidad detectada",
+            "detail": rec.get("suggestion") or rec.get("prompt") or rec.get("landing_slug") or "",
+            "status": rec.get("priority") or "info",
+            "ts": _norm_ts(rec.get("created_at_utc") or rec.get("timestamp_utc") or ""),
+            "url": rec.get("source_url", ""),
+        })
+
+    for rec in _tail_jsonl(ENGAGEMENT_LOG, n=limit):
+        platform = rec.get("platform") or "engagement"
+        items.append({
+            "source": "engagement",
+            "kind": platform,
+            "title": f"{platform}: {rec.get('action') or 'accion'}",
+            "detail": rec.get("comment") or rec.get("target_user") or rec.get("target_url") or "",
+            "status": rec.get("status") or "unknown",
+            "ts": _norm_ts(rec.get("ts", "")),
+            "url": rec.get("target_url", ""),
+        })
+
+    items = [item for item in items if item.get("ts")]
+    items.sort(key=lambda item: _sort_ts(item.get("ts", "")), reverse=True)
+    return jsonify(items[:limit])
+
+
+@app.route("/api/dashboard/publications")
+@_dashboard_auth
+def dashboard_publications():
+    limit = min(int(request.args.get("limit", 12)), 50)
+    items = []
+
+    for rec in _tail_jsonl(DISTRIBUTION_LOG, n=limit * 3):
+        items.append(_publication_item(rec))
+
+    for rec in _tail_jsonl(ENGAGEMENT_LOG, n=limit * 2):
+        items.append({
+            "source": "engagement",
+            "action": rec.get("action") or "comentario",
+            "channel": rec.get("platform") or "engagement",
+            "community": rec.get("target_user") or rec.get("hashtag") or rec.get("platform") or "",
+            "status": rec.get("status") or "unknown",
+            "title": rec.get("target_user") or rec.get("target_url") or "Comentario",
+            "body": rec.get("comment", ""),
+            "target_url": rec.get("target_url", ""),
+            "landing_url": "",
+            "ts": _norm_ts(rec.get("ts", "")),
+        })
+
+    items = [item for item in items if item.get("ts")]
+    items.sort(key=lambda item: _sort_ts(item.get("ts", "")), reverse=True)
+    return jsonify(items[:limit])
+
+
+@app.route("/api/dashboard/published")
+@_dashboard_auth
+def dashboard_published():
+    limit = min(int(request.args.get("limit", 200)), 500)
+    items = [
+        _publication_item(rec)
+        for rec in _iter_jsonl(DISTRIBUTION_LOG)
+        if _publication_status(rec) == "published"
+    ]
+    items = [item for item in items if item.get("ts")]
+    items.sort(key=lambda item: _sort_ts(item.get("ts", "")), reverse=True)
+    return jsonify(items[:limit])
+
+
 @app.route("/api/dashboard/geo-summary")
+@_dashboard_auth
 def dashboard_geo_summary():
     entries = _tail_jsonl(GEO_AUDITS_LOG, n=100)
     scores = [e.get("score", 0) for e in entries if "score" in e]

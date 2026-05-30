@@ -91,6 +91,21 @@ CONTENT_TYPES = {
         "link_included": False,
         "risk_level": "low",
     },
+    "post_social": {
+        "channels": ["facebook", "instagram"],
+        "link_included": True,
+        "risk_level": "low",
+    },
+    "post_x": {
+        "channels": ["x"],
+        "link_included": False,
+        "risk_level": "low",
+    },
+    "respuesta_youtube": {
+        "channels": ["youtube"],
+        "link_included": True,
+        "risk_level": "low",
+    },
 }
 
 
@@ -316,6 +331,21 @@ def build_user_prompt(landing: dict, content_type: str) -> str:
         tone_note = "Tono: educativo, claro, sin venta agresiva. Maximo 250 palabras."
         link_note = f'Si suma contexto real, menciona: "{url}"'
         format_note = '"channel": "linkedin", "community": "LinkedIn"'
+    elif content_type == "post_social":
+        channel_note = "para Facebook o Instagram (publico general interesado en musica)"
+        tone_note = "Tono: conversacional, cercano, sin jerga tecnica. Maximo 200 palabras. Podes usar 1-2 emojis naturales."
+        link_note = f'Incluye al final: "{url}" como referencia para quien quiera profundizar.'
+        format_note = '"channel": "facebook", "community": "Facebook grupos produccion musical"'
+    elif content_type == "post_x":
+        channel_note = "para X (Twitter) — espacio limitado, impacto rapido"
+        tone_note = "Tono: directo, informativo. MAXIMO 270 caracteres totales incluyendo espacios. Sin link (penaliza alcance)."
+        link_note = "NO incluyas link. El texto debe funcionar solo."
+        format_note = '"channel": "x", "community": "X"'
+    elif content_type == "respuesta_youtube":
+        channel_note = "para comentar en un video de YouTube sobre produccion musical"
+        tone_note = "Tono: util, aportando valor tecnico como primer comentario. Maximo 250 palabras."
+        link_note = f'Si el tema lo justifica, incluye: "{url}" como recurso adicional.'
+        format_note = '"channel": "youtube", "community": "YouTube"'
     else:  # snippet_social
         channel_note = "para newsletter o comunidad que no permite links comerciales"
         tone_note = "Tono: util, breve, sin link directo. Maximo 150 palabras."

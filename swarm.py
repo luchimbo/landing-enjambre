@@ -1,14 +1,18 @@
 import argparse
 import json
+import os
 import subprocess
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent
+DATA_DIR = ROOT / "data"
 REPORTS_DIR = ROOT / "reports"
 BUILD_SCRIPT = ROOT / "build_landings.py"
+HEARTBEAT_PATH = DATA_DIR / "agent_heartbeat.json"
 
 PENDING_COMMANDS = set()
 LEAD_MAGNET_SCRIPT = ROOT / "agente_lead_magnets.py"
@@ -18,6 +22,18 @@ DISTRIBUTION_SCRIPT = ROOT / "agente_distribucion.py"
 CONVERSION_SCRIPT = ROOT / "agente_conversion.py"
 PUBLICACION_SCRIPT = ROOT / "agente_publicacion.py"
 BROWSER_CDP_SCRIPT = ROOT / "agente_browser_cdp.py"
+
+WATCH_DEFAULT_INTERVALS = {
+    "nurture": 15 * 60,
+    "conversion": 2 * 60 * 60,
+    "discover": 90 * 60,
+    "distribution": 45 * 60,
+    "publish": 45 * 60,
+    "auto_listen": 60 * 60,
+    "auto_distribution": 60 * 60,
+    "validate": 24 * 60 * 60,
+    "geo_audit": 7 * 24 * 60 * 60,
+}
 
 
 def timestamp() -> str:
@@ -33,19 +49,66 @@ def write_report(name: str, data: dict) -> Path:
     return path
 
 
-def run_step(step: str, args: list[str], script: Path | None = None) -> dict:
+def write_heartbeat(state: str, active_step: str = "", last_result: dict | None = None, next_runs: dict | None = None) -> None:
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "state": state,
+        "pid": os.getpid(),
+        "active_step": active_step,
+        "last_result": last_result or {},
+        "next_runs": next_runs or {},
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+    }
+    tmp = HEARTBEAT_PATH.with_suffix(".tmp")
+    tmp.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    tmp.replace(HEARTBEAT_PATH)
+
+
+def run_step(step: str, args: list[str], script: Path | None = None, heartbeat: bool = False) -> dict:
     target_script = str(script) if script else str(BUILD_SCRIPT)
     command = [sys.executable, target_script, *args]
     print(f"swarm: running {step}: {' '.join(command)}")
     started = timestamp()
-    result = subprocess.run(command, cwd=ROOT)
-    status = "ok" if result.returncode == 0 else "failed"
+    env = os.environ.copy()
+    vendor = str(ROOT / ".vendor")
+    env["PYTHONPATH"] = vendor + os.pathsep + env.get("PYTHONPATH", "")
+    try:
+        if heartbeat:
+            proc = subprocess.Popen(command, cwd=ROOT, env=env)
+            deadline = time.time() + 1800
+            while proc.poll() is None:
+                if time.time() > deadline:
+                    proc.kill()
+                    returncode = -1
+                    status = "timeout"
+                    print(f"swarm: TIMEOUT â€” {step} supero 30 minutos")
+                    break
+                write_heartbeat("working", active_step=step)
+                time.sleep(10)
+            else:
+                returncode = proc.returncode
+                status = "ok" if returncode == 0 else "failed"
+            return {
+                "step": step,
+                "command": command,
+                "started_utc": started,
+                "finished_utc": timestamp(),
+                "returncode": returncode,
+                "status": status,
+            }
+        result = subprocess.run(command, cwd=ROOT, timeout=1800, env=env)
+        returncode = result.returncode
+        status = "ok" if returncode == 0 else "failed"
+    except subprocess.TimeoutExpired:
+        returncode = -1
+        status = "timeout"
+        print(f"swarm: TIMEOUT — {step} supero 30 minutos")
     return {
         "step": step,
         "command": command,
         "started_utc": started,
         "finished_utc": timestamp(),
-        "returncode": result.returncode,
+        "returncode": returncode,
         "status": status,
     }
 
@@ -56,6 +119,15 @@ def lead_magnets_args(args: argparse.Namespace) -> list[str]:
         cmd.extend(["--model", args.model])
     if args.dry_run:
         cmd.append("--dry-run")
+    return cmd
+
+
+def discover_args(args: argparse.Namespace) -> list[str]:
+    cmd = ["discover", "--limit", str(getattr(args, "discover_limit", 30))]
+    if getattr(args, "no_reddit", False):
+        cmd.append("--no-reddit")
+    if getattr(args, "no_youtube", False):
+        cmd.append("--no-youtube")
     return cmd
 
 
@@ -248,7 +320,10 @@ def research_args(args: argparse.Namespace) -> list[str]:
 
 
 def run_single(args: argparse.Namespace) -> None:
-    if args.command == "generate":
+    if args.command == "discover":
+        command_args = discover_args(args)
+        step = run_step(args.command, command_args)
+    elif args.command == "generate":
         command_args = generate_args(args)
         step = run_step(args.command, command_args)
     elif args.command == "run":
@@ -335,6 +410,58 @@ def run_weekly(args: argparse.Namespace) -> None:
     print(f"swarm: weekly OK. Reporte: {report_path}")
 
 
+def run_midday(args: argparse.Namespace) -> None:
+    """Ciclo liviano que se puede correr 2-3 veces por dia.
+    Descubre oportunidades, genera piezas, publica por API y por CDP.
+    No toca nurture ni conversion (esos son una vez por dia en daily).
+    """
+    steps: list[dict] = []
+    workflow = "midday"
+    has_warnings = False
+
+    if not getattr(args, "no_discover", False):
+        if not soft_ok(run_step("discover", discover_args(args)), steps):
+            has_warnings = True
+
+    # Genera landings nuevas diariamente hasta el limite configurado y publica solo si pasa la compuerta.
+    require_ok(run_step("generate", generate_args(args)), steps, workflow)
+    require_ok(run_step("lead-magnets", lead_magnets_args(args), script=LEAD_MAGNET_SCRIPT), steps, workflow)
+    require_ok(run_step("validate-after-generate", ["validate"]), steps, workflow)
+    require_ok(run_step("build", ["build", *common_build_args(args)]), steps, workflow)
+    if args.dry_run:
+        steps.append({"step": "deploy", "status": "skipped", "reason": "dry_run"})
+    else:
+        require_ok(run_step("deploy", ["deploy", *common_build_args(args)]), steps, workflow)
+
+    dist_args = ["generate", "--limit", str(args.limit)]
+    if args.dry_run:
+        dist_args.append("--dry-run")
+    if not soft_ok(run_step("distribution-generate", dist_args, script=DISTRIBUTION_SCRIPT), steps):
+        has_warnings = True
+
+    approve_args = ["approve", "--limit", str(args.limit)]
+    if args.dry_run:
+        approve_args.append("--dry-run")
+    if not soft_ok(run_step("distribution-approve", approve_args, script=DISTRIBUTION_SCRIPT), steps):
+        has_warnings = True
+
+    if not soft_ok(run_step("search-threads", search_threads_args(args), script=PUBLICACION_SCRIPT), steps):
+        has_warnings = True
+
+    if not soft_ok(run_step("publish", publish_args(args), script=PUBLICACION_SCRIPT), steps):
+        has_warnings = True
+
+    auto_dist_args = ["auto-distribution", "--channels", "facebook,instagram,youtube,x", "--limit", "8", "--per-channel", "1"]
+    if args.dry_run:
+        auto_dist_args.append("--dry-run")
+    if not soft_ok(run_step("auto-distribution", auto_dist_args, script=BROWSER_CDP_SCRIPT), steps):
+        has_warnings = True
+
+    final_status = "ok_with_warnings" if has_warnings else "ok"
+    report_path = write_report(workflow, {"command": workflow, "status": final_status, "dry_run": args.dry_run, "steps": steps})
+    print(f"swarm: midday {final_status.upper()}. Reporte: {report_path}")
+
+
 def run_daily(args: argparse.Namespace) -> None:
     steps: list[dict] = []
     workflow = "daily"
@@ -358,7 +485,25 @@ def run_daily(args: argparse.Namespace) -> None:
     ):
         has_warnings = True
 
+    # Descubre nuevas oportunidades desde Reddit/YouTube/gaps de conversion
+    if not getattr(args, "no_discover", False):
+        if not soft_ok(
+            run_step("discover", discover_args(args)),
+            steps,
+        ):
+            has_warnings = True
+
     # Lee content_feedback.jsonl, genera piezas de distribución → distribution_log.jsonl
+    # Genera landings nuevas diariamente hasta el limite configurado y publica solo si pasa la compuerta.
+    require_ok(run_step("generate", generate_args(args)), steps, workflow)
+    require_ok(run_step("lead-magnets", lead_magnets_args(args), script=LEAD_MAGNET_SCRIPT), steps, workflow)
+    require_ok(run_step("validate-after-generate", ["validate"]), steps, workflow)
+    require_ok(run_step("build", ["build", *common_build_args(args)]), steps, workflow)
+    if args.dry_run:
+        steps.append({"step": "deploy", "status": "skipped", "reason": "dry_run"})
+    else:
+        require_ok(run_step("deploy", ["deploy", *common_build_args(args)]), steps, workflow)
+
     dist_args = ["generate", "--limit", str(args.limit)]
     if args.dry_run:
         dist_args.append("--dry-run")
@@ -392,12 +537,157 @@ def run_daily(args: argparse.Namespace) -> None:
     ):
         has_warnings = True
 
+    # Publica en Facebook/Instagram/YouTube/X via browser CDP (con límites diarios)
+    auto_dist_args = ["auto-distribution", "--channels", "facebook,instagram,youtube,x", "--limit", "8", "--per-channel", "1"]
+    if args.dry_run:
+        auto_dist_args.append("--dry-run")
+    if not soft_ok(
+        run_step("auto-distribution", auto_dist_args, script=BROWSER_CDP_SCRIPT),
+        steps,
+    ):
+        has_warnings = True
+
     final_status = "ok_with_warnings" if has_warnings else "ok"
     report_path = write_report(
         workflow,
         {"command": workflow, "status": final_status, "dry_run": args.dry_run, "steps": steps},
     )
     print(f"swarm: daily {final_status.upper()}. Reporte: {report_path}")
+
+
+def _watch_step(step: str, command_args: list[str], script: Path | None, steps: list[dict]) -> dict:
+    write_heartbeat("working", active_step=step)
+    result = run_step(step, command_args, script=script, heartbeat=True)
+    steps.append(result)
+    write_heartbeat("guard", last_result=result)
+    return result
+
+
+def _watch_due(now: float, last_runs: dict[str, float], name: str, interval: int, run_once: bool) -> bool:
+    if name not in last_runs:
+        return True
+    if run_once:
+        return False
+    return (now - last_runs[name]) >= interval
+
+
+def _watch_next_runs(last_runs: dict[str, float], intervals: dict[str, int]) -> dict:
+    now = time.time()
+    out = {}
+    for name, interval in intervals.items():
+        last = last_runs.get(name)
+        remaining = 0 if last is None else max(0, int((last + interval) - now))
+        out[name] = {"seconds_remaining": remaining}
+    return out
+
+
+def run_watch(args: argparse.Namespace) -> None:
+    workflow = "watch"
+    intervals = dict(WATCH_DEFAULT_INTERVALS)
+    intervals.update({
+        "nurture": args.nurture_minutes * 60,
+        "conversion": args.conversion_minutes * 60,
+        "discover": args.discover_minutes * 60,
+        "distribution": args.distribution_minutes * 60,
+        "publish": args.publish_minutes * 60,
+        "auto_listen": args.listen_minutes * 60,
+        "auto_distribution": args.auto_distribution_minutes * 60,
+        "validate": args.validate_minutes * 60,
+        "geo_audit": args.geo_minutes * 60,
+    })
+    enabled = {
+        "nurture": True,
+        "conversion": True,
+        "discover": not args.no_discover,
+        "distribution": True,
+        "publish": True,
+        "auto_listen": not args.no_browser,
+        "auto_distribution": not args.no_browser,
+        "validate": True,
+        "geo_audit": not args.no_geo,
+    }
+    now = time.time()
+    last_runs: dict[str, float] = {}
+    if not args.run_due_now:
+        last_runs.update({
+            "conversion": now,
+            "discover": now,
+            "auto_listen": now,
+            "auto_distribution": now,
+            "geo_audit": now,
+        })
+    steps: list[dict] = []
+    started = timestamp()
+    write_heartbeat("guard", next_runs=_watch_next_runs(last_runs, intervals))
+    print("swarm: watch en guardia permanente. Ctrl+C para detener.")
+
+    try:
+        while True:
+            now = time.time()
+            cycle_steps = []
+
+            if enabled["nurture"] and _watch_due(now, last_runs, "nurture", intervals["nurture"], args.once):
+                cycle_steps.append(("nurture", nurture_args(args), NURTURE_SCRIPT))
+            if enabled["conversion"] and _watch_due(now, last_runs, "conversion", intervals["conversion"], args.once):
+                cycle_steps.append(("conversion", conversion_args(args), CONVERSION_SCRIPT))
+            if enabled["discover"] and _watch_due(now, last_runs, "discover", intervals["discover"], args.once):
+                cycle_steps.append(("discover", discover_args(args), BUILD_SCRIPT))
+            if enabled["distribution"] and _watch_due(now, last_runs, "distribution", intervals["distribution"], args.once):
+                dist_generate = ["generate", "--limit", str(args.distribution_limit)]
+                dist_approve = ["approve", "--limit", str(args.distribution_limit)]
+                if args.dry_run:
+                    dist_generate.append("--dry-run")
+                    dist_approve.append("--dry-run")
+                cycle_steps.append(("distribution-generate", dist_generate, DISTRIBUTION_SCRIPT))
+                cycle_steps.append(("distribution-approve", dist_approve, DISTRIBUTION_SCRIPT))
+            if enabled["publish"] and _watch_due(now, last_runs, "publish", intervals["publish"], args.once):
+                cycle_steps.append(("publish", publish_args(args), PUBLICACION_SCRIPT))
+            if enabled["auto_listen"] and _watch_due(now, last_runs, "auto_listen", intervals["auto_listen"], args.once):
+                cycle_steps.append(("auto-listen", auto_listen_args(args), BROWSER_CDP_SCRIPT))
+            if enabled["auto_distribution"] and _watch_due(now, last_runs, "auto_distribution", intervals["auto_distribution"], args.once):
+                cycle_steps.append(("auto-distribution", auto_distribution_args(args), BROWSER_CDP_SCRIPT))
+            if enabled["validate"] and _watch_due(now, last_runs, "validate", intervals["validate"], args.once):
+                cycle_steps.append(("validate", ["validate"], BUILD_SCRIPT))
+            if enabled["geo_audit"] and _watch_due(now, last_runs, "geo_audit", intervals["geo_audit"], args.once):
+                cycle_steps.append(("geo-audit", geo_audit_args(args), GEO_AUDIT_SCRIPT))
+
+            if not cycle_steps:
+                write_heartbeat("guard", next_runs=_watch_next_runs(last_runs, intervals))
+                if args.once:
+                    break
+                time.sleep(args.heartbeat_seconds)
+                continue
+
+            for step, command_args, script in cycle_steps:
+                result = _watch_step(step, command_args, script, steps)
+                key = {
+                    "distribution-generate": "distribution",
+                    "distribution-approve": "distribution",
+                    "auto-listen": "auto_listen",
+                    "auto-distribution": "auto_distribution",
+                    "geo-audit": "geo_audit",
+                }.get(step, step)
+                last_runs[key] = time.time()
+                if result["returncode"] != 0:
+                    print(f"swarm: watch WARN - {step} termino con {result['status']}")
+                write_heartbeat("guard", last_result=result, next_runs=_watch_next_runs(last_runs, intervals))
+
+            if args.once:
+                break
+            time.sleep(args.heartbeat_seconds)
+    except KeyboardInterrupt:
+        print("swarm: watch detenido por usuario.")
+    finally:
+        status = "ok_with_warnings" if any(s.get("returncode") not in (0, None) for s in steps) else "ok"
+        report_path = write_report(workflow, {
+            "command": workflow,
+            "status": status,
+            "started_utc": started,
+            "dry_run": args.dry_run,
+            "steps": steps[-200:],
+        })
+        write_heartbeat("stopped", last_result={"report": str(report_path), "status": status})
+        print(f"swarm: watch finalizado. Reporte: {report_path}")
 
 
 def pending_command(args: argparse.Namespace) -> None:
@@ -414,7 +704,7 @@ def pending_command(args: argparse.Namespace) -> None:
 
 
 def add_common_generation_options(parser: argparse.ArgumentParser) -> None:
-    parser.add_argument("--limit", type=int, default=5, help="Cantidad maxima a procesar")
+    parser.add_argument("--limit", type=int, default=50, help="Cantidad maxima a procesar")
     parser.add_argument("--model", default="", help="Modelo para generacion cuando aplique")
     parser.add_argument("--dry-run", action="store_true", help="Ejecuta sin guardar cambios cuando aplique")
     parser.add_argument("--max-seconds", type=int, default=0, help="Corta generacion despues de N segundos")
@@ -438,6 +728,11 @@ def main() -> None:
     research_parser.add_argument("--limit", type=int, default=50, help="Cantidad maxima de oportunidades nuevas")
     research_parser.add_argument("--no-web", action="store_true", help="No intenta buscar sugerencias web")
 
+    discover_parser = sub.add_parser("discover")
+    discover_parser.add_argument("--discover-limit", type=int, default=30, dest="discover_limit", help="Maximo de oportunidades a descubrir")
+    discover_parser.add_argument("--no-reddit", action="store_true", help="No busca en Reddit")
+    discover_parser.add_argument("--no-youtube", action="store_true", help="No busca en YouTube RSS")
+
     generate_parser = sub.add_parser("generate")
     add_common_generation_options(generate_parser)
 
@@ -450,12 +745,57 @@ def main() -> None:
     weekly_parser.add_argument("--base-url", default="", help="URL del subdominio para canonical/sitemap")
     weekly_parser.add_argument("--no-web", action="store_true", help="No intenta buscar sugerencias web")
 
+    midday_parser = sub.add_parser("midday")
+    midday_parser.add_argument("--limit", type=int, default=5, help="Cantidad maxima por paso")
+    midday_parser.add_argument("--dry-run", action="store_true", help="Simula sin enviar/publicar")
+    midday_parser.add_argument("--channel", default="reddit-public", help="Canal para search-threads")
+    midday_parser.add_argument("--model", default="", help="Modelo OpenRouter")
+    midday_parser.add_argument("--no-discover", action="store_true", help="Salta el paso de descubrimiento de oportunidades")
+    midday_parser.add_argument("--discover-limit", type=int, default=30, dest="discover_limit", help="Maximo de oportunidades a descubrir")
+
     daily_parser = sub.add_parser("daily")
-    daily_parser.add_argument("--limit", type=int, default=5, help="Cantidad maxima por paso")
+    daily_parser.add_argument("--limit", type=int, default=50, help="Cantidad maxima por paso")
     daily_parser.add_argument("--dry-run", action="store_true", help="Simula sin enviar/publicar")
     daily_parser.add_argument("--channel", default="reddit-public", help="Canal para search-threads")
     daily_parser.add_argument("--model", default="", help="Modelo OpenRouter")
+    daily_parser.add_argument("--base-url", default="https://blog.pcmidicenter.com", help="URL del subdominio para canonical/sitemap")
+    daily_parser.add_argument("--max-seconds", type=int, default=0, help="Corta generacion despues de N segundos")
     daily_parser.add_argument("--retry", action="store_true", help="Reintenta nurture fallidos")
+    daily_parser.add_argument("--no-discover", action="store_true", help="Salta el paso de descubrimiento de oportunidades")
+    daily_parser.add_argument("--discover-limit", type=int, default=30, dest="discover_limit", help="Maximo de oportunidades a descubrir en el paso discover")
+
+    watch_parser = sub.add_parser("watch", help="Supervisor permanente: mantiene heartbeat y despierta agentes por intervalos")
+    watch_parser.add_argument("--once", action="store_true", help="Ejecuta una sola vuelta util para prueba")
+    watch_parser.add_argument("--run-due-now", action="store_true", help="Ejecuta todos los trabajos apenas inicia, incluso los pesados")
+    watch_parser.add_argument("--dry-run", action="store_true", help="Simula los pasos que soporten dry-run")
+    watch_parser.add_argument("--heartbeat-seconds", type=int, default=20, help="Frecuencia de heartbeat cuando esta en guardia")
+    watch_parser.add_argument("--limit", type=int, default=25, help="Limite general para nurture/publish")
+    watch_parser.add_argument("--distribution-limit", type=int, default=5, help="Limite para piezas de distribucion")
+    watch_parser.add_argument("--channel", default="reddit-public", help="Canal para publish/search cuando aplique")
+    watch_parser.add_argument("--channels", default="facebook,instagram,youtube,x", help="Canales para browser automation")
+    watch_parser.add_argument("--per-channel", type=int, default=1, help="Limite por canal en auto-distribution")
+    watch_parser.add_argument("--allow-proposed", action="store_true", help="Permite publicar propuestas en auto-distribution")
+    watch_parser.add_argument("--searches", type=int, default=2, help="Busquedas por ciclo de auto-listen")
+    watch_parser.add_argument("--per-search", type=int, default=2, help="Items por busqueda en auto-listen")
+    watch_parser.add_argument("--window-days", type=int, default=30, help="Ventana de conversion")
+    watch_parser.add_argument("--min-views", type=int, default=50, help="Minimo de vistas para conversion")
+    watch_parser.add_argument("--retry", action="store_true", help="Reintenta nurture fallidos")
+    watch_parser.add_argument("--discover-limit", type=int, default=20, dest="discover_limit", help="Maximo de oportunidades a descubrir")
+    watch_parser.add_argument("--no-reddit", action="store_true", help="No busca en Reddit durante discover")
+    watch_parser.add_argument("--no-youtube", action="store_true", help="No busca en YouTube durante discover")
+    watch_parser.add_argument("--no-discover", action="store_true", help="Desactiva discover automatico")
+    watch_parser.add_argument("--no-browser", action="store_true", help="Desactiva auto-listen y auto-distribution")
+    watch_parser.add_argument("--no-geo", action="store_true", help="Desactiva geo-audit automatico")
+    watch_parser.add_argument("--models", default="", help="Modelos para geo-audit")
+    watch_parser.add_argument("--nurture-minutes", type=int, default=15)
+    watch_parser.add_argument("--conversion-minutes", type=int, default=120)
+    watch_parser.add_argument("--discover-minutes", type=int, default=90)
+    watch_parser.add_argument("--distribution-minutes", type=int, default=45)
+    watch_parser.add_argument("--publish-minutes", type=int, default=45)
+    watch_parser.add_argument("--listen-minutes", type=int, default=60)
+    watch_parser.add_argument("--auto-distribution-minutes", type=int, default=60)
+    watch_parser.add_argument("--validate-minutes", type=int, default=1440)
+    watch_parser.add_argument("--geo-minutes", type=int, default=10080)
 
     geo_parser = sub.add_parser("geo-audit")
     geo_parser.add_argument("--limit", type=int, default=0, help="Maximo de prompts a procesar (0=todos)")
@@ -561,6 +901,12 @@ def main() -> None:
         run_weekly(args)
     elif args.command == "daily":
         run_daily(args)
+    elif args.command == "midday":
+        run_midday(args)
+    elif args.command == "watch":
+        run_watch(args)
+    elif args.command == "discover":
+        run_single(args)
     elif args.command == "lead-magnets":
         run_single(args)
     elif args.command == "geo-audit":

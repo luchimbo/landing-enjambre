@@ -960,6 +960,9 @@ def run_publish(channel_filter: str | None, limit: int, dry_run: bool) -> dict:
         and e.get("date") == datetime.now(timezone.utc).strftime("%Y-%m-%d")
     )
 
+    log_dirty = False
+    published_at = datetime.now(timezone.utc).isoformat()
+
     for entry in approved:
         channel = entry.get("channel")
         print(f"  publicando [{channel}]: {entry.get('title', '')[:60]}")
@@ -998,14 +1001,23 @@ def run_publish(channel_filter: str | None, limit: int, dry_run: bool) -> dict:
             new_status = "failed"
 
         if not dry_run:
-            # Update status in log
+            entry_id = entry.get("id")
+            entry_url = entry.get("source_thread_url")
+            entry_slug = entry.get("landing_slug")
             for row in log:
-                if (row.get("source_thread_url") == entry.get("source_thread_url")
-                        and row.get("landing_slug") == entry.get("landing_slug")
-                        and row.get("status") == "approved"):
+                if row.get("status") != "approved":
+                    continue
+                if entry_id and row.get("id") == entry_id:
                     row["status"] = new_status
-                    row["published_at"] = datetime.now(timezone.utc).isoformat()
-            rewrite_jsonl(DISTRIBUTION_LOG_PATH, log)
+                    row["published_at"] = published_at
+                    log_dirty = True
+                elif not entry_id and row.get("source_thread_url") == entry_url and row.get("landing_slug") == entry_slug:
+                    row["status"] = new_status
+                    row["published_at"] = published_at
+                    log_dirty = True
+
+    if log_dirty:
+        rewrite_jsonl(DISTRIBUTION_LOG_PATH, log)
 
     return {"published": published_count, "failed": failed_count, "skipped": skipped_count, "results": results}
 

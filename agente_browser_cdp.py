@@ -1,6 +1,8 @@
 import argparse
 import base64
+import csv
 import hashlib
+import html
 import json
 import os
 import re
@@ -21,10 +23,19 @@ CONTENT_FEEDBACK_PATH = DATA_DIR / "content_feedback.jsonl"
 SEARCH_TASKS_PATH = DATA_DIR / "distribution_search_tasks.jsonl"
 DISTRIBUTION_LOG_PATH = DATA_DIR / "distribution_log.jsonl"
 ACTION_MEMORY_PATH = DATA_DIR / "browser_action_memory.json"
+CATALOGO_TN_PATH = DATA_DIR / "catalogoTN.csv"
 LEGAL_STATUSES = {"approved", "bulk_approved", "ready_to_publish", "ready_for_publish"}
 AUTO_PUBLISH_STATUSES = LEGAL_STATUSES | {"proposed"}
 BLOCKED_STATUSES = {"blocked", "failed", "published"}
 SUPPORTED_AUTO_CHANNELS = {"linkedin", "reddit", "facebook", "x", "youtube", "instagram"}
+CHANNEL_DAILY_LIMITS = {
+    "facebook": 2,
+    "instagram": 2,
+    "youtube": 5,
+    "x": 3,
+    "linkedin": 3,
+    "reddit": 2,
+}
 CHANNEL_ALIASES = {
     "all": SUPPORTED_AUTO_CHANNELS,
     "twitter": {"x"},
@@ -37,6 +48,77 @@ SEARCH_URLS = {
     "facebook": "https://www.facebook.com/search/posts?q={query}",
     "instagram": "https://www.instagram.com/explore/search/keyword/?q={query}",
     "x": "https://x.com/search?q={query}&src=typed_query&f=live",
+}
+INSTAGRAM_MUSIC_TAGS = [
+    "produccionmusical",
+    "musicproduction",
+    "homestudio",
+    "ableton",
+    "flstudio",
+    "midicontroller",
+    "audiointerface",
+]
+MUSIC_CONTEXT_TERMS = {
+    "ableton",
+    "audio",
+    "beat",
+    "beats",
+    "controlador",
+    "daw",
+    "fl studio",
+    "home studio",
+    "homestudio",
+    "interface",
+    "interfaz",
+    "midi",
+    "mix",
+    "mezcla",
+    "microfono",
+    "micrófono",
+    "monitor",
+    "musica",
+    "música",
+    "plugin",
+    "podcast",
+    "produccion",
+    "producción",
+    "producer",
+    "recording",
+    "sinte",
+    "sintetizador",
+    "studio",
+    "synth",
+    "vocal",
+    "voz",
+}
+STRICT_MUSIC_CONTEXT_TERMS = MUSIC_CONTEXT_TERMS | {
+    "ableton live",
+    "akai",
+    "arturia",
+    "audio interface",
+    "auricular",
+    "auriculares",
+    "bass",
+    "controladores",
+    "drum machine",
+    "guitarra",
+    "home recording",
+    "keyboard",
+    "keylab",
+    "keystep",
+    "launchpad",
+    "minifuse",
+    "minilab",
+    "monitores",
+    "mpc",
+    "music",
+    "novation",
+    "piano",
+    "placa de sonido",
+    "producing",
+    "sintesis",
+    "teclado",
+    "teclas",
 }
 FORBIDDEN_CLAIMS = [
     "stock garantizado",
@@ -118,6 +200,91 @@ def load_json(path: Path, default):
     if not path.exists():
         return default
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+def strip_html(text: str) -> str:
+    text = re.sub(r"<[^>]+>", " ", text or "")
+    text = html.unescape(text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def load_catalogo_tn() -> list[dict]:
+    if not CATALOGO_TN_PATH.exists():
+        return []
+    for encoding in ("utf-8-sig", "cp1252", "latin-1"):
+        try:
+            text = CATALOGO_TN_PATH.read_text(encoding=encoding)
+            break
+        except UnicodeDecodeError:
+            continue
+    else:
+        return []
+    reader = csv.DictReader(text.splitlines(), delimiter=";")
+    rows = []
+    for row in reader:
+        if (row.get("Mostrar en tienda") or "").strip().upper() not in {"SI", "SÍ", "YES", "TRUE", "1"}:
+            continue
+        name = strip_html(row.get("Nombre", ""))
+        if not name or "preventa" in name.lower():
+            continue
+        rows.append({
+            "nombre": name,
+            "categoria": strip_html(row.get("Categorías", "")),
+            "marca": strip_html(row.get("Marca", "")),
+            "sku": strip_html(row.get("SKU", "")),
+            "descripcion": strip_html(row.get("Descripción", "")),
+            "tags": strip_html(row.get("Tags", "")),
+        })
+    return rows
+
+
+def concise_product_name(name: str) -> str:
+    name = name.strip()
+    name = re.sub(r"\b(profesional|preventa)\b", "", name, flags=re.I)
+    name = re.sub(r"\b(controlador midi|teclado controlador midi|placa de sonido|interfaz de audio)\b", "", name, flags=re.I)
+    name = re.sub(r"\b(usb|black|white|negro|blanco|champagne|rose quartz|aquamarine)\b", "", name, flags=re.I)
+    if name.isupper():
+        name = name.title().replace("Midi", "MIDI").replace("Usb", "USB")
+    name = re.sub(r"\s+", " ", name).strip(" -")
+    return name[:58].strip()
+
+
+def pick_catalog_product(context: str, intent: str, seed: str) -> str:
+    catalog = load_catalogo_tn()
+    if not catalog:
+        return ""
+    if intent == "midi":
+        terms = ["controlador midi", "minilab", "keylab", "keystep", "microlab", "tempokey", "midiplus"]
+    elif intent == "audio":
+        terms = ["interfaz", "interface", "placa de sonido", "minifuse", "studio 2", "studio m", "livemix"]
+    elif intent == "beat":
+        terms = ["pad", "octapad", "tempopad", "controlador midi", "minilab", "mp200"]
+    else:
+        terms = ["controlador midi", "interfaz", "minifuse", "minilab", "keylab", "studio"]
+    scored = []
+    lower_context = context.lower()
+    for row in catalog:
+        haystack = " ".join([row["nombre"], row["categoria"], row["descripcion"], row["tags"]]).lower()
+        score = sum(4 for term in terms if term in haystack)
+        score += sum(1 for term in MUSIC_CONTEXT_TERMS if term in lower_context and term in haystack)
+        if score:
+            scored.append((score, row["nombre"]))
+    if not scored:
+        return ""
+    scored.sort(key=lambda item: (-item[0], item[1]))
+    pool = [name for _, name in scored[:12]]
+    if intent == "midi":
+        preferred = ["minilab 3", "microlab", "tempokey 25", "keylab essential 49", "keylab essential 61", "keystep 37"]
+        filtered = [name for name in pool if any(term in name.lower() for term in preferred)]
+        if filtered:
+            pool = filtered
+    elif intent == "audio":
+        preferred = ["minifuse 1", "minifuse 2", "studio 2 pro", "studio m", "livemix solo", "livemix duet"]
+        filtered = [name for name in pool if any(term in name.lower() for term in preferred)]
+        if filtered:
+            pool = filtered
+    number = int(hashlib.sha1(seed.encode("utf-8")).hexdigest()[:8], 16)
+    return concise_product_name(pool[number % len(pool)])
 
 
 def write_json(path: Path, data) -> None:
@@ -397,6 +564,7 @@ def try_comment_or_post(client: CDPClient, channel: str, text: str) -> dict:
             {"name": "reddit_comment", "open_text": ["add a comment", "añadir un comentario", "reply"], "submit_text": ["comment", "comentar", "reply"]},
         ],
         "instagram": [
+            {"name": "instagram_comment_selector", "open_selector": ['textarea[aria-label*="comment"]', 'textarea[aria-label*="comentario"]', 'form textarea'], "submit_selector": ['form button[type="submit"]'], "submit_text": ["publicar"]},
             {"name": "instagram_comment", "open_text": ["add a comment", "añade un comentario", "reply"], "submit_text": ["post", "publicar"]},
         ],
         "x": [
@@ -408,6 +576,7 @@ def try_comment_or_post(client: CDPClient, channel: str, text: str) -> dict:
     strategies = remembered + [strategy for strategy in default_strategies if strategy not in remembered]
     attempts = []
     for strategy in strategies:
+        prep = scroll_and_wait_for_comments(client, channel) if channel in {"youtube", "reddit", "instagram"} else {"ok": True, "skipped": True}
         if strategy.get("open_selector"):
             open_result = action_click_selector(client, strategy["open_selector"])
         elif strategy.get("open_text"):
@@ -419,6 +588,8 @@ def try_comment_or_post(client: CDPClient, channel: str, text: str) -> dict:
         time.sleep(1)
         if strategy.get("submit_selector"):
             submit_result = action_click_selector(client, strategy["submit_selector"])
+            if not submit_result.get("ok") and strategy.get("submit_text"):
+                submit_result = action_click_by_text(client, strategy["submit_text"])
         else:
             submit_result = action_click_by_text(client, strategy.get("submit_text", ["publicar", "post", "comment"]))
         ok = bool(fill_result.get("ok") and submit_result.get("ok"))
@@ -426,7 +597,7 @@ def try_comment_or_post(client: CDPClient, channel: str, text: str) -> dict:
         if fill_result.get("ok") and not submit_result.get("ok"):
             keyboard_result = submit_with_keyboard(client)
             ok = bool(keyboard_result.get("ok"))
-        attempt = {"strategy": strategy["name"], "ok": ok, "open": open_result, "fill": fill_result, "submit": submit_result, "keyboard_submit": keyboard_result}
+        attempt = {"strategy": strategy["name"], "ok": ok, "prep": prep, "open": open_result, "fill": fill_result, "submit": submit_result, "keyboard_submit": keyboard_result}
         attempts.append(attempt)
         if ok:
             remember_action(channel, "comment_or_post", {"strategy": strategy})
@@ -444,6 +615,45 @@ def submit_with_keyboard(client: CDPClient) -> dict:
         return {"ok": True, "method": "ctrl_enter"}
     except Exception as exc:
         return {"ok": False, "error": str(exc)}
+
+
+def scroll_and_wait_for_comments(client: CDPClient, channel: str) -> dict:
+    if channel == "youtube":
+        expr = """
+        new Promise((resolve) => {
+          let tries = 0;
+          const tick = () => {
+            window.scrollBy(0, 700);
+            const found = document.querySelector('ytd-comment-simplebox-renderer, #placeholder-area, #contenteditable-root, [contenteditable=true]');
+            const comments = document.querySelector('ytd-comments, #comments');
+            tries += 1;
+            if (found) resolve({ok:true, tries, tag: found.tagName || found.id || ''});
+            else if (tries >= 18) resolve({ok:false, tries, comments_found: !!comments});
+            else setTimeout(tick, 900);
+          };
+          tick();
+        })
+        """
+        return value_from_result(evaluate(client, expr, await_promise=True))
+    if channel == "reddit":
+        return value_from_result(evaluate(client, "(() => { for (let i=0;i<8;i++) window.scrollBy(0,650); return {ok:true}; })()"))
+    if channel == "instagram":
+        expr = """
+        new Promise((resolve) => {
+          let tries = 0;
+          const tick = () => {
+            window.scrollBy(0, 450);
+            const found = document.querySelector('textarea[aria-label*="comment"], textarea[aria-label*="comentario"], form textarea');
+            tries += 1;
+            if (found) resolve({ok:true, tries, tag: found.tagName || ''});
+            else if (tries >= 8) resolve({ok:false, tries});
+            else setTimeout(tick, 700);
+          };
+          tick();
+        })
+        """
+        return value_from_result(evaluate(client, expr, await_promise=True))
+    return {"ok": True, "skipped": True}
 
 
 def action_click_by_text(client: CDPClient, texts: list[str]) -> dict:
@@ -504,7 +714,7 @@ def dismiss_common_popups(client: CDPClient) -> list[dict]:
 
 def action_like_or_react(client: CDPClient, channel: str) -> dict:
     selectors = {
-        "youtube": ['#segmented-like-button button', 'button[aria-label*="Me gusta"]', 'button[aria-label*="like"]'],
+        "youtube": ['button[aria-label^="poner Me gusta"]', '#segmented-like-button button', 'button[aria-label*="Me gusta"]', 'button[aria-label*="like"]'],
         "x": ['[data-testid="like"]'],
         "facebook": ['[aria-label="Me gusta"]', '[aria-label="Like"]'],
         "instagram": ['svg[aria-label="Me gusta"]', 'svg[aria-label="Like"]'],
@@ -621,7 +831,28 @@ def validate_distribution_entry(entry: dict, allow_proposed: bool) -> list[str]:
     for claim in FORBIDDEN_CLAIMS:
         if claim in lower:
             errors.append(f"claim prohibido: {claim}")
+    if not distribution_entry_is_music_relevant(entry):
+        errors.append("contexto no relacionado con musica/produccion/audio")
     return errors
+
+
+def distribution_entry_is_music_relevant(entry: dict) -> bool:
+    channel = normalize_channel(entry.get("channel", ""))
+    if channel not in SUPPORTED_AUTO_CHANNELS:
+        return True
+    context = " ".join(
+        str(entry.get(key) or "")
+        for key in (
+            "source_thread_title",
+            "source_title",
+            "source_context",
+            "title",
+            "community",
+        )
+    ).lower()
+    if len(context.strip()) < 20:
+        return channel in {"x", "facebook", "linkedin"}
+    return any(term in context for term in STRICT_MUSIC_CONTEXT_TERMS)
 
 
 def parse_channels(channels_text: str) -> set[str]:
@@ -659,9 +890,27 @@ def channel_already_published(row: dict, channel: str) -> bool:
     return False
 
 
+def posts_today_by_channel(log: list[dict]) -> dict[str, int]:
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    counts: dict[str, int] = {}
+    for row in log:
+        if row.get("status") != "published" and not row.get("auto_published_channels"):
+            continue
+        date = row.get("date", "") or (row.get("published_at") or "")[:10]
+        if date != today:
+            continue
+        channel = row.get("channel", "")
+        if channel:
+            counts[channel] = counts.get(channel, 0) + 1
+        for ch in row.get("auto_published_channels", {}):
+            counts[ch] = counts.get(ch, 0) + 1
+    return counts
+
+
 def distribution_candidates(channels: set[str], limit: int, per_channel: int, allow_proposed: bool) -> tuple[list[dict], list[dict]]:
     log_path = DATA_DIR / "distribution_log.jsonl"
     rows = load_jsonl(log_path)
+    today_counts = posts_today_by_channel(rows)
     candidates = []
     blocked = []
     per_channel_counts = {channel: 0 for channel in channels}
@@ -678,6 +927,9 @@ def distribution_candidates(channels: set[str], limit: int, per_channel: int, al
             if channel_already_published(row, channel):
                 continue
             if per_channel_counts[channel] >= per_channel:
+                continue
+            daily_limit = CHANNEL_DAILY_LIMITS.get(channel, 3)
+            if today_counts.get(channel, 0) + per_channel_counts[channel] >= daily_limit:
                 continue
             candidates.append({"index": index, "entry": row, "channel": channel, "errors": []})
             per_channel_counts[channel] += 1
@@ -698,27 +950,159 @@ def normalize_channel(channel: str) -> str:
 
 
 def post_url_for_entry(entry: dict, channel: str) -> str:
+    source_url = entry.get("source_thread_url") or entry.get("source_url") or ""
     if channel == "linkedin":
-        return "https://www.linkedin.com/feed/"
+        return source_url if "linkedin.com" in source_url else "https://www.linkedin.com/feed/"
     if channel == "x":
         return "https://x.com/compose/post"
     if channel == "facebook":
-        return "https://www.facebook.com/"
+        return source_url if "facebook.com" in source_url else "https://www.facebook.com/"
     if channel == "reddit":
-        return entry.get("source_thread_url") or "https://www.reddit.com/"
+        return source_url or "https://www.reddit.com/"
     if channel == "youtube":
-        url = entry.get("source_thread_url") or entry.get("source_url") or ""
+        url = source_url
         if "youtube.com/watch" not in url and "youtu.be/" not in url:
             raise ValueError("YouTube requiere source_thread_url de un video")
         return url
     if channel == "instagram":
-        url = entry.get("source_thread_url") or entry.get("source_url") or "https://www.instagram.com/"
+        url = source_url or "https://www.instagram.com/"
         return url
     raise ValueError(f"Canal no soportado por auto-distribution: {channel}")
 
 
+def search_url_for(channel: str, query: str, index: int) -> str:
+    if channel == "instagram":
+        lower = query.lower()
+        tag = INSTAGRAM_MUSIC_TAGS[index % len(INSTAGRAM_MUSIC_TAGS)]
+        if "ableton" in lower:
+            tag = "ableton"
+        elif "fl studio" in lower or "flstudio" in lower:
+            tag = "flstudio"
+        elif "interfaz" in lower or "audio" in lower:
+            tag = "audiointerface"
+        elif "midi" in lower:
+            tag = "midicontroller"
+        elif "home studio" in lower or "homestudio" in lower:
+            tag = "homestudio"
+        return f"https://www.instagram.com/explore/tags/{tag}/"
+    return SEARCH_URLS[channel].format(query=quote(query))
+
+
+def looks_music_related(text: str) -> bool:
+    lower = (text or "").lower()
+    return any(term in lower for term in STRICT_MUSIC_CONTEXT_TERMS)
+
+
+def build_distribution_body(channel: str, landing: dict, item: dict) -> tuple[str, bool]:
+    query = landing["query"]
+    query_text = landing.get("query", "").lower()
+    context = f"{query_text} {item.get('title', '')} {item.get('context', '')}".lower()
+    if channel == "instagram":
+        seed = f"{landing.get('slug', '')}:{item.get('url', '')}:{item.get('title', '')}"
+        def pick(options: list[str]) -> str:
+            number = int(hashlib.sha1(seed.encode("utf-8")).hexdigest()[:8], 16)
+            return options[number % len(options)]
+
+        if any(term in context for term in ["ableton", "midi", "controlador"]):
+            return pick([
+                "Buen enfoque. Para Ableton/MIDI, el punto suele ser elegir controles que realmente uses: pads si disparas clips, knobs si automatizas, teclas si compones.",
+                "Esto esta bueno. Un controlador chico bien mapeado termina rindiendo mas que uno enorme si el flujo ya esta claro.",
+                "Me gusta ese tipo de setup. Para producir rapido, suele importar mas la integracion con el DAW que la cantidad de botones.",
+            ]), False
+        if any(term in context for term in ["interfaz", "interface", "audio", "vocal", "voz", "microfono", "micrófono"]):
+            return pick([
+                "Muy real esto. Para grabar en casa, una interfaz simple con buena ganancia y monitoreo directo suele resolver mas que sumar mil cosas.",
+                "Totalmente. Antes de cambiar todo el setup, conviene mirar ruido de sala, distancia al micro y si la interfaz banca bien la ganancia.",
+                "Buen punto. En audio casero la decision clave suele ser cadena completa: micro, entrada, monitoreo y comodidad para repetir tomas.",
+            ]), False
+        if any(term in context for term in ["beat", "beats", "fl studio", "flstudio", "producer", "produccion", "producción"]):
+            return pick([
+                "Suena bien. Muchas veces el salto no es otro plugin, sino una cadena comoda: controlador, monitoreo y una plantilla que no te frene.",
+                "Buen laburo. Se nota cuando el setup esta armado para terminar ideas, no solo para acumular equipo.",
+                "Me gusta ese enfoque. Para beats, tener pads o teclas que inviten a tocar cambia mas el flujo que abrir veinte ventanas.",
+            ]), False
+        return pick([
+            "Buen laburo. Se nota cuando el setup esta pensado para crear rapido; ahi la eleccion de controlador, audio y monitoreo pesa bastante.",
+            "Me gusta la vibra del setup. Cuando todo queda a mano, producir se siente mas natural y tambien es mas facil elegir que equipo falta de verdad.",
+            "Esto esta bueno. El mejor setup suele ser el que te deja terminar ideas sin pelearte con la tecnica ni comprar cosas al azar.",
+            "Muy bueno. Hay algo clave en tener un flujo simple y repetible antes de decidir que sumar al home studio.",
+        ]), False
+    body = (
+        f"Para quien este investigando {query}, conviene comparar el caso de uso antes de elegir: "
+        "integracion con el DAW, cantidad de controles, espacio disponible y si se busca grabar, producir o tocar en vivo. "
+        f"Dejo una guia relacionada para ordenar la decision: {landing['landing_url']}"
+    )
+    return body, True
+
+
+def build_product_distribution_body(channel: str, landing: dict, item: dict) -> tuple[str, bool]:
+    query_text = landing.get("query", "").lower()
+    context = f"{query_text} {item.get('title', '')} {item.get('context', '')}".lower()
+    seed = f"{landing.get('slug', '')}:{item.get('url', '')}:{item.get('title', '')}"
+    with_link = channel in {"youtube", "reddit", "linkedin", "facebook"}
+
+    def pick(options: list[str]) -> str:
+        number = int(hashlib.sha1(seed.encode("utf-8")).hexdigest()[:8], 16)
+        return options[number % len(options)]
+
+    audio_query = any(term in query_text for term in ["interfaz", "audio", "grabar voz", "placa de sonido", "microfono", "micr"])
+    beat_query = any(term in query_text for term in ["beat", "fl studio", "flstudio", "producer", "produccion", "producci"])
+    midi_query = any(term in query_text for term in ["ableton", "midi", "controlador"])
+
+    if (midi_query or any(term in context for term in ["ableton", "midi", "controlador"])) and not audio_query and not beat_query:
+        product = pick_catalog_product(context, "midi", seed)
+        body = pick([
+            f"Buen enfoque. Para Ableton/MIDI, algo tipo {product} tiene sentido si vas a usar teclas, pads y knobs de verdad, no solo por llenar el escritorio.",
+            f"Esto esta bueno. En un setup asi miraria algo tipo {product}: compacto, mapeable y con controles que realmente entren en el flujo.",
+            f"Me gusta ese tipo de setup. Para producir rapido, prefiero algo como {product} antes que un controlador enorme que despues no se aprovecha.",
+        ])
+        return body, with_link
+    if audio_query:
+        product = pick_catalog_product(context, "audio", seed)
+        body = pick([
+            f"Muy real esto. Para grabar en casa, algo tipo {product} suele tener mas sentido que sumar mil cosas: entrada limpia y monitoreo comodo.",
+            f"Totalmente. Antes de cambiar todo el setup, miraria si con una interfaz tipo {product} ya resolves ganancia, monitoreo y latencia.",
+            f"Buen punto. En audio casero la decision clave suele ser cadena completa; una opcion tipo {product} puede ordenar bastante el flujo.",
+        ])
+        return body, with_link
+    if beat_query:
+        product = pick_catalog_product(context, "beat", seed)
+        body = pick([
+            f"Suena bien. Muchas veces el salto no es otro plugin, sino algo tipo {product}: tocar ideas rapido y no cortar el momento creativo.",
+            f"Buen laburo. Para beats, un controlador tipo {product} puede cambiar mas el flujo que abrir veinte ventanas y dibujar todo con mouse.",
+            f"Me gusta ese enfoque. Si la idea es producir rapido, algo como {product} ayuda cuando queres tocar y decidir sin tanta vuelta.",
+        ])
+        return body, with_link
+    if any(term in context for term in ["interfaz", "interface", "audio", "vocal", "voz", "microfono", "micrÃ³fono"]):
+        product = pick_catalog_product(context, "audio", seed)
+        body = pick([
+            f"Muy real esto. Para grabar en casa, algo tipo {product} suele tener mas sentido que sumar mil cosas: entrada limpia y monitoreo comodo.",
+            f"Totalmente. Antes de cambiar todo el setup, miraria si con una interfaz tipo {product} ya resolves ganancia, monitoreo y latencia.",
+            f"Buen punto. En audio casero la decision clave suele ser cadena completa; una opcion tipo {product} puede ordenar bastante el flujo.",
+        ])
+        return body, with_link
+    if any(term in context for term in ["beat", "beats", "fl studio", "flstudio", "producer", "produccion", "producciÃ³n"]):
+        product = pick_catalog_product(context, "beat", seed)
+        body = pick([
+            f"Suena bien. Muchas veces el salto no es otro plugin, sino algo tipo {product}: tocar ideas rapido y no cortar el momento creativo.",
+            f"Buen laburo. Para beats, un controlador tipo {product} puede cambiar mas el flujo que abrir veinte ventanas y dibujar todo con mouse.",
+            f"Me gusta ese enfoque. Si la idea es producir rapido, algo como {product} ayuda cuando queres tocar y decidir sin tanta vuelta.",
+        ])
+        return body, with_link
+    product = pick_catalog_product(context, "general", seed)
+    body = pick([
+        f"Buen laburo. En un setup asi, algo tipo {product} tiene sentido si realmente mejora el flujo y no queda solo de adorno.",
+        f"Me gusta la vibra del setup. A veces sumar algo como {product} ordena mas el proceso que comprar varias cosas sin rol claro.",
+        f"Esto esta bueno. El mejor setup suele ser el que te deja terminar ideas; algo tipo {product} sirve si entra en ese flujo.",
+        f"Muy bueno. Antes de sumar equipo, miraria si una pieza tipo {product} resuelve una necesidad concreta del home studio.",
+    ])
+    return body, with_link
+
+
 def compose_text(entry: dict) -> str:
     body = (entry.get("body") or "").strip()
+    if normalize_channel(entry.get("channel", "")) == "instagram":
+        return body[:300]
     if entry.get("link_included") or not entry.get("landing_url"):
         return body
     if len(body) + len(entry["landing_url"]) + 2 > 270 and normalize_channel(entry.get("channel", "")) in {"x", "twitter"}:
@@ -902,7 +1286,8 @@ def run_auto_distribution(channels_text: str, limit: int, per_channel: int, dry_
                         "published_at_utc": datetime.now(timezone.utc).isoformat(),
                         "result": result,
                     }
-                    row["status"] = "approved"
+                    row["status"] = "published"
+                    row["published_at"] = datetime.now(timezone.utc).isoformat()
                 else:
                     row.setdefault("auto_publish_failures", {})
                     row["auto_publish_failures"][channel] = {
@@ -963,15 +1348,17 @@ def extract_visible_items(client: CDPClient, channel: str, max_items: int) -> li
       for (const a of anchors) {{
         const href = new URL(a.href, location.href).href;
         const box = a.closest('article, ytd-video-renderer, ytd-rich-item-renderer, [role="article"], div, li') || a;
-        const title = (a.innerText || a.textContent || '').replace(/\\s+/g, ' ').trim();
-        const context = ((box.innerText || box.textContent || title) || '').replace(/\\s+/g, ' ').trim();
-        if (!href || seen.has(href) || context.length < 30) continue;
+        const title = (a.innerText || a.textContent || a.getAttribute('aria-label') || '').replace(/\\s+/g, ' ').trim();
+        const mediaText = Array.from(a.querySelectorAll('img, video')).map((el) => el.getAttribute('alt') || el.getAttribute('aria-label') || '').join(' ');
+        const context = ((box.innerText || box.textContent || title || mediaText) || '').replace(/\\s+/g, ' ').trim();
+        if (!href || seen.has(href)) continue;
         if (channel === 'youtube' && !href.includes('/watch')) continue;
         if (channel === 'reddit' && !href.includes('/comments/')) continue;
         if (channel === 'linkedin' && !href.includes('linkedin.com')) continue;
         if (channel === 'x' && !/x\\.com\\/.+\\/status\\//.test(href)) continue;
-        if (channel === 'instagram' && !href.includes('instagram.com/')) continue;
+        if (channel === 'instagram' && !/instagram\\.com\\/(p|reel)\\//.test(href)) continue;
         if (channel === 'facebook' && !href.includes('facebook.com')) continue;
+        if (channel !== 'instagram' && context.length < 30) continue;
         seen.add(href);
         out.push({{url: href, title: title.slice(0, 220), context: context.slice(0, 1200)}});
         if (out.length >= maxItems) break;
@@ -996,12 +1383,16 @@ def run_auto_listen(channels_text: str, searches: int, per_search: int, dry_run:
         client.send("Page.enable")
         client.send("Runtime.enable")
         for channel in sorted(channels):
-            for landing in queries:
-                url = SEARCH_URLS[channel].format(query=quote(landing["query"]))
+            for query_index, landing in enumerate(queries):
+                url = search_url_for(channel, landing["query"], query_index)
                 client.send("Page.navigate", {"url": url})
                 time.sleep(5)
                 items = extract_visible_items(client, channel, per_search)
                 for item in items:
+                    item_context = f"{item.get('title', '')} {item.get('context', '')} {item.get('url', '')} {url}"
+                    source_context = f"{item.get('title', '')} {item.get('context', '')}"
+                    if not looks_music_related(source_context):
+                        continue
                     base = {
                         "id": f"{run_id}:{channel}:{len(intel_rows)}",
                         "created_at_utc": datetime.now(timezone.utc).isoformat(),
@@ -1033,11 +1424,7 @@ def run_auto_listen(channels_text: str, searches: int, per_search: int, dry_run:
                         "source_url": item.get("url", ""),
                     })
                     if channel in SUPPORTED_AUTO_CHANNELS and item.get("url"):
-                        body = (
-                            f"Para quien este investigando {landing['query']}, conviene comparar el caso de uso antes de elegir: "
-                            "integracion con el DAW, cantidad de controles, espacio disponible y si se busca grabar, producir o tocar en vivo. "
-                            f"Dejo una guia relacionada para ordenar la decision: {landing['landing_url']}"
-                        )
+                        body, link_included = build_product_distribution_body(channel, landing, item)
                         distribution_rows.append({
                             "id": f"{run_id}:{channel}:auto-listen:{len(distribution_rows)}",
                             "date": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
@@ -1051,7 +1438,7 @@ def run_auto_listen(channels_text: str, searches: int, per_search: int, dry_run:
                             "status": "approved",
                             "title": item.get("title", "")[:200],
                             "body": body,
-                            "link_included": True,
+                            "link_included": link_included,
                             "risk_level": "low",
                             "requires_manual_review": False,
                             "approved_at_utc": base["created_at_utc"],

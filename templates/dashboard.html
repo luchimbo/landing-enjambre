@@ -25,6 +25,45 @@
     .steps-scroll::-webkit-scrollbar { width: 3px; }
     .steps-scroll::-webkit-scrollbar-track { background: transparent; }
     .steps-scroll::-webkit-scrollbar-thumb { background: #374151; border-radius: 2px; }
+    .line-clamp-2, .line-clamp-3 { display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; }
+    .line-clamp-2 { -webkit-line-clamp: 2; line-clamp: 2; }
+    .line-clamp-3 { -webkit-line-clamp: 3; line-clamp: 3; }
+    .agent-person { position: relative; width: 74px; height: 86px; flex: 0 0 auto; }
+    .agent-person .head {
+      position: absolute; left: 20px; top: 6px; width: 34px; height: 34px;
+      border: 2px solid #EB6517; border-radius: 12px; background: #111827;
+      box-shadow: 0 0 24px rgba(235,101,23,.2);
+    }
+    .agent-person .eye {
+      position: absolute; top: 15px; width: 4px; height: 4px;
+      border-radius: 999px; background: #f9fafb;
+    }
+    .agent-person .eye.left { left: 29px; }
+    .agent-person .eye.right { left: 42px; }
+    .agent-person .body {
+      position: absolute; left: 14px; top: 42px; width: 46px; height: 32px;
+      border: 1px solid #374151; border-radius: 14px 14px 10px 10px;
+      background: linear-gradient(180deg,#1f2937,#0f172a);
+    }
+    .agent-person .arm {
+      position: absolute; top: 48px; width: 18px; height: 5px;
+      border-radius: 999px; background: #652581; transform-origin: center;
+    }
+    .agent-person .arm.left { left: 0; transform: rotate(-22deg); }
+    .agent-person .arm.right { right: 0; transform: rotate(22deg); }
+    .agent-person.active .head { animation: agent-bob 1.1s ease-in-out infinite; border-color: #22c55e; }
+    .agent-person.active .arm.right { animation: agent-wave .7s ease-in-out infinite alternate; }
+    .agent-person.guard .head { border-color: #EB6517; box-shadow: 0 0 26px rgba(235,101,23,.28); }
+    .agent-person.guard .eye { background: #f9fafb; animation: pulse-dot 2.4s ease-in-out infinite; }
+    .agent-person.sleeping { opacity: .78; transform: rotate(-7deg); }
+    .agent-person.sleeping .eye { width: 7px; height: 2px; background: #6b7280; }
+    .agent-person.sleeping::after {
+      content: "z"; position: absolute; right: 2px; top: 0; color: #9ca3af;
+      font-weight: bold; animation: sleep-z 2s ease-in-out infinite;
+    }
+    @keyframes agent-bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+    @keyframes agent-wave { from { transform: rotate(14deg); } to { transform: rotate(-28deg); } }
+    @keyframes sleep-z { 0% { opacity: 0; transform: translateY(8px); } 50% { opacity: 1; } 100% { opacity: 0; transform: translateY(-10px); } }
   </style>
 </head>
 <body class="dark bg-gray-950 text-gray-100 min-h-screen text-sm">
@@ -103,7 +142,7 @@
             <span id="m-posts-pub" class="text-green-400 font-bold text-lg leading-none">—</span>
           </div>
           <div class="flex justify-between">
-            <span class="text-gray-500 text-xs">Propuestos</span>
+            <span class="text-gray-500 text-xs">Aprobados</span>
             <span id="m-posts-prop" class="text-amber-400 text-xs">—</span>
           </div>
           <div class="flex justify-between">
@@ -136,6 +175,37 @@
 
     </div>
 
+    <!-- Monitor vivo de agentes -->
+    <div class="grid grid-cols-1 xl:grid-cols-[360px_1fr] gap-4">
+      <section id="agent-monitor-card" class="bg-gray-900 border border-gray-800 rounded-xl p-4 transition-colors duration-500">
+        <div class="flex items-center gap-4">
+          <div id="agent-person" class="agent-person sleeping" aria-hidden="true">
+            <span class="head"></span>
+            <span class="eye left"></span>
+            <span class="eye right"></span>
+            <span class="body"></span>
+            <span class="arm left"></span>
+            <span class="arm right"></span>
+          </div>
+          <div class="min-w-0">
+            <div class="text-xs text-gray-500 uppercase tracking-widest mb-1">Estado del agente</div>
+            <div id="agent-monitor-title" class="text-white font-bold text-base leading-tight">Dormido</div>
+            <div id="agent-monitor-detail" class="text-gray-500 text-xs mt-1 leading-relaxed">No hay procesos de agentes corriendo ahora.</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-gray-900 border border-gray-800 rounded-xl p-4">
+        <div class="flex items-center justify-between mb-3">
+          <h2 class="text-xs text-gray-500 uppercase tracking-widest">Sector separado: publicaciones y comentarios</h2>
+          <span id="agent-monitor-count" class="text-xs text-gray-700">0 activos</span>
+        </div>
+        <div id="active-agent-list" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-2">
+          <p class="text-gray-700 text-xs">Esperando actividad...</p>
+        </div>
+      </section>
+    </div>
+
     <!-- Agentes + Flujo -->
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
 
@@ -159,6 +229,38 @@
         </div>
       </div>
 
+    </div>
+
+    <!-- Cosas nuevas -->
+    <div class="bg-gray-900 border border-gray-800 rounded-xl p-4">
+      <div class="flex items-center justify-between mb-3">
+        <h2 class="text-xs text-gray-500 uppercase tracking-widest">Cosas Nuevas</h2>
+        <span id="new-work-count" class="text-xs text-gray-700">0 items</span>
+      </div>
+      <div id="new-work-list" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-3">
+        <p class="text-gray-700 text-xs animate-pulse">Cargando...</p>
+      </div>
+    </div>
+
+    <!-- Publicaciones y comentarios -->
+    <div class="bg-gray-900 border border-gray-800 rounded-xl p-4">
+      <div class="flex items-center justify-between mb-3">
+        <h2 class="text-xs text-gray-500 uppercase tracking-widest">Publicaciones y Comentarios</h2>
+        <span id="pub-count" class="text-xs text-gray-700">0 items</span>
+      </div>
+      <div id="publications-list" class="space-y-1.5">
+        <p class="text-gray-700 text-xs animate-pulse">Cargando...</p>
+      </div>
+    </div>
+
+    <div class="bg-gray-900 border border-gray-800 rounded-xl p-4">
+      <div class="flex items-center justify-between mb-3">
+        <h2 class="text-xs text-gray-500 uppercase tracking-widest">Publicados</h2>
+        <span id="published-count" class="text-xs text-gray-700">0 items</span>
+      </div>
+      <div id="published-list" class="space-y-1.5">
+        <p class="text-gray-700 text-xs animate-pulse">Cargando...</p>
+      </div>
     </div>
 
     <!-- Feed + GEO -->
@@ -186,11 +288,16 @@
     </div>
   </main>
 
+<script>window._authB64 = "{{ auth_b64 }}";</script>
 <script>
 const ENDPOINTS = {
   summary:  '/api/dashboard/summary',
+  agentStatus: '/api/dashboard/agent-status',
   agents:   '/api/dashboard/agents',
   workflow: '/api/dashboard/last-workflow',
+  newWork:  '/api/dashboard/new-work?limit=8',
+  publications: '/api/dashboard/publications?limit=10',
+  published: '/api/dashboard/published?limit=200',
   activity: '/api/dashboard/activity?limit=40',
   geo:      '/api/dashboard/geo-summary',
 };
@@ -218,6 +325,7 @@ const SRC_STYLE = {
   distribution: { bg: 'bg-blue-900/40',   text: 'text-blue-300',   label: 'Distribución' },
   geo_audit:    { bg: 'bg-emerald-900/40',text: 'text-emerald-300',label: 'GEO Audit' },
   feedback:     { bg: 'bg-amber-900/40',  text: 'text-amber-300',  label: 'Conversión' },
+  report:       { bg: 'bg-gray-800',      text: 'text-gray-300',   label: 'Reporte' },
 };
 
 function statusDotCls(s) {
@@ -275,8 +383,8 @@ function renderSummary(d) {
   set('m-emails-pending',d.emails?.pending);
   set('m-emails-failed', d.emails?.failed);
   set('m-posts-pub',     d.posts?.published);
-  set('m-posts-prop',    d.posts?.proposed);
-  set('m-posts-blocked', d.posts?.blocked);
+  set('m-posts-prop',    d.posts?.approved ?? d.posts?.proposed);
+  set('m-posts-blocked', (d.posts?.blocked || 0) + (d.posts?.failed || 0));
   set('m-eng-total',     d.engagement?.total);
   set('m-eng-dry',       d.engagement?.dry_run);
   set('m-eng-live',      d.engagement?.live);
@@ -290,6 +398,70 @@ function renderSummary(d) {
 }
 
 // ── Render agents ───────────────────────────────────────────────────────────
+function renderAgentMonitor(data) {
+  const card = document.getElementById('agent-monitor-card');
+  const person = document.getElementById('agent-person');
+  const title = document.getElementById('agent-monitor-title');
+  const detail = document.getElementById('agent-monitor-detail');
+  const count = document.getElementById('agent-monitor-count');
+  const list = document.getElementById('active-agent-list');
+  if (!person || !title || !detail || !list) return;
+
+  const active = data?.state === 'active';
+  const guard = data?.state === 'guard';
+  const agents = data?.active_agents || [];
+  person.className = `agent-person ${active ? 'active' : guard ? 'guard' : 'sleeping'}`;
+  title.textContent = active ? 'Trabajando ahora' : guard ? 'En guardia' : 'Dormido';
+  const heartbeat = data?.heartbeat || {};
+  detail.textContent = active
+    ? `${agents.length} proceso${agents.length === 1 ? '' : 's'} activo${agents.length === 1 ? '' : 's'} detectado${agents.length === 1 ? '' : 's'}.`
+    : guard
+      ? `Supervisor vivo${heartbeat.active_step ? `, ultimo paso: ${heartbeat.active_step}` : ''}.`
+    : 'No hay procesos de agentes corriendo ahora.';
+  if (count) count.textContent = `${agents.length} activo${agents.length === 1 ? '' : 's'}`;
+
+  if (card) {
+    card.classList.toggle('border-green-800', active);
+    card.classList.toggle('border-orange-800', guard);
+    card.classList.toggle('shadow-[0_0_40px_rgba(34,197,94,.08)]', active);
+    card.classList.toggle('border-gray-800', !active && !guard);
+  }
+
+  list.innerHTML = '';
+  if (!agents.length) {
+    if (guard && heartbeat.next_runs) {
+      const entries = Object.entries(heartbeat.next_runs).slice(0, 6);
+      for (const [name, info] of entries) {
+        const minutes = Math.ceil((info.seconds_remaining || 0) / 60);
+        const chip = document.createElement('div');
+        chip.className = 'bg-gray-950/55 border border-orange-900/25 rounded-lg p-2';
+        chip.innerHTML = `
+          <div class="text-gray-200 text-xs font-bold">${name}</div>
+          <div class="text-gray-600 text-xs mt-1">${minutes <= 0 ? 'listo para correr' : `en ${minutes} min`}</div>
+        `;
+        list.appendChild(chip);
+      }
+      return;
+    }
+    list.innerHTML = '<p class="text-gray-700 text-xs">Las publicaciones y comentarios quedan abajo en su sector propio cuando se generan o publican.</p>';
+    return;
+  }
+
+  for (const item of agents) {
+    const chip = document.createElement('div');
+    chip.className = 'bg-gray-950/55 border border-green-900/30 rounded-lg p-2 min-w-0';
+    chip.innerHTML = `
+      <div class="flex items-center gap-2">
+        <span class="inline-block w-2 h-2 rounded-full bg-green-400 dot-pulse flex-shrink-0"></span>
+        <span class="text-gray-200 text-xs font-bold truncate">${item.agent || 'agente'}</span>
+        <span class="text-gray-700 text-xs ml-auto">PID ${item.pid || '-'}</span>
+      </div>
+      <div class="text-gray-600 text-xs truncate mt-1" title="${item.command || ''}">${item.command || '-'}</div>
+    `;
+    list.appendChild(chip);
+  }
+}
+
 function renderAgents(data) {
   const container = document.getElementById('agents-list');
   if (!container) return;
@@ -389,7 +561,153 @@ function renderWorkflow(data) {
   }
 }
 
+// ── Render cosas nuevas ─────────────────────────────────────────────────────
+function renderNewWork(items) {
+  const container = document.getElementById('new-work-list');
+  const countEl = document.getElementById('new-work-count');
+  if (!container) return;
+  container.innerHTML = '';
+
+  if (!items || !items.length) {
+    container.innerHTML = '<p class="text-gray-700 text-xs">Sin novedades recientes</p>';
+    if (countEl) countEl.textContent = '0 items';
+    return;
+  }
+
+  for (const item of items) {
+    const style = SRC_STYLE[item.source] || { bg: 'bg-gray-800', text: 'text-gray-400', label: item.source || 'Agente' };
+    const status = item.status || 'unknown';
+    const card = document.createElement('div');
+    card.className = 'bg-gray-950/55 border border-gray-800 rounded-lg p-3 min-h-[118px] flex flex-col gap-2';
+
+    const top = document.createElement('div');
+    top.className = 'flex items-center justify-between gap-2';
+    top.innerHTML = `
+      <span class="text-xs px-1.5 py-0.5 rounded ${style.bg} ${style.text}">${style.label}</span>
+      <span class="text-xs ${statusTextCls(status)}">${ESTADOS[status] || status}</span>
+    `;
+
+    const title = mkEl('div', 'text-gray-100 text-xs font-bold leading-snug line-clamp-2', item.title || 'Novedad');
+    const detail = mkEl('div', 'text-gray-500 text-xs leading-snug line-clamp-3 flex-1', item.detail || '—');
+    const foot = mkEl('div', 'text-gray-700 text-xs mt-auto', fmtDateTime(item.ts));
+
+    if (item.url) {
+      card.title = item.url;
+    }
+    card.append(top, title, detail, foot);
+    container.appendChild(card);
+  }
+
+  if (countEl) countEl.textContent = `${items.length} items`;
+}
+
+// ── Render publicaciones y comentarios ──────────────────────────────────────
+function renderPublications(items) {
+  const container = document.getElementById('publications-list');
+  const countEl = document.getElementById('pub-count');
+  if (!container) return;
+  container.innerHTML = '';
+
+  if (!items || !items.length) {
+    container.innerHTML = '<p class="text-gray-700 text-xs">Sin publicaciones ni comentarios recientes</p>';
+    if (countEl) countEl.textContent = '0 items';
+    return;
+  }
+
+  for (const item of items) {
+    const status = item.status || 'unknown';
+    const sourceStyle = SRC_STYLE[item.source] || { bg: 'bg-gray-800', text: 'text-gray-400', label: item.source || 'Agente' };
+    const row = document.createElement('div');
+    row.className = 'grid grid-cols-1 xl:grid-cols-[150px_1fr_280px] gap-3 items-start bg-gray-950/45 border border-gray-800/70 rounded-lg p-3';
+
+    const meta = document.createElement('div');
+    meta.className = 'space-y-1';
+    meta.innerHTML = `
+      <div class="flex items-center gap-1.5">
+        <span class="text-xs px-1.5 py-0.5 rounded ${sourceStyle.bg} ${sourceStyle.text}">${item.channel || 'canal'}</span>
+        <span class="text-xs ${statusTextCls(status)}">${ESTADOS[status] || status}</span>
+      </div>
+      <div class="text-gray-700 text-xs">${fmtDateTime(item.ts)}</div>
+    `;
+
+    const body = document.createElement('div');
+    const action = ESTADOS[item.action] || item.action || 'accion';
+    const title = item.title || 'Sin titulo';
+    const text = item.body || '—';
+    body.innerHTML = `
+      <div class="text-gray-200 text-xs font-bold leading-snug">${action}: ${title}</div>
+      <div class="text-gray-500 text-xs leading-relaxed mt-2 whitespace-pre-wrap">${text}</div>
+    `;
+
+    const place = document.createElement('div');
+    place.className = 'text-xs space-y-2';
+    const community = item.community || item.channel || '—';
+    place.innerHTML = `
+      <div class="text-gray-600 uppercase tracking-wide mb-0.5">Dónde</div>
+      <div class="text-gray-300 truncate" title="${community}">${community}</div>
+    `;
+    if (item.target_url) {
+      const a = document.createElement('a');
+      a.href = item.target_url;
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+      a.className = 'block text-xs text-blue-300 hover:text-blue-200 underline decoration-blue-900 underline-offset-2 break-all';
+      a.textContent = item.target_url;
+      place.appendChild(a);
+    } else {
+      place.appendChild(mkEl('span', 'text-gray-700 text-xs', 'Sin link de destino'));
+    }
+
+    row.append(meta, body, place);
+    container.appendChild(row);
+  }
+
+  if (countEl) countEl.textContent = `${items.length} items`;
+}
+
 // ── Render activity feed ────────────────────────────────────────────────────
+function renderPublished(items) {
+  const container = document.getElementById('published-list');
+  const countEl = document.getElementById('published-count');
+  if (!container) return;
+  container.innerHTML = '';
+
+  if (!items || !items.length) {
+    container.innerHTML = '<p class="text-gray-700 text-xs">Todavia no hay publicaciones confirmadas</p>';
+    if (countEl) countEl.textContent = '0 items';
+    return;
+  }
+
+  for (const item of items) {
+    const channels = (item.published_channels && item.published_channels.length)
+      ? item.published_channels.join(', ')
+      : item.channel || 'canal';
+    const row = document.createElement('div');
+    row.className = 'grid grid-cols-1 xl:grid-cols-[150px_1fr_280px] gap-3 items-start bg-green-950/10 border border-green-900/35 rounded-lg p-3';
+    row.innerHTML = `
+      <div class="space-y-1">
+        <div class="flex items-center gap-1.5">
+          <span class="text-xs px-1.5 py-0.5 rounded bg-green-900/40 text-green-300">${channels}</span>
+          <span class="text-xs text-green-400">Publicado</span>
+        </div>
+        <div class="text-gray-700 text-xs">${fmtDateTime(item.ts)}</div>
+      </div>
+      <div>
+        <div class="text-gray-200 text-xs font-bold leading-snug">${item.title || 'Sin titulo'}</div>
+        <div class="text-gray-500 text-xs leading-relaxed mt-2 whitespace-pre-wrap">${item.body || '-'}</div>
+      </div>
+      <div class="text-xs space-y-2">
+        <div class="text-gray-600 uppercase tracking-wide mb-0.5">Destino</div>
+        <div class="text-gray-300 truncate" title="${item.community || channels}">${item.community || channels}</div>
+        ${item.target_url ? `<a href="${item.target_url}" target="_blank" rel="noopener noreferrer" class="block text-xs text-blue-300 hover:text-blue-200 underline decoration-blue-900 underline-offset-2 break-all">${item.target_url}</a>` : ''}
+      </div>
+    `;
+    container.appendChild(row);
+  }
+
+  if (countEl) countEl.textContent = `${items.length} items`;
+}
+
 let lastActivityTs = null;
 
 function renderActivityFeed(items) {
@@ -537,18 +855,35 @@ function renderGeo(data) {
 class DashboardPoller {
   constructor() { this.ok = true; }
 
+  get _headers() {
+    return window._authB64 ? { 'Authorization': 'Basic ' + window._authB64 } : {};
+  }
+
+  _fetch(url) {
+    return fetch(url, { headers: this._headers })
+      .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); });
+  }
+
   async fetchAll() {
     try {
-      const [summary, agents, workflow, activity, geo] = await Promise.all([
-        fetch(ENDPOINTS.summary).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
-        fetch(ENDPOINTS.agents).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
-        fetch(ENDPOINTS.workflow).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
-        fetch(ENDPOINTS.activity).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
-        fetch(ENDPOINTS.geo).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
+      const [summary, agentStatus, agents, workflow, newWork, publications, published, activity, geo] = await Promise.all([
+        this._fetch(ENDPOINTS.summary),
+        this._fetch(ENDPOINTS.agentStatus),
+        this._fetch(ENDPOINTS.agents),
+        this._fetch(ENDPOINTS.workflow),
+        this._fetch(ENDPOINTS.newWork),
+        this._fetch(ENDPOINTS.publications),
+        this._fetch(ENDPOINTS.published),
+        this._fetch(ENDPOINTS.activity),
+        this._fetch(ENDPOINTS.geo),
       ]);
       renderSummary(summary);
+      renderAgentMonitor(agentStatus);
       renderAgents(agents);
       renderWorkflow(workflow);
+      renderNewWork(newWork);
+      renderPublications(publications);
+      renderPublished(published);
       renderActivityFeed(activity);
       renderGeo(geo);
       document.getElementById('last-updated').textContent =

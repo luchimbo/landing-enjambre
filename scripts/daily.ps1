@@ -7,7 +7,7 @@
 #>
 param(
     [switch]$DryRun,
-    [int]$Limit = 5
+    [int]$Limit = 50
 )
 
 $ErrorActionPreference = "Continue"
