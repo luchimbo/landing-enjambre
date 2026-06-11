@@ -1,0 +1,328 @@
+{
+  "timestamp_utc": "20260603-184124-109744",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260603-183624-111574",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 55,
+  "pieces_blocked": 5,
+  "proposed": [
+    {
+      "slug": "midiplus-studio-m-home-studio-streaming",
+      "type": "post_educativo",
+      "title": "MIDIPLUS Studio M: Ideal para Streaming en tu Home Studio"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-streaming",
+      "type": "snippet_social",
+      "title": "MIDIPLUS Studio M: Ideal para tu Home Studio de Streaming"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-streaming",
+      "type": "post_social",
+      "title": "MIDIPLUS Studio M: Tu Compañera Ideal para Streaming"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-streaming",
+      "type": "post_x",
+      "title": "MIDIPLUS Studio M: Ideal para tu Home Studio de Streaming"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-streaming",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS Studio M: Ideal para Streaming en tu Home Studio"
+    },
+    {
+      "slug": "guia-elegir-microfono-usb-podcast",
+      "type": "respuesta_tecnica",
+      "title": "Elige el Mejor Micrófono USB para Tu Podcast"
+    },
+    {
+      "slug": "guia-elegir-microfono-usb-podcast",
+      "type": "post_educativo",
+      "title": "Elige el Mejor Micrófono USB para Tu Podcast"
+    },
+    {
+      "slug": "guia-elegir-microfono-usb-podcast",
+      "type": "snippet_social",
+      "title": "Elige el Mejor Micrófono USB para Tu Podcast"
+    },
+    {
+      "slug": "guia-elegir-microfono-usb-podcast",
+      "type": "post_social",
+      "title": "Elige el Mejor Micrófono USB para Tu Podcast"
+    },
+    {
+      "slug": "guia-elegir-microfono-usb-podcast",
+      "type": "post_x",
+      "title": "Elige el Mejor Micrófono USB para Tu Podcast"
+    },
+    {
+      "slug": "guia-elegir-microfono-usb-podcast",
+      "type": "respuesta_youtube",
+      "title": "Elige el Mejor Micrófono USB para Tu Podcast"
+    },
+    {
+      "slug": "setup-microfono-usb-podcast",
+      "type": "respuesta_tecnica",
+      "title": "Inicia tu podcast con un micrófono USB: Guía técnica"
+    },
+    {
+      "slug": "setup-microfono-usb-podcast",
+      "type": "post_educativo",
+      "title": "Inicia tu podcast con un micrófono USB"
+    },
+    {
+      "slug": "setup-microfono-usb-podcast",
+      "type": "snippet_social",
+      "title": "Inicia tu podcast con un micrófono USB"
+    },
+    {
+      "slug": "setup-microfono-usb-podcast",
+      "type": "post_social",
+      "title": "Inicia tu podcast con un micrófono USB"
+    },
+    {
+      "slug": "setup-microfono-usb-podcast",
+      "type": "post_x",
+      "title": "Inicia tu podcast con un micrófono USB"
+    },
+    {
+      "slug": "setup-microfono-usb-podcast",
+      "type": "respuesta_youtube",
+      "title": "Inicia tu podcast con un micrófono USB fácilmente"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-departamento",
+      "type": "respuesta_tecnica",
+      "title": "Inicia tu podcast con un micrófono USB de calidad"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-departamento",
+      "type": "post_educativo",
+      "title": "Inicia tu podcast con un micrófono USB de calidad"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-departamento",
+      "type": "snippet_social",
+      "title": "Inicia tu podcast con un micrófono USB de calidad"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-departamento",
+      "type": "post_social",
+      "title": "Inicia tu podcast con un micrófono USB de calidad"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-departamento",
+      "type": "post_x",
+      "title": "Inicia tu podcast con un micrófono USB de calidad"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-departamento",
+      "type": "respuesta_youtube",
+      "title": "Inicia tu podcast con un micrófono USB de calidad"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-streaming",
+      "type": "respuesta_tecnica",
+      "title": "Iniciá tu Podcast con un Micrófono USB de Calidad"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-streaming",
+      "type": "post_educativo",
+      "title": "Iniciá tu Podcast con un Micrófono USB de Calidad"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-streaming",
+      "type": "snippet_social",
+      "title": "Iniciá tu Podcast con un Micrófono USB de Calidad"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-streaming",
+      "type": "post_social",
+      "title": "Iniciá tu Podcast con un Micrófono USB de Calidad"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-streaming",
+      "type": "post_x",
+      "title": "Iniciá tu Podcast con un Micrófono USB de Calidad"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-streaming",
+      "type": "respuesta_youtube",
+      "title": "Iniciá tu Podcast con un Micrófono USB de Calidad"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-en-casa",
+      "type": "post_educativo",
+      "title": "Micrófonos USB ideales para grabar tu podcast en casa"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-en-casa",
+      "type": "snippet_social",
+      "title": "Micrófonos USB ideales para grabar tu podcast en casa"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-en-casa",
+      "type": "post_social",
+      "title": "Micrófonos USB para iniciar tu podcast en casa"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-en-casa",
+      "type": "post_x",
+      "title": "Micrófonos USB ideales para grabar tu podcast en casa"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-en-casa",
+      "type": "respuesta_youtube",
+      "title": "Micrófonos USB para iniciar tu podcast en casa"
+    },
+    {
+      "slug": "que-comprar-para-microfono-xlr-para-podcast",
+      "type": "respuesta_tecnica",
+      "title": "Elige el micrófono XLR ideal para tu podcast"
+    },
+    {
+      "slug": "que-comprar-para-microfono-xlr-para-podcast",
+      "type": "post_educativo",
+      "title": "Elige el micrófono XLR ideal para tu podcast"
+    },
+    {
+      "slug": "que-comprar-para-microfono-xlr-para-podcast",
+      "type": "snippet_social",
+      "title": "Elige el micrófono XLR ideal para tu podcast"
+    },
+    {
+      "slug": "que-comprar-para-microfono-xlr-para-podcast",
+      "type": "post_social",
+      "title": "Elige el micrófono XLR ideal para tu podcast"
+    },
+    {
+      "slug": "que-comprar-para-microfono-xlr-para-podcast",
+      "type": "post_x",
+      "title": "Elige el micrófono XLR ideal para tu podcast"
+    },
+    {
+      "slug": "que-comprar-para-microfono-xlr-para-podcast",
+      "type": "respuesta_youtube",
+      "title": "Elige el micrófono XLR ideal para tu podcast"
+    },
+    {
+      "slug": "guia-elegir-microfono-xlr-podcast",
+      "type": "snippet_social",
+      "title": "Selecciona el micrófono XLR perfecto para tu podcast"
+    },
+    {
+      "slug": "guia-elegir-microfono-xlr-podcast",
+      "type": "post_social",
+      "title": "Selecciona el micrófono XLR perfecto para tu podcast"
+    },
+    {
+      "slug": "guia-elegir-microfono-xlr-podcast",
+      "type": "post_x",
+      "title": "Selecciona el micrófono XLR perfecto para tu podcast"
+    },
+    {
+      "slug": "setup-microfono-xlr-podcast",
+      "type": "respuesta_tecnica",
+      "title": "Crea el mejor setup para tu podcast con micrófono XLR"
+    },
+    {
+      "slug": "setup-microfono-xlr-podcast",
+      "type": "post_educativo",
+      "title": "Crea el mejor setup para tu podcast con micrófono XLR"
+    },
+    {
+      "slug": "setup-microfono-xlr-podcast",
+      "type": "snippet_social",
+      "title": "Crea el mejor setup para tu podcast con micrófono XLR"
+    },
+    {
+      "slug": "setup-microfono-xlr-podcast",
+      "type": "post_social",
+      "title": "Crea el mejor setup para tu podcast con micrófono XLR"
+    },
+    {
+      "slug": "setup-microfono-xlr-podcast",
+      "type": "post_x",
+      "title": "Crea el mejor setup para tu podcast con micrófono XLR"
+    },
+    {
+      "slug": "setup-microfono-xlr-podcast",
+      "type": "respuesta_youtube",
+      "title": "Crea el mejor setup para tu podcast con micrófono XLR"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-principiantes",
+      "type": "respuesta_tecnica",
+      "title": "Elige el micrófono XLR perfecto para tu podcast"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-principiantes",
+      "type": "post_educativo",
+      "title": "Elige el micrófono XLR perfecto para tu podcast"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-principiantes",
+      "type": "snippet_social",
+      "title": "Elige el micrófono XLR perfecto para tu podcast"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-principiantes",
+      "type": "post_social",
+      "title": "Elige el micrófono XLR perfecto para tu podcast"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-principiantes",
+      "type": "post_x",
+      "title": "Elige el micrófono XLR perfecto para tu podcast"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-principiantes",
+      "type": "respuesta_youtube",
+      "title": "Elige el micrófono XLR perfecto para tu podcast"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "midiplus-studio-m-home-studio-streaming",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: precio"
+      ]
+    },
+    {
+      "slug": "microfono-usb-para-podcast-en-casa",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-elegir-microfono-xlr-podcast",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-elegir-microfono-xlr-podcast",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-elegir-microfono-xlr-podcast",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 300.0
+}

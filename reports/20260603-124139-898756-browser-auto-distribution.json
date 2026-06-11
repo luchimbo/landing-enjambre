@@ -1,0 +1,295 @@
+{
+  "timestamp_utc": "20260603-124139-898756",
+  "command": "auto-distribution",
+  "channels": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "reddit",
+    "x",
+    "youtube"
+  ],
+  "unsupported_channels": [],
+  "limit": 6,
+  "per_channel": 1,
+  "dry_run": false,
+  "allow_proposed": false,
+  "published_or_attempted": 6,
+  "blocked_seen": 4,
+  "results": [
+    {
+      "id": "20260603-123801-945864:youtube:auto-listen:10",
+      "channel": "youtube",
+      "slug": "controlador-midi-para-ableton-comparativa",
+      "result": {
+        "ok": false,
+        "url": "https://www.youtube.com/watch?v=nQ9uh2UHfqI",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "añade un comentario",
+            "add a comment"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comentar"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "selector_only",
+          "error": "like de YouTube no encontrado sin usar texto ambiguo"
+        }
+      }
+    },
+    {
+      "id": "20260603-123801-945864:reddit:auto-listen:6",
+      "channel": "reddit",
+      "slug": "controlador-midi-para-fl-studio",
+      "result": {
+        "ok": false,
+        "url": "https://www.reddit.com/user/Chameleon-Music/comments/1tvn2xc/hybrid_generation/",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "añadir un comentario",
+            "add a comment"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comentar",
+            "comment",
+            "reply"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260603-123801-945864:linkedin:auto-listen:5",
+      "channel": "linkedin",
+      "slug": "controlador-midi-para-ableton-comparativa",
+      "result": {
+        "ok": true,
+        "url": "https://www.linkedin.com/search/results/all/?keywords=%23hardwaredevelopment&origin=HASH_TAG_FROM_FEED",
+        "dismissed": [
+          {
+            "ok": true,
+            "label": "cerrar menú de omisión"
+          }
+        ],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "linkedin_comment",
+              "ok": true,
+              "prep": {
+                "ok": true,
+                "skipped": true
+              },
+              "open": {
+                "ok": true,
+                "label": "comentar"
+              },
+              "fill": {
+                "ok": true,
+                "selector": "[aria-label][contenteditable=\"true\"]",
+                "length": 141
+              },
+              "submit": {
+                "ok": false,
+                "error": "boton por texto no encontrado",
+                "texts": [
+                  "publicar",
+                  "post"
+                ]
+              },
+              "keyboard_submit": {
+                "ok": true,
+                "method": "ctrl_enter"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260603-123801-945864:instagram:auto-listen:0",
+      "channel": "instagram",
+      "slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "result": {
+        "ok": true,
+        "url": "https://www.instagram.com/p/DKlslFwsis_/",
+        "dismissed": [],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "instagram_comment_selector",
+              "ok": true,
+              "prep": {
+                "ok": true,
+                "tries": 1,
+                "tag": "TEXTAREA"
+              },
+              "open": {
+                "ok": true,
+                "selector": "textarea[aria-label*=\"comentario\"]"
+              },
+              "fill": {
+                "ok": true,
+                "selector": "textarea",
+                "length": 144
+              },
+              "submit": {
+                "ok": true,
+                "label": "publicar"
+              },
+              "keyboard_submit": {
+                "ok": false,
+                "skipped": true
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260602-125819-215287:como-elegir-microfono-para-podcast:post_social:facebook:1780405231337",
+      "channel": "facebook",
+      "slug": "como-elegir-microfono-para-podcast",
+      "result": {
+        "ok": true,
+        "url": "https://www.facebook.com/",
+        "dismissed": [],
+        "open": {
+          "ok": true,
+          "label": "crear una publicación ¿qué estás pensando, bruno?"
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "publicar"
+          ]
+        },
+        "fallback_like": {
+          "ok": true,
+          "mode": "selector",
+          "selector": "[aria-label=\"Me gusta\"]"
+        }
+      }
+    },
+    {
+      "id": "20260602-125819-215287:como-elegir-microfono-para-podcast:snippet_social:social:1780405225092",
+      "channel": "x",
+      "slug": "como-elegir-microfono-para-podcast",
+      "result": {
+        "ok": true,
+        "url": "https://x.com/compose/post",
+        "dismissed": [],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "x_compose",
+              "ok": true,
+              "prep": {
+                "ok": true,
+                "skipped": true
+              },
+              "open": {
+                "ok": true,
+                "skipped": true
+              },
+              "fill": {
+                "ok": true,
+                "selector": "[data-testid=\"tweetTextarea_0\"]",
+                "length": 275
+              },
+              "submit": {
+                "ok": true,
+                "selector": "[data-testid=\"tweetButtonInline\"]"
+              },
+              "keyboard_submit": {
+                "ok": false,
+                "skipped": true
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "blocked_sample": [
+    {
+      "id": "20260602-153802-582712:linkedin:auto-listen:6",
+      "channel": "linkedin",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260602-125819-215287:placa-sonido-guitarra-home-studio:snippet_social:social:1780405144055",
+      "channel": "facebook",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260602-125819-215287:placa-sonido-guitarra-home-studio:snippet_social:social:1780405144055",
+      "channel": "x",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260602-125819-215287:como-elegir-microfono-para-podcast:post_x:x:1780405234393",
+      "channel": "x",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    }
+  ]
+}

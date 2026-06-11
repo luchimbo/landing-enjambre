@@ -1,0 +1,284 @@
+{
+  "timestamp_utc": "20260610-194244-901967",
+  "command": "auto-distribution",
+  "channels": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "reddit",
+    "x",
+    "youtube"
+  ],
+  "unsupported_channels": [],
+  "limit": 18,
+  "per_channel": 3,
+  "dry_run": false,
+  "allow_proposed": false,
+  "published_or_attempted": 6,
+  "blocked_seen": 1795,
+  "results": [
+    {
+      "id": "20260610-193802-186305:youtube:auto-listen:31",
+      "channel": "youtube",
+      "slug": "microfono-para-podcast-usb-o-xlr",
+      "result": {
+        "ok": false,
+        "url": "https://www.youtube.com/watch?v=4P11fLsjsGU&t=45s&pp=ygUWbWljcm9mb25vIHBhcmEgcG9kY2FzdNIHCQk5CwGHKiGM7w%3D%3D",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "añade un comentario",
+            "add a comment"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comentar"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "selector_only",
+          "error": "like de YouTube no encontrado sin usar texto ambiguo"
+        }
+      }
+    },
+    {
+      "id": "20260610-193802-186305:reddit:auto-listen:19",
+      "channel": "reddit",
+      "slug": "controlador-midi-para-ableton-comparativa",
+      "result": {
+        "ok": false,
+        "url": "https://www.reddit.com/r/ableton/comments/1u2bzn4/just_released_my_third_opensource_ableton/",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "añadir un comentario",
+            "add a comment"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comentar",
+            "comment",
+            "reply"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260610-193802-186305:reddit:auto-listen:18",
+      "channel": "reddit",
+      "slug": "controlador-midi-para-fl-studio",
+      "result": {
+        "ok": false,
+        "url": "https://www.reddit.com/user/ibuildinfra/comments/1u2c5an/how_to_screen_record_with_audio_on_mac_system/",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "añadir un comentario",
+            "add a comment"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comentar",
+            "comment",
+            "reply"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260610-193802-186305:reddit:auto-listen:17",
+      "channel": "reddit",
+      "slug": "controlador-midi-para-fl-studio",
+      "result": {
+        "ok": false,
+        "url": "https://www.reddit.com/r/homestudios/comments/1u2c9fe/home_studio_corner/",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "añadir un comentario",
+            "add a comment"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comentar",
+            "comment",
+            "reply"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260610-130552-973147:microfono-usb-para-podcast-voces:respuesta_youtube:youtube:1781096877411",
+      "channel": "youtube",
+      "slug": "microfono-usb-para-podcast-voces",
+      "result": {
+        "ok": false,
+        "error": "YouTube requiere source_thread_url de un video"
+      }
+    },
+    {
+      "id": "20260610-130552-973147:microfono-usb-para-podcast-sin-complicarse:respuesta_youtube:youtube:1781096854102",
+      "channel": "youtube",
+      "slug": "microfono-usb-para-podcast-sin-complicarse",
+      "result": {
+        "ok": false,
+        "error": "YouTube requiere source_thread_url de un video"
+      }
+    }
+  ],
+  "blocked_sample": [
+    {
+      "id": "20260610-193802-186305:youtube:auto-listen:33",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260610-193802-186305:youtube:auto-listen:32",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260610-193802-186305:youtube:auto-listen:30",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260610-193802-186305:youtube:auto-listen:29",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260610-193802-186305:youtube:auto-listen:28",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260610-193802-186305:youtube:auto-listen:27",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260610-193802-186305:youtube:auto-listen:26",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260610-193802-186305:youtube:auto-listen:25",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260610-193802-186305:youtube:auto-listen:24",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260610-193802-186305:youtube:auto-listen:23",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    }
+  ]
+}

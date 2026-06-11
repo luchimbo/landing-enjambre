@@ -1,0 +1,19 @@
+{
+  "timestamp_utc": "20260610-163909-631739",
+  "command": "auto-listen",
+  "channels": [
+    "facebook",
+    "instagram",
+    "x",
+    "youtube"
+  ],
+  "searches": 2,
+  "per_search": 2,
+  "dry_run": false,
+  "items": 0,
+  "distribution_drafts": 0,
+  "social_intel_path": "D:\\AgentesGuille\\data\\social_intel.jsonl",
+  "search_tasks_path": "D:\\AgentesGuille\\data\\distribution_search_tasks.jsonl",
+  "content_feedback_path": "D:\\AgentesGuille\\data\\content_feedback.jsonl",
+  "sample": []
+}

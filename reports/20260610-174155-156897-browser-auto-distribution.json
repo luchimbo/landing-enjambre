@@ -1,0 +1,259 @@
+{
+  "timestamp_utc": "20260610-174155-156897",
+  "command": "auto-distribution",
+  "channels": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "reddit",
+    "x",
+    "youtube"
+  ],
+  "unsupported_channels": [],
+  "limit": 18,
+  "per_channel": 3,
+  "dry_run": false,
+  "allow_proposed": false,
+  "published_or_attempted": 6,
+  "blocked_seen": 1718,
+  "results": [
+    {
+      "id": "20260610-173802-227978:reddit:auto-listen:19",
+      "channel": "reddit",
+      "slug": "controlador-midi-para-ableton-comparativa",
+      "result": {
+        "ok": false,
+        "url": "https://www.reddit.com/user/Remarkable_Mix7221/comments/1u286pt/la_involuci%C3%B3n_de_la_m%C3%BAsica/",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "añadir un comentario",
+            "add a comment"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comentar",
+            "comment",
+            "reply"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260610-173802-227978:reddit:auto-listen:18",
+      "channel": "reddit",
+      "slug": "controlador-midi-para-fl-studio",
+      "result": {
+        "ok": false,
+        "url": "https://www.reddit.com/r/FL_Studio/comments/1u294xx/trying_to_learn_fl_studio/",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "añadir un comentario",
+            "add a comment"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comentar",
+            "comment",
+            "reply"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260610-134103-206954:midiplus-ed6-practicar-bateria-grabar-contenido:respuesta_tecnica:reddit:1781099080692",
+      "channel": "reddit",
+      "slug": "midiplus-ed6-practicar-bateria-grabar-contenido",
+      "result": {
+        "ok": false,
+        "url": "https://www.reddit.com/",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "añadir un comentario",
+            "add a comment"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comentar",
+            "comment",
+            "reply"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260610-133802-672906:midiplus-ed6-practicar-bateria-grabar-contenido:respuesta_youtube:youtube:1781098906972",
+      "channel": "youtube",
+      "slug": "midiplus-ed6-practicar-bateria-grabar-contenido",
+      "result": {
+        "ok": false,
+        "error": "YouTube requiere source_thread_url de un video"
+      }
+    },
+    {
+      "id": "20260610-133802-672906:midiplus-i61-controlador-61-teclas-musica-electronica:respuesta_youtube:youtube:1781098881118",
+      "channel": "youtube",
+      "slug": "midiplus-i61-controlador-61-teclas-musica-electronica",
+      "result": {
+        "ok": false,
+        "error": "YouTube requiere source_thread_url de un video"
+      }
+    },
+    {
+      "id": "20260610-133802-672906:arturia-polybrute-estudio-leads:respuesta_youtube:youtube:1781098813236",
+      "channel": "youtube",
+      "slug": "arturia-polybrute-estudio-leads",
+      "result": {
+        "ok": false,
+        "error": "YouTube requiere source_thread_url de un video"
+      }
+    }
+  ],
+  "blocked_sample": [
+    {
+      "id": "20260610-173802-227978:youtube:auto-listen:29",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260610-173802-227978:youtube:auto-listen:28",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260610-173802-227978:youtube:auto-listen:27",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260610-173802-227978:youtube:auto-listen:26",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260610-173802-227978:youtube:auto-listen:25",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260610-173802-227978:youtube:auto-listen:24",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260610-173802-227978:youtube:auto-listen:23",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260610-173802-227978:youtube:auto-listen:22",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260610-173802-227978:reddit:auto-listen:21",
+      "channel": "reddit",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260610-173802-227978:reddit:auto-listen:20",
+      "channel": "reddit",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    }
+  ]
+}

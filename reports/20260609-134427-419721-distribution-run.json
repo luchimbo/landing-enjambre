@@ -1,0 +1,380 @@
+{
+  "timestamp_utc": "20260609-134427-419721",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260609-133802-388935",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 12,
+  "pieces_proposed": 71,
+  "pieces_blocked": 1,
+  "proposed": [
+    {
+      "slug": "arturia-polybrute-estudio-workflow",
+      "type": "respuesta_tecnica",
+      "title": "Arturia PolyBrute: Potencia y simplicidad en tu estudio"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-workflow",
+      "type": "post_educativo",
+      "title": "Arturia PolyBrute: Potencia y simplicidad en tu estudio"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-workflow",
+      "type": "snippet_social",
+      "title": "Arturia PolyBrute: Potencia y simplicidad en tu estudio"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-workflow",
+      "type": "post_social",
+      "title": "Arturia PolyBrute: Potencia y simplicidad en tu estudio"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-workflow",
+      "type": "post_x",
+      "title": "Arturia PolyBrute: Potencia y simplicidad en tu estudio"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-workflow",
+      "type": "respuesta_youtube",
+      "title": "Arturia PolyBrute: Potencia y simplicidad para tu estudio"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-bajos",
+      "type": "post_educativo",
+      "title": "Arturia PolyBrute: Potencia y Versatilidad para Bajos"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-bajos",
+      "type": "snippet_social",
+      "title": "Arturia PolyBrute: Potencia y Versatilidad para Bajos"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-bajos",
+      "type": "post_social",
+      "title": "Arturia PolyBrute: Potencia y Versatilidad para Bajos"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-bajos",
+      "type": "post_x",
+      "title": "Arturia PolyBrute: Potencia y Versatilidad para Bajos"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-bajos",
+      "type": "respuesta_youtube",
+      "title": "Arturia PolyBrute: Ideal para Bajos en Producción Musical"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-directo",
+      "type": "respuesta_tecnica",
+      "title": "Arturia PolyBrute: Potencia y Versatilidad para Tu Música"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-directo",
+      "type": "post_educativo",
+      "title": "Arturia PolyBrute: Potencia y Versatilidad para Tu Música"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-directo",
+      "type": "snippet_social",
+      "title": "Arturia PolyBrute: Potencia y Versatilidad para Tu Música"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-directo",
+      "type": "post_social",
+      "title": "Arturia PolyBrute: Potencia y Versatilidad para Tu Música"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-directo",
+      "type": "post_x",
+      "title": "Arturia PolyBrute: Potencia y Versatilidad para Tu Música"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-directo",
+      "type": "respuesta_youtube",
+      "title": "Arturia PolyBrute: Ideal para Estudio y Directo"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-sin-computadora",
+      "type": "respuesta_tecnica",
+      "title": "Arturia PolyBrute: Un Sinte Analógico para Estudio Sin Computadora"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-sin-computadora",
+      "type": "post_educativo",
+      "title": "Arturia PolyBrute: El Sinte Analógico Ideal para tu Estudio"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-sin-computadora",
+      "type": "snippet_social",
+      "title": "Arturia PolyBrute: El Sinte Analógico Ideal para tu Estudio"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-sin-computadora",
+      "type": "post_social",
+      "title": "Arturia PolyBrute: El Sinte Perfecto para Tu Estudio"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-sin-computadora",
+      "type": "post_x",
+      "title": "Arturia PolyBrute: El Sinte Analógico Ideal para tu Estudio"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-sin-computadora",
+      "type": "respuesta_youtube",
+      "title": "Arturia PolyBrute: Un Sinte Analógico para Estudio Sin Computadora"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-sintesis",
+      "type": "respuesta_tecnica",
+      "title": "Arturia PolyBrute: Explorando su Potencial en la Síntesis Sonora"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-sintesis",
+      "type": "post_educativo",
+      "title": "Arturia PolyBrute: Tu Compañero en la Síntesis Sonora"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-sintesis",
+      "type": "snippet_social",
+      "title": "Arturia PolyBrute: Tu Compañero en la Síntesis Sonora"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-sintesis",
+      "type": "post_social",
+      "title": "Arturia PolyBrute: Tu Compañero en la Síntesis Sonora"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-sintesis",
+      "type": "post_x",
+      "title": "Arturia PolyBrute: Tu Compañero en la Síntesis Sonora"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-sintesis",
+      "type": "respuesta_youtube",
+      "title": "Arturia PolyBrute: Un Vistazo a su Potencial en Síntesis"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-texturas",
+      "type": "respuesta_tecnica",
+      "title": "Arturia PolyBrute: Texturas Sonoras Inigualables para tu Estudio"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-texturas",
+      "type": "post_educativo",
+      "title": "Arturia PolyBrute: Texturas Sonoras Inigualables para tu Estudio"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-texturas",
+      "type": "snippet_social",
+      "title": "Arturia PolyBrute: Texturas Sonoras Inigualables para tu Estudio"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-texturas",
+      "type": "post_social",
+      "title": "Arturia PolyBrute: Texturas Sonoras que Transforman tu Estudio"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-texturas",
+      "type": "post_x",
+      "title": "Arturia PolyBrute: Texturas Sonoras Inigualables para tu Estudio"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-texturas",
+      "type": "respuesta_youtube",
+      "title": "Arturia PolyBrute: Texturas Sonoras para tu Estudio"
+    },
+    {
+      "slug": "synido-tempokey-25-controlador-compacto-creadores-contenido",
+      "type": "respuesta_tecnica",
+      "title": "Controlador MIDI Synido TempoKEY 25: Compacto y Eficiente"
+    },
+    {
+      "slug": "synido-tempokey-25-controlador-compacto-creadores-contenido",
+      "type": "post_educativo",
+      "title": "Controlador MIDI Synido TempoKEY 25: Compacto y Eficiente"
+    },
+    {
+      "slug": "synido-tempokey-25-controlador-compacto-creadores-contenido",
+      "type": "snippet_social",
+      "title": "Controlador MIDI Synido TempoKEY 25: Compacto y Eficiente"
+    },
+    {
+      "slug": "synido-tempokey-25-controlador-compacto-creadores-contenido",
+      "type": "post_social",
+      "title": "Controlador MIDI Synido TempoKEY 25: Compacto y Eficiente"
+    },
+    {
+      "slug": "synido-tempokey-25-controlador-compacto-creadores-contenido",
+      "type": "post_x",
+      "title": "Controlador MIDI Synido TempoKEY 25: Compacto y Eficiente"
+    },
+    {
+      "slug": "synido-tempokey-25-controlador-compacto-creadores-contenido",
+      "type": "respuesta_youtube",
+      "title": "Controlador MIDI Synido TempoKEY 25: Ideal para Creadores de Contenido"
+    },
+    {
+      "slug": "synido-tempokey-25-setup-portable",
+      "type": "respuesta_tecnica",
+      "title": "Controlador MIDI Synido TempoKEY 25: Ideal para setups portables"
+    },
+    {
+      "slug": "synido-tempokey-25-setup-portable",
+      "type": "post_educativo",
+      "title": "Controlador MIDI Synido TempoKEY 25: Ideal para tu setup portable"
+    },
+    {
+      "slug": "synido-tempokey-25-setup-portable",
+      "type": "snippet_social",
+      "title": "Controlador MIDI Synido TempoKEY 25 para tu setup portable"
+    },
+    {
+      "slug": "synido-tempokey-25-setup-portable",
+      "type": "post_social",
+      "title": "Controlador MIDI Synido TempoKEY 25: Ideal para tu setup portable"
+    },
+    {
+      "slug": "synido-tempokey-25-setup-portable",
+      "type": "post_x",
+      "title": "Controlador MIDI Synido TempoKEY 25 para tu setup portable"
+    },
+    {
+      "slug": "synido-tempokey-25-setup-portable",
+      "type": "respuesta_youtube",
+      "title": "Controlador MIDI Synido TempoKEY 25: Ideal para tu setup portable"
+    },
+    {
+      "slug": "sinido-tempokey-25-controlador-compacto-musica-electronica",
+      "type": "respuesta_tecnica",
+      "title": "Controlador MIDI Synido TempoKEY 25: Tu Compañero Ideal"
+    },
+    {
+      "slug": "sinido-tempokey-25-controlador-compacto-musica-electronica",
+      "type": "post_educativo",
+      "title": "Controlador MIDI Synido TempoKEY 25: Tu Compañero Ideal"
+    },
+    {
+      "slug": "sinido-tempokey-25-controlador-compacto-musica-electronica",
+      "type": "snippet_social",
+      "title": "Controlador MIDI Synido TempoKEY 25: Tu Compañero Ideal"
+    },
+    {
+      "slug": "sinido-tempokey-25-controlador-compacto-musica-electronica",
+      "type": "post_social",
+      "title": "Controlador MIDI Synido TempoKEY 25: Tu Compañero Ideal"
+    },
+    {
+      "slug": "sinido-tempokey-25-controlador-compacto-musica-electronica",
+      "type": "post_x",
+      "title": "Controlador MIDI Synido TempoKEY 25: Tu Compañero Ideal"
+    },
+    {
+      "slug": "sinido-tempokey-25-controlador-compacto-musica-electronica",
+      "type": "respuesta_youtube",
+      "title": "Controlador MIDI Synido TempoKEY 25: Ideal para Música Electrónica"
+    },
+    {
+      "slug": "synido-tempokey-25-controlador-compacto-28",
+      "type": "respuesta_tecnica",
+      "title": "Simplificá tu producción con el Synido TempoKEY 25"
+    },
+    {
+      "slug": "synido-tempokey-25-controlador-compacto-28",
+      "type": "post_educativo",
+      "title": "Simplificá tu producción con el Synido TempoKEY 25"
+    },
+    {
+      "slug": "synido-tempokey-25-controlador-compacto-28",
+      "type": "snippet_social",
+      "title": "Simplificá tu producción con el Synido TempoKEY 25"
+    },
+    {
+      "slug": "synido-tempokey-25-controlador-compacto-28",
+      "type": "post_social",
+      "title": "Simplificá tu producción con el Synido TempoKEY 25"
+    },
+    {
+      "slug": "synido-tempokey-25-controlador-compacto-28",
+      "type": "post_x",
+      "title": "Simplificá tu producción con el Synido TempoKEY 25"
+    },
+    {
+      "slug": "synido-tempokey-25-controlador-compacto-28",
+      "type": "respuesta_youtube",
+      "title": "Simplificá tu producción con el Synido TempoKEY 25"
+    },
+    {
+      "slug": "synido-tempopad-beats-creadores-contenido",
+      "type": "respuesta_tecnica",
+      "title": "Crea Beats Únicos con Synido TempoPAD"
+    },
+    {
+      "slug": "synido-tempopad-beats-creadores-contenido",
+      "type": "post_educativo",
+      "title": "Crea Beats Únicos con Synido TempoPAD para Creadores de Contenido"
+    },
+    {
+      "slug": "synido-tempopad-beats-creadores-contenido",
+      "type": "snippet_social",
+      "title": "Crea Beats Únicos con Synido TempoPAD"
+    },
+    {
+      "slug": "synido-tempopad-beats-creadores-contenido",
+      "type": "post_social",
+      "title": "Crea Beats Únicos con Synido TempoPAD"
+    },
+    {
+      "slug": "synido-tempopad-beats-creadores-contenido",
+      "type": "post_x",
+      "title": "Crea Beats Únicos con Synido TempoPAD"
+    },
+    {
+      "slug": "synido-tempopad-beats-creadores-contenido",
+      "type": "respuesta_youtube",
+      "title": "Crea Beats Únicos con Synido TempoPAD para Creadores de Contenido"
+    },
+    {
+      "slug": "synido-tempopad-beats-finger-drumming",
+      "type": "respuesta_tecnica",
+      "title": "Controlador Synido TempoPAD: Ideal para finger drumming"
+    },
+    {
+      "slug": "synido-tempopad-beats-finger-drumming",
+      "type": "post_educativo",
+      "title": "Controlador Synido TempoPAD: Tu aliado para crear beats"
+    },
+    {
+      "slug": "synido-tempopad-beats-finger-drumming",
+      "type": "snippet_social",
+      "title": "Controlador Synido TempoPAD: Tu aliado para crear beats"
+    },
+    {
+      "slug": "synido-tempopad-beats-finger-drumming",
+      "type": "post_social",
+      "title": "Controlador Synido TempoPAD: Tu aliado para crear beats"
+    },
+    {
+      "slug": "synido-tempopad-beats-finger-drumming",
+      "type": "post_x",
+      "title": "Controlador Synido TempoPAD: Tu aliado para crear beats"
+    },
+    {
+      "slug": "synido-tempopad-beats-finger-drumming",
+      "type": "respuesta_youtube",
+      "title": "Controlador Synido TempoPAD: Ideal para Finger Drumming"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "arturia-polybrute-estudio-bajos",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 385.03
+}

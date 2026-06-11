@@ -1,0 +1,310 @@
+{
+  "timestamp_utc": "20260611-132232-017392",
+  "command": "auto-distribution",
+  "channels": [
+    "facebook",
+    "instagram",
+    "x",
+    "youtube"
+  ],
+  "unsupported_channels": [],
+  "limit": 25,
+  "per_channel": 2,
+  "dry_run": false,
+  "allow_proposed": false,
+  "published_or_attempted": 6,
+  "blocked_seen": 1048,
+  "results": [
+    {
+      "id": "20260611-132002-839647:youtube:auto-listen:2",
+      "channel": "youtube",
+      "slug": "controlador-midi-para-fl-studio",
+      "result": {
+        "ok": false,
+        "url": "https://www.youtube.com/watch?v=gdJvuZbbwvs&pp=ygUfY29udHJvbGFkb3IgTUlESSBwYXJhIEZMIFN0dWRpb9IHCQk6CwGHKiGM7w%3D%3D",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "añade un comentario",
+            "add a comment"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comentar"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "selector_only",
+          "error": "like de YouTube no encontrado sin usar texto ambiguo"
+        }
+      }
+    },
+    {
+      "id": "20260611-130552-738145:midiplus-ed8-vs-ed6-setup-portable:respuesta_youtube:youtube:1781183386891",
+      "channel": "youtube",
+      "slug": "midiplus-ed8-vs-ed6-setup-portable",
+      "result": {
+        "ok": false,
+        "error": "YouTube requiere source_thread_url de un video"
+      }
+    },
+    {
+      "id": "20260611-130552-738145:midiplus-ms6-home-studio-chico:post_social:facebook:1781183256498",
+      "channel": "facebook",
+      "slug": "midiplus-ms6-home-studio-chico",
+      "result": {
+        "ok": false,
+        "url": "https://www.facebook.com/",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "¿qué estás pensando",
+            "what's on your mind",
+            "crear publicación"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "publicar"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260611-130552-738145:midiplus-ms6-home-studio-chico:snippet_social:social:1781183251381",
+      "channel": "facebook",
+      "slug": "midiplus-ms6-home-studio-chico",
+      "result": {
+        "ok": false,
+        "url": "https://www.facebook.com/",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "¿qué estás pensando",
+            "what's on your mind",
+            "crear publicación"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "publicar"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260611-130552-738145:midiplus-ms6-home-studio-chico:snippet_social:social:1781183251381",
+      "channel": "x",
+      "slug": "midiplus-ms6-home-studio-chico",
+      "result": {
+        "ok": true,
+        "url": "https://x.com/compose/post",
+        "dismissed": [],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "x_compose",
+              "ok": true,
+              "prep": {
+                "ok": true,
+                "skipped": true
+              },
+              "open": {
+                "ok": true,
+                "skipped": true
+              },
+              "fill": {
+                "ok": true,
+                "selector": "[data-testid=\"tweetTextarea_0\"]",
+                "length": 275
+              },
+              "submit": {
+                "ok": true,
+                "selector": "[data-testid=\"tweetButtonInline\"]"
+              },
+              "keyboard_submit": {
+                "ok": false,
+                "skipped": true
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260611-130552-738145:midiplus-ed6-practicar-bateria-guitarra:post_x:x:1781183434014",
+      "channel": "x",
+      "slug": "midiplus-ed6-practicar-bateria-guitarra",
+      "result": {
+        "ok": true,
+        "url": "https://x.com/compose/post",
+        "dismissed": [],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "x_compose",
+              "ok": true,
+              "prep": {
+                "ok": true,
+                "skipped": true
+              },
+              "open": {
+                "ok": true,
+                "skipped": true
+              },
+              "fill": {
+                "ok": true,
+                "selector": "[data-testid=\"tweetTextarea_0\"]",
+                "length": 226
+              },
+              "submit": {
+                "ok": true,
+                "selector": "[data-testid=\"tweetButtonInline\"]"
+              },
+              "keyboard_submit": {
+                "ok": false,
+                "skipped": true
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "blocked_sample": [
+    {
+      "id": "20260611-132002-839647:youtube:auto-listen:4",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260611-132002-839647:youtube:auto-listen:3",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260611-132002-839647:instagram:auto-listen:1",
+      "channel": "instagram",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260611-132002-839647:instagram:auto-listen:0",
+      "channel": "instagram",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260611-130552-738145:arturia-minifreak-vs-microfreak-workflow:respuesta_youtube:youtube:1781183291871",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260611-130552-738145:arturia-minifreak-vs-microfreak-workflow:post_x:x:1781183286452",
+      "channel": "x",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260611-125828-995151:microfono-usb-para-podcast-home-studio-11:respuesta_youtube:youtube:1781182816606",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260611-125828-995151:midiplus-ms6-home-studio-escritorio:respuesta_youtube:youtube:1781182768967",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260611-125828-995151:midiplus-ms6-home-studio-escritorio:snippet_social:social:1781182760724",
+      "channel": "facebook",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260611-125828-995151:midiplus-ms6-home-studio-escritorio:snippet_social:social:1781182760724",
+      "channel": "x",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    }
+  ]
+}

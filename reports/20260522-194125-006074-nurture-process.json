@@ -1,0 +1,19 @@
+{
+  "timestamp_utc": "20260522-194125-006074",
+  "command": "process",
+  "dry_run": false,
+  "limit": 50,
+  "results": {
+    "processed": 1,
+    "sent": 0,
+    "skipped": 2,
+    "failed": 1,
+    "errors": [
+      {
+        "lead_id": 1,
+        "email": "test2@example.com",
+        "error": "SMTP no configurado"
+      }
+    ]
+  }
+}

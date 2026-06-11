@@ -1,0 +1,428 @@
+{
+  "timestamp_utc": "20260611-174301-216718",
+  "command": "auto-distribution",
+  "channels": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "reddit",
+    "x",
+    "youtube"
+  ],
+  "unsupported_channels": [],
+  "limit": 18,
+  "per_channel": 3,
+  "dry_run": false,
+  "allow_proposed": false,
+  "published_or_attempted": 10,
+  "blocked_seen": 2128,
+  "results": [
+    {
+      "id": "20260611-173802-410425:reddit:auto-listen:22",
+      "channel": "reddit",
+      "slug": "microfono-para-podcast-usb-o-xlr",
+      "result": {
+        "ok": false,
+        "url": "https://www.reddit.com/r/Mercadoreddit/comments/1u342en/compro_micr%C3%B3fono_para_pc_no_m%C3%A1s_de_100k/",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "añadir un comentario",
+            "add a comment"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comentar",
+            "comment",
+            "reply"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260611-173802-410425:reddit:auto-listen:21",
+      "channel": "reddit",
+      "slug": "microfono-para-podcast-usb-o-xlr",
+      "result": {
+        "ok": false,
+        "url": "https://www.reddit.com/r/iems/comments/1u3485o/microfono_kz_castor_pro/",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "añadir un comentario",
+            "add a comment"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comentar",
+            "comment",
+            "reply"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260611-173802-410425:reddit:auto-listen:20",
+      "channel": "reddit",
+      "slug": "controlador-midi-para-ableton-comparativa",
+      "result": {
+        "ok": false,
+        "url": "https://www.reddit.com/r/FreeSounds/comments/1u35olj/free_dub_techno_ableton_pack_archivio_3003_intro/",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "añadir un comentario",
+            "add a comment"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comentar",
+            "comment",
+            "reply"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260611-173802-410425:linkedin:auto-listen:17",
+      "channel": "linkedin",
+      "slug": "microfono-para-streaming",
+      "result": {
+        "ok": false,
+        "url": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgWCVndtB&urlhash=Uvfp&mt=adzHBIiQviUd94A6zaICOfGtgX2hJvxA0IUZnNr3vBfpx8F4o2PCSMI4FPNw6k68jJfGEV60gtuf4Xr9W0tvDv6AaVyNPGZw0x5JAk16YzP9Lv3NN4MXH_rlbQs&isSdui=true",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comenzar publicación",
+            "start a post",
+            "crear publicación",
+            "post"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "publicar"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260611-133802-274631:arturia-keystep-pro-departamento:snippet_social:social:1781185098909",
+      "channel": "facebook",
+      "slug": "arturia-keystep-pro-departamento",
+      "result": {
+        "ok": false,
+        "url": "https://www.facebook.com/",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "¿qué estás pensando",
+            "what's on your mind",
+            "crear publicación"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "publicar"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260611-130552-738145:midiplus-ms5-home-studio-chico-3:post_educativo:linkedin:1781183196384",
+      "channel": "linkedin",
+      "slug": "midiplus-ms5-home-studio-chico-3",
+      "result": {
+        "ok": false,
+        "url": "https://www.linkedin.com/feed/",
+        "dismissed": [
+          {
+            "ok": true,
+            "label": "cerrar menú de omisión"
+          }
+        ],
+        "open": {
+          "ok": true,
+          "label": "crear publicación"
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "publicar"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260611-130552-738145:controlador-midi-61-teclas-midiplus-i61-2:post_educativo:linkedin:1781183165135",
+      "channel": "linkedin",
+      "slug": "controlador-midi-61-teclas-midiplus-i61-2",
+      "result": {
+        "ok": false,
+        "url": "https://www.linkedin.com/feed/",
+        "dismissed": [
+          {
+            "ok": true,
+            "label": "cerrar menú de omisión"
+          }
+        ],
+        "open": {
+          "ok": true,
+          "label": "crear publicación"
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "publicar"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260609-143802-365947:midiplus-akm322-setup-portable:respuesta_youtube:youtube:1781016283915",
+      "channel": "youtube",
+      "slug": "midiplus-akm322-setup-portable",
+      "result": {
+        "ok": false,
+        "error": "YouTube requiere source_thread_url de un video"
+      }
+    },
+    {
+      "id": "20260609-143802-365947:midiplus-akm322-controlador-compacto-creadores-contenido:respuesta_youtube:youtube:1781016255831",
+      "channel": "youtube",
+      "slug": "midiplus-akm322-controlador-compacto-creadores-contenido",
+      "result": {
+        "ok": false,
+        "error": "YouTube requiere source_thread_url de un video"
+      }
+    },
+    {
+      "id": "20260609-143802-365947:midiplus-ak490-principiantes-escritorio-chico:respuesta_youtube:youtube:1781016173232",
+      "channel": "youtube",
+      "slug": "midiplus-ak490-principiantes-escritorio-chico",
+      "result": {
+        "ok": false,
+        "error": "YouTube requiere source_thread_url de un video"
+      }
+    }
+  ],
+  "blocked_sample": [
+    {
+      "id": "20260611-173802-410425:youtube:auto-listen:33",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260611-173802-410425:youtube:auto-listen:32",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260611-173802-410425:youtube:auto-listen:31",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260611-173802-410425:youtube:auto-listen:30",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260611-173802-410425:youtube:auto-listen:29",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260611-173802-410425:youtube:auto-listen:28",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260611-173802-410425:youtube:auto-listen:27",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260611-173802-410425:youtube:auto-listen:26",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260611-173802-410425:youtube:auto-listen:25",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260611-173802-410425:youtube:auto-listen:24",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "timestamp_utc": "20260527-181215-660500",
+  "command": "auto-listen",
+  "status": "failed",
+  "steps": [
+    {
+      "step": "auto-listen",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\agente_browser_cdp.py",
+        "auto-listen",
+        "--channels",
+        "all",
+        "--searches",
+        "3",
+        "--per-search",
+        "2"
+      ],
+      "started_utc": "20260527-181155-448278",
+      "finished_utc": "20260527-181215-660308",
+      "returncode": 1,
+      "status": "failed"
+    }
+  ]
+}

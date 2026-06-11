@@ -1,0 +1,142 @@
+{
+  "timestamp_utc": "20260527-181641-021796",
+  "command": "auto-listen",
+  "channels": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "reddit",
+    "x",
+    "youtube"
+  ],
+  "searches": 3,
+  "per_search": 2,
+  "dry_run": false,
+  "items": 27,
+  "distribution_drafts": 27,
+  "social_intel_path": "D:\\AgentesGuille\\data\\social_intel.jsonl",
+  "search_tasks_path": "D:\\AgentesGuille\\data\\distribution_search_tasks.jsonl",
+  "content_feedback_path": "D:\\AgentesGuille\\data\\content_feedback.jsonl",
+  "sample": [
+    {
+      "id": "20260527-181503-749386:facebook:0",
+      "created_at_utc": "2026-05-27T18:15:09.221319+00:00",
+      "run_id": "20260527-181503-749386",
+      "channel": "facebook",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.facebook.com/groups/828346141416525/?__cft__[0]=AZYbj_HpWIuch3bKWOnDee_c2um876fE2Sx212RKj0h7IOXVg7ZflOeLhP5-g6Q6-3euqtdQ2tHBUDuV3xH8yvvsgP4zT_28cQLmqlB8LyJEM73hYYblnWZHH7FXgTMQmxCe46Qde1BqN39xof0Jo5nSw8_RLCs231jVyFDVhNoZ3EOfbv_xkg4wMzmRAx0q4xN-rYrL8RTYrkV2kjtcCl8u&__tn__=-UC%2CP-R",
+      "source_title": "Productores Musicales de ARGENTINA (Ableton, Fl studio, LMMS) Buenos Aires",
+      "source_context": "Productores Musicales de ARGENTINA (Ableton, Fl studio, LMMS) Buenos Aires · Unirte"
+    },
+    {
+      "id": "20260527-181503-749386:facebook:1",
+      "created_at_utc": "2026-05-27T18:15:09.221357+00:00",
+      "run_id": "20260527-181503-749386",
+      "channel": "facebook",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.facebook.com/groups/828346141416525/user/100011346512821/?__cft__[0]=AZYbj_HpWIuch3bKWOnDee_c2um876fE2Sx212RKj0h7IOXVg7ZflOeLhP5-g6Q6-3euqtdQ2tHBUDuV3xH8yvvsgP4zT_28cQLmqlB8LyJEM73hYYblnWZHH7FXgTMQmxCe46Qde1BqN39xof0Jo5nSw8_RLCs231jVyFDVhNoZ3EOfbv_xkg4wMzmRAx0q4xN-rYrL8RTYrkV2kjtcCl8u&__tn__=%2CP-R",
+      "source_title": "Lucas Fernandez",
+      "source_context": "Lucas Fernandez · n o s S e d o t r p 1 0 1 u f m 5 h a 2 1 a m 5 t d y 3 f g 9 0 1 1 a h t 2 c 5 m c s e l 6 4 : l 2 a l 4 o f ·"
+    },
+    {
+      "id": "20260527-181503-749386:facebook:2",
+      "created_at_utc": "2026-05-27T18:15:14.574269+00:00",
+      "run_id": "20260527-181503-749386",
+      "channel": "facebook",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.facebook.com/groups/1641846816129693/?__cft__[0]=AZYBAkj70OchIvKUP2oQb8rNgcWBhlLdRbS8W-KfLVcyftLjroPiTbYbzb_bI8UNnm-tnO0OWwVPqH3blTt9wD8wR-bp0I_ryv8silkKkh9o9fGHjpcX-nqD83a5v8eZCVWcSB9_Sc9QfzegHJ4tpgAz8QTrdRMqbI5AK9DoM9mn3r70yl0IFsYVE9Lgyn1O-BSvbDeU6NjiZrwNZ5f00mWu&__tn__=-UC%2CP-R",
+      "source_title": "INSTRUMENTOS MUSICALES compra venta permuta argentina",
+      "source_context": "INSTRUMENTOS MUSICALES compra venta permuta argentina · Unirte"
+    },
+    {
+      "id": "20260527-181503-749386:facebook:3",
+      "created_at_utc": "2026-05-27T18:15:14.574307+00:00",
+      "run_id": "20260527-181503-749386",
+      "channel": "facebook",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.facebook.com/groups/1641846816129693/user/1577956523/?__cft__[0]=AZYBAkj70OchIvKUP2oQb8rNgcWBhlLdRbS8W-KfLVcyftLjroPiTbYbzb_bI8UNnm-tnO0OWwVPqH3blTt9wD8wR-bp0I_ryv8silkKkh9o9fGHjpcX-nqD83a5v8eZCVWcSB9_Sc9QfzegHJ4tpgAz8QTrdRMqbI5AK9DoM9mn3r70yl0IFsYVE9Lgyn1O-BSvbDeU6NjiZrwNZ5f00mWu&__tn__=%2CP-R",
+      "source_title": "Julian Bannon",
+      "source_context": "Julian Bannon · d S o e o r n p t s 6 a e 1 i 3 c 2 h 9 m 7 m d 2 f 1 7 m 7 4 3 c 7 r 0 1 2 1 z c 0 i f 8 4 3 u a o 8 h 5 m i i 0 7 ·"
+    },
+    {
+      "id": "20260527-181503-749386:facebook:4",
+      "created_at_utc": "2026-05-27T18:15:20.009487+00:00",
+      "run_id": "20260527-181503-749386",
+      "channel": "facebook",
+      "query": "controlador MIDI para Ableton",
+      "landing_slug": "controlador-midi-para-ableton-comparativa",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-ableton-comparativa/",
+      "source_url": "https://www.facebook.com/groups/828346141416525/?__cft__[0]=AZYeQrENHXrPGZhxamHczYSNFZgON6sdC0LK2CXz7ClWSEuxPcA_wmFxUeCGStKdsK6OCjMmrP3kAGa6g6R0kEYfY2nCXUN4DpN0O9Wv6MqSgbXKjiJs8kHaXRC4Z9d7gazvsjJ5p0mDZ0_Qp2HjPoYOI1iO1D_wzB3i8Sg1VTQUXiGEzCfAfsjl5cOtqnVyundIq6cQGcX5Z5LDkC7uGUDj&__tn__=-UC%2CP-R",
+      "source_title": "Productores Musicales de ARGENTINA (Ableton, Fl studio, LMMS) Buenos Aires",
+      "source_context": "Productores Musicales de ARGENTINA (Ableton, Fl studio, LMMS) Buenos Aires · Unirte"
+    },
+    {
+      "id": "20260527-181503-749386:facebook:5",
+      "created_at_utc": "2026-05-27T18:15:20.009545+00:00",
+      "run_id": "20260527-181503-749386",
+      "channel": "facebook",
+      "query": "controlador MIDI para Ableton",
+      "landing_slug": "controlador-midi-para-ableton-comparativa",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-ableton-comparativa/",
+      "source_url": "https://www.facebook.com/groups/828346141416525/user/100011346512821/?__cft__[0]=AZYeQrENHXrPGZhxamHczYSNFZgON6sdC0LK2CXz7ClWSEuxPcA_wmFxUeCGStKdsK6OCjMmrP3kAGa6g6R0kEYfY2nCXUN4DpN0O9Wv6MqSgbXKjiJs8kHaXRC4Z9d7gazvsjJ5p0mDZ0_Qp2HjPoYOI1iO1D_wzB3i8Sg1VTQUXiGEzCfAfsjl5cOtqnVyundIq6cQGcX5Z5LDkC7uGUDj&__tn__=%2CP-R",
+      "source_title": "Lucas Fernandez",
+      "source_context": "Lucas Fernandez · d o s S n e p t o r g 7 c m 6 1 s 6 7 d a 4 f m 7 i y 5 3 1 2 i t 5 l 0 m e c o m 5 f 7 1 2 a a a 9 9 i 9 f : ·"
+    },
+    {
+      "id": "20260527-181503-749386:instagram:6",
+      "created_at_utc": "2026-05-27T18:15:25.299123+00:00",
+      "run_id": "20260527-181503-749386",
+      "channel": "instagram",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.instagram.com/explore/search/keyword/?q=controlador%20MIDI%20para%20FL%20Studio#",
+      "source_title": "También de MetaTambién de Meta",
+      "source_context": "También de MetaTambién de Meta"
+    },
+    {
+      "id": "20260527-181503-749386:instagram:7",
+      "created_at_utc": "2026-05-27T18:15:30.589473+00:00",
+      "run_id": "20260527-181503-749386",
+      "channel": "instagram",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.instagram.com/explore/search/keyword/?q=interfaz%20de%20audio%20para%20grabar%20voz%20en%20casa#",
+      "source_title": "También de MetaTambién de Meta",
+      "source_context": "También de MetaTambién de Meta"
+    },
+    {
+      "id": "20260527-181503-749386:instagram:8",
+      "created_at_utc": "2026-05-27T18:15:35.848497+00:00",
+      "run_id": "20260527-181503-749386",
+      "channel": "instagram",
+      "query": "controlador MIDI para Ableton",
+      "landing_slug": "controlador-midi-para-ableton-comparativa",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-ableton-comparativa/",
+      "source_url": "https://www.instagram.com/explore/search/keyword/?q=controlador%20MIDI%20para%20Ableton#",
+      "source_title": "También de MetaTambién de Meta",
+      "source_context": "También de MetaTambién de Meta"
+    },
+    {
+      "id": "20260527-181503-749386:linkedin:9",
+      "created_at_utc": "2026-05-27T18:15:41.721689+00:00",
+      "run_id": "20260527-181503-749386",
+      "channel": "linkedin",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.linkedin.com/in/guillermo-coronel/es/",
+      "source_title": "",
+      "source_context": "Guillermo Coronel • 3er+ Desarrollador de instrumentos musicales electrónicos con IA (Arduino + MIDI) | Team Leader CX | Soporte Técnico | RR.PP & Gestión e Innovación Pública 1 día • Editado • Seguir"
+    }
+  ]
+}

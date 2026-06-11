@@ -1,0 +1,50 @@
+{
+  "timestamp_utc": "20260526-195510-155451",
+  "command": "run",
+  "database": "postgres",
+  "dry_run": true,
+  "window_days": 30,
+  "min_views": 1,
+  "landings_analyzed": 503,
+  "landings_with_activity": 2,
+  "recommendations": 0,
+  "written_to_feedback": 0,
+  "top_metrics": [
+    {
+      "slug": "controlador-midi-para-fl-studio",
+      "keyword": "controlador MIDI para FL Studio",
+      "category": "controladores-midi",
+      "page_views": 0,
+      "cta_clicks": 0,
+      "form_submits": 0,
+      "leads": 2,
+      "unsubscribes": 0,
+      "emails_sent": 2,
+      "emails_failed": 0,
+      "window_days": 30,
+      "lead_rate": 0.0,
+      "cta_rate": 0.0,
+      "form_submit_rate": 0.0,
+      "email_failed_rate": 0.0,
+      "unsubscribe_rate": 0.0
+    },
+    {
+      "slug": "microfono-condensador-para-voz-grabacion",
+      "keyword": "microfono condensador para voz",
+      "category": "microfonos-profesionales",
+      "page_views": 0,
+      "cta_clicks": 0,
+      "form_submits": 0,
+      "leads": 1,
+      "unsubscribes": 0,
+      "emails_sent": 1,
+      "emails_failed": 0,
+      "window_days": 30,
+      "lead_rate": 0.0,
+      "cta_rate": 0.0,
+      "form_submit_rate": 0.0,
+      "email_failed_rate": 0.0,
+      "unsubscribe_rate": 0.0
+    }
+  ]
+}

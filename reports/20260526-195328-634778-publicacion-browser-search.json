@@ -1,0 +1,10 @@
+{
+  "timestamp_utc": "20260526-195328-634778",
+  "command": "browser-search",
+  "channel": "linkedin",
+  "dry_run": false,
+  "open_browser": true,
+  "tasks": 3,
+  "tasks_path": "D:\\AgentesGuille\\data\\distribution_search_tasks.jsonl",
+  "elapsed_seconds": 0.11
+}

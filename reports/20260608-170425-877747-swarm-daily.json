@@ -1,0 +1,67 @@
+{
+  "timestamp_utc": "20260608-170425-877747",
+  "command": "daily",
+  "status": "blocked",
+  "steps": [
+    {
+      "step": "nurture",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\agente_4_nurture.py",
+        "process",
+        "--limit",
+        "50"
+      ],
+      "started_utc": "20260608-163000-771592",
+      "finished_utc": "20260608-163004-733460",
+      "returncode": 0,
+      "status": "ok"
+    },
+    {
+      "step": "conversion",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\agente_conversion.py",
+        "run",
+        "--window-days",
+        "30",
+        "--min-views",
+        "50",
+        "--limit",
+        "50"
+      ],
+      "started_utc": "20260608-163004-733568",
+      "finished_utc": "20260608-163007-241227",
+      "returncode": 0,
+      "status": "ok"
+    },
+    {
+      "step": "discover",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\build_landings.py",
+        "discover",
+        "--limit",
+        "30"
+      ],
+      "started_utc": "20260608-163007-241337",
+      "finished_utc": "20260608-163425-867585",
+      "returncode": 0,
+      "status": "ok"
+    },
+    {
+      "step": "generate",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\build_landings.py",
+        "generate",
+        "--limit",
+        "50"
+      ],
+      "started_utc": "20260608-163425-867729",
+      "finished_utc": "20260608-170425-877405",
+      "returncode": -1,
+      "status": "timeout"
+    }
+  ]
+}

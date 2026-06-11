@@ -1,0 +1,327 @@
+{
+  "timestamp_utc": "20260611-130116-583123",
+  "command": "auto-distribution",
+  "channels": [
+    "facebook",
+    "instagram",
+    "x",
+    "youtube"
+  ],
+  "unsupported_channels": [],
+  "limit": 16,
+  "per_channel": 2,
+  "dry_run": false,
+  "allow_proposed": false,
+  "published_or_attempted": 7,
+  "blocked_seen": 1035,
+  "results": [
+    {
+      "id": "20260611-125828-995151:microfono-usb-para-podcast-home-studio-11:respuesta_youtube:youtube:1781182816606",
+      "channel": "youtube",
+      "slug": "microfono-usb-para-podcast-home-studio-11",
+      "result": {
+        "ok": false,
+        "error": "YouTube requiere source_thread_url de un video"
+      }
+    },
+    {
+      "id": "20260611-125828-995151:midiplus-ms6-home-studio-escritorio:respuesta_youtube:youtube:1781182768967",
+      "channel": "youtube",
+      "slug": "midiplus-ms6-home-studio-escritorio",
+      "result": {
+        "ok": false,
+        "error": "YouTube requiere source_thread_url de un video"
+      }
+    },
+    {
+      "id": "20260611-125828-995151:midiplus-ms6-home-studio-escritorio:snippet_social:social:1781182760724",
+      "channel": "facebook",
+      "slug": "midiplus-ms6-home-studio-escritorio",
+      "result": {
+        "ok": false,
+        "url": "https://www.facebook.com/",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "¿qué estás pensando",
+            "what's on your mind",
+            "crear publicación"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "publicar"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260611-125828-995151:midiplus-ms6-home-studio-escritorio:snippet_social:social:1781182760724",
+      "channel": "x",
+      "slug": "midiplus-ms6-home-studio-escritorio",
+      "result": {
+        "ok": true,
+        "url": "https://x.com/compose/post",
+        "dismissed": [],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "x_compose",
+              "ok": true,
+              "prep": {
+                "ok": true,
+                "skipped": true
+              },
+              "open": {
+                "ok": true,
+                "skipped": true
+              },
+              "fill": {
+                "ok": true,
+                "selector": "[data-testid=\"tweetTextarea_0\"]",
+                "length": 275
+              },
+              "submit": {
+                "ok": true,
+                "selector": "[data-testid=\"tweetButtonInline\"]"
+              },
+              "keyboard_submit": {
+                "ok": false,
+                "skipped": true
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260611-125828-995151:como-elegir-interfaz-de-audio-para-podcast:post_social:facebook:1781182726974",
+      "channel": "facebook",
+      "slug": "como-elegir-interfaz-de-audio-para-podcast",
+      "result": {
+        "ok": false,
+        "url": "https://www.facebook.com/",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "¿qué estás pensando",
+            "what's on your mind",
+            "crear publicación"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "publicar"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260611-125828-995151:microfono-usb-para-podcast-home-studio-11:post_x:x:1781182811642",
+      "channel": "x",
+      "slug": "microfono-usb-para-podcast-home-studio-11",
+      "result": {
+        "ok": true,
+        "url": "https://x.com/compose/post",
+        "dismissed": [],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "x_compose",
+              "ok": true,
+              "prep": {
+                "ok": true,
+                "skipped": true
+              },
+              "open": {
+                "ok": true,
+                "skipped": true
+              },
+              "fill": {
+                "ok": true,
+                "selector": "[data-testid=\"tweetTextarea_0\"]",
+                "length": 225
+              },
+              "submit": {
+                "ok": true,
+                "selector": "[data-testid=\"tweetButtonInline\"]"
+              },
+              "keyboard_submit": {
+                "ok": false,
+                "skipped": true
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260609-203803-035410:instagram:auto-listen:0",
+      "channel": "instagram",
+      "slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "result": {
+        "ok": true,
+        "url": "https://www.instagram.com/p/DXJSgFHCZIZ/",
+        "dismissed": [],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "instagram_comment_selector",
+              "ok": true,
+              "prep": {
+                "ok": true,
+                "tries": 1,
+                "tag": "TEXTAREA"
+              },
+              "open": {
+                "ok": true,
+                "selector": "textarea[aria-label*=\"comentario\"]"
+              },
+              "fill": {
+                "ok": true,
+                "selector": "textarea",
+                "length": 154
+              },
+              "submit": {
+                "ok": true,
+                "label": "publicar"
+              },
+              "keyboard_submit": {
+                "ok": false,
+                "skipped": true
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "blocked_sample": [
+    {
+      "id": "20260611-123803-005862:youtube:auto-listen:28",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260611-123803-005862:youtube:auto-listen:27",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260611-123803-005862:youtube:auto-listen:26",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260611-123803-005862:youtube:auto-listen:25",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260611-123803-005862:youtube:auto-listen:24",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260611-123803-005862:youtube:auto-listen:22",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260611-123803-005862:youtube:auto-listen:21",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260611-123803-005862:youtube:auto-listen:20",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260611-123803-005862:youtube:auto-listen:19",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260611-123803-005862:youtube:auto-listen:18",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    }
+  ]
+}

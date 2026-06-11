@@ -1,0 +1,21 @@
+{
+  "timestamp_utc": "20260527-151848-144349",
+  "command": "auto-browser",
+  "status": "ok",
+  "steps": [
+    {
+      "step": "auto-browser",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\agente_browser_cdp.py",
+        "auto-browser",
+        "--task",
+        "data\\auto_browser_smoke_social.json"
+      ],
+      "started_utc": "20260527-151813-360992",
+      "finished_utc": "20260527-151848-144166",
+      "returncode": 0,
+      "status": "ok"
+    }
+  ]
+}

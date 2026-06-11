@@ -1,0 +1,24 @@
+{
+  "timestamp_utc": "20260522-153400-recovered",
+  "command": "generate",
+  "status": "recovered_after_timeout",
+  "reason": "El run del Agente 2 fue cortado por timeout del shell despues de agregar landings y antes de escribir el reporte generate normal.",
+  "dry_run": false,
+  "created_count": 3,
+  "created": [
+    {
+      "slug": "interfaz-audio-grabar-voz-departamento",
+      "keyword": "interfaz de audio para grabar voz en casa para departamento"
+    },
+    {
+      "slug": "guia-elegir-arturia-minilab-3-ableton",
+      "keyword": "guia para elegir Arturia MiniLab 3 para Ableton"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-home-studio",
+      "keyword": "microfono USB para podcast para home studio"
+    }
+  ],
+  "follow_up_validation": "D:\\AgentesGuille\\reports\\20260522-153308-443656-validate.json",
+  "follow_up_build": "D:\\AgentesGuille\\reports\\20260522-153326-299000-build.json"
+}

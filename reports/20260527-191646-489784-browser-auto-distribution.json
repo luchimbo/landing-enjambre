@@ -1,0 +1,31 @@
+{
+  "timestamp_utc": "20260527-191646-489784",
+  "command": "auto-distribution",
+  "channels": [
+    "facebook",
+    "instagram",
+    "x",
+    "youtube"
+  ],
+  "unsupported_channels": [],
+  "limit": 8,
+  "per_channel": 1,
+  "dry_run": true,
+  "allow_proposed": false,
+  "published_or_attempted": 1,
+  "blocked_seen": 0,
+  "results": [
+    {
+      "id": "20260527-183802-620254:youtube:auto-listen:29",
+      "channel": "youtube",
+      "slug": "controlador-midi-para-ableton-comparativa",
+      "result": {
+        "ok": true,
+        "dry_run": true,
+        "url": "https://www.youtube.com/watch?v=nQ9uh2UHfqI",
+        "text_length": 170
+      }
+    }
+  ],
+  "blocked_sample": []
+}

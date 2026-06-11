@@ -1,0 +1,140 @@
+{
+  "timestamp_utc": "20260527-151848-133196",
+  "command": "auto-browser",
+  "task_path": "D:\\AgentesGuille\\data\\auto_browser_smoke_social.json",
+  "task_hash": "8ecd6e6ef72d20fd788220755cab3a1bae300bf3a2bcba8f4243f8d4159ead19",
+  "dry_run": false,
+  "actions": 12,
+  "results": [
+    {
+      "index": 1,
+      "type": "navigate",
+      "result": {
+        "ok": true,
+        "url": "https://www.reddit.com/"
+      }
+    },
+    {
+      "index": 2,
+      "type": "extract",
+      "result": {
+        "name": "reddit_title",
+        "values": [
+          "Reddit - el corazón de la conversación"
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "type": "navigate",
+      "result": {
+        "ok": true,
+        "url": "https://www.youtube.com/"
+      }
+    },
+    {
+      "index": 4,
+      "type": "extract",
+      "result": {
+        "name": "youtube_title",
+        "values": [
+          "YouTube"
+        ]
+      }
+    },
+    {
+      "index": 5,
+      "type": "navigate",
+      "result": {
+        "ok": true,
+        "url": "https://www.linkedin.com/feed/"
+      }
+    },
+    {
+      "index": 6,
+      "type": "extract",
+      "result": {
+        "name": "linkedin_title",
+        "values": [
+          "Feed | LinkedIn",
+          "Feed | LinkedIn"
+        ]
+      }
+    },
+    {
+      "index": 7,
+      "type": "navigate",
+      "result": {
+        "ok": true,
+        "url": "https://www.facebook.com/"
+      }
+    },
+    {
+      "index": 8,
+      "type": "extract",
+      "result": {
+        "name": "facebook_title",
+        "values": [
+          "Facebook"
+        ]
+      }
+    },
+    {
+      "index": 9,
+      "type": "navigate",
+      "result": {
+        "ok": true,
+        "url": "https://www.instagram.com/"
+      }
+    },
+    {
+      "index": 10,
+      "type": "extract",
+      "result": {
+        "name": "instagram_title",
+        "values": [
+          "Instagram"
+        ]
+      }
+    },
+    {
+      "index": 11,
+      "type": "navigate",
+      "result": {
+        "ok": true,
+        "url": "https://x.com/home"
+      }
+    },
+    {
+      "index": 12,
+      "type": "extract",
+      "result": {
+        "name": "x_title",
+        "values": [
+          "X. Es lo que está pasando / X"
+        ]
+      }
+    }
+  ],
+  "extracts": {
+    "reddit_title": [
+      "Reddit - el corazón de la conversación"
+    ],
+    "youtube_title": [
+      "YouTube"
+    ],
+    "linkedin_title": [
+      "Feed | LinkedIn",
+      "Feed | LinkedIn"
+    ],
+    "facebook_title": [
+      "Facebook"
+    ],
+    "instagram_title": [
+      "Instagram"
+    ],
+    "x_title": [
+      "X. Es lo que está pasando / X"
+    ]
+  }
+}

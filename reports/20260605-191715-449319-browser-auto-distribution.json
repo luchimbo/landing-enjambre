@@ -1,0 +1,100 @@
+{
+  "timestamp_utc": "20260605-191715-449319",
+  "command": "auto-distribution",
+  "channels": [
+    "facebook",
+    "instagram",
+    "x",
+    "youtube"
+  ],
+  "unsupported_channels": [],
+  "limit": 25,
+  "per_channel": 2,
+  "dry_run": false,
+  "allow_proposed": false,
+  "published_or_attempted": 0,
+  "blocked_seen": 530,
+  "results": [],
+  "blocked_sample": [
+    {
+      "id": "20260605-191615-502459:instagram:auto-listen:0",
+      "channel": "instagram",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260605-191004-926306:bateria-electronica-para-departamento-principiantes:respuesta_youtube:youtube:1780686784615",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260605-191004-926306:bateria-electronica-para-departamento-principiantes:post_x:x:1780686781469",
+      "channel": "x",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260605-184340-259922:youtube:auto-listen:22",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260605-184340-259922:youtube:auto-listen:19",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260605-184340-259922:youtube:auto-listen:18",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260605-184340-259922:instagram:auto-listen:1",
+      "channel": "instagram",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260605-184340-259922:instagram:auto-listen:0",
+      "channel": "instagram",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260605-183801-717806:guia-elegir-bateria-electronica-departamento:respuesta_youtube:youtube:1780684793255",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260605-183801-717806:guia-elegir-bateria-electronica-departamento:post_x:x:1780684777504",
+      "channel": "x",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    }
+  ]
+}

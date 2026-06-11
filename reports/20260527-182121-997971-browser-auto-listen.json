@@ -1,0 +1,113 @@
+{
+  "timestamp_utc": "20260527-182121-997971",
+  "command": "auto-listen",
+  "channels": [
+    "instagram"
+  ],
+  "searches": 3,
+  "per_search": 4,
+  "dry_run": false,
+  "items": 8,
+  "distribution_drafts": 8,
+  "social_intel_path": "D:\\AgentesGuille\\data\\social_intel.jsonl",
+  "search_tasks_path": "D:\\AgentesGuille\\data\\distribution_search_tasks.jsonl",
+  "content_feedback_path": "D:\\AgentesGuille\\data\\content_feedback.jsonl",
+  "sample": [
+    {
+      "id": "20260527-182058-586294:instagram:0",
+      "created_at_utc": "2026-05-27T18:21:16.417139+00:00",
+      "run_id": "20260527-182058-586294",
+      "channel": "instagram",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.instagram.com/p/DKlslFwsis_/",
+      "source_title": "",
+      "source_context": "Photo by Qatar Home Studio on June 06, 2025."
+    },
+    {
+      "id": "20260527-182058-586294:instagram:1",
+      "created_at_utc": "2026-05-27T18:21:16.417197+00:00",
+      "run_id": "20260527-182058-586294",
+      "channel": "instagram",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.instagram.com/p/DPpjeN1E8gF/",
+      "source_title": "411 5",
+      "source_context": "411 5"
+    },
+    {
+      "id": "20260527-182058-586294:instagram:2",
+      "created_at_utc": "2026-05-27T18:21:16.417222+00:00",
+      "run_id": "20260527-182058-586294",
+      "channel": "instagram",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.instagram.com/p/DTudHJvAViv/",
+      "source_title": "Secuencia",
+      "source_context": "Secuencia"
+    },
+    {
+      "id": "20260527-182058-586294:instagram:3",
+      "created_at_utc": "2026-05-27T18:21:16.417240+00:00",
+      "run_id": "20260527-182058-586294",
+      "channel": "instagram",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.instagram.com/p/DNdtm6fMWNl/",
+      "source_title": "Reel",
+      "source_context": "Reel"
+    },
+    {
+      "id": "20260527-182058-586294:instagram:4",
+      "created_at_utc": "2026-05-27T18:21:21.996045+00:00",
+      "run_id": "20260527-182058-586294",
+      "channel": "instagram",
+      "query": "controlador MIDI para Ableton",
+      "landing_slug": "controlador-midi-para-ableton-comparativa",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-ableton-comparativa/",
+      "source_url": "https://www.instagram.com/p/DU_MSleCAMd/",
+      "source_title": "Reel",
+      "source_context": "Reel"
+    },
+    {
+      "id": "20260527-182058-586294:instagram:5",
+      "created_at_utc": "2026-05-27T18:21:21.996089+00:00",
+      "run_id": "20260527-182058-586294",
+      "channel": "instagram",
+      "query": "controlador MIDI para Ableton",
+      "landing_slug": "controlador-midi-para-ableton-comparativa",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-ableton-comparativa/",
+      "source_url": "https://www.instagram.com/p/DVRya3KDjfW/",
+      "source_title": "Secuencia",
+      "source_context": "Secuencia"
+    },
+    {
+      "id": "20260527-182058-586294:instagram:6",
+      "created_at_utc": "2026-05-27T18:21:21.996103+00:00",
+      "run_id": "20260527-182058-586294",
+      "channel": "instagram",
+      "query": "controlador MIDI para Ableton",
+      "landing_slug": "controlador-midi-para-ableton-comparativa",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-ableton-comparativa/",
+      "source_url": "https://www.instagram.com/p/DSGILNrCmlv/",
+      "source_title": "16 0",
+      "source_context": "16 0"
+    },
+    {
+      "id": "20260527-182058-586294:instagram:7",
+      "created_at_utc": "2026-05-27T18:21:21.996115+00:00",
+      "run_id": "20260527-182058-586294",
+      "channel": "instagram",
+      "query": "controlador MIDI para Ableton",
+      "landing_slug": "controlador-midi-para-ableton-comparativa",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-ableton-comparativa/",
+      "source_url": "https://www.instagram.com/p/C9R49A7AGd1/",
+      "source_title": "Secuencia",
+      "source_context": "Secuencia"
+    }
+  ]
+}

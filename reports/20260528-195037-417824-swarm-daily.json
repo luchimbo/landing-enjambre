@@ -1,0 +1,21 @@
+{
+  "timestamp_utc": "20260528-195037-417824",
+  "command": "daily",
+  "status": "blocked",
+  "steps": [
+    {
+      "step": "nurture",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\agente_4_nurture.py",
+        "process",
+        "--limit",
+        "50"
+      ],
+      "started_utc": "20260528-195037-269284",
+      "finished_utc": "20260528-195037-417654",
+      "returncode": 1,
+      "status": "failed"
+    }
+  ]
+}

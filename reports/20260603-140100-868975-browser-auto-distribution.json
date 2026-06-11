@@ -1,0 +1,545 @@
+{
+  "timestamp_utc": "20260603-140100-868975",
+  "command": "auto-distribution",
+  "channels": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "reddit",
+    "x",
+    "youtube"
+  ],
+  "unsupported_channels": [],
+  "limit": 12,
+  "per_channel": 2,
+  "dry_run": false,
+  "allow_proposed": false,
+  "published_or_attempted": 11,
+  "blocked_seen": 184,
+  "results": [
+    {
+      "id": "20260603-135524-836695:youtube:auto-listen:11",
+      "channel": "youtube",
+      "slug": "controlador-midi-para-ableton-comparativa",
+      "result": {
+        "ok": false,
+        "url": "https://www.youtube.com/watch?v=G161iMshInc&t=675s",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "añade un comentario",
+            "add a comment"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comentar"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "selector_only",
+          "error": "like de YouTube no encontrado sin usar texto ambiguo"
+        }
+      }
+    },
+    {
+      "id": "20260603-135524-836695:youtube:auto-listen:10",
+      "channel": "youtube",
+      "slug": "controlador-midi-para-ableton-comparativa",
+      "result": {
+        "ok": false,
+        "url": "https://www.youtube.com/watch?v=G161iMshInc&pp=ygUdY29udHJvbGFkb3IgTUlESSBwYXJhIEFibGV0b27SBwkJKAsBhyohjO8%3D",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "añade un comentario",
+            "add a comment"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comentar"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "selector_only",
+          "error": "like de YouTube no encontrado sin usar texto ambiguo"
+        }
+      }
+    },
+    {
+      "id": "20260603-135524-836695:reddit:auto-listen:6",
+      "channel": "reddit",
+      "slug": "controlador-midi-para-fl-studio",
+      "result": {
+        "ok": false,
+        "url": "https://www.reddit.com/r/NeedVocals/comments/1tvpkzf/hey_i_can_produce_beats_for_u_for_free_fl_studios/",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "añadir un comentario",
+            "add a comment"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comentar",
+            "comment",
+            "reply"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260603-135524-836695:linkedin:auto-listen:5",
+      "channel": "linkedin",
+      "slug": "controlador-midi-para-ableton-comparativa",
+      "result": {
+        "ok": true,
+        "url": "https://www.linkedin.com/search/results/all/?keywords=%23esp32s3&origin=HASH_TAG_FROM_FEED",
+        "dismissed": [
+          {
+            "ok": true,
+            "label": "cerrar menú de omisión"
+          }
+        ],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "linkedin_comment",
+              "ok": true,
+              "prep": {
+                "ok": true,
+                "skipped": true
+              },
+              "open": {
+                "ok": true,
+                "label": "3 comentarios 3 comentarios"
+              },
+              "fill": {
+                "ok": true,
+                "selector": "[aria-label][contenteditable=\"true\"]",
+                "length": 168
+              },
+              "submit": {
+                "ok": false,
+                "error": "boton por texto no encontrado",
+                "texts": [
+                  "publicar",
+                  "post"
+                ]
+              },
+              "keyboard_submit": {
+                "ok": true,
+                "method": "ctrl_enter"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260603-135524-836695:instagram:auto-listen:0",
+      "channel": "instagram",
+      "slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "result": {
+        "ok": true,
+        "url": "https://www.instagram.com/p/DKlslFwsis_/",
+        "dismissed": [],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "instagram_comment_selector",
+              "ok": true,
+              "prep": {
+                "ok": true,
+                "tries": 1,
+                "tag": "TEXTAREA"
+              },
+              "open": {
+                "ok": true,
+                "selector": "textarea[aria-label*=\"comentario\"]"
+              },
+              "fill": {
+                "ok": true,
+                "selector": "textarea",
+                "length": 144
+              },
+              "submit": {
+                "ok": true,
+                "label": "publicar"
+              },
+              "keyboard_submit": {
+                "ok": false,
+                "skipped": true
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260603-124846-109294:microfono-para-podcast-streaming-usb-o-xlr:respuesta_tecnica:reddit:1780490972643",
+      "channel": "reddit",
+      "slug": "microfono-para-podcast-streaming-usb-o-xlr",
+      "result": {
+        "ok": false,
+        "url": "https://www.reddit.com/",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "añadir un comentario",
+            "add a comment"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comentar",
+            "comment",
+            "reply"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260603-124846-109294:guia-elegir-microfono-streaming:post_x:x:1780491033278",
+      "channel": "x",
+      "slug": "guia-elegir-microfono-streaming",
+      "result": {
+        "ok": true,
+        "url": "https://x.com/compose/post",
+        "dismissed": [],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "x_compose",
+              "ok": true,
+              "prep": {
+                "ok": true,
+                "skipped": true
+              },
+              "open": {
+                "ok": true,
+                "skipped": true
+              },
+              "fill": {
+                "ok": true,
+                "selector": "[data-testid=\"tweetTextarea_0\"]",
+                "length": 227
+              },
+              "submit": {
+                "ok": true,
+                "selector": "[data-testid=\"tweetButtonInline\"]"
+              },
+              "keyboard_submit": {
+                "ok": false,
+                "skipped": true
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260603-124846-109294:guia-elegir-microfono-streaming:post_social:facebook:1780491031519",
+      "channel": "facebook",
+      "slug": "guia-elegir-microfono-streaming",
+      "result": {
+        "ok": true,
+        "url": "https://www.facebook.com/",
+        "dismissed": [],
+        "open": {
+          "ok": true,
+          "label": "crear una publicación ¿qué estás pensando, bruno?"
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "publicar"
+          ]
+        },
+        "fallback_like": {
+          "ok": true,
+          "mode": "selector",
+          "selector": "[aria-label=\"Me gusta\"]"
+        }
+      }
+    },
+    {
+      "id": "20260603-124846-109294:guia-elegir-microfono-streaming:snippet_social:social:1780491027934",
+      "channel": "facebook",
+      "slug": "guia-elegir-microfono-streaming",
+      "result": {
+        "ok": false,
+        "url": "https://www.facebook.com/",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "¿qué estás pensando",
+            "what's on your mind",
+            "crear publicación"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "publicar"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260603-124846-109294:guia-elegir-microfono-streaming:snippet_social:social:1780491027934",
+      "channel": "x",
+      "slug": "guia-elegir-microfono-streaming",
+      "result": {
+        "ok": true,
+        "url": "https://x.com/compose/post",
+        "dismissed": [],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "x_compose",
+              "ok": true,
+              "prep": {
+                "ok": true,
+                "skipped": true
+              },
+              "open": {
+                "ok": true,
+                "skipped": true
+              },
+              "fill": {
+                "ok": true,
+                "selector": "[data-testid=\"tweetTextarea_0\"]",
+                "length": 275
+              },
+              "submit": {
+                "ok": true,
+                "selector": "[data-testid=\"tweetButtonInline\"]"
+              },
+              "keyboard_submit": {
+                "ok": false,
+                "skipped": true
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260602-183802-302663:instagram:auto-listen:0",
+      "channel": "instagram",
+      "slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "result": {
+        "ok": true,
+        "url": "https://www.instagram.com/p/DKlslFwsis_/",
+        "dismissed": [],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "instagram_comment_selector",
+              "ok": true,
+              "prep": {
+                "ok": true,
+                "tries": 1,
+                "tag": "TEXTAREA"
+              },
+              "open": {
+                "ok": true,
+                "selector": "textarea[aria-label*=\"comentario\"]"
+              },
+              "fill": {
+                "ok": true,
+                "selector": "textarea",
+                "length": 144
+              },
+              "submit": {
+                "ok": true,
+                "label": "publicar"
+              },
+              "keyboard_submit": {
+                "ok": false,
+                "skipped": true
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "blocked_sample": [
+    {
+      "id": "20260603-124846-109294:microfono-para-podcast-streaming-usb-o-xlr:snippet_social:social:1780490979523",
+      "channel": "facebook",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260603-124846-109294:microfono-para-podcast-streaming-usb-o-xlr:snippet_social:social:1780490979523",
+      "channel": "x",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260603-123801-945864:linkedin:auto-listen:5",
+      "channel": "linkedin",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260603-123801-945864:instagram:auto-listen:0",
+      "channel": "instagram",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260602-153802-582712:linkedin:auto-listen:6",
+      "channel": "linkedin",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260602-125819-215287:placa-sonido-guitarra-home-studio:snippet_social:social:1780405144055",
+      "channel": "facebook",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260602-125819-215287:placa-sonido-guitarra-home-studio:snippet_social:social:1780405144055",
+      "channel": "x",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260602-125819-215287:como-elegir-microfono-para-podcast:post_x:x:1780405234393",
+      "channel": "x",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260602-125819-215287:como-elegir-microfono-para-podcast:post_social:facebook:1780405231337",
+      "channel": "facebook",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260602-125819-215287:como-elegir-microfono-para-podcast:snippet_social:social:1780405225092",
+      "channel": "facebook",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    }
+  ]
+}

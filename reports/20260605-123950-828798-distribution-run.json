@@ -1,0 +1,342 @@
+{
+  "timestamp_utc": "20260605-123950-828798",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260605-123512-708474",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 48,
+  "pieces_blocked": 12,
+  "proposed": [
+    {
+      "slug": "mejor-opcion-arturia-keystep-pro-hardware",
+      "type": "respuesta_tecnica",
+      "title": "Arturia KeyStep Pro: El controlador ideal para tu setup"
+    },
+    {
+      "slug": "mejor-opcion-arturia-keystep-pro-hardware",
+      "type": "post_educativo",
+      "title": "Arturia KeyStep Pro: El controlador que necesitas"
+    },
+    {
+      "slug": "mejor-opcion-arturia-keystep-pro-hardware",
+      "type": "snippet_social",
+      "title": "Arturia KeyStep Pro: El controlador que necesitas"
+    },
+    {
+      "slug": "mejor-opcion-arturia-keystep-pro-hardware",
+      "type": "post_social",
+      "title": "Arturia KeyStep Pro: El controlador que necesitas"
+    },
+    {
+      "slug": "mejor-opcion-arturia-keystep-pro-hardware",
+      "type": "post_x",
+      "title": "Arturia KeyStep Pro: El controlador que necesitas"
+    },
+    {
+      "slug": "mejor-opcion-arturia-keystep-pro-hardware",
+      "type": "respuesta_youtube",
+      "title": "Arturia KeyStep Pro: Un controlador secuenciador versátil"
+    },
+    {
+      "slug": "guia-elegir-arturia-minifreak-vs-microfreak",
+      "type": "respuesta_tecnica",
+      "title": "Comparativa técnica: Arturia MiniFreak vs MicroFreak"
+    },
+    {
+      "slug": "guia-elegir-arturia-minifreak-vs-microfreak",
+      "type": "post_educativo",
+      "title": "¿MiniFreak o MicroFreak? Encuentra tu sintetizador ideal"
+    },
+    {
+      "slug": "guia-elegir-arturia-minifreak-vs-microfreak",
+      "type": "snippet_social",
+      "title": "¿MiniFreak o MicroFreak? Encuentra tu sintetizador ideal"
+    },
+    {
+      "slug": "guia-elegir-arturia-minifreak-vs-microfreak",
+      "type": "post_social",
+      "title": "¿MiniFreak o MicroFreak? Encuentra tu sintetizador ideal"
+    },
+    {
+      "slug": "guia-elegir-arturia-minifreak-vs-microfreak",
+      "type": "post_x",
+      "title": "¿MiniFreak o MicroFreak? Encuentra tu sintetizador ideal"
+    },
+    {
+      "slug": "guia-elegir-arturia-minifreak-vs-microfreak",
+      "type": "respuesta_youtube",
+      "title": "Comparativa: Arturia MiniFreak vs MicroFreak para tu música"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-para-principiantes",
+      "type": "respuesta_tecnica",
+      "title": "MiniFreak vs MicroFreak: ¿Cuál elegir para empezar?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-para-principiantes",
+      "type": "post_educativo",
+      "title": "MiniFreak vs MicroFreak: ¿Cuál elegir para empezar?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-para-principiantes",
+      "type": "snippet_social",
+      "title": "MiniFreak vs MicroFreak: ¿Cuál elegir para empezar?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-para-principiantes",
+      "type": "post_social",
+      "title": "MiniFreak vs MicroFreak: ¿Cuál elegir para empezar?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-para-principiantes",
+      "type": "post_x",
+      "title": "MiniFreak vs MicroFreak: ¿Cuál elegir para empezar?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-para-principiantes",
+      "type": "respuesta_youtube",
+      "title": "MiniFreak vs MicroFreak: ¿Cuál elegir para empezar?"
+    },
+    {
+      "slug": "comparar-opciones-midiplus-ak490-principiantes",
+      "type": "respuesta_tecnica",
+      "title": "Elige el teclado MIDI ideal para comenzar"
+    },
+    {
+      "slug": "comparar-opciones-midiplus-ak490-principiantes",
+      "type": "post_educativo",
+      "title": "Elige el teclado MIDI ideal para comenzar"
+    },
+    {
+      "slug": "comparar-opciones-midiplus-ak490-principiantes",
+      "type": "snippet_social",
+      "title": "Elige el teclado MIDI ideal para comenzar"
+    },
+    {
+      "slug": "comparar-opciones-midiplus-ak490-principiantes",
+      "type": "post_social",
+      "title": "Elige el teclado MIDI ideal para comenzar"
+    },
+    {
+      "slug": "comparar-opciones-midiplus-ak490-principiantes",
+      "type": "post_x",
+      "title": "Elige el teclado MIDI ideal para comenzar"
+    },
+    {
+      "slug": "comparar-opciones-midiplus-ak490-principiantes",
+      "type": "respuesta_youtube",
+      "title": "Elige el teclado MIDI ideal para comenzar"
+    },
+    {
+      "slug": "mejor-opcion-midiplus-akm322-escritorio-chico",
+      "type": "respuesta_tecnica",
+      "title": "El controlador MIDI ideal para espacios reducidos"
+    },
+    {
+      "slug": "mejor-opcion-midiplus-akm322-escritorio-chico",
+      "type": "post_educativo",
+      "title": "El controlador MIDI ideal para espacios reducidos"
+    },
+    {
+      "slug": "mejor-opcion-midiplus-akm322-escritorio-chico",
+      "type": "snippet_social",
+      "title": "El controlador MIDI ideal para espacios reducidos"
+    },
+    {
+      "slug": "mejor-opcion-midiplus-akm322-escritorio-chico",
+      "type": "post_social",
+      "title": "El controlador MIDI ideal para espacios reducidos"
+    },
+    {
+      "slug": "mejor-opcion-midiplus-akm322-escritorio-chico",
+      "type": "post_x",
+      "title": "El controlador MIDI ideal para espacios reducidos"
+    },
+    {
+      "slug": "comparar-opciones-midiplus-akm322-escritorio-chico",
+      "type": "respuesta_tecnica",
+      "title": "Controladores MIDI compactos para tu escritorio"
+    },
+    {
+      "slug": "comparar-opciones-midiplus-akm322-escritorio-chico",
+      "type": "post_educativo",
+      "title": "Controladores MIDI compactos para tu escritorio"
+    },
+    {
+      "slug": "comparar-opciones-midiplus-akm322-escritorio-chico",
+      "type": "snippet_social",
+      "title": "Controladores MIDI compactos para tu escritorio"
+    },
+    {
+      "slug": "comparar-opciones-midiplus-akm322-escritorio-chico",
+      "type": "post_social",
+      "title": "Controladores MIDI compactos para tu escritorio"
+    },
+    {
+      "slug": "comparar-opciones-midiplus-akm322-escritorio-chico",
+      "type": "respuesta_youtube",
+      "title": "Controladores MIDI compactos para tu escritorio"
+    },
+    {
+      "slug": "comparativa-arturia-minilab-3-vs-keylab-4",
+      "type": "post_x",
+      "title": "MiniLab 3 o KeyLab: ¿Cuál controlador elegir?"
+    },
+    {
+      "slug": "mejor-opcion-midiplus-ak490-principiantes",
+      "type": "respuesta_tecnica",
+      "title": "El MIDIPLUS AK490: Ideal para Principiantes en Producción Musical"
+    },
+    {
+      "slug": "mejor-opcion-midiplus-ak490-principiantes",
+      "type": "post_x",
+      "title": "El MIDIPLUS AK490: Ideal para principiantes en la música"
+    },
+    {
+      "slug": "mejor-opcion-midiplus-i61-teclado-controlador",
+      "type": "respuesta_tecnica",
+      "title": "MIDIPLUS i61: La mejor opción para tocar con más teclas"
+    },
+    {
+      "slug": "mejor-opcion-midiplus-i61-teclado-controlador",
+      "type": "post_educativo",
+      "title": "MIDIPLUS i61: La mejor opción para tocar con más teclas"
+    },
+    {
+      "slug": "mejor-opcion-midiplus-i61-teclado-controlador",
+      "type": "snippet_social",
+      "title": "MIDIPLUS i61: La mejor opción para tocar con más teclas"
+    },
+    {
+      "slug": "mejor-opcion-midiplus-i61-teclado-controlador",
+      "type": "post_social",
+      "title": "MIDIPLUS i61: La mejor opción para tocar con más teclas"
+    },
+    {
+      "slug": "mejor-opcion-midiplus-i61-teclado-controlador",
+      "type": "post_x",
+      "title": "MIDIPLUS i61: La mejor opción para tocar con más teclas"
+    },
+    {
+      "slug": "mejor-opcion-midiplus-i61-teclado-controlador",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS i61: La mejor opción para tocar con más teclas"
+    },
+    {
+      "slug": "comparar-opciones-midiplus-i61",
+      "type": "respuesta_tecnica",
+      "title": "Controladores MIDI de 61 teclas: elige el mejor para vos"
+    },
+    {
+      "slug": "comparar-opciones-midiplus-i61",
+      "type": "post_educativo",
+      "title": "Controladores MIDI de 61 teclas: elige el mejor para vos"
+    },
+    {
+      "slug": "comparar-opciones-midiplus-i61",
+      "type": "post_social",
+      "title": "Controladores MIDI de 61 teclas: elige el mejor para vos"
+    },
+    {
+      "slug": "comparar-opciones-midiplus-i61",
+      "type": "post_x",
+      "title": "Controladores MIDI de 61 teclas: elige el mejor para vos"
+    },
+    {
+      "slug": "comparar-opciones-midiplus-i61",
+      "type": "respuesta_youtube",
+      "title": "Controladores MIDI de 61 teclas: elige el mejor para vos"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "mejor-opcion-midiplus-akm322-escritorio-chico",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "comparar-opciones-midiplus-akm322-escritorio-chico",
+      "type": "post_x",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "comparativa-arturia-minilab-3-vs-keylab-4",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "comparativa-arturia-minilab-3-vs-keylab-4",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "comparativa-arturia-minilab-3-vs-keylab-4",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "comparativa-arturia-minilab-3-vs-keylab-4",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "comparativa-arturia-minilab-3-vs-keylab-4",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "mejor-opcion-midiplus-ak490-principiantes",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "mejor-opcion-midiplus-ak490-principiantes",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "mejor-opcion-midiplus-ak490-principiantes",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "mejor-opcion-midiplus-ak490-principiantes",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "comparar-opciones-midiplus-i61",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 278.12
+}

@@ -1,0 +1,169 @@
+{
+  "timestamp_utc": "20260610-163948-115197",
+  "command": "auto-distribution",
+  "channels": [
+    "facebook",
+    "instagram",
+    "x",
+    "youtube"
+  ],
+  "unsupported_channels": [],
+  "limit": 25,
+  "per_channel": 2,
+  "dry_run": false,
+  "allow_proposed": false,
+  "published_or_attempted": 3,
+  "blocked_seen": 900,
+  "results": [
+    {
+      "id": "20260610-141705-418054:arturia-minilab-3-ableton-notebook:snippet_social:social:1781101047552",
+      "channel": "facebook",
+      "slug": "arturia-minilab-3-ableton-notebook",
+      "result": {
+        "ok": true,
+        "url": "https://www.facebook.com/",
+        "dismissed": [
+          {
+            "ok": true,
+            "label": "cerrar menú de omisión"
+          }
+        ],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "facebook_comment",
+              "ok": true,
+              "prep": {
+                "ok": true,
+                "skipped": true
+              },
+              "open": {
+                "ok": true,
+                "label": "comentar"
+              },
+              "fill": {
+                "ok": true,
+                "selector": "[aria-label][contenteditable=\"true\"]",
+                "length": 561
+              },
+              "submit": {
+                "ok": false,
+                "error": "boton por texto no encontrado",
+                "texts": [
+                  "publicar",
+                  "post"
+                ]
+              },
+              "keyboard_submit": {
+                "ok": true,
+                "method": "ctrl_enter"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260610-134103-206954:midiplus-ed8-vs-ed6-practicar-de-noche:respuesta_youtube:youtube:1781098899602",
+      "channel": "youtube",
+      "slug": "midiplus-ed8-vs-ed6-practicar-de-noche",
+      "result": {
+        "ok": false,
+        "error": "YouTube requiere source_thread_url de un video"
+      }
+    },
+    {
+      "id": "20260610-133802-672906:synido-tempokey-25-notebook:respuesta_youtube:youtube:1781098847240",
+      "channel": "youtube",
+      "slug": "synido-tempokey-25-notebook",
+      "result": {
+        "ok": false,
+        "error": "YouTube requiere source_thread_url de un video"
+      }
+    }
+  ],
+  "blocked_sample": [
+    {
+      "id": "20260610-155235-915446:youtube:auto-listen:3",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260610-155235-915446:youtube:auto-listen:2",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260610-155235-915446:youtube:auto-listen:1",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260610-155235-915446:instagram:auto-listen:0",
+      "channel": "instagram",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260610-153802-141371:youtube:auto-listen:26",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260610-153802-141371:youtube:auto-listen:25",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260610-153802-141371:youtube:auto-listen:24",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260610-153802-141371:youtube:auto-listen:23",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260610-153802-141371:youtube:auto-listen:22",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260610-153802-141371:youtube:auto-listen:21",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    }
+  ]
+}

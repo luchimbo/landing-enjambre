@@ -1,0 +1,47 @@
+{
+  "timestamp_utc": "20260528-200509-062439",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260528-200443-379478",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 1,
+  "pieces_proposed": 6,
+  "pieces_blocked": 0,
+  "proposed": [
+    {
+      "slug": "comparar-microfonos-condensador-para-voz",
+      "type": "respuesta_tecnica",
+      "title": "Encuentra el micrófono condensador ideal para tu voz"
+    },
+    {
+      "slug": "comparar-microfonos-condensador-para-voz",
+      "type": "post_educativo",
+      "title": "Encuentra el micrófono condensador ideal para tu voz"
+    },
+    {
+      "slug": "comparar-microfonos-condensador-para-voz",
+      "type": "snippet_social",
+      "title": "Encuentra el micrófono condensador ideal para tu voz"
+    },
+    {
+      "slug": "comparar-microfonos-condensador-para-voz",
+      "type": "post_social",
+      "title": "Encuentra el micrófono condensador ideal para tu voz"
+    },
+    {
+      "slug": "comparar-microfonos-condensador-para-voz",
+      "type": "post_x",
+      "title": "Encuentra el micrófono condensador ideal para tu voz"
+    },
+    {
+      "slug": "comparar-microfonos-condensador-para-voz",
+      "type": "respuesta_youtube",
+      "title": "Encuentra el micrófono condensador ideal para tu voz"
+    }
+  ],
+  "blocked": [],
+  "elapsed_seconds": 25.68
+}

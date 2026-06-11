@@ -1,0 +1,21 @@
+{
+  "timestamp_utc": "20260526-152831-939899",
+  "command": "geo-audit",
+  "status": "ok",
+  "dry_run": false,
+  "models": [
+    "deepseek/deepseek-v4-flash",
+    "tencent/hy3-preview",
+    "openrouter/owl-alpha",
+    "google/gemini-2.5-flash-lite",
+    "nvidia/nemotron-3-super-120b-a12b:free",
+    "openai/gpt-4o-mini",
+    "anthropic/claude-haiku-4-5"
+  ],
+  "prompts_processed": 20,
+  "responses_total": 140,
+  "avg_score": 1.92,
+  "pcmidi_mentions": 119,
+  "content_gaps": 19,
+  "errors": []
+}

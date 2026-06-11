@@ -1,0 +1,9 @@
+{
+  "timestamp_utc": "20260601-130001-425326",
+  "command": "validate",
+  "status": "blocked",
+  "errors": [
+    "interfaz-audio-podcast-grabar-casa: slug duplicado",
+    "interfaz-audio-podcast-grabar-casa: seo_title duplicado"
+  ]
+}

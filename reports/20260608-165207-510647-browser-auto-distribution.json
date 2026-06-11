@@ -1,0 +1,705 @@
+{
+  "timestamp_utc": "20260608-165207-510647",
+  "command": "auto-distribution",
+  "channels": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "reddit",
+    "x",
+    "youtube"
+  ],
+  "unsupported_channels": [],
+  "limit": 18,
+  "per_channel": 3,
+  "dry_run": false,
+  "allow_proposed": false,
+  "published_or_attempted": 15,
+  "blocked_seen": 1068,
+  "results": [
+    {
+      "id": "20260608-164444-052463:youtube:auto-listen:26",
+      "channel": "youtube",
+      "slug": "microfono-para-podcast-usb-o-xlr",
+      "result": {
+        "ok": true,
+        "url": "https://www.youtube.com/watch?v=YoQYAXtuL1s&pp=ygUWbWljcm9mb25vIHBhcmEgcG9kY2FzdA%3D%3D",
+        "dismissed": [
+          {
+            "ok": true,
+            "label": "subtitles/closed captions unavailable"
+          }
+        ],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "youtube_placeholder",
+              "ok": true,
+              "prep": {
+                "ok": true,
+                "tries": 4,
+                "tag": "YTD-COMMENT-SIMPLEBOX-RENDERER"
+              },
+              "open": {
+                "ok": true,
+                "selector": "#placeholder-area"
+              },
+              "fill": {
+                "ok": true,
+                "selector": "[aria-label*=\"Add a comment\"]",
+                "length": 139
+              },
+              "submit": {
+                "ok": true,
+                "selector": "#submit-button button"
+              },
+              "keyboard_submit": {
+                "ok": false,
+                "skipped": true
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260608-164444-052463:youtube:auto-listen:25",
+      "channel": "youtube",
+      "slug": "microfono-para-podcast-usb-o-xlr",
+      "result": {
+        "ok": true,
+        "url": "https://www.youtube.com/watch?v=oU6tDISaZAQ&t=630s&pp=ygUWbWljcm9mb25vIHBhcmEgcG9kY2FzdNIHCQk4CwGHKiGM7w%3D%3D",
+        "dismissed": [
+          {
+            "ok": true,
+            "label": "subtitles/closed captions unavailable"
+          }
+        ],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "youtube_placeholder",
+              "ok": true,
+              "prep": {
+                "ok": true,
+                "tries": 4,
+                "tag": "YTD-COMMENT-SIMPLEBOX-RENDERER"
+              },
+              "open": {
+                "ok": true,
+                "selector": "#placeholder-area"
+              },
+              "fill": {
+                "ok": true,
+                "selector": "[aria-label*=\"Add a comment\"]",
+                "length": 144
+              },
+              "submit": {
+                "ok": true,
+                "selector": "#submit-button button"
+              },
+              "keyboard_submit": {
+                "ok": false,
+                "skipped": true
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260608-164444-052463:youtube:auto-listen:24",
+      "channel": "youtube",
+      "slug": "placa-sonido-guitarra",
+      "result": {
+        "ok": true,
+        "url": "https://www.youtube.com/watch?v=CSAUeHLofDw&pp=ygUdcGxhY2EgZGUgc29uaWRvIHBhcmEgZ3VpdGFycmE%3D",
+        "dismissed": [
+          {
+            "ok": true,
+            "label": "subtitles/closed captions unavailable"
+          }
+        ],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "youtube_placeholder",
+              "ok": true,
+              "prep": {
+                "ok": true,
+                "tries": 4,
+                "tag": "YTD-COMMENT-SIMPLEBOX-RENDERER"
+              },
+              "open": {
+                "ok": true,
+                "selector": "#placeholder-area"
+              },
+              "fill": {
+                "ok": true,
+                "selector": "[aria-label*=\"Add a comment\"]",
+                "length": 140
+              },
+              "submit": {
+                "ok": true,
+                "selector": "#submit-button button"
+              },
+              "keyboard_submit": {
+                "ok": false,
+                "skipped": true
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260608-164444-052463:reddit:auto-listen:12",
+      "channel": "reddit",
+      "slug": "controlador-midi-para-ableton-comparativa",
+      "result": {
+        "ok": false,
+        "url": "https://www.reddit.com/user/Chavacarreon/comments/1u0cnyn/la_compra_de_inmusic_por_parte_de_native/",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "añadir un comentario",
+            "add a comment"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comentar",
+            "comment",
+            "reply"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260608-164444-052463:reddit:auto-listen:11",
+      "channel": "reddit",
+      "slug": "controlador-midi-para-ableton-comparativa",
+      "result": {
+        "ok": false,
+        "url": "https://www.reddit.com/r/abletonlive/comments/1u0d4hv/alternative_to_lss_dj_eq_silicon_mac/",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "añadir un comentario",
+            "add a comment"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comentar",
+            "comment",
+            "reply"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260608-164444-052463:linkedin:auto-listen:10",
+      "channel": "linkedin",
+      "slug": "microfono-para-streaming",
+      "result": {
+        "ok": false,
+        "url": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgWCVndtB&urlhash=Uvfp&mt=GWEVshKIPwqpYoynC9JZUZbAxXzKc1U4z3B6BIe5BokriRdhlZo1USVa1G95oULMLrnaFK18nl-QWkdtWKhsI-Vp1Zl5yD0prJUWtFopKD6S5gxBv7FJ8hS_bVE&isSdui=true",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comenzar publicación",
+            "start a post",
+            "crear publicación",
+            "post"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "publicar"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260608-164444-052463:linkedin:auto-listen:7",
+      "channel": "linkedin",
+      "slug": "controlador-midi-para-ableton-comparativa",
+      "result": {
+        "ok": true,
+        "url": "https://www.linkedin.com/search/results/all/?keywords=%23embeddedsystems&origin=HASH_TAG_FROM_FEED",
+        "dismissed": [
+          {
+            "ok": true,
+            "label": "cerrar menú de omisión"
+          }
+        ],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "linkedin_post_prompt",
+              "ok": false,
+              "prep": {
+                "ok": true,
+                "skipped": true
+              },
+              "open": {
+                "ok": false,
+                "error": "boton por texto no encontrado",
+                "texts": [
+                  "comenzar publicación",
+                  "crear publicación",
+                  "start a post"
+                ]
+              },
+              "fill": {
+                "ok": false,
+                "error": "editor visible no encontrado"
+              },
+              "submit": {
+                "ok": false,
+                "error": "boton por texto no encontrado",
+                "texts": [
+                  "publicar",
+                  "post"
+                ]
+              },
+              "keyboard_submit": {
+                "ok": false,
+                "skipped": true
+              }
+            },
+            {
+              "strategy": "linkedin_comment",
+              "ok": true,
+              "prep": {
+                "ok": true,
+                "skipped": true
+              },
+              "open": {
+                "ok": true,
+                "label": "3 comentarios 3 comentarios"
+              },
+              "fill": {
+                "ok": true,
+                "selector": "[aria-label][contenteditable=\"true\"]",
+                "length": 170
+              },
+              "submit": {
+                "ok": false,
+                "error": "boton por texto no encontrado",
+                "texts": [
+                  "publicar",
+                  "post"
+                ]
+              },
+              "keyboard_submit": {
+                "ok": true,
+                "method": "ctrl_enter"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260608-164444-052463:linkedin:auto-listen:2",
+      "channel": "linkedin",
+      "slug": "controlador-midi-para-fl-studio",
+      "result": {
+        "ok": true,
+        "url": "https://www.linkedin.com/search/results/all/?keywords=%23hardwaredesign&origin=HASH_TAG_FROM_FEED",
+        "dismissed": [
+          {
+            "ok": true,
+            "label": "cerrar menú de omisión"
+          }
+        ],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "linkedin_post_prompt",
+              "ok": false,
+              "prep": {
+                "ok": true,
+                "skipped": true
+              },
+              "open": {
+                "ok": false,
+                "error": "boton por texto no encontrado",
+                "texts": [
+                  "comenzar publicación",
+                  "crear publicación",
+                  "start a post"
+                ]
+              },
+              "fill": {
+                "ok": false,
+                "error": "editor visible no encontrado"
+              },
+              "submit": {
+                "ok": false,
+                "error": "boton por texto no encontrado",
+                "texts": [
+                  "publicar",
+                  "post"
+                ]
+              },
+              "keyboard_submit": {
+                "ok": false,
+                "skipped": true
+              }
+            },
+            {
+              "strategy": "linkedin_comment",
+              "ok": true,
+              "prep": {
+                "ok": true,
+                "skipped": true
+              },
+              "open": {
+                "ok": true,
+                "label": "2 comentarios 2 comentarios"
+              },
+              "fill": {
+                "ok": true,
+                "selector": "[aria-label][contenteditable=\"true\"]",
+                "length": 156
+              },
+              "submit": {
+                "ok": false,
+                "error": "boton por texto no encontrado",
+                "texts": [
+                  "publicar",
+                  "post"
+                ]
+              },
+              "keyboard_submit": {
+                "ok": true,
+                "method": "ctrl_enter"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260608-163801-913639:placa-sonido-guitarra-notebook:post_social:facebook:1780937076994",
+      "channel": "facebook",
+      "slug": "placa-sonido-guitarra-notebook",
+      "result": {
+        "ok": false,
+        "url": "https://www.facebook.com/",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "¿qué estás pensando",
+            "what's on your mind",
+            "crear publicación"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "publicar"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260608-163801-913639:placa-sonido-guitarra-notebook:snippet_social:social:1780937071933",
+      "channel": "facebook",
+      "slug": "placa-sonido-guitarra-notebook",
+      "result": {
+        "ok": false,
+        "url": "https://www.facebook.com/",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "¿qué estás pensando",
+            "what's on your mind",
+            "crear publicación"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "publicar"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260608-163801-913639:placa-sonido-guitarra-notebook:snippet_social:social:1780937071933",
+      "channel": "x",
+      "slug": "placa-sonido-guitarra-notebook",
+      "result": {
+        "ok": true,
+        "url": "https://x.com/compose/post",
+        "dismissed": [
+          {
+            "ok": true,
+            "label": "close"
+          }
+        ],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "x_compose",
+              "ok": true,
+              "prep": {
+                "ok": true,
+                "skipped": true
+              },
+              "open": {
+                "ok": true,
+                "skipped": true
+              },
+              "fill": {
+                "ok": true,
+                "selector": "[data-testid=\"tweetTextarea_0\"]",
+                "length": 275
+              },
+              "submit": {
+                "ok": true,
+                "selector": "[data-testid=\"tweetButtonInline\"]"
+              },
+              "keyboard_submit": {
+                "ok": false,
+                "skipped": true
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260608-163801-913639:placa-sonido-guitarra-notebook:respuesta_tecnica:reddit:1780937062174",
+      "channel": "reddit",
+      "slug": "placa-sonido-guitarra-notebook",
+      "result": {
+        "ok": false,
+        "error": "timed out"
+      }
+    },
+    {
+      "id": "20260608-163801-913639:placa-sonido-guitarra-grabar-contenido:snippet_social:social:1780936997366",
+      "channel": "facebook",
+      "slug": "placa-sonido-guitarra-grabar-contenido",
+      "result": {
+        "ok": false,
+        "error": "timed out"
+      }
+    },
+    {
+      "id": "20260608-163801-913639:placa-sonido-guitarra-grabar-contenido:snippet_social:social:1780936997366",
+      "channel": "x",
+      "slug": "placa-sonido-guitarra-grabar-contenido",
+      "result": {
+        "ok": false,
+        "error": "timed out"
+      }
+    },
+    {
+      "id": "20260608-163801-913639:controlador-arturia-minilab-3-ableton-1:snippet_social:social:1780936711882",
+      "channel": "x",
+      "slug": "controlador-arturia-minilab-3-ableton-1",
+      "result": {
+        "ok": false,
+        "error": "timed out"
+      }
+    }
+  ],
+  "blocked_sample": [
+    {
+      "id": "20260608-164444-052463:youtube:auto-listen:28",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260608-164444-052463:youtube:auto-listen:27",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260608-164444-052463:youtube:auto-listen:22",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260608-164444-052463:youtube:auto-listen:20",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260608-164444-052463:youtube:auto-listen:19",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260608-164444-052463:youtube:auto-listen:17",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260608-164444-052463:youtube:auto-listen:16",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260608-164444-052463:youtube:auto-listen:14",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260608-164444-052463:linkedin:auto-listen:9",
+      "channel": "linkedin",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260608-164444-052463:linkedin:auto-listen:8",
+      "channel": "linkedin",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    }
+  ]
+}

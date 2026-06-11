@@ -1,0 +1,29 @@
+{
+  "timestamp_utc": "20260528-153241-900858",
+  "command": "auto-distribution",
+  "channels": [
+    "facebook",
+    "instagram",
+    "x",
+    "youtube"
+  ],
+  "unsupported_channels": [],
+  "limit": 8,
+  "per_channel": 1,
+  "dry_run": false,
+  "allow_proposed": false,
+  "published_or_attempted": 1,
+  "blocked_seen": 0,
+  "results": [
+    {
+      "id": "20260528-153030-114313:comparar-microfonos-streaming:respuesta_youtube:youtube:1779982352999",
+      "channel": "youtube",
+      "slug": "comparar-microfonos-streaming",
+      "result": {
+        "ok": false,
+        "error": "YouTube requiere source_thread_url de un video"
+      }
+    }
+  ],
+  "blocked_sample": []
+}

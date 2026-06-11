@@ -1,0 +1,181 @@
+{
+  "timestamp_utc": "20260601-173547-095427",
+  "command": "auto-distribution",
+  "channels": [
+    "facebook",
+    "instagram",
+    "x",
+    "youtube"
+  ],
+  "unsupported_channels": [],
+  "limit": 8,
+  "per_channel": 1,
+  "dry_run": false,
+  "allow_proposed": false,
+  "published_or_attempted": 3,
+  "blocked_seen": 110,
+  "results": [
+    {
+      "id": "20260601-171406-993044:como-elegir-interfaz-de-audio-para-grabar-voz-en-casa:respuesta_youtube:youtube:1780335232514",
+      "channel": "youtube",
+      "slug": "como-elegir-interfaz-de-audio-para-grabar-voz-en-casa",
+      "result": {
+        "ok": false,
+        "error": "YouTube requiere source_thread_url de un video"
+      }
+    },
+    {
+      "id": "20260601-171406-993044:como-elegir-interfaz-de-audio-para-grabar-voz-en-casa:snippet_social:social:1780335221521",
+      "channel": "facebook",
+      "slug": "como-elegir-interfaz-de-audio-para-grabar-voz-en-casa",
+      "result": {
+        "ok": true,
+        "url": "https://www.facebook.com/",
+        "dismissed": [],
+        "open": {
+          "ok": true,
+          "label": "crear una publicación ¿qué estás pensando, bruno?"
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "publicar"
+          ]
+        },
+        "fallback_like": {
+          "ok": true,
+          "mode": "selector",
+          "selector": "[aria-label=\"Me gusta\"]"
+        }
+      }
+    },
+    {
+      "id": "20260601-171406-993044:como-elegir-interfaz-de-audio-para-grabar-voz-en-casa:snippet_social:social:1780335221521",
+      "channel": "x",
+      "slug": "como-elegir-interfaz-de-audio-para-grabar-voz-en-casa",
+      "result": {
+        "ok": true,
+        "url": "https://x.com/compose/post",
+        "dismissed": [],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "x_compose",
+              "ok": true,
+              "prep": {
+                "ok": true,
+                "skipped": true
+              },
+              "open": {
+                "ok": true,
+                "skipped": true
+              },
+              "fill": {
+                "ok": true,
+                "selector": "[data-testid=\"tweetTextarea_0\"]",
+                "length": 275
+              },
+              "submit": {
+                "ok": true,
+                "selector": "[data-testid=\"tweetButtonInline\"]"
+              },
+              "keyboard_submit": {
+                "ok": false,
+                "skipped": true
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "blocked_sample": [
+    {
+      "id": "20260601-171406-993044:alctron-um900-streaming-microfono-usb:respuesta_youtube:youtube:1780334514262",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260601-171406-993044:alctron-um900-streaming-microfono-usb:post_x:x:1780334507751",
+      "channel": "x",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260601-123802-321202:instagram:auto-listen:0",
+      "channel": "instagram",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260530-124437-397664:mejor-opcion-interfaz-audio-dos-entradas:post_social:facebook:1780145121527",
+      "channel": "facebook",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260530-124437-397664:mejor-opcion-interfaz-audio-dos-entradas:snippet_social:social:1780145119096",
+      "channel": "facebook",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260530-124437-397664:mejor-opcion-interfaz-audio-dos-entradas:snippet_social:social:1780145119096",
+      "channel": "x",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260530-124437-397664:mejor-opcion-monitores-5-pulgadas-o-6-pulgadas:post_x:x:1780145152702",
+      "channel": "x",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260530-124437-397664:mejor-opcion-monitores-5-pulgadas-o-6-pulgadas:snippet_social:social:1780145148976",
+      "channel": "facebook",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260530-124437-397664:mejor-opcion-monitores-5-pulgadas-o-6-pulgadas:snippet_social:social:1780145148976",
+      "channel": "x",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260530-124437-397664:comparar-microfonos-xlr-podcast:post_x:x:1780145138210",
+      "channel": "x",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    }
+  ]
+}

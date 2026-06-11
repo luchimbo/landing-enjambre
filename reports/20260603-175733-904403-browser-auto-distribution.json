@@ -1,0 +1,100 @@
+{
+  "timestamp_utc": "20260603-175733-904403",
+  "command": "auto-distribution",
+  "channels": [
+    "facebook",
+    "instagram",
+    "x",
+    "youtube"
+  ],
+  "unsupported_channels": [],
+  "limit": 25,
+  "per_channel": 2,
+  "dry_run": false,
+  "allow_proposed": false,
+  "published_or_attempted": 0,
+  "blocked_seen": 143,
+  "results": [],
+  "blocked_sample": [
+    {
+      "id": "20260603-173801-504170:youtube:auto-listen:12",
+      "channel": "youtube",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260603-173801-504170:youtube:auto-listen:11",
+      "channel": "youtube",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260603-171033-426495:youtube:auto-listen:4",
+      "channel": "youtube",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260603-171033-426495:youtube:auto-listen:3",
+      "channel": "youtube",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260603-143321-436641:monitores-estudio-home-studio-pequeno:post_x:x:1780497271357",
+      "channel": "x",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260603-143321-436641:monitores-estudio-home-studio-pequeno:post_social:facebook:1780497268919",
+      "channel": "facebook",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260603-143321-436641:monitores-estudio-home-studio-pequeno:snippet_social:social:1780497265139",
+      "channel": "facebook",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260603-143321-436641:monitores-estudio-home-studio-pequeno:snippet_social:social:1780497265139",
+      "channel": "x",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260603-135811-210325:bateria-electronica-para-departamento-home-studio:respuesta_youtube:youtube:1780495384137",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260603-135811-210325:bateria-electronica-para-departamento-home-studio:post_x:x:1780495378769",
+      "channel": "x",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    }
+  ]
+}

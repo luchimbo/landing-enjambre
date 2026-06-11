@@ -1,0 +1,394 @@
+{
+  "timestamp_utc": "20260610-134428-586450",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260610-133802-672906",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 12,
+  "pieces_proposed": 64,
+  "pieces_blocked": 8,
+  "proposed": [
+    {
+      "slug": "midiplus-ed8-vs-ed6-practicar-de-noche",
+      "type": "post_social",
+      "title": "Midiplus ED8 vs ED6: ¿Cuál Elegir para Practicar de Noche?"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-practicar-de-noche",
+      "type": "post_x",
+      "title": "Midiplus ED8 vs ED6: ¿Cuál Elegir para Practicar de Noche?"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-para-chicos",
+      "type": "respuesta_tecnica",
+      "title": "Comparativa técnica: Midiplus ED8 vs ED6 para chicos"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-para-chicos",
+      "type": "post_educativo",
+      "title": "Comparativa de baterías electrónicas para chicos: ED8 vs ED6"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-para-chicos",
+      "type": "snippet_social",
+      "title": "Comparativa de baterías electrónicas: Midiplus ED8 vs ED6"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-para-chicos",
+      "type": "post_social",
+      "title": "¿ED8 o ED6? La mejor batería electrónica para chicos"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-para-chicos",
+      "type": "post_x",
+      "title": "ED8 vs ED6: ¿Cuál es la mejor batería electrónica para chicos?"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-para-chicos",
+      "type": "respuesta_youtube",
+      "title": "Comparativa de baterías electrónicas Midiplus ED8 y ED6 para chicos"
+    },
+    {
+      "slug": "comparar-opciones-midiplus-ed8-vs-ed6",
+      "type": "respuesta_tecnica",
+      "title": "Comparativa de las baterías electrónicas Midiplus ED8 y ED6"
+    },
+    {
+      "slug": "comparar-opciones-midiplus-ed8-vs-ed6",
+      "type": "snippet_social",
+      "title": "Comparativa de las baterías electrónicas Midiplus ED8 y ED6"
+    },
+    {
+      "slug": "comparar-opciones-midiplus-ed8-vs-ed6",
+      "type": "post_social",
+      "title": "Comparativa de las baterías electrónicas Midiplus ED8 y ED6"
+    },
+    {
+      "slug": "comparar-opciones-midiplus-ed8-vs-ed6",
+      "type": "post_x",
+      "title": "Comparativa de las baterías electrónicas Midiplus ED8 y ED6"
+    },
+    {
+      "slug": "comparar-opciones-midiplus-ed8-vs-ed6",
+      "type": "respuesta_youtube",
+      "title": "Comparativa de las baterías electrónicas Midiplus ED8 y ED6"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-leads",
+      "type": "respuesta_tecnica",
+      "title": "Arturia PolyBrute: Tu aliado en la creación de leads"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-leads",
+      "type": "post_educativo",
+      "title": "Arturia PolyBrute: Tu aliado en la creación de leads"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-leads",
+      "type": "snippet_social",
+      "title": "Arturia PolyBrute: Tu aliado en la creación de leads"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-leads",
+      "type": "post_social",
+      "title": "Arturia PolyBrute: Tu aliado en la creación de leads"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-leads",
+      "type": "post_x",
+      "title": "Arturia PolyBrute: Tu aliado en la creación de leads"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-leads",
+      "type": "respuesta_youtube",
+      "title": "Arturia PolyBrute: Ideal para Leads en tu Estudio"
+    },
+    {
+      "slug": "synido-tempokey-25-notebook",
+      "type": "snippet_social",
+      "title": "Controlador MIDI Synido TempoKEY 25: Ideal para tu notebook"
+    },
+    {
+      "slug": "synido-tempokey-25-notebook",
+      "type": "post_social",
+      "title": "Controlador MIDI Synido TempoKEY 25: Ideal para tu notebook"
+    },
+    {
+      "slug": "synido-tempokey-25-notebook",
+      "type": "post_x",
+      "title": "Controlador MIDI Synido TempoKEY 25: Ideal para Productores"
+    },
+    {
+      "slug": "midiplus-i61-controlador-61-teclas-musica-electronica",
+      "type": "respuesta_tecnica",
+      "title": "Controlador MIDI MIDIPLUS i61: Ideal para Producción Electrónica"
+    },
+    {
+      "slug": "midiplus-i61-controlador-61-teclas-musica-electronica",
+      "type": "post_educativo",
+      "title": "Controlador MIDI MIDIPLUS i61: Tu Compañero Ideal para Producción"
+    },
+    {
+      "slug": "midiplus-i61-controlador-61-teclas-musica-electronica",
+      "type": "snippet_social",
+      "title": "Controlador MIDI MIDIPLUS i61: Ideal para Producción Musical"
+    },
+    {
+      "slug": "midiplus-i61-controlador-61-teclas-musica-electronica",
+      "type": "post_social",
+      "title": "Controlador MIDI MIDIPLUS i61: Ideal para tu Música Electrónica"
+    },
+    {
+      "slug": "midiplus-i61-controlador-61-teclas-musica-electronica",
+      "type": "post_x",
+      "title": "Controlador MIDI MIDIPLUS i61: Ideal para Producción Electrónica"
+    },
+    {
+      "slug": "midiplus-i61-controlador-61-teclas-musica-electronica",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS i61: Ideal para Producción Musical Electrónica"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-grabar-contenido",
+      "type": "respuesta_tecnica",
+      "title": "Batería Electrónica MIDIPLUS ED6: Ideal para Practicar y Grabar"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-grabar-contenido",
+      "type": "post_educativo",
+      "title": "Batería Electrónica MIDIPLUS ED6: Ideal para Practicar y Grabar"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-grabar-contenido",
+      "type": "snippet_social",
+      "title": "Batería Electrónica MIDIPLUS ED6: Ideal para Practicar y Grabar"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-grabar-contenido",
+      "type": "post_social",
+      "title": "Batería Electrónica MIDIPLUS ED6: Ideal para Practicar y Grabar"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-grabar-contenido",
+      "type": "post_x",
+      "title": "Batería Electrónica MIDIPLUS ED6: Ideal para Practicar y Grabar"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-grabar-contenido",
+      "type": "respuesta_youtube",
+      "title": "Batería Electrónica MIDIPLUS ED6: Ideal para Practicar y Grabar"
+    },
+    {
+      "slug": "midiplus-ed6-bateria-electronica-grabar-voces",
+      "type": "respuesta_tecnica",
+      "title": "Batería Electrónica MIDIPLUS ED6: Ideal para Grabar Voces"
+    },
+    {
+      "slug": "midiplus-ed6-bateria-electronica-grabar-voces",
+      "type": "post_educativo",
+      "title": "Batería Electrónica MIDIPLUS ED6: Tu Aliada para Grabar Voces"
+    },
+    {
+      "slug": "midiplus-ed6-bateria-electronica-grabar-voces",
+      "type": "snippet_social",
+      "title": "Batería Electrónica MIDIPLUS ED6: Ideal para Grabar Voces"
+    },
+    {
+      "slug": "midiplus-ed6-bateria-electronica-grabar-voces",
+      "type": "post_social",
+      "title": "Descubre la Batería Electrónica MIDIPLUS ED6 para Grabar Voces"
+    },
+    {
+      "slug": "midiplus-ed6-bateria-electronica-grabar-voces",
+      "type": "post_x",
+      "title": "Batería Electrónica MIDIPLUS ED6: Ideal para Grabar Voces"
+    },
+    {
+      "slug": "midiplus-ed6-bateria-electronica-grabar-voces",
+      "type": "respuesta_youtube",
+      "title": "Batería Electrónica MIDIPLUS ED6: Ideal para Grabar Voces"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-streaming",
+      "type": "respuesta_tecnica",
+      "title": "La Batería Electrónica MIDIPLUS ED6 para Streaming y Práctica"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-streaming",
+      "type": "post_educativo",
+      "title": "La Batería Electrónica MIDIPLUS ED6 para tus sesiones de streaming"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-streaming",
+      "type": "snippet_social",
+      "title": "La Batería Electrónica MIDIPLUS ED6 para Streaming"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-streaming",
+      "type": "post_social",
+      "title": "La Batería Electrónica MIDIPLUS ED6 para tus sesiones de streaming"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-streaming",
+      "type": "post_x",
+      "title": "La Batería Electrónica MIDIPLUS ED6 para Streaming"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-streaming",
+      "type": "respuesta_youtube",
+      "title": "La Batería Electrónica MIDIPLUS ED6 para Streaming"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-noche-10",
+      "type": "respuesta_tecnica",
+      "title": "La Batería Electrónica MIDIPLUS ED6: Ideal para Practicar de Noche"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-noche-10",
+      "type": "post_educativo",
+      "title": "La Batería Electrónica MIDIPLUS ED6: Tu Compañera Nocturna"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-noche-10",
+      "type": "snippet_social",
+      "title": "La Batería Electrónica MIDIPLUS ED6: Tu Compañera Nocturna"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-noche-10",
+      "type": "post_social",
+      "title": "La Batería Electrónica MIDIPLUS ED6: Tu Compañera Nocturna"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-noche-10",
+      "type": "post_x",
+      "title": "La Batería Electrónica MIDIPLUS ED6: Tu Compañera Nocturna"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-noche-10",
+      "type": "respuesta_youtube",
+      "title": "La Batería Electrónica MIDIPLUS ED6: Ideal para Practicar de Noche"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-chicos",
+      "type": "respuesta_tecnica",
+      "title": "La Batería Electrónica MIDIPLUS ED6: Ideal para Niños"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-chicos",
+      "type": "post_educativo",
+      "title": "La Batería Electrónica MIDIPLUS ED6: Ideal para Chicos"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-chicos",
+      "type": "snippet_social",
+      "title": "La Batería Electrónica MIDIPLUS ED6 Ideal para Chicos"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-chicos",
+      "type": "post_social",
+      "title": "La Batería Electrónica MIDIPLUS ED6: Ideal para Chicos 🎶"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-chicos",
+      "type": "post_x",
+      "title": "La Batería Electrónica MIDIPLUS ED6 para Chicos"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-chicos",
+      "type": "respuesta_youtube",
+      "title": "La Batería Electrónica MIDIPLUS ED6: Ideal para Niños"
+    },
+    {
+      "slug": "arturia-minilab-3-ableton-workflow-sin-complicarse",
+      "type": "respuesta_tecnica",
+      "title": "Optimizá tu producción musical con Arturia MiniLab 3"
+    },
+    {
+      "slug": "arturia-minilab-3-ableton-workflow-sin-complicarse",
+      "type": "post_educativo",
+      "title": "Optimizá tu producción musical con Arturia MiniLab 3"
+    },
+    {
+      "slug": "arturia-minilab-3-ableton-workflow-sin-complicarse",
+      "type": "snippet_social",
+      "title": "Optimizá tu producción musical con Arturia MiniLab 3"
+    },
+    {
+      "slug": "arturia-minilab-3-ableton-workflow-sin-complicarse",
+      "type": "post_social",
+      "title": "Optimizá tu producción musical con Arturia MiniLab 3"
+    },
+    {
+      "slug": "arturia-minilab-3-ableton-workflow-sin-complicarse",
+      "type": "post_x",
+      "title": "Optimizá tu producción musical con Arturia MiniLab 3"
+    },
+    {
+      "slug": "arturia-minilab-3-ableton-workflow-sin-complicarse",
+      "type": "respuesta_youtube",
+      "title": "Optimizá tu producción musical con Arturia MiniLab 3"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "midiplus-ed8-vs-ed6-practicar-de-noche",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-practicar-de-noche",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-practicar-de-noche",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-practicar-de-noche",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "comparar-opciones-midiplus-ed8-vs-ed6",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "synido-tempokey-25-notebook",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "synido-tempokey-25-notebook",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "synido-tempokey-25-notebook",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 385.91
+}

@@ -1,0 +1,59 @@
+{
+  "timestamp_utc": "20260527-182342-267606",
+  "command": "auto-distribution",
+  "channels": [
+    "instagram"
+  ],
+  "unsupported_channels": [],
+  "limit": 1,
+  "per_channel": 1,
+  "dry_run": false,
+  "allow_proposed": false,
+  "published_or_attempted": 1,
+  "blocked_seen": 0,
+  "results": [
+    {
+      "id": "20260527-182156-158460:instagram:auto-listen:4",
+      "channel": "instagram",
+      "slug": "controlador-midi-para-ableton-comparativa",
+      "result": {
+        "ok": true,
+        "url": "https://www.instagram.com/p/DU_MSleCAMd/",
+        "dismissed": [],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "instagram_comment_selector",
+              "ok": true,
+              "prep": {
+                "ok": true,
+                "tries": 1,
+                "tag": "TEXTAREA"
+              },
+              "open": {
+                "ok": true,
+                "selector": "textarea[aria-label*=\"comentario\"]"
+              },
+              "fill": {
+                "ok": true,
+                "selector": "textarea",
+                "length": 101
+              },
+              "submit": {
+                "ok": true,
+                "label": "publicar"
+              },
+              "keyboard_submit": {
+                "ok": false,
+                "skipped": true
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "blocked_sample": []
+}

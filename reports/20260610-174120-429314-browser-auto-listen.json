@@ -1,0 +1,142 @@
+{
+  "timestamp_utc": "20260610-174120-429314",
+  "command": "auto-listen",
+  "channels": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "reddit",
+    "x",
+    "youtube"
+  ],
+  "searches": 6,
+  "per_search": 3,
+  "dry_run": false,
+  "items": 30,
+  "distribution_drafts": 30,
+  "social_intel_path": "D:\\AgentesGuille\\data\\social_intel.jsonl",
+  "search_tasks_path": "D:\\AgentesGuille\\data\\distribution_search_tasks.jsonl",
+  "content_feedback_path": "D:\\AgentesGuille\\data\\content_feedback.jsonl",
+  "sample": [
+    {
+      "id": "20260610-173802-227978:instagram:0",
+      "created_at_utc": "2026-06-10T17:38:40.857834+00:00",
+      "run_id": "20260610-173802-227978",
+      "channel": "instagram",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.instagram.com/p/DS3IXVpkmh_/",
+      "source_title": "",
+      "source_context": "#flstudio #music #praise4ngell"
+    },
+    {
+      "id": "20260610-173802-227978:instagram:1",
+      "created_at_utc": "2026-06-10T17:38:40.899998+00:00",
+      "run_id": "20260610-173802-227978",
+      "channel": "instagram",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.instagram.com/p/DKH7R96snzX/",
+      "source_title": "",
+      "source_context": "Late-night session. Just me, FL Studio & the sound. 🌃 #flstudio #musicproducer #homestudio #studiolife"
+    },
+    {
+      "id": "20260610-173802-227978:instagram:2",
+      "created_at_utc": "2026-06-10T17:38:46.441433+00:00",
+      "run_id": "20260610-173802-227978",
+      "channel": "instagram",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.instagram.com/p/DKlslFwsis_/",
+      "source_title": "",
+      "source_context": "🎚️ The World’s Best-Selling Audio Interface. The Scarlett 2i2 3rd Gen delivers iconic Focusrite sound, crystal-clear mic preamps, and ultra-low latency — trusted by millions of artists worldwide. 🎸 Plug in your mic or instrument and start creating with studio-grade clarity. 🔥 Reliable. Powerful. Ready for anything. 👉 Order Now at: Qatarhomestudio.com #QatarHomeStudio #Doha #Scarlett2i2 #Focusrite #Scarlett2i23rdGen #AudioInterface #HomeStudioSetup #RecordingStudio #QatarAudio #QatarProducers #QatarPodcasters #QatarContentCreators #StudioGear #CreateMore #StudioLife #SoundBetter #Qatar"
+    },
+    {
+      "id": "20260610-173802-227978:instagram:3",
+      "created_at_utc": "2026-06-10T17:38:51.954698+00:00",
+      "run_id": "20260610-173802-227978",
+      "channel": "instagram",
+      "query": "controlador MIDI para Ableton",
+      "landing_slug": "controlador-midi-para-ableton-comparativa",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-ableton-comparativa/",
+      "source_url": "https://www.instagram.com/p/DADgsL1oB6a/",
+      "source_title": "",
+      "source_context": "I spent a couple of years on and off working on this one. I sometimes worry this sort of detailed toil approach to music could become obsolete with AI techniques but hopefully it will just open more doors for deeper obsessing and structuring. I’m already using a lot of generative techniques to create part jammed part emergent layers of sounds which I edit to give this sort of audio clip structure in the pic. There’s a bunch more midi and automation content hiding which I couldn’t fit, I’ll make a video capture of it sometime and delve into the layers that way. A lot of the detailing you can see in the screenshot won’t be obviously audible unless you use headphones or speakers with a good stereo image. I still have the usual prominent elements which fill a lot of the mix, although I try to keep the kicks a bit more low focused to allow some more space for other things, and the lower than regular techno bpm helps with that too - most things work as trade-offs in music production, I’m sacrificing some bang for some immersion here. I just love getting lost in all the little one-off structures and developing forms. I’ll often set out to make a simpler punchier track but I accidentally e"
+    },
+    {
+      "id": "20260610-173802-227978:instagram:4",
+      "created_at_utc": "2026-06-10T17:38:57.500901+00:00",
+      "run_id": "20260610-173802-227978",
+      "channel": "instagram",
+      "query": "placa de sonido para guitarra",
+      "landing_slug": "placa-sonido-guitarra",
+      "landing_url": "https://blog.pcmidicenter.com/placa-sonido-guitarra/",
+      "source_url": "https://www.instagram.com/p/DADgsL1oB6a/",
+      "source_title": "",
+      "source_context": "I spent a couple of years on and off working on this one. I sometimes worry this sort of detailed toil approach to music could become obsolete with AI techniques but hopefully it will just open more doors for deeper obsessing and structuring. I’m already using a lot of generative techniques to create part jammed part emergent layers of sounds which I edit to give this sort of audio clip structure in the pic. There’s a bunch more midi and automation content hiding which I couldn’t fit, I’ll make a video capture of it sometime and delve into the layers that way. A lot of the detailing you can see in the screenshot won’t be obviously audible unless you use headphones or speakers with a good stereo image. I still have the usual prominent elements which fill a lot of the mix, although I try to keep the kicks a bit more low focused to allow some more space for other things, and the lower than regular techno bpm helps with that too - most things work as trade-offs in music production, I’m sacrificing some bang for some immersion here. I just love getting lost in all the little one-off structures and developing forms. I’ll often set out to make a simpler punchier track but I accidentally e"
+    },
+    {
+      "id": "20260610-173802-227978:instagram:5",
+      "created_at_utc": "2026-06-10T17:39:03.045093+00:00",
+      "run_id": "20260610-173802-227978",
+      "channel": "instagram",
+      "query": "microfono para podcast",
+      "landing_slug": "microfono-para-podcast-usb-o-xlr",
+      "landing_url": "https://blog.pcmidicenter.com/microfono-para-podcast-usb-o-xlr/",
+      "source_url": "https://www.instagram.com/p/DS3IXVpkmh_/",
+      "source_title": "",
+      "source_context": "#flstudio #music #praise4ngell"
+    },
+    {
+      "id": "20260610-173802-227978:instagram:6",
+      "created_at_utc": "2026-06-10T17:39:03.085467+00:00",
+      "run_id": "20260610-173802-227978",
+      "channel": "instagram",
+      "query": "microfono para podcast",
+      "landing_slug": "microfono-para-podcast-usb-o-xlr",
+      "landing_url": "https://blog.pcmidicenter.com/microfono-para-podcast-usb-o-xlr/",
+      "source_url": "https://www.instagram.com/p/DKH7R96snzX/",
+      "source_title": "",
+      "source_context": "Late-night session. Just me, FL Studio & the sound. 🌃 #flstudio #musicproducer #homestudio #studiolife"
+    },
+    {
+      "id": "20260610-173802-227978:linkedin:7",
+      "created_at_utc": "2026-06-10T17:39:15.251567+00:00",
+      "run_id": "20260610-173802-227978",
+      "channel": "linkedin",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.linkedin.com/in/guillermo-coronel/es/",
+      "source_title": "",
+      "source_context": "Guillermo Coronel • 3er+ Desarrollador de instrumentos musicales electrónicos con IA (Arduino + MIDI) | Team Leader CX | Soporte Técnico | RR.PP & Gestión e Innovación Pública 1 día • Seguir"
+    },
+    {
+      "id": "20260610-173802-227978:linkedin:8",
+      "created_at_utc": "2026-06-10T17:39:15.292769+00:00",
+      "run_id": "20260610-173802-227978",
+      "channel": "linkedin",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.linkedin.com/search/results/all/?keywords=%23musictech&origin=HASH_TAG_FROM_FEED",
+      "source_title": "#MusicTech",
+      "source_context": "Publicación en el feed Guillermo Coronel • 3er+ Desarrollador de instrumentos musicales electrónicos con IA (Arduino + MIDI) | Team Leader CX | Soporte Técnico | RR.PP & Gestión e Innovación Pública 1 día • Seguir 📱 CONVERTÍ MI CELULAR EN UN CONTROLADOR MIDI (Inalámbrico y Open Source) Construí mi propio controlador MIDI por software con JavaScript y Electron 🎹✨ Este es uno de los proyectos más divertidos y desafiantes que encaré últimamente desde Sensitive Lab: un entorno MIDI por software inspirado en el clásico diseño del Arturia MiniLab, pero construido completamente con tecnologías web. 🔍 ¿Qué hace este desarrollo? Interfaz Completa de Escritorio: Teclado de 2 octavas con pitch bender y mod wheel integrados. 8 Knobs Asignables: Mapeados directamente a parámetros MIDI esenciales (cutoff, reverb, delay, volumen, etc.). Control Remoto Inalámbrico: Podés usar la pantalla de tu celular vía WiFi para controlar los pads, el piano y los knobs touch en tiempo real, sin cables. Integración Nativa: Se conecta con cualquier DAW del mercado (Reaper, FL Studio, Ableton Live) reconociéndolo como si fuera un controlador de hardware físico. 🛠️ El Stack Tecnológico: ¿Cómo está hecho? Electr"
+    },
+    {
+      "id": "20260610-173802-227978:linkedin:9",
+      "created_at_utc": "2026-06-10T17:39:15.335589+00:00",
+      "run_id": "20260610-173802-227978",
+      "channel": "linkedin",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.linkedin.com/search/results/all/?keywords=%23javascript&origin=HASH_TAG_FROM_FEED",
+      "source_title": "#JavaScript",
+      "source_context": "Publicación en el feed Guillermo Coronel • 3er+ Desarrollador de instrumentos musicales electrónicos con IA (Arduino + MIDI) | Team Leader CX | Soporte Técnico | RR.PP & Gestión e Innovación Pública 1 día • Seguir 📱 CONVERTÍ MI CELULAR EN UN CONTROLADOR MIDI (Inalámbrico y Open Source) Construí mi propio controlador MIDI por software con JavaScript y Electron 🎹✨ Este es uno de los proyectos más divertidos y desafiantes que encaré últimamente desde Sensitive Lab: un entorno MIDI por software inspirado en el clásico diseño del Arturia MiniLab, pero construido completamente con tecnologías web. 🔍 ¿Qué hace este desarrollo? Interfaz Completa de Escritorio: Teclado de 2 octavas con pitch bender y mod wheel integrados. 8 Knobs Asignables: Mapeados directamente a parámetros MIDI esenciales (cutoff, reverb, delay, volumen, etc.). Control Remoto Inalámbrico: Podés usar la pantalla de tu celular vía WiFi para controlar los pads, el piano y los knobs touch en tiempo real, sin cables. Integración Nativa: Se conecta con cualquier DAW del mercado (Reaper, FL Studio, Ableton Live) reconociéndolo como si fuera un controlador de hardware físico. 🛠️ El Stack Tecnológico: ¿Cómo está hecho? Electr"
+    }
+  ]
+}

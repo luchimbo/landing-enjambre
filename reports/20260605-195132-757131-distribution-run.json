@@ -1,0 +1,317 @@
+{
+  "timestamp_utc": "20260605-195132-757131",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260605-194605-347516",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 60,
+  "pieces_blocked": 0,
+  "proposed": [
+    {
+      "slug": "filtro-pop-para-grabar-voz-50",
+      "type": "respuesta_tecnica",
+      "title": "Filtros Pop y Micrófonos para Grabación de Voz"
+    },
+    {
+      "slug": "filtro-pop-para-grabar-voz-50",
+      "type": "post_educativo",
+      "title": "Filtros Pop y Micrófonos para Grabación de Voz"
+    },
+    {
+      "slug": "filtro-pop-para-grabar-voz-50",
+      "type": "snippet_social",
+      "title": "Filtros Pop y Micrófonos para Grabación de Voz"
+    },
+    {
+      "slug": "filtro-pop-para-grabar-voz-50",
+      "type": "post_social",
+      "title": "Filtros Pop: Clave para Grabaciones de Voz Perfectas"
+    },
+    {
+      "slug": "filtro-pop-para-grabar-voz-50",
+      "type": "post_x",
+      "title": "Filtros Pop y Micrófonos para Grabación de Voz"
+    },
+    {
+      "slug": "filtro-pop-para-grabar-voz-50",
+      "type": "respuesta_youtube",
+      "title": "Filtros Pop y Micrófonos para Grabación de Voz"
+    },
+    {
+      "slug": "como-elegir-filtro-pop-para-grabar-voz",
+      "type": "respuesta_tecnica",
+      "title": "Elige el filtro pop perfecto para tus grabaciones de voz"
+    },
+    {
+      "slug": "como-elegir-filtro-pop-para-grabar-voz",
+      "type": "post_educativo",
+      "title": "Elige el filtro pop perfecto para tus grabaciones de voz"
+    },
+    {
+      "slug": "como-elegir-filtro-pop-para-grabar-voz",
+      "type": "snippet_social",
+      "title": "Elige el filtro pop perfecto para tus grabaciones de voz"
+    },
+    {
+      "slug": "como-elegir-filtro-pop-para-grabar-voz",
+      "type": "post_social",
+      "title": "Elige el filtro pop perfecto para tus grabaciones de voz"
+    },
+    {
+      "slug": "como-elegir-filtro-pop-para-grabar-voz",
+      "type": "post_x",
+      "title": "Elige el filtro pop perfecto para tus grabaciones de voz"
+    },
+    {
+      "slug": "como-elegir-filtro-pop-para-grabar-voz",
+      "type": "respuesta_youtube",
+      "title": "Elige el filtro pop perfecto para tus grabaciones de voz"
+    },
+    {
+      "slug": "setup-filtro-pop-grabar-voz",
+      "type": "respuesta_tecnica",
+      "title": "Arma tu Setup con Filtro Pop para Grabaciones de Voz"
+    },
+    {
+      "slug": "setup-filtro-pop-grabar-voz",
+      "type": "post_educativo",
+      "title": "Arma tu Setup con Filtro Pop para Grabaciones de Voz"
+    },
+    {
+      "slug": "setup-filtro-pop-grabar-voz",
+      "type": "snippet_social",
+      "title": "Arma tu Setup con Filtro Pop para Grabaciones de Voz"
+    },
+    {
+      "slug": "setup-filtro-pop-grabar-voz",
+      "type": "post_social",
+      "title": "Arma tu Setup con Filtro Pop para Grabaciones de Voz"
+    },
+    {
+      "slug": "setup-filtro-pop-grabar-voz",
+      "type": "post_x",
+      "title": "Arma tu Setup con Filtro Pop para Grabaciones de Voz"
+    },
+    {
+      "slug": "setup-filtro-pop-grabar-voz",
+      "type": "respuesta_youtube",
+      "title": "Arma tu Setup con Filtro Pop para Grabaciones de Voz"
+    },
+    {
+      "slug": "filtro-pop-para-grabar-voz-principiantes",
+      "type": "respuesta_tecnica",
+      "title": "Mejorá tus Grabaciones de Voz con un Filtro Pop"
+    },
+    {
+      "slug": "filtro-pop-para-grabar-voz-principiantes",
+      "type": "post_educativo",
+      "title": "Mejorá tus Grabaciones de Voz con un Filtro Pop"
+    },
+    {
+      "slug": "filtro-pop-para-grabar-voz-principiantes",
+      "type": "snippet_social",
+      "title": "Mejorá tus Grabaciones de Voz con un Filtro Pop"
+    },
+    {
+      "slug": "filtro-pop-para-grabar-voz-principiantes",
+      "type": "post_social",
+      "title": "Mejorá tus Grabaciones de Voz con un Filtro Pop"
+    },
+    {
+      "slug": "filtro-pop-para-grabar-voz-principiantes",
+      "type": "post_x",
+      "title": "Mejorá tus Grabaciones de Voz con un Filtro Pop"
+    },
+    {
+      "slug": "filtro-pop-para-grabar-voz-principiantes",
+      "type": "respuesta_youtube",
+      "title": "Mejorá tus Grabaciones de Voz con un Filtro Pop"
+    },
+    {
+      "slug": "filtro-pop-para-grabar-voz-streaming",
+      "type": "respuesta_tecnica",
+      "title": "Mejora tu Grabación de Voz con un Filtro Pop"
+    },
+    {
+      "slug": "filtro-pop-para-grabar-voz-streaming",
+      "type": "post_educativo",
+      "title": "Mejora tu Grabación de Voz con un Filtro Pop"
+    },
+    {
+      "slug": "filtro-pop-para-grabar-voz-streaming",
+      "type": "snippet_social",
+      "title": "Mejora tu Grabación de Voz con un Filtro Pop"
+    },
+    {
+      "slug": "filtro-pop-para-grabar-voz-streaming",
+      "type": "post_social",
+      "title": "Mejora tu Grabación de Voz con un Filtro Pop"
+    },
+    {
+      "slug": "filtro-pop-para-grabar-voz-streaming",
+      "type": "post_x",
+      "title": "Mejora tu Grabación de Voz con un Filtro Pop"
+    },
+    {
+      "slug": "filtro-pop-para-grabar-voz-streaming",
+      "type": "respuesta_youtube",
+      "title": "Mejora tu Grabación de Voz con un Filtro Pop"
+    },
+    {
+      "slug": "filtro-pop-para-grabar-voz-en-casa",
+      "type": "respuesta_tecnica",
+      "title": "Mejorá tus Grabaciones de Voz en Casa con Filtros Pop"
+    },
+    {
+      "slug": "filtro-pop-para-grabar-voz-en-casa",
+      "type": "post_educativo",
+      "title": "Mejorá tus Grabaciones de Voz en Casa con Filtros Pop"
+    },
+    {
+      "slug": "filtro-pop-para-grabar-voz-en-casa",
+      "type": "snippet_social",
+      "title": "Mejorá tus Grabaciones de Voz en Casa con Filtros Pop"
+    },
+    {
+      "slug": "filtro-pop-para-grabar-voz-en-casa",
+      "type": "post_social",
+      "title": "Mejorá tus Grabaciones de Voz en Casa con Filtros Pop"
+    },
+    {
+      "slug": "filtro-pop-para-grabar-voz-en-casa",
+      "type": "post_x",
+      "title": "Mejorá tus Grabaciones de Voz en Casa con Filtros Pop"
+    },
+    {
+      "slug": "filtro-pop-para-grabar-voz-en-casa",
+      "type": "respuesta_youtube",
+      "title": "Mejorá tus Grabaciones de Voz en Casa con Filtros Pop"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast-17",
+      "type": "respuesta_tecnica",
+      "title": "Los mejores auriculares para grabar tu podcast"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast-17",
+      "type": "post_educativo",
+      "title": "Los mejores auriculares para grabar tu podcast"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast-17",
+      "type": "snippet_social",
+      "title": "Los mejores auriculares para grabar tu podcast"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast-17",
+      "type": "post_social",
+      "title": "Los mejores auriculares para grabar tu podcast"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast-17",
+      "type": "post_x",
+      "title": "Los mejores auriculares para grabar tu podcast"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast-17",
+      "type": "respuesta_youtube",
+      "title": "Los mejores auriculares para grabar tu podcast"
+    },
+    {
+      "slug": "como-elegir-auriculares-para-grabar-podcast",
+      "type": "respuesta_tecnica",
+      "title": "Cómo elegir auriculares para grabar tu podcast"
+    },
+    {
+      "slug": "como-elegir-auriculares-para-grabar-podcast",
+      "type": "post_educativo",
+      "title": "Cómo elegir auriculares para grabar tu podcast"
+    },
+    {
+      "slug": "como-elegir-auriculares-para-grabar-podcast",
+      "type": "snippet_social",
+      "title": "Cómo elegir auriculares para grabar tu podcast"
+    },
+    {
+      "slug": "como-elegir-auriculares-para-grabar-podcast",
+      "type": "post_social",
+      "title": "Cómo elegir auriculares para grabar tu podcast"
+    },
+    {
+      "slug": "como-elegir-auriculares-para-grabar-podcast",
+      "type": "post_x",
+      "title": "Cómo elegir auriculares para grabar tu podcast"
+    },
+    {
+      "slug": "como-elegir-auriculares-para-grabar-podcast",
+      "type": "respuesta_youtube",
+      "title": "Cómo elegir auriculares para grabar tu podcast"
+    },
+    {
+      "slug": "setup-auriculares-grabar-podcast",
+      "type": "respuesta_tecnica",
+      "title": "Crea el Setup Perfecto para Grabar Tu Podcast"
+    },
+    {
+      "slug": "setup-auriculares-grabar-podcast",
+      "type": "post_educativo",
+      "title": "Crea el Setup Perfecto para Grabar Tu Podcast"
+    },
+    {
+      "slug": "setup-auriculares-grabar-podcast",
+      "type": "snippet_social",
+      "title": "Crea el Setup Perfecto para Grabar Tu Podcast"
+    },
+    {
+      "slug": "setup-auriculares-grabar-podcast",
+      "type": "post_social",
+      "title": "Crea el Setup Perfecto para Grabar Tu Podcast"
+    },
+    {
+      "slug": "setup-auriculares-grabar-podcast",
+      "type": "post_x",
+      "title": "Crea el Setup Perfecto para Grabar Tu Podcast"
+    },
+    {
+      "slug": "setup-auriculares-grabar-podcast",
+      "type": "respuesta_youtube",
+      "title": "Crea el Setup Perfecto para Grabar Tu Podcast"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast-principiantes",
+      "type": "respuesta_tecnica",
+      "title": "Auriculares Cerrados para Grabar tu Podcast: Guía para Principiantes"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast-principiantes",
+      "type": "post_educativo",
+      "title": "Auriculares Cerrados para Grabar tu Podcast: Guía para Principiantes"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast-principiantes",
+      "type": "snippet_social",
+      "title": "Auriculares Cerrados para Grabar tu Podcast"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast-principiantes",
+      "type": "post_social",
+      "title": "Auriculares Cerrados para Grabar tu Podcast: ¡Elige Bien!"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast-principiantes",
+      "type": "post_x",
+      "title": "Auriculares Cerrados para Grabar tu Podcast"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast-principiantes",
+      "type": "respuesta_youtube",
+      "title": "Auriculares Cerrados para Grabar tu Podcast: Lo que Debes Saber"
+    }
+  ],
+  "blocked": [],
+  "elapsed_seconds": 327.41
+}

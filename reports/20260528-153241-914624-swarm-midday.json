@@ -1,0 +1,100 @@
+{
+  "timestamp_utc": "20260528-153241-914624",
+  "command": "midday",
+  "status": "ok",
+  "dry_run": false,
+  "steps": [
+    {
+      "step": "discover",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\build_landings.py",
+        "discover",
+        "--limit",
+        "30"
+      ],
+      "started_utc": "20260528-153001-223436",
+      "finished_utc": "20260528-153029-946768",
+      "returncode": 0,
+      "status": "ok"
+    },
+    {
+      "step": "distribution-generate",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\agente_distribucion.py",
+        "generate",
+        "--limit",
+        "5"
+      ],
+      "started_utc": "20260528-153029-946922",
+      "finished_utc": "20260528-153233-014448",
+      "returncode": 0,
+      "status": "ok"
+    },
+    {
+      "step": "distribution-approve",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\agente_distribucion.py",
+        "approve",
+        "--limit",
+        "5"
+      ],
+      "started_utc": "20260528-153233-014559",
+      "finished_utc": "20260528-153233-144360",
+      "returncode": 0,
+      "status": "ok"
+    },
+    {
+      "step": "search-threads",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\agente_publicacion.py",
+        "search",
+        "--channel",
+        "reddit-public",
+        "--limit",
+        "5"
+      ],
+      "started_utc": "20260528-153233-144472",
+      "finished_utc": "20260528-153241-603193",
+      "returncode": 0,
+      "status": "ok"
+    },
+    {
+      "step": "publish",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\agente_publicacion.py",
+        "publish",
+        "--limit",
+        "5",
+        "--channel",
+        "reddit-public"
+      ],
+      "started_utc": "20260528-153241-603302",
+      "finished_utc": "20260528-153241-724109",
+      "returncode": 0,
+      "status": "ok"
+    },
+    {
+      "step": "auto-distribution",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\agente_browser_cdp.py",
+        "auto-distribution",
+        "--channels",
+        "facebook,instagram,youtube,x",
+        "--limit",
+        "8",
+        "--per-channel",
+        "1"
+      ],
+      "started_utc": "20260528-153241-724239",
+      "finished_utc": "20260528-153241-914394",
+      "returncode": 0,
+      "status": "ok"
+    }
+  ]
+}

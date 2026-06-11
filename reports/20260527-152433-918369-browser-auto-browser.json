@@ -1,0 +1,143 @@
+{
+  "timestamp_utc": "20260527-152433-918369",
+  "command": "auto-browser",
+  "task_path": "D:\\AgentesGuille\\data\\auto_browser_login_check_social.json",
+  "task_hash": "d97cd80c7cacaa6aba487042596a229a53724adf19413f20bda98b8cd95b6487",
+  "dry_run": false,
+  "actions": 12,
+  "results": [
+    {
+      "index": 1,
+      "type": "navigate",
+      "result": {
+        "ok": true,
+        "url": "https://www.reddit.com/"
+      }
+    },
+    {
+      "index": 2,
+      "type": "eval",
+      "result": {
+        "ok": true,
+        "value": {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/",
+          "title": "Reddit - el corazón de la conversación",
+          "hasLogin": false,
+          "hasUserSignal": true
+        }
+      }
+    },
+    {
+      "index": 3,
+      "type": "navigate",
+      "result": {
+        "ok": true,
+        "url": "https://www.youtube.com/"
+      }
+    },
+    {
+      "index": 4,
+      "type": "eval",
+      "result": {
+        "ok": true,
+        "value": {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/",
+          "title": "YouTube",
+          "hasLogin": false,
+          "hasUserSignal": true
+        }
+      }
+    },
+    {
+      "index": 5,
+      "type": "navigate",
+      "result": {
+        "ok": true,
+        "url": "https://www.linkedin.com/feed/"
+      }
+    },
+    {
+      "index": 6,
+      "type": "eval",
+      "result": {
+        "ok": true,
+        "value": {
+          "platform": "linkedin",
+          "url": "https://www.linkedin.com/feed/",
+          "title": "Feed | LinkedIn",
+          "hasLogin": false,
+          "hasUserSignal": false
+        }
+      }
+    },
+    {
+      "index": 7,
+      "type": "navigate",
+      "result": {
+        "ok": true,
+        "url": "https://www.facebook.com/"
+      }
+    },
+    {
+      "index": 8,
+      "type": "eval",
+      "result": {
+        "ok": true,
+        "value": {
+          "platform": "facebook",
+          "url": "https://www.facebook.com/",
+          "title": "Facebook",
+          "hasLogin": false,
+          "hasUserSignal": true
+        }
+      }
+    },
+    {
+      "index": 9,
+      "type": "navigate",
+      "result": {
+        "ok": true,
+        "url": "https://www.instagram.com/"
+      }
+    },
+    {
+      "index": 10,
+      "type": "eval",
+      "result": {
+        "ok": true,
+        "value": {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/",
+          "title": "Instagram",
+          "hasLogin": false,
+          "hasUserSignal": true
+        }
+      }
+    },
+    {
+      "index": 11,
+      "type": "navigate",
+      "result": {
+        "ok": true,
+        "url": "https://x.com/home"
+      }
+    },
+    {
+      "index": 12,
+      "type": "eval",
+      "result": {
+        "ok": true,
+        "value": {
+          "platform": "x",
+          "url": "https://x.com/home",
+          "title": "(1) Home / X",
+          "hasLogin": false,
+          "hasUserSignal": true
+        }
+      }
+    }
+  ],
+  "extracts": {}
+}

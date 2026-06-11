@@ -1,0 +1,342 @@
+{
+  "timestamp_utc": "20260604-150325-626327",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260604-145713-432180",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 48,
+  "pieces_blocked": 12,
+  "proposed": [
+    {
+      "slug": "controlador-midi-fl-studio-setup-portable",
+      "type": "respuesta_tecnica",
+      "title": "Controladores MIDI para FL Studio: Opciones para un Setup Portable"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-setup-portable",
+      "type": "post_x",
+      "title": "Controladores MIDI para FL Studio: Tu Setup Portable Ideal"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-sin-complicaciones",
+      "type": "snippet_social",
+      "title": "Controladores MIDI para FL Studio: Simplificá Tu Producción"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-sin-complicaciones",
+      "type": "post_social",
+      "title": "Controladores MIDI para FL Studio: Simplificá Tu Producción"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-sin-complicaciones",
+      "type": "post_x",
+      "title": "Controladores MIDI para FL Studio: Simplificá Tu Producción"
+    },
+    {
+      "slug": "controlador-midi-ableton-samples",
+      "type": "respuesta_tecnica",
+      "title": "Controladores MIDI para Ableton: Dispara Samples con Facilidad"
+    },
+    {
+      "slug": "controlador-midi-ableton-samples",
+      "type": "post_educativo",
+      "title": "Controladores MIDI para Ableton: Dispara Samples con Facilidad"
+    },
+    {
+      "slug": "controlador-midi-ableton-samples",
+      "type": "snippet_social",
+      "title": "Controladores MIDI para Ableton: Dispara Samples con Facilidad"
+    },
+    {
+      "slug": "controlador-midi-ableton-samples",
+      "type": "post_social",
+      "title": "Controladores MIDI para Ableton: Dispara Samples con Facilidad"
+    },
+    {
+      "slug": "controlador-midi-ableton-samples",
+      "type": "post_x",
+      "title": "Controladores MIDI para Ableton: Dispara Samples con Facilidad"
+    },
+    {
+      "slug": "controlador-midi-ableton-samples",
+      "type": "respuesta_youtube",
+      "title": "Controladores MIDI para Disparar Samples en Ableton"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-portable",
+      "type": "respuesta_tecnica",
+      "title": "Interfaces de audio para grabar voz en casa"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-portable",
+      "type": "snippet_social",
+      "title": "Interfaces de audio para grabar voz en casa"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-portable",
+      "type": "post_social",
+      "title": "Elige la mejor interfaz de audio para grabar voz en casa 🎤"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-portable",
+      "type": "post_x",
+      "title": "Interfaces de audio para grabar voz en casa"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-portable",
+      "type": "respuesta_youtube",
+      "title": "Guía para elegir una interfaz de audio para grabar voz en casa"
+    },
+    {
+      "slug": "interfaz-de-audio-para-grabar-voz-en-casa-7",
+      "type": "respuesta_tecnica",
+      "title": "Mejorá tu grabación de voz en casa con la interfaz adecuada"
+    },
+    {
+      "slug": "interfaz-de-audio-para-grabar-voz-en-casa-7",
+      "type": "post_educativo",
+      "title": "Mejorá tu grabación de voz en casa con la interfaz adecuada"
+    },
+    {
+      "slug": "interfaz-de-audio-para-grabar-voz-en-casa-7",
+      "type": "snippet_social",
+      "title": "Mejorá tu grabación de voz en casa con la interfaz adecuada"
+    },
+    {
+      "slug": "interfaz-de-audio-para-grabar-voz-en-casa-7",
+      "type": "post_social",
+      "title": "Mejorá tus grabaciones de voz en casa fácilmente"
+    },
+    {
+      "slug": "interfaz-de-audio-para-grabar-voz-en-casa-7",
+      "type": "post_x",
+      "title": "Mejorá tus grabaciones de voz en casa con la interfaz adecuada"
+    },
+    {
+      "slug": "interfaz-de-audio-para-grabar-voz-en-casa-7",
+      "type": "respuesta_youtube",
+      "title": "Mejorá tus grabaciones de voz en casa con la interfaz adecuada"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-casa-8",
+      "type": "post_educativo",
+      "title": "La Mejor Interfaz de Audio para Grabar Voces en Casa"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-casa-8",
+      "type": "post_x",
+      "title": "La Mejor Interfaz de Audio para Grabar Voces en Casa"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-guitarra",
+      "type": "respuesta_tecnica",
+      "title": "Interfaces de audio para grabar voz y guitarra en casa"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-guitarra",
+      "type": "post_educativo",
+      "title": "Interfaces de audio para grabar voz y guitarra en casa"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-guitarra",
+      "type": "snippet_social",
+      "title": "Interfaces de audio para grabar voz y guitarra en casa"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-guitarra",
+      "type": "post_social",
+      "title": "Interfaces de audio para grabar voz y guitarra en casa"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-guitarra",
+      "type": "post_x",
+      "title": "Interfaces de audio para grabar voz y guitarra en casa"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-guitarra",
+      "type": "respuesta_youtube",
+      "title": "Interfaces de audio para grabar voz y guitarra en casa"
+    },
+    {
+      "slug": "placa-sonido-guitarra-monitores",
+      "type": "respuesta_tecnica",
+      "title": "Placas de Sonido para Guitarra y Monitores: Guía Técnica"
+    },
+    {
+      "slug": "placa-sonido-guitarra-monitores",
+      "type": "post_educativo",
+      "title": "Placas de Sonido para Guitarra y Monitores: Guía para Elegir"
+    },
+    {
+      "slug": "placa-sonido-guitarra-monitores",
+      "type": "snippet_social",
+      "title": "Placas de Sonido para Guitarra y Monitores: Guía Práctica"
+    },
+    {
+      "slug": "placa-sonido-guitarra-monitores",
+      "type": "post_social",
+      "title": "Placas de Sonido para Guitarra y Monitores: ¿Cuál Elegir?"
+    },
+    {
+      "slug": "placa-sonido-guitarra-monitores",
+      "type": "post_x",
+      "title": "Placas de Sonido para Guitarra y Monitores"
+    },
+    {
+      "slug": "placa-sonido-guitarra-monitores",
+      "type": "respuesta_youtube",
+      "title": "Placas de Sonido para Guitarra y Monitores: Guía Esencial"
+    },
+    {
+      "slug": "microfono-para-podcast-departamento-usb-o-xlr",
+      "type": "respuesta_tecnica",
+      "title": "Elige el micrófono ideal para tu podcast en casa"
+    },
+    {
+      "slug": "microfono-para-podcast-departamento-usb-o-xlr",
+      "type": "post_educativo",
+      "title": "Elige el micrófono ideal para tu podcast en casa"
+    },
+    {
+      "slug": "microfono-para-podcast-departamento-usb-o-xlr",
+      "type": "snippet_social",
+      "title": "Elige el micrófono ideal para tu podcast en casa"
+    },
+    {
+      "slug": "microfono-para-podcast-departamento-usb-o-xlr",
+      "type": "post_social",
+      "title": "Elige el micrófono ideal para tu podcast en casa"
+    },
+    {
+      "slug": "microfono-para-podcast-departamento-usb-o-xlr",
+      "type": "post_x",
+      "title": "Elige el micrófono ideal para tu podcast en casa"
+    },
+    {
+      "slug": "microfono-para-podcast-departamento-usb-o-xlr",
+      "type": "respuesta_youtube",
+      "title": "Elige el micrófono ideal para tu podcast en casa"
+    },
+    {
+      "slug": "microfono-para-podcast-clases-online-usb-o-xlr",
+      "type": "respuesta_tecnica",
+      "title": "Elige el Mejor Micrófono para Clases Online y Podcast"
+    },
+    {
+      "slug": "microfono-para-podcast-clases-online-usb-o-xlr",
+      "type": "post_educativo",
+      "title": "Elige el Mejor Micrófono para Tus Clases Online y Podcast"
+    },
+    {
+      "slug": "microfono-para-podcast-clases-online-usb-o-xlr",
+      "type": "snippet_social",
+      "title": "Elige el Mejor Micrófono para Tus Clases Online y Podcast"
+    },
+    {
+      "slug": "microfono-para-podcast-clases-online-usb-o-xlr",
+      "type": "post_social",
+      "title": "Elige el Mejor Micrófono para Clases Online y Podcast"
+    },
+    {
+      "slug": "microfono-para-podcast-clases-online-usb-o-xlr",
+      "type": "post_x",
+      "title": "Elige el Mejor Micrófono para Clases Online y Podcast"
+    },
+    {
+      "slug": "microfono-para-podcast-clases-online-usb-o-xlr",
+      "type": "respuesta_youtube",
+      "title": "Elige el Mejor Micrófono para Clases Online y Podcast"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "controlador-midi-fl-studio-setup-portable",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-fl-studio-setup-portable",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-fl-studio-setup-portable",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-fl-studio-setup-portable",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-fl-studio-sin-complicaciones",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-fl-studio-sin-complicaciones",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-fl-studio-sin-complicaciones",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-portable",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-casa-8",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-casa-8",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-casa-8",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-casa-8",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 372.19
+}

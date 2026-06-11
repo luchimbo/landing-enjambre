@@ -1,0 +1,47 @@
+{
+  "timestamp_utc": "20260528-201007-378124",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260528-200945-323081",
+  "dry_run": true,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 1,
+  "pieces_proposed": 6,
+  "pieces_blocked": 0,
+  "proposed": [
+    {
+      "slug": "comparar-microfono-usb-alctron-um900-streaming",
+      "type": "respuesta_tecnica",
+      "title": "Elegí el micrófono USB perfecto para tu streaming"
+    },
+    {
+      "slug": "comparar-microfono-usb-alctron-um900-streaming",
+      "type": "post_educativo",
+      "title": "Elegí el micrófono USB perfecto para tu streaming"
+    },
+    {
+      "slug": "comparar-microfono-usb-alctron-um900-streaming",
+      "type": "snippet_social",
+      "title": "Elegí el micrófono USB perfecto para tu streaming"
+    },
+    {
+      "slug": "comparar-microfono-usb-alctron-um900-streaming",
+      "type": "post_social",
+      "title": "Elegí el micrófono USB perfecto para tu streaming"
+    },
+    {
+      "slug": "comparar-microfono-usb-alctron-um900-streaming",
+      "type": "post_x",
+      "title": "Elegí el micrófono USB perfecto para tu streaming"
+    },
+    {
+      "slug": "comparar-microfono-usb-alctron-um900-streaming",
+      "type": "respuesta_youtube",
+      "title": "Elegí el micrófono USB perfecto para tu streaming"
+    }
+  ],
+  "blocked": [],
+  "elapsed_seconds": 22.05
+}

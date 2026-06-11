@@ -1,0 +1,263 @@
+{
+  "timestamp_utc": "20260604-150704-903036",
+  "command": "auto-distribution",
+  "channels": [
+    "facebook",
+    "instagram",
+    "x",
+    "youtube"
+  ],
+  "unsupported_channels": [],
+  "limit": 25,
+  "per_channel": 2,
+  "dry_run": false,
+  "allow_proposed": false,
+  "published_or_attempted": 4,
+  "blocked_seen": 172,
+  "results": [
+    {
+      "id": "20260604-150343-459503:youtube:auto-listen:1",
+      "channel": "youtube",
+      "slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "result": {
+        "ok": false,
+        "url": "https://www.youtube.com/watch?v=9GqOBgasFEA",
+        "dismissed": [
+          {
+            "ok": true,
+            "label": "subtitles/closed captions unavailable"
+          }
+        ],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "añade un comentario",
+            "add a comment"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comentar"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "selector_only",
+          "error": "like de YouTube no encontrado sin usar texto ambiguo"
+        }
+      }
+    },
+    {
+      "id": "20260604-150343-459503:youtube:auto-listen:0",
+      "channel": "youtube",
+      "slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "result": {
+        "ok": false,
+        "url": "https://www.youtube.com/watch?v=9GqOBgasFEA&t=91s&pp=ygUpaW50ZXJmYXogZGUgYXVkaW8gcGFyYSBncmFiYXIgdm96IGVuIGNhc2E%3D",
+        "dismissed": [
+          {
+            "ok": true,
+            "label": "subtitles/closed captions unavailable"
+          }
+        ],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "añade un comentario",
+            "add a comment"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comentar"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "selector_only",
+          "error": "like de YouTube no encontrado sin usar texto ambiguo"
+        }
+      }
+    },
+    {
+      "id": "20260530-153802-398556:instagram:auto-listen:1",
+      "channel": "instagram",
+      "slug": "controlador-midi-para-ableton-comparativa",
+      "result": {
+        "ok": true,
+        "url": "https://www.instagram.com/p/DADgsL1oB6a/",
+        "dismissed": [],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "instagram_comment_selector",
+              "ok": true,
+              "prep": {
+                "ok": true,
+                "tries": 1,
+                "tag": "TEXTAREA"
+              },
+              "open": {
+                "ok": true,
+                "selector": "textarea[aria-label*=\"comentario\"]"
+              },
+              "fill": {
+                "ok": true,
+                "selector": "textarea",
+                "length": 157
+              },
+              "submit": {
+                "ok": true,
+                "label": "publicar"
+              },
+              "keyboard_submit": {
+                "ok": false,
+                "skipped": true
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260530-153802-398556:instagram:auto-listen:0",
+      "channel": "instagram",
+      "slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "result": {
+        "ok": true,
+        "url": "https://www.instagram.com/p/DKlslFwsis_/",
+        "dismissed": [],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "instagram_comment_selector",
+              "ok": true,
+              "prep": {
+                "ok": true,
+                "tries": 1,
+                "tag": "TEXTAREA"
+              },
+              "open": {
+                "ok": true,
+                "selector": "textarea[aria-label*=\"comentario\"]"
+              },
+              "fill": {
+                "ok": true,
+                "selector": "textarea",
+                "length": 144
+              },
+              "submit": {
+                "ok": true,
+                "label": "publicar"
+              },
+              "keyboard_submit": {
+                "ok": false,
+                "skipped": true
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "blocked_sample": [
+    {
+      "id": "20260604-142222-368702:controlador-midi-fl-studio-notebook:post_social:facebook:1780583170828",
+      "channel": "facebook",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260604-142222-368702:controlador-midi-fl-studio-notebook:snippet_social:social:1780583166367",
+      "channel": "facebook",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260604-142222-368702:controlador-midi-fl-studio-notebook:snippet_social:social:1780583166367",
+      "channel": "x",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260604-131101-982091:monitores-para-mezclar-en-cuarto-chico-29:post_x:x:1780578861804",
+      "channel": "x",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260604-131101-982091:monitores-para-mezclar-en-cuarto-chico-29:snippet_social:social:1780578854645",
+      "channel": "facebook",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260604-131101-982091:monitores-para-mezclar-en-cuarto-chico-29:snippet_social:social:1780578854645",
+      "channel": "x",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260604-124644-551219:comparar-monitores-estudio-home-studio-chico:snippet_social:social:1780577233723",
+      "channel": "facebook",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260604-124644-551219:comparar-monitores-estudio-home-studio-chico:snippet_social:social:1780577233723",
+      "channel": "x",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260604-124644-551219:audio-technica-ath-m50x-monitoreo-home-studio:post_x:x:1780577378551",
+      "channel": "x",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260604-123801-759473:youtube:auto-listen:12",
+      "channel": "youtube",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    }
+  ]
+}

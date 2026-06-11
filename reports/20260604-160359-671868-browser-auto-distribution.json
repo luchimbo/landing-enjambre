@@ -1,0 +1,354 @@
+{
+  "timestamp_utc": "20260604-160359-671868",
+  "command": "auto-distribution",
+  "channels": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "reddit",
+    "x",
+    "youtube"
+  ],
+  "unsupported_channels": [],
+  "limit": 18,
+  "per_channel": 3,
+  "dry_run": false,
+  "allow_proposed": false,
+  "published_or_attempted": 6,
+  "blocked_seen": 608,
+  "results": [
+    {
+      "id": "20260604-155738-156952:youtube:auto-listen:22",
+      "channel": "youtube",
+      "slug": "microfono-para-streaming",
+      "result": {
+        "ok": false,
+        "url": "https://www.youtube.com/watch?v=ogMhdfwv0Eo&pp=ygUYbWljcm9mb25vIHBhcmEgc3RyZWFtaW5n",
+        "dismissed": [
+          {
+            "ok": true,
+            "label": "subtitles/closed captions unavailable"
+          }
+        ],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "añade un comentario",
+            "add a comment"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comentar"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "selector_only",
+          "error": "like de YouTube no encontrado sin usar texto ambiguo"
+        }
+      }
+    },
+    {
+      "id": "20260604-155738-156952:youtube:auto-listen:21",
+      "channel": "youtube",
+      "slug": "microfono-para-podcast-usb-o-xlr",
+      "result": {
+        "ok": false,
+        "url": "https://www.youtube.com/watch?v=hWvzhnLquhg",
+        "dismissed": [
+          {
+            "ok": true,
+            "label": "subtitles/closed captions unavailable"
+          }
+        ],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "añade un comentario",
+            "add a comment"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comentar"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "selector_only",
+          "error": "like de YouTube no encontrado sin usar texto ambiguo"
+        }
+      }
+    },
+    {
+      "id": "20260604-155738-156952:youtube:auto-listen:20",
+      "channel": "youtube",
+      "slug": "microfono-para-podcast-usb-o-xlr",
+      "result": {
+        "ok": false,
+        "url": "https://www.youtube.com/watch?v=hWvzhnLquhg&pp=ygUWbWljcm9mb25vIHBhcmEgcG9kY2FzdA%3D%3D",
+        "dismissed": [
+          {
+            "ok": true,
+            "label": "subtitles/closed captions unavailable"
+          }
+        ],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "añade un comentario",
+            "add a comment"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comentar"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "selector_only",
+          "error": "like de YouTube no encontrado sin usar texto ambiguo"
+        }
+      }
+    },
+    {
+      "id": "20260604-155738-156952:reddit:auto-listen:12",
+      "channel": "reddit",
+      "slug": "controlador-midi-para-fl-studio",
+      "result": {
+        "ok": false,
+        "url": "https://www.reddit.com/r/Berserk/comments/1twrqt6/a_little_toonamiadult_swim_drum_and_bass_bump_i/",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "añadir un comentario",
+            "add a comment"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comentar",
+            "comment",
+            "reply"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260604-155129-037762:sintetizador-para-aprender-sintesis-home-studio-10:respuesta_tecnica:reddit:1780588508165",
+      "channel": "reddit",
+      "slug": "sintetizador-para-aprender-sintesis-home-studio-10",
+      "result": {
+        "ok": false,
+        "url": "https://www.reddit.com/",
+        "dismissed": [
+          {
+            "ok": true,
+            "label": "reaper box very close to completion"
+          }
+        ],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "añadir un comentario",
+            "add a comment"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comentar",
+            "comment",
+            "reply"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260604-155129-037762:monitores-estudio-home-studio-chico-27:respuesta_tecnica:reddit:1780588327526",
+      "channel": "reddit",
+      "slug": "monitores-estudio-home-studio-chico-27",
+      "result": {
+        "ok": false,
+        "url": "https://www.reddit.com/",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "añadir un comentario",
+            "add a comment"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comentar",
+            "comment",
+            "reply"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    }
+  ],
+  "blocked_sample": [
+    {
+      "id": "20260604-155738-156952:youtube:auto-listen:16",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260604-155738-156952:linkedin:auto-listen:7",
+      "channel": "linkedin",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260604-155738-156952:linkedin:auto-listen:6",
+      "channel": "linkedin",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260604-155738-156952:linkedin:auto-listen:5",
+      "channel": "linkedin",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260604-155738-156952:linkedin:auto-listen:3",
+      "channel": "linkedin",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260604-155738-156952:linkedin:auto-listen:2",
+      "channel": "linkedin",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260604-155738-156952:instagram:auto-listen:1",
+      "channel": "instagram",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260604-155738-156952:instagram:auto-listen:0",
+      "channel": "instagram",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260604-155129-037762:bateria-electronica-departamento-home-studio:respuesta_youtube:youtube:1780588551997",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260604-155129-037762:bateria-electronica-departamento-home-studio:respuesta_tecnica:reddit:1780588530216",
+      "channel": "reddit",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    }
+  ]
+}

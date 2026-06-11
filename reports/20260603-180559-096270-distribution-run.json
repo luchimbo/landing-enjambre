@@ -1,0 +1,324 @@
+{
+  "timestamp_utc": "20260603-180559-096270",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260603-180053-870315",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 57,
+  "pieces_blocked": 3,
+  "proposed": [
+    {
+      "slug": "como-elegir-midiplus-ms6-para-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Cómo elegir los monitores Midiplus MS6 para tu home studio"
+    },
+    {
+      "slug": "como-elegir-midiplus-ms6-para-home-studio",
+      "type": "post_educativo",
+      "title": "Elige los monitores Midiplus MS6 para tu home studio"
+    },
+    {
+      "slug": "como-elegir-midiplus-ms6-para-home-studio",
+      "type": "snippet_social",
+      "title": "Elige los monitores Midiplus MS6 para tu home studio"
+    },
+    {
+      "slug": "como-elegir-midiplus-ms6-para-home-studio",
+      "type": "post_social",
+      "title": "Elige los monitores Midiplus MS6 para tu home studio"
+    },
+    {
+      "slug": "como-elegir-midiplus-ms6-para-home-studio",
+      "type": "post_x",
+      "title": "Elige los monitores Midiplus MS6 para tu home studio"
+    },
+    {
+      "slug": "como-elegir-midiplus-ms6-para-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Cómo elegir los monitores Midiplus MS6 para tu home studio"
+    },
+    {
+      "slug": "setup-con-midiplus-ms6-para-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Crea el mejor setup con los monitores Midiplus MS6"
+    },
+    {
+      "slug": "setup-con-midiplus-ms6-para-home-studio",
+      "type": "post_educativo",
+      "title": "Crea el mejor setup con los monitores Midiplus MS6"
+    },
+    {
+      "slug": "setup-con-midiplus-ms6-para-home-studio",
+      "type": "snippet_social",
+      "title": "Crea el mejor setup con los monitores Midiplus MS6"
+    },
+    {
+      "slug": "setup-con-midiplus-ms6-para-home-studio",
+      "type": "post_social",
+      "title": "Crea el mejor setup con los monitores Midiplus MS6 🎶"
+    },
+    {
+      "slug": "setup-con-midiplus-ms6-para-home-studio",
+      "type": "post_x",
+      "title": "Crea el mejor setup con los monitores Midiplus MS6"
+    },
+    {
+      "slug": "setup-con-midiplus-ms6-para-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Crea el mejor setup con los monitores Midiplus MS6"
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-principiantes",
+      "type": "respuesta_tecnica",
+      "title": "Monitores Midiplus MS6: Tu aliado en el home studio"
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-principiantes",
+      "type": "post_educativo",
+      "title": "Monitores Midiplus MS6: Tu aliado en el home studio"
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-principiantes",
+      "type": "snippet_social",
+      "title": "Monitores Midiplus MS6: Tu aliado en el home studio"
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-principiantes",
+      "type": "post_social",
+      "title": "Monitores Midiplus MS6: Tu aliado en el home studio"
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-principiantes",
+      "type": "post_x",
+      "title": "Monitores Midiplus MS6: Tu aliado en el home studio"
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-principiantes",
+      "type": "respuesta_youtube",
+      "title": "Monitores Midiplus MS6: Ideal para tu Home Studio"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "La Batería Electrónica MIDIPLUS ED6 para tu Home Studio"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-home-studio",
+      "type": "snippet_social",
+      "title": "La Batería Electrónica MIDIPLUS ED6 para tu Home Studio"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-home-studio",
+      "type": "post_social",
+      "title": "La Batería Electrónica MIDIPLUS ED6: Ideal para tu Home Studio"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-home-studio",
+      "type": "post_x",
+      "title": "La Batería Electrónica MIDIPLUS ED6 para tu Home Studio"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-home-studio",
+      "type": "respuesta_youtube",
+      "title": "La Batería Electrónica MIDIPLUS ED6: Ideal para Tu Home Studio"
+    },
+    {
+      "slug": "que-comprar-microfono-usb-podcast",
+      "type": "respuesta_tecnica",
+      "title": "Elige el micrófono USB ideal para tu podcast"
+    },
+    {
+      "slug": "que-comprar-microfono-usb-podcast",
+      "type": "post_educativo",
+      "title": "Elige el micrófono USB ideal para tu podcast"
+    },
+    {
+      "slug": "que-comprar-microfono-usb-podcast",
+      "type": "snippet_social",
+      "title": "Elige el micrófono USB ideal para tu podcast"
+    },
+    {
+      "slug": "que-comprar-microfono-usb-podcast",
+      "type": "post_social",
+      "title": "Elige el micrófono USB ideal para tu podcast"
+    },
+    {
+      "slug": "que-comprar-microfono-usb-podcast",
+      "type": "post_x",
+      "title": "Elige el micrófono USB ideal para tu podcast"
+    },
+    {
+      "slug": "que-comprar-microfono-usb-podcast",
+      "type": "respuesta_youtube",
+      "title": "Elige el micrófono USB ideal para tu podcast"
+    },
+    {
+      "slug": "como-elegir-microfono-usb-para-podcast",
+      "type": "respuesta_tecnica",
+      "title": "Elige el micrófono USB perfecto para tu podcast"
+    },
+    {
+      "slug": "como-elegir-microfono-usb-para-podcast",
+      "type": "post_educativo",
+      "title": "Elige el micrófono USB perfecto para tu podcast"
+    },
+    {
+      "slug": "como-elegir-microfono-usb-para-podcast",
+      "type": "snippet_social",
+      "title": "Elige el micrófono USB perfecto para tu podcast"
+    },
+    {
+      "slug": "como-elegir-microfono-usb-para-podcast",
+      "type": "post_social",
+      "title": "Elige el micrófono USB perfecto para tu podcast"
+    },
+    {
+      "slug": "como-elegir-microfono-usb-para-podcast",
+      "type": "post_x",
+      "title": "Elige el micrófono USB perfecto para tu podcast"
+    },
+    {
+      "slug": "como-elegir-microfono-usb-para-podcast",
+      "type": "respuesta_youtube",
+      "title": "Elige el micrófono USB perfecto para tu podcast"
+    },
+    {
+      "slug": "microfono-para-podcast-en-casa-usb-o-xlr",
+      "type": "respuesta_tecnica",
+      "title": "El micrófono perfecto para grabar tu podcast en casa"
+    },
+    {
+      "slug": "microfono-para-podcast-en-casa-usb-o-xlr",
+      "type": "post_educativo",
+      "title": "El micrófono perfecto para grabar tu podcast en casa"
+    },
+    {
+      "slug": "microfono-para-podcast-en-casa-usb-o-xlr",
+      "type": "snippet_social",
+      "title": "El micrófono perfecto para grabar tu podcast en casa"
+    },
+    {
+      "slug": "microfono-para-podcast-en-casa-usb-o-xlr",
+      "type": "post_social",
+      "title": "El micrófono ideal para tu podcast en casa"
+    },
+    {
+      "slug": "microfono-para-podcast-en-casa-usb-o-xlr",
+      "type": "post_x",
+      "title": "El micrófono perfecto para tu podcast en casa"
+    },
+    {
+      "slug": "microfono-para-podcast-en-casa-usb-o-xlr",
+      "type": "respuesta_youtube",
+      "title": "Elige el micrófono ideal para tu podcast en casa"
+    },
+    {
+      "slug": "home-studio-principiantes-fl-studio",
+      "type": "snippet_social",
+      "title": "Arma tu Home Studio para FL Studio: Guía para Principiantes"
+    },
+    {
+      "slug": "home-studio-principiantes-fl-studio",
+      "type": "post_social",
+      "title": "Arma tu Home Studio para FL Studio y comienza a crear"
+    },
+    {
+      "slug": "home-studio-principiantes-fl-studio",
+      "type": "post_x",
+      "title": "Arma tu Home Studio para FL Studio: Guía Rápida"
+    },
+    {
+      "slug": "home-studio-principiantes-fl-studio",
+      "type": "respuesta_youtube",
+      "title": "Arma tu Home Studio para FL Studio: Guía para Principiantes"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-fl-studio-4",
+      "type": "respuesta_tecnica",
+      "title": "Arturia MiniLab 3: Ideal para Beats y Melodías en FL Studio"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-fl-studio-4",
+      "type": "post_educativo",
+      "title": "Arturia MiniLab 3: Tu Compañero Ideal en FL Studio"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-fl-studio-4",
+      "type": "snippet_social",
+      "title": "Arturia MiniLab 3: Tu Compañero Ideal en FL Studio"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-fl-studio-4",
+      "type": "post_social",
+      "title": "Arturia MiniLab 3: Tu Compañero Ideal en FL Studio"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-fl-studio-4",
+      "type": "post_x",
+      "title": "Arturia MiniLab 3: Ideal para Beatmaking en FL Studio"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-fl-studio-4",
+      "type": "respuesta_youtube",
+      "title": "Arturia MiniLab 3: Ideal para Beats y Melodías en FL Studio"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-principiantes",
+      "type": "respuesta_tecnica",
+      "title": "MIDIPLUS Studio M: Tu primer paso en la producción musical"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-principiantes",
+      "type": "post_educativo",
+      "title": "MIDIPLUS Studio M: Tu primer paso en la producción musical"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-principiantes",
+      "type": "snippet_social",
+      "title": "MIDIPLUS Studio M: Tu primer paso en la producción musical"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-principiantes",
+      "type": "post_social",
+      "title": "MIDIPLUS Studio M: Tu primer paso en la producción musical"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-principiantes",
+      "type": "post_x",
+      "title": "MIDIPLUS Studio M: Tu primer paso en la producción musical"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-principiantes",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS Studio M: Ideal para tu primer home studio"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "midiplus-ed6-practicar-bateria-home-studio",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "home-studio-principiantes-fl-studio",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "home-studio-principiantes-fl-studio",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 305.23
+}

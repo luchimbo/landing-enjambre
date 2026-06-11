@@ -1,0 +1,7 @@
+{
+  "timestamp_utc": "20260530-124437-217420",
+  "command": "deploy",
+  "status": "pending_configuration",
+  "reason": "No hay destino de deploy configurado en codigo.",
+  "site_dir": "D:\\AgentesGuille\\site"
+}

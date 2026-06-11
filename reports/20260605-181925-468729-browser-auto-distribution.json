@@ -1,0 +1,100 @@
+{
+  "timestamp_utc": "20260605-181925-468729",
+  "command": "auto-distribution",
+  "channels": [
+    "facebook",
+    "instagram",
+    "x",
+    "youtube"
+  ],
+  "unsupported_channels": [],
+  "limit": 25,
+  "per_channel": 2,
+  "dry_run": false,
+  "allow_proposed": false,
+  "published_or_attempted": 0,
+  "blocked_seen": 510,
+  "results": [],
+  "blocked_sample": [
+    {
+      "id": "20260605-181834-830195:instagram:auto-listen:0",
+      "channel": "instagram",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260605-175624-461353:setup-guitarrista-productor:respuesta_youtube:youtube:1780682469688",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260605-175624-461353:setup-cantante-compositor:respuesta_youtube:youtube:1780682448704",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260605-175624-461353:setup-cantante-compositor:post_x:x:1780682438756",
+      "channel": "x",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260605-175624-461353:setup-transmisiones-en-vivo:respuesta_youtube:youtube:1780682295542",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260605-175624-461353:setup-transmisiones-en-vivo:post_x:x:1780682292045",
+      "channel": "x",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260605-175624-461353:setup-para-cursos-online:respuesta_youtube:youtube:1780682258401",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260605-175624-461353:setup-para-cursos-online:post_x:x:1780682251648",
+      "channel": "x",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260605-175624-461353:pads-platillos-bateria-electronica:respuesta_youtube:youtube:1780682207422",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260605-175624-461353:pads-platillos-bateria-electronica:post_x:x:1780682204695",
+      "channel": "x",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    }
+  ]
+}

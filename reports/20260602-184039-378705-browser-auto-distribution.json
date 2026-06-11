@@ -1,0 +1,185 @@
+{
+  "timestamp_utc": "20260602-184039-378705",
+  "command": "auto-distribution",
+  "channels": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "reddit",
+    "x",
+    "youtube"
+  ],
+  "unsupported_channels": [],
+  "limit": 6,
+  "per_channel": 1,
+  "dry_run": false,
+  "allow_proposed": false,
+  "published_or_attempted": 2,
+  "blocked_seen": 177,
+  "results": [
+    {
+      "id": "20260602-183802-302663:reddit:auto-listen:8",
+      "channel": "reddit",
+      "slug": "controlador-midi-para-ableton-comparativa",
+      "result": {
+        "ok": false,
+        "url": "https://www.reddit.com/r/AudioProductionDeals/comments/1tuymbo/production_music_live_breaks_vol_2_flux_240_drum/",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "añadir un comentario",
+            "add a comment"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comentar",
+            "comment",
+            "reply"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260602-153802-582712:youtube:auto-listen:10",
+      "channel": "youtube",
+      "slug": "controlador-midi-para-ableton-comparativa",
+      "result": {
+        "ok": false,
+        "url": "https://www.youtube.com/watch?v=wyqXlvGoT4M&pp=ygUdY29udHJvbGFkb3IgTUlESSBwYXJhIEFibGV0b24%3D",
+        "dismissed": [
+          {
+            "ok": true,
+            "label": "subtitles/closed captions unavailable"
+          }
+        ],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "añade un comentario",
+            "add a comment"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comentar"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "selector_only",
+          "error": "like de YouTube no encontrado sin usar texto ambiguo"
+        }
+      }
+    }
+  ],
+  "blocked_sample": [
+    {
+      "id": "20260602-153802-582712:linkedin:auto-listen:6",
+      "channel": "linkedin",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260602-125819-215287:placa-sonido-guitarra-home-studio:snippet_social:social:1780405144055",
+      "channel": "facebook",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260602-125819-215287:placa-sonido-guitarra-home-studio:snippet_social:social:1780405144055",
+      "channel": "x",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260602-125819-215287:como-elegir-microfono-para-podcast:post_x:x:1780405234393",
+      "channel": "x",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260602-123802-430867:linkedin:auto-listen:8",
+      "channel": "linkedin",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260602-123802-430867:instagram:auto-listen:3",
+      "channel": "instagram",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260602-123802-430867:facebook:auto-listen:1",
+      "channel": "facebook",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260601-171406-993044:como-elegir-interfaz-de-audio-para-grabar-voz-en-casa:snippet_social:social:1780335221521",
+      "channel": "facebook",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260601-171406-993044:como-elegir-interfaz-de-audio-para-grabar-voz-en-casa:snippet_social:social:1780335221521",
+      "channel": "x",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260601-171406-993044:controlador-midi-ableton-fl-studio-comparativa:snippet_social:social:1780335175296",
+      "channel": "facebook",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    }
+  ]
+}

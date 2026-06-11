@@ -1,0 +1,317 @@
+{
+  "timestamp_utc": "20260609-142702-918617",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260609-142143-100551",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 60,
+  "pieces_blocked": 0,
+  "proposed": [
+    {
+      "slug": "synido-livedock-directo-guitarra",
+      "type": "respuesta_tecnica",
+      "title": "Optimiza tu Directo con Synido LiveDock"
+    },
+    {
+      "slug": "synido-livedock-directo-guitarra",
+      "type": "post_educativo",
+      "title": "Optimiza tu Directo con Synido LiveDock"
+    },
+    {
+      "slug": "synido-livedock-directo-guitarra",
+      "type": "snippet_social",
+      "title": "Optimiza tu Directo con Synido LiveDock"
+    },
+    {
+      "slug": "synido-livedock-directo-guitarra",
+      "type": "post_social",
+      "title": "Optimiza tu Directo con Synido LiveDock"
+    },
+    {
+      "slug": "synido-livedock-directo-guitarra",
+      "type": "post_x",
+      "title": "Optimiza tu Directo con Synido LiveDock"
+    },
+    {
+      "slug": "synido-livedock-directo-guitarra",
+      "type": "respuesta_youtube",
+      "title": "Optimiza tu Directo con Synido LiveDock para Guitarra"
+    },
+    {
+      "slug": "synido-livedock-directo-voz",
+      "type": "respuesta_tecnica",
+      "title": "Optimiza tu sonido en directo con Synido LiveDock"
+    },
+    {
+      "slug": "synido-livedock-directo-voz",
+      "type": "post_educativo",
+      "title": "Optimiza tu sonido en directo con Synido LiveDock"
+    },
+    {
+      "slug": "synido-livedock-directo-voz",
+      "type": "snippet_social",
+      "title": "Optimiza tu sonido en directo con Synido LiveDock"
+    },
+    {
+      "slug": "synido-livedock-directo-voz",
+      "type": "post_social",
+      "title": "Optimiza tu sonido en directo con Synido LiveDock"
+    },
+    {
+      "slug": "synido-livedock-directo-voz",
+      "type": "post_x",
+      "title": "Optimiza tu sonido en directo con Synido LiveDock"
+    },
+    {
+      "slug": "synido-livedock-directo-voz",
+      "type": "respuesta_youtube",
+      "title": "Optimiza tu sonido en directo con Synido LiveDock"
+    },
+    {
+      "slug": "guia-elegir-arturia-keystep-pro",
+      "type": "respuesta_tecnica",
+      "title": "Guía para elegir el Arturia KeyStep Pro en tu producción musical"
+    },
+    {
+      "slug": "guia-elegir-arturia-keystep-pro",
+      "type": "post_educativo",
+      "title": "Guía para elegir el Arturia KeyStep Pro en tu producción musical"
+    },
+    {
+      "slug": "guia-elegir-arturia-keystep-pro",
+      "type": "snippet_social",
+      "title": "Guía para elegir el Arturia KeyStep Pro en tu producción musical"
+    },
+    {
+      "slug": "guia-elegir-arturia-keystep-pro",
+      "type": "post_social",
+      "title": "Elige el Arturia KeyStep Pro para tu producción musical"
+    },
+    {
+      "slug": "guia-elegir-arturia-keystep-pro",
+      "type": "post_x",
+      "title": "Elige el Arturia KeyStep Pro para tu producción musical"
+    },
+    {
+      "slug": "guia-elegir-arturia-keystep-pro",
+      "type": "respuesta_youtube",
+      "title": "Guía para elegir el Arturia KeyStep Pro en tu producción musical"
+    },
+    {
+      "slug": "arturia-microfreak-sintesis-pads",
+      "type": "respuesta_tecnica",
+      "title": "Arturia MicroFreak: El sintetizador ideal para iniciarte en la síntesis"
+    },
+    {
+      "slug": "arturia-microfreak-sintesis-pads",
+      "type": "post_educativo",
+      "title": "Arturia MicroFreak: El sintetizador ideal para iniciarte en la síntesis"
+    },
+    {
+      "slug": "arturia-microfreak-sintesis-pads",
+      "type": "snippet_social",
+      "title": "Arturia MicroFreak: Tu primer sintetizador para pads"
+    },
+    {
+      "slug": "arturia-microfreak-sintesis-pads",
+      "type": "post_social",
+      "title": "Arturia MicroFreak: Tu primer paso en la síntesis musical"
+    },
+    {
+      "slug": "arturia-microfreak-sintesis-pads",
+      "type": "post_x",
+      "title": "Arturia MicroFreak: Tu primer sintetizador para pads"
+    },
+    {
+      "slug": "arturia-microfreak-sintesis-pads",
+      "type": "respuesta_youtube",
+      "title": "Arturia MicroFreak: Tu primer sintetizador para pads"
+    },
+    {
+      "slug": "arturia-microfreak-para-empezar-en-sintesis-3",
+      "type": "respuesta_tecnica",
+      "title": "Arturia MicroFreak: Ideal para Iniciarse en la Síntesis Hardware"
+    },
+    {
+      "slug": "arturia-microfreak-para-empezar-en-sintesis-3",
+      "type": "post_educativo",
+      "title": "Arturia MicroFreak: El sintetizador híbrido perfecto para principiantes"
+    },
+    {
+      "slug": "arturia-microfreak-para-empezar-en-sintesis-3",
+      "type": "snippet_social",
+      "title": "Arturia MicroFreak: El sintetizador híbrido ideal para principiantes"
+    },
+    {
+      "slug": "arturia-microfreak-para-empezar-en-sintesis-3",
+      "type": "post_social",
+      "title": "Arturia MicroFreak: Tu primer sintetizador ideal"
+    },
+    {
+      "slug": "arturia-microfreak-para-empezar-en-sintesis-3",
+      "type": "post_x",
+      "title": "Arturia MicroFreak: Tu primer sinte hardware ideal"
+    },
+    {
+      "slug": "arturia-microfreak-para-empezar-en-sintesis-3",
+      "type": "respuesta_youtube",
+      "title": "Arturia MicroFreak: Ideal para Iniciarse en la Síntesis"
+    },
+    {
+      "slug": "arturia-microfreak-sintesis-texturas",
+      "type": "respuesta_tecnica",
+      "title": "Comienza tu viaje en la síntesis con Arturia MicroFreak"
+    },
+    {
+      "slug": "arturia-microfreak-sintesis-texturas",
+      "type": "post_educativo",
+      "title": "Comienza tu viaje en la síntesis con Arturia MicroFreak"
+    },
+    {
+      "slug": "arturia-microfreak-sintesis-texturas",
+      "type": "snippet_social",
+      "title": "Comienza tu viaje en la síntesis con Arturia MicroFreak"
+    },
+    {
+      "slug": "arturia-microfreak-sintesis-texturas",
+      "type": "post_social",
+      "title": "Comienza tu viaje en la síntesis con Arturia MicroFreak"
+    },
+    {
+      "slug": "arturia-microfreak-sintesis-texturas",
+      "type": "post_x",
+      "title": "Comienza tu viaje en la síntesis con Arturia MicroFreak"
+    },
+    {
+      "slug": "arturia-microfreak-sintesis-texturas",
+      "type": "respuesta_youtube",
+      "title": "Comienza tu viaje en la síntesis con Arturia MicroFreak"
+    },
+    {
+      "slug": "arturia-minilab-3-fl-studio-creadores-contenido",
+      "type": "respuesta_tecnica",
+      "title": "Arturia MiniLab 3: Ideal para FL Studio y Creadores de Contenido"
+    },
+    {
+      "slug": "arturia-minilab-3-fl-studio-creadores-contenido",
+      "type": "post_educativo",
+      "title": "Arturia MiniLab 3: Tu Compañero Perfecto en FL Studio"
+    },
+    {
+      "slug": "arturia-minilab-3-fl-studio-creadores-contenido",
+      "type": "snippet_social",
+      "title": "Arturia MiniLab 3: Ideal para Creadores en FL Studio"
+    },
+    {
+      "slug": "arturia-minilab-3-fl-studio-creadores-contenido",
+      "type": "post_social",
+      "title": "Arturia MiniLab 3: Tu Compañero Perfecto en FL Studio"
+    },
+    {
+      "slug": "arturia-minilab-3-fl-studio-creadores-contenido",
+      "type": "post_x",
+      "title": "Arturia MiniLab 3: Tu Compañero Perfecto en FL Studio"
+    },
+    {
+      "slug": "arturia-minilab-3-fl-studio-creadores-contenido",
+      "type": "respuesta_youtube",
+      "title": "Arturia MiniLab 3: Ideal para Creadores en FL Studio"
+    },
+    {
+      "slug": "controlador-secuenciador-arturia-keystep-pro",
+      "type": "respuesta_tecnica",
+      "title": "Arturia KeyStep Pro: Controlador y secuenciador para tu escritorio"
+    },
+    {
+      "slug": "controlador-secuenciador-arturia-keystep-pro",
+      "type": "post_educativo",
+      "title": "Arturia KeyStep Pro: Controlador y secuenciador para tu escritorio"
+    },
+    {
+      "slug": "controlador-secuenciador-arturia-keystep-pro",
+      "type": "snippet_social",
+      "title": "Arturia KeyStep Pro: Controlador y secuenciador para tu escritorio"
+    },
+    {
+      "slug": "controlador-secuenciador-arturia-keystep-pro",
+      "type": "post_social",
+      "title": "Arturia KeyStep Pro: Tu aliado en producción musical"
+    },
+    {
+      "slug": "controlador-secuenciador-arturia-keystep-pro",
+      "type": "post_x",
+      "title": "Arturia KeyStep Pro: Controlador y secuenciador para tu escritorio"
+    },
+    {
+      "slug": "controlador-secuenciador-arturia-keystep-pro",
+      "type": "respuesta_youtube",
+      "title": "Arturia KeyStep Pro: Controlador y secuenciador para tu escritorio"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-musica-electronica",
+      "type": "respuesta_tecnica",
+      "title": "Arturia PolyBrute: Un Sinte Avanzado para Música Electrónica"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-musica-electronica",
+      "type": "post_educativo",
+      "title": "Arturia PolyBrute: Tu Aliado en la Producción de Música Electrónica"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-musica-electronica",
+      "type": "snippet_social",
+      "title": "Arturia PolyBrute: Tu Aliado en la Producción de Música Electrónica"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-musica-electronica",
+      "type": "post_social",
+      "title": "Arturia PolyBrute: Tu Compañero Ideal para Música Electrónica"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-musica-electronica",
+      "type": "post_x",
+      "title": "Arturia PolyBrute: Tu Aliado en Música Electrónica"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-musica-electronica",
+      "type": "respuesta_youtube",
+      "title": "Arturia PolyBrute: Un Sinte Clave para Música Electrónica"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-vocoder",
+      "type": "respuesta_tecnica",
+      "title": "Arturia PolyBrute: La Revolución en tu Estudio"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-vocoder",
+      "type": "post_educativo",
+      "title": "Arturia PolyBrute: La Revolución en tu Estudio"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-vocoder",
+      "type": "snippet_social",
+      "title": "Arturia PolyBrute: La Revolución en tu Estudio"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-vocoder",
+      "type": "post_social",
+      "title": "Arturia PolyBrute: La Revolución en tu Estudio"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-vocoder",
+      "type": "post_x",
+      "title": "Arturia PolyBrute: Revoluciona tu Estudio con Vocoder"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-vocoder",
+      "type": "respuesta_youtube",
+      "title": "Arturia PolyBrute: Innovación y Versatilidad en tu Estudio"
+    }
+  ],
+  "blocked": [],
+  "elapsed_seconds": 319.82
+}

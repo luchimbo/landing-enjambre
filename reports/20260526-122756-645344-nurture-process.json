@@ -1,0 +1,13 @@
+{
+  "timestamp_utc": "20260526-122756-645344",
+  "command": "process",
+  "dry_run": true,
+  "limit": 50,
+  "results": {
+    "processed": 0,
+    "sent": 0,
+    "skipped": 0,
+    "failed": 0,
+    "errors": []
+  }
+}

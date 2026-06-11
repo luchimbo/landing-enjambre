@@ -1,0 +1,47 @@
+{
+  "timestamp_utc": "20260610-141741-163278",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260610-141705-418054",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 1,
+  "pieces_proposed": 6,
+  "pieces_blocked": 0,
+  "proposed": [
+    {
+      "slug": "arturia-minilab-3-ableton-notebook",
+      "type": "respuesta_tecnica",
+      "title": "Arturia MiniLab 3: Ideal para Producir en Notebook"
+    },
+    {
+      "slug": "arturia-minilab-3-ableton-notebook",
+      "type": "post_educativo",
+      "title": "Arturia MiniLab 3: Tu Compañero Ideal para Producir en Notebook"
+    },
+    {
+      "slug": "arturia-minilab-3-ableton-notebook",
+      "type": "snippet_social",
+      "title": "Arturia MiniLab 3: Ideal para Producir en Notebook"
+    },
+    {
+      "slug": "arturia-minilab-3-ableton-notebook",
+      "type": "post_social",
+      "title": "Arturia MiniLab 3: Tu Compañero Ideal para Producir en Notebook"
+    },
+    {
+      "slug": "arturia-minilab-3-ableton-notebook",
+      "type": "post_x",
+      "title": "Arturia MiniLab 3: Ideal para Producir en Notebook"
+    },
+    {
+      "slug": "arturia-minilab-3-ableton-notebook",
+      "type": "respuesta_youtube",
+      "title": "Arturia MiniLab 3: Ideal para Producción en Notebook"
+    }
+  ],
+  "blocked": [],
+  "elapsed_seconds": 35.75
+}

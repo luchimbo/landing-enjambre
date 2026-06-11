@@ -1,0 +1,384 @@
+{
+  "timestamp_utc": "20260605-184339-274239",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260605-183801-717806",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 12,
+  "pieces_proposed": 69,
+  "pieces_blocked": 3,
+  "proposed": [
+    {
+      "slug": "regalo-para-tecladista",
+      "type": "respuesta_tecnica",
+      "title": "Los mejores regalos para tecladistas: Controladores y Sintetizadores"
+    },
+    {
+      "slug": "regalo-para-tecladista",
+      "type": "post_educativo",
+      "title": "Los mejores regalos para tecladistas: Controladores y Sintetizadores"
+    },
+    {
+      "slug": "regalo-para-tecladista",
+      "type": "snippet_social",
+      "title": "Los mejores regalos para tecladistas: controlador o sintetizador"
+    },
+    {
+      "slug": "regalo-para-tecladista",
+      "type": "post_social",
+      "title": "Los mejores regalos para tecladistas 🎹"
+    },
+    {
+      "slug": "regalo-para-tecladista",
+      "type": "post_x",
+      "title": "Los mejores regalos para tecladistas: controlador o sintetizador"
+    },
+    {
+      "slug": "regalo-para-tecladista",
+      "type": "respuesta_youtube",
+      "title": "Consejos para elegir el mejor regalo para un tecladista"
+    },
+    {
+      "slug": "regalo-para-streamer",
+      "type": "post_educativo",
+      "title": "El regalo ideal para streamers: micrófonos, cámaras y auriculares"
+    },
+    {
+      "slug": "regalo-para-streamer",
+      "type": "snippet_social",
+      "title": "El regalo ideal para streamers: micrófonos, cámaras y auriculares"
+    },
+    {
+      "slug": "regalo-para-streamer",
+      "type": "post_social",
+      "title": "El regalo ideal para streamers: micrófonos, cámaras y auriculares"
+    },
+    {
+      "slug": "regalo-para-streamer",
+      "type": "post_x",
+      "title": "El regalo ideal para streamers"
+    },
+    {
+      "slug": "regalo-para-streamer",
+      "type": "respuesta_youtube",
+      "title": "El regalo ideal para streamers: micrófonos, cámaras y auriculares"
+    },
+    {
+      "slug": "guia-elegir-bateria-electronica-departamento",
+      "type": "respuesta_tecnica",
+      "title": "Elige la Batería Electrónica Perfecta para tu Espacio"
+    },
+    {
+      "slug": "guia-elegir-bateria-electronica-departamento",
+      "type": "post_educativo",
+      "title": "Elige la Batería Electrónica Perfecta para tu Espacio"
+    },
+    {
+      "slug": "guia-elegir-bateria-electronica-departamento",
+      "type": "snippet_social",
+      "title": "Elige la Batería Electrónica Perfecta para tu Espacio"
+    },
+    {
+      "slug": "guia-elegir-bateria-electronica-departamento",
+      "type": "post_social",
+      "title": "Elige la Batería Electrónica Perfecta para tu Espacio"
+    },
+    {
+      "slug": "guia-elegir-bateria-electronica-departamento",
+      "type": "post_x",
+      "title": "Elige la Batería Electrónica Perfecta para tu Espacio"
+    },
+    {
+      "slug": "guia-elegir-bateria-electronica-departamento",
+      "type": "respuesta_youtube",
+      "title": "Elige la Batería Electrónica Perfecta para tu Espacio"
+    },
+    {
+      "slug": "arturia-minilab-3-fl-studio-principiantes",
+      "type": "respuesta_tecnica",
+      "title": "Arturia MiniLab 3: Ideal para FL Studio y Producción Compacta"
+    },
+    {
+      "slug": "arturia-minilab-3-fl-studio-principiantes",
+      "type": "post_educativo",
+      "title": "Arturia MiniLab 3: Ideal para FL Studio y Principiantes"
+    },
+    {
+      "slug": "arturia-minilab-3-fl-studio-principiantes",
+      "type": "snippet_social",
+      "title": "Arturia MiniLab 3: Ideal para FL Studio y Producción Compacta"
+    },
+    {
+      "slug": "arturia-minilab-3-fl-studio-principiantes",
+      "type": "post_social",
+      "title": "Arturia MiniLab 3: Tu Compañero Ideal para FL Studio 🎹"
+    },
+    {
+      "slug": "arturia-minilab-3-fl-studio-principiantes",
+      "type": "post_x",
+      "title": "Arturia MiniLab 3: Ideal para FL Studio y Producción Compacta"
+    },
+    {
+      "slug": "arturia-minilab-3-fl-studio-principiantes",
+      "type": "respuesta_youtube",
+      "title": "Arturia MiniLab 3: Ideal para FL Studio y Principiantes"
+    },
+    {
+      "slug": "setup-arturia-keystep-pro-hardware",
+      "type": "respuesta_tecnica",
+      "title": "Arma tu setup ideal con Arturia KeyStep Pro"
+    },
+    {
+      "slug": "setup-arturia-keystep-pro-hardware",
+      "type": "post_educativo",
+      "title": "Arma tu setup ideal con Arturia KeyStep Pro"
+    },
+    {
+      "slug": "setup-arturia-keystep-pro-hardware",
+      "type": "snippet_social",
+      "title": "Arma tu setup ideal con Arturia KeyStep Pro"
+    },
+    {
+      "slug": "setup-arturia-keystep-pro-hardware",
+      "type": "post_social",
+      "title": "Arma tu setup ideal con Arturia KeyStep Pro"
+    },
+    {
+      "slug": "setup-arturia-keystep-pro-hardware",
+      "type": "post_x",
+      "title": "Arma tu setup ideal con Arturia KeyStep Pro"
+    },
+    {
+      "slug": "setup-arturia-keystep-pro-hardware",
+      "type": "respuesta_youtube",
+      "title": "Arma tu setup ideal con Arturia KeyStep Pro"
+    },
+    {
+      "slug": "que-comprar-para-midiplus-ak490-principiantes",
+      "type": "respuesta_tecnica",
+      "title": "El MIDIPLUS AK490: Tu primer teclado MIDI"
+    },
+    {
+      "slug": "que-comprar-para-midiplus-ak490-principiantes",
+      "type": "post_social",
+      "title": "El MIDIPLUS AK490: Tu primer teclado MIDI"
+    },
+    {
+      "slug": "que-comprar-para-midiplus-ak490-principiantes",
+      "type": "post_x",
+      "title": "El MIDIPLUS AK490: Tu primer teclado MIDI"
+    },
+    {
+      "slug": "que-comprar-para-midiplus-ak490-principiantes",
+      "type": "respuesta_youtube",
+      "title": "El MIDIPLUS AK490: Ideal para Principiantes en Producción Musical"
+    },
+    {
+      "slug": "setup-con-midiplus-ak490-para-principiantes",
+      "type": "respuesta_tecnica",
+      "title": "Arma tu Setup con el MIDIPLUS AK490 para Principiantes"
+    },
+    {
+      "slug": "setup-con-midiplus-ak490-para-principiantes",
+      "type": "post_educativo",
+      "title": "Arma tu Setup con el MIDIPLUS AK490 para Principiantes"
+    },
+    {
+      "slug": "setup-con-midiplus-ak490-para-principiantes",
+      "type": "snippet_social",
+      "title": "Arma tu Setup con el MIDIPLUS AK490 para Principiantes"
+    },
+    {
+      "slug": "setup-con-midiplus-ak490-para-principiantes",
+      "type": "post_social",
+      "title": "Arma tu Setup con el MIDIPLUS AK490 para Principiantes"
+    },
+    {
+      "slug": "setup-con-midiplus-ak490-para-principiantes",
+      "type": "post_x",
+      "title": "Arma tu Setup con el MIDIPLUS AK490 para Principiantes"
+    },
+    {
+      "slug": "setup-con-midiplus-ak490-para-principiantes",
+      "type": "respuesta_youtube",
+      "title": "Arma tu Setup con el MIDIPLUS AK490 para Principiantes"
+    },
+    {
+      "slug": "midiplus-ak490-principiantes-ableton",
+      "type": "respuesta_tecnica",
+      "title": "MIDIPLUS AK490: Ideal para Principiantes en Ableton"
+    },
+    {
+      "slug": "midiplus-ak490-principiantes-ableton",
+      "type": "post_educativo",
+      "title": "MIDIPLUS AK490: Tu Compañero Ideal para Comenzar en Ableton"
+    },
+    {
+      "slug": "midiplus-ak490-principiantes-ableton",
+      "type": "snippet_social",
+      "title": "MIDIPLUS AK490: Ideal para Principiantes en Ableton"
+    },
+    {
+      "slug": "midiplus-ak490-principiantes-ableton",
+      "type": "post_social",
+      "title": "MIDIPLUS AK490: Tu Compañero Ideal para Comenzar en Ableton"
+    },
+    {
+      "slug": "midiplus-ak490-principiantes-ableton",
+      "type": "post_x",
+      "title": "MIDIPLUS AK490: Ideal para Principiantes en Ableton"
+    },
+    {
+      "slug": "midiplus-ak490-principiantes-ableton",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS AK490: Ideal para Principiantes en Ableton"
+    },
+    {
+      "slug": "midiplus-ak490-principiantes-fl-studio",
+      "type": "respuesta_tecnica",
+      "title": "MIDIPLUS AK490: Ideal para Principiantes en FL Studio"
+    },
+    {
+      "slug": "midiplus-ak490-principiantes-fl-studio",
+      "type": "post_educativo",
+      "title": "MIDIPLUS AK490: Tu Compañero Ideal para FL Studio"
+    },
+    {
+      "slug": "midiplus-ak490-principiantes-fl-studio",
+      "type": "snippet_social",
+      "title": "MIDIPLUS AK490: Ideal para Principiantes en FL Studio"
+    },
+    {
+      "slug": "midiplus-ak490-principiantes-fl-studio",
+      "type": "post_social",
+      "title": "MIDIPLUS AK490: Ideal para Iniciar en FL Studio 🎹"
+    },
+    {
+      "slug": "midiplus-ak490-principiantes-fl-studio",
+      "type": "post_x",
+      "title": "MIDIPLUS AK490: Ideal para Principiantes en FL Studio"
+    },
+    {
+      "slug": "midiplus-ak490-principiantes-fl-studio",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS AK490: Ideal para Principiantes en FL Studio"
+    },
+    {
+      "slug": "como-elegir-midiplus-akm322-escritorio-chico",
+      "type": "respuesta_tecnica",
+      "title": "Elige el MIDIPLUS AKM322: el controlador compacto perfecto"
+    },
+    {
+      "slug": "como-elegir-midiplus-akm322-escritorio-chico",
+      "type": "post_educativo",
+      "title": "Elige el MIDIPLUS AKM322: el controlador compacto perfecto"
+    },
+    {
+      "slug": "como-elegir-midiplus-akm322-escritorio-chico",
+      "type": "snippet_social",
+      "title": "Elige el MIDIPLUS AKM322: controlador compacto ideal"
+    },
+    {
+      "slug": "como-elegir-midiplus-akm322-escritorio-chico",
+      "type": "post_social",
+      "title": "Elige el MIDIPLUS AKM322: el controlador compacto perfecto"
+    },
+    {
+      "slug": "como-elegir-midiplus-akm322-escritorio-chico",
+      "type": "post_x",
+      "title": "Elige el MIDIPLUS AKM322: el controlador compacto ideal"
+    },
+    {
+      "slug": "como-elegir-midiplus-akm322-escritorio-chico",
+      "type": "respuesta_youtube",
+      "title": "Elige el MIDIPLUS AKM322: el controlador compacto perfecto"
+    },
+    {
+      "slug": "guia-elegir-midiplus-akm322-escritorio-chico",
+      "type": "respuesta_tecnica",
+      "title": "Guía para Elegir el MIDIPLUS AKM322 en Espacios Compactos"
+    },
+    {
+      "slug": "guia-elegir-midiplus-akm322-escritorio-chico",
+      "type": "post_educativo",
+      "title": "Elige el MIDIPLUS AKM322 para tu Escritorio Compacto"
+    },
+    {
+      "slug": "guia-elegir-midiplus-akm322-escritorio-chico",
+      "type": "snippet_social",
+      "title": "Elige el MIDIPLUS AKM322 para tu Escritorio Compacto"
+    },
+    {
+      "slug": "guia-elegir-midiplus-akm322-escritorio-chico",
+      "type": "post_social",
+      "title": "Elige el MIDIPLUS AKM322 para tu Escritorio Compacto"
+    },
+    {
+      "slug": "guia-elegir-midiplus-akm322-escritorio-chico",
+      "type": "post_x",
+      "title": "Elige el MIDIPLUS AKM322 para tu Escritorio Compacto"
+    },
+    {
+      "slug": "guia-elegir-midiplus-akm322-escritorio-chico",
+      "type": "respuesta_youtube",
+      "title": "Guía para Elegir el MIDIPLUS AKM322 en Espacios Pequeños"
+    },
+    {
+      "slug": "setup-con-midiplus-akm322-escritorio-chico",
+      "type": "respuesta_tecnica",
+      "title": "Crea tu setup compacto con el MIDIPLUS AKM322"
+    },
+    {
+      "slug": "setup-con-midiplus-akm322-escritorio-chico",
+      "type": "post_educativo",
+      "title": "Crea tu setup compacto con el MIDIPLUS AKM322"
+    },
+    {
+      "slug": "setup-con-midiplus-akm322-escritorio-chico",
+      "type": "snippet_social",
+      "title": "Crea tu setup compacto con el MIDIPLUS AKM322"
+    },
+    {
+      "slug": "setup-con-midiplus-akm322-escritorio-chico",
+      "type": "post_social",
+      "title": "Crea tu setup compacto con el MIDIPLUS AKM322"
+    },
+    {
+      "slug": "setup-con-midiplus-akm322-escritorio-chico",
+      "type": "post_x",
+      "title": "Crea tu setup compacto con el MIDIPLUS AKM322"
+    },
+    {
+      "slug": "setup-con-midiplus-akm322-escritorio-chico",
+      "type": "respuesta_youtube",
+      "title": "Crea tu setup compacto con el MIDIPLUS AKM322"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "regalo-para-streamer",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "que-comprar-para-midiplus-ak490-principiantes",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "que-comprar-para-midiplus-ak490-principiantes",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 337.56
+}

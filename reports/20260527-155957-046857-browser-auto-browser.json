@@ -1,0 +1,314 @@
+{
+  "timestamp_utc": "20260527-155957-046857",
+  "command": "auto-browser",
+  "task_path": "D:\\AgentesGuille\\data\\auto_browser_inspect_buttons.json",
+  "task_hash": "4803cfee77cacafa009f573770b4e1451538e3d978175ecb1e21e7371d270fb6",
+  "dry_run": false,
+  "actions": 1,
+  "results": [
+    {
+      "index": 1,
+      "type": "eval",
+      "result": {
+        "ok": true,
+        "value": [
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Cerrar",
+            "disabled": null,
+            "text": "",
+            "cls": "x1i10hfl xjqpnuy xc5r6h4 xqeqjp1 x1phubyo x13fuv20 x18b5jzi x1q0q8m5 x1t7ytsu x1ypdohk xdl72j9 x2lah0s x3ct3a4 xdj266r x",
+            "rect": {
+              "w": 40,
+              "h": 40,
+              "x": -32,
+              "y": 8
+            }
+          },
+          {
+            "tag": "A",
+            "role": "link",
+            "aria": "Facebook",
+            "disabled": null,
+            "text": "",
+            "cls": "x1i10hfl x1qjc9v5 xjbqb8w xjqpnuy xc5r6h4 xqeqjp1 x1phubyo x13fuv20 x18b5jzi x1q0q8m5 x1t7ytsu x972fbf x10w94by x1qhh985",
+            "rect": {
+              "w": 40,
+              "h": 40,
+              "x": 16,
+              "y": 8
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "navigation",
+            "aria": "Facebook",
+            "disabled": null,
+            "text": "",
+            "cls": "x78zum5 x1s65kcs xl56j7k",
+            "rect": {
+              "w": 905,
+              "h": 56,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "tag": "A",
+            "role": "link",
+            "aria": "Inicio",
+            "disabled": null,
+            "text": "",
+            "cls": "x1i10hfl xjbqb8w x1ejq31n x18oe1m7 x1sy0etr xstzfhl x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk x3ct3a4 xdj266r x",
+            "rect": {
+              "w": 81,
+              "h": 56,
+              "x": 279,
+              "y": 0
+            }
+          },
+          {
+            "tag": "A",
+            "role": "link",
+            "aria": "Reels",
+            "disabled": null,
+            "text": "",
+            "cls": "x1i10hfl xjbqb8w x1ejq31n x18oe1m7 x1sy0etr xstzfhl x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk x3ct3a4 xdj266r x",
+            "rect": {
+              "w": 81,
+              "h": 56,
+              "x": 368,
+              "y": 0
+            }
+          },
+          {
+            "tag": "A",
+            "role": "link",
+            "aria": "Amigos",
+            "disabled": null,
+            "text": "",
+            "cls": "x1i10hfl xjbqb8w x1ejq31n x18oe1m7 x1sy0etr xstzfhl x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk x3ct3a4 xdj266r x",
+            "rect": {
+              "w": 81,
+              "h": 56,
+              "x": 457,
+              "y": 0
+            }
+          },
+          {
+            "tag": "A",
+            "role": "link",
+            "aria": "Grupos",
+            "disabled": null,
+            "text": "",
+            "cls": "x1i10hfl xjbqb8w x1ejq31n x18oe1m7 x1sy0etr xstzfhl x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk x3ct3a4 xdj266r x",
+            "rect": {
+              "w": 81,
+              "h": 56,
+              "x": 545,
+              "y": 0
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "navigation",
+            "aria": "Controles y configuración de la cuenta",
+            "disabled": null,
+            "text": "Buscar amigos",
+            "cls": "x6s0dn4 x78zum5 x1s65kcs x1n2onr6 x1ja2u2z",
+            "rect": {
+              "w": 136,
+              "h": 56,
+              "x": 753,
+              "y": 0
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Menú de Facebook",
+            "disabled": null,
+            "text": "",
+            "cls": "x1i10hfl xjqpnuy xc5r6h4 xqeqjp1 x1phubyo x13fuv20 x18b5jzi x1q0q8m5 x1t7ytsu x1ypdohk xdl72j9 x2lah0s x3ct3a4 xdj266r x",
+            "rect": {
+              "w": 40,
+              "h": 40,
+              "x": 753,
+              "y": 8
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Notificaciones",
+            "disabled": null,
+            "text": "",
+            "cls": "x1i10hfl xjqpnuy xc5r6h4 xqeqjp1 x1phubyo x13fuv20 x18b5jzi x1q0q8m5 x1t7ytsu x1ypdohk xdl72j9 x2lah0s x3ct3a4 xdj266r x",
+            "rect": {
+              "w": 40,
+              "h": 40,
+              "x": 801,
+              "y": 8
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Tu perfil",
+            "disabled": null,
+            "text": "",
+            "cls": "x1i10hfl x1qjc9v5 xjbqb8w xjqpnuy xc5r6h4 xqeqjp1 x1phubyo x13fuv20 x18b5jzi x1q0q8m5 x1t7ytsu x972fbf x10w94by x1qhh985",
+            "rect": {
+              "w": 40,
+              "h": 40,
+              "x": 849,
+              "y": 8
+            }
+          },
+          {
+            "tag": "svg",
+            "role": "img",
+            "aria": "Tu perfil",
+            "disabled": null,
+            "text": "",
+            "cls": "[object SVGAnimatedString]",
+            "rect": {
+              "w": 40,
+              "h": 40,
+              "x": 849,
+              "y": 8
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Cerrar",
+            "disabled": null,
+            "text": "",
+            "cls": "x1i10hfl xjqpnuy xc5r6h4 xqeqjp1 x1phubyo x13fuv20 x18b5jzi x1q0q8m5 x1t7ytsu x1ypdohk xdl72j9 x2lah0s x3ct3a4 xdj266r x",
+            "rect": {
+              "w": 40,
+              "h": 40,
+              "x": 16,
+              "y": 8
+            }
+          },
+          {
+            "tag": "A",
+            "role": "link",
+            "aria": "Facebook",
+            "disabled": null,
+            "text": "",
+            "cls": "x1i10hfl x1qjc9v5 xjbqb8w xjqpnuy xc5r6h4 xqeqjp1 x1phubyo x13fuv20 x18b5jzi x1q0q8m5 x1t7ytsu x972fbf x10w94by x1qhh985",
+            "rect": {
+              "w": 40,
+              "h": 40,
+              "x": 64,
+              "y": 8
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "navigation",
+            "aria": "Formulario de creación de historias",
+            "disabled": null,
+            "text": "Tu historia Bruno Labs",
+            "cls": "x9f619 x1n2onr6 x78zum5 xdt5ytf x193iq5w xeuugli x2lah0s x1t2pt76 x1xzczws x1cvmir6 x1vjfegm",
+            "rect": {
+              "w": 360,
+              "h": 917,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "navigation",
+            "aria": "Ruta de navegación",
+            "disabled": null,
+            "text": "",
+            "cls": "",
+            "rect": {
+              "w": 219,
+              "h": 12,
+              "x": 16,
+              "y": 70
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Configuración de privacidad de la historia",
+            "disabled": null,
+            "text": "",
+            "cls": "x1i10hfl xjqpnuy xc5r6h4 xqeqjp1 x1phubyo x13fuv20 x18b5jzi x1q0q8m5 x1t7ytsu x1ypdohk xdl72j9 x2lah0s x3ct3a4 xdj266r x",
+            "rect": {
+              "w": 36,
+              "h": 36,
+              "x": 308,
+              "y": 72
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "form",
+            "aria": "Historias",
+            "disabled": null,
+            "text": "Bruno Labs",
+            "cls": "x78zum5 xdt5ytf x1iyjqo2",
+            "rect": {
+              "w": 360,
+              "h": 793,
+              "x": 0,
+              "y": 124
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "main",
+            "aria": "Vista previa de la creación de historias",
+            "disabled": null,
+            "text": "Crear una historia con fotos Crear una historia de texto",
+            "cls": "x9f619 x1n2onr6 x1ja2u2z xdt5ytf x193iq5w xeuugli x1r8uery x1iyjqo2 xs83m0k x78zum5 x1t2pt76",
+            "rect": {
+              "w": 545,
+              "h": 917,
+              "x": 360,
+              "y": 0
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Crear una historia con fotos",
+            "disabled": null,
+            "text": "Crear una historia con fotos",
+            "cls": "x1i10hfl xjbqb8w x1ejq31n x18oe1m7 x1sy0etr xstzfhl x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xt0psk2 x3ct3a4 x",
+            "rect": {
+              "w": 220,
+              "h": 333,
+              "x": 403,
+              "y": 292
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Crea una historia de texto",
+            "disabled": null,
+            "text": "Crear una historia de texto",
+            "cls": "x1i10hfl x1qjc9v5 xjbqb8w xjqpnuy xc5r6h4 xqeqjp1 x1phubyo x13fuv20 x18b5jzi x1q0q8m5 x1t7ytsu x972fbf x10w94by x1qhh985",
+            "rect": {
+              "w": 220,
+              "h": 333,
+              "x": 643,
+              "y": 292
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "extracts": {}
+}

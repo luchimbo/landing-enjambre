@@ -1,0 +1,116 @@
+{
+  "timestamp_utc": "20260527-183743-911200",
+  "command": "auto-listen",
+  "channels": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "youtube"
+  ],
+  "searches": 2,
+  "per_search": 1,
+  "dry_run": false,
+  "items": 8,
+  "distribution_drafts": 8,
+  "social_intel_path": "D:\\AgentesGuille\\data\\social_intel.jsonl",
+  "search_tasks_path": "D:\\AgentesGuille\\data\\distribution_search_tasks.jsonl",
+  "content_feedback_path": "D:\\AgentesGuille\\data\\content_feedback.jsonl",
+  "sample": [
+    {
+      "id": "20260527-183659-590816:facebook:0",
+      "created_at_utc": "2026-05-27T18:37:04.899932+00:00",
+      "run_id": "20260527-183659-590816",
+      "channel": "facebook",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.facebook.com/groups/828346141416525/?__cft__[0]=AZajX8gSTZfzPcq5ZbE2eOc2j2_QNTnAYE3-pj8aMGrFQGemNSEWZrRe-tyEH7fsMWa6l5mFITtAyA5rgXQ-XnFcYq_M9tFOrkEnaeuWqNvQqqMZwVMzT4vfZRKlTZGsQAIywmaDRuD1U_6eOJgWR2-FdJem5gBGf8KdTeZWcN5kkauhJfV4N_IZ4mTRG3YrlR5CLYs33sSdMEfOLDsgBAul&__tn__=%3C%3C%2CP-R",
+      "source_title": "Productores Musicales de ARGENTINA (Ableton, Fl studio, LMMS) Buenos Aires",
+      "source_context": "Productores Musicales de ARGENTINA (Ableton, Fl studio, LMMS) Buenos Aires"
+    },
+    {
+      "id": "20260527-183659-590816:facebook:1",
+      "created_at_utc": "2026-05-27T18:37:10.304329+00:00",
+      "run_id": "20260527-183659-590816",
+      "channel": "facebook",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.facebook.com/groups/1641846816129693/?__cft__[0]=AZZLrQrH_srVrcbSdcD6qGGB0_gc2Ib0NzNFzwOCkL6P5xbTJL6TqqzwZK8D4Yz3U3hO0x8pMI6CJVB6useD7-whN-CZpw10XkTNnqAB7JHBBW17xeIik_y2U656O_FHuV4NClIk2ugLH8A6cpV-1MLD75eQcdQnCL98c3wbC7YH-Tu-YsFkdm4tO8cqjEOUvRdq5EhG6om1nWcmeo3ACapz&__tn__=%3C%3C%2CP-R",
+      "source_title": "INSTRUMENTOS MUSICALES compra venta permuta argentina",
+      "source_context": "INSTRUMENTOS MUSICALES compra venta permuta argentina"
+    },
+    {
+      "id": "20260527-183659-590816:instagram:2",
+      "created_at_utc": "2026-05-27T18:37:15.857162+00:00",
+      "run_id": "20260527-183659-590816",
+      "channel": "instagram",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.instagram.com/p/BpaFs6wHIsc/",
+      "source_title": "Reel",
+      "source_context": "Reel"
+    },
+    {
+      "id": "20260527-183659-590816:instagram:3",
+      "created_at_utc": "2026-05-27T18:37:21.409439+00:00",
+      "run_id": "20260527-183659-590816",
+      "channel": "instagram",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.instagram.com/p/DKlslFwsis_/",
+      "source_title": "",
+      "source_context": "Photo by Qatar Home Studio on June 06, 2025."
+    },
+    {
+      "id": "20260527-183659-590816:linkedin:4",
+      "created_at_utc": "2026-05-27T18:37:27.273467+00:00",
+      "run_id": "20260527-183659-590816",
+      "channel": "linkedin",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.linkedin.com/in/guillermo-coronel/es/",
+      "source_title": "",
+      "source_context": "Guillermo Coronel • 3er+ Desarrollador de instrumentos musicales electrónicos con IA (Arduino + MIDI) | Team Leader CX | Soporte Técnico | RR.PP & Gestión e Innovación Pública 1 día • Editado • Seguir"
+    },
+    {
+      "id": "20260527-183659-590816:linkedin:5",
+      "created_at_utc": "2026-05-27T18:37:33.432646+00:00",
+      "run_id": "20260527-183659-590816",
+      "channel": "linkedin",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.linkedin.com/in/juanbautistawp7/",
+      "source_title": "",
+      "source_context": "Juan Bautista Jiménez Herradón • 3er+ Director IT Business Core & ERP - CRM - LMS / Responsable implantación proyectos Inteligencia Artificial en UNIR 1 año • Seguir"
+    },
+    {
+      "id": "20260527-183659-590816:youtube:6",
+      "created_at_utc": "2026-05-27T18:37:38.680993+00:00",
+      "run_id": "20260527-183659-590816",
+      "channel": "youtube",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.youtube.com/watch?v=GPVLFMJQYDQ&t=14s&pp=ygUfY29udHJvbGFkb3IgTUlESSBwYXJhIEZMIFN0dWRpbw%3D%3D",
+      "source_title": "8:27 8:27 Now playing",
+      "source_context": "EL MEJOR CONTROLADOR MIDI PARA FL STUDIO - FL Key Mini Novation 16K views 4 years ago Eric Kauffmann ADQUIERE FL KEY MINI AQUÍ: https://tinyurl.com/FLKEYMINI ¿NECESITAS LANZAR TU MÚSICA? Pues te recomiendo ... 4K CC 13 chapters Intro | Explicación de controles | Channel Rack | Instrumento | Secuenciador | Plugin | Volumen Mixer | Paneo Mixer | Cambio de presets | Note repeat | Modo Escala | Resumen | Patrocinio"
+    },
+    {
+      "id": "20260527-183659-590816:youtube:7",
+      "created_at_utc": "2026-05-27T18:37:43.864220+00:00",
+      "run_id": "20260527-183659-590816",
+      "channel": "youtube",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.youtube.com/watch?v=9GqOBgasFEA&t=39s&pp=ygUpaW50ZXJmYXogZGUgYXVkaW8gcGFyYSBncmFiYXIgdm96IGVuIGNhc2E%3D",
+      "source_title": "9:56 9:56 Now playing",
+      "source_context": "👉 How to Make a RECORDING STUDIO at HOME - Economical Minimalist Home Studio 399K views 2 years ago Marce Ferrace This is the Simplest way to make your Minimalist HOME STUDIO in your room! What you need to know to be able to Record at Home ... CC 8 chapters Home Studio Minimalista | Qué PC necesito ? | Que es un DAW ? | Los Auriculares PLANOS (Fundamental) | Para qué se usa la Interfaz o placa de Sonido ? | El micrófono Ideal | Son Necesarios los Monitores de Audio ? | Qué es un Controlador MIDI ?"
+    }
+  ]
+}

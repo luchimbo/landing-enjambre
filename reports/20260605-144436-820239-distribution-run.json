@@ -1,0 +1,404 @@
+{
+  "timestamp_utc": "20260605-144436-820239",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260605-143801-526167",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 12,
+  "pieces_proposed": 59,
+  "pieces_blocked": 13,
+  "proposed": [
+    {
+      "slug": "controlador-midi-61-teclas-beats",
+      "type": "respuesta_tecnica",
+      "title": "MIDIPLUS i61: Ideal para Expandir tu Creatividad en la Producción"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-beats",
+      "type": "post_educativo",
+      "title": "MIDIPLUS i61: Tu Compañero Perfecto para Hacer Beats"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-beats",
+      "type": "snippet_social",
+      "title": "MIDIPLUS i61: Ideal para Expandir tu Creatividad Musical"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-beats",
+      "type": "post_social",
+      "title": "MIDIPLUS i61: Tu Compañero Perfecto para Hacer Beats"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-beats",
+      "type": "post_x",
+      "title": "MIDIPLUS i61: Ideal para Hacer Beats con Más Teclas"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-beats",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS i61: Ideal para Expandir tus Beats"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-escritorio-chico",
+      "type": "respuesta_tecnica",
+      "title": "MIDIPLUS i61: Tu Compañero Ideal para el Escritorio"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-escritorio-chico",
+      "type": "post_educativo",
+      "title": "MIDIPLUS i61: Tu Compañero Ideal para el Escritorio"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-escritorio-chico",
+      "type": "post_social",
+      "title": "MIDIPLUS i61: Ideal para tu Escritorio Musical"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-escritorio-chico",
+      "type": "post_x",
+      "title": "MIDIPLUS i61: Ideal para Escritorios Pequeños"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-escritorio-chico",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS i61: Ideal para Escritorios Pequeños"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-creadores-contenido",
+      "type": "respuesta_tecnica",
+      "title": "MIDIPLUS Studio M: Interfaz Ideal para Creadores de Contenido"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-creadores-contenido",
+      "type": "post_educativo",
+      "title": "MIDIPLUS Studio M: Tu Aliada en el Home Studio"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-creadores-contenido",
+      "type": "snippet_social",
+      "title": "MIDIPLUS Studio M: Tu Aliada en el Home Studio"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-creadores-contenido",
+      "type": "post_social",
+      "title": "MIDIPLUS Studio M: Tu Aliada en el Home Studio"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-creadores-contenido",
+      "type": "post_x",
+      "title": "MIDIPLUS Studio M: Tu Aliada en el Home Studio"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-creadores-contenido",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS Studio M: Ideal para tu Home Studio"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-portable",
+      "type": "respuesta_tecnica",
+      "title": "MIDIPLUS Studio M: Ideal para Home Studio y Setup Portable"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-portable",
+      "type": "post_educativo",
+      "title": "MIDIPLUS Studio M: Tu Compañera Ideal para el Home Studio"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-portable",
+      "type": "snippet_social",
+      "title": "MIDIPLUS Studio M: Ideal para tu Home Studio Portable"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-portable",
+      "type": "post_social",
+      "title": "MIDIPLUS Studio M: Tu Compañera Ideal para el Home Studio"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-portable",
+      "type": "post_x",
+      "title": "MIDIPLUS Studio M: Ideal para tu Home Studio Portable"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-portable",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS Studio M: Ideal para tu Home Studio Portable"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-audio",
+      "type": "respuesta_tecnica",
+      "title": "Mejorá tu audio en casa con MIDIPLUS Studio M"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-audio",
+      "type": "snippet_social",
+      "title": "Mejorá tu audio en casa con MIDIPLUS Studio M"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-audio",
+      "type": "post_social",
+      "title": "Mejorá tu audio en casa con MIDIPLUS Studio M"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-audio",
+      "type": "post_x",
+      "title": "Mejorá tu audio en casa con MIDIPLUS Studio M"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-audio",
+      "type": "respuesta_youtube",
+      "title": "Mejorá tu audio en casa con MIDIPLUS Studio M"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-voz",
+      "type": "respuesta_tecnica",
+      "title": "MIDIPLUS Studio M: Ideal para Grabar Voces en tu Home Studio"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-voz",
+      "type": "post_educativo",
+      "title": "MIDIPLUS Studio M: Tu Aliado para Grabar Voces"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-voz",
+      "type": "snippet_social",
+      "title": "MIDIPLUS Studio M: Tu Aliado para Grabar Voces"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-voz",
+      "type": "post_social",
+      "title": "MIDIPLUS Studio M: Tu Mejor Opción para Grabar Voces"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-voz",
+      "type": "post_x",
+      "title": "MIDIPLUS Studio M: Tu Aliado para Grabar Voces"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-voz",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS Studio M: Ideal para Grabar Voces en Home Studio"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-chico",
+      "type": "post_social",
+      "title": "Monitores Midiplus MS5: Ideales para tu Home Studio Chico"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-chico",
+      "type": "post_x",
+      "title": "Monitores Midiplus MS5: Ideales para Home Studios Pequeños"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-portable",
+      "type": "respuesta_tecnica",
+      "title": "Monitores Midiplus MS5: Tu aliado en el home studio"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-portable",
+      "type": "post_educativo",
+      "title": "Monitores Midiplus MS5: Tu aliado en el home studio"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-portable",
+      "type": "snippet_social",
+      "title": "Monitores Midiplus MS5: Ideal para tu Home Studio Portable"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-portable",
+      "type": "post_social",
+      "title": "Monitores Midiplus MS5: Tu aliado en el home studio"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-portable",
+      "type": "post_x",
+      "title": "Monitores Midiplus MS5: Tu aliado en el home studio"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-portable",
+      "type": "respuesta_youtube",
+      "title": "Monitores Midiplus MS5: Ideal para tu Home Studio Portable"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-audio",
+      "type": "post_educativo",
+      "title": "Transforma tu home studio con los monitores Midiplus MS5"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-audio",
+      "type": "post_social",
+      "title": "Transforma tu home studio con los monitores Midiplus MS5"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-audio",
+      "type": "post_x",
+      "title": "Transforma tu home studio con los monitores Midiplus MS5"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-escritorio",
+      "type": "respuesta_tecnica",
+      "title": "Monitores Midiplus MS5: Sonido Profesional en tu Escritorio"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-escritorio",
+      "type": "post_educativo",
+      "title": "Monitores Midiplus MS5: Sonido Profesional en tu Escritorio"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-escritorio",
+      "type": "snippet_social",
+      "title": "Monitores Midiplus MS5: Sonido Profesional en tu Escritorio"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-escritorio",
+      "type": "post_social",
+      "title": "Monitores Midiplus MS5: Sonido Profesional para tu Escritorio"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-escritorio",
+      "type": "post_x",
+      "title": "Monitores Midiplus MS5: Sonido Profesional en tu Escritorio"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-escritorio",
+      "type": "respuesta_youtube",
+      "title": "Monitores Midiplus MS5: Ideal para tu Home Studio"
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-creadores-contenido",
+      "type": "post_social",
+      "title": "Monitores Midiplus MS6: Sonido Ideal para Tu Home Studio"
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-creadores-contenido",
+      "type": "post_x",
+      "title": "Monitores Midiplus MS6: Sonido Profesional para Creadores"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-para-directo",
+      "type": "respuesta_tecnica",
+      "title": "Arturia MiniFreak vs MicroFreak: ¿Cuál elegir para tus shows?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-para-directo",
+      "type": "post_educativo",
+      "title": "Arturia MiniFreak vs MicroFreak: ¿Cuál elegir para tus shows?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-para-directo",
+      "type": "snippet_social",
+      "title": "Arturia MiniFreak vs MicroFreak: ¿Cuál elegir para tus shows?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-para-directo",
+      "type": "post_social",
+      "title": "Arturia MiniFreak vs MicroFreak: ¿Cuál elegir para tus shows?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-para-directo",
+      "type": "post_x",
+      "title": "Arturia MiniFreak vs MicroFreak: ¿Cuál elegir para tus shows?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-para-directo",
+      "type": "respuesta_youtube",
+      "title": "Arturia MiniFreak vs MicroFreak: ¿Cuál elegir para tus shows?"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "controlador-midi-61-teclas-escritorio-chico",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-audio",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-chico",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-chico",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-chico",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-chico",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-audio",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-audio",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-audio",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-creadores-contenido",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-creadores-contenido",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-creadores-contenido",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-creadores-contenido",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 395.29
+}

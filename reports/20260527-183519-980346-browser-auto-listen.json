@@ -1,0 +1,142 @@
+{
+  "timestamp_utc": "20260527-183519-980346",
+  "command": "auto-listen",
+  "channels": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "reddit",
+    "x",
+    "youtube"
+  ],
+  "searches": 2,
+  "per_search": 1,
+  "dry_run": false,
+  "items": 10,
+  "distribution_drafts": 10,
+  "social_intel_path": "D:\\AgentesGuille\\data\\social_intel.jsonl",
+  "search_tasks_path": "D:\\AgentesGuille\\data\\distribution_search_tasks.jsonl",
+  "content_feedback_path": "D:\\AgentesGuille\\data\\content_feedback.jsonl",
+  "sample": [
+    {
+      "id": "20260527-183414-114867:facebook:0",
+      "created_at_utc": "2026-05-27T18:34:19.707882+00:00",
+      "run_id": "20260527-183414-114867",
+      "channel": "facebook",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.facebook.com/groups/828346141416525/?__cft__[0]=AZZYq4SXY8QseSQJGzpm62Vhb1BAH06F9zuvEhXWAuB7mRb4gfmEMd7YlX_YcPT6QQ0qzg2qe7Y6GemlVDR-ekcvuxq-WYJDAdmWJ1xnNZe8rkCImL59V3uNQ298yWqHupR8-7er75V8mHrFbf4cYDebyaJpARcskUL5wb28BVrBfookaZ8V6lEvzEWthdKQZ3mV9KaxfpCQ8bGhYhs05lhw&__tn__=%3C%3C%2CP-R",
+      "source_title": "Productores Musicales de ARGENTINA (Ableton, Fl studio, LMMS) Buenos Aires",
+      "source_context": "Productores Musicales de ARGENTINA (Ableton, Fl studio, LMMS) Buenos Aires"
+    },
+    {
+      "id": "20260527-183414-114867:facebook:1",
+      "created_at_utc": "2026-05-27T18:34:25.046097+00:00",
+      "run_id": "20260527-183414-114867",
+      "channel": "facebook",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.facebook.com/groups/1641846816129693/?__cft__[0]=AZaQYkie63F6akVOou7j6Sp2OPLEUBPkOsB4yUuIbr8oc1ve-_Sc1EU1ZghKfoq4L2a58lX7RsgHqFrflMIakFR4zcXTnMt1M7MM1oWvuWFI9c1mTk_JrvjYHzJTTYnfKvukc5DAr0opMpZEQgANg0hmradpFlL6FhZByNYBdfYV6GBWC6PEVCiZc0VVT0zGisKQl6iWTMzRLQPp2L7tUexh&__tn__=%3C%3C%2CP-R",
+      "source_title": "INSTRUMENTOS MUSICALES compra venta permuta argentina",
+      "source_context": "INSTRUMENTOS MUSICALES compra venta permuta argentina"
+    },
+    {
+      "id": "20260527-183414-114867:instagram:2",
+      "created_at_utc": "2026-05-27T18:34:30.551365+00:00",
+      "run_id": "20260527-183414-114867",
+      "channel": "instagram",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.instagram.com/p/BpaFs6wHIsc/",
+      "source_title": "Reel",
+      "source_context": "Reel"
+    },
+    {
+      "id": "20260527-183414-114867:instagram:3",
+      "created_at_utc": "2026-05-27T18:34:36.075114+00:00",
+      "run_id": "20260527-183414-114867",
+      "channel": "instagram",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.instagram.com/p/DKlslFwsis_/",
+      "source_title": "",
+      "source_context": "Photo by Qatar Home Studio on June 06, 2025."
+    },
+    {
+      "id": "20260527-183414-114867:linkedin:4",
+      "created_at_utc": "2026-05-27T18:34:42.075716+00:00",
+      "run_id": "20260527-183414-114867",
+      "channel": "linkedin",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.linkedin.com/in/guillermo-coronel/es/",
+      "source_title": "",
+      "source_context": "Guillermo Coronel • 3er+ Desarrollador de instrumentos musicales electrónicos con IA (Arduino + MIDI) | Team Leader CX | Soporte Técnico | RR.PP & Gestión e Innovación Pública 1 día • Editado • Seguir"
+    },
+    {
+      "id": "20260527-183414-114867:linkedin:5",
+      "created_at_utc": "2026-05-27T18:34:48.323598+00:00",
+      "run_id": "20260527-183414-114867",
+      "channel": "linkedin",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.linkedin.com/in/juanbautistawp7/",
+      "source_title": "",
+      "source_context": "Juan Bautista Jiménez Herradón • 3er+ Director IT Business Core & ERP - CRM - LMS / Responsable implantación proyectos Inteligencia Artificial en UNIR 1 año • Seguir"
+    },
+    {
+      "id": "20260527-183414-114867:reddit:6",
+      "created_at_utc": "2026-05-27T18:34:53.662302+00:00",
+      "run_id": "20260527-183414-114867",
+      "channel": "reddit",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.reddit.com/r/Choir/comments/1tpdmtq/summer_lessons_need_ideas/",
+      "source_title": "Summer Lessons - Need Ideas",
+      "source_context": "Summer Lessons - Need Ideas r/Choir · hace 26 min Summer Lessons - Need Ideas 2 votos·0 comentarios"
+    },
+    {
+      "id": "20260527-183414-114867:reddit:7",
+      "created_at_utc": "2026-05-27T18:34:58.931222+00:00",
+      "run_id": "20260527-183414-114867",
+      "channel": "reddit",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.reddit.com/r/MX_realestate_tips/comments/1tpedmz/infonavit_fovissste_o_banco_en_2026_lo_que_s%C3%AD/",
+      "source_title": "Infonavit, FOVISSSTE o banco en 2026: lo que sí conviene según tu caso",
+      "source_context": "Infonavit, FOVISSSTE o banco en 2026: lo que sí conviene según tu caso r/MX_realestate_tips · hace 1 min Infonavit, FOVISSSTE o banco en 2026: lo que sí conviene según tu caso 1 voto·0 comentarios"
+    },
+    {
+      "id": "20260527-183414-114867:youtube:8",
+      "created_at_utc": "2026-05-27T18:35:14.760497+00:00",
+      "run_id": "20260527-183414-114867",
+      "channel": "youtube",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.youtube.com/watch?v=GPVLFMJQYDQ&t=14s&pp=ygUfY29udHJvbGFkb3IgTUlESSBwYXJhIEZMIFN0dWRpbw%3D%3D",
+      "source_title": "8:27 8:27 Now playing",
+      "source_context": "EL MEJOR CONTROLADOR MIDI PARA FL STUDIO - FL Key Mini Novation 16K views 4 years ago Eric Kauffmann ADQUIERE FL KEY MINI AQUÍ: https://tinyurl.com/FLKEYMINI ¿NECESITAS LANZAR TU MÚSICA? Pues te recomiendo ... 4K CC 13 chapters Intro | Explicación de controles | Channel Rack | Instrumento | Secuenciador | Plugin | Volumen Mixer | Paneo Mixer | Cambio de presets | Note repeat | Modo Escala | Resumen | Patrocinio"
+    },
+    {
+      "id": "20260527-183414-114867:youtube:9",
+      "created_at_utc": "2026-05-27T18:35:19.928176+00:00",
+      "run_id": "20260527-183414-114867",
+      "channel": "youtube",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.youtube.com/watch?v=9GqOBgasFEA&t=39s&pp=ygUpaW50ZXJmYXogZGUgYXVkaW8gcGFyYSBncmFiYXIgdm96IGVuIGNhc2E%3D",
+      "source_title": "9:56 9:56 Now playing",
+      "source_context": "👉 How to Make a RECORDING STUDIO at HOME - Economical Minimalist Home Studio 399K views 2 years ago Marce Ferrace This is the Simplest way to make your Minimalist HOME STUDIO in your room! What you need to know to be able to Record at Home ... CC 8 chapters Home Studio Minimalista | Qué PC necesito ? | Que es un DAW ? | Los Auriculares PLANOS (Fundamental) | Para qué se usa la Interfaz o placa de Sonido ? | El micrófono Ideal | Son Necesarios los Monitores de Audio ? | Qué es un Controlador MIDI ?"
+    }
+  ]
+}

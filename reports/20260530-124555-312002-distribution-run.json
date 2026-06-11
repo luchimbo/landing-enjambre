@@ -1,0 +1,186 @@
+{
+  "timestamp_utc": "20260530-124555-312002",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260530-124437-397664",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 5,
+  "pieces_proposed": 21,
+  "pieces_blocked": 9,
+  "proposed": [
+    {
+      "slug": "mejor-opcion-interfaz-audio-podcast",
+      "type": "respuesta_tecnica",
+      "title": "Elige la mejor interfaz de audio para tu podcast"
+    },
+    {
+      "slug": "mejor-opcion-interfaz-audio-podcast",
+      "type": "snippet_social",
+      "title": "Elige la mejor interfaz de audio para tu podcast"
+    },
+    {
+      "slug": "mejor-opcion-interfaz-audio-podcast",
+      "type": "post_social",
+      "title": "Elige la mejor interfaz de audio para tu podcast"
+    },
+    {
+      "slug": "mejor-opcion-interfaz-audio-podcast",
+      "type": "post_x",
+      "title": "Elige la mejor interfaz de audio para tu podcast"
+    },
+    {
+      "slug": "mejor-opcion-interfaz-audio-podcast",
+      "type": "respuesta_youtube",
+      "title": "Elige la mejor interfaz de audio para tu podcast"
+    },
+    {
+      "slug": "comparar-opciones-interfaz-audio-streaming",
+      "type": "post_educativo",
+      "title": "Encuentra la Interfaz de Audio Perfecta para Streaming"
+    },
+    {
+      "slug": "comparar-opciones-interfaz-audio-streaming",
+      "type": "snippet_social",
+      "title": "Encuentra la Interfaz de Audio Perfecta para Streaming"
+    },
+    {
+      "slug": "comparar-opciones-interfaz-audio-streaming",
+      "type": "post_social",
+      "title": "Encuentra la Interfaz de Audio Perfecta para Streaming"
+    },
+    {
+      "slug": "comparar-opciones-interfaz-audio-streaming",
+      "type": "post_x",
+      "title": "Encuentra la Interfaz de Audio Perfecta para Streaming"
+    },
+    {
+      "slug": "mejor-opcion-interfaz-audio-dos-entradas",
+      "type": "post_x",
+      "title": "La Mejor Interfaz de Audio con Dos Entradas"
+    },
+    {
+      "slug": "comparar-microfonos-xlr-podcast",
+      "type": "respuesta_tecnica",
+      "title": "Guía para elegir micrófonos XLR para tu podcast"
+    },
+    {
+      "slug": "comparar-microfonos-xlr-podcast",
+      "type": "snippet_social",
+      "title": "Guía para elegir micrófonos XLR para tu podcast"
+    },
+    {
+      "slug": "comparar-microfonos-xlr-podcast",
+      "type": "post_social",
+      "title": "Guía para elegir micrófonos XLR para tu podcast"
+    },
+    {
+      "slug": "comparar-microfonos-xlr-podcast",
+      "type": "post_x",
+      "title": "Guía para elegir micrófonos XLR para tu podcast"
+    },
+    {
+      "slug": "comparar-microfonos-xlr-podcast",
+      "type": "respuesta_youtube",
+      "title": "Guía para elegir micrófonos XLR para tu podcast"
+    },
+    {
+      "slug": "mejor-opcion-monitores-5-pulgadas-o-6-pulgadas",
+      "type": "respuesta_tecnica",
+      "title": "¿Monitores de 5 pulgadas o 6 pulgadas? La elección correcta"
+    },
+    {
+      "slug": "mejor-opcion-monitores-5-pulgadas-o-6-pulgadas",
+      "type": "post_educativo",
+      "title": "¿Monitores de 5 pulgadas o 6 pulgadas? La elección correcta"
+    },
+    {
+      "slug": "mejor-opcion-monitores-5-pulgadas-o-6-pulgadas",
+      "type": "snippet_social",
+      "title": "¿Monitores de 5 pulgadas o 6 pulgadas? La elección correcta"
+    },
+    {
+      "slug": "mejor-opcion-monitores-5-pulgadas-o-6-pulgadas",
+      "type": "post_social",
+      "title": "¿Monitores de 5 o 6 pulgadas? Encuentra tu mejor opción"
+    },
+    {
+      "slug": "mejor-opcion-monitores-5-pulgadas-o-6-pulgadas",
+      "type": "post_x",
+      "title": "¿Monitores de 5 o 6 pulgadas? La elección correcta"
+    },
+    {
+      "slug": "mejor-opcion-monitores-5-pulgadas-o-6-pulgadas",
+      "type": "respuesta_youtube",
+      "title": "¿Monitores de 5 pulgadas o 6 pulgadas? La elección correcta"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "mejor-opcion-interfaz-audio-podcast",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "comparar-opciones-interfaz-audio-streaming",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "comparar-opciones-interfaz-audio-streaming",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "mejor-opcion-interfaz-audio-dos-entradas",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "mejor-opcion-interfaz-audio-dos-entradas",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "mejor-opcion-interfaz-audio-dos-entradas",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "mejor-opcion-interfaz-audio-dos-entradas",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "mejor-opcion-interfaz-audio-dos-entradas",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "comparar-microfonos-xlr-podcast",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 77.91
+}

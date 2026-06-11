@@ -1,0 +1,8 @@
+{
+  "timestamp_utc": "20260526-201442-582618",
+  "command": "browser-harvest",
+  "channel": "reddit",
+  "dry_run": true,
+  "created": 1,
+  "blocked": 0
+}

@@ -1,0 +1,26 @@
+{
+  "timestamp_utc": "20260526-201442-625420",
+  "command": "browser-harvest",
+  "status": "ok",
+  "steps": [
+    {
+      "step": "browser-harvest",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\agente_browser_cdp.py",
+        "harvest",
+        "--channel",
+        "reddit",
+        "--searches",
+        "2",
+        "--per-search",
+        "3",
+        "--dry-run"
+      ],
+      "started_utc": "20260526-201418-765954",
+      "finished_utc": "20260526-201442-625146",
+      "returncode": 0,
+      "status": "ok"
+    }
+  ]
+}

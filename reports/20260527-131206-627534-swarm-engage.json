@@ -1,0 +1,21 @@
+{
+  "timestamp_utc": "20260527-131206-627534",
+  "command": "engage",
+  "status": "failed",
+  "steps": [
+    {
+      "step": "engage",
+      "command": [
+        "node",
+        "D:\\AgentesGuille\\agente_engagement\\index.js",
+        "--platform",
+        "reddit",
+        "--dry-run"
+      ],
+      "started_utc": "20260527-131149-572360",
+      "finished_utc": "20260527-131206-627122",
+      "returncode": 1,
+      "status": "failed"
+    }
+  ]
+}

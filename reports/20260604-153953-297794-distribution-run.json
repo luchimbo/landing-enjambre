@@ -1,0 +1,317 @@
+{
+  "timestamp_utc": "20260604-153953-297794",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260604-153343-676626",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 60,
+  "pieces_blocked": 0,
+  "proposed": [
+    {
+      "slug": "microfono-para-podcast-sin-complicarse",
+      "type": "respuesta_tecnica",
+      "title": "El micrófono ideal para tu podcast sin complicaciones"
+    },
+    {
+      "slug": "microfono-para-podcast-sin-complicarse",
+      "type": "post_educativo",
+      "title": "El micrófono ideal para tu podcast sin complicaciones"
+    },
+    {
+      "slug": "microfono-para-podcast-sin-complicarse",
+      "type": "snippet_social",
+      "title": "El micrófono ideal para tu podcast sin complicaciones"
+    },
+    {
+      "slug": "microfono-para-podcast-sin-complicarse",
+      "type": "post_social",
+      "title": "El micrófono ideal para tu podcast sin complicaciones"
+    },
+    {
+      "slug": "microfono-para-podcast-sin-complicarse",
+      "type": "post_x",
+      "title": "El micrófono ideal para tu podcast sin complicaciones"
+    },
+    {
+      "slug": "microfono-para-podcast-sin-complicarse",
+      "type": "respuesta_youtube",
+      "title": "Elige el micrófono ideal para tu podcast sin complicaciones"
+    },
+    {
+      "slug": "microfono-para-podcast-para-guitarra-usb-o-xlr",
+      "type": "respuesta_tecnica",
+      "title": "Elige entre micrófonos USB y XLR para tu podcast y guitarra"
+    },
+    {
+      "slug": "microfono-para-podcast-para-guitarra-usb-o-xlr",
+      "type": "post_educativo",
+      "title": "Elige el micrófono perfecto para tu podcast y guitarra"
+    },
+    {
+      "slug": "microfono-para-podcast-para-guitarra-usb-o-xlr",
+      "type": "snippet_social",
+      "title": "Elige el micrófono ideal para tu podcast y guitarra"
+    },
+    {
+      "slug": "microfono-para-podcast-para-guitarra-usb-o-xlr",
+      "type": "post_social",
+      "title": "Elige el micrófono perfecto para tu podcast y guitarra"
+    },
+    {
+      "slug": "microfono-para-podcast-para-guitarra-usb-o-xlr",
+      "type": "post_x",
+      "title": "Elige el micrófono perfecto para tu podcast y guitarra"
+    },
+    {
+      "slug": "microfono-para-podcast-para-guitarra-usb-o-xlr",
+      "type": "respuesta_youtube",
+      "title": "Elige el micrófono ideal para tu podcast y guitarra"
+    },
+    {
+      "slug": "microfono-para-streaming-grabar-contenido",
+      "type": "respuesta_tecnica",
+      "title": "Mejora tu Audio con Micrófonos para Streaming"
+    },
+    {
+      "slug": "microfono-para-streaming-grabar-contenido",
+      "type": "post_educativo",
+      "title": "Mejora tu Audio con Micrófonos para Streaming"
+    },
+    {
+      "slug": "microfono-para-streaming-grabar-contenido",
+      "type": "snippet_social",
+      "title": "Mejora tu Audio con Micrófonos para Streaming"
+    },
+    {
+      "slug": "microfono-para-streaming-grabar-contenido",
+      "type": "post_social",
+      "title": "Mejora tu Audio con Micrófonos para Streaming"
+    },
+    {
+      "slug": "microfono-para-streaming-grabar-contenido",
+      "type": "post_x",
+      "title": "Mejora tu Audio con Micrófonos para Streaming"
+    },
+    {
+      "slug": "microfono-para-streaming-grabar-contenido",
+      "type": "respuesta_youtube",
+      "title": "Mejora tu Audio con Micrófonos para Streaming"
+    },
+    {
+      "slug": "microfono-para-streaming-youtube",
+      "type": "respuesta_tecnica",
+      "title": "Micrófonos ideales para streaming en YouTube"
+    },
+    {
+      "slug": "microfono-para-streaming-youtube",
+      "type": "post_educativo",
+      "title": "Micrófonos ideales para streaming en YouTube"
+    },
+    {
+      "slug": "microfono-para-streaming-youtube",
+      "type": "snippet_social",
+      "title": "Micrófonos ideales para streaming en YouTube"
+    },
+    {
+      "slug": "microfono-para-streaming-youtube",
+      "type": "post_social",
+      "title": "Micrófonos ideales para streaming en YouTube"
+    },
+    {
+      "slug": "microfono-para-streaming-youtube",
+      "type": "post_x",
+      "title": "Micrófonos ideales para streaming en YouTube"
+    },
+    {
+      "slug": "microfono-para-streaming-youtube",
+      "type": "respuesta_youtube",
+      "title": "Micrófonos ideales para streaming en YouTube"
+    },
+    {
+      "slug": "microfono-para-streaming-twitch",
+      "type": "respuesta_tecnica",
+      "title": "Micrófonos ideales para streaming en Twitch"
+    },
+    {
+      "slug": "microfono-para-streaming-twitch",
+      "type": "post_educativo",
+      "title": "Micrófonos ideales para streaming en Twitch"
+    },
+    {
+      "slug": "microfono-para-streaming-twitch",
+      "type": "snippet_social",
+      "title": "Micrófonos ideales para streaming en Twitch"
+    },
+    {
+      "slug": "microfono-para-streaming-twitch",
+      "type": "post_social",
+      "title": "Micrófonos ideales para streaming en Twitch"
+    },
+    {
+      "slug": "microfono-para-streaming-twitch",
+      "type": "post_x",
+      "title": "Micrófonos ideales para streaming en Twitch"
+    },
+    {
+      "slug": "microfono-para-streaming-twitch",
+      "type": "respuesta_youtube",
+      "title": "Micrófonos ideales para streaming en Twitch"
+    },
+    {
+      "slug": "microfono-para-streaming-podcast",
+      "type": "respuesta_tecnica",
+      "title": "Micrófonos para Streaming y Podcasting: Guía Técnica"
+    },
+    {
+      "slug": "microfono-para-streaming-podcast",
+      "type": "post_educativo",
+      "title": "Micrófonos para Streaming y Podcasting: Mejora tu Audio"
+    },
+    {
+      "slug": "microfono-para-streaming-podcast",
+      "type": "snippet_social",
+      "title": "Micrófonos para Streaming y Podcasting: Mejora tu Audio"
+    },
+    {
+      "slug": "microfono-para-streaming-podcast",
+      "type": "post_social",
+      "title": "Micrófonos para Streaming y Podcasting: Mejora tu Audio"
+    },
+    {
+      "slug": "microfono-para-streaming-podcast",
+      "type": "post_x",
+      "title": "Micrófonos para Streaming y Podcasting: Mejora tu Audio"
+    },
+    {
+      "slug": "microfono-para-streaming-podcast",
+      "type": "respuesta_youtube",
+      "title": "Micrófonos para Streaming y Podcasting: Mejora tu Audio"
+    },
+    {
+      "slug": "microfono-para-streaming-clases-online",
+      "type": "respuesta_tecnica",
+      "title": "Micrófonos para streaming y clases online: Mejora tu audio"
+    },
+    {
+      "slug": "microfono-para-streaming-clases-online",
+      "type": "post_educativo",
+      "title": "Micrófonos para streaming y clases online: Mejora tu audio"
+    },
+    {
+      "slug": "microfono-para-streaming-clases-online",
+      "type": "snippet_social",
+      "title": "Micrófonos para streaming y clases online: Mejora tu audio"
+    },
+    {
+      "slug": "microfono-para-streaming-clases-online",
+      "type": "post_social",
+      "title": "Micrófonos ideales para tus clases online y streaming"
+    },
+    {
+      "slug": "microfono-para-streaming-clases-online",
+      "type": "post_x",
+      "title": "Micrófonos para streaming y clases online"
+    },
+    {
+      "slug": "microfono-para-streaming-clases-online",
+      "type": "respuesta_youtube",
+      "title": "Mejora tu audio para streaming y clases online"
+    },
+    {
+      "slug": "microfono-para-streaming-sin-complicarse",
+      "type": "respuesta_tecnica",
+      "title": "Mejora tu Streaming con Micrófonos Sin Complicaciones"
+    },
+    {
+      "slug": "microfono-para-streaming-sin-complicarse",
+      "type": "post_educativo",
+      "title": "Mejora tu Streaming con Micrófonos Sin Complicaciones"
+    },
+    {
+      "slug": "microfono-para-streaming-sin-complicarse",
+      "type": "snippet_social",
+      "title": "Mejora tu Streaming con Micrófonos Sin Complicaciones"
+    },
+    {
+      "slug": "microfono-para-streaming-sin-complicarse",
+      "type": "post_social",
+      "title": "Mejora tu Streaming con Micrófonos Sin Complicaciones"
+    },
+    {
+      "slug": "microfono-para-streaming-sin-complicarse",
+      "type": "post_x",
+      "title": "Mejora tu Streaming con Micrófonos Sin Complicaciones"
+    },
+    {
+      "slug": "microfono-para-streaming-sin-complicarse",
+      "type": "respuesta_youtube",
+      "title": "Mejora tu Streaming con Micrófonos Sin Complicaciones"
+    },
+    {
+      "slug": "microfono-para-streaming-locucion",
+      "type": "respuesta_tecnica",
+      "title": "Micrófonos ideales para streaming y locución"
+    },
+    {
+      "slug": "microfono-para-streaming-locucion",
+      "type": "post_educativo",
+      "title": "Micrófonos ideales para streaming y locución"
+    },
+    {
+      "slug": "microfono-para-streaming-locucion",
+      "type": "snippet_social",
+      "title": "Micrófonos ideales para streaming y locución"
+    },
+    {
+      "slug": "microfono-para-streaming-locucion",
+      "type": "post_social",
+      "title": "Micrófonos ideales para streaming y locución"
+    },
+    {
+      "slug": "microfono-para-streaming-locucion",
+      "type": "post_x",
+      "title": "Micrófonos ideales para streaming y locución"
+    },
+    {
+      "slug": "microfono-para-streaming-locucion",
+      "type": "respuesta_youtube",
+      "title": "Micrófonos ideales para streaming y locución"
+    },
+    {
+      "slug": "microfono-para-streaming-con-interfaz-de-audio",
+      "type": "respuesta_tecnica",
+      "title": "Optimiza tu sonido para streaming con el equipo adecuado"
+    },
+    {
+      "slug": "microfono-para-streaming-con-interfaz-de-audio",
+      "type": "post_educativo",
+      "title": "Optimiza tu sonido para streaming con el equipo adecuado"
+    },
+    {
+      "slug": "microfono-para-streaming-con-interfaz-de-audio",
+      "type": "snippet_social",
+      "title": "Optimiza tu sonido para streaming con el equipo adecuado"
+    },
+    {
+      "slug": "microfono-para-streaming-con-interfaz-de-audio",
+      "type": "post_social",
+      "title": "Optimiza tu sonido para streaming con el equipo adecuado"
+    },
+    {
+      "slug": "microfono-para-streaming-con-interfaz-de-audio",
+      "type": "post_x",
+      "title": "Optimiza tu sonido para streaming con el equipo adecuado"
+    },
+    {
+      "slug": "microfono-para-streaming-con-interfaz-de-audio",
+      "type": "respuesta_youtube",
+      "title": "Optimiza tu sonido para streaming con el equipo adecuado"
+    }
+  ],
+  "blocked": [],
+  "elapsed_seconds": 369.62
+}

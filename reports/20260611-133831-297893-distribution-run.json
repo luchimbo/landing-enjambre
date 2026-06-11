@@ -1,0 +1,56 @@
+{
+  "timestamp_utc": "20260611-133831-297893",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260611-133802-274631",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 1,
+  "pieces_proposed": 2,
+  "pieces_blocked": 4,
+  "proposed": [
+    {
+      "slug": "arturia-keystep-pro-departamento",
+      "type": "post_social",
+      "title": "Arturia KeyStep Pro: Ideal para tu Espacio de Producción"
+    },
+    {
+      "slug": "arturia-keystep-pro-departamento",
+      "type": "post_x",
+      "title": "Arturia KeyStep Pro: Ideal para tu Espacio de Producción"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "arturia-keystep-pro-departamento",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "arturia-keystep-pro-departamento",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "arturia-keystep-pro-departamento",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "arturia-keystep-pro-departamento",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 29.02
+}

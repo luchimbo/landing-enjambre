@@ -1,0 +1,51 @@
+{
+  "timestamp_utc": "20260527-180635-935940",
+  "command": "auto-distribution",
+  "channels": [
+    "youtube"
+  ],
+  "unsupported_channels": [],
+  "limit": 1,
+  "per_channel": 1,
+  "dry_run": false,
+  "allow_proposed": false,
+  "published_or_attempted": 1,
+  "blocked_seen": 0,
+  "results": [
+    {
+      "id": "20260527-155248-456296:youtube:auto-listen:4",
+      "channel": "youtube",
+      "slug": "controlador-midi-para-fl-studio",
+      "result": {
+        "ok": false,
+        "url": "https://www.youtube.com/watch?v=GPVLFMJQYDQ&t=18s&pp=ygUfY29udHJvbGFkb3IgTUlESSBwYXJhIEZMIFN0dWRpbw%3D%3D",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "añade un comentario",
+            "add a comment"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comentar"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "selector_only",
+          "error": "like de YouTube no encontrado sin usar texto ambiguo"
+        }
+      }
+    }
+  ],
+  "blocked_sample": []
+}

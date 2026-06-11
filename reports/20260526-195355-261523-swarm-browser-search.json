@@ -1,0 +1,23 @@
+{
+  "timestamp_utc": "20260526-195355-261523",
+  "command": "browser-search",
+  "status": "ok",
+  "steps": [
+    {
+      "step": "browser-search",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\agente_publicacion.py",
+        "browser-search",
+        "--channel",
+        "facebook",
+        "--limit",
+        "2"
+      ],
+      "started_utc": "20260526-195355-021478",
+      "finished_utc": "20260526-195355-261267",
+      "returncode": 0,
+      "status": "ok"
+    }
+  ]
+}

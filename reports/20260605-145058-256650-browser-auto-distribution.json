@@ -1,0 +1,100 @@
+{
+  "timestamp_utc": "20260605-145058-256650",
+  "command": "auto-distribution",
+  "channels": [
+    "facebook",
+    "instagram",
+    "x",
+    "youtube"
+  ],
+  "unsupported_channels": [],
+  "limit": 16,
+  "per_channel": 2,
+  "dry_run": false,
+  "allow_proposed": false,
+  "published_or_attempted": 0,
+  "blocked_seen": 457,
+  "results": [],
+  "blocked_sample": [
+    {
+      "id": "20260605-142309-896314:synido-livedock-directo:respuesta_youtube:youtube:1780670539650",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260605-142309-896314:synido-livedock-directo:post_x:x:1780670534418",
+      "channel": "x",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260605-142309-896314:bateria-electronica-para-departamento:respuesta_youtube:youtube:1780670211214",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260605-142309-896314:bateria-electronica-para-departamento:post_x:x:1780670205959",
+      "channel": "x",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260605-142309-896314:controlador-midi-synido-tempokey-25-escritorio:respuesta_youtube:youtube:1780669561107",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260605-144437-328100:instagram:auto-listen:1",
+      "channel": "instagram",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260605-144437-328100:instagram:auto-listen:0",
+      "channel": "instagram",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260605-142043-189219:controlador-midi-synido-tempokey-25-escritorio:respuesta_youtube:youtube:1780669420984",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260605-141133-162384:youtube:auto-listen:3",
+      "channel": "youtube",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260605-141133-162384:youtube:auto-listen:2",
+      "channel": "youtube",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    }
+  ]
+}

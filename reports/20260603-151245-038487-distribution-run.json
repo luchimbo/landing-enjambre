@@ -1,0 +1,324 @@
+{
+  "timestamp_utc": "20260603-151245-038487",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260603-150742-561740",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 57,
+  "pieces_blocked": 3,
+  "proposed": [
+    {
+      "slug": "controlador-midi-synido-tempokey-25-ableton",
+      "type": "respuesta_tecnica",
+      "title": "Controlador MIDI Synido TempoKEY 25: Compacto y Versátil"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-ableton",
+      "type": "post_educativo",
+      "title": "Controlador MIDI Synido TempoKEY 25: Compacto y Versátil"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-ableton",
+      "type": "snippet_social",
+      "title": "Controlador MIDI Synido TempoKEY 25: Compacto y Versátil"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-ableton",
+      "type": "post_social",
+      "title": "Controlador MIDI Synido TempoKEY 25: Compacto y Versátil"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-ableton",
+      "type": "post_x",
+      "title": "Controlador MIDI Synido TempoKEY 25: Compacto y Versátil"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-ableton",
+      "type": "respuesta_youtube",
+      "title": "Controlador MIDI Synido TempoKEY 25: Compacto y Versátil"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-fl-studio",
+      "type": "respuesta_tecnica",
+      "title": "Controlador MIDI Synido TempoKEY 25: Ideal para FL Studio"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-fl-studio",
+      "type": "post_educativo",
+      "title": "Controlador MIDI Synido TempoKEY 25: Tu aliado en FL Studio"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-fl-studio",
+      "type": "snippet_social",
+      "title": "Controlador MIDI Synido TempoKEY 25: Ideal para FL Studio"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-fl-studio",
+      "type": "post_social",
+      "title": "Controlador MIDI Synido TempoKEY 25: Ideal para FL Studio"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-fl-studio",
+      "type": "post_x",
+      "title": "Controlador MIDI Synido TempoKEY 25: Ideal para FL Studio"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-fl-studio",
+      "type": "respuesta_youtube",
+      "title": "Controlador MIDI Synido TempoKEY 25: Ideal para FL Studio"
+    },
+    {
+      "slug": "microfono-para-podcast-con-invitado",
+      "type": "respuesta_tecnica",
+      "title": "Los mejores micrófonos para grabar podcasts con invitados"
+    },
+    {
+      "slug": "microfono-para-podcast-con-invitado",
+      "type": "post_educativo",
+      "title": "Los mejores micrófonos para grabar podcasts con invitados"
+    },
+    {
+      "slug": "microfono-para-podcast-con-invitado",
+      "type": "snippet_social",
+      "title": "Los mejores micrófonos para grabar podcasts con invitados"
+    },
+    {
+      "slug": "microfono-para-podcast-con-invitado",
+      "type": "post_social",
+      "title": "Los mejores micrófonos para grabar podcasts con invitados"
+    },
+    {
+      "slug": "microfono-para-podcast-con-invitado",
+      "type": "post_x",
+      "title": "Los mejores micrófonos para grabar podcasts con invitados"
+    },
+    {
+      "slug": "microfono-para-podcast-con-invitado",
+      "type": "respuesta_youtube",
+      "title": "Los mejores micrófonos para grabar podcasts con invitados"
+    },
+    {
+      "slug": "microfono-para-locucion-en-casa",
+      "type": "respuesta_tecnica",
+      "title": "Los mejores micrófonos para locución en casa"
+    },
+    {
+      "slug": "microfono-para-locucion-en-casa",
+      "type": "post_educativo",
+      "title": "Los mejores micrófonos para locución en casa"
+    },
+    {
+      "slug": "microfono-para-locucion-en-casa",
+      "type": "snippet_social",
+      "title": "Los mejores micrófonos para locución en casa"
+    },
+    {
+      "slug": "microfono-para-locucion-en-casa",
+      "type": "post_social",
+      "title": "Los mejores micrófonos para locución en casa"
+    },
+    {
+      "slug": "microfono-para-locucion-en-casa",
+      "type": "post_x",
+      "title": "Los mejores micrófonos para locución en casa"
+    },
+    {
+      "slug": "microfono-para-locucion-en-casa",
+      "type": "respuesta_youtube",
+      "title": "Los mejores micrófonos para locución en casa"
+    },
+    {
+      "slug": "microfono-para-grabar-reels",
+      "type": "respuesta_tecnica",
+      "title": "Guía para elegir el micrófono ideal para tus reels"
+    },
+    {
+      "slug": "microfono-para-grabar-reels",
+      "type": "post_educativo",
+      "title": "Encuentra el micrófono perfecto para tus reels"
+    },
+    {
+      "slug": "microfono-para-grabar-reels",
+      "type": "snippet_social",
+      "title": "Encuentra el micrófono perfecto para tus reels"
+    },
+    {
+      "slug": "microfono-para-grabar-reels",
+      "type": "post_social",
+      "title": "Encuentra el micrófono perfecto para tus reels"
+    },
+    {
+      "slug": "microfono-para-grabar-reels",
+      "type": "post_x",
+      "title": "Encuentra el micrófono perfecto para tus reels"
+    },
+    {
+      "slug": "microfono-para-grabar-reels",
+      "type": "respuesta_youtube",
+      "title": "Encuentra el micrófono perfecto para grabar tus reels"
+    },
+    {
+      "slug": "microfono-para-clases-online",
+      "type": "respuesta_tecnica",
+      "title": "Elige el micrófono perfecto para tus clases online"
+    },
+    {
+      "slug": "microfono-para-clases-online",
+      "type": "post_educativo",
+      "title": "Elige el micrófono perfecto para tus clases online"
+    },
+    {
+      "slug": "microfono-para-clases-online",
+      "type": "snippet_social",
+      "title": "Elige el micrófono perfecto para tus clases online"
+    },
+    {
+      "slug": "microfono-para-clases-online",
+      "type": "post_social",
+      "title": "Elige el micrófono perfecto para tus clases online"
+    },
+    {
+      "slug": "microfono-para-clases-online",
+      "type": "post_x",
+      "title": "Elige el micrófono perfecto para tus clases online"
+    },
+    {
+      "slug": "microfono-para-clases-online",
+      "type": "respuesta_youtube",
+      "title": "Elige el micrófono perfecto para tus clases online"
+    },
+    {
+      "slug": "microfono-para-cantar-en-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "El micrófono perfecto para tu home studio"
+    },
+    {
+      "slug": "microfono-para-cantar-en-home-studio",
+      "type": "post_educativo",
+      "title": "El micrófono perfecto para tu home studio"
+    },
+    {
+      "slug": "microfono-para-cantar-en-home-studio",
+      "type": "snippet_social",
+      "title": "El micrófono perfecto para tu home studio"
+    },
+    {
+      "slug": "microfono-para-cantar-en-home-studio",
+      "type": "post_social",
+      "title": "El micrófono perfecto para tu home studio"
+    },
+    {
+      "slug": "microfono-para-cantar-en-home-studio",
+      "type": "post_x",
+      "title": "El micrófono perfecto para tu home studio"
+    },
+    {
+      "slug": "microfono-para-cantar-en-home-studio",
+      "type": "respuesta_youtube",
+      "title": "El micrófono ideal para grabar voces en tu home studio"
+    },
+    {
+      "slug": "interfaz-de-audio-para-dos-microfonos",
+      "type": "respuesta_tecnica",
+      "title": "La Interfaz de Audio Perfecta para Tu Podcast"
+    },
+    {
+      "slug": "interfaz-de-audio-para-dos-microfonos",
+      "type": "post_educativo",
+      "title": "La Interfaz de Audio Perfecta para Tu Podcast"
+    },
+    {
+      "slug": "interfaz-de-audio-para-dos-microfonos",
+      "type": "snippet_social",
+      "title": "La Interfaz de Audio Perfecta para Tu Podcast"
+    },
+    {
+      "slug": "interfaz-de-audio-para-dos-microfonos",
+      "type": "post_social",
+      "title": "La Interfaz de Audio Ideal para Tu Podcast con Invitados"
+    },
+    {
+      "slug": "interfaz-de-audio-para-dos-microfonos",
+      "type": "post_x",
+      "title": "La Interfaz de Audio Ideal para Tu Podcast con Invitados"
+    },
+    {
+      "slug": "interfaz-de-audio-para-dos-microfonos",
+      "type": "respuesta_youtube",
+      "title": "La Interfaz de Audio Ideal para Grabar Podcasts con Invitados"
+    },
+    {
+      "slug": "interfaz-de-audio-para-bajo-electrico",
+      "type": "respuesta_tecnica",
+      "title": "Elegir la interfaz de audio ideal para tu bajo eléctrico"
+    },
+    {
+      "slug": "interfaz-de-audio-para-bajo-electrico",
+      "type": "post_x",
+      "title": "La mejor interfaz de audio para tu bajo eléctrico"
+    },
+    {
+      "slug": "interfaz-de-audio-para-bajo-electrico",
+      "type": "respuesta_youtube",
+      "title": "La mejor interfaz de audio para tu bajo eléctrico"
+    },
+    {
+      "slug": "interfaz-de-audio-para-teclado-y-voz",
+      "type": "respuesta_tecnica",
+      "title": "Elige la Interfaz de Audio Perfecta para Tu Setup"
+    },
+    {
+      "slug": "interfaz-de-audio-para-teclado-y-voz",
+      "type": "post_educativo",
+      "title": "Elige la Interfaz de Audio Perfecta para Tu Setup"
+    },
+    {
+      "slug": "interfaz-de-audio-para-teclado-y-voz",
+      "type": "snippet_social",
+      "title": "Elige la Interfaz de Audio Perfecta para Tu Setup"
+    },
+    {
+      "slug": "interfaz-de-audio-para-teclado-y-voz",
+      "type": "post_social",
+      "title": "Elige la Interfaz de Audio Perfecta para Tu Setup"
+    },
+    {
+      "slug": "interfaz-de-audio-para-teclado-y-voz",
+      "type": "post_x",
+      "title": "Elige la Interfaz de Audio Perfecta para Tu Setup"
+    },
+    {
+      "slug": "interfaz-de-audio-para-teclado-y-voz",
+      "type": "respuesta_youtube",
+      "title": "Elige la Interfaz de Audio Perfecta para Tu Setup"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "interfaz-de-audio-para-bajo-electrico",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "interfaz-de-audio-para-bajo-electrico",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "interfaz-de-audio-para-bajo-electrico",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 302.48
+}

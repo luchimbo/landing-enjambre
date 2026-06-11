@@ -1,0 +1,7 @@
+{
+  "timestamp_utc": "20260522-145530-044107",
+  "command": "rollback",
+  "status": "pending_backup_restore",
+  "reason": "Existen manifests auditables, pero no backup fisico restaurable configurado.",
+  "latest_previous_manifest": "D:\\AgentesGuille\\reports\\20260522-145514-980309-site-previous-manifest.json"
+}

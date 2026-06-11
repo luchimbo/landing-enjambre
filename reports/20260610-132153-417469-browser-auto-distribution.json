@@ -1,0 +1,271 @@
+{
+  "timestamp_utc": "20260610-132153-417469",
+  "command": "auto-distribution",
+  "channels": [
+    "facebook",
+    "instagram",
+    "x",
+    "youtube"
+  ],
+  "unsupported_channels": [],
+  "limit": 25,
+  "per_channel": 2,
+  "dry_run": false,
+  "allow_proposed": false,
+  "published_or_attempted": 6,
+  "blocked_seen": 805,
+  "results": [
+    {
+      "id": "20260610-130552-973147:arturia-minifreak-vs-microfreak-creadores-contenido:respuesta_youtube:youtube:1781097043680",
+      "channel": "youtube",
+      "slug": "arturia-minifreak-vs-microfreak-creadores-contenido",
+      "result": {
+        "ok": false,
+        "error": "YouTube requiere source_thread_url de un video"
+      }
+    },
+    {
+      "id": "20260610-130552-973147:arturia-minifreak-vs-microfreak-creadores-contenido:post_x:x:1781097039903",
+      "channel": "x",
+      "slug": "arturia-minifreak-vs-microfreak-creadores-contenido",
+      "result": {
+        "ok": false,
+        "url": "https://x.com/compose/post",
+        "dismissed": [],
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "postear",
+            "tweet"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260610-130552-973147:arturia-minifreak-vs-microfreak-creadores-contenido:post_social:facebook:1781097036806",
+      "channel": "facebook",
+      "slug": "arturia-minifreak-vs-microfreak-creadores-contenido",
+      "result": {
+        "ok": false,
+        "url": "https://www.facebook.com/",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "¿qué estás pensando",
+            "what's on your mind",
+            "crear publicación"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "publicar"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260610-130552-973147:arturia-minifreak-vs-microfreak-creadores-contenido:snippet_social:social:1781097031955",
+      "channel": "facebook",
+      "slug": "arturia-minifreak-vs-microfreak-creadores-contenido",
+      "result": {
+        "ok": false,
+        "url": "https://www.facebook.com/",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "¿qué estás pensando",
+            "what's on your mind",
+            "crear publicación"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "publicar"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260610-130552-973147:arturia-minifreak-vs-microfreak-creadores-contenido:snippet_social:social:1781097031955",
+      "channel": "x",
+      "slug": "arturia-minifreak-vs-microfreak-creadores-contenido",
+      "result": {
+        "ok": false,
+        "url": "https://x.com/compose/post",
+        "dismissed": [],
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "postear",
+            "tweet"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260610-130552-973147:auriculares-cerrados-grabar-voces-interfaz-audio:respuesta_youtube:youtube:1781097015376",
+      "channel": "youtube",
+      "slug": "auriculares-cerrados-grabar-voces-interfaz-audio",
+      "result": {
+        "ok": false,
+        "error": "YouTube requiere source_thread_url de un video"
+      }
+    }
+  ],
+  "blocked_sample": [
+    {
+      "id": "20260610-132013-045188:youtube:auto-listen:1",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260610-132013-045188:youtube:auto-listen:0",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260610-125315-761085:microfono-usb-para-podcast-youtube:respuesta_youtube:youtube:1781096144459",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260610-125315-761085:microfono-usb-para-podcast-youtube:post_x:x:1781096139341",
+      "channel": "x",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260610-125315-761085:microfono-usb-para-podcast-youtube:post_social:facebook:1781096136697",
+      "channel": "facebook",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260610-125315-761085:microfono-usb-para-podcast-youtube:snippet_social:social:1781096132849",
+      "channel": "facebook",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260610-125315-761085:microfono-usb-para-podcast-youtube:snippet_social:social:1781096132849",
+      "channel": "x",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260610-125315-761085:microfono-usb-para-podcast-sin-interfaz-15:respuesta_youtube:youtube:1781096112562",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260610-123803-286047:youtube:auto-listen:26",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260610-123803-286047:youtube:auto-listen:25",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    }
+  ]
+}

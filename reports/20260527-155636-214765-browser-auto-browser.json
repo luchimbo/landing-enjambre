@@ -1,0 +1,30 @@
+{
+  "timestamp_utc": "20260527-155636-214765",
+  "command": "auto-browser",
+  "task_path": "D:\\AgentesGuille\\data\\auto_browser_youtube_like_fix.json",
+  "task_hash": "92ca5b69e4e83e943949180f2622c3815f875aeca940557bbaa7f342d33c2d21",
+  "dry_run": false,
+  "actions": 2,
+  "results": [
+    {
+      "index": 1,
+      "type": "navigate",
+      "result": {
+        "ok": true,
+        "url": "https://www.youtube.com/watch?v=GPVLFMJQYDQ"
+      }
+    },
+    {
+      "index": 2,
+      "type": "eval",
+      "result": {
+        "ok": true,
+        "value": {
+          "ok": false,
+          "error": "like positivo no encontrado"
+        }
+      }
+    }
+  ],
+  "extracts": {}
+}

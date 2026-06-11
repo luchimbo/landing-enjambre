@@ -1,0 +1,470 @@
+{
+  "timestamp_utc": "20260527-180505-636649",
+  "command": "auto-browser",
+  "task_path": "D:\\AgentesGuille\\data\\auto_browser_inspect_youtube_comments.json",
+  "task_hash": "8f7b3f92f55f724e750206c3e043941dd8657b201d9cdd8e1b7647b57dfbc06e",
+  "dry_run": false,
+  "actions": 2,
+  "results": [
+    {
+      "index": 1,
+      "type": "navigate",
+      "result": {
+        "ok": true,
+        "url": "https://www.youtube.com/watch?v=GPVLFMJQYDQ"
+      }
+    },
+    {
+      "index": 2,
+      "type": "eval",
+      "result": {
+        "ok": true,
+        "value": [
+          {
+            "tag": "BUTTON",
+            "id": "button",
+            "role": null,
+            "aria": "Guía",
+            "text": "",
+            "rect": {
+              "w": 24,
+              "h": 24,
+              "x": 24,
+              "y": 16
+            }
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "role": null,
+            "aria": "Search",
+            "text": "",
+            "rect": {
+              "w": 64,
+              "h": 40,
+              "x": 593,
+              "y": 8
+            }
+          },
+          {
+            "tag": "BUTTON",
+            "id": "button",
+            "role": null,
+            "aria": null,
+            "text": "",
+            "rect": {
+              "w": 24,
+              "h": 24,
+              "x": -216,
+              "y": 16
+            }
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "role": null,
+            "aria": "Pausa (k)",
+            "text": "",
+            "rect": {
+              "w": 40,
+              "h": 40,
+              "x": 12,
+              "y": -403
+            }
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "role": null,
+            "aria": "Silenciar (m)",
+            "text": "",
+            "rect": {
+              "w": 40,
+              "h": 40,
+              "x": 64,
+              "y": -403
+            }
+          },
+          {
+            "tag": "DIV",
+            "id": "",
+            "role": "button",
+            "aria": "0 minutos 1 segundos de 8 minutos 26 segundos",
+            "text": "0:01 / 8:26",
+            "rect": {
+              "w": 67,
+              "h": 40,
+              "x": 128,
+              "y": -403
+            }
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "role": null,
+            "aria": null,
+            "text": "Intro",
+            "rect": {
+              "w": 79,
+              "h": 40,
+              "x": 219,
+              "y": -403
+            }
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "role": null,
+            "aria": "Reproducción automática activada",
+            "text": "",
+            "rect": {
+              "w": 48,
+              "h": 40,
+              "x": 658,
+              "y": -403
+            }
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "role": null,
+            "aria": "Subtítulos no disponibles",
+            "text": "",
+            "rect": {
+              "w": 48,
+              "h": 40,
+              "x": 706,
+              "y": -403
+            }
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "role": null,
+            "aria": "Configuración",
+            "text": "",
+            "rect": {
+              "w": 48,
+              "h": 40,
+              "x": 754,
+              "y": -403
+            }
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "role": null,
+            "aria": "Modo cine (t)",
+            "text": "",
+            "rect": {
+              "w": 48,
+              "h": 40,
+              "x": 802,
+              "y": -403
+            }
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "role": null,
+            "aria": "Pantalla completa (f)",
+            "text": "",
+            "rect": {
+              "w": 48,
+              "h": 40,
+              "x": 850,
+              "y": -403
+            }
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "role": null,
+            "aria": "Únete a este canal",
+            "text": "Unirse",
+            "rect": {
+              "w": 72,
+              "h": 36,
+              "x": 219,
+              "y": -304
+            }
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "role": null,
+            "aria": "Suscribirme a Eric Kauffmann.",
+            "text": "Suscribirse",
+            "rect": {
+              "w": 102,
+              "h": 36,
+              "x": 300,
+              "y": -304
+            }
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "role": null,
+            "aria": "Con la configuración actual, se reciben notificaciones personalizadas. Presiona para cambiar la configuración de notificaciones de Eric Kauffmann",
+            "text": "Suscrito",
+            "rect": {
+              "w": 132,
+              "h": 36,
+              "x": 300,
+              "y": -268
+            }
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "role": null,
+            "aria": null,
+            "text": "",
+            "rect": {
+              "w": 36,
+              "h": 36,
+              "x": 412,
+              "y": -304
+            }
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "role": null,
+            "aria": "poner Me gusta en este video, al igual que 689 personas más",
+            "text": "689",
+            "rect": {
+              "w": 80,
+              "h": 36,
+              "x": 639,
+              "y": -304
+            }
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "role": null,
+            "aria": "Marcar “No me gusta” en el video",
+            "text": "",
+            "rect": {
+              "w": 52,
+              "h": 36,
+              "x": 719,
+              "y": -304
+            }
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "role": null,
+            "aria": "Compartir",
+            "text": "Compartir",
+            "rect": {
+              "w": 119,
+              "h": 36,
+              "x": 779,
+              "y": -304
+            }
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "role": null,
+            "aria": "Preguntar",
+            "text": "Preguntar",
+            "rect": {
+              "w": 118,
+              "h": 36,
+              "x": 622,
+              "y": -264
+            }
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "role": null,
+            "aria": "Guardar en una playlist",
+            "text": "Guardar",
+            "rect": {
+              "w": 106,
+              "h": 36,
+              "x": 748,
+              "y": -264
+            }
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "role": null,
+            "aria": "Más acciones",
+            "text": "",
+            "rect": {
+              "w": 36,
+              "h": 36,
+              "x": 862,
+              "y": -264
+            }
+          },
+          {
+            "tag": "TP-YT-PAPER-BUTTON",
+            "id": "expand-sizer",
+            "role": "button",
+            "aria": null,
+            "text": "...más",
+            "rect": {
+              "w": 40,
+              "h": 20,
+              "x": 609,
+              "y": -180
+            }
+          },
+          {
+            "tag": "TP-YT-PAPER-BUTTON",
+            "id": "expand",
+            "role": "button",
+            "aria": null,
+            "text": "...más",
+            "rect": {
+              "w": 40,
+              "h": 20,
+              "x": 609,
+              "y": -180
+            }
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "role": "tab",
+            "aria": null,
+            "text": "Todos",
+            "rect": {
+              "w": 63,
+              "h": 32,
+              "x": 16,
+              "y": -124
+            }
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "role": "tab",
+            "aria": null,
+            "text": "De Eric Kauffmann",
+            "rect": {
+              "w": 141,
+              "h": 32,
+              "x": 87,
+              "y": -124
+            }
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "role": "tab",
+            "aria": null,
+            "text": "Novation",
+            "rect": {
+              "w": 80,
+              "h": 32,
+              "x": 235,
+              "y": -124
+            }
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "role": "tab",
+            "aria": null,
+            "text": "FL Studio",
+            "rect": {
+              "w": 83,
+              "h": 32,
+              "x": 323,
+              "y": -124
+            }
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "role": null,
+            "aria": "Siguiente",
+            "text": "",
+            "rect": {
+              "w": 40,
+              "h": 40,
+              "x": 854,
+              "y": -127
+            }
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "role": null,
+            "aria": "Más acciones",
+            "text": "",
+            "rect": {
+              "w": 36,
+              "h": 36,
+              "x": 273,
+              "y": 80
+            }
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "role": null,
+            "aria": "Más acciones",
+            "text": "",
+            "rect": {
+              "w": 36,
+              "h": 36,
+              "x": 573,
+              "y": 88
+            }
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "role": null,
+            "aria": "Más acciones",
+            "text": "",
+            "rect": {
+              "w": 36,
+              "h": 36,
+              "x": 872,
+              "y": 88
+            }
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "role": null,
+            "aria": "Más acciones",
+            "text": "",
+            "rect": {
+              "w": 36,
+              "h": 36,
+              "x": 273,
+              "y": 339
+            }
+          },
+          {
+            "tag": "YTD-COMMENTS",
+            "id": "comments",
+            "role": null,
+            "aria": null,
+            "text": "Comentarios",
+            "rect": {
+              "w": 882,
+              "h": 504,
+              "x": 16,
+              "y": 413
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "extracts": {}
+}

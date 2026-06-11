@@ -1,0 +1,350 @@
+{
+  "timestamp_utc": "20260609-131640-034510",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260609-130952-995161",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 44,
+  "pieces_blocked": 16,
+  "proposed": [
+    {
+      "slug": "midiplus-studio-m-home-studio-12",
+      "type": "respuesta_tecnica",
+      "title": "MIDIPLUS Studio M: Una Opción Económica para tu Home Studio"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-12",
+      "type": "post_educativo",
+      "title": "MIDIPLUS Studio M: La Interfaz de Audio Ideal para Tu Home Studio"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-12",
+      "type": "snippet_social",
+      "title": "MIDIPLUS Studio M: Tu Interfaz de Audio Ideal para Home Studio"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-12",
+      "type": "post_social",
+      "title": "MIDIPLUS Studio M: La Interfaz Ideal para Tu Home Studio"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-12",
+      "type": "post_x",
+      "title": "MIDIPLUS Studio M: Ideal para tu Home Studio"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-12",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS Studio M: Ideal para tu Home Studio"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-guitarra",
+      "type": "post_educativo",
+      "title": "MIDIPLUS Studio M: Tu Compañera Ideal para Grabar Guitarra"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-guitarra",
+      "type": "snippet_social",
+      "title": "MIDIPLUS Studio M: Ideal para Grabar Guitarra en tu Home Studio"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-guitarra",
+      "type": "post_social",
+      "title": "MIDIPLUS Studio M: Graba tu Guitarra como un Pro 🎸"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-guitarra",
+      "type": "post_x",
+      "title": "MIDIPLUS Studio M: Ideal para Grabar Guitarra en Tu Home Studio"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-guitarra",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS Studio M: Ideal para Grabar Guitarra en Casa"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-conectar-monitores",
+      "type": "respuesta_tecnica",
+      "title": "Conecta tus monitores con la MIDIPLUS Studio M en tu home studio"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-conectar-monitores",
+      "type": "post_educativo",
+      "title": "Conecta tus monitores con la MIDIPLUS Studio M"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-conectar-monitores",
+      "type": "snippet_social",
+      "title": "Conecta tus monitores con la MIDIPLUS Studio M"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-conectar-monitores",
+      "type": "post_social",
+      "title": "Conecta tus monitores con la MIDIPLUS Studio M"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-conectar-monitores",
+      "type": "post_x",
+      "title": "Conecta tus monitores con la MIDIPLUS Studio M"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-conectar-monitores",
+      "type": "respuesta_youtube",
+      "title": "Conecta tus monitores con la MIDIPLUS Studio M"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-cuarto-chico",
+      "type": "post_educativo",
+      "title": "Monitores Midiplus MS5: Sonido Profesional en Espacios Reducidos"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-cuarto-chico",
+      "type": "post_social",
+      "title": "Monitores Midiplus MS5: Sonido Profesional en Espacios Reducidos"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-cuarto-chico",
+      "type": "post_x",
+      "title": "Monitores Midiplus MS5: Sonido Profesional en Espacios Reducidos"
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-setup-portable",
+      "type": "post_social",
+      "title": "Monitores Midiplus MS6: Sonido Profesional en Casa"
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-setup-portable",
+      "type": "post_x",
+      "title": "Monitores Midiplus MS6: Sonido Profesional en Casa"
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-audio",
+      "type": "post_x",
+      "title": "Transforma tu home studio con los monitores Midiplus MS6"
+    },
+    {
+      "slug": "monitores-compactos-escritorio-editar-video",
+      "type": "respuesta_tecnica",
+      "title": "Monitores Compactos para tu Escritorio: Guía de Selección"
+    },
+    {
+      "slug": "monitores-compactos-escritorio-editar-video",
+      "type": "post_educativo",
+      "title": "Monitores Compactos para tu Escritorio: Guía para Editar Video"
+    },
+    {
+      "slug": "monitores-compactos-escritorio-editar-video",
+      "type": "snippet_social",
+      "title": "Monitores Compactos para tu Escritorio: Midiplus MI3 y Más"
+    },
+    {
+      "slug": "monitores-compactos-escritorio-editar-video",
+      "type": "post_social",
+      "title": "Monitores Compactos para tu Escritorio"
+    },
+    {
+      "slug": "monitores-compactos-escritorio-editar-video",
+      "type": "post_x",
+      "title": "Monitores Compactos para tu Escritorio"
+    },
+    {
+      "slug": "monitores-compactos-escritorio-editar-video",
+      "type": "respuesta_youtube",
+      "title": "Monitores Compactos para Edición de Video en Espacios Reducidos"
+    },
+    {
+      "slug": "home-studio-principiantes-grabar-voces",
+      "type": "respuesta_tecnica",
+      "title": "Arma tu Home Studio para Grabar Voces: Guía para Principiantes"
+    },
+    {
+      "slug": "home-studio-principiantes-grabar-voces",
+      "type": "post_educativo",
+      "title": "Arma tu Home Studio para Grabar Voces de Forma Efectiva"
+    },
+    {
+      "slug": "home-studio-principiantes-grabar-voces",
+      "type": "snippet_social",
+      "title": "Arma tu Home Studio para Grabar Voces"
+    },
+    {
+      "slug": "home-studio-principiantes-grabar-voces",
+      "type": "post_social",
+      "title": "Arma tu Home Studio para Grabar Voces"
+    },
+    {
+      "slug": "home-studio-principiantes-grabar-voces",
+      "type": "post_x",
+      "title": "Arma tu Home Studio para Grabar Voces"
+    },
+    {
+      "slug": "home-studio-principiantes-grabar-voces",
+      "type": "respuesta_youtube",
+      "title": "Arma tu Home Studio para Grabar Voces de Forma Efectiva"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-departamento",
+      "type": "post_social",
+      "title": "MiniFreak vs MicroFreak: ¿Cuál elegir para tu departamento?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-departamento",
+      "type": "post_x",
+      "title": "MiniFreak vs MicroFreak: ¿Cuál elegir para tu departamento?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-departamento",
+      "type": "respuesta_youtube",
+      "title": "MiniFreak vs MicroFreak: ¿Cuál es mejor para tu departamento?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-comparativa",
+      "type": "respuesta_tecnica",
+      "title": "MiniFreak vs MicroFreak: Comparativa de Sintetizadores Arturia"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-comparativa",
+      "type": "post_educativo",
+      "title": "MiniFreak vs MicroFreak: ¿Cuál sintetizador de Arturia elegir?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-comparativa",
+      "type": "snippet_social",
+      "title": "MiniFreak vs MicroFreak: Comparativa de Sintetizadores Arturia"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-comparativa",
+      "type": "post_social",
+      "title": "MiniFreak vs MicroFreak: ¿Cuál elegir?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-comparativa",
+      "type": "post_x",
+      "title": "MiniFreak vs MicroFreak: ¿Cuál es el mejor sintetizador de Arturia?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-comparativa",
+      "type": "respuesta_youtube",
+      "title": "MiniFreak vs MicroFreak: Comparativa de Sintetizadores Arturia"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "midiplus-studio-m-home-studio-guitarra",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-cuarto-chico",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-cuarto-chico",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-cuarto-chico",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-setup-portable",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-setup-portable",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-setup-portable",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-setup-portable",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-audio",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-audio",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-audio",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-audio",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-audio",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-departamento",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-departamento",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-departamento",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 407.04
+}

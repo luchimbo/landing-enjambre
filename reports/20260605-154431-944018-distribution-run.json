@@ -1,0 +1,408 @@
+{
+  "timestamp_utc": "20260605-154431-944018",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260605-153801-523200",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 12,
+  "pieces_proposed": 57,
+  "pieces_blocked": 15,
+  "proposed": [
+    {
+      "slug": "auriculares-cerrados-grabar-voces-departamento",
+      "type": "respuesta_tecnica",
+      "title": "Auriculares Cerrados para Grabaciones en Casa"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-departamento",
+      "type": "post_educativo",
+      "title": "Auriculares Cerrados para Grabaciones en Casa: Claves para Evitar el Bleed"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-departamento",
+      "type": "snippet_social",
+      "title": "Auriculares Cerrados para Grabaciones en Casa"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-departamento",
+      "type": "post_social",
+      "title": "Auriculares Cerrados: Clave para Grabar Voces en Casa"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-departamento",
+      "type": "post_x",
+      "title": "Auriculares Cerrados para Grabaciones en Casa"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-departamento",
+      "type": "respuesta_youtube",
+      "title": "Auriculares Cerrados: Clave para Grabar Voces en Casa"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-streaming",
+      "type": "respuesta_tecnica",
+      "title": "Auriculares Cerrados para Grabación de Voces en Streaming"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-streaming",
+      "type": "post_educativo",
+      "title": "Auriculares Cerrados para Grabación de Voces en Streaming"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-streaming",
+      "type": "snippet_social",
+      "title": "Auriculares Cerrados para Grabación de Voces en Streaming"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-streaming",
+      "type": "post_social",
+      "title": "Auriculares Cerrados: Clave para Grabar Voces en Streaming"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-streaming",
+      "type": "post_x",
+      "title": "Auriculares Cerrados para Grabación de Voces en Streaming"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-streaming",
+      "type": "respuesta_youtube",
+      "title": "Auriculares Cerrados para Grabación de Voces en Streaming"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-casa",
+      "type": "respuesta_tecnica",
+      "title": "Los Mejores Auriculares Cerrados para Grabar Voces en Casa"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-casa",
+      "type": "post_educativo",
+      "title": "Los Mejores Auriculares Cerrados para Grabar Voces en Casa"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-casa",
+      "type": "snippet_social",
+      "title": "Los Mejores Auriculares Cerrados para Grabar Voces en Casa"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-casa",
+      "type": "post_social",
+      "title": "Los Mejores Auriculares Cerrados para Grabar Voces en Casa"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-casa",
+      "type": "post_x",
+      "title": "Los Mejores Auriculares Cerrados para Grabar Voces en Casa"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-casa",
+      "type": "respuesta_youtube",
+      "title": "Los Mejores Auriculares Cerrados para Grabar Voces en Casa"
+    },
+    {
+      "slug": "que-comprar-para-sintetizador-para-aprender-sintesis",
+      "type": "snippet_social",
+      "title": "Elige el sintetizador ideal para comenzar tu viaje musical"
+    },
+    {
+      "slug": "que-comprar-para-sintetizador-para-aprender-sintesis",
+      "type": "post_x",
+      "title": "Elige el sintetizador ideal para comenzar tu viaje musical"
+    },
+    {
+      "slug": "que-comprar-para-sintetizador-para-aprender-sintesis",
+      "type": "respuesta_youtube",
+      "title": "Elige el sintetizador ideal para comenzar tu viaje musical"
+    },
+    {
+      "slug": "setup-sintetizador-aprender-sintesis",
+      "type": "respuesta_tecnica",
+      "title": "Arma tu primer setup con sintetizador"
+    },
+    {
+      "slug": "setup-sintetizador-aprender-sintesis",
+      "type": "post_educativo",
+      "title": "Arma tu primer setup con sintetizador"
+    },
+    {
+      "slug": "setup-sintetizador-aprender-sintesis",
+      "type": "snippet_social",
+      "title": "Arma tu primer setup con sintetizador"
+    },
+    {
+      "slug": "setup-sintetizador-aprender-sintesis",
+      "type": "post_social",
+      "title": "Arma tu primer setup con sintetizador y empieza a crear música"
+    },
+    {
+      "slug": "setup-sintetizador-aprender-sintesis",
+      "type": "post_x",
+      "title": "Arma tu primer setup con sintetizador"
+    },
+    {
+      "slug": "setup-sintetizador-aprender-sintesis",
+      "type": "respuesta_youtube",
+      "title": "Arma tu primer setup con sintetizador"
+    },
+    {
+      "slug": "sintetizador-para-principiantes-aprendizaje",
+      "type": "respuesta_tecnica",
+      "title": "Sintetizadores ideales para principiantes en síntesis"
+    },
+    {
+      "slug": "sintetizador-para-principiantes-aprendizaje",
+      "type": "post_educativo",
+      "title": "Sintetizadores perfectos para principiantes en síntesis"
+    },
+    {
+      "slug": "sintetizador-para-principiantes-aprendizaje",
+      "type": "snippet_social",
+      "title": "Sintetizadores perfectos para principiantes en síntesis"
+    },
+    {
+      "slug": "sintetizador-para-principiantes-aprendizaje",
+      "type": "post_social",
+      "title": "Sintetizadores ideales para principiantes en síntesis"
+    },
+    {
+      "slug": "sintetizador-para-principiantes-aprendizaje",
+      "type": "post_x",
+      "title": "Sintetizadores ideales para principiantes en síntesis"
+    },
+    {
+      "slug": "sintetizador-para-principiantes-aprendizaje",
+      "type": "respuesta_youtube",
+      "title": "Sintetizadores ideales para principiantes en síntesis"
+    },
+    {
+      "slug": "que-comprar-para-bateria-electronica-para-departamento",
+      "type": "respuesta_tecnica",
+      "title": "Baterías Electrónicas Perfectas para tu Departamento"
+    },
+    {
+      "slug": "que-comprar-para-bateria-electronica-para-departamento",
+      "type": "post_educativo",
+      "title": "Baterías Electrónicas Perfectas para tu Departamento"
+    },
+    {
+      "slug": "que-comprar-para-bateria-electronica-para-departamento",
+      "type": "snippet_social",
+      "title": "Baterías Electrónicas Perfectas para tu Departamento"
+    },
+    {
+      "slug": "que-comprar-para-bateria-electronica-para-departamento",
+      "type": "post_social",
+      "title": "Baterías Electrónicas Perfectas para tu Departamento"
+    },
+    {
+      "slug": "que-comprar-para-bateria-electronica-para-departamento",
+      "type": "post_x",
+      "title": "Baterías Electrónicas Perfectas para tu Departamento"
+    },
+    {
+      "slug": "que-comprar-para-bateria-electronica-para-departamento",
+      "type": "respuesta_youtube",
+      "title": "Baterías Electrónicas Perfectas para tu Departamento"
+    },
+    {
+      "slug": "setup-bateria-electronica-departamento",
+      "type": "respuesta_tecnica",
+      "title": "Arma tu setup de batería electrónica para practicar en casa"
+    },
+    {
+      "slug": "setup-bateria-electronica-departamento",
+      "type": "post_educativo",
+      "title": "Arma tu setup de batería electrónica para practicar en casa"
+    },
+    {
+      "slug": "setup-bateria-electronica-departamento",
+      "type": "snippet_social",
+      "title": "Arma tu setup de batería electrónica para practicar en casa"
+    },
+    {
+      "slug": "setup-bateria-electronica-departamento",
+      "type": "post_social",
+      "title": "Arma tu setup de batería electrónica para practicar en casa"
+    },
+    {
+      "slug": "setup-bateria-electronica-departamento",
+      "type": "post_x",
+      "title": "Arma tu setup de batería electrónica para practicar en casa"
+    },
+    {
+      "slug": "setup-bateria-electronica-departamento",
+      "type": "respuesta_youtube",
+      "title": "Arma tu setup de batería electrónica para practicar en casa"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-ableton-49",
+      "type": "respuesta_tecnica",
+      "title": "Mejora tu experiencia con Arturia MiniLab 3 en Ableton"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-ableton-49",
+      "type": "post_educativo",
+      "title": "Mejora tu experiencia con Arturia MiniLab 3 en Ableton"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-ableton-49",
+      "type": "snippet_social",
+      "title": "Mejora tu experiencia con Arturia MiniLab 3 en Ableton"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-ableton-49",
+      "type": "post_social",
+      "title": "Mejora tu experiencia con Arturia MiniLab 3 en Ableton"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-ableton-49",
+      "type": "post_x",
+      "title": "Mejora tu experiencia con Arturia MiniLab 3 en Ableton"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-ableton-49",
+      "type": "respuesta_youtube",
+      "title": "Mejora tu experiencia con Arturia MiniLab 3 en Ableton"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-principiantes",
+      "type": "respuesta_tecnica",
+      "title": "Auriculares Cerrados para Grabar Voces sin Interferencias"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-principiantes",
+      "type": "post_educativo",
+      "title": "Auriculares Cerrados para Grabar Voces sin Interferencias"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-principiantes",
+      "type": "snippet_social",
+      "title": "Auriculares Cerrados para Grabar Voces sin Interferencias"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-principiantes",
+      "type": "post_social",
+      "title": "Auriculares Cerrados: Clave para Grabar Voces sin Interferencias"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-principiantes",
+      "type": "post_x",
+      "title": "Auriculares Cerrados para Grabar Voces sin Interferencias"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-principiantes",
+      "type": "respuesta_youtube",
+      "title": "Auriculares Cerrados para Grabar Voces sin Interferencias"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "que-comprar-para-sintetizador-para-aprender-sintesis",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "que-comprar-para-sintetizador-para-aprender-sintesis",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "que-comprar-para-sintetizador-para-aprender-sintesis",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "como-elegir-bateria-electronica-para-departamento",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "como-elegir-bateria-electronica-para-departamento",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "como-elegir-bateria-electronica-para-departamento",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "como-elegir-bateria-electronica-para-departamento",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "como-elegir-bateria-electronica-para-departamento",
+      "type": "post_x",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "como-elegir-bateria-electronica-para-departamento",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "como-elegir-arturia-minilab-3-para-ableton",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "como-elegir-arturia-minilab-3-para-ableton",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "como-elegir-arturia-minilab-3-para-ableton",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "como-elegir-arturia-minilab-3-para-ableton",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "como-elegir-arturia-minilab-3-para-ableton",
+      "type": "post_x",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "como-elegir-arturia-minilab-3-para-ableton",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 390.42
+}

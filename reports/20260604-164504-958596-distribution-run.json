@@ -1,0 +1,382 @@
+{
+  "timestamp_utc": "20260604-164504-958596",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260604-163801-877776",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 12,
+  "pieces_proposed": 70,
+  "pieces_blocked": 2,
+  "proposed": [
+    {
+      "slug": "home-studio-principiantes-interfaz-audio",
+      "type": "respuesta_tecnica",
+      "title": "Crea tu Home Studio: Todo lo que Necesitas"
+    },
+    {
+      "slug": "home-studio-principiantes-interfaz-audio",
+      "type": "post_educativo",
+      "title": "Crea tu Home Studio: Todo lo que Necesitas"
+    },
+    {
+      "slug": "home-studio-principiantes-interfaz-audio",
+      "type": "snippet_social",
+      "title": "Crea tu Home Studio: Todo lo que Necesitas"
+    },
+    {
+      "slug": "home-studio-principiantes-interfaz-audio",
+      "type": "post_social",
+      "title": "Crea tu Home Studio: Todo lo que Necesitas"
+    },
+    {
+      "slug": "home-studio-principiantes-interfaz-audio",
+      "type": "post_x",
+      "title": "Crea tu Home Studio: Todo lo que Necesitas"
+    },
+    {
+      "slug": "home-studio-principiantes-interfaz-audio",
+      "type": "respuesta_youtube",
+      "title": "Crea tu Home Studio: Guía para Principiantes"
+    },
+    {
+      "slug": "home-studio-para-principiantes-guitarra",
+      "type": "respuesta_tecnica",
+      "title": "Guía para Armar un Home Studio para Guitarra desde Cero"
+    },
+    {
+      "slug": "home-studio-para-principiantes-guitarra",
+      "type": "post_educativo",
+      "title": "Arma tu Home Studio para Guitarra desde Cero"
+    },
+    {
+      "slug": "home-studio-para-principiantes-guitarra",
+      "type": "snippet_social",
+      "title": "Arma tu Home Studio para Guitarra desde Cero"
+    },
+    {
+      "slug": "home-studio-para-principiantes-guitarra",
+      "type": "post_social",
+      "title": "Arma tu Home Studio para Guitarra desde Cero"
+    },
+    {
+      "slug": "home-studio-para-principiantes-guitarra",
+      "type": "post_x",
+      "title": "Arma tu Home Studio para Guitarra desde Cero"
+    },
+    {
+      "slug": "home-studio-para-principiantes-guitarra",
+      "type": "respuesta_youtube",
+      "title": "Arma tu Home Studio para Guitarra desde Cero"
+    },
+    {
+      "slug": "home-studio-principiantes-conectar-monitores",
+      "type": "respuesta_tecnica",
+      "title": "Arma tu Home Studio y Conecta tus Monitores de Forma Efectiva"
+    },
+    {
+      "slug": "home-studio-principiantes-conectar-monitores",
+      "type": "post_educativo",
+      "title": "Arma tu Home Studio y Conecta tus Monitores"
+    },
+    {
+      "slug": "home-studio-principiantes-conectar-monitores",
+      "type": "snippet_social",
+      "title": "Arma tu Home Studio y Conecta tus Monitores"
+    },
+    {
+      "slug": "home-studio-principiantes-conectar-monitores",
+      "type": "post_social",
+      "title": "Arma tu Home Studio y Conecta tus Monitores"
+    },
+    {
+      "slug": "home-studio-principiantes-conectar-monitores",
+      "type": "post_x",
+      "title": "Arma tu Home Studio y Conecta tus Monitores"
+    },
+    {
+      "slug": "home-studio-principiantes-conectar-monitores",
+      "type": "respuesta_youtube",
+      "title": "Arma tu Home Studio y Conecta tus Monitores Eficazmente"
+    },
+    {
+      "slug": "home-studio-principiantes-mezclar-noche",
+      "type": "respuesta_tecnica",
+      "title": "Arma tu Home Studio para Mezclar de Noche: Guía para Principiantes"
+    },
+    {
+      "slug": "home-studio-principiantes-mezclar-noche",
+      "type": "post_educativo",
+      "title": "Arma tu Home Studio para Mezclar de Noche"
+    },
+    {
+      "slug": "home-studio-principiantes-mezclar-noche",
+      "type": "snippet_social",
+      "title": "Arma tu Home Studio para Mezclar de Noche"
+    },
+    {
+      "slug": "home-studio-principiantes-mezclar-noche",
+      "type": "post_social",
+      "title": "Arma tu Home Studio para Mezclar de Noche"
+    },
+    {
+      "slug": "home-studio-principiantes-mezclar-noche",
+      "type": "post_x",
+      "title": "Arma tu Home Studio para Mezclar de Noche"
+    },
+    {
+      "slug": "home-studio-principiantes-mezclar-noche",
+      "type": "respuesta_youtube",
+      "title": "Arma tu Home Studio para Mezclar de Noche: Consejos Clave"
+    },
+    {
+      "slug": "home-studio-para-principiantes-guitarra-42",
+      "type": "respuesta_tecnica",
+      "title": "Crea tu Home Studio para Tocar Guitarra: Guía para Principiantes"
+    },
+    {
+      "slug": "home-studio-para-principiantes-guitarra-42",
+      "type": "post_educativo",
+      "title": "Crea tu Home Studio para Tocar Guitarra: Guía para Principiantes"
+    },
+    {
+      "slug": "home-studio-para-principiantes-guitarra-42",
+      "type": "snippet_social",
+      "title": "Crea tu Home Studio para Tocar Guitarra"
+    },
+    {
+      "slug": "home-studio-para-principiantes-guitarra-42",
+      "type": "post_social",
+      "title": "Crea tu Home Studio para Tocar Guitarra"
+    },
+    {
+      "slug": "home-studio-para-principiantes-guitarra-42",
+      "type": "post_x",
+      "title": "Crea tu Home Studio para Tocar Guitarra"
+    },
+    {
+      "slug": "home-studio-para-principiantes-guitarra-42",
+      "type": "respuesta_youtube",
+      "title": "Crea tu Home Studio para Tocar Guitarra desde Cero"
+    },
+    {
+      "slug": "home-studio-principiantes-editar-video",
+      "type": "respuesta_tecnica",
+      "title": "Arma tu Home Studio para Editar Video: Guía para Principiantes"
+    },
+    {
+      "slug": "home-studio-principiantes-editar-video",
+      "type": "post_educativo",
+      "title": "Arma tu Home Studio para Editar Video: Guía para Principiantes"
+    },
+    {
+      "slug": "home-studio-principiantes-editar-video",
+      "type": "snippet_social",
+      "title": "Arma tu Home Studio para Editar Video: Guía para Principiantes"
+    },
+    {
+      "slug": "home-studio-principiantes-editar-video",
+      "type": "post_social",
+      "title": "Arma tu Home Studio para Editar Video desde Cero"
+    },
+    {
+      "slug": "home-studio-principiantes-editar-video",
+      "type": "post_x",
+      "title": "Arma tu Home Studio para Editar Video"
+    },
+    {
+      "slug": "home-studio-principiantes-editar-video",
+      "type": "respuesta_youtube",
+      "title": "Arma tu Home Studio para Editar Video: Consejos Clave"
+    },
+    {
+      "slug": "interfaz-de-audio-para-grabar-covers-en-casa",
+      "type": "respuesta_tecnica",
+      "title": "Graba tu voz en casa con la interfaz adecuada"
+    },
+    {
+      "slug": "interfaz-de-audio-para-grabar-covers-en-casa",
+      "type": "post_educativo",
+      "title": "Graba tu voz en casa con la interfaz adecuada"
+    },
+    {
+      "slug": "interfaz-de-audio-para-grabar-covers-en-casa",
+      "type": "snippet_social",
+      "title": "Graba tu voz en casa con la interfaz adecuada"
+    },
+    {
+      "slug": "interfaz-de-audio-para-grabar-covers-en-casa",
+      "type": "post_social",
+      "title": "Graba tu voz en casa con la interfaz adecuada"
+    },
+    {
+      "slug": "interfaz-de-audio-para-grabar-covers-en-casa",
+      "type": "post_x",
+      "title": "Graba tu voz en casa con la interfaz adecuada"
+    },
+    {
+      "slug": "interfaz-de-audio-para-grabar-covers-en-casa",
+      "type": "respuesta_youtube",
+      "title": "Graba tu voz en casa con la interfaz adecuada"
+    },
+    {
+      "slug": "microfono-para-streaming-para-voces",
+      "type": "respuesta_tecnica",
+      "title": "Micrófonos ideales para streaming de voces: guía técnica"
+    },
+    {
+      "slug": "microfono-para-streaming-para-voces",
+      "type": "post_educativo",
+      "title": "Micrófonos ideales para streaming de voces"
+    },
+    {
+      "slug": "microfono-para-streaming-para-voces",
+      "type": "snippet_social",
+      "title": "Micrófonos ideales para streaming de voces"
+    },
+    {
+      "slug": "microfono-para-streaming-para-voces",
+      "type": "post_social",
+      "title": "Micrófonos ideales para mejorar tu streaming de voces"
+    },
+    {
+      "slug": "microfono-para-streaming-para-voces",
+      "type": "post_x",
+      "title": "Micrófonos ideales para streaming de voces"
+    },
+    {
+      "slug": "microfono-para-streaming-para-voces",
+      "type": "respuesta_youtube",
+      "title": "Micrófonos ideales para mejorar tu streaming de voces"
+    },
+    {
+      "slug": "como-elegir-microfono-xlr-para-podcast",
+      "type": "respuesta_tecnica",
+      "title": "Elige el micrófono XLR adecuado para tu podcast"
+    },
+    {
+      "slug": "como-elegir-microfono-xlr-para-podcast",
+      "type": "snippet_social",
+      "title": "Elige el micrófono XLR adecuado para tu podcast"
+    },
+    {
+      "slug": "como-elegir-microfono-xlr-para-podcast",
+      "type": "post_social",
+      "title": "Elige el micrófono XLR adecuado para tu podcast"
+    },
+    {
+      "slug": "como-elegir-microfono-xlr-para-podcast",
+      "type": "post_x",
+      "title": "Elige el micrófono XLR adecuado para tu podcast"
+    },
+    {
+      "slug": "como-elegir-microfono-xlr-para-podcast",
+      "type": "respuesta_youtube",
+      "title": "Elige el micrófono XLR adecuado para tu podcast"
+    },
+    {
+      "slug": "controlador-midi-ableton-musica-electronica",
+      "type": "respuesta_tecnica",
+      "title": "Controladores MIDI para Producción en Ableton"
+    },
+    {
+      "slug": "controlador-midi-ableton-musica-electronica",
+      "type": "snippet_social",
+      "title": "Controladores MIDI para Producción en Ableton"
+    },
+    {
+      "slug": "controlador-midi-ableton-musica-electronica",
+      "type": "post_social",
+      "title": "Controladores MIDI para Producción en Ableton: ¿Cuál Elegir?"
+    },
+    {
+      "slug": "controlador-midi-ableton-musica-electronica",
+      "type": "post_x",
+      "title": "Controladores MIDI para Producción en Ableton"
+    },
+    {
+      "slug": "controlador-midi-ableton-musica-electronica",
+      "type": "respuesta_youtube",
+      "title": "Controladores MIDI para Producción en Ableton: Lo que Debes Saber"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-locucion-casa",
+      "type": "respuesta_tecnica",
+      "title": "Elige la Interfaz de Audio Perfecta para Tu Voz"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-locucion-casa",
+      "type": "post_educativo",
+      "title": "Elige la Interfaz de Audio Perfecta para Tu Voz"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-locucion-casa",
+      "type": "snippet_social",
+      "title": "Elige la Interfaz de Audio Perfecta para Tu Voz"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-locucion-casa",
+      "type": "post_social",
+      "title": "Elige la Interfaz de Audio Perfecta para Tu Voz 🎤"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-locucion-casa",
+      "type": "post_x",
+      "title": "Elige la Interfaz de Audio Perfecta para Tu Voz"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-locucion-casa",
+      "type": "respuesta_youtube",
+      "title": "Elige la Interfaz de Audio Perfecta para Grabar Voz en Casa"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-casa-4",
+      "type": "respuesta_tecnica",
+      "title": "Encuentra la interfaz de audio perfecta para grabar tu voz"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-casa-4",
+      "type": "post_educativo",
+      "title": "Encuentra la interfaz de audio perfecta para grabar tu voz"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-casa-4",
+      "type": "snippet_social",
+      "title": "Encuentra la interfaz de audio perfecta para grabar tu voz"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-casa-4",
+      "type": "post_social",
+      "title": "Encuentra la interfaz de audio perfecta para grabar tu voz"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-casa-4",
+      "type": "post_x",
+      "title": "Encuentra la interfaz de audio perfecta para grabar tu voz"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-casa-4",
+      "type": "respuesta_youtube",
+      "title": "Encuentra la interfaz de audio perfecta para grabar tu voz"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "como-elegir-microfono-xlr-para-podcast",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-ableton-musica-electronica",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 423.08
+}

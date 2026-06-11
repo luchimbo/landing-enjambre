@@ -1,0 +1,322 @@
+{
+  "timestamp_utc": "20260605-164850-835134",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260605-164344-039038",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 58,
+  "pieces_blocked": 2,
+  "proposed": [
+    {
+      "slug": "arturia-keystep-pro-fl-studio",
+      "type": "respuesta_tecnica",
+      "title": "Arturia KeyStep Pro: Controlador Secuenciador para FL Studio"
+    },
+    {
+      "slug": "arturia-keystep-pro-fl-studio",
+      "type": "post_educativo",
+      "title": "Arturia KeyStep Pro: El controlador ideal para FL Studio"
+    },
+    {
+      "slug": "arturia-keystep-pro-fl-studio",
+      "type": "snippet_social",
+      "title": "Arturia KeyStep Pro: Controlador ideal para FL Studio"
+    },
+    {
+      "slug": "arturia-keystep-pro-fl-studio",
+      "type": "post_social",
+      "title": "Arturia KeyStep Pro: El controlador ideal para FL Studio"
+    },
+    {
+      "slug": "arturia-keystep-pro-fl-studio",
+      "type": "post_x",
+      "title": "Arturia KeyStep Pro: El controlador ideal para FL Studio"
+    },
+    {
+      "slug": "arturia-keystep-pro-fl-studio",
+      "type": "respuesta_youtube",
+      "title": "Arturia KeyStep Pro: Controlador ideal para FL Studio"
+    },
+    {
+      "slug": "que-comprar-para-arturia-microfreak",
+      "type": "post_educativo",
+      "title": "Qué comprar para Arturia MicroFreak y empezar en síntesis"
+    },
+    {
+      "slug": "que-comprar-para-arturia-microfreak",
+      "type": "snippet_social",
+      "title": "Qué comprar para Arturia MicroFreak y empezar en síntesis"
+    },
+    {
+      "slug": "que-comprar-para-arturia-microfreak",
+      "type": "post_social",
+      "title": "Qué comprar para Arturia MicroFreak y empezar en síntesis"
+    },
+    {
+      "slug": "que-comprar-para-arturia-microfreak",
+      "type": "post_x",
+      "title": "Qué comprar para Arturia MicroFreak y empezar en síntesis"
+    },
+    {
+      "slug": "que-comprar-para-arturia-microfreak",
+      "type": "respuesta_youtube",
+      "title": "Qué comprar para Arturia MicroFreak y empezar en síntesis"
+    },
+    {
+      "slug": "como-elegir-arturia-microfreak-para-empezar-en-sintesis",
+      "type": "respuesta_tecnica",
+      "title": "Cómo elegir el Arturia MicroFreak para empezar en síntesis"
+    },
+    {
+      "slug": "como-elegir-arturia-microfreak-para-empezar-en-sintesis",
+      "type": "post_educativo",
+      "title": "Cómo elegir el Arturia MicroFreak para empezar en síntesis"
+    },
+    {
+      "slug": "como-elegir-arturia-microfreak-para-empezar-en-sintesis",
+      "type": "snippet_social",
+      "title": "Cómo elegir el Arturia MicroFreak para empezar en síntesis"
+    },
+    {
+      "slug": "como-elegir-arturia-microfreak-para-empezar-en-sintesis",
+      "type": "post_social",
+      "title": "Cómo elegir el Arturia MicroFreak para empezar en síntesis"
+    },
+    {
+      "slug": "como-elegir-arturia-microfreak-para-empezar-en-sintesis",
+      "type": "post_x",
+      "title": "Cómo elegir el Arturia MicroFreak para empezar en síntesis"
+    },
+    {
+      "slug": "como-elegir-arturia-microfreak-para-empezar-en-sintesis",
+      "type": "respuesta_youtube",
+      "title": "Cómo elegir el Arturia MicroFreak para iniciarte en síntesis"
+    },
+    {
+      "slug": "guia-elegir-arturia-microfreak-sintesis",
+      "type": "respuesta_tecnica",
+      "title": "El Arturia MicroFreak: Tu Primer Sintetizador Híbrido"
+    },
+    {
+      "slug": "guia-elegir-arturia-microfreak-sintesis",
+      "type": "post_educativo",
+      "title": "El Arturia MicroFreak: Tu Primer Sintetizador Híbrido"
+    },
+    {
+      "slug": "guia-elegir-arturia-microfreak-sintesis",
+      "type": "snippet_social",
+      "title": "El Arturia MicroFreak: Tu Primer Sintetizador Híbrido"
+    },
+    {
+      "slug": "guia-elegir-arturia-microfreak-sintesis",
+      "type": "post_social",
+      "title": "El Arturia MicroFreak: Tu Primer Sintetizador Híbrido"
+    },
+    {
+      "slug": "guia-elegir-arturia-microfreak-sintesis",
+      "type": "post_x",
+      "title": "El Arturia MicroFreak: Tu Primer Sintetizador Híbrido"
+    },
+    {
+      "slug": "guia-elegir-arturia-microfreak-sintesis",
+      "type": "respuesta_youtube",
+      "title": "El Arturia MicroFreak: Ideal para Iniciarse en la Síntesis"
+    },
+    {
+      "slug": "setup-arturia-microfreak-sintesis",
+      "type": "respuesta_tecnica",
+      "title": "Arma tu primer setup de síntesis con Arturia MicroFreak"
+    },
+    {
+      "slug": "setup-arturia-microfreak-sintesis",
+      "type": "post_educativo",
+      "title": "Arma tu primer setup de síntesis con Arturia MicroFreak"
+    },
+    {
+      "slug": "setup-arturia-microfreak-sintesis",
+      "type": "snippet_social",
+      "title": "Arma tu primer setup de síntesis con Arturia MicroFreak"
+    },
+    {
+      "slug": "setup-arturia-microfreak-sintesis",
+      "type": "post_social",
+      "title": "Arma tu primer setup de síntesis con Arturia MicroFreak"
+    },
+    {
+      "slug": "setup-arturia-microfreak-sintesis",
+      "type": "post_x",
+      "title": "Arma tu primer setup de síntesis con Arturia MicroFreak"
+    },
+    {
+      "slug": "setup-arturia-microfreak-sintesis",
+      "type": "respuesta_youtube",
+      "title": "Arma tu primer setup de síntesis con Arturia MicroFreak"
+    },
+    {
+      "slug": "que-comprar-para-arturia-polybrute-para-estudio",
+      "type": "respuesta_tecnica",
+      "title": "Todo lo que necesitas para tu Arturia PolyBrute"
+    },
+    {
+      "slug": "que-comprar-para-arturia-polybrute-para-estudio",
+      "type": "post_educativo",
+      "title": "Todo lo que necesitas para tu Arturia PolyBrute"
+    },
+    {
+      "slug": "que-comprar-para-arturia-polybrute-para-estudio",
+      "type": "snippet_social",
+      "title": "Todo lo que necesitas para tu Arturia PolyBrute"
+    },
+    {
+      "slug": "que-comprar-para-arturia-polybrute-para-estudio",
+      "type": "post_social",
+      "title": "Todo lo que necesitas para tu Arturia PolyBrute"
+    },
+    {
+      "slug": "que-comprar-para-arturia-polybrute-para-estudio",
+      "type": "post_x",
+      "title": "Todo lo que necesitas para tu Arturia PolyBrute"
+    },
+    {
+      "slug": "que-comprar-para-arturia-polybrute-para-estudio",
+      "type": "respuesta_youtube",
+      "title": "Todo lo que necesitas para tu Arturia PolyBrute"
+    },
+    {
+      "slug": "como-elegir-arturia-polybrute-estudio",
+      "type": "respuesta_tecnica",
+      "title": "Cómo elegir el Arturia PolyBrute para tu estudio musical"
+    },
+    {
+      "slug": "como-elegir-arturia-polybrute-estudio",
+      "type": "post_educativo",
+      "title": "Elige el Arturia PolyBrute para tu estudio musical"
+    },
+    {
+      "slug": "como-elegir-arturia-polybrute-estudio",
+      "type": "snippet_social",
+      "title": "Elige el Arturia PolyBrute para tu estudio musical"
+    },
+    {
+      "slug": "como-elegir-arturia-polybrute-estudio",
+      "type": "post_social",
+      "title": "Elige el Arturia PolyBrute para tu estudio musical"
+    },
+    {
+      "slug": "como-elegir-arturia-polybrute-estudio",
+      "type": "post_x",
+      "title": "Elige el Arturia PolyBrute para tu estudio musical"
+    },
+    {
+      "slug": "como-elegir-arturia-polybrute-estudio",
+      "type": "respuesta_youtube",
+      "title": "Elige el Arturia PolyBrute para tu estudio musical"
+    },
+    {
+      "slug": "guia-elegir-arturia-polybrute-estudio",
+      "type": "respuesta_tecnica",
+      "title": "El Arturia PolyBrute: Tu Aliado en el Estudio"
+    },
+    {
+      "slug": "guia-elegir-arturia-polybrute-estudio",
+      "type": "post_educativo",
+      "title": "El Arturia PolyBrute: Tu Aliado en el Estudio"
+    },
+    {
+      "slug": "guia-elegir-arturia-polybrute-estudio",
+      "type": "post_social",
+      "title": "El Arturia PolyBrute: Tu Compañero Ideal en el Estudio"
+    },
+    {
+      "slug": "guia-elegir-arturia-polybrute-estudio",
+      "type": "post_x",
+      "title": "El Arturia PolyBrute: Tu Aliado en el Estudio"
+    },
+    {
+      "slug": "guia-elegir-arturia-polybrute-estudio",
+      "type": "respuesta_youtube",
+      "title": "El Arturia PolyBrute: Un Sinte Avanzado para Tu Estudio"
+    },
+    {
+      "slug": "setup-arturia-polybrute-estudio",
+      "type": "respuesta_tecnica",
+      "title": "Crea el Setup Perfecto con Arturia PolyBrute para tu Estudio"
+    },
+    {
+      "slug": "setup-arturia-polybrute-estudio",
+      "type": "post_educativo",
+      "title": "Crea el Setup Perfecto con Arturia PolyBrute"
+    },
+    {
+      "slug": "setup-arturia-polybrute-estudio",
+      "type": "snippet_social",
+      "title": "Crea el Setup Perfecto con Arturia PolyBrute"
+    },
+    {
+      "slug": "setup-arturia-polybrute-estudio",
+      "type": "post_social",
+      "title": "Crea el Setup Perfecto con Arturia PolyBrute 🎹"
+    },
+    {
+      "slug": "setup-arturia-polybrute-estudio",
+      "type": "post_x",
+      "title": "Crea el Setup Perfecto con Arturia PolyBrute"
+    },
+    {
+      "slug": "setup-arturia-polybrute-estudio",
+      "type": "respuesta_youtube",
+      "title": "Crea el Setup Perfecto con Arturia PolyBrute"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-principiantes",
+      "type": "respuesta_tecnica",
+      "title": "Arturia PolyBrute: Un sintetizador avanzado para principiantes"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-principiantes",
+      "type": "post_educativo",
+      "title": "Arturia PolyBrute: Tu primer sintetizador avanzado"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-principiantes",
+      "type": "snippet_social",
+      "title": "Arturia PolyBrute: Tu primer sintetizador avanzado"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-principiantes",
+      "type": "post_social",
+      "title": "Arturia PolyBrute: Tu primer sintetizador avanzado"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-principiantes",
+      "type": "post_x",
+      "title": "Arturia PolyBrute: Tu primer sintetizador avanzado"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-principiantes",
+      "type": "respuesta_youtube",
+      "title": "Arturia PolyBrute: Un sintetizador avanzado para principiantes"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "que-comprar-para-arturia-microfreak",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: precio"
+      ]
+    },
+    {
+      "slug": "guia-elegir-arturia-polybrute-estudio",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 306.8
+}

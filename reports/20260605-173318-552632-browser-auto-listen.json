@@ -1,0 +1,56 @@
+{
+  "timestamp_utc": "20260605-173318-552632",
+  "command": "auto-listen",
+  "channels": [
+    "facebook",
+    "instagram",
+    "x",
+    "youtube"
+  ],
+  "searches": 2,
+  "per_search": 2,
+  "dry_run": false,
+  "items": 3,
+  "distribution_drafts": 3,
+  "social_intel_path": "D:\\AgentesGuille\\data\\social_intel.jsonl",
+  "search_tasks_path": "D:\\AgentesGuille\\data\\distribution_search_tasks.jsonl",
+  "content_feedback_path": "D:\\AgentesGuille\\data\\content_feedback.jsonl",
+  "sample": [
+    {
+      "id": "20260605-173234-326253:instagram:0",
+      "created_at_utc": "2026-06-05T17:32:56.613961+00:00",
+      "run_id": "20260605-173234-326253",
+      "channel": "instagram",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.instagram.com/p/DKlslFwsis_/",
+      "source_title": "",
+      "source_context": "Photo by Qatar Home Studio on June 06, 2025."
+    },
+    {
+      "id": "20260605-173234-326253:youtube:1",
+      "created_at_utc": "2026-06-05T17:33:18.207763+00:00",
+      "run_id": "20260605-173234-326253",
+      "channel": "youtube",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CIZiFWQgjapr1HKnL5OUPmKHQwAnSzezBhwHk4vK7xxVkEAIgAGCh0ISALIIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAHBxJPrQ6gDBMgDCqoE2QJP0JaEwfzjf21jnkhP93r4Kd8wBWpiZJ0vV93k5LJ0MgcDUCC9Xi7Kthl4mVrUdUMvIpBgThSG0J9u1H69CP81NuZrrSXpXSEvCxdvfgiyjGYB7ZlGMUnPuwmMnS0INBkmkfiVXSAqCz8dxpck6BUPDTBUUPE_I0wNmr2yYXxdiexamx2Xdt8JoMp2IwcF-_TXzskticsVphdEUkgwetfrWrGM5mbuz2alaYtxwgflrMOgM71sIS-XhR_oo3T64IPpR_PZUoZJSysG1gAvwI68qMSneExHb6_nsrctMK31wHnUOvHi3RP3BBNLeR4OVKgnjiroRqQfsDF7RCQ2ioK6IqCJZvoFqzG5FbHEYxrXTrKxOkE52_OaY3NOUPXU9B_Y7JnlOaLz9kxKL__TV9Vy3PxzWdjKzn3uhJHUkshMUYwT8sllVfs_BpJHQaculs6AXwMIzY_M8p-IBfCjmodZkgUICBN4jtSO8B6gBqEBgAfB_OPKHogHAZAHAqgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAfVzhuoB77ZsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLX3ZQa2VxVllpY3eoCAHSCDEIABACGFoyAQA6FI_QgICAgASAwICAgICAgAKqgIAQSNmg0jVQFFiY8Jzx0PCUA2ABmgkdaHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2ixCYHF4wRhgzsFyAkXyAmPAcgJwgGYCwG6C14IAxAFGAQgBygBMBxAAUgAWH1gAGgAcAGIAQCYAQGiASkKHiAD2rgEGDIWOhQKEigwSIvT0uXmH5gXgY2nPZgZANABAagCBcACAqgBAdgBAYACAYgCBboDBXZpc2Ns0AsS0gwCEAHaDCUKChDw5K2CkbS_oggSAgEDGg0Y8KOah1kgj5qax9kFQAFKAhAfmg0BEqoNAkFSyA0BuBP___________8BsBQDwBWBgIBA0BUB2BUB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwG6FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=Cj0KCQjw54nRBhDCARIsAMcY_SDDBy44xeE0REHkGKlzQ0B-nr4BcvRwCzEiXO3lCv3VyOlez8TT1KgaArrqEALw_wcB&num=2&cid=CAESpAHg9iDSiEBNSAii3PP3vJI3ULhU8Vhxdx5sdqP1-jr5cLJpcZEvFQEdOhLfkTnXLayMdbqxhb4AkEAv07g_yQANOnGHoc-ZeREjtNm41H2kECsOEl8IH5RAx6yj8yxkFLMCYVijf8230onwGCILieKYm-oIz4ppCPTR-ohYNnGDYJlpdiMOA5RX7FYKhDKOpaYpdwAY1FFwiazH-w51icGx1_beYw&ad_cpn=%5BCPN%5D&sig=AOD64_0scdleb2LI1m5O_klLiIAhuLCtHQ&ms=%5BCLICK_MS%5D&adurl=https://www.youtube.com/watch%3Fv%3D_vPkeqVYicw%26gad_source%3D2%26gad_campaignid%3D23905866224&ctype=110&video_id=_vPkeqVYicw&label=video_click_to_advertiser_site&nb=21&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "source_title": "",
+      "source_context": "Kychron V6 Max: Best Full-Sized Keyboards Find the best full-sized keyboards on YouTube Sponsored Whitehilltrade Watch Visit site"
+    },
+    {
+      "id": "20260605-173234-326253:youtube:2",
+      "created_at_utc": "2026-06-05T17:33:18.255931+00:00",
+      "run_id": "20260605-173234-326253",
+      "channel": "youtube",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CIZiFWQgjapr1HKnL5OUPmKHQwAnSzezBhwHk4vK7xxVkEAIgAGCh0ISALIIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAHBxJPrQ6gDBMgDCqoE2QJP0JaEwfzjf21jnkhP93r4Kd8wBWpiZJ0vV93k5LJ0MgcDUCC9Xi7Kthl4mVrUdUMvIpBgThSG0J9u1H69CP81NuZrrSXpXSEvCxdvfgiyjGYB7ZlGMUnPuwmMnS0INBkmkfiVXSAqCz8dxpck6BUPDTBUUPE_I0wNmr2yYXxdiexamx2Xdt8JoMp2IwcF-_TXzskticsVphdEUkgwetfrWrGM5mbuz2alaYtxwgflrMOgM71sIS-XhR_oo3T64IPpR_PZUoZJSysG1gAvwI68qMSneExHb6_nsrctMK31wHnUOvHi3RP3BBNLeR4OVKgnjiroRqQfsDF7RCQ2ioK6IqCJZvoFqzG5FbHEYxrXTrKxOkE52_OaY3NOUPXU9B_Y7JnlOaLz9kxKL__TV9Vy3PxzWdjKzn3uhJHUkshMUYwT8sllVfs_BpJHQaculs6AXwMIzY_M8p-IBfCjmodZkgUICBN4jtSO8B6gBqEBgAfB_OPKHogHAZAHAqgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAfVzhuoB77ZsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLX3ZQa2VxVllpY3eoCAHSCDEIABACGFoyAQA6FI_QgICAgASAwICAgICAgAKqgIAQSNmg0jVQFFiY8Jzx0PCUA2ABmgkdaHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2ixCYHF4wRhgzsFyAkXyAmPAcgJwgGYCwG6C14IAxAFGAQgBygBMBxAAUgAWH1gAGgAcAGIAQCYAQGiASkKHiAD2rgEGDIWOhQKEigwSIvT0uXmH5gXgY2nPZgZANABAagCBcACAqgBAdgBAYACAYgCBboDBXZpc2Ns0AsS0gwCEAHaDCUKChDw5K2CkbS_oggSAgEDGg0Y8KOah1kgj5qax9kFQAFKAhAfmg0BEqoNAkFSyA0BuBP___________8BsBQDwBWBgIBA0BUB2BUB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwG6FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=Cj0KCQjw54nRBhDCARIsAMcY_SDDBy44xeE0REHkGKlzQ0B-nr4BcvRwCzEiXO3lCv3VyOlez8TT1KgaArrqEALw_wcB&num=2&cid=CAESpAHg9iDSiEBNSAii3PP3vJI3ULhU8Vhxdx5sdqP1-jr5cLJpcZEvFQEdOhLfkTnXLayMdbqxhb4AkEAv07g_yQANOnGHoc-ZeREjtNm41H2kECsOEl8IH5RAx6yj8yxkFLMCYVijf8230onwGCILieKYm-oIz4ppCPTR-ohYNnGDYJlpdiMOA5RX7FYKhDKOpaYpdwAY1FFwiazH-w51icGx1_beYw&ad_cpn=%5BCPN%5D&sig=AOD64_0scdleb2LI1m5O_klLiIAhuLCtHQ&ms=%5BCLICK_MS%5D&adurl=https://www.youtube.com/watch%3Fv%3D_vPkeqVYicw%26gad_source%3D2%26gad_campaignid%3D23905866224&ctype=110&video_id=_vPkeqVYicw&label=video_click_to_advertiser_site&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "source_title": "Kychron V6 Max: Best Full-Sized Keyboards",
+      "source_context": "Kychron V6 Max: Best Full-Sized Keyboards Find the best full-sized keyboards on YouTube Sponsored Whitehilltrade"
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "timestamp_utc": "20260603-194956-059680",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260603-194604-648032",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 54,
+  "pieces_blocked": 6,
+  "proposed": [
+    {
+      "slug": "setup-audio-technica-at2020-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Crea el mejor setup con el Audio Technica AT2020"
+    },
+    {
+      "slug": "setup-audio-technica-at2020-home-studio",
+      "type": "post_educativo",
+      "title": "Crea el mejor setup con el Audio Technica AT2020"
+    },
+    {
+      "slug": "setup-audio-technica-at2020-home-studio",
+      "type": "snippet_social",
+      "title": "Crea el mejor setup con el Audio Technica AT2020"
+    },
+    {
+      "slug": "setup-audio-technica-at2020-home-studio",
+      "type": "post_social",
+      "title": "Crea el mejor setup con el Audio Technica AT2020 🎤"
+    },
+    {
+      "slug": "setup-audio-technica-at2020-home-studio",
+      "type": "post_x",
+      "title": "Crea el mejor setup con el Audio Technica AT2020"
+    },
+    {
+      "slug": "setup-audio-technica-at2020-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Crea el mejor setup con el Audio Technica AT2020"
+    },
+    {
+      "slug": "brazo-microfono-streaming",
+      "type": "respuesta_tecnica",
+      "title": "Optimiza tu setup de streaming con un buen brazo para micrófono"
+    },
+    {
+      "slug": "brazo-microfono-streaming",
+      "type": "post_educativo",
+      "title": "Optimiza tu setup de streaming con un buen brazo para micrófono"
+    },
+    {
+      "slug": "brazo-microfono-streaming",
+      "type": "snippet_social",
+      "title": "Optimiza tu setup de streaming con un buen brazo para micrófono"
+    },
+    {
+      "slug": "brazo-microfono-streaming",
+      "type": "post_social",
+      "title": "Optimiza tu setup de streaming con un buen brazo para micrófono"
+    },
+    {
+      "slug": "brazo-microfono-streaming",
+      "type": "post_x",
+      "title": "Optimiza tu setup de streaming con un buen brazo para micrófono"
+    },
+    {
+      "slug": "brazo-microfono-streaming",
+      "type": "respuesta_youtube",
+      "title": "Optimiza tu setup de streaming con un buen brazo para micrófono"
+    },
+    {
+      "slug": "como-elegir-brazo-para-microfono-de-streaming",
+      "type": "respuesta_tecnica",
+      "title": "Elige el brazo perfecto para tu micrófono de streaming"
+    },
+    {
+      "slug": "como-elegir-brazo-para-microfono-de-streaming",
+      "type": "post_educativo",
+      "title": "Elige el brazo perfecto para tu micrófono de streaming"
+    },
+    {
+      "slug": "como-elegir-brazo-para-microfono-de-streaming",
+      "type": "snippet_social",
+      "title": "Elige el brazo perfecto para tu micrófono de streaming"
+    },
+    {
+      "slug": "como-elegir-brazo-para-microfono-de-streaming",
+      "type": "post_social",
+      "title": "Elige el brazo perfecto para tu micrófono de streaming"
+    },
+    {
+      "slug": "como-elegir-brazo-para-microfono-de-streaming",
+      "type": "post_x",
+      "title": "Elige el brazo perfecto para tu micrófono de streaming"
+    },
+    {
+      "slug": "como-elegir-brazo-para-microfono-de-streaming",
+      "type": "respuesta_youtube",
+      "title": "Elige el brazo perfecto para tu micrófono de streaming"
+    },
+    {
+      "slug": "guia-elegir-brazo-microfono-streaming",
+      "type": "respuesta_tecnica",
+      "title": "Elige el Brazo de Micrófono Perfecto para Streaming"
+    },
+    {
+      "slug": "guia-elegir-brazo-microfono-streaming",
+      "type": "post_educativo",
+      "title": "Elige el Brazo de Micrófono Perfecto para Streaming"
+    },
+    {
+      "slug": "guia-elegir-brazo-microfono-streaming",
+      "type": "snippet_social",
+      "title": "Elige el Brazo de Micrófono Perfecto para Streaming"
+    },
+    {
+      "slug": "guia-elegir-brazo-microfono-streaming",
+      "type": "post_social",
+      "title": "Elige el Brazo de Micrófono Perfecto para Streaming"
+    },
+    {
+      "slug": "guia-elegir-brazo-microfono-streaming",
+      "type": "post_x",
+      "title": "Elige el Brazo de Micrófono Perfecto para Streaming"
+    },
+    {
+      "slug": "guia-elegir-brazo-microfono-streaming",
+      "type": "respuesta_youtube",
+      "title": "Elige el Brazo de Micrófono Perfecto para Streaming"
+    },
+    {
+      "slug": "setup-brazo-microfono-streaming",
+      "type": "respuesta_tecnica",
+      "title": "Arma tu setup de streaming con un brazo para micrófono"
+    },
+    {
+      "slug": "setup-brazo-microfono-streaming",
+      "type": "post_educativo",
+      "title": "Arma tu setup de streaming con un brazo para micrófono"
+    },
+    {
+      "slug": "setup-brazo-microfono-streaming",
+      "type": "snippet_social",
+      "title": "Arma tu setup de streaming con un brazo para micrófono"
+    },
+    {
+      "slug": "setup-brazo-microfono-streaming",
+      "type": "post_social",
+      "title": "Arma tu setup de streaming con un brazo para micrófono"
+    },
+    {
+      "slug": "setup-brazo-microfono-streaming",
+      "type": "post_x",
+      "title": "Arma tu setup de streaming con un brazo para micrófono"
+    },
+    {
+      "slug": "setup-brazo-microfono-streaming",
+      "type": "respuesta_youtube",
+      "title": "Arma tu setup de streaming con un brazo para micrófono"
+    },
+    {
+      "slug": "brazo-microfono-streaming-home-studio",
+      "type": "post_educativo",
+      "title": "Optimiza tu home studio con un brazo para micrófono"
+    },
+    {
+      "slug": "brazo-microfono-streaming-home-studio",
+      "type": "snippet_social",
+      "title": "Optimiza tu home studio con un brazo para micrófono"
+    },
+    {
+      "slug": "brazo-microfono-streaming-home-studio",
+      "type": "post_social",
+      "title": "Optimiza tu home studio con un brazo para micrófono"
+    },
+    {
+      "slug": "brazo-microfono-streaming-home-studio",
+      "type": "post_x",
+      "title": "Optimiza tu home studio con un brazo para micrófono"
+    },
+    {
+      "slug": "brazo-microfono-streaming-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Optimiza tu home studio con un brazo para micrófono"
+    },
+    {
+      "slug": "brazo-microfono-streaming-grabar-casa",
+      "type": "snippet_social",
+      "title": "Optimizá tu espacio de grabación con un brazo para micrófono"
+    },
+    {
+      "slug": "brazo-microfono-streaming-grabar-casa",
+      "type": "post_social",
+      "title": "Optimizá tu espacio de grabación con un brazo para micrófono"
+    },
+    {
+      "slug": "brazo-microfono-streaming-grabar-casa",
+      "type": "post_x",
+      "title": "Optimizá tu espacio de grabación con un brazo para micrófono"
+    },
+    {
+      "slug": "brazo-microfono-streaming-grabar-casa",
+      "type": "respuesta_youtube",
+      "title": "Optimizá tu espacio de grabación con un brazo para micrófono"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-grabar",
+      "type": "respuesta_tecnica",
+      "title": "Graba en Casa con la MIDIPLUS Studio M: Interfaz de Audio Económica"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-grabar",
+      "type": "post_educativo",
+      "title": "Graba en Casa con la MIDIPLUS Studio M: Tu Interfaz de Audio Ideal"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-grabar",
+      "type": "snippet_social",
+      "title": "Graba en Casa con la MIDIPLUS Studio M"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-grabar",
+      "type": "post_social",
+      "title": "Graba en Casa con la MIDIPLUS Studio M"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-grabar",
+      "type": "post_x",
+      "title": "Graba en Casa con la MIDIPLUS Studio M"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-grabar",
+      "type": "respuesta_youtube",
+      "title": "Graba en Casa con la MIDIPLUS Studio M"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-principiantes",
+      "type": "respuesta_tecnica",
+      "title": "Micrófonos USB para iniciar tu podcast sin complicaciones"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-principiantes",
+      "type": "post_educativo",
+      "title": "Micrófonos USB para iniciar tu podcast sin complicaciones"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-principiantes",
+      "type": "snippet_social",
+      "title": "Micrófonos USB: Tu aliado para iniciar un podcast sin complicaciones"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-principiantes",
+      "type": "post_social",
+      "title": "Micrófonos USB: ¡Comienza tu podcast sin complicaciones!"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-principiantes",
+      "type": "post_x",
+      "title": "Micrófonos USB para iniciar tu podcast sin complicaciones"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-principiantes",
+      "type": "respuesta_youtube",
+      "title": "Micrófonos USB para iniciar tu podcast sin complicaciones"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-principiantes",
+      "type": "snippet_social",
+      "title": "Micrófonos condensadores para voz: guía para principiantes"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-principiantes",
+      "type": "post_x",
+      "title": "Micrófonos condensadores para voz: ideales para principiantes"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-principiantes",
+      "type": "respuesta_youtube",
+      "title": "Micrófonos condensadores para voz: guía para principiantes"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "brazo-microfono-streaming-home-studio",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "brazo-microfono-streaming-grabar-casa",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "brazo-microfono-streaming-grabar-casa",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "microfono-condensador-para-voz-principiantes",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "microfono-condensador-para-voz-principiantes",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "microfono-condensador-para-voz-principiantes",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 231.41
+}

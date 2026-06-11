@@ -1,0 +1,334 @@
+{
+  "timestamp_utc": "20260605-183731-905759",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260605-183214-781604",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 52,
+  "pieces_blocked": 8,
+  "proposed": [
+    {
+      "slug": "setup-musica-urbana-en-casa",
+      "type": "respuesta_tecnica",
+      "title": "Arma tu setup para música urbana en casa"
+    },
+    {
+      "slug": "setup-musica-urbana-en-casa",
+      "type": "post_educativo",
+      "title": "Arma tu setup para música urbana en casa"
+    },
+    {
+      "slug": "setup-musica-urbana-en-casa",
+      "type": "snippet_social",
+      "title": "Arma tu setup para música urbana en casa"
+    },
+    {
+      "slug": "setup-musica-urbana-en-casa",
+      "type": "post_social",
+      "title": "Arma tu setup para música urbana en casa"
+    },
+    {
+      "slug": "setup-musica-urbana-en-casa",
+      "type": "post_x",
+      "title": "Arma tu setup para música urbana en casa"
+    },
+    {
+      "slug": "setup-musica-urbana-en-casa",
+      "type": "respuesta_youtube",
+      "title": "Arma tu setup para música urbana en casa"
+    },
+    {
+      "slug": "setup-musica-electronica-sin-computadora",
+      "type": "respuesta_tecnica",
+      "title": "Arma tu setup de música electrónica sin computadora"
+    },
+    {
+      "slug": "setup-musica-electronica-sin-computadora",
+      "type": "post_educativo",
+      "title": "Arma tu setup de música electrónica sin computadora"
+    },
+    {
+      "slug": "setup-musica-electronica-sin-computadora",
+      "type": "snippet_social",
+      "title": "Arma tu setup de música electrónica sin computadora"
+    },
+    {
+      "slug": "setup-musica-electronica-sin-computadora",
+      "type": "post_social",
+      "title": "Arma tu setup de música electrónica sin computadora"
+    },
+    {
+      "slug": "setup-musica-electronica-sin-computadora",
+      "type": "post_x",
+      "title": "Arma tu setup de música electrónica sin computadora"
+    },
+    {
+      "slug": "setup-musica-electronica-sin-computadora",
+      "type": "respuesta_youtube",
+      "title": "Arma tu setup de música electrónica sin computadora"
+    },
+    {
+      "slug": "setup-compacto-escritorio-chico",
+      "type": "post_x",
+      "title": "Crea tu Setup Compacto para Escritorios Pequeños"
+    },
+    {
+      "slug": "cadena-de-audio-para-grabar-voz",
+      "type": "respuesta_tecnica",
+      "title": "Arma tu Cadena de Audio para Grabar Voz Efectivamente"
+    },
+    {
+      "slug": "cadena-de-audio-para-grabar-voz",
+      "type": "post_educativo",
+      "title": "Arma tu Cadena de Audio para Grabar Voz de Forma Efectiva"
+    },
+    {
+      "slug": "cadena-de-audio-para-grabar-voz",
+      "type": "snippet_social",
+      "title": "Arma tu Cadena de Audio para Grabar Voz"
+    },
+    {
+      "slug": "cadena-de-audio-para-grabar-voz",
+      "type": "post_social",
+      "title": "Arma tu Cadena de Audio para Grabar Voz"
+    },
+    {
+      "slug": "cadena-de-audio-para-grabar-voz",
+      "type": "post_x",
+      "title": "Arma tu Cadena de Audio para Grabar Voz"
+    },
+    {
+      "slug": "cadena-de-audio-para-grabar-voz",
+      "type": "respuesta_youtube",
+      "title": "Arma tu Cadena de Audio para Grabar Voz con Éxito"
+    },
+    {
+      "slug": "cadena-audio-streaming",
+      "type": "respuesta_tecnica",
+      "title": "Crea la cadena de audio perfecta para streaming"
+    },
+    {
+      "slug": "cadena-audio-streaming",
+      "type": "post_educativo",
+      "title": "Crea la cadena de audio perfecta para streaming"
+    },
+    {
+      "slug": "cadena-audio-streaming",
+      "type": "snippet_social",
+      "title": "Crea la cadena de audio perfecta para streaming"
+    },
+    {
+      "slug": "cadena-audio-streaming",
+      "type": "post_social",
+      "title": "Crea la cadena de audio perfecta para streaming"
+    },
+    {
+      "slug": "cadena-audio-streaming",
+      "type": "post_x",
+      "title": "Crea la cadena de audio perfecta para streaming"
+    },
+    {
+      "slug": "cadena-audio-streaming",
+      "type": "respuesta_youtube",
+      "title": "Crea la cadena de audio perfecta para streaming"
+    },
+    {
+      "slug": "equipo-para-empezar-a-producir-musica",
+      "type": "respuesta_tecnica",
+      "title": "Tu primer equipo para producir música: guía inicial"
+    },
+    {
+      "slug": "equipo-para-empezar-a-producir-musica",
+      "type": "post_educativo",
+      "title": "Tu primer equipo para producir música: guía esencial"
+    },
+    {
+      "slug": "equipo-para-empezar-a-producir-musica",
+      "type": "snippet_social",
+      "title": "Tu primer equipo para producir música"
+    },
+    {
+      "slug": "equipo-para-empezar-a-producir-musica",
+      "type": "post_social",
+      "title": "Tu primer equipo para producir música"
+    },
+    {
+      "slug": "equipo-para-empezar-a-producir-musica",
+      "type": "post_x",
+      "title": "Tu primer equipo para producir música"
+    },
+    {
+      "slug": "equipo-para-empezar-a-producir-musica",
+      "type": "respuesta_youtube",
+      "title": "Tu primer equipo para producir música: consejos esenciales"
+    },
+    {
+      "slug": "equipo-para-grabar-covers-en-casa",
+      "type": "respuesta_tecnica",
+      "title": "Guía para elegir equipo para grabar covers en casa"
+    },
+    {
+      "slug": "equipo-para-grabar-covers-en-casa",
+      "type": "post_educativo",
+      "title": "Graba tus covers en casa con el mejor equipo"
+    },
+    {
+      "slug": "equipo-para-grabar-covers-en-casa",
+      "type": "snippet_social",
+      "title": "Graba tus covers en casa con el mejor equipo"
+    },
+    {
+      "slug": "equipo-para-grabar-covers-en-casa",
+      "type": "post_social",
+      "title": "Graba tus covers en casa con el mejor equipo 🎤🎶"
+    },
+    {
+      "slug": "equipo-para-grabar-covers-en-casa",
+      "type": "post_x",
+      "title": "Graba tus covers en casa con el mejor equipo"
+    },
+    {
+      "slug": "equipo-para-grabar-covers-en-casa",
+      "type": "respuesta_youtube",
+      "title": "Consejos para grabar covers en casa con el equipo adecuado"
+    },
+    {
+      "slug": "equipo-para-hacer-beats-en-notebook",
+      "type": "respuesta_tecnica",
+      "title": "Equipamiento Ideal para Hacer Beats en tu Notebook"
+    },
+    {
+      "slug": "equipo-para-hacer-beats-en-notebook",
+      "type": "post_educativo",
+      "title": "Equipamiento Ideal para Hacer Beats en tu Notebook"
+    },
+    {
+      "slug": "equipo-para-hacer-beats-en-notebook",
+      "type": "snippet_social",
+      "title": "Equipamiento Ideal para Hacer Beats en tu Notebook"
+    },
+    {
+      "slug": "equipo-para-hacer-beats-en-notebook",
+      "type": "post_social",
+      "title": "Equipamiento Ideal para Hacer Beats en tu Notebook"
+    },
+    {
+      "slug": "equipo-para-hacer-beats-en-notebook",
+      "type": "post_x",
+      "title": "Equipamiento Ideal para Hacer Beats en tu Notebook"
+    },
+    {
+      "slug": "equipo-para-hacer-beats-en-notebook",
+      "type": "respuesta_youtube",
+      "title": "Equipamiento Ideal para Hacer Beats en tu Notebook"
+    },
+    {
+      "slug": "equipo-para-streaming-sin-complicarse",
+      "type": "respuesta_tecnica",
+      "title": "El equipo perfecto para tus transmisiones en vivo"
+    },
+    {
+      "slug": "equipo-para-streaming-sin-complicarse",
+      "type": "post_educativo",
+      "title": "El equipo perfecto para tus transmisiones en vivo"
+    },
+    {
+      "slug": "equipo-para-streaming-sin-complicarse",
+      "type": "snippet_social",
+      "title": "El equipo perfecto para tus transmisiones en vivo"
+    },
+    {
+      "slug": "equipo-para-streaming-sin-complicarse",
+      "type": "post_social",
+      "title": "El equipo perfecto para tus transmisiones en vivo"
+    },
+    {
+      "slug": "equipo-para-streaming-sin-complicarse",
+      "type": "post_x",
+      "title": "El equipo perfecto para tus transmisiones en vivo"
+    },
+    {
+      "slug": "equipo-para-streaming-sin-complicarse",
+      "type": "respuesta_youtube",
+      "title": "El equipo ideal para tus transmisiones en vivo"
+    },
+    {
+      "slug": "regalo-para-baterista-practica-electronica",
+      "type": "post_social",
+      "title": "Los mejores regalos para bateristas que aman la práctica electrónica"
+    },
+    {
+      "slug": "regalo-para-baterista-practica-electronica",
+      "type": "post_x",
+      "title": "Regalos ideales para bateristas que aman la práctica electrónica"
+    },
+    {
+      "slug": "regalo-para-baterista-practica-electronica",
+      "type": "respuesta_youtube",
+      "title": "Regalos ideales para bateristas: elige la mejor práctica electrónica"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "setup-compacto-escritorio-chico",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "setup-compacto-escritorio-chico",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "setup-compacto-escritorio-chico",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "setup-compacto-escritorio-chico",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "setup-compacto-escritorio-chico",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "regalo-para-baterista-practica-electronica",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "regalo-para-baterista-practica-electronica",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "regalo-para-baterista-practica-electronica",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 317.12
+}

@@ -1,0 +1,25 @@
+{
+  "timestamp_utc": "20260527-155038-963685",
+  "command": "auto-distribution",
+  "status": "ok",
+  "steps": [
+    {
+      "step": "auto-distribution",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\agente_browser_cdp.py",
+        "auto-distribution",
+        "--channels",
+        "x,youtube",
+        "--limit",
+        "2",
+        "--per-channel",
+        "1"
+      ],
+      "started_utc": "20260527-155023-260347",
+      "finished_utc": "20260527-155038-963391",
+      "returncode": 0,
+      "status": "ok"
+    }
+  ]
+}

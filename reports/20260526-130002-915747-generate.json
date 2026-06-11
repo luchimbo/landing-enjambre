@@ -1,0 +1,1822 @@
+{
+  "timestamp_utc": "20260526-130002-915747",
+  "command": "generate",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260526-130002-526769",
+  "dry_run": false,
+  "requested_limit": 5,
+  "effective_limit": 5,
+  "processed_count": 1062,
+  "created_count": 0,
+  "stopped_reason": "no_more_topics_or_all_skipped",
+  "elapsed_seconds": 0.39,
+  "max_seconds": 1200,
+  "skipped_count": 507,
+  "blocked_count": 555,
+  "created": [],
+  "skipped": [
+    {
+      "keyword": "controlador MIDI para FL Studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI para Ableton",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "interfaz de audio para grabar voz en casa",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "placa de sonido para guitarra",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "microfono para podcast",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "microfono para streaming",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "monitores de estudio para home studio chico",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "auriculares cerrados para grabar voces",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "sintetizador para aprender sintesis",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "bateria electronica para departamento",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup de streaming con buen audio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Arturia MiniLab 3 vs KeyLab",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "home studio para principiantes",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Arturia MiniLab 3 para Ableton",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Arturia MiniLab 3 para FL Studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Arturia KeyStep Pro para hardware",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Arturia MicroFreak para empezar en sintesis",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Arturia MiniFreak vs MicroFreak",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Arturia PolyBrute para estudio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Synido TempoKEY 25 para producir",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Synido TempoPAD para beats",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Synido LiveMix para streaming",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Synido LiveDock para directo",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "MIDIPLUS AK490 para principiantes",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "MIDIPLUS AKM322 para escritorio chico",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "MIDIPLUS i61 para tocar con mas teclas",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "MIDIPLUS Studio M para home studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Midiplus MS5 para home studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Midiplus MS6 para home studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Midiplus MI3 para escritorio chico",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Midiplus ED6 para practicar bateria",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Midiplus ED8 vs ED6",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "microfono USB para podcast",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "microfono XLR para podcast",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "microfono condensador para voz",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Audio Technica AT2020 para home studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Alctron UM900 para streaming",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "brazo para microfono de streaming",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "filtro pop para grabar voz",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "auriculares para grabar podcast",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Audio Technica ATH-M20x para grabar",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Audio Technica ATH-M50x para monitoreo",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "auriculares para bateria electronica",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "monitores para mezclar en cuarto chico",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "monitores 5 pulgadas o 6 pulgadas",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "interfaz de audio para podcast",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "interfaz de audio para streaming",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "interfaz de audio con dos entradas",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "placa de sonido para guitarra y voz",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "home studio para rap",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "home studio para guitarra",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup para beatmaking",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup para producir musica electronica",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup portable para producir",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "teclado MIDI chico para notebook",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI con pads",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI 25 teclas vs 49 teclas",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI 49 teclas vs 61 teclas",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI para Logic",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI para Cubase",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI para Reaper",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "sintetizador para bajos",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "sintetizador para ambient",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "sintetizador hardware para home studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "secuenciador hardware para sintetizadores",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador para sintetizadores hardware",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "bateria electronica para principiantes",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "bateria electronica silenciosa",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "bateria electronica con MIDI",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "camara y microfono para streaming",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup para YouTube con buen audio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup para Twitch con microfono",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "regalo para productor musical",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "regalo para musico principiante",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "microfono para podcast con invitado",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "microfono para locucion en casa",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "microfono para grabar reels",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "microfono para clases online",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "microfono para cantar en home studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "microfono dinamico vs condensador para podcast",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "microfono USB vs interfaz de audio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "interfaz de audio para dos microfonos",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "interfaz de audio para bajo electrico",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "interfaz de audio para teclado y voz",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "interfaz de audio para notebook",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "interfaz de audio para iPad o mobile",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "interfaz con phantom power para microfono condensador",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "interfaz de audio para monitores de estudio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "monitores de estudio para escritorio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "monitores de estudio para cuarto sin tratar",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "monitores activos para producir",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "monitores de estudio vs auriculares",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "monitores para editar video con buen audio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "auriculares para producir musica",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "auriculares para mezclar de noche",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "auriculares cerrados vs abiertos para home studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "auriculares para streaming",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "auriculares para tocar guitarra con interfaz",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI para aprender piano",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI para tocar acordes",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI para beats de trap",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI para reggaeton",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI para techno",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI para sintetizadores virtuales",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI portable para viajar",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI con perillas",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "pads MIDI para finger drumming",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "pads MIDI para disparar samples",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "secuenciador para dawless",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "secuenciador para modular y sintes",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "sinte analogico para principiantes",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "sinte hibrido para directo",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "sintetizador para sonidos lead",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "sintetizador para pads y atmosferas",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "sintetizador con vocoder",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "bateria electronica para practicar de noche",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "bateria electronica para chicos",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "bateria electronica para tocar en vivo",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "bateria electronica para grabar MIDI",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "modulo de bateria electronica",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "pads y platillos para bateria electronica",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "camara para streaming con microfono",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "camara para YouTube home studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup para podcast de video",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup para cursos online",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup para transmisiones en vivo",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup para productor en departamento",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup para cantante compositor",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup para guitarrista productor",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup para beatmaker principiante",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup para musica urbana en casa",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup para musica electronica sin computadora",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup compacto para escritorio chico",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "home studio con poco espacio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "home studio para voz y guitarra",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "home studio para piano y voz",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "home studio para crear contenido",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "home studio sin molestar vecinos",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "que comprar primero para home studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "upgrade para home studio principiante",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "cadena de audio para grabar voz",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "cadena de audio para streaming",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "cadena de audio para guitarra",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "equipo para empezar a producir musica",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "equipo para grabar covers en casa",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "equipo para hacer beats en notebook",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "equipo para podcast economico",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "equipo para streaming sin complicarse",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "regalo para cantante",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "regalo para baterista",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "regalo para tecladista",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "regalo para streamer",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "que comprar para controlador MIDI para FL Studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "como elegir controlador MIDI para FL Studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "mejor opcion de controlador MIDI para FL Studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "guia para elegir controlador MIDI para FL Studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "comparar opciones de controlador MIDI para FL Studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup con controlador MIDI para FL Studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI para FL Studio para principiantes",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI para FL Studio para home studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI para FL Studio compatible con Ableton",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "que comprar para controlador MIDI para Ableton",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "como elegir controlador MIDI para Ableton",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "mejor opcion de controlador MIDI para Ableton",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "guia para elegir controlador MIDI para Ableton",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "comparar opciones de controlador MIDI para Ableton",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup con controlador MIDI para Ableton",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI para Ableton para principiantes",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI para Ableton para home studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI para Ableton compatible con Ableton",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI para Ableton compatible con FL Studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "que comprar para interfaz de audio para grabar voz en casa",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "como elegir interfaz de audio para grabar voz en casa",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "mejor opcion de interfaz de audio para grabar voz en casa",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "guia para elegir interfaz de audio para grabar voz en casa",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "comparar opciones de interfaz de audio para grabar voz en casa",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup con interfaz de audio para grabar voz en casa",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "interfaz de audio para grabar voz en casa para principiantes",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "interfaz de audio para grabar voz en casa para home studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "interfaz de audio para grabar voz en casa para departamento",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "interfaz de audio para grabar voz en casa para streaming",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "que comprar para placa de sonido para guitarra",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "como elegir placa de sonido para guitarra",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "mejor opcion de placa de sonido para guitarra",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "guia para elegir placa de sonido para guitarra",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "comparar opciones de placa de sonido para guitarra",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup con placa de sonido para guitarra",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "placa de sonido para guitarra para principiantes",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "placa de sonido para guitarra para home studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "placa de sonido para guitarra para departamento",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "placa de sonido para guitarra para streaming",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "placa de sonido para guitarra para grabar en casa",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "que comprar para microfono para podcast",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "como elegir microfono para podcast",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "mejor opcion de microfono para podcast",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "comparar opciones de microfono para podcast",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup con microfono para podcast",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "microfono para podcast para home studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "microfono para podcast para streaming",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "microfono para podcast para grabar en casa",
+      "reason": "already_exists"
+    }
+  ],
+  "blocked": [
+    {
+      "keyword": "controlador MIDI para FL Studio compatible con FL Studio",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "interfaz de audio para grabar voz en casa para grabar en casa",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "guia para elegir microfono para podcast",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "microfono para podcast para principiantes",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "que comprar para monitores de estudio para home studio chico",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "comparar opciones de monitores de estudio para home studio chico",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "setup con monitores de estudio para home studio chico",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "monitores de estudio para home studio chico para principiantes",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "mejor opcion de auriculares cerrados para grabar voces",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "como elegir sintetizador para aprender sintesis",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "guia para elegir sintetizador para aprender sintesis",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "mejor opcion de Arturia MiniLab 3 vs KeyLab",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "guia para elegir Arturia MiniLab 3 vs KeyLab",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "comparar opciones de Arturia MiniLab 3 vs KeyLab",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "Arturia MiniLab 3 para Ableton compatible con Ableton",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "guia para elegir Arturia KeyStep Pro para hardware",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "mejor opcion de Arturia MicroFreak para empezar en sintesis",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "Arturia MicroFreak para empezar en sintesis para principiantes",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "mejor opcion de Arturia MiniFreak vs MicroFreak",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "comparar opciones de Arturia MiniFreak vs MicroFreak",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "setup con Arturia MiniFreak vs MicroFreak",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "guia para elegir MIDIPLUS AK490 para principiantes",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "guia para elegir Midiplus MS5 para home studio",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "guia para elegir Midiplus MS6 para home studio",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "como elegir Midiplus ED8 vs ED6",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "comparar opciones de Midiplus ED8 vs ED6",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "setup con Midiplus ED8 vs ED6",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "como elegir microfono XLR para podcast",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "comparar opciones de microfono XLR para podcast",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "guia para elegir microfono condensador para voz",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "Audio Technica AT2020 para home studio para principiantes",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "Audio Technica AT2020 para home studio para grabar en casa",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "guia para elegir Alctron UM900 para streaming",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "Alctron UM900 para streaming para home studio",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "Alctron UM900 para streaming para grabar en casa",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "mejor opcion de auriculares para grabar podcast",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "guia para elegir auriculares para grabar podcast",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "comparar opciones de auriculares para grabar podcast",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "guia para elegir Audio Technica ATH-M20x para grabar",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "Audio Technica ATH-M20x para grabar para principiantes",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "Audio Technica ATH-M20x para grabar para departamento",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "que comprar para auriculares para bateria electronica",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "como elegir auriculares para bateria electronica",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "mejor opcion de auriculares para bateria electronica",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "comparar opciones de auriculares para bateria electronica",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "auriculares para bateria electronica para principiantes",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "que comprar para monitores para mezclar en cuarto chico",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "mejor opcion de monitores para mezclar en cuarto chico",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "guia para elegir monitores para mezclar en cuarto chico",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "como elegir monitores 5 pulgadas o 6 pulgadas",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "mejor opcion de monitores 5 pulgadas o 6 pulgadas",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "monitores 5 pulgadas o 6 pulgadas para home studio",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "como elegir interfaz de audio para podcast",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "guia para elegir interfaz de audio para podcast",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "comparar opciones de interfaz de audio para podcast",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "interfaz de audio para podcast para principiantes",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "interfaz de audio para podcast para streaming",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "interfaz de audio para podcast para grabar en casa",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "mejor opcion de interfaz de audio para streaming",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "guia para elegir interfaz de audio para streaming",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "que comprar para interfaz de audio con dos entradas",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "comparar opciones de interfaz de audio con dos entradas",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "interfaz de audio con dos entradas para streaming",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "que comprar para placa de sonido para guitarra y voz",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "placa de sonido para guitarra y voz para principiantes",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "controlador MIDI para FL Studio para departamento",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "controlador MIDI para FL Studio para setup portable",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "controlador MIDI para FL Studio para producir musica electronica",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "controlador MIDI para FL Studio para workflow sin complicarse",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "controlador MIDI para FL Studio para hacer beats",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "controlador MIDI para FL Studio para samples",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "controlador MIDI para Ableton para departamento",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "controlador MIDI para Ableton para creadores de contenido",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "controlador MIDI para Ableton para setup portable",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "controlador MIDI para Ableton para producir musica electronica",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "controlador MIDI para Ableton para workflow sin complicarse",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "controlador MIDI para Ableton para hacer beats",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "controlador MIDI para Ableton para tocar acordes",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "controlador MIDI para Ableton para producir en notebook",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "controlador MIDI para Ableton para escritorio chico",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "controlador MIDI para Ableton con pads",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "controlador MIDI para Ableton para finger drumming",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "controlador MIDI para Ableton para samples",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "controlador MIDI para Ableton para trap",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "controlador MIDI para Ableton para live set",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "interfaz de audio para grabar voz en casa para home studio chico",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "interfaz de audio para grabar voz en casa para creadores de contenido",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "interfaz de audio para grabar voz en casa para setup portable",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "interfaz de audio para grabar voz en casa para mejorar audio en casa",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "interfaz de audio para grabar voz en casa para grabar contenido",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "interfaz de audio para grabar voz en casa para voces",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "interfaz de audio para grabar voz en casa para locucion",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "interfaz de audio para grabar voz en casa con interfaz de audio",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "interfaz de audio para grabar voz en casa para grabar covers",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "interfaz de audio para grabar voz en casa para dos entradas",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "interfaz de audio para grabar voz en casa para guitarra",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "interfaz de audio para grabar voz en casa para voz",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "interfaz de audio para grabar voz en casa para notebook",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "interfaz de audio para grabar voz en casa para conectar monitores",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "interfaz de audio para grabar voz en casa para grabar voces",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "interfaz de audio para grabar voz en casa para mezclar de noche",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "interfaz de audio para grabar voz en casa para tocar guitarra",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "placa de sonido para guitarra para home studio chico",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "placa de sonido para guitarra para creadores de contenido",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "placa de sonido para guitarra para setup portable",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "placa de sonido para guitarra para mejorar audio en casa",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "placa de sonido para guitarra para grabar contenido",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "placa de sonido para guitarra para dos entradas",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "placa de sonido para guitarra para voz",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "placa de sonido para guitarra para notebook",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "placa de sonido para guitarra para conectar monitores",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "placa de sonido para guitarra para grabar voces",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "placa de sonido para guitarra para mezclar de noche",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "placa de sonido para guitarra para tocar guitarra",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "microfono para podcast para home studio chico",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "microfono para podcast para departamento",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "microfono para podcast para creadores de contenido",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "microfono para podcast para setup portable",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "microfono para podcast para mejorar audio en casa",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "microfono para podcast para grabar contenido",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "microfono para podcast para YouTube",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "microfono para podcast para Twitch",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "microfono para podcast para clases online",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "microfono para podcast sin complicarse",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "microfono para podcast para voces",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "microfono para podcast para locucion",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "microfono para podcast con interfaz de audio",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "microfono para podcast para grabar covers",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "microfono para podcast para dos entradas",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "microfono para podcast para guitarra",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "microfono para podcast para voz",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "microfono para podcast para notebook",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "microfono para podcast para conectar monitores",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "microfono para streaming para home studio chico",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "microfono para streaming para creadores de contenido",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "microfono para streaming para setup portable",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "microfono para streaming para mejorar audio en casa",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "microfono para streaming para grabar contenido",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "microfono para streaming para YouTube",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "microfono para streaming para Twitch",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "microfono para streaming para podcast",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "microfono para streaming para clases online",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "microfono para streaming sin complicarse",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "microfono para streaming para voces",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "microfono para streaming para locucion",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "microfono para streaming con interfaz de audio",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "microfono para streaming para grabar covers",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "microfono para streaming para grabar voces",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "microfono para streaming para mezclar de noche",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "microfono para streaming para tocar guitarra",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "monitores de estudio para home studio chico para creadores de contenido",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "monitores de estudio para home studio chico para setup portable",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "monitores de estudio para home studio chico para mejorar audio en casa",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "monitores de estudio para home studio chico para grabar contenido",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "monitores de estudio para home studio chico para grabar voces",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "monitores de estudio para home studio chico para mezclar de noche",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "monitores de estudio para home studio chico para tocar guitarra",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "monitores de estudio para home studio chico para streaming",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "monitores de estudio para home studio chico para cuarto chico",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "monitores de estudio para home studio chico para escritorio",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "monitores de estudio para home studio chico para producir",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "monitores de estudio para home studio chico para editar video",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "auriculares cerrados para grabar voces para home studio chico",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "auriculares cerrados para grabar voces para creadores de contenido",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "auriculares cerrados para grabar voces para setup portable",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "auriculares cerrados para grabar voces para mejorar audio en casa",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "auriculares cerrados para grabar voces para grabar contenido",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "auriculares cerrados para grabar voces para voces",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "auriculares cerrados para grabar voces para locucion",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "auriculares cerrados para grabar voces con interfaz de audio",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "auriculares cerrados para grabar voces para grabar covers",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "auriculares cerrados para grabar voces para dos entradas",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "auriculares cerrados para grabar voces para guitarra",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "auriculares cerrados para grabar voces para voz",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "auriculares cerrados para grabar voces para notebook",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "auriculares cerrados para grabar voces para conectar monitores",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "auriculares cerrados para grabar voces para mezclar de noche",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "auriculares cerrados para grabar voces para tocar guitarra",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "sintetizador para aprender sintesis para home studio chico",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "sintetizador para aprender sintesis para departamento",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "sintetizador para aprender sintesis para creadores de contenido",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "sintetizador para aprender sintesis para setup portable",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "sintetizador para aprender sintesis para producir musica electronica",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "sintetizador para aprender sintesis para workflow sin complicarse",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "sintetizador para aprender sintesis para bajos",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "sintetizador para aprender sintesis para leads",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "sintetizador para aprender sintesis para pads",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "sintetizador para aprender sintesis para directo",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "sintetizador para aprender sintesis sin computadora",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "sintetizador para aprender sintesis para texturas",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "sintetizador para aprender sintesis para musica electronica",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "sintetizador para aprender sintesis con vocoder",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "bateria electronica para departamento para home studio chico",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "bateria electronica para departamento para creadores de contenido",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "bateria electronica para departamento para setup portable",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "bateria electronica para departamento para mejorar audio en casa",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "bateria electronica para departamento para grabar contenido",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "bateria electronica para departamento para grabar voces",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "bateria electronica para departamento para mezclar de noche",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    },
+    {
+      "keyword": "bateria electronica para departamento para tocar guitarra",
+      "reason": "generation_error",
+      "error": "Falta OPENROUTER_API_KEY en .env o variables de entorno"
+    }
+  ]
+}

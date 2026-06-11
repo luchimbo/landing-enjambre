@@ -15,11 +15,15 @@ outputs/
 # browser session (Chrome CDP)
 session/
 
-# logs y reportes de ejecucion
+# logs de ejecucion (no son utiles en Vercel)
 logs/
-reports/
 
-# artefactos de runtime de agentes (se regeneran solos)
+# reports/*.json SE incluyen en git para el dashboard de Vercel
+# pero excluimos logs, markdown y otros artefactos del scheduler
+reports/*.log
+reports/*.md
+
+# artefactos de runtime de agentes (se regeneran solos, no necesarios en Vercel)
 data/*.db
 data/ig_state.json
 data/agent_heartbeat.json
@@ -27,15 +31,17 @@ data/browser_action_memory.json
 data/auto_browser_*.json
 data/catalogo_engagement.json
 data/catalogoTN.csv
-data/content_feedback.jsonl
 data/conversion_sales.jsonl
-data/distribution_log.jsonl
 data/distribution_search_tasks.jsonl
-data/engagement_log.jsonl
-data/geo_audits.jsonl
 data/geo_prompts.csv
 data/nurture_metrics.json
 data/social_intel.jsonl
+
+# Los siguientes JSONL se incluyen en git para el dashboard de Vercel:
+# data/content_feedback.jsonl
+# data/distribution_log.jsonl
+# data/engagement_log.jsonl
+# data/geo_audits.jsonl
 
 # previews y temporales
 email_preview.html
@@ -49,3 +55,6 @@ tmp_*.py
 # misc
 agente_engagement/sessions/
 agente_engagement/node_modules/
+
+.vercel
+.env*

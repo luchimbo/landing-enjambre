@@ -1,0 +1,142 @@
+{
+  "timestamp_utc": "20260529-123945-464907",
+  "command": "auto-listen",
+  "channels": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "reddit",
+    "x",
+    "youtube"
+  ],
+  "searches": 3,
+  "per_search": 2,
+  "dry_run": false,
+  "items": 15,
+  "distribution_drafts": 15,
+  "social_intel_path": "D:\\AgentesGuille\\data\\social_intel.jsonl",
+  "search_tasks_path": "D:\\AgentesGuille\\data\\distribution_search_tasks.jsonl",
+  "content_feedback_path": "D:\\AgentesGuille\\data\\content_feedback.jsonl",
+  "sample": [
+    {
+      "id": "20260529-123802-299892:facebook:0",
+      "created_at_utc": "2026-05-29T12:38:15.742924+00:00",
+      "run_id": "20260529-123802-299892",
+      "channel": "facebook",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.facebook.com/groups/828346141416525/?post_id=1696682911249506&comment_id=1697026631215134&reply_comment_id=1697069877877476&notif_id=1779975891130693&notif_t=group_comment&ref=notif",
+      "source_title": "No leídaCristian Acevedo ha respondido tu comentario sobre una publicación en Productores Musicales de ARGENTINA (Ableton, Fl studio, LMMS) Buenos Aires.22 h",
+      "source_context": "No leídaCristian Acevedo ha respondido tu comentario sobre una publicación en Productores Musicales de ARGENTINA (Ableton, Fl studio, LMMS) Buenos Aires.22 h"
+    },
+    {
+      "id": "20260529-123802-299892:facebook:1",
+      "created_at_utc": "2026-05-29T12:38:21.139326+00:00",
+      "run_id": "20260529-123802-299892",
+      "channel": "facebook",
+      "query": "controlador MIDI para Ableton",
+      "landing_slug": "controlador-midi-para-ableton-comparativa",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-ableton-comparativa/",
+      "source_url": "https://www.facebook.com/groups/828346141416525/?post_id=1696682911249506&comment_id=1697026631215134&reply_comment_id=1697069877877476&notif_id=1779975891130693&notif_t=group_comment&ref=notif",
+      "source_title": "No leídaCristian Acevedo ha respondido tu comentario sobre una publicación en Productores Musicales de ARGENTINA (Ableton, Fl studio, LMMS) Buenos Aires.22 h",
+      "source_context": "No leídaCristian Acevedo ha respondido tu comentario sobre una publicación en Productores Musicales de ARGENTINA (Ableton, Fl studio, LMMS) Buenos Aires.22 h"
+    },
+    {
+      "id": "20260529-123802-299892:instagram:2",
+      "created_at_utc": "2026-05-29T12:38:32.125450+00:00",
+      "run_id": "20260529-123802-299892",
+      "channel": "instagram",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.instagram.com/p/DKlslFwsis_/",
+      "source_title": "",
+      "source_context": "Photo by Qatar Home Studio on June 06, 2025."
+    },
+    {
+      "id": "20260529-123802-299892:linkedin:3",
+      "created_at_utc": "2026-05-29T12:38:44.706875+00:00",
+      "run_id": "20260529-123802-299892",
+      "channel": "linkedin",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.linkedin.com/in/guillermo-coronel/es/",
+      "source_title": "",
+      "source_context": "Guillermo Coronel • 3er+ Desarrollador de instrumentos musicales electrónicos con IA (Arduino + MIDI) | Team Leader CX | Soporte Técnico | RR.PP & Gestión e Innovación Pública 3 días • Editado • Seguir"
+    },
+    {
+      "id": "20260529-123802-299892:linkedin:4",
+      "created_at_utc": "2026-05-29T12:38:44.752511+00:00",
+      "run_id": "20260529-123802-299892",
+      "channel": "linkedin",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.linkedin.com/search/results/all/?keywords=%23hardwaredevelopment&origin=HASH_TAG_FROM_FEED",
+      "source_title": "#HardwareDevelopment",
+      "source_context": "Publicación en el feed Guillermo Coronel • 3er+ Desarrollador de instrumentos musicales electrónicos con IA (Arduino + MIDI) | Team Leader CX | Soporte Técnico | RR.PP & Gestión e Innovación Pública 3 días • Editado • Seguir 🚀 SENSITIVE MINI MIDI CONTROLLER: Hardware abierto, conectividad híbrida y expresividad musical. Les comparto el desarrollo de mi último proyecto de luthería electrónica: un controlador MIDI híbrido diseñado desde cero sobre la arquitectura del chip ESP32-S3. El objetivo principal fue fusionar la estabilidad de la conexión tradicional por cable con la libertad de la conectividad inalámbrica, sin sacrificar rendimiento ni la expresividad al tocar. Para lograrlo, desarrollé un firmware personalizado que gestiona en simultáneo USB Nativo y Bluetooth de baja latencia (BLE MIDI), sumando características avanzadas de ejecución como la presión independiente por nota (Polyphonic Aftertouch). Acá les cuento qué logré con este desarrollo: 🎛️ Prestaciones y Versatilidad Conectividad Dual Simultánea: Capacidad de transmitir datos de manera paralela por cable USB-C y de forma inalámbrica. Esto permite controlar dos dispositivos o sintetizadores distintos al mismo tiempo e"
+    },
+    {
+      "id": "20260529-123802-299892:linkedin:5",
+      "created_at_utc": "2026-05-29T12:38:51.166079+00:00",
+      "run_id": "20260529-123802-299892",
+      "channel": "linkedin",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.linkedin.com/pulse/la-voz-nueva-frontera-del-e-learning-claves-para-jim%C3%A9nez-herrad%C3%B3n-6gukf/",
+      "source_title": "",
+      "source_context": "La voz, la nueva frontera del e-learning: claves para asistentes conversacionales educativos. Juan Bautista Jiménez Herradón"
+    },
+    {
+      "id": "20260529-123802-299892:linkedin:6",
+      "created_at_utc": "2026-05-29T12:38:57.947332+00:00",
+      "run_id": "20260529-123802-299892",
+      "channel": "linkedin",
+      "query": "controlador MIDI para Ableton",
+      "landing_slug": "controlador-midi-para-ableton-comparativa",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-ableton-comparativa/",
+      "source_url": "https://www.linkedin.com/in/guillermo-coronel/es/",
+      "source_title": "",
+      "source_context": "Guillermo Coronel • 3er+ Desarrollador de instrumentos musicales electrónicos con IA (Arduino + MIDI) | Team Leader CX | Soporte Técnico | RR.PP & Gestión e Innovación Pública 3 días • Editado • Seguir"
+    },
+    {
+      "id": "20260529-123802-299892:linkedin:7",
+      "created_at_utc": "2026-05-29T12:38:57.991692+00:00",
+      "run_id": "20260529-123802-299892",
+      "channel": "linkedin",
+      "query": "controlador MIDI para Ableton",
+      "landing_slug": "controlador-midi-para-ableton-comparativa",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-ableton-comparativa/",
+      "source_url": "https://www.linkedin.com/search/results/all/?keywords=%23hardwaredevelopment&origin=HASH_TAG_FROM_FEED",
+      "source_title": "#HardwareDevelopment",
+      "source_context": "Publicación en el feed Guillermo Coronel • 3er+ Desarrollador de instrumentos musicales electrónicos con IA (Arduino + MIDI) | Team Leader CX | Soporte Técnico | RR.PP & Gestión e Innovación Pública 3 días • Editado • Seguir 🚀 SENSITIVE MINI MIDI CONTROLLER: Hardware abierto, conectividad híbrida y expresividad musical. Les comparto el desarrollo de mi último proyecto de luthería electrónica: un controlador MIDI híbrido diseñado desde cero sobre la arquitectura del chip ESP32-S3. El objetivo principal fue fusionar la estabilidad de la conexión tradicional por cable con la libertad de la conectividad inalámbrica, sin sacrificar rendimiento ni la expresividad al tocar. Para lograrlo, desarrollé un firmware personalizado que gestiona en simultáneo USB Nativo y Bluetooth de baja latencia (BLE MIDI), sumando características avanzadas de ejecución como la presión independiente por nota (Polyphonic Aftertouch). Acá les cuento qué logré con este desarrollo: 🎛️ Prestaciones y Versatilidad Conectividad Dual Simultánea: Capacidad de transmitir datos de manera paralela por cable USB-C y de forma inalámbrica. Esto permite controlar dos dispositivos o sintetizadores distintos al mismo tiempo e"
+    },
+    {
+      "id": "20260529-123802-299892:reddit:8",
+      "created_at_utc": "2026-05-29T12:39:03.349507+00:00",
+      "run_id": "20260529-123802-299892",
+      "channel": "reddit",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.reddit.com/r/FL_Studio/comments/1tr0l35/i_made_an_adventurers_theme_in_fl_studio/",
+      "source_title": "I made an adventurer’s theme in FL Studio",
+      "source_context": "I made an adventurer’s theme in FL Studio r/FL_Studio · hace 1 min I made an adventurer’s theme in FL Studio 1 voto·0 comentarios"
+    },
+    {
+      "id": "20260529-123802-299892:reddit:9",
+      "created_at_utc": "2026-05-29T12:39:13.817578+00:00",
+      "run_id": "20260529-123802-299892",
+      "channel": "reddit",
+      "query": "controlador MIDI para Ableton",
+      "landing_slug": "controlador-midi-para-ableton-comparativa",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-ableton-comparativa/",
+      "source_url": "https://www.reddit.com/r/TouchDesigner/comments/1tqzf30/tda_ableton_td_problemquestion_live_seemingly/",
+      "source_title": "TDA Ableton + TD problem/question. Live seemingly sends out CC messages on unrelated actions (like renaming scenes)",
+      "source_context": "TDA Ableton + TD problem/question. Live seemingly sends out CC messages on unrelated actions (like renaming scenes) r/TouchDesigner · hace 49 min TDA Ableton + TD problem/question. Live seemingly sends out CC messages on unrelated actions (like renaming scenes) 1 voto·0 comentarios"
+    }
+  ]
+}

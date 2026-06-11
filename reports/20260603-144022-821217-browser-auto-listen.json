@@ -1,0 +1,142 @@
+{
+  "timestamp_utc": "20260603-144022-821217",
+  "command": "auto-listen",
+  "channels": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "reddit",
+    "x",
+    "youtube"
+  ],
+  "searches": 4,
+  "per_search": 2,
+  "dry_run": false,
+  "items": 11,
+  "distribution_drafts": 11,
+  "social_intel_path": "D:\\AgentesGuille\\data\\social_intel.jsonl",
+  "search_tasks_path": "D:\\AgentesGuille\\data\\distribution_search_tasks.jsonl",
+  "content_feedback_path": "D:\\AgentesGuille\\data\\content_feedback.jsonl",
+  "sample": [
+    {
+      "id": "20260603-143801-485241:instagram:0",
+      "created_at_utc": "2026-06-03T14:38:36.366610+00:00",
+      "run_id": "20260603-143801-485241",
+      "channel": "instagram",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.instagram.com/p/DKlslFwsis_/",
+      "source_title": "",
+      "source_context": "Photo by Qatar Home Studio on June 06, 2025."
+    },
+    {
+      "id": "20260603-143801-485241:linkedin:1",
+      "created_at_utc": "2026-06-03T14:38:54.140860+00:00",
+      "run_id": "20260603-143801-485241",
+      "channel": "linkedin",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.linkedin.com/in/guillermo-coronel/es/",
+      "source_title": "",
+      "source_context": "Guillermo Coronel • 3er+ Desarrollador de instrumentos musicales electrónicos con IA (Arduino + MIDI) | Team Leader CX | Soporte Técnico | RR.PP & Gestión e Innovación Pública 1 h • Seguir"
+    },
+    {
+      "id": "20260603-143801-485241:linkedin:2",
+      "created_at_utc": "2026-06-03T14:38:54.211671+00:00",
+      "run_id": "20260603-143801-485241",
+      "channel": "linkedin",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.linkedin.com/search/results/all/?keywords=%23esp32s3&origin=HASH_TAG_FROM_FEED",
+      "source_title": "#ESP32S3",
+      "source_context": "Publicación en el feed Guillermo Coronel • 3er+ Desarrollador de instrumentos musicales electrónicos con IA (Arduino + MIDI) | Team Leader CX | Soporte Técnico | RR.PP & Gestión e Innovación Pública 1 h • Seguir 🚀 PROYECTO TERMINADO: SENSITIVE SYNTH v1.0 🎹 Después de semanas de desarrollo, diseño y debugging, finalmente completé el Sensitive Synth v1.0, un controlador MIDI táctil por USB nativo desarrollado completamente desde cero. El objetivo principal era crear un dispositivo embebido, compacto y Plug-and-Play que combinara una interfaz gráfica fluida en tiempo real con una latencia de respuesta mínima para la ejecución musical. ⚙️ Especificaciones Técnicas & Stack: MCU: ESP32-S3 (Dual-Core @ 240MHz). Firmware: C++ / Arduino Framework. Gráficos y Hardware: Adafruit GFX + Display ILI9341 + Controlador táctil XPT2046. Conectividad: USB MIDI Nativo basado en la pila TinyUSB. 🎹 Principales Funcionalidades: Teclado Virtual Integrado: 13 notas activas (8 blancas / 5 negras) operadas de forma táctil. Compatibilidad Universal: Al ser Class-Compliant, se conecta de forma directa a cualquier DAW (Ableton, FL Studio, GarageBand) sin necesidad de drivers adicionales. Feedback Visual: Imp"
+    },
+    {
+      "id": "20260603-143801-485241:linkedin:3",
+      "created_at_utc": "2026-06-03T14:39:03.806620+00:00",
+      "run_id": "20260603-143801-485241",
+      "channel": "linkedin",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.linkedin.com/pulse/la-voz-nueva-frontera-del-e-learning-claves-para-jim%C3%A9nez-herrad%C3%B3n-6gukf/",
+      "source_title": "",
+      "source_context": "La voz, la nueva frontera del e-learning: claves para asistentes conversacionales educativos. Juan Bautista Jiménez Herradón"
+    },
+    {
+      "id": "20260603-143801-485241:linkedin:4",
+      "created_at_utc": "2026-06-03T14:39:11.153664+00:00",
+      "run_id": "20260603-143801-485241",
+      "channel": "linkedin",
+      "query": "controlador MIDI para Ableton",
+      "landing_slug": "controlador-midi-para-ableton-comparativa",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-ableton-comparativa/",
+      "source_url": "https://www.linkedin.com/in/guillermo-coronel/es/",
+      "source_title": "",
+      "source_context": "Guillermo Coronel • 3er+ Desarrollador de instrumentos musicales electrónicos con IA (Arduino + MIDI) | Team Leader CX | Soporte Técnico | RR.PP & Gestión e Innovación Pública 1 h • Seguir"
+    },
+    {
+      "id": "20260603-143801-485241:linkedin:5",
+      "created_at_utc": "2026-06-03T14:39:11.220914+00:00",
+      "run_id": "20260603-143801-485241",
+      "channel": "linkedin",
+      "query": "controlador MIDI para Ableton",
+      "landing_slug": "controlador-midi-para-ableton-comparativa",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-ableton-comparativa/",
+      "source_url": "https://www.linkedin.com/search/results/all/?keywords=%23esp32s3&origin=HASH_TAG_FROM_FEED",
+      "source_title": "#ESP32S3",
+      "source_context": "Publicación en el feed Guillermo Coronel • 3er+ Desarrollador de instrumentos musicales electrónicos con IA (Arduino + MIDI) | Team Leader CX | Soporte Técnico | RR.PP & Gestión e Innovación Pública 1 h • Seguir 🚀 PROYECTO TERMINADO: SENSITIVE SYNTH v1.0 🎹 Después de semanas de desarrollo, diseño y debugging, finalmente completé el Sensitive Synth v1.0, un controlador MIDI táctil por USB nativo desarrollado completamente desde cero. El objetivo principal era crear un dispositivo embebido, compacto y Plug-and-Play que combinara una interfaz gráfica fluida en tiempo real con una latencia de respuesta mínima para la ejecución musical. ⚙️ Especificaciones Técnicas & Stack: MCU: ESP32-S3 (Dual-Core @ 240MHz). Firmware: C++ / Arduino Framework. Gráficos y Hardware: Adafruit GFX + Display ILI9341 + Controlador táctil XPT2046. Conectividad: USB MIDI Nativo basado en la pila TinyUSB. 🎹 Principales Funcionalidades: Teclado Virtual Integrado: 13 notas activas (8 blancas / 5 negras) operadas de forma táctil. Compatibilidad Universal: Al ser Class-Compliant, se conecta de forma directa a cualquier DAW (Ableton, FL Studio, GarageBand) sin necesidad de drivers adicionales. Feedback Visual: Imp"
+    },
+    {
+      "id": "20260603-143801-485241:youtube:6",
+      "created_at_utc": "2026-06-03T14:40:12.084988+00:00",
+      "run_id": "20260603-143801-485241",
+      "channel": "youtube",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.youtube.com/watch?v=9GqOBgasFEA&pp=ygUpaW50ZXJmYXogZGUgYXVkaW8gcGFyYSBncmFiYXIgdm96IGVuIGNhc2E%3D",
+      "source_title": "9:56 9:56 Now playing",
+      "source_context": "👉 How to Make a RECORDING STUDIO at HOME - Economical Minimalist Home Studio 403K views 2 years ago Marce Ferrace This is the Simplest way to make your Minimalist HOME STUDIO in your room! What you need to know to be able to Record at Home ... CC 8 chapters Home Studio Minimalista | Qué PC necesito ? | Que es un DAW ? | Los Auriculares PLANOS (Fundamental) | Para qué se usa la Interfaz o placa de Sonido ? | El micrófono Ideal | Son Necesarios los Monitores de Audio ? | Qué es un Controlador MIDI ?"
+    },
+    {
+      "id": "20260603-143801-485241:youtube:7",
+      "created_at_utc": "2026-06-03T14:40:12.157516+00:00",
+      "run_id": "20260603-143801-485241",
+      "channel": "youtube",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.youtube.com/watch?v=9GqOBgasFEA",
+      "source_title": "Home Studio Minimalista Home Studio Minimalista 0:00",
+      "source_context": "Home Studio Minimalista Home Studio Minimalista 0:00 Home Studio Minimalista 0:00 Qué PC necesito ? Qué PC necesito ? 0:16 Qué PC necesito ? 0:16 Que es un DAW ? Que es un DAW ? 1:27 Que es un DAW ? 1:27 Los Auriculares PLANOS (Fundamental) Los Auriculares PLANOS (Fundamental) 2:02 Los Auriculares PLANOS (Fundamental) 2:02"
+    },
+    {
+      "id": "20260603-143801-485241:youtube:8",
+      "created_at_utc": "2026-06-03T14:40:17.384418+00:00",
+      "run_id": "20260603-143801-485241",
+      "channel": "youtube",
+      "query": "controlador MIDI para Ableton",
+      "landing_slug": "controlador-midi-para-ableton-comparativa",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-ableton-comparativa/",
+      "source_url": "https://www.youtube.com/watch?v=G161iMshInc&pp=ygUdY29udHJvbGFkb3IgTUlESSBwYXJhIEFibGV0b24%3D",
+      "source_title": "12:18 12:18 Now playing",
+      "source_context": "A mini PUSH for ABLETON with KEYS? (Arturia MINILAB MK3) 58K views 3 years ago Nico Astegiano ARTURIA MiniLab MK3 - https://bit.ly/3MHjfeK 0:00 Presentation 0:40 Design 1:26 Features 4:45 A mini PUSH for Ableton ↪ My ... 11:15 ... modos controlador midi controlador para hacer lo que sería una mezcla y también un controlador midi para hacer performance ... 4K"
+    },
+    {
+      "id": "20260603-143801-485241:youtube:9",
+      "created_at_utc": "2026-06-03T14:40:17.442840+00:00",
+      "run_id": "20260603-143801-485241",
+      "channel": "youtube",
+      "query": "controlador MIDI para Ableton",
+      "landing_slug": "controlador-midi-para-ableton-comparativa",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-ableton-comparativa/",
+      "source_url": "https://www.youtube.com/watch?v=G161iMshInc&t=675s",
+      "source_title": "11:15 ... modos controlador midi controlador para hacer lo que sería una mezcla y también un controlador midi para hacer performance ...",
+      "source_context": "11:15 ... modos controlador midi controlador para hacer lo que sería una mezcla y también un controlador midi para hacer performance ..."
+    }
+  ]
+}

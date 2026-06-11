@@ -1,0 +1,51 @@
+{
+  "timestamp_utc": "20260527-154317-389572",
+  "command": "auto-distribution",
+  "channels": [
+    "instagram",
+    "youtube"
+  ],
+  "unsupported_channels": [],
+  "limit": 4,
+  "per_channel": 2,
+  "dry_run": true,
+  "allow_proposed": false,
+  "published_or_attempted": 3,
+  "blocked_seen": 0,
+  "results": [
+    {
+      "id": "20260527-142132-390942:monitores-5-pulgadas-vs-6-pulgadas:snippet_social:social:1779891723557",
+      "channel": "instagram",
+      "slug": "monitores-5-pulgadas-vs-6-pulgadas",
+      "result": {
+        "ok": true,
+        "dry_run": true,
+        "url": "https://www.instagram.com/",
+        "text_length": 656
+      }
+    },
+    {
+      "id": "20260527-142132-390942:controlador-midi-25-teclas-vs-49-teclas:snippet_social:social:1779891751655",
+      "channel": "instagram",
+      "slug": "controlador-midi-25-teclas-vs-49-teclas",
+      "result": {
+        "ok": true,
+        "dry_run": true,
+        "url": "https://www.instagram.com/",
+        "text_length": 598
+      }
+    },
+    {
+      "id": "20260527-154246-961388:youtube:auto-listen:1",
+      "channel": "youtube",
+      "slug": "controlador-midi-para-fl-studio",
+      "result": {
+        "ok": true,
+        "dry_run": true,
+        "url": "https://www.youtube.com/watch?v=GPVLFMJQYDQ&pp=ygUfY29udHJvbGFkb3IgTUlESSBwYXJhIEZMIFN0dWRpb9IHCQkKCwGHKiGM7w%3D%3D",
+        "text_length": 340
+      }
+    }
+  ],
+  "blocked_sample": []
+}

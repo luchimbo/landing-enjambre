@@ -1,0 +1,142 @@
+{
+  "timestamp_utc": "20260609-194139-886623",
+  "command": "auto-listen",
+  "channels": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "reddit",
+    "x",
+    "youtube"
+  ],
+  "searches": 6,
+  "per_search": 3,
+  "dry_run": false,
+  "items": 24,
+  "distribution_drafts": 24,
+  "social_intel_path": "D:\\AgentesGuille\\data\\social_intel.jsonl",
+  "search_tasks_path": "D:\\AgentesGuille\\data\\distribution_search_tasks.jsonl",
+  "content_feedback_path": "D:\\AgentesGuille\\data\\content_feedback.jsonl",
+  "sample": [
+    {
+      "id": "20260609-193804-710983:instagram:0",
+      "created_at_utc": "2026-06-09T19:39:02.729824+00:00",
+      "run_id": "20260609-193804-710983",
+      "channel": "instagram",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.instagram.com/p/DXJSgFHCZIZ/",
+      "source_title": "",
+      "source_context": "🎛 RME UCX II A Reference-Class Audio Interface Built For Sessions That Must Not Stop. Ultra-Low Latency. Rock-Solid Drivers. Absolute Control. This Isn’t Gear You Replace. It’s Gear You Build Around. 💥 One-Day Special Price: ₹1,35,999/- One Flagship Interface. One Rare Window. No Repeats. No Extensions. When The Day Ends, The Door Closes. 📩 DM / WhatsApp To Book 🎧 Hand Sonances India #proaudio #audiointerface #recordingstudio #audioengineer #studiogear"
+    },
+    {
+      "id": "20260609-193804-710983:instagram:1",
+      "created_at_utc": "2026-06-09T19:39:08.587397+00:00",
+      "run_id": "20260609-193804-710983",
+      "channel": "instagram",
+      "query": "controlador MIDI para Ableton",
+      "landing_slug": "controlador-midi-para-ableton-comparativa",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-ableton-comparativa/",
+      "source_url": "https://www.instagram.com/p/DADgsL1oB6a/",
+      "source_title": "",
+      "source_context": "I spent a couple of years on and off working on this one. I sometimes worry this sort of detailed toil approach to music could become obsolete with AI techniques but hopefully it will just open more doors for deeper obsessing and structuring. I’m already using a lot of generative techniques to create part jammed part emergent layers of sounds which I edit to give this sort of audio clip structure in the pic. There’s a bunch more midi and automation content hiding which I couldn’t fit, I’ll make a video capture of it sometime and delve into the layers that way. A lot of the detailing you can see in the screenshot won’t be obviously audible unless you use headphones or speakers with a good stereo image. I still have the usual prominent elements which fill a lot of the mix, although I try to keep the kicks a bit more low focused to allow some more space for other things, and the lower than regular techno bpm helps with that too - most things work as trade-offs in music production, I’m sacrificing some bang for some immersion here. I just love getting lost in all the little one-off structures and developing forms. I’ll often set out to make a simpler punchier track but I accidentally e"
+    },
+    {
+      "id": "20260609-193804-710983:instagram:2",
+      "created_at_utc": "2026-06-09T19:39:14.135126+00:00",
+      "run_id": "20260609-193804-710983",
+      "channel": "instagram",
+      "query": "placa de sonido para guitarra",
+      "landing_slug": "placa-sonido-guitarra",
+      "landing_url": "https://blog.pcmidicenter.com/placa-sonido-guitarra/",
+      "source_url": "https://www.instagram.com/p/DADgsL1oB6a/",
+      "source_title": "",
+      "source_context": "I spent a couple of years on and off working on this one. I sometimes worry this sort of detailed toil approach to music could become obsolete with AI techniques but hopefully it will just open more doors for deeper obsessing and structuring. I’m already using a lot of generative techniques to create part jammed part emergent layers of sounds which I edit to give this sort of audio clip structure in the pic. There’s a bunch more midi and automation content hiding which I couldn’t fit, I’ll make a video capture of it sometime and delve into the layers that way. A lot of the detailing you can see in the screenshot won’t be obviously audible unless you use headphones or speakers with a good stereo image. I still have the usual prominent elements which fill a lot of the mix, although I try to keep the kicks a bit more low focused to allow some more space for other things, and the lower than regular techno bpm helps with that too - most things work as trade-offs in music production, I’m sacrificing some bang for some immersion here. I just love getting lost in all the little one-off structures and developing forms. I’ll often set out to make a simpler punchier track but I accidentally e"
+    },
+    {
+      "id": "20260609-193804-710983:linkedin:3",
+      "created_at_utc": "2026-06-09T19:39:31.559458+00:00",
+      "run_id": "20260609-193804-710983",
+      "channel": "linkedin",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.linkedin.com/in/guillermo-coronel/es/",
+      "source_title": "",
+      "source_context": "Guillermo Coronel • 3er+ Desarrollador de instrumentos musicales electrónicos con IA (Arduino + MIDI) | Team Leader CX | Soporte Técnico | RR.PP & Gestión e Innovación Pública 23 h • Seguir"
+    },
+    {
+      "id": "20260609-193804-710983:linkedin:4",
+      "created_at_utc": "2026-06-09T19:39:31.603551+00:00",
+      "run_id": "20260609-193804-710983",
+      "channel": "linkedin",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.linkedin.com/search/results/all/?keywords=%23musictech&origin=HASH_TAG_FROM_FEED",
+      "source_title": "#MusicTech",
+      "source_context": "Publicación en el feed Guillermo Coronel • 3er+ Desarrollador de instrumentos musicales electrónicos con IA (Arduino + MIDI) | Team Leader CX | Soporte Técnico | RR.PP & Gestión e Innovación Pública 23 h • Seguir 📱 CONVERTÍ MI CELULAR EN UN CONTROLADOR MIDI (Inalámbrico y Open Source) Construí mi propio controlador MIDI por software con JavaScript y Electron 🎹✨ Este es uno de los proyectos más divertidos y desafiantes que encaré últimamente desde Sensitive Lab: un entorno MIDI por software inspirado en el clásico diseño del Arturia MiniLab, pero construido completamente con tecnologías web. 🔍 ¿Qué hace este desarrollo? Interfaz Completa de Escritorio: Teclado de 2 octavas con pitch bender y mod wheel integrados. 8 Knobs Asignables: Mapeados directamente a parámetros MIDI esenciales (cutoff, reverb, delay, volumen, etc.). Control Remoto Inalámbrico: Podés usar la pantalla de tu celular vía WiFi para controlar los pads, el piano y los knobs touch en tiempo real, sin cables. Integración Nativa: Se conecta con cualquier DAW del mercado (Reaper, FL Studio, Ableton Live) reconociéndolo como si fuera un controlador de hardware físico. 🛠️ El Stack Tecnológico: ¿Cómo está hecho? Electro"
+    },
+    {
+      "id": "20260609-193804-710983:linkedin:5",
+      "created_at_utc": "2026-06-09T19:39:31.649934+00:00",
+      "run_id": "20260609-193804-710983",
+      "channel": "linkedin",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.linkedin.com/search/results/all/?keywords=%23javascript&origin=HASH_TAG_FROM_FEED",
+      "source_title": "#JavaScript",
+      "source_context": "Publicación en el feed Guillermo Coronel • 3er+ Desarrollador de instrumentos musicales electrónicos con IA (Arduino + MIDI) | Team Leader CX | Soporte Técnico | RR.PP & Gestión e Innovación Pública 23 h • Seguir 📱 CONVERTÍ MI CELULAR EN UN CONTROLADOR MIDI (Inalámbrico y Open Source) Construí mi propio controlador MIDI por software con JavaScript y Electron 🎹✨ Este es uno de los proyectos más divertidos y desafiantes que encaré últimamente desde Sensitive Lab: un entorno MIDI por software inspirado en el clásico diseño del Arturia MiniLab, pero construido completamente con tecnologías web. 🔍 ¿Qué hace este desarrollo? Interfaz Completa de Escritorio: Teclado de 2 octavas con pitch bender y mod wheel integrados. 8 Knobs Asignables: Mapeados directamente a parámetros MIDI esenciales (cutoff, reverb, delay, volumen, etc.). Control Remoto Inalámbrico: Podés usar la pantalla de tu celular vía WiFi para controlar los pads, el piano y los knobs touch en tiempo real, sin cables. Integración Nativa: Se conecta con cualquier DAW del mercado (Reaper, FL Studio, Ableton Live) reconociéndolo como si fuera un controlador de hardware físico. 🛠️ El Stack Tecnológico: ¿Cómo está hecho? Electro"
+    },
+    {
+      "id": "20260609-193804-710983:linkedin:6",
+      "created_at_utc": "2026-06-09T19:39:37.905960+00:00",
+      "run_id": "20260609-193804-710983",
+      "channel": "linkedin",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.linkedin.com/pulse/la-voz-nueva-frontera-del-e-learning-claves-para-jim%C3%A9nez-herrad%C3%B3n-6gukf/",
+      "source_title": "",
+      "source_context": "La voz, la nueva frontera del e-learning: claves para asistentes conversacionales educativos. Juan Bautista Jiménez Herradón"
+    },
+    {
+      "id": "20260609-193804-710983:linkedin:7",
+      "created_at_utc": "2026-06-09T19:39:37.946530+00:00",
+      "run_id": "20260609-193804-710983",
+      "channel": "linkedin",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.linkedin.com/in/tonisoriano/",
+      "source_title": "",
+      "source_context": "Toni Soriano • 3er+ Productor de sonido & diseñador sonoro | Especialista en audio para contenido y audiovisual | Fundador de Onda Estudios | Consultor y asesor de sonido para grabación y producción de podcasts, música y voz. Ir a mi sitio web 1 mes • Editado • Seguir"
+    },
+    {
+      "id": "20260609-193804-710983:linkedin:8",
+      "created_at_utc": "2026-06-09T19:39:44.141625+00:00",
+      "run_id": "20260609-193804-710983",
+      "channel": "linkedin",
+      "query": "controlador MIDI para Ableton",
+      "landing_slug": "controlador-midi-para-ableton-comparativa",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-ableton-comparativa/",
+      "source_url": "https://www.linkedin.com/in/guillermo-coronel/es/",
+      "source_title": "",
+      "source_context": "Guillermo Coronel • 3er+ Desarrollador de instrumentos musicales electrónicos con IA (Arduino + MIDI) | Team Leader CX | Soporte Técnico | RR.PP & Gestión e Innovación Pública 23 h • Seguir"
+    },
+    {
+      "id": "20260609-193804-710983:linkedin:9",
+      "created_at_utc": "2026-06-09T19:39:44.181923+00:00",
+      "run_id": "20260609-193804-710983",
+      "channel": "linkedin",
+      "query": "controlador MIDI para Ableton",
+      "landing_slug": "controlador-midi-para-ableton-comparativa",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-ableton-comparativa/",
+      "source_url": "https://www.linkedin.com/search/results/all/?keywords=%23musictech&origin=HASH_TAG_FROM_FEED",
+      "source_title": "#MusicTech",
+      "source_context": "Publicación en el feed Guillermo Coronel • 3er+ Desarrollador de instrumentos musicales electrónicos con IA (Arduino + MIDI) | Team Leader CX | Soporte Técnico | RR.PP & Gestión e Innovación Pública 23 h • Seguir 📱 CONVERTÍ MI CELULAR EN UN CONTROLADOR MIDI (Inalámbrico y Open Source) Construí mi propio controlador MIDI por software con JavaScript y Electron 🎹✨ Este es uno de los proyectos más divertidos y desafiantes que encaré últimamente desde Sensitive Lab: un entorno MIDI por software inspirado en el clásico diseño del Arturia MiniLab, pero construido completamente con tecnologías web. 🔍 ¿Qué hace este desarrollo? Interfaz Completa de Escritorio: Teclado de 2 octavas con pitch bender y mod wheel integrados. 8 Knobs Asignables: Mapeados directamente a parámetros MIDI esenciales (cutoff, reverb, delay, volumen, etc.). Control Remoto Inalámbrico: Podés usar la pantalla de tu celular vía WiFi para controlar los pads, el piano y los knobs touch en tiempo real, sin cables. Integración Nativa: Se conecta con cualquier DAW del mercado (Reaper, FL Studio, Ableton Live) reconociéndolo como si fuera un controlador de hardware físico. 🛠️ El Stack Tecnológico: ¿Cómo está hecho? Electro"
+    }
+  ]
+}

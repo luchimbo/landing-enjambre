@@ -1,0 +1,64 @@
+{
+  "timestamp_utc": "20260527-153358-391375",
+  "command": "auto-distribution",
+  "channels": [
+    "facebook",
+    "linkedin",
+    "reddit",
+    "x"
+  ],
+  "unsupported_channels": [],
+  "limit": 4,
+  "per_channel": 1,
+  "dry_run": true,
+  "allow_proposed": false,
+  "published_or_attempted": 4,
+  "blocked_seen": 0,
+  "results": [
+    {
+      "id": "20260526-195410-369574:reddit-public:1to10es",
+      "channel": "reddit",
+      "slug": "arturia-minilab-3-vs-keylab",
+      "result": {
+        "ok": true,
+        "dry_run": true,
+        "url": "https://www.reddit.com/r/edmproduction/comments/1to10es/beginner_looking_for_help_with_shaperbox_3_or/",
+        "text_length": 1267
+      }
+    },
+    {
+      "id": "20260527-142132-390942:monitores-5-pulgadas-vs-6-pulgadas:post_educativo:linkedin:1779891709970",
+      "channel": "linkedin",
+      "slug": "monitores-5-pulgadas-vs-6-pulgadas",
+      "result": {
+        "ok": true,
+        "dry_run": true,
+        "url": "https://www.linkedin.com/feed/",
+        "text_length": 1143
+      }
+    },
+    {
+      "id": "20260527-142132-390942:monitores-5-pulgadas-vs-6-pulgadas:snippet_social:social:1779891723557",
+      "channel": "facebook",
+      "slug": "monitores-5-pulgadas-vs-6-pulgadas",
+      "result": {
+        "ok": true,
+        "dry_run": true,
+        "url": "https://www.facebook.com/",
+        "text_length": 656
+      }
+    },
+    {
+      "id": "20260527-142132-390942:monitores-5-pulgadas-vs-6-pulgadas:snippet_social:social:1779891723557",
+      "channel": "x",
+      "slug": "monitores-5-pulgadas-vs-6-pulgadas",
+      "result": {
+        "ok": true,
+        "dry_run": true,
+        "url": "https://x.com/compose/post",
+        "text_length": 656
+      }
+    }
+  ],
+  "blocked_sample": []
+}

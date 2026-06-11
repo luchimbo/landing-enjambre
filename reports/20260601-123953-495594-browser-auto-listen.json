@@ -1,0 +1,142 @@
+{
+  "timestamp_utc": "20260601-123953-495594",
+  "command": "auto-listen",
+  "channels": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "reddit",
+    "x",
+    "youtube"
+  ],
+  "searches": 3,
+  "per_search": 2,
+  "dry_run": false,
+  "items": 14,
+  "distribution_drafts": 14,
+  "social_intel_path": "D:\\AgentesGuille\\data\\social_intel.jsonl",
+  "search_tasks_path": "D:\\AgentesGuille\\data\\distribution_search_tasks.jsonl",
+  "content_feedback_path": "D:\\AgentesGuille\\data\\content_feedback.jsonl",
+  "sample": [
+    {
+      "id": "20260601-123802-321202:instagram:0",
+      "created_at_utc": "2026-06-01T12:38:40.159176+00:00",
+      "run_id": "20260601-123802-321202",
+      "channel": "instagram",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.instagram.com/p/DKlslFwsis_/",
+      "source_title": "",
+      "source_context": "Photo by Qatar Home Studio on June 06, 2025."
+    },
+    {
+      "id": "20260601-123802-321202:linkedin:1",
+      "created_at_utc": "2026-06-01T12:38:52.269287+00:00",
+      "run_id": "20260601-123802-321202",
+      "channel": "linkedin",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.linkedin.com/in/guillermo-coronel/es/",
+      "source_title": "",
+      "source_context": "Guillermo Coronel • 3er+ Desarrollador de instrumentos musicales electrónicos con IA (Arduino + MIDI) | Team Leader CX | Soporte Técnico | RR.PP & Gestión e Innovación Pública 6 días • Editado • Seguir"
+    },
+    {
+      "id": "20260601-123802-321202:linkedin:2",
+      "created_at_utc": "2026-06-01T12:38:52.312187+00:00",
+      "run_id": "20260601-123802-321202",
+      "channel": "linkedin",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.linkedin.com/search/results/all/?keywords=%23hardwaredevelopment&origin=HASH_TAG_FROM_FEED",
+      "source_title": "#HardwareDevelopment",
+      "source_context": "Publicación en el feed Guillermo Coronel • 3er+ Desarrollador de instrumentos musicales electrónicos con IA (Arduino + MIDI) | Team Leader CX | Soporte Técnico | RR.PP & Gestión e Innovación Pública 6 días • Editado • Seguir 🚀 SENSITIVE MINI MIDI CONTROLLER: Hardware abierto, conectividad híbrida y expresividad musical. Les comparto el desarrollo de mi último proyecto de luthería electrónica: un controlador MIDI híbrido diseñado desde cero sobre la arquitectura del chip ESP32-S3. El objetivo principal fue fusionar la estabilidad de la conexión tradicional por cable con la libertad de la conectividad inalámbrica, sin sacrificar rendimiento ni la expresividad al tocar. Para lograrlo, desarrollé un firmware personalizado que gestiona en simultáneo USB Nativo y Bluetooth de baja latencia (BLE MIDI), sumando características avanzadas de ejecución como la presión independiente por nota (Polyphonic Aftertouch). Acá les cuento qué logré con este desarrollo: 🎛️ Prestaciones y Versatilidad Conectividad Dual Simultánea: Capacidad de transmitir datos de manera paralela por cable USB-C y de forma inalámbrica. Esto permite controlar dos dispositivos o sintetizadores distintos al mismo tiempo e"
+    },
+    {
+      "id": "20260601-123802-321202:linkedin:3",
+      "created_at_utc": "2026-06-01T12:38:58.545746+00:00",
+      "run_id": "20260601-123802-321202",
+      "channel": "linkedin",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.linkedin.com/pulse/la-voz-nueva-frontera-del-e-learning-claves-para-jim%C3%A9nez-herrad%C3%B3n-6gukf/",
+      "source_title": "",
+      "source_context": "La voz, la nueva frontera del e-learning: claves para asistentes conversacionales educativos. Juan Bautista Jiménez Herradón"
+    },
+    {
+      "id": "20260601-123802-321202:linkedin:4",
+      "created_at_utc": "2026-06-01T12:39:04.780206+00:00",
+      "run_id": "20260601-123802-321202",
+      "channel": "linkedin",
+      "query": "controlador MIDI para Ableton",
+      "landing_slug": "controlador-midi-para-ableton-comparativa",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-ableton-comparativa/",
+      "source_url": "https://www.linkedin.com/in/guillermo-coronel/es/",
+      "source_title": "",
+      "source_context": "Guillermo Coronel • 3er+ Desarrollador de instrumentos musicales electrónicos con IA (Arduino + MIDI) | Team Leader CX | Soporte Técnico | RR.PP & Gestión e Innovación Pública 6 días • Editado • Seguir"
+    },
+    {
+      "id": "20260601-123802-321202:linkedin:5",
+      "created_at_utc": "2026-06-01T12:39:04.821186+00:00",
+      "run_id": "20260601-123802-321202",
+      "channel": "linkedin",
+      "query": "controlador MIDI para Ableton",
+      "landing_slug": "controlador-midi-para-ableton-comparativa",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-ableton-comparativa/",
+      "source_url": "https://www.linkedin.com/search/results/all/?keywords=%23hardwaredevelopment&origin=HASH_TAG_FROM_FEED",
+      "source_title": "#HardwareDevelopment",
+      "source_context": "Publicación en el feed Guillermo Coronel • 3er+ Desarrollador de instrumentos musicales electrónicos con IA (Arduino + MIDI) | Team Leader CX | Soporte Técnico | RR.PP & Gestión e Innovación Pública 6 días • Editado • Seguir 🚀 SENSITIVE MINI MIDI CONTROLLER: Hardware abierto, conectividad híbrida y expresividad musical. Les comparto el desarrollo de mi último proyecto de luthería electrónica: un controlador MIDI híbrido diseñado desde cero sobre la arquitectura del chip ESP32-S3. El objetivo principal fue fusionar la estabilidad de la conexión tradicional por cable con la libertad de la conectividad inalámbrica, sin sacrificar rendimiento ni la expresividad al tocar. Para lograrlo, desarrollé un firmware personalizado que gestiona en simultáneo USB Nativo y Bluetooth de baja latencia (BLE MIDI), sumando características avanzadas de ejecución como la presión independiente por nota (Polyphonic Aftertouch). Acá les cuento qué logré con este desarrollo: 🎛️ Prestaciones y Versatilidad Conectividad Dual Simultánea: Capacidad de transmitir datos de manera paralela por cable USB-C y de forma inalámbrica. Esto permite controlar dos dispositivos o sintetizadores distintos al mismo tiempo e"
+    },
+    {
+      "id": "20260601-123802-321202:reddit:6",
+      "created_at_utc": "2026-06-01T12:39:10.150875+00:00",
+      "run_id": "20260601-123802-321202",
+      "channel": "reddit",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.reddit.com/r/againstaimusicslop/comments/1ttqmpc/how_to_recognise_ai_music_slop_heres_a_guide/",
+      "source_title": "How to recognise AI music slop ? Here's a guide :",
+      "source_context": "How to recognise AI music slop ? Here's a guide : r/againstaimusicslop · hace 14 min How to recognise AI music slop ? Here's a guide : 1 voto·0 comentarios"
+    },
+    {
+      "id": "20260601-123802-321202:reddit:7",
+      "created_at_utc": "2026-06-01T12:39:20.623715+00:00",
+      "run_id": "20260601-123802-321202",
+      "channel": "reddit",
+      "query": "controlador MIDI para Ableton",
+      "landing_slug": "controlador-midi-para-ableton-comparativa",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-ableton-comparativa/",
+      "source_url": "https://www.reddit.com/r/VSTore/comments/1ttpinu/jay_cactus_the_drill_production_course_2_learn/",
+      "source_title": "Jay Cactus The Drill Production Course 2 – Learn Drill Beats from Start to Finish at VSTOR.ME",
+      "source_context": "Jay Cactus The Drill Production Course 2 – Learn Drill Beats from Start to Finish at VSTOR.ME r/VSTore · hace 1 h Jay Cactus The Drill Production Course 2 – Learn Drill Beats from Start to Finish at VSTOR.ME 1 voto·0 comentarios"
+    },
+    {
+      "id": "20260601-123802-321202:reddit:8",
+      "created_at_utc": "2026-06-01T12:39:20.670025+00:00",
+      "run_id": "20260601-123802-321202",
+      "channel": "reddit",
+      "query": "controlador MIDI para Ableton",
+      "landing_slug": "controlador-midi-para-ableton-comparativa",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-ableton-comparativa/",
+      "source_url": "https://www.reddit.com/r/ableton/comments/1ttmxkg/i_built_an_app_so_you_can_midi_map_ableton/",
+      "source_title": "I built an app so you can MIDI map Ableton Browser navigation, loading, previewing etc",
+      "source_context": "I built an app so you can MIDI map Ableton Browser navigation, loading, previewing etc r/ableton · hace 3 h I built an app so you can MIDI map Ableton Browser navigation, loading, previewing etc 18 votos·1 comentario"
+    },
+    {
+      "id": "20260601-123802-321202:youtube:9",
+      "created_at_utc": "2026-06-01T12:39:42.630580+00:00",
+      "run_id": "20260601-123802-321202",
+      "channel": "youtube",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.youtube.com/watch?v=GPVLFMJQYDQ&t=14s&pp=ygUfY29udHJvbGFkb3IgTUlESSBwYXJhIEZMIFN0dWRpb9IHCQkjCwGHKiGM7w%3D%3D",
+      "source_title": "8:27 8:27 Now playing",
+      "source_context": "EL MEJOR CONTROLADOR MIDI PARA FL STUDIO - FL Key Mini Novation 16K views 4 years ago Eric Kauffmann ADQUIERE FL KEY MINI AQUÍ: https://tinyurl.com/FLKEYMINI ¿NECESITAS LANZAR TU MÚSICA? Pues te recomiendo ... 4K CC 13 chapters Intro | Explicación de controles | Channel Rack | Instrumento | Secuenciador | Plugin | Volumen Mixer | Paneo Mixer | Cambio de presets | Note repeat | Modo Escala | Resumen | Patrocinio"
+    }
+  ]
+}

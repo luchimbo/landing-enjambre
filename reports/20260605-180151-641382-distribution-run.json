@@ -1,0 +1,317 @@
+{
+  "timestamp_utc": "20260605-180151-641382",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260605-175624-461353",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 60,
+  "pieces_blocked": 0,
+  "proposed": [
+    {
+      "slug": "pads-platillos-bateria-electronica",
+      "type": "respuesta_tecnica",
+      "title": "Expande tu batería electrónica con pads y platillos"
+    },
+    {
+      "slug": "pads-platillos-bateria-electronica",
+      "type": "post_educativo",
+      "title": "Expande tu batería electrónica con pads y platillos"
+    },
+    {
+      "slug": "pads-platillos-bateria-electronica",
+      "type": "snippet_social",
+      "title": "Expande tu batería electrónica con pads y platillos"
+    },
+    {
+      "slug": "pads-platillos-bateria-electronica",
+      "type": "post_social",
+      "title": "Expande tu batería electrónica con pads y platillos 🎶"
+    },
+    {
+      "slug": "pads-platillos-bateria-electronica",
+      "type": "post_x",
+      "title": "Expande tu batería electrónica con pads y platillos"
+    },
+    {
+      "slug": "pads-platillos-bateria-electronica",
+      "type": "respuesta_youtube",
+      "title": "Expande tu batería electrónica con pads y platillos"
+    },
+    {
+      "slug": "setup-para-podcast-de-video",
+      "type": "respuesta_tecnica",
+      "title": "Crea el mejor setup para tu podcast de video"
+    },
+    {
+      "slug": "setup-para-podcast-de-video",
+      "type": "post_educativo",
+      "title": "Crea el mejor setup para tu podcast de video"
+    },
+    {
+      "slug": "setup-para-podcast-de-video",
+      "type": "snippet_social",
+      "title": "Crea el mejor setup para tu podcast de video"
+    },
+    {
+      "slug": "setup-para-podcast-de-video",
+      "type": "post_social",
+      "title": "Crea el mejor setup para tu podcast de video"
+    },
+    {
+      "slug": "setup-para-podcast-de-video",
+      "type": "post_x",
+      "title": "Crea el mejor setup para tu podcast de video"
+    },
+    {
+      "slug": "setup-para-podcast-de-video",
+      "type": "respuesta_youtube",
+      "title": "Crea el mejor setup para tu podcast de video"
+    },
+    {
+      "slug": "setup-para-cursos-online",
+      "type": "respuesta_tecnica",
+      "title": "Crea el Setup Perfecto para tus Cursos Online"
+    },
+    {
+      "slug": "setup-para-cursos-online",
+      "type": "post_educativo",
+      "title": "Crea el Setup Perfecto para tus Cursos Online"
+    },
+    {
+      "slug": "setup-para-cursos-online",
+      "type": "snippet_social",
+      "title": "Crea el Setup Perfecto para tus Cursos Online"
+    },
+    {
+      "slug": "setup-para-cursos-online",
+      "type": "post_social",
+      "title": "Crea el Setup Perfecto para tus Cursos Online"
+    },
+    {
+      "slug": "setup-para-cursos-online",
+      "type": "post_x",
+      "title": "Crea el Setup Perfecto para tus Cursos Online"
+    },
+    {
+      "slug": "setup-para-cursos-online",
+      "type": "respuesta_youtube",
+      "title": "Crea el Setup Perfecto para tus Cursos Online"
+    },
+    {
+      "slug": "setup-transmisiones-en-vivo",
+      "type": "respuesta_tecnica",
+      "title": "Crea el setup ideal para tus transmisiones en vivo"
+    },
+    {
+      "slug": "setup-transmisiones-en-vivo",
+      "type": "post_educativo",
+      "title": "Crea el setup ideal para tus transmisiones en vivo"
+    },
+    {
+      "slug": "setup-transmisiones-en-vivo",
+      "type": "snippet_social",
+      "title": "Crea el setup ideal para tus transmisiones en vivo"
+    },
+    {
+      "slug": "setup-transmisiones-en-vivo",
+      "type": "post_social",
+      "title": "Crea el setup ideal para tus transmisiones en vivo"
+    },
+    {
+      "slug": "setup-transmisiones-en-vivo",
+      "type": "post_x",
+      "title": "Crea el setup ideal para tus transmisiones en vivo"
+    },
+    {
+      "slug": "setup-transmisiones-en-vivo",
+      "type": "respuesta_youtube",
+      "title": "Crea el setup ideal para tus transmisiones en vivo"
+    },
+    {
+      "slug": "setup-productor-departamento",
+      "type": "respuesta_tecnica",
+      "title": "Crea un setup compacto para producción musical en tu departamento"
+    },
+    {
+      "slug": "setup-productor-departamento",
+      "type": "post_educativo",
+      "title": "Crea tu setup compacto para producción musical en casa"
+    },
+    {
+      "slug": "setup-productor-departamento",
+      "type": "snippet_social",
+      "title": "Crea tu setup compacto para producción musical en casa"
+    },
+    {
+      "slug": "setup-productor-departamento",
+      "type": "post_social",
+      "title": "Crea tu setup compacto para producción musical en casa"
+    },
+    {
+      "slug": "setup-productor-departamento",
+      "type": "post_x",
+      "title": "Crea tu setup compacto para producción musical en casa"
+    },
+    {
+      "slug": "setup-productor-departamento",
+      "type": "respuesta_youtube",
+      "title": "Crea tu setup compacto para producción musical en casa"
+    },
+    {
+      "slug": "auriculares-para-producir-musica",
+      "type": "respuesta_tecnica",
+      "title": "Auriculares para Producir Música: Elegí el Mejor Monitoreo"
+    },
+    {
+      "slug": "auriculares-para-producir-musica",
+      "type": "post_educativo",
+      "title": "Auriculares para Producir Música: Elegí el Mejor Monitoreo"
+    },
+    {
+      "slug": "auriculares-para-producir-musica",
+      "type": "snippet_social",
+      "title": "Auriculares para Producir Música: Elegí el Mejor Monitoreo"
+    },
+    {
+      "slug": "auriculares-para-producir-musica",
+      "type": "post_social",
+      "title": "Auriculares para Producir Música: Elegí el Mejor Monitoreo"
+    },
+    {
+      "slug": "auriculares-para-producir-musica",
+      "type": "post_x",
+      "title": "Auriculares para Producir Música: Elegí el Mejor Monitoreo"
+    },
+    {
+      "slug": "auriculares-para-producir-musica",
+      "type": "respuesta_youtube",
+      "title": "Auriculares para Producir Música: Claves para Elegir Bien"
+    },
+    {
+      "slug": "auriculares-para-mezclar-de-noche",
+      "type": "respuesta_tecnica",
+      "title": "Auriculares para mezclar de noche: calidad y confort"
+    },
+    {
+      "slug": "auriculares-para-mezclar-de-noche",
+      "type": "post_educativo",
+      "title": "Auriculares para mezclar de noche: calidad y confort"
+    },
+    {
+      "slug": "auriculares-para-mezclar-de-noche",
+      "type": "snippet_social",
+      "title": "Auriculares para mezclar de noche: calidad y confort"
+    },
+    {
+      "slug": "auriculares-para-mezclar-de-noche",
+      "type": "post_social",
+      "title": "Auriculares para mezclar de noche: calidad y confort"
+    },
+    {
+      "slug": "auriculares-para-mezclar-de-noche",
+      "type": "post_x",
+      "title": "Auriculares para mezclar de noche: calidad y confort"
+    },
+    {
+      "slug": "auriculares-para-mezclar-de-noche",
+      "type": "respuesta_youtube",
+      "title": "Auriculares para mezclar de noche: calidad y confort"
+    },
+    {
+      "slug": "setup-cantante-compositor",
+      "type": "respuesta_tecnica",
+      "title": "Arma tu Setup Perfecto para Cantar y Componer"
+    },
+    {
+      "slug": "setup-cantante-compositor",
+      "type": "post_educativo",
+      "title": "Arma tu Setup Perfecto para Cantar y Componer"
+    },
+    {
+      "slug": "setup-cantante-compositor",
+      "type": "snippet_social",
+      "title": "Arma tu Setup Perfecto para Cantar y Componer"
+    },
+    {
+      "slug": "setup-cantante-compositor",
+      "type": "post_social",
+      "title": "Arma tu Setup Perfecto para Cantar y Componer"
+    },
+    {
+      "slug": "setup-cantante-compositor",
+      "type": "post_x",
+      "title": "Arma tu Setup Perfecto para Cantar y Componer"
+    },
+    {
+      "slug": "setup-cantante-compositor",
+      "type": "respuesta_youtube",
+      "title": "Arma tu Setup Perfecto para Cantar y Componer"
+    },
+    {
+      "slug": "setup-guitarrista-productor",
+      "type": "respuesta_tecnica",
+      "title": "Crea el Setup Perfecto para tu Producción Musical"
+    },
+    {
+      "slug": "setup-guitarrista-productor",
+      "type": "post_educativo",
+      "title": "Crea el Setup Perfecto para tu Producción Musical"
+    },
+    {
+      "slug": "setup-guitarrista-productor",
+      "type": "snippet_social",
+      "title": "Crea el Setup Perfecto para tu Producción Musical"
+    },
+    {
+      "slug": "setup-guitarrista-productor",
+      "type": "post_social",
+      "title": "Crea el Setup Perfecto para tu Producción Musical"
+    },
+    {
+      "slug": "setup-guitarrista-productor",
+      "type": "post_x",
+      "title": "Crea el Setup Perfecto para tu Producción Musical"
+    },
+    {
+      "slug": "setup-guitarrista-productor",
+      "type": "respuesta_youtube",
+      "title": "Crea el Setup Perfecto para Guitarristas Productores"
+    },
+    {
+      "slug": "setup-para-beatmaker-principiante",
+      "type": "respuesta_tecnica",
+      "title": "El Setup Perfecto para Beatmakers que Están Comenzando"
+    },
+    {
+      "slug": "setup-para-beatmaker-principiante",
+      "type": "post_educativo",
+      "title": "El Setup Perfecto para Beatmakers que Están Comenzando"
+    },
+    {
+      "slug": "setup-para-beatmaker-principiante",
+      "type": "snippet_social",
+      "title": "El Setup Perfecto para Beatmakers que Están Comenzando"
+    },
+    {
+      "slug": "setup-para-beatmaker-principiante",
+      "type": "post_social",
+      "title": "El Setup Ideal para Beatmakers que Comienzan su Viaje"
+    },
+    {
+      "slug": "setup-para-beatmaker-principiante",
+      "type": "post_x",
+      "title": "El Setup Ideal para Beatmakers Principiantes"
+    },
+    {
+      "slug": "setup-para-beatmaker-principiante",
+      "type": "respuesta_youtube",
+      "title": "El Setup Ideal para Beatmakers Principiantes"
+    }
+  ],
+  "blocked": [],
+  "elapsed_seconds": 327.18
+}

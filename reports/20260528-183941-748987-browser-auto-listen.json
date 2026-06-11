@@ -1,0 +1,142 @@
+{
+  "timestamp_utc": "20260528-183941-748987",
+  "command": "auto-listen",
+  "channels": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "reddit",
+    "x",
+    "youtube"
+  ],
+  "searches": 3,
+  "per_search": 2,
+  "dry_run": false,
+  "items": 30,
+  "distribution_drafts": 30,
+  "social_intel_path": "D:\\AgentesGuille\\data\\social_intel.jsonl",
+  "search_tasks_path": "D:\\AgentesGuille\\data\\distribution_search_tasks.jsonl",
+  "content_feedback_path": "D:\\AgentesGuille\\data\\content_feedback.jsonl",
+  "sample": [
+    {
+      "id": "20260528-183801-547776:facebook:0",
+      "created_at_utc": "2026-05-28T18:38:07.180689+00:00",
+      "run_id": "20260528-183801-547776",
+      "channel": "facebook",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.facebook.com/groups/828346141416525/?post_id=1696682911249506&comment_id=1697026631215134&reply_comment_id=1697069877877476&notif_id=1779975891130693&notif_t=group_comment&ref=notif",
+      "source_title": "No leídaCristian Acevedo ha respondido tu comentario sobre una publicación en Productores Musicales de ARGENTINA (Ableton, Fl studio, LMMS) Buenos Aires.4 h",
+      "source_context": "No leídaCristian Acevedo ha respondido tu comentario sobre una publicación en Productores Musicales de ARGENTINA (Ableton, Fl studio, LMMS) Buenos Aires.4 h"
+    },
+    {
+      "id": "20260528-183801-547776:facebook:1",
+      "created_at_utc": "2026-05-28T18:38:07.250660+00:00",
+      "run_id": "20260528-183801-547776",
+      "channel": "facebook",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.facebook.com/login_alerts/start/?fbid=122101762119335462&s=j&context=Q7DVBAKA1z5io4G4MZttYWm8S_o7tXdscDjwSbGfHDBDPFNXB6TSk8HJVs2hSpq1yojfBmONFaffFC9ni7oI3JWgjI3lylGGyWK1yvwEgu2hrQxxwDhRlg2UQOvMvb0hr6IvXxhYS38j7z65KJq4Jlc1jMfdTT-ScST-aCTK3SsFFMf8ySofy7tVtOgzJGRmnYDxfEC6yd9_zdPIZ1oLF5C1LjMR4rODdk-iR5WzX2XF65CiNbBVaz5JNRc--7emWPwiJzb2TIsz0in2WGMt0Qz0611aWtqM2TKboNpV7uwZ&notif_id=1779984595891238&notif_t=login_alerts_new_device&ref=notif",
+      "source_title": "No leídaHemos detectado un nuevo inicio de sesión desde un dispositivo o una ubicación que no sueles usar. Compruébalo.2 h",
+      "source_context": "No leídaHemos detectado un nuevo inicio de sesión desde un dispositivo o una ubicación que no sueles usar. Compruébalo.2 h"
+    },
+    {
+      "id": "20260528-183801-547776:facebook:2",
+      "created_at_utc": "2026-05-28T18:38:12.599170+00:00",
+      "run_id": "20260528-183801-547776",
+      "channel": "facebook",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.facebook.com/groups/828346141416525/?post_id=1696682911249506&comment_id=1697026631215134&reply_comment_id=1697069877877476&notif_id=1779975891130693&notif_t=group_comment&ref=notif",
+      "source_title": "No leídaCristian Acevedo ha respondido tu comentario sobre una publicación en Productores Musicales de ARGENTINA (Ableton, Fl studio, LMMS) Buenos Aires.4 h",
+      "source_context": "No leídaCristian Acevedo ha respondido tu comentario sobre una publicación en Productores Musicales de ARGENTINA (Ableton, Fl studio, LMMS) Buenos Aires.4 h"
+    },
+    {
+      "id": "20260528-183801-547776:facebook:3",
+      "created_at_utc": "2026-05-28T18:38:12.658541+00:00",
+      "run_id": "20260528-183801-547776",
+      "channel": "facebook",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.facebook.com/login_alerts/start/?fbid=122101762119335462&s=j&context=Q7DVBAKA1z5io4G4MZttYWm8S_o7tXdscDjwSbGfHDBDPFNXB6TSk8HJVs2hSpq1yojfBmONFaffFC9ni7oI3JWgjI3lylGGyWK1yvwEgu2hrQxxwDhRlg2UQOvMvb0hr6IvXxhYS38j7z65KJq4Jlc1jMfdTT-ScST-aCTK3SsFFMf8ySofy7tVtOgzJGRmnYDxfEC6yd9_zdPIZ1oLF5C1LjMR4rODdk-iR5WzX2XF65CiNbBVaz5JNRc--7emWPwiJzb2TIsz0in2WGMt0Qz0611aWtqM2TKboNpV7uwZ&notif_id=1779984595891238&notif_t=login_alerts_new_device&ref=notif",
+      "source_title": "No leídaHemos detectado un nuevo inicio de sesión desde un dispositivo o una ubicación que no sueles usar. Compruébalo.2 h",
+      "source_context": "No leídaHemos detectado un nuevo inicio de sesión desde un dispositivo o una ubicación que no sueles usar. Compruébalo.2 h"
+    },
+    {
+      "id": "20260528-183801-547776:facebook:4",
+      "created_at_utc": "2026-05-28T18:38:18.111654+00:00",
+      "run_id": "20260528-183801-547776",
+      "channel": "facebook",
+      "query": "controlador MIDI para Ableton",
+      "landing_slug": "controlador-midi-para-ableton-comparativa",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-ableton-comparativa/",
+      "source_url": "https://www.facebook.com/groups/828346141416525/?post_id=1696682911249506&comment_id=1697026631215134&reply_comment_id=1697069877877476&notif_id=1779975891130693&notif_t=group_comment&ref=notif",
+      "source_title": "No leídaCristian Acevedo ha respondido tu comentario sobre una publicación en Productores Musicales de ARGENTINA (Ableton, Fl studio, LMMS) Buenos Aires.4 h",
+      "source_context": "No leídaCristian Acevedo ha respondido tu comentario sobre una publicación en Productores Musicales de ARGENTINA (Ableton, Fl studio, LMMS) Buenos Aires.4 h"
+    },
+    {
+      "id": "20260528-183801-547776:facebook:5",
+      "created_at_utc": "2026-05-28T18:38:18.152104+00:00",
+      "run_id": "20260528-183801-547776",
+      "channel": "facebook",
+      "query": "controlador MIDI para Ableton",
+      "landing_slug": "controlador-midi-para-ableton-comparativa",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-ableton-comparativa/",
+      "source_url": "https://www.facebook.com/login_alerts/start/?fbid=122101762119335462&s=j&context=Q7DVBAKA1z5io4G4MZttYWm8S_o7tXdscDjwSbGfHDBDPFNXB6TSk8HJVs2hSpq1yojfBmONFaffFC9ni7oI3JWgjI3lylGGyWK1yvwEgu2hrQxxwDhRlg2UQOvMvb0hr6IvXxhYS38j7z65KJq4Jlc1jMfdTT-ScST-aCTK3SsFFMf8ySofy7tVtOgzJGRmnYDxfEC6yd9_zdPIZ1oLF5C1LjMR4rODdk-iR5WzX2XF65CiNbBVaz5JNRc--7emWPwiJzb2TIsz0in2WGMt0Qz0611aWtqM2TKboNpV7uwZ&notif_id=1779984595891238&notif_t=login_alerts_new_device&ref=notif",
+      "source_title": "No leídaHemos detectado un nuevo inicio de sesión desde un dispositivo o una ubicación que no sueles usar. Compruébalo.2 h",
+      "source_context": "No leídaHemos detectado un nuevo inicio de sesión desde un dispositivo o una ubicación que no sueles usar. Compruébalo.2 h"
+    },
+    {
+      "id": "20260528-183801-547776:instagram:6",
+      "created_at_utc": "2026-05-28T18:38:23.767197+00:00",
+      "run_id": "20260528-183801-547776",
+      "channel": "instagram",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.instagram.com/p/BpaFs6wHIsc/",
+      "source_title": "Reel",
+      "source_context": "Reel"
+    },
+    {
+      "id": "20260528-183801-547776:instagram:7",
+      "created_at_utc": "2026-05-28T18:38:23.808129+00:00",
+      "run_id": "20260528-183801-547776",
+      "channel": "instagram",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.instagram.com/p/DV7FDcQjRNy/",
+      "source_title": "Secuencia",
+      "source_context": "Secuencia"
+    },
+    {
+      "id": "20260528-183801-547776:instagram:8",
+      "created_at_utc": "2026-05-28T18:38:29.365989+00:00",
+      "run_id": "20260528-183801-547776",
+      "channel": "instagram",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.instagram.com/p/DKlslFwsis_/",
+      "source_title": "",
+      "source_context": "Photo by Qatar Home Studio on June 06, 2025."
+    },
+    {
+      "id": "20260528-183801-547776:instagram:9",
+      "created_at_utc": "2026-05-28T18:38:29.409830+00:00",
+      "run_id": "20260528-183801-547776",
+      "channel": "instagram",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.instagram.com/p/DNdtm6fMWNl/",
+      "source_title": "Reel",
+      "source_context": "Reel"
+    }
+  ]
+}

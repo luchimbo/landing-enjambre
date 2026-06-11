@@ -1,0 +1,142 @@
+{
+  "timestamp_utc": "20260605-144758-581971",
+  "command": "auto-listen",
+  "channels": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "reddit",
+    "x",
+    "youtube"
+  ],
+  "searches": 6,
+  "per_search": 3,
+  "dry_run": false,
+  "items": 32,
+  "distribution_drafts": 32,
+  "social_intel_path": "D:\\AgentesGuille\\data\\social_intel.jsonl",
+  "search_tasks_path": "D:\\AgentesGuille\\data\\distribution_search_tasks.jsonl",
+  "content_feedback_path": "D:\\AgentesGuille\\data\\content_feedback.jsonl",
+  "sample": [
+    {
+      "id": "20260605-144437-328100:instagram:0",
+      "created_at_utc": "2026-06-05T14:45:27.192525+00:00",
+      "run_id": "20260605-144437-328100",
+      "channel": "instagram",
+      "query": "controlador MIDI para Ableton",
+      "landing_slug": "controlador-midi-para-ableton-comparativa",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-ableton-comparativa/",
+      "source_url": "https://www.instagram.com/p/DADgsL1oB6a/",
+      "source_title": "",
+      "source_context": "Photo shared by Max Cooper on September 18, 2024 tagging @ableton, and @c74connect."
+    },
+    {
+      "id": "20260605-144437-328100:instagram:1",
+      "created_at_utc": "2026-06-05T14:45:32.712767+00:00",
+      "run_id": "20260605-144437-328100",
+      "channel": "instagram",
+      "query": "placa de sonido para guitarra",
+      "landing_slug": "placa-sonido-guitarra",
+      "landing_url": "https://blog.pcmidicenter.com/placa-sonido-guitarra/",
+      "source_url": "https://www.instagram.com/p/DADgsL1oB6a/",
+      "source_title": "",
+      "source_context": "Photo shared by Max Cooper on September 18, 2024 tagging @ableton, and @c74connect."
+    },
+    {
+      "id": "20260605-144437-328100:linkedin:2",
+      "created_at_utc": "2026-06-05T14:45:50.448330+00:00",
+      "run_id": "20260605-144437-328100",
+      "channel": "linkedin",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.linkedin.com/in/guillermo-coronel/es/",
+      "source_title": "",
+      "source_context": "Guillermo Coronel • 3er+ Desarrollador de instrumentos musicales electrónicos con IA (Arduino + MIDI) | Team Leader CX | Soporte Técnico | RR.PP & Gestión e Innovación Pública 1 día • Seguir"
+    },
+    {
+      "id": "20260605-144437-328100:linkedin:3",
+      "created_at_utc": "2026-06-05T14:45:50.492191+00:00",
+      "run_id": "20260605-144437-328100",
+      "channel": "linkedin",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.linkedin.com/search/results/all/?keywords=%23hardwaredesign&origin=HASH_TAG_FROM_FEED",
+      "source_title": "#HardwareDesign",
+      "source_context": "Publicación en el feed Guillermo Coronel • 3er+ Desarrollador de instrumentos musicales electrónicos con IA (Arduino + MIDI) | Team Leader CX | Soporte Técnico | RR.PP & Gestión e Innovación Pública 1 día • Seguir 🚀 SENSITIVE SYNTH v1.0: ¡Modelo Terminado! 🎹 Luego de varias jornadas de diseño y desarrollo, quedó listo el primer modelo funcional de Sensitive Synth, un controlador MIDI táctil y open-source desarrollado desde cero. ¿Qué especificaciones y prestaciones logramos en esta versión? Procesamiento: Equipado con un MCU ESP32-S3 (Dual-Core @ 240MHz). Baja Latencia: Procesamiento de eventos táctiles y envío de datos MIDI en <10ms gracias a la implementación de doble bus SPI concurrente (FSPI + HSPI). Conectividad: USB MIDI nativo (Class-Compliant) basado en TinyUSB. Conexión directa Plug-and-Play a cualquier DAW (Ableton, FL Studio, GarageBand) sin drivers. Interfaz: Display ILI9341 con teclado virtual de 13 notas y visualizador de osciloscopio en tiempo real. Este es solo el primer paso de la marca. El firmware y el diseño de hardware base ya están consolidados, y se vienen nuevos modelos con más prestaciones, mejor control de modulación y nuevas integraciones de hardware en"
+    },
+    {
+      "id": "20260605-144437-328100:linkedin:4",
+      "created_at_utc": "2026-06-05T14:45:50.535813+00:00",
+      "run_id": "20260605-144437-328100",
+      "channel": "linkedin",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.linkedin.com/search/results/all/?keywords=%23embeddedsystems&origin=HASH_TAG_FROM_FEED",
+      "source_title": "#EmbeddedSystems",
+      "source_context": "Publicación en el feed Guillermo Coronel • 3er+ Desarrollador de instrumentos musicales electrónicos con IA (Arduino + MIDI) | Team Leader CX | Soporte Técnico | RR.PP & Gestión e Innovación Pública 1 día • Seguir 🚀 SENSITIVE SYNTH v1.0: ¡Modelo Terminado! 🎹 Luego de varias jornadas de diseño y desarrollo, quedó listo el primer modelo funcional de Sensitive Synth, un controlador MIDI táctil y open-source desarrollado desde cero. ¿Qué especificaciones y prestaciones logramos en esta versión? Procesamiento: Equipado con un MCU ESP32-S3 (Dual-Core @ 240MHz). Baja Latencia: Procesamiento de eventos táctiles y envío de datos MIDI en <10ms gracias a la implementación de doble bus SPI concurrente (FSPI + HSPI). Conectividad: USB MIDI nativo (Class-Compliant) basado en TinyUSB. Conexión directa Plug-and-Play a cualquier DAW (Ableton, FL Studio, GarageBand) sin drivers. Interfaz: Display ILI9341 con teclado virtual de 13 notas y visualizador de osciloscopio en tiempo real. Este es solo el primer paso de la marca. El firmware y el diseño de hardware base ya están consolidados, y se vienen nuevos modelos con más prestaciones, mejor control de modulación y nuevas integraciones de hardware en"
+    },
+    {
+      "id": "20260605-144437-328100:linkedin:5",
+      "created_at_utc": "2026-06-05T14:45:57.291167+00:00",
+      "run_id": "20260605-144437-328100",
+      "channel": "linkedin",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.linkedin.com/pulse/la-voz-nueva-frontera-del-e-learning-claves-para-jim%C3%A9nez-herrad%C3%B3n-6gukf/",
+      "source_title": "",
+      "source_context": "La voz, la nueva frontera del e-learning: claves para asistentes conversacionales educativos. Juan Bautista Jiménez Herradón"
+    },
+    {
+      "id": "20260605-144437-328100:linkedin:6",
+      "created_at_utc": "2026-06-05T14:46:04.296189+00:00",
+      "run_id": "20260605-144437-328100",
+      "channel": "linkedin",
+      "query": "controlador MIDI para Ableton",
+      "landing_slug": "controlador-midi-para-ableton-comparativa",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-ableton-comparativa/",
+      "source_url": "https://www.linkedin.com/in/guillermo-coronel/es/",
+      "source_title": "",
+      "source_context": "Guillermo Coronel • 3er+ Desarrollador de instrumentos musicales electrónicos con IA (Arduino + MIDI) | Team Leader CX | Soporte Técnico | RR.PP & Gestión e Innovación Pública 1 semana • Editado • Seguir"
+    },
+    {
+      "id": "20260605-144437-328100:linkedin:7",
+      "created_at_utc": "2026-06-05T14:46:04.337668+00:00",
+      "run_id": "20260605-144437-328100",
+      "channel": "linkedin",
+      "query": "controlador MIDI para Ableton",
+      "landing_slug": "controlador-midi-para-ableton-comparativa",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-ableton-comparativa/",
+      "source_url": "https://www.linkedin.com/search/results/all/?keywords=%23hardwaredevelopment&origin=HASH_TAG_FROM_FEED",
+      "source_title": "#HardwareDevelopment",
+      "source_context": "Publicación en el feed Guillermo Coronel • 3er+ Desarrollador de instrumentos musicales electrónicos con IA (Arduino + MIDI) | Team Leader CX | Soporte Técnico | RR.PP & Gestión e Innovación Pública 1 semana • Editado • Seguir 🚀 SENSITIVE MINI MIDI CONTROLLER: Hardware abierto, conectividad híbrida y expresividad musical. Les comparto el desarrollo de mi último proyecto de luthería electrónica: un controlador MIDI híbrido diseñado desde cero sobre la arquitectura del chip ESP32-S3. El objetivo principal fue fusionar la estabilidad de la conexión tradicional por cable con la libertad de la conectividad inalámbrica, sin sacrificar rendimiento ni la expresividad al tocar. Para lograrlo, desarrollé un firmware personalizado que gestiona en simultáneo USB Nativo y Bluetooth de baja latencia (BLE MIDI), sumando características avanzadas de ejecución como la presión independiente por nota (Polyphonic Aftertouch). Acá les cuento qué logré con este desarrollo: 🎛️ Prestaciones y Versatilidad Conectividad Dual Simultánea: Capacidad de transmitir datos de manera paralela por cable USB-C y de forma inalámbrica. Esto permite controlar dos dispositivos o sintetizadores distintos al mismo tiempo"
+    },
+    {
+      "id": "20260605-144437-328100:linkedin:8",
+      "created_at_utc": "2026-06-05T14:46:04.380042+00:00",
+      "run_id": "20260605-144437-328100",
+      "channel": "linkedin",
+      "query": "controlador MIDI para Ableton",
+      "landing_slug": "controlador-midi-para-ableton-comparativa",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-ableton-comparativa/",
+      "source_url": "https://www.linkedin.com/search/results/all/?keywords=%23embeddedsystems&origin=HASH_TAG_FROM_FEED",
+      "source_title": "#EmbeddedSystems",
+      "source_context": "Publicación en el feed Guillermo Coronel • 3er+ Desarrollador de instrumentos musicales electrónicos con IA (Arduino + MIDI) | Team Leader CX | Soporte Técnico | RR.PP & Gestión e Innovación Pública 1 semana • Editado • Seguir 🚀 SENSITIVE MINI MIDI CONTROLLER: Hardware abierto, conectividad híbrida y expresividad musical. Les comparto el desarrollo de mi último proyecto de luthería electrónica: un controlador MIDI híbrido diseñado desde cero sobre la arquitectura del chip ESP32-S3. El objetivo principal fue fusionar la estabilidad de la conexión tradicional por cable con la libertad de la conectividad inalámbrica, sin sacrificar rendimiento ni la expresividad al tocar. Para lograrlo, desarrollé un firmware personalizado que gestiona en simultáneo USB Nativo y Bluetooth de baja latencia (BLE MIDI), sumando características avanzadas de ejecución como la presión independiente por nota (Polyphonic Aftertouch). Acá les cuento qué logré con este desarrollo: 🎛️ Prestaciones y Versatilidad Conectividad Dual Simultánea: Capacidad de transmitir datos de manera paralela por cable USB-C y de forma inalámbrica. Esto permite controlar dos dispositivos o sintetizadores distintos al mismo tiempo"
+    },
+    {
+      "id": "20260605-144437-328100:linkedin:9",
+      "created_at_utc": "2026-06-05T14:46:17.360398+00:00",
+      "run_id": "20260605-144437-328100",
+      "channel": "linkedin",
+      "query": "microfono para podcast",
+      "landing_slug": "microfono-para-podcast-usb-o-xlr",
+      "landing_url": "https://blog.pcmidicenter.com/microfono-para-podcast-usb-o-xlr/",
+      "source_url": "https://www.linkedin.com/in/grand-challenges-canada-6207b2262/",
+      "source_title": "Grand Challenges Canada",
+      "source_context": "Publicación en el feed Reinserta 11 meses • Editado • Seguir 🎙✨ Hablar también es sanar. Escuchar también es acompañar. En nuestra escuela de radio dentro de prisión, descubrimos que un micrófono puede convertirse en herramienta de transformación. Adolescentes en proceso de reinserción encontraron en la escuela de radio un espacio para nombrar lo que sienten, compartir sus historias y conectar con otras y otros. Aquí no solo aprendieron a producir podcasts: también aprendieron a escucharse, a expresarse sin juicio… y eso hizo una diferencia real en su salud mental. 🧠❤️‍🩹 Gracias a Grand Challenges Canada por creer en proyectos que transforman vidas y apostar por las segundas oportunidades . 🎬 Animación por la talentosa: Valeria Moretto Altamirano _______ 🎙✨ Talking is also healing. Listening is also to support. In our radio school inside prison, we discovered that a microphone can become a tool for transforming lives. Adolescents in the process of reinsertion found in the radio school a space to express what they feel, share their stories and connect with others. Here they not only learned to produce podcasts: they also learned to listen to themselves, to express themselves wi"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "timestamp_utc": "20260527-183941-309887",
+  "command": "auto-listen",
+  "channels": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "reddit",
+    "x",
+    "youtube"
+  ],
+  "searches": 3,
+  "per_search": 2,
+  "dry_run": false,
+  "items": 30,
+  "distribution_drafts": 30,
+  "social_intel_path": "D:\\AgentesGuille\\data\\social_intel.jsonl",
+  "search_tasks_path": "D:\\AgentesGuille\\data\\distribution_search_tasks.jsonl",
+  "content_feedback_path": "D:\\AgentesGuille\\data\\content_feedback.jsonl",
+  "sample": [
+    {
+      "id": "20260527-183802-620254:facebook:0",
+      "created_at_utc": "2026-05-27T18:38:07.960619+00:00",
+      "run_id": "20260527-183802-620254",
+      "channel": "facebook",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.facebook.com/groups/828346141416525/?__cft__[0]=AZbDLDeEi2AaxW6ziUKglWPsNHqVGRVCjczzDg2zBsJaDLS_2BJYvjlgvIQemSPWkEGAMg4Bu4jhBF-BLGHh0DNsh_2OqdFWymf1zSqNGMoit5cDKAP2CUpH2Z5hX1FxCiaA_52Svq7I0Dux5jMUSE37x_8R9YFjtGjZ602sdKOYTr-sx33lm_Jp341DKjfUjjMjFRA45xoL2vTClZ7-rdqx&__tn__=%3C%3C%2CP-R",
+      "source_title": "Productores Musicales de ARGENTINA (Ableton, Fl studio, LMMS) Buenos Aires",
+      "source_context": "Productores Musicales de ARGENTINA (Ableton, Fl studio, LMMS) Buenos Aires"
+    },
+    {
+      "id": "20260527-183802-620254:facebook:1",
+      "created_at_utc": "2026-05-27T18:38:08.004496+00:00",
+      "run_id": "20260527-183802-620254",
+      "channel": "facebook",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.facebook.com/groups/828346141416525/?__cft__[0]=AZbDLDeEi2AaxW6ziUKglWPsNHqVGRVCjczzDg2zBsJaDLS_2BJYvjlgvIQemSPWkEGAMg4Bu4jhBF-BLGHh0DNsh_2OqdFWymf1zSqNGMoit5cDKAP2CUpH2Z5hX1FxCiaA_52Svq7I0Dux5jMUSE37x_8R9YFjtGjZ602sdKOYTr-sx33lm_Jp341DKjfUjjMjFRA45xoL2vTClZ7-rdqx&__tn__=-UC%2CP-R",
+      "source_title": "Productores Musicales de ARGENTINA (Ableton, Fl studio, LMMS) Buenos Aires",
+      "source_context": "Productores Musicales de ARGENTINA (Ableton, Fl studio, LMMS) Buenos Aires · Unirte"
+    },
+    {
+      "id": "20260527-183802-620254:facebook:2",
+      "created_at_utc": "2026-05-27T18:38:13.336940+00:00",
+      "run_id": "20260527-183802-620254",
+      "channel": "facebook",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.facebook.com/groups/1641846816129693/?__cft__[0]=AZaNF6ERkSlpgu6OYdLvuMuZQPEthLycMBumMDjfPDOowbcYFSURCZso8s-bTzfYSE0dFy8WnLTNvLEyGVkXuSqOsP9meMC6T2497KEIJJ-zOV5xA9B4GdKyN5sS5rkLspNujbEDmyEZmW7NfwONcNHKMSyy4qX4sCeThd2bShETXXR4Fw1PKRmAdqJ_r0FF2rZuloStPMZoNofTv0hyG29_&__tn__=%3C%3C%2CP-R",
+      "source_title": "INSTRUMENTOS MUSICALES compra venta permuta argentina",
+      "source_context": "INSTRUMENTOS MUSICALES compra venta permuta argentina"
+    },
+    {
+      "id": "20260527-183802-620254:facebook:3",
+      "created_at_utc": "2026-05-27T18:38:13.390015+00:00",
+      "run_id": "20260527-183802-620254",
+      "channel": "facebook",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.facebook.com/groups/1641846816129693/?__cft__[0]=AZaNF6ERkSlpgu6OYdLvuMuZQPEthLycMBumMDjfPDOowbcYFSURCZso8s-bTzfYSE0dFy8WnLTNvLEyGVkXuSqOsP9meMC6T2497KEIJJ-zOV5xA9B4GdKyN5sS5rkLspNujbEDmyEZmW7NfwONcNHKMSyy4qX4sCeThd2bShETXXR4Fw1PKRmAdqJ_r0FF2rZuloStPMZoNofTv0hyG29_&__tn__=-UC%2CP-R",
+      "source_title": "INSTRUMENTOS MUSICALES compra venta permuta argentina",
+      "source_context": "INSTRUMENTOS MUSICALES compra venta permuta argentina · Unirte"
+    },
+    {
+      "id": "20260527-183802-620254:facebook:4",
+      "created_at_utc": "2026-05-27T18:38:18.808804+00:00",
+      "run_id": "20260527-183802-620254",
+      "channel": "facebook",
+      "query": "controlador MIDI para Ableton",
+      "landing_slug": "controlador-midi-para-ableton-comparativa",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-ableton-comparativa/",
+      "source_url": "https://www.facebook.com/groups/828346141416525/?__cft__[0]=AZa6N5CB_Fcl1aqGj2u1rIaOT4xXq4ryXr7aWMups0ouFYh-Q4NQMvHByquaSbfZG3h0ekg01zvxqhsGDSh2FSHhz5RAja0CK3LAUNbH_8TmWRAbRQFOgCDLFF7DyStTbPpIRPHljF94Lg9b4C63RLDcuYLkEttWp3oLPUm8h6AOBVSiQdN2cNI4n1u9mxMbg4a5Ibo0BBkWgQgvllfFrhmC&__tn__=%3C%3C%2CP-R",
+      "source_title": "Productores Musicales de ARGENTINA (Ableton, Fl studio, LMMS) Buenos Aires",
+      "source_context": "Productores Musicales de ARGENTINA (Ableton, Fl studio, LMMS) Buenos Aires"
+    },
+    {
+      "id": "20260527-183802-620254:facebook:5",
+      "created_at_utc": "2026-05-27T18:38:18.861556+00:00",
+      "run_id": "20260527-183802-620254",
+      "channel": "facebook",
+      "query": "controlador MIDI para Ableton",
+      "landing_slug": "controlador-midi-para-ableton-comparativa",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-ableton-comparativa/",
+      "source_url": "https://www.facebook.com/groups/828346141416525/?__cft__[0]=AZa6N5CB_Fcl1aqGj2u1rIaOT4xXq4ryXr7aWMups0ouFYh-Q4NQMvHByquaSbfZG3h0ekg01zvxqhsGDSh2FSHhz5RAja0CK3LAUNbH_8TmWRAbRQFOgCDLFF7DyStTbPpIRPHljF94Lg9b4C63RLDcuYLkEttWp3oLPUm8h6AOBVSiQdN2cNI4n1u9mxMbg4a5Ibo0BBkWgQgvllfFrhmC&__tn__=-UC%2CP-R",
+      "source_title": "Productores Musicales de ARGENTINA (Ableton, Fl studio, LMMS) Buenos Aires",
+      "source_context": "Productores Musicales de ARGENTINA (Ableton, Fl studio, LMMS) Buenos Aires · Unirte"
+    },
+    {
+      "id": "20260527-183802-620254:instagram:6",
+      "created_at_utc": "2026-05-27T18:38:24.392077+00:00",
+      "run_id": "20260527-183802-620254",
+      "channel": "instagram",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.instagram.com/p/BpaFs6wHIsc/",
+      "source_title": "Reel",
+      "source_context": "Reel"
+    },
+    {
+      "id": "20260527-183802-620254:instagram:7",
+      "created_at_utc": "2026-05-27T18:38:24.449108+00:00",
+      "run_id": "20260527-183802-620254",
+      "channel": "instagram",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.instagram.com/p/DW4SjJxiFOy/",
+      "source_title": "Secuencia",
+      "source_context": "Secuencia"
+    },
+    {
+      "id": "20260527-183802-620254:instagram:8",
+      "created_at_utc": "2026-05-27T18:38:29.972061+00:00",
+      "run_id": "20260527-183802-620254",
+      "channel": "instagram",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.instagram.com/p/DKlslFwsis_/",
+      "source_title": "",
+      "source_context": "Photo by Qatar Home Studio on June 06, 2025."
+    },
+    {
+      "id": "20260527-183802-620254:instagram:9",
+      "created_at_utc": "2026-05-27T18:38:30.022409+00:00",
+      "run_id": "20260527-183802-620254",
+      "channel": "instagram",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.instagram.com/p/DNdtm6fMWNl/",
+      "source_title": "Reel",
+      "source_context": "Reel"
+    }
+  ]
+}

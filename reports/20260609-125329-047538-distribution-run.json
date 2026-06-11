@@ -1,0 +1,180 @@
+{
+  "timestamp_utc": "20260609-125329-047538",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260609-125002-246063",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 5,
+  "pieces_proposed": 23,
+  "pieces_blocked": 7,
+  "proposed": [
+    {
+      "slug": "arturia-minilab-3-vs-keylab-home-studio-3",
+      "type": "respuesta_tecnica",
+      "title": "Arturia MiniLab 3 vs KeyLab: ¿Cuál elegir para tu home studio?"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-home-studio-3",
+      "type": "post_educativo",
+      "title": "Arturia MiniLab 3 vs KeyLab: ¿Cuál elegir para tu home studio?"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-home-studio-3",
+      "type": "snippet_social",
+      "title": "Arturia MiniLab 3 vs KeyLab: ¿Cuál elegir para tu home studio?"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-home-studio-3",
+      "type": "post_social",
+      "title": "Arturia MiniLab 3 vs KeyLab: ¿Cuál elegir para tu home studio?"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-home-studio-3",
+      "type": "post_x",
+      "title": "Arturia MiniLab 3 vs KeyLab: ¿Cuál elegir para tu home studio?"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-home-studio-3",
+      "type": "respuesta_youtube",
+      "title": "Arturia MiniLab 3 vs KeyLab: ¿Cuál elegir para tu home studio?"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-notebook",
+      "type": "post_social",
+      "title": "Synido TempoKEY 25: Tu aliado para producir en notebook"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-notebook",
+      "type": "post_x",
+      "title": "Synido TempoKEY 25: Ideal para Producción en Notebook"
+    },
+    {
+      "slug": "controlador-midi-compacto-escritorio",
+      "type": "snippet_social",
+      "title": "MIDIPLUS AKM322: Tu Controlador MIDI Compacto Ideal"
+    },
+    {
+      "slug": "controlador-midi-compacto-escritorio",
+      "type": "post_social",
+      "title": "MIDIPLUS AKM322: Tu Controlador MIDI Compacto Ideal"
+    },
+    {
+      "slug": "controlador-midi-compacto-escritorio",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS AKM322: Ideal para Escritorios Pequeños"
+    },
+    {
+      "slug": "midiplus-i61-controlador-midi-61-teclas",
+      "type": "respuesta_tecnica",
+      "title": "MIDIPLUS i61: Controlador MIDI de 61 Teclas para Creación Musical"
+    },
+    {
+      "slug": "midiplus-i61-controlador-midi-61-teclas",
+      "type": "post_educativo",
+      "title": "MIDIPLUS i61: Tu Compañero Ideal para Crear Música"
+    },
+    {
+      "slug": "midiplus-i61-controlador-midi-61-teclas",
+      "type": "snippet_social",
+      "title": "MIDIPLUS i61: Tu Compañero Ideal para Crear Música"
+    },
+    {
+      "slug": "midiplus-i61-controlador-midi-61-teclas",
+      "type": "post_social",
+      "title": "MIDIPLUS i61: Tu Compañero Ideal para Crear Música"
+    },
+    {
+      "slug": "midiplus-i61-controlador-midi-61-teclas",
+      "type": "post_x",
+      "title": "MIDIPLUS i61: Tu Compañero Ideal para Crear Música"
+    },
+    {
+      "slug": "midiplus-i61-controlador-midi-61-teclas",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS i61: Ideal para Expandir tu Creatividad Musical"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-departamento",
+      "type": "respuesta_tecnica",
+      "title": "MIDIPLUS Studio M: Ideal para tu home studio en departamento"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-departamento",
+      "type": "post_educativo",
+      "title": "MIDIPLUS Studio M: La interfaz ideal para tu home studio"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-departamento",
+      "type": "snippet_social",
+      "title": "MIDIPLUS Studio M: Ideal para tu home studio en departamento"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-departamento",
+      "type": "post_social",
+      "title": "MIDIPLUS Studio M: Ideal para tu home studio"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-departamento",
+      "type": "post_x",
+      "title": "MIDIPLUS Studio M: Ideal para tu home studio en departamento"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-departamento",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS Studio M: Ideal para tu Home Studio Económico"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "controlador-midi-synido-tempokey-25-notebook",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-notebook",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-notebook",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-notebook",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-compacto-escritorio",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-compacto-escritorio",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-compacto-escritorio",
+      "type": "post_x",
+      "reason": "The read operation timed out"
+    }
+  ],
+  "elapsed_seconds": 206.8
+}

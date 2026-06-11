@@ -1,0 +1,36 @@
+{
+  "timestamp_utc": "20260522-190959-676918",
+  "command": "lead-magnets",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260522-190925-146713",
+  "dry_run": false,
+  "requested_limit": 3,
+  "processed_count": 4,
+  "created_count": 3,
+  "skipped_count": 0,
+  "blocked_count": 1,
+  "created": [
+    {
+      "slug": "controlador-midi-para-fl-studio",
+      "title": "Checklist: 8 aspectos clave para elegir un controlador MIDI"
+    },
+    {
+      "slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "title": "Checklist: 8 aspectos clave para elegir tu interfaz de audio"
+    },
+    {
+      "slug": "placa-sonido-guitarra",
+      "title": "Checklist: 5 claves para elegir tu placa de sonido"
+    }
+  ],
+  "skipped": [],
+  "blocked": [
+    {
+      "slug": "controlador-midi-para-ableton-comparativa",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 387 (char 844)"
+    }
+  ],
+  "elapsed_seconds": 34.53
+}

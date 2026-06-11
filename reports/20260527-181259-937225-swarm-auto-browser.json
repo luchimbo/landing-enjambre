@@ -1,0 +1,21 @@
+{
+  "timestamp_utc": "20260527-181259-937225",
+  "command": "auto-browser",
+  "status": "failed",
+  "steps": [
+    {
+      "step": "auto-browser",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\agente_browser_cdp.py",
+        "auto-browser",
+        "--task",
+        "data\\auto_browser_example.json"
+      ],
+      "started_utc": "20260527-181239-755568",
+      "finished_utc": "20260527-181259-937015",
+      "returncode": 1,
+      "status": "failed"
+    }
+  ]
+}

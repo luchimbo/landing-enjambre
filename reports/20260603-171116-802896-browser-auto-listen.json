@@ -1,0 +1,80 @@
+{
+  "timestamp_utc": "20260603-171116-802896",
+  "command": "auto-listen",
+  "channels": [
+    "facebook",
+    "instagram",
+    "x",
+    "youtube"
+  ],
+  "searches": 2,
+  "per_search": 2,
+  "dry_run": false,
+  "items": 5,
+  "distribution_drafts": 5,
+  "social_intel_path": "D:\\AgentesGuille\\data\\social_intel.jsonl",
+  "search_tasks_path": "D:\\AgentesGuille\\data\\distribution_search_tasks.jsonl",
+  "content_feedback_path": "D:\\AgentesGuille\\data\\content_feedback.jsonl",
+  "sample": [
+    {
+      "id": "20260603-171033-426495:instagram:0",
+      "created_at_utc": "2026-06-03T17:10:55.480955+00:00",
+      "run_id": "20260603-171033-426495",
+      "channel": "instagram",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.instagram.com/p/DX1Ps96EveA/",
+      "source_title": "",
+      "source_context": "Photo shared by MILLIONHEAD PRO-AUDIO on May 02, 2026 tagging @uaudio, @wearefocusrite, @fluid_audio, @arturia_official, @solidstatelogic, and @presonus. May be an image of text that says 'MILLIONFEAD MILLION Pro- Pro-Audio มือใหม่ทำเพลง มือ ต้องดู! 4+ 6 Interface Audio ตัวคุ้ม ปี 2026 คุณภา พเสียงดี ใช้ง เหม กับมือใหม่ทุกคน บมือใ 1 Universal Audio Volt2 2 Solid Stage Logic SSL2MKII SSL2 MKII 3 VOLTE Focusrite Scarlett 2i2 (4th Gen) 2-in/2-out 24-bit/ 24-bit/192kHz 92kHz UAD UAD ncluded 2-in/2-out 24-bit/192kHz Production PackIcluded 9,490.- 2-in/2-out 24-biRt/192kHz Focusrite Control2 9,000.- Arturia MiniFuse OTG 5 8,490.- PreSonus Studio 26c FLUID AUDIO SRI-2 வசானி. Z-in 2-out 24・ 24-bit/192kHz USB-C OTG Ready 2-out Studio One ArtistIncluded 7,190.- 2-/2- 24-bit/192kHz Headphone Output 7,380.- 5,990.-'."
+    },
+    {
+      "id": "20260603-171033-426495:youtube:1",
+      "created_at_utc": "2026-06-03T17:11:11.327633+00:00",
+      "run_id": "20260603-171033-426495",
+      "channel": "youtube",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.youtube.com/watch?v=nQ9uh2UHfqI&t=40s&pp=ygUfY29udHJvbGFkb3IgTUlESSBwYXJhIEZMIFN0dWRpbw%3D%3D",
+      "source_title": "13:11 Now playing",
+      "source_context": "13:11 Now playing DO NOT BUY A 25-KEY MIDI CONTROLLER WITHOUT WATCHING THIS VIDEO 54K views 1 year ago Marcelo Fernández Hi everyone! In today's video, we're reviewing different 25-key MIDI controller options. We'll talk about the keyboard, the ... CC 10 chapters Introducción | Controladores MIDI de 25 teclas | Controladores Mini | Teclado | Controles | Arpegiador | Portabilidad | Integración | Precio | ¿Cuál comprar?"
+    },
+    {
+      "id": "20260603-171033-426495:youtube:2",
+      "created_at_utc": "2026-06-03T17:11:11.374810+00:00",
+      "run_id": "20260603-171033-426495",
+      "channel": "youtube",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.youtube.com/watch?v=nQ9uh2UHfqI&pp=0gcJCfMAdtSAhXgk",
+      "source_title": "Introducción Introducción 0:00",
+      "source_context": "Introducción Introducción 0:00 Introducción 0:00 Controladores MIDI de 25 teclas Controladores MIDI de 25 teclas 0:17 Controladores MIDI de 25 teclas 0:17 Controladores Mini Controladores Mini 1:48 Controladores Mini 1:48 Teclado Teclado 2:28 Teclado 2:28 Controles Controles 4:09 Controles 4:09 Arpegiador Arpegiador 5:07 Arpegiador 5:07 Portabilidad Portabilidad 6:37 Portabilidad 6:37"
+    },
+    {
+      "id": "20260603-171033-426495:youtube:3",
+      "created_at_utc": "2026-06-03T17:11:16.572947+00:00",
+      "run_id": "20260603-171033-426495",
+      "channel": "youtube",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.youtube.com/watch?v=UaE9g1iWmto&pp=ygUpaW50ZXJmYXogZGUgYXVkaW8gcGFyYSBncmFiYXIgdm96IGVuIGNhc2E%3D",
+      "source_title": "7:43 7:43 Now playing",
+      "source_context": "The Worst Mistake When Buying an AUDIO INTERFACE 346K views 1 year ago El Rincón Del Mastering 🔥 The biggest mistake most beginners make when choosing an audio interface, and how to avoid it ..."
+    },
+    {
+      "id": "20260603-171033-426495:youtube:4",
+      "created_at_utc": "2026-06-03T17:11:16.617296+00:00",
+      "run_id": "20260603-171033-426495",
+      "channel": "youtube",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.youtube.com/watch?v=4Wp8X7MvGB0&pp=ygUpaW50ZXJmYXogZGUgYXVkaW8gcGFyYSBncmFiYXIgdm96IGVuIGNhc2E%3D",
+      "source_title": "17:29 17:29 Now playing",
+      "source_context": "Cómo sonar a estudio con una tarjeta de sonido BARATA 30€. Interfaz de audio Behringer U-Phoria UM2 3.4M views 8 years ago Jaime Altozano Quieres aprender ARMONÍA y TEORÍA MUSICAL conmigo? https://www.musihacks.com/aprende-armonia ¿Quieres aprender a ... 3 chapters Qué es/cómo funciona una tarjeta de sonido o interfaz de audio. Explico qué es el \"audio\" y cómo se transforma y rutea por conversores, amplificadores y demás. | Unboxing de la interfaz de audio Behringer U-Phoria UM2. | Pruebas de sonido con micros dinámicos (Shure SM58) y de condensador (Neewer NW-800)"
+    }
+  ]
+}

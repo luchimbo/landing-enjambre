@@ -1,0 +1,398 @@
+{
+  "timestamp_utc": "20260605-204333-481489",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260605-203801-510740",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 12,
+  "pieces_proposed": 62,
+  "pieces_blocked": 10,
+  "proposed": [
+    {
+      "slug": "setup-auriculares-bateria-electronica",
+      "type": "respuesta_tecnica",
+      "title": "Crea tu Setup Perfecto con Auriculares para Batería Electrónica"
+    },
+    {
+      "slug": "setup-auriculares-bateria-electronica",
+      "type": "post_educativo",
+      "title": "Crea tu Setup Perfecto con Auriculares para Batería Electrónica"
+    },
+    {
+      "slug": "setup-auriculares-bateria-electronica",
+      "type": "snippet_social",
+      "title": "Crea tu Setup Perfecto con Auriculares para Batería Electrónica"
+    },
+    {
+      "slug": "setup-auriculares-bateria-electronica",
+      "type": "post_social",
+      "title": "Crea tu Setup Perfecto con Auriculares para Batería Electrónica"
+    },
+    {
+      "slug": "setup-auriculares-bateria-electronica",
+      "type": "post_x",
+      "title": "Crea tu Setup Perfecto con Auriculares para Batería Electrónica"
+    },
+    {
+      "slug": "setup-auriculares-bateria-electronica",
+      "type": "respuesta_youtube",
+      "title": "Crea tu Setup Perfecto con Auriculares para Batería Electrónica"
+    },
+    {
+      "slug": "auriculares-para-bateria-electronica-departamento",
+      "type": "snippet_social",
+      "title": "Auriculares ideales para practicar batería electrónica en casa"
+    },
+    {
+      "slug": "auriculares-para-bateria-electronica-departamento",
+      "type": "post_social",
+      "title": "Auriculares ideales para practicar batería electrónica en casa"
+    },
+    {
+      "slug": "auriculares-para-bateria-electronica-departamento",
+      "type": "post_x",
+      "title": "Auriculares ideales para practicar batería electrónica en casa"
+    },
+    {
+      "slug": "auriculares-para-bateria-electronica-departamento",
+      "type": "respuesta_youtube",
+      "title": "Auriculares ideales para practicar batería electrónica en casa"
+    },
+    {
+      "slug": "como-elegir-placa-de-sonido-para-guitarra-y-voz",
+      "type": "respuesta_tecnica",
+      "title": "Elige la placa de sonido perfecta para tus grabaciones"
+    },
+    {
+      "slug": "como-elegir-placa-de-sonido-para-guitarra-y-voz",
+      "type": "post_educativo",
+      "title": "Elige la placa de sonido perfecta para tus grabaciones"
+    },
+    {
+      "slug": "como-elegir-placa-de-sonido-para-guitarra-y-voz",
+      "type": "snippet_social",
+      "title": "Elige la placa de sonido perfecta para tus grabaciones"
+    },
+    {
+      "slug": "como-elegir-placa-de-sonido-para-guitarra-y-voz",
+      "type": "post_social",
+      "title": "Elige la placa de sonido perfecta para tus grabaciones"
+    },
+    {
+      "slug": "como-elegir-placa-de-sonido-para-guitarra-y-voz",
+      "type": "post_x",
+      "title": "Elige la placa de sonido perfecta para tus grabaciones"
+    },
+    {
+      "slug": "como-elegir-placa-de-sonido-para-guitarra-y-voz",
+      "type": "respuesta_youtube",
+      "title": "Elige la placa de sonido perfecta para tus grabaciones"
+    },
+    {
+      "slug": "guia-para-elegir-placa-de-sonido-para-guitarra-y-voz",
+      "type": "respuesta_tecnica",
+      "title": "Cómo Elegir la Placa de Sonido Ideal para Guitarra y Voz"
+    },
+    {
+      "slug": "guia-para-elegir-placa-de-sonido-para-guitarra-y-voz",
+      "type": "post_educativo",
+      "title": "Cómo Elegir la Placa de Sonido Ideal para Guitarra y Voz"
+    },
+    {
+      "slug": "guia-para-elegir-placa-de-sonido-para-guitarra-y-voz",
+      "type": "snippet_social",
+      "title": "Cómo Elegir la Placa de Sonido Ideal para Guitarra y Voz"
+    },
+    {
+      "slug": "guia-para-elegir-placa-de-sonido-para-guitarra-y-voz",
+      "type": "post_social",
+      "title": "Cómo Elegir la Placa de Sonido Ideal para Guitarra y Voz"
+    },
+    {
+      "slug": "guia-para-elegir-placa-de-sonido-para-guitarra-y-voz",
+      "type": "post_x",
+      "title": "Cómo Elegir la Placa de Sonido Ideal para Guitarra y Voz"
+    },
+    {
+      "slug": "guia-para-elegir-placa-de-sonido-para-guitarra-y-voz",
+      "type": "respuesta_youtube",
+      "title": "Cómo Elegir la Placa de Sonido Ideal para Guitarra y Voz"
+    },
+    {
+      "slug": "setup-con-placa-de-sonido-para-guitarra-y-voz",
+      "type": "respuesta_tecnica",
+      "title": "Crea tu setup perfecto para guitarra y voz"
+    },
+    {
+      "slug": "setup-con-placa-de-sonido-para-guitarra-y-voz",
+      "type": "post_educativo",
+      "title": "Crea tu setup perfecto para guitarra y voz"
+    },
+    {
+      "slug": "setup-con-placa-de-sonido-para-guitarra-y-voz",
+      "type": "snippet_social",
+      "title": "Crea tu setup perfecto para guitarra y voz"
+    },
+    {
+      "slug": "setup-con-placa-de-sonido-para-guitarra-y-voz",
+      "type": "post_social",
+      "title": "Crea tu setup perfecto para guitarra y voz"
+    },
+    {
+      "slug": "setup-con-placa-de-sonido-para-guitarra-y-voz",
+      "type": "post_x",
+      "title": "Crea tu setup perfecto para guitarra y voz"
+    },
+    {
+      "slug": "setup-con-placa-de-sonido-para-guitarra-y-voz",
+      "type": "respuesta_youtube",
+      "title": "Crea tu setup perfecto para guitarra y voz"
+    },
+    {
+      "slug": "controladores-midi-para-fl-studio-con-pads",
+      "type": "post_social",
+      "title": "Controladores MIDI con Pads para FL Studio: ¿Cuál elegir?"
+    },
+    {
+      "slug": "controladores-midi-para-fl-studio-con-pads",
+      "type": "post_x",
+      "title": "Controladores MIDI con Pads para FL Studio"
+    },
+    {
+      "slug": "controladores-midi-para-fl-studio-con-pads",
+      "type": "respuesta_youtube",
+      "title": "Controladores MIDI con Pads para FL Studio: Comparativa"
+    },
+    {
+      "slug": "controladores-midi-fl-studio-finger-drumming",
+      "type": "respuesta_tecnica",
+      "title": "Controladores MIDI para FL Studio: Opciones para Finger Drumming"
+    },
+    {
+      "slug": "controladores-midi-fl-studio-finger-drumming",
+      "type": "post_educativo",
+      "title": "Controladores MIDI para FL Studio: ¡Perfectos para Finger Drumming!"
+    },
+    {
+      "slug": "controladores-midi-fl-studio-finger-drumming",
+      "type": "snippet_social",
+      "title": "Controladores MIDI para FL Studio: ¡Perfectos para Finger Drumming!"
+    },
+    {
+      "slug": "controladores-midi-fl-studio-finger-drumming",
+      "type": "post_social",
+      "title": "Controladores MIDI para FL Studio: ¡Perfectos para Finger Drumming!"
+    },
+    {
+      "slug": "controladores-midi-fl-studio-finger-drumming",
+      "type": "post_x",
+      "title": "Controladores MIDI para FL Studio: ¡Perfectos para Finger Drumming!"
+    },
+    {
+      "slug": "controladores-midi-fl-studio-finger-drumming",
+      "type": "respuesta_youtube",
+      "title": "Controladores MIDI para FL Studio: Finger Drumming Efectivo"
+    },
+    {
+      "slug": "controladores-midi-fl-studio-live-set",
+      "type": "respuesta_tecnica",
+      "title": "Controladores MIDI ideales para FL Studio en tu live set"
+    },
+    {
+      "slug": "controladores-midi-fl-studio-live-set",
+      "type": "post_educativo",
+      "title": "Controladores MIDI ideales para FL Studio en tu live set"
+    },
+    {
+      "slug": "controladores-midi-fl-studio-live-set",
+      "type": "snippet_social",
+      "title": "Controladores MIDI ideales para FL Studio en tu live set"
+    },
+    {
+      "slug": "controladores-midi-fl-studio-live-set",
+      "type": "post_social",
+      "title": "Controladores MIDI ideales para FL Studio en tu live set"
+    },
+    {
+      "slug": "controladores-midi-fl-studio-live-set",
+      "type": "post_x",
+      "title": "Controladores MIDI para FL Studio en tu live set"
+    },
+    {
+      "slug": "controladores-midi-fl-studio-live-set",
+      "type": "respuesta_youtube",
+      "title": "Controladores MIDI para FL Studio en live sets: opciones y tips"
+    },
+    {
+      "slug": "guia-elegir-arturia-minilab-3-ableton",
+      "type": "post_x",
+      "title": "Guía para elegir el Arturia MiniLab 3 para Ableton"
+    },
+    {
+      "slug": "alctron-um900-streaming-grabar-en-casa",
+      "type": "respuesta_tecnica",
+      "title": "Alctron UM900: Ideal para Streaming y Grabaciones en Casa"
+    },
+    {
+      "slug": "alctron-um900-streaming-grabar-en-casa",
+      "type": "post_educativo",
+      "title": "Alctron UM900: Ideal para Streaming y Grabaciones en Casa"
+    },
+    {
+      "slug": "alctron-um900-streaming-grabar-en-casa",
+      "type": "snippet_social",
+      "title": "Alctron UM900: Ideal para Streaming y Grabaciones en Casa"
+    },
+    {
+      "slug": "alctron-um900-streaming-grabar-en-casa",
+      "type": "post_social",
+      "title": "Alctron UM900: Ideal para tus grabaciones y streaming"
+    },
+    {
+      "slug": "alctron-um900-streaming-grabar-en-casa",
+      "type": "post_x",
+      "title": "Alctron UM900: Ideal para Streaming y Grabaciones en Casa"
+    },
+    {
+      "slug": "alctron-um900-streaming-grabar-en-casa",
+      "type": "respuesta_youtube",
+      "title": "Alctron UM900: Ideal para Streaming y Grabaciones en Casa"
+    },
+    {
+      "slug": "audio-technica-ath-m20x-grabar-principiantes",
+      "type": "respuesta_tecnica",
+      "title": "Audio Technica ATH-M20x: Ideal para grabar en casa"
+    },
+    {
+      "slug": "audio-technica-ath-m20x-grabar-principiantes",
+      "type": "post_educativo",
+      "title": "Audio Technica ATH-M20x: Tu aliado para grabar"
+    },
+    {
+      "slug": "audio-technica-ath-m20x-grabar-principiantes",
+      "type": "snippet_social",
+      "title": "Audio Technica ATH-M20x: Tu aliado para grabar"
+    },
+    {
+      "slug": "audio-technica-ath-m20x-grabar-principiantes",
+      "type": "post_social",
+      "title": "Audio Technica ATH-M20x: Tu aliado para grabar"
+    },
+    {
+      "slug": "audio-technica-ath-m20x-grabar-principiantes",
+      "type": "post_x",
+      "title": "Audio Technica ATH-M20x: Tu aliado para grabar"
+    },
+    {
+      "slug": "audio-technica-ath-m20x-grabar-principiantes",
+      "type": "respuesta_youtube",
+      "title": "Audio Technica ATH-M20x: Ideal para grabar en casa"
+    },
+    {
+      "slug": "audio-technica-ath-m20x-grabar-departamento",
+      "type": "respuesta_tecnica",
+      "title": "Audio Technica ATH-M20x: Ideal para Grabaciones en Departamentos"
+    },
+    {
+      "slug": "audio-technica-ath-m20x-grabar-departamento",
+      "type": "post_educativo",
+      "title": "Audio Technica ATH-M20x: Tu Compañero Perfecto para Grabar"
+    },
+    {
+      "slug": "audio-technica-ath-m20x-grabar-departamento",
+      "type": "snippet_social",
+      "title": "Audio Technica ATH-M20x: Ideal para Grabaciones en Casa"
+    },
+    {
+      "slug": "audio-technica-ath-m20x-grabar-departamento",
+      "type": "post_social",
+      "title": "Audio Technica ATH-M20x: Tu Compañero Perfecto para Grabar"
+    },
+    {
+      "slug": "audio-technica-ath-m20x-grabar-departamento",
+      "type": "post_x",
+      "title": "Audio Technica ATH-M20x: Ideal para Grabaciones en Casa"
+    },
+    {
+      "slug": "audio-technica-ath-m20x-grabar-departamento",
+      "type": "respuesta_youtube",
+      "title": "Audio Technica ATH-M20x: Ideal para Grabar en Casa"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "auriculares-para-bateria-electronica-departamento",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "auriculares-para-bateria-electronica-departamento",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controladores-midi-para-fl-studio-con-pads",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controladores-midi-para-fl-studio-con-pads",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controladores-midi-para-fl-studio-con-pads",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-elegir-arturia-minilab-3-ableton",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-elegir-arturia-minilab-3-ableton",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-elegir-arturia-minilab-3-ableton",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-elegir-arturia-minilab-3-ableton",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-elegir-arturia-minilab-3-ableton",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 331.97
+}

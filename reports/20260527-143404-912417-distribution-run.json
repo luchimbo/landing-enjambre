@@ -1,0 +1,109 @@
+{
+  "timestamp_utc": "20260527-143404-912417",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260527-143037-230075",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 5,
+  "pieces_proposed": 7,
+  "pieces_blocked": 8,
+  "proposed": [
+    {
+      "slug": "controlador-midi-49-teclas-vs-61-teclas",
+      "type": "respuesta_tecnica",
+      "title": "Controladores MIDI: ¿49 teclas o 61 teclas?"
+    },
+    {
+      "slug": "mejor-opcion-controlador-midi-fl-studio",
+      "type": "respuesta_tecnica",
+      "title": "Encuentra el mejor controlador MIDI para FL Studio"
+    },
+    {
+      "slug": "mejor-opcion-controlador-midi-fl-studio",
+      "type": "post_educativo",
+      "title": "Encuentra el mejor controlador MIDI para FL Studio"
+    },
+    {
+      "slug": "mejor-opcion-controlador-midi-fl-studio",
+      "type": "snippet_social",
+      "title": "Encuentra el mejor controlador MIDI para FL Studio"
+    },
+    {
+      "slug": "comparar-opciones-controlador-midi-fl-studio",
+      "type": "respuesta_tecnica",
+      "title": "Encuentra el Controlador MIDI Ideal para FL Studio"
+    },
+    {
+      "slug": "comparar-opciones-controlador-midi-fl-studio",
+      "type": "snippet_social",
+      "title": "Encuentra el Controlador MIDI Ideal para FL Studio"
+    },
+    {
+      "slug": "mejor-opcion-controlador-midi-para-ableton",
+      "type": "post_educativo",
+      "title": "Elige el mejor controlador MIDI para Ableton"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "controlador-midi-25-teclas-vs-49-teclas",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-25-teclas-vs-49-teclas",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-25-teclas-vs-49-teclas",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-49-teclas-vs-61-teclas",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-49-teclas-vs-61-teclas",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "comparar-opciones-controlador-midi-fl-studio",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "mejor-opcion-controlador-midi-para-ableton",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "mejor-opcion-controlador-midi-para-ableton",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 207.68
+}

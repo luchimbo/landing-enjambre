@@ -1,0 +1,100 @@
+{
+  "timestamp_utc": "20260605-150314-180975",
+  "command": "auto-distribution",
+  "channels": [
+    "facebook",
+    "instagram",
+    "x",
+    "youtube"
+  ],
+  "unsupported_channels": [],
+  "limit": 25,
+  "per_channel": 2,
+  "dry_run": false,
+  "allow_proposed": false,
+  "published_or_attempted": 0,
+  "blocked_seen": 465,
+  "results": [],
+  "blocked_sample": [
+    {
+      "id": "20260605-150223-468722:youtube:auto-listen:2",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260605-150223-468722:instagram:auto-listen:0",
+      "channel": "instagram",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260605-145633-367217:regalo-para-musico-principiante:respuesta_youtube:youtube:1780671607371",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260605-145633-367217:regalo-para-musico-principiante:post_x:x:1780671601977",
+      "channel": "x",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260605-145633-367217:bateria-electronica-silenciosa-departamento:post_x:x:1780671478610",
+      "channel": "x",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260605-145633-367217:bateria-electronica-para-principiantes:respuesta_youtube:youtube:1780671455426",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260605-145633-367217:bateria-electronica-silenciosa-departamento:respuesta_youtube:youtube:1780671484823",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260605-145633-367217:bateria-electronica-para-principiantes:post_x:x:1780671452682",
+      "channel": "x",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260605-142309-896314:synido-livedock-directo:respuesta_youtube:youtube:1780670539650",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260605-142309-896314:synido-livedock-directo:post_x:x:1780670534418",
+      "channel": "x",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    }
+  ]
+}

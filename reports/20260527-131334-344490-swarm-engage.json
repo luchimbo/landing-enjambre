@@ -1,0 +1,20 @@
+{
+  "timestamp_utc": "20260527-131334-344490",
+  "command": "engage",
+  "status": "ok",
+  "steps": [
+    {
+      "step": "engage",
+      "command": [
+        "node",
+        "D:\\AgentesGuille\\agente_engagement\\index.js",
+        "--platform",
+        "instagram"
+      ],
+      "started_utc": "20260527-131311-350933",
+      "finished_utc": "20260527-131334-344221",
+      "returncode": 0,
+      "status": "ok"
+    }
+  ]
+}

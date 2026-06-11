@@ -1,0 +1,21 @@
+{
+  "timestamp_utc": "20260526-184246-850744",
+  "command": "playwright-login",
+  "status": "ok",
+  "steps": [
+    {
+      "step": "playwright-login",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\agente_playwright.py",
+        "login",
+        "--channel",
+        "instagram"
+      ],
+      "started_utc": "20260526-184242-728040",
+      "finished_utc": "20260526-184246-850561",
+      "returncode": 0,
+      "status": "ok"
+    }
+  ]
+}

@@ -1,0 +1,320 @@
+{
+  "timestamp_utc": "20260605-202652-305951",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260605-202155-528797",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 59,
+  "pieces_blocked": 1,
+  "proposed": [
+    {
+      "slug": "auriculares-para-grabar-podcast-departamento",
+      "type": "respuesta_tecnica",
+      "title": "Auriculares Cerrados para Tu Podcast en Casa"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast-departamento",
+      "type": "post_educativo",
+      "title": "Auriculares Cerrados para Tu Podcast en Casa"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast-departamento",
+      "type": "snippet_social",
+      "title": "Auriculares Cerrados para Tu Podcast en Casa"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast-departamento",
+      "type": "post_social",
+      "title": "Auriculares Cerrados para Tu Podcast en Casa"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast-departamento",
+      "type": "post_x",
+      "title": "Auriculares Cerrados para Tu Podcast en Casa"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast-departamento",
+      "type": "respuesta_youtube",
+      "title": "Auriculares Cerrados: Clave para Grabar Tu Podcast en Casa"
+    },
+    {
+      "slug": "que-comprar-para-audio-technica-ath-m20x-para-grabar",
+      "type": "respuesta_tecnica",
+      "title": "Los mejores auriculares cerrados para tu Audio Technica ATH-M20x"
+    },
+    {
+      "slug": "que-comprar-para-audio-technica-ath-m20x-para-grabar",
+      "type": "post_educativo",
+      "title": "Los mejores auriculares cerrados para tu Audio Technica ATH-M20x"
+    },
+    {
+      "slug": "que-comprar-para-audio-technica-ath-m20x-para-grabar",
+      "type": "snippet_social",
+      "title": "Los mejores auriculares cerrados para tu Audio Technica ATH-M20x"
+    },
+    {
+      "slug": "que-comprar-para-audio-technica-ath-m20x-para-grabar",
+      "type": "post_social",
+      "title": "Los mejores auriculares cerrados para tu Audio Technica ATH-M20x"
+    },
+    {
+      "slug": "que-comprar-para-audio-technica-ath-m20x-para-grabar",
+      "type": "post_x",
+      "title": "Los mejores auriculares cerrados para tu Audio Technica ATH-M20x"
+    },
+    {
+      "slug": "que-comprar-para-audio-technica-ath-m20x-para-grabar",
+      "type": "respuesta_youtube",
+      "title": "Los mejores auriculares cerrados para tu Audio Technica ATH-M20x"
+    },
+    {
+      "slug": "como-elegir-audio-technica-ath-m20x-para-grabar",
+      "type": "respuesta_tecnica",
+      "title": "Cómo elegir el Audio Technica ATH-M20x para grabar"
+    },
+    {
+      "slug": "como-elegir-audio-technica-ath-m20x-para-grabar",
+      "type": "post_educativo",
+      "title": "Cómo elegir el Audio Technica ATH-M20x para grabar"
+    },
+    {
+      "slug": "como-elegir-audio-technica-ath-m20x-para-grabar",
+      "type": "snippet_social",
+      "title": "Cómo elegir el Audio Technica ATH-M20x para grabar"
+    },
+    {
+      "slug": "como-elegir-audio-technica-ath-m20x-para-grabar",
+      "type": "post_social",
+      "title": "Cómo elegir el Audio Technica ATH-M20x para grabar"
+    },
+    {
+      "slug": "como-elegir-audio-technica-ath-m20x-para-grabar",
+      "type": "post_x",
+      "title": "Cómo elegir el Audio Technica ATH-M20x para grabar"
+    },
+    {
+      "slug": "como-elegir-audio-technica-ath-m20x-para-grabar",
+      "type": "respuesta_youtube",
+      "title": "Cómo elegir el Audio Technica ATH-M20x para grabar"
+    },
+    {
+      "slug": "controladores-midi-para-ableton",
+      "type": "respuesta_tecnica",
+      "title": "Controladores MIDI para una integración perfecta con Ableton"
+    },
+    {
+      "slug": "controladores-midi-para-ableton",
+      "type": "post_educativo",
+      "title": "Controladores MIDI para una integración perfecta con Ableton"
+    },
+    {
+      "slug": "controladores-midi-para-ableton",
+      "type": "snippet_social",
+      "title": "Controladores MIDI para una integración perfecta con Ableton"
+    },
+    {
+      "slug": "controladores-midi-para-ableton",
+      "type": "post_social",
+      "title": "Controladores MIDI para una integración perfecta con Ableton"
+    },
+    {
+      "slug": "controladores-midi-para-ableton",
+      "type": "post_x",
+      "title": "Controladores MIDI para una integración perfecta con Ableton"
+    },
+    {
+      "slug": "controladores-midi-para-ableton",
+      "type": "respuesta_youtube",
+      "title": "Controladores MIDI ideales para Ableton: Guía de integración"
+    },
+    {
+      "slug": "guia-elegir-filtro-pop-grabar-voz",
+      "type": "respuesta_tecnica",
+      "title": "Cómo Elegir el Filtro Pop Perfecto para Grabación de Voces"
+    },
+    {
+      "slug": "guia-elegir-filtro-pop-grabar-voz",
+      "type": "post_educativo",
+      "title": "Cómo Elegir el Filtro Pop Perfecto para Grabación de Voces"
+    },
+    {
+      "slug": "guia-elegir-filtro-pop-grabar-voz",
+      "type": "snippet_social",
+      "title": "Cómo Elegir el Filtro Pop Perfecto para Grabación de Voces"
+    },
+    {
+      "slug": "guia-elegir-filtro-pop-grabar-voz",
+      "type": "post_social",
+      "title": "Cómo Elegir el Filtro Pop Perfecto para Grabar Voces"
+    },
+    {
+      "slug": "guia-elegir-filtro-pop-grabar-voz",
+      "type": "post_x",
+      "title": "Cómo Elegir el Filtro Pop Perfecto para Grabación de Voces"
+    },
+    {
+      "slug": "guia-elegir-filtro-pop-grabar-voz",
+      "type": "respuesta_youtube",
+      "title": "Cómo Elegir el Filtro Pop Perfecto para Grabación de Voces"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast-streaming",
+      "type": "respuesta_tecnica",
+      "title": "Auriculares Cerrados para un Monitoreo Perfecto en Streaming"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast-streaming",
+      "type": "snippet_social",
+      "title": "Auriculares Cerrados para un Monitoreo Perfecto en Streaming"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast-streaming",
+      "type": "post_social",
+      "title": "Auriculares Cerrados: Tu Mejor Aliado para Grabar Podcasts"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast-streaming",
+      "type": "post_x",
+      "title": "Auriculares Cerrados: Tu Mejor Opción para Grabar Podcasts"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast-streaming",
+      "type": "respuesta_youtube",
+      "title": "Auriculares Cerrados: Clave para un Podcast de Calidad"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast-en-casa",
+      "type": "respuesta_tecnica",
+      "title": "Los mejores auriculares para grabar tu podcast en casa"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast-en-casa",
+      "type": "post_educativo",
+      "title": "Los mejores auriculares para grabar tu podcast en casa"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast-en-casa",
+      "type": "snippet_social",
+      "title": "Auriculares cerrados ideales para grabar tu podcast en casa"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast-en-casa",
+      "type": "post_social",
+      "title": "Los mejores auriculares para grabar tu podcast en casa"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast-en-casa",
+      "type": "post_x",
+      "title": "Los mejores auriculares para grabar tu podcast en casa"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast-en-casa",
+      "type": "respuesta_youtube",
+      "title": "Los mejores auriculares para grabar tu podcast en casa"
+    },
+    {
+      "slug": "setup-audio-technica-ath-m20x-grabar",
+      "type": "respuesta_tecnica",
+      "title": "Arma tu setup de grabación con Audio Technica ATH-M20x"
+    },
+    {
+      "slug": "setup-audio-technica-ath-m20x-grabar",
+      "type": "post_educativo",
+      "title": "Arma tu setup de grabación con Audio Technica ATH-M20x"
+    },
+    {
+      "slug": "setup-audio-technica-ath-m20x-grabar",
+      "type": "snippet_social",
+      "title": "Arma tu setup de grabación con Audio Technica ATH-M20x"
+    },
+    {
+      "slug": "setup-audio-technica-ath-m20x-grabar",
+      "type": "post_social",
+      "title": "Arma tu setup de grabación con Audio Technica ATH-M20x"
+    },
+    {
+      "slug": "setup-audio-technica-ath-m20x-grabar",
+      "type": "post_x",
+      "title": "Arma tu setup de grabación con Audio Technica ATH-M20x"
+    },
+    {
+      "slug": "setup-audio-technica-ath-m20x-grabar",
+      "type": "respuesta_youtube",
+      "title": "Arma tu setup de grabación con Audio Technica ATH-M20x"
+    },
+    {
+      "slug": "que-comprar-para-audio-technica-ath-m50x",
+      "type": "respuesta_tecnica",
+      "title": "Optimiza tu experiencia con los Audio Technica ATH-M50x"
+    },
+    {
+      "slug": "que-comprar-para-audio-technica-ath-m50x",
+      "type": "post_educativo",
+      "title": "Optimiza tu experiencia con los Audio Technica ATH-M50x"
+    },
+    {
+      "slug": "que-comprar-para-audio-technica-ath-m50x",
+      "type": "snippet_social",
+      "title": "Optimiza tu experiencia con los Audio Technica ATH-M50x"
+    },
+    {
+      "slug": "que-comprar-para-audio-technica-ath-m50x",
+      "type": "post_social",
+      "title": "Optimiza tu experiencia con los Audio Technica ATH-M50x"
+    },
+    {
+      "slug": "que-comprar-para-audio-technica-ath-m50x",
+      "type": "post_x",
+      "title": "Optimiza tu experiencia con los Audio Technica ATH-M50x"
+    },
+    {
+      "slug": "que-comprar-para-audio-technica-ath-m50x",
+      "type": "respuesta_youtube",
+      "title": "Optimiza tu experiencia con los Audio Technica ATH-M50x"
+    },
+    {
+      "slug": "guia-para-elegir-auriculares-para-bateria-electronica",
+      "type": "respuesta_tecnica",
+      "title": "Elige los Auriculares Perfectos para tu Batería Electrónica"
+    },
+    {
+      "slug": "guia-para-elegir-auriculares-para-bateria-electronica",
+      "type": "post_educativo",
+      "title": "Elige los Auriculares Perfectos para tu Batería Electrónica"
+    },
+    {
+      "slug": "guia-para-elegir-auriculares-para-bateria-electronica",
+      "type": "snippet_social",
+      "title": "Elige los Auriculares Perfectos para tu Batería Electrónica"
+    },
+    {
+      "slug": "guia-para-elegir-auriculares-para-bateria-electronica",
+      "type": "post_social",
+      "title": "Elige los Auriculares Perfectos para tu Batería Electrónica"
+    },
+    {
+      "slug": "guia-para-elegir-auriculares-para-bateria-electronica",
+      "type": "post_x",
+      "title": "Elige los Auriculares Perfectos para tu Batería Electrónica"
+    },
+    {
+      "slug": "guia-para-elegir-auriculares-para-bateria-electronica",
+      "type": "respuesta_youtube",
+      "title": "Elige los Auriculares Perfectos para tu Batería Electrónica"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "auriculares-para-grabar-podcast-streaming",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 296.78
+}

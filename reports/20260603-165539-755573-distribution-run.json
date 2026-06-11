@@ -1,0 +1,330 @@
+{
+  "timestamp_utc": "20260603-165539-755573",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260603-165123-247011",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 54,
+  "pieces_blocked": 6,
+  "proposed": [
+    {
+      "slug": "home-studio-sin-molestar-vecinos",
+      "type": "respuesta_tecnica",
+      "title": "Crea tu Home Studio Sin Molestar a los Vecinos"
+    },
+    {
+      "slug": "home-studio-sin-molestar-vecinos",
+      "type": "post_educativo",
+      "title": "Crea tu Home Studio Sin Molestar a los Vecinos"
+    },
+    {
+      "slug": "home-studio-sin-molestar-vecinos",
+      "type": "snippet_social",
+      "title": "Crea tu Home Studio Sin Molestar a los Vecinos"
+    },
+    {
+      "slug": "home-studio-sin-molestar-vecinos",
+      "type": "post_social",
+      "title": "Crea tu Home Studio Sin Molestar a los Vecinos"
+    },
+    {
+      "slug": "home-studio-sin-molestar-vecinos",
+      "type": "post_x",
+      "title": "Crea tu Home Studio Sin Molestar a los Vecinos"
+    },
+    {
+      "slug": "home-studio-sin-molestar-vecinos",
+      "type": "respuesta_youtube",
+      "title": "Crea tu Home Studio Sin Molestar a los Vecinos"
+    },
+    {
+      "slug": "que-comprar-primero-para-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Equipos imprescindibles para tu home studio"
+    },
+    {
+      "slug": "que-comprar-primero-para-home-studio",
+      "type": "post_educativo",
+      "title": "Equipos imprescindibles para tu home studio"
+    },
+    {
+      "slug": "que-comprar-primero-para-home-studio",
+      "type": "snippet_social",
+      "title": "Equipos imprescindibles para tu home studio"
+    },
+    {
+      "slug": "que-comprar-primero-para-home-studio",
+      "type": "post_social",
+      "title": "Equipos imprescindibles para tu home studio"
+    },
+    {
+      "slug": "que-comprar-primero-para-home-studio",
+      "type": "post_x",
+      "title": "Equipos imprescindibles para tu home studio"
+    },
+    {
+      "slug": "que-comprar-primero-para-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Equipos imprescindibles para tu home studio"
+    },
+    {
+      "slug": "upgrade-home-studio-principiante",
+      "type": "respuesta_tecnica",
+      "title": "Mejora tu Home Studio: Opciones para Principiantes"
+    },
+    {
+      "slug": "upgrade-home-studio-principiante",
+      "type": "post_educativo",
+      "title": "Mejora tu Home Studio: Opciones para Principiantes"
+    },
+    {
+      "slug": "upgrade-home-studio-principiante",
+      "type": "snippet_social",
+      "title": "Mejora tu Home Studio: Opciones para Principiantes"
+    },
+    {
+      "slug": "upgrade-home-studio-principiante",
+      "type": "post_social",
+      "title": "Mejora tu Home Studio: Consejos para Principiantes"
+    },
+    {
+      "slug": "upgrade-home-studio-principiante",
+      "type": "post_x",
+      "title": "Mejora tu Home Studio con Opciones Clave"
+    },
+    {
+      "slug": "upgrade-home-studio-principiante",
+      "type": "respuesta_youtube",
+      "title": "Mejoras Clave para tu Home Studio de Principiante"
+    },
+    {
+      "slug": "cadena-audio-guitarra-interfaz-monitoreo",
+      "type": "respuesta_tecnica",
+      "title": "Arma tu cadena de audio para guitarra de forma efectiva"
+    },
+    {
+      "slug": "cadena-audio-guitarra-interfaz-monitoreo",
+      "type": "post_educativo",
+      "title": "Arma tu cadena de audio para guitarra de forma efectiva"
+    },
+    {
+      "slug": "cadena-audio-guitarra-interfaz-monitoreo",
+      "type": "snippet_social",
+      "title": "Arma tu cadena de audio para guitarra de forma efectiva"
+    },
+    {
+      "slug": "cadena-audio-guitarra-interfaz-monitoreo",
+      "type": "post_social",
+      "title": "Arma tu cadena de audio para guitarra de forma efectiva"
+    },
+    {
+      "slug": "cadena-audio-guitarra-interfaz-monitoreo",
+      "type": "post_x",
+      "title": "Arma tu cadena de audio para guitarra de forma efectiva"
+    },
+    {
+      "slug": "cadena-audio-guitarra-interfaz-monitoreo",
+      "type": "respuesta_youtube",
+      "title": "Arma tu cadena de audio para guitarra de forma efectiva"
+    },
+    {
+      "slug": "regalo-para-cantante-microfonos-auriculares",
+      "type": "respuesta_tecnica",
+      "title": "Los mejores regalos para cantantes: micrófonos y accesorios"
+    },
+    {
+      "slug": "regalo-para-cantante-microfonos-auriculares",
+      "type": "post_educativo",
+      "title": "Los mejores regalos para cantantes: micrófonos, auriculares y más"
+    },
+    {
+      "slug": "regalo-para-cantante-microfonos-auriculares",
+      "type": "snippet_social",
+      "title": "Los mejores regalos para cantantes: micrófonos y más"
+    },
+    {
+      "slug": "regalo-para-cantante-microfonos-auriculares",
+      "type": "post_social",
+      "title": "Los mejores regalos para cantantes: micrófonos y más 🎤"
+    },
+    {
+      "slug": "regalo-para-cantante-microfonos-auriculares",
+      "type": "post_x",
+      "title": "Los mejores regalos para cantantes: micrófonos y más"
+    },
+    {
+      "slug": "regalo-para-cantante-microfonos-auriculares",
+      "type": "respuesta_youtube",
+      "title": "Los mejores regalos para cantantes: micrófonos y más"
+    },
+    {
+      "slug": "midiplus-ak490-principiantes-home-studio",
+      "type": "post_x",
+      "title": "MIDIPLUS AK490: Ideal para Principiantes en Home Studio"
+    },
+    {
+      "slug": "controlador-midi-compacto-escritorio-chico",
+      "type": "respuesta_tecnica",
+      "title": "Controladores MIDI Compactos para Espacios Reducidos"
+    },
+    {
+      "slug": "controlador-midi-compacto-escritorio-chico",
+      "type": "post_educativo",
+      "title": "Controladores MIDI Compactos para Espacios Reducidos"
+    },
+    {
+      "slug": "controlador-midi-compacto-escritorio-chico",
+      "type": "snippet_social",
+      "title": "Controladores MIDI Compactos para Espacios Reducidos"
+    },
+    {
+      "slug": "controlador-midi-compacto-escritorio-chico",
+      "type": "post_social",
+      "title": "Controladores MIDI Compactos para Espacios Reducidos"
+    },
+    {
+      "slug": "controlador-midi-compacto-escritorio-chico",
+      "type": "post_x",
+      "title": "Controladores MIDI Compactos para Espacios Reducidos"
+    },
+    {
+      "slug": "controlador-midi-compacto-escritorio-chico",
+      "type": "respuesta_youtube",
+      "title": "Controladores MIDI Compactos para Espacios Reducidos"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-midi-escritorio",
+      "type": "respuesta_tecnica",
+      "title": "MIDIPLUS AKM322: Controlador MIDI Compacto para tu Estudio"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-midi-escritorio",
+      "type": "post_educativo",
+      "title": "MIDIPLUS AKM322: Tu Controlador MIDI Compacto Ideal"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-midi-escritorio",
+      "type": "snippet_social",
+      "title": "MIDIPLUS AKM322: Tu Controlador MIDI Compacto Ideal"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-midi-escritorio",
+      "type": "post_social",
+      "title": "MIDIPLUS AKM322: Tu Controlador MIDI Compacto Ideal"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-midi-escritorio",
+      "type": "post_x",
+      "title": "MIDIPLUS AKM322: Tu Controlador MIDI Compacto Ideal"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-midi-escritorio",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS AKM322: Tu Controlador MIDI Compacto Ideal"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "MIDIPLUS AKM322: Controlador Compacto Ideal para Home Studio"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-home-studio",
+      "type": "post_educativo",
+      "title": "MIDIPLUS AKM322: Tu Controlador Compacto para Home Studio"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-home-studio",
+      "type": "snippet_social",
+      "title": "MIDIPLUS AKM322: Tu Controlador Compacto para Home Studio"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-home-studio",
+      "type": "post_social",
+      "title": "MIDIPLUS AKM322: Tu Controlador Compacto para Home Studio"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-home-studio",
+      "type": "post_x",
+      "title": "MIDIPLUS AKM322: Tu Controlador Compacto para Home Studio"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-home-studio",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS AKM322: Ideal para tu Home Studio Compacto"
+    },
+    {
+      "slug": "midiplus-i61-controlador-61-teclas-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "MIDIPLUS i61: Ideal para Ampliar tu Home Studio"
+    },
+    {
+      "slug": "midiplus-i61-controlador-61-teclas-home-studio",
+      "type": "snippet_social",
+      "title": "MIDIPLUS i61: Tu Compañero Ideal para el Home Studio"
+    },
+    {
+      "slug": "midiplus-i61-controlador-61-teclas-home-studio",
+      "type": "post_social",
+      "title": "MIDIPLUS i61: Tu Compañero Ideal para el Home Studio"
+    },
+    {
+      "slug": "midiplus-i61-controlador-61-teclas-home-studio",
+      "type": "post_x",
+      "title": "MIDIPLUS i61: Tu Compañero Ideal para el Home Studio"
+    },
+    {
+      "slug": "midiplus-i61-controlador-61-teclas-home-studio",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS i61: Ideal para tu Home Studio"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "midiplus-ak490-principiantes-home-studio",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ak490-principiantes-home-studio",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ak490-principiantes-home-studio",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ak490-principiantes-home-studio",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ak490-principiantes-home-studio",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-i61-controlador-61-teclas-home-studio",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 256.51
+}

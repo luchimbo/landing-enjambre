@@ -1,0 +1,198 @@
+{
+  "timestamp_utc": "20260529-124921-084411",
+  "command": "auto-distribution",
+  "channels": [
+    "facebook",
+    "instagram",
+    "x",
+    "youtube"
+  ],
+  "unsupported_channels": [],
+  "limit": 8,
+  "per_channel": 1,
+  "dry_run": false,
+  "allow_proposed": false,
+  "published_or_attempted": 3,
+  "blocked_seen": 93,
+  "results": [
+    {
+      "id": "20260529-124624-451087:comparar-monitores-home-studio:snippet_social:social:1780058849047",
+      "channel": "facebook",
+      "slug": "comparar-monitores-home-studio",
+      "result": {
+        "ok": false,
+        "url": "https://www.facebook.com/",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "¿qué estás pensando",
+            "what's on your mind",
+            "crear publicación"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "publicar"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260529-124624-451087:comparar-monitores-home-studio:snippet_social:social:1780058849047",
+      "channel": "x",
+      "slug": "comparar-monitores-home-studio",
+      "result": {
+        "ok": true,
+        "url": "https://x.com/compose/post",
+        "dismissed": [],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "x_compose",
+              "ok": true,
+              "prep": {
+                "ok": true,
+                "skipped": true
+              },
+              "open": {
+                "ok": true,
+                "skipped": true
+              },
+              "fill": {
+                "ok": true,
+                "selector": "[data-testid=\"tweetTextarea_0\"]",
+                "length": 275
+              },
+              "submit": {
+                "ok": true,
+                "selector": "[data-testid=\"tweetButtonInline\"]"
+              },
+              "keyboard_submit": {
+                "ok": false,
+                "skipped": true
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260529-124624-451087:comparar-monitores-5-6-pulgadas:respuesta_youtube:youtube:1780058901631",
+      "channel": "youtube",
+      "slug": "comparar-monitores-5-6-pulgadas",
+      "result": {
+        "ok": false,
+        "error": "YouTube requiere source_thread_url de un video"
+      }
+    }
+  ],
+  "blocked_sample": [
+    {
+      "id": "20260529-123802-299892:instagram:auto-listen:2",
+      "channel": "instagram",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260528-201433-695631:comparar-microfonos-audio-technica-at2020-home-studio:post_x:x:1779999381384",
+      "channel": "x",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260528-183801-547776:youtube:auto-listen:29",
+      "channel": "youtube",
+      "status": "failed",
+      "errors": [
+        "status no publicable: failed"
+      ]
+    },
+    {
+      "id": "20260528-183801-547776:youtube:auto-listen:28",
+      "channel": "youtube",
+      "status": "failed",
+      "errors": [
+        "status no publicable: failed"
+      ]
+    },
+    {
+      "id": "20260528-183801-547776:youtube:auto-listen:27",
+      "channel": "youtube",
+      "status": "failed",
+      "errors": [
+        "status no publicable: failed"
+      ]
+    },
+    {
+      "id": "20260528-183801-547776:instagram:auto-listen:11",
+      "channel": "instagram",
+      "status": "blocked",
+      "errors": [
+        "status no publicable: blocked",
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260528-183801-547776:instagram:auto-listen:10",
+      "channel": "instagram",
+      "status": "blocked",
+      "errors": [
+        "status no publicable: blocked",
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260528-183801-547776:instagram:auto-listen:9",
+      "channel": "instagram",
+      "status": "blocked",
+      "errors": [
+        "status no publicable: blocked",
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260528-183801-547776:instagram:auto-listen:7",
+      "channel": "instagram",
+      "status": "blocked",
+      "errors": [
+        "status no publicable: blocked",
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260528-183801-547776:instagram:auto-listen:6",
+      "channel": "instagram",
+      "status": "blocked",
+      "errors": [
+        "status no publicable: blocked",
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    }
+  ]
+}

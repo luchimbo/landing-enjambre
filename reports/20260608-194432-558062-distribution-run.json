@@ -1,0 +1,390 @@
+{
+  "timestamp_utc": "20260608-194432-558062",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260608-193801-786710",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 12,
+  "pieces_proposed": 66,
+  "pieces_blocked": 6,
+  "proposed": [
+    {
+      "slug": "setup-streaming-buen-audio-grabar-voces",
+      "type": "respuesta_tecnica",
+      "title": "Crea tu Setup de Streaming con Audio de Calidad"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-grabar-voces",
+      "type": "post_educativo",
+      "title": "Crea tu Setup de Streaming con Audio de Calidad"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-grabar-voces",
+      "type": "snippet_social",
+      "title": "Crea tu Setup de Streaming con Audio de Calidad"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-grabar-voces",
+      "type": "post_social",
+      "title": "Crea tu Setup de Streaming con Audio de Calidad"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-grabar-voces",
+      "type": "post_x",
+      "title": "Crea tu Setup de Streaming con Audio de Calidad"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-grabar-voces",
+      "type": "respuesta_youtube",
+      "title": "Crea tu Setup de Streaming con Audio de Calidad"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-guitarra",
+      "type": "respuesta_tecnica",
+      "title": "Arma tu Setup de Streaming para Tocar Guitarra"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-guitarra",
+      "type": "post_educativo",
+      "title": "Arma tu Setup de Streaming para Tocar Guitarra"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-guitarra",
+      "type": "snippet_social",
+      "title": "Arma tu Setup de Streaming para Tocar Guitarra"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-guitarra",
+      "type": "post_social",
+      "title": "Arma tu Setup de Streaming para Tocar Guitarra"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-guitarra",
+      "type": "post_x",
+      "title": "Arma tu Setup de Streaming para Tocar Guitarra"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-guitarra",
+      "type": "respuesta_youtube",
+      "title": "Arma tu Setup de Streaming para Tocar Guitarra"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-para-ableton-departamento",
+      "type": "post_social",
+      "title": "Arturia MiniLab 3: Tu Compañero Ideal para Producción en Casa"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-para-ableton-departamento",
+      "type": "post_x",
+      "title": "Arturia MiniLab 3: Ideal para Producción en Espacios Pequeños"
+    },
+    {
+      "slug": "arturia-minilab-3-ableton-creadores-contenido",
+      "type": "respuesta_tecnica",
+      "title": "Arturia MiniLab 3: Tu Compañero Ideal para Producción"
+    },
+    {
+      "slug": "arturia-minilab-3-ableton-creadores-contenido",
+      "type": "post_educativo",
+      "title": "Arturia MiniLab 3: Tu Compañero Ideal para Producción"
+    },
+    {
+      "slug": "arturia-minilab-3-ableton-creadores-contenido",
+      "type": "snippet_social",
+      "title": "Arturia MiniLab 3: Tu Compañero Ideal para Producción"
+    },
+    {
+      "slug": "arturia-minilab-3-ableton-creadores-contenido",
+      "type": "post_social",
+      "title": "Arturia MiniLab 3: Tu Compañero Ideal para Producción"
+    },
+    {
+      "slug": "arturia-minilab-3-ableton-creadores-contenido",
+      "type": "post_x",
+      "title": "Arturia MiniLab 3: Tu Compañero Ideal para Producción"
+    },
+    {
+      "slug": "arturia-minilab-3-ableton-creadores-contenido",
+      "type": "respuesta_youtube",
+      "title": "Arturia MiniLab 3: Ideal para Creadores de Contenido"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-noche",
+      "type": "respuesta_tecnica",
+      "title": "Auriculares Cerrados para Grabación Nocturna: Claves Técnicas"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-noche",
+      "type": "post_educativo",
+      "title": "Auriculares Cerrados para Grabación Nocturna: Clave para un Buen Sonido"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-noche",
+      "type": "snippet_social",
+      "title": "Auriculares Cerrados para Grabación Nocturna"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-noche",
+      "type": "post_social",
+      "title": "Auriculares Cerrados: Tu Mejor Aliado para Grabaciones Nocturnas"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-noche",
+      "type": "post_x",
+      "title": "Auriculares Cerrados para Grabación Nocturna"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-noche",
+      "type": "respuesta_youtube",
+      "title": "Auriculares Cerrados: Clave para Grabaciones Nocturnas"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-musica-electronica-5",
+      "type": "post_educativo",
+      "title": "Tu primer sintetizador para crear música electrónica"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-musica-electronica-5",
+      "type": "snippet_social",
+      "title": "Tu primer sintetizador para crear música electrónica"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-musica-electronica-5",
+      "type": "post_social",
+      "title": "Tu primer sintetizador para crear música electrónica"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-musica-electronica-5",
+      "type": "post_x",
+      "title": "Tu primer sintetizador para crear música electrónica"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-musica-electronica-5",
+      "type": "respuesta_youtube",
+      "title": "Tu primer sintetizador para crear música electrónica"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-sin-complicarse",
+      "type": "respuesta_tecnica",
+      "title": "Sintetizadores ideales para iniciarte en la síntesis"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-sin-complicarse",
+      "type": "post_educativo",
+      "title": "Sintetizadores ideales para iniciarte en la síntesis"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-sin-complicarse",
+      "type": "snippet_social",
+      "title": "Sintetizadores ideales para iniciarte en la síntesis"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-sin-complicarse",
+      "type": "post_social",
+      "title": "Sintetizadores ideales para iniciarte en la síntesis"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-sin-complicarse",
+      "type": "post_x",
+      "title": "Sintetizadores ideales para iniciarte en la síntesis"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-sin-complicarse",
+      "type": "respuesta_youtube",
+      "title": "Sintetizadores ideales para iniciarte en la síntesis"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-leads",
+      "type": "respuesta_tecnica",
+      "title": "Aprendé síntesis con sintetizadores ideales para leads"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-leads",
+      "type": "post_educativo",
+      "title": "Aprendé síntesis con los mejores sintetizadores para leads"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-leads",
+      "type": "snippet_social",
+      "title": "Aprendé síntesis con sintetizadores ideales para leads"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-leads",
+      "type": "post_social",
+      "title": "Aprendé síntesis con sintetizadores ideales para leads 🎹"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-leads",
+      "type": "post_x",
+      "title": "Aprendé síntesis con sintetizadores ideales para leads"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-leads",
+      "type": "respuesta_youtube",
+      "title": "Aprendé a elegir tu primer sintetizador para leads"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-sin-computadora",
+      "type": "respuesta_tecnica",
+      "title": "Los Sintetizadores Perfectos para Iniciar en la Síntesis"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-sin-computadora",
+      "type": "snippet_social",
+      "title": "Los Sintetizadores Perfectos para Iniciar en la Síntesis"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-sin-computadora",
+      "type": "post_social",
+      "title": "Los Sintetizadores Perfectos para Iniciar en la Síntesis"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-sin-computadora",
+      "type": "post_x",
+      "title": "Los Sintetizadores Perfectos para Iniciar en la Síntesis"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-sin-computadora",
+      "type": "respuesta_youtube",
+      "title": "Los Sintetizadores Perfectos para Iniciar en la Síntesis"
+    },
+    {
+      "slug": "setup-streaming-audio-creadores-contenido",
+      "type": "respuesta_tecnica",
+      "title": "Crea el Mejor Setup de Streaming con Audio de Calidad"
+    },
+    {
+      "slug": "setup-streaming-audio-creadores-contenido",
+      "type": "post_educativo",
+      "title": "Crea el Mejor Setup de Streaming con Audio de Calidad"
+    },
+    {
+      "slug": "setup-streaming-audio-creadores-contenido",
+      "type": "snippet_social",
+      "title": "Crea el Mejor Setup de Streaming con Audio de Calidad"
+    },
+    {
+      "slug": "setup-streaming-audio-creadores-contenido",
+      "type": "post_social",
+      "title": "Crea el Mejor Setup de Streaming con Audio de Calidad"
+    },
+    {
+      "slug": "setup-streaming-audio-creadores-contenido",
+      "type": "post_x",
+      "title": "Crea el Mejor Setup de Streaming con Audio de Calidad"
+    },
+    {
+      "slug": "setup-streaming-audio-creadores-contenido",
+      "type": "respuesta_youtube",
+      "title": "Crea el Mejor Setup de Streaming con Audio de Calidad"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-guitarra-10",
+      "type": "respuesta_tecnica",
+      "title": "Crea el Mejor Setup de Streaming para Guitarra"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-guitarra-10",
+      "type": "post_educativo",
+      "title": "Crea el Mejor Setup de Streaming para Guitarra"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-guitarra-10",
+      "type": "snippet_social",
+      "title": "Crea el Mejor Setup de Streaming para Guitarra"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-guitarra-10",
+      "type": "post_social",
+      "title": "Crea el Mejor Setup de Streaming para Guitarra 🎸"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-guitarra-10",
+      "type": "post_x",
+      "title": "Crea el Mejor Setup de Streaming para Guitarra"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-guitarra-10",
+      "type": "respuesta_youtube",
+      "title": "Crea el Mejor Setup de Streaming para Guitarra"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-voz",
+      "type": "respuesta_tecnica",
+      "title": "Crea el mejor setup de streaming para tu voz"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-voz",
+      "type": "post_educativo",
+      "title": "Crea el mejor setup de streaming para tu voz"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-voz",
+      "type": "snippet_social",
+      "title": "Crea el mejor setup de streaming para tu voz"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-voz",
+      "type": "post_social",
+      "title": "Crea el mejor setup de streaming para tu voz"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-voz",
+      "type": "post_x",
+      "title": "Crea el mejor setup de streaming para tu voz"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-voz",
+      "type": "respuesta_youtube",
+      "title": "Crea el mejor setup de streaming para tu voz"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "controlador-arturia-minilab-3-para-ableton-departamento",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-para-ableton-departamento",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-para-ableton-departamento",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-para-ableton-departamento",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-musica-electronica-5",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-sin-computadora",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 390.77
+}

@@ -1,0 +1,396 @@
+{
+  "timestamp_utc": "20260604-184343-618777",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260604-183801-886434",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 12,
+  "pieces_proposed": 63,
+  "pieces_blocked": 9,
+  "proposed": [
+    {
+      "slug": "arturia-keystep-pro-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Arturia KeyStep Pro: Controlador Secuenciador para Home Studio"
+    },
+    {
+      "slug": "arturia-keystep-pro-home-studio",
+      "type": "post_educativo",
+      "title": "Arturia KeyStep Pro: Tu Controlador Secuenciador Esencial"
+    },
+    {
+      "slug": "arturia-keystep-pro-home-studio",
+      "type": "snippet_social",
+      "title": "Arturia KeyStep Pro: Tu Controlador Secuenciador Esencial"
+    },
+    {
+      "slug": "arturia-keystep-pro-home-studio",
+      "type": "post_social",
+      "title": "Arturia KeyStep Pro: El Controlador Ideal para Tu Home Studio"
+    },
+    {
+      "slug": "arturia-keystep-pro-home-studio",
+      "type": "post_x",
+      "title": "Arturia KeyStep Pro: Tu Controlador Secuenciador Esencial"
+    },
+    {
+      "slug": "arturia-keystep-pro-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Arturia KeyStep Pro: Ideal para tu Home Studio"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-casa-2",
+      "type": "snippet_social",
+      "title": "Encuentra la interfaz de audio perfecta para grabar voces en casa"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-casa-2",
+      "type": "post_social",
+      "title": "Encuentra la interfaz de audio perfecta para grabar voces en casa"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-casa-2",
+      "type": "post_x",
+      "title": "Elige la interfaz de audio ideal para grabar voces en casa"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-casa-2",
+      "type": "respuesta_youtube",
+      "title": "Guía para elegir tu primera interfaz de audio para voces"
+    },
+    {
+      "slug": "microfono-para-podcast-locucion-usb-o-xlr",
+      "type": "respuesta_tecnica",
+      "title": "Elige el mejor microfono para tu podcast: USB vs XLR"
+    },
+    {
+      "slug": "microfono-para-podcast-locucion-usb-o-xlr",
+      "type": "post_educativo",
+      "title": "Elige el mejor microfono para tu podcast"
+    },
+    {
+      "slug": "microfono-para-podcast-locucion-usb-o-xlr",
+      "type": "snippet_social",
+      "title": "Elige el mejor microfono para tu podcast"
+    },
+    {
+      "slug": "microfono-para-podcast-locucion-usb-o-xlr",
+      "type": "post_social",
+      "title": "Elige el mejor micrófono para tu podcast"
+    },
+    {
+      "slug": "microfono-para-podcast-locucion-usb-o-xlr",
+      "type": "post_x",
+      "title": "Elige el mejor microfono para tu podcast"
+    },
+    {
+      "slug": "microfono-para-podcast-locucion-usb-o-xlr",
+      "type": "respuesta_youtube",
+      "title": "Elige el mejor micrófono para tu podcast: USB vs XLR"
+    },
+    {
+      "slug": "monitores-estudio-home-studio-chico-1",
+      "type": "snippet_social",
+      "title": "Monitores de Estudio para tu Home Studio Chico"
+    },
+    {
+      "slug": "monitores-estudio-home-studio-chico-1",
+      "type": "post_social",
+      "title": "Monitores de Estudio para tu Home Studio Chico"
+    },
+    {
+      "slug": "monitores-estudio-home-studio-chico-1",
+      "type": "post_x",
+      "title": "Monitores de Estudio para tu Home Studio Chico"
+    },
+    {
+      "slug": "home-studio-para-principiantes-voz",
+      "type": "respuesta_tecnica",
+      "title": "Crea tu home studio ideal para grabar voces"
+    },
+    {
+      "slug": "home-studio-para-principiantes-voz",
+      "type": "post_educativo",
+      "title": "Crea tu home studio ideal para grabar voces"
+    },
+    {
+      "slug": "home-studio-para-principiantes-voz",
+      "type": "snippet_social",
+      "title": "Crea tu home studio ideal para grabar voces"
+    },
+    {
+      "slug": "home-studio-para-principiantes-voz",
+      "type": "post_social",
+      "title": "Crea tu home studio ideal para grabar voces"
+    },
+    {
+      "slug": "home-studio-para-principiantes-voz",
+      "type": "post_x",
+      "title": "Crea tu home studio ideal para grabar voces"
+    },
+    {
+      "slug": "home-studio-para-principiantes-voz",
+      "type": "respuesta_youtube",
+      "title": "Crea tu home studio ideal para grabar voces"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-home-studio",
+      "type": "snippet_social",
+      "title": "Controlador MIDI Synido TempoKEY 25 para tu Home Studio"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-home-studio",
+      "type": "post_social",
+      "title": "Controlador MIDI Synido TempoKEY 25: Ideal para tu Home Studio"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-home-studio",
+      "type": "post_x",
+      "title": "Controlador MIDI Synido TempoKEY 25 para tu Home Studio"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Controlador MIDI Synido TempoKEY 25: Ideal para Home Studio Compacto"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-beats",
+      "type": "respuesta_tecnica",
+      "title": "Controlador MIDI Synido TempoKEY 25: Ideal para Producción de Beats"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-beats",
+      "type": "post_educativo",
+      "title": "Controlador MIDI Synido TempoKEY 25 para tus Beats"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-beats",
+      "type": "snippet_social",
+      "title": "Controlador MIDI Synido TempoKEY 25 para tus Beats"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-beats",
+      "type": "post_social",
+      "title": "Controlador MIDI Synido TempoKEY 25: Ideal para tus Beats"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-beats",
+      "type": "post_x",
+      "title": "Controlador MIDI Synido TempoKEY 25 para tus Beats"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-beats",
+      "type": "respuesta_youtube",
+      "title": "Controlador MIDI Synido TempoKEY 25: Ideal para tus Beats"
+    },
+    {
+      "slug": "synido-livemix-streaming-interfaz-audio",
+      "type": "respuesta_tecnica",
+      "title": "Potencia tu Streaming con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-interfaz-audio",
+      "type": "post_educativo",
+      "title": "Potencia tu Streaming con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-interfaz-audio",
+      "type": "snippet_social",
+      "title": "Potencia tu Streaming con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-interfaz-audio",
+      "type": "post_social",
+      "title": "Potencia tu Streaming con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-interfaz-audio",
+      "type": "post_x",
+      "title": "Potencia tu Streaming con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-interfaz-audio",
+      "type": "respuesta_youtube",
+      "title": "Potencia tu Streaming con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livedock-directo-monitores",
+      "type": "respuesta_tecnica",
+      "title": "Conectá tus monitores con Synido LiveDock"
+    },
+    {
+      "slug": "synido-livedock-directo-monitores",
+      "type": "post_educativo",
+      "title": "Conectá tus monitores con Synido LiveDock"
+    },
+    {
+      "slug": "synido-livedock-directo-monitores",
+      "type": "snippet_social",
+      "title": "Conectá tus monitores con Synido LiveDock"
+    },
+    {
+      "slug": "synido-livedock-directo-monitores",
+      "type": "post_social",
+      "title": "Conectá tus monitores con Synido LiveDock"
+    },
+    {
+      "slug": "synido-livedock-directo-monitores",
+      "type": "post_x",
+      "title": "Conectá tus monitores con Synido LiveDock"
+    },
+    {
+      "slug": "synido-livedock-directo-monitores",
+      "type": "respuesta_youtube",
+      "title": "Conectá tus monitores con Synido LiveDock para directo"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab",
+      "type": "respuesta_tecnica",
+      "title": "Comparativa entre Arturia MiniLab 3 y KeyLab"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab",
+      "type": "post_educativo",
+      "title": "Comparativa entre Arturia MiniLab 3 y KeyLab: ¿Cuál elegir?"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab",
+      "type": "snippet_social",
+      "title": "Comparativa entre Arturia MiniLab 3 y KeyLab"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab",
+      "type": "post_social",
+      "title": "Comparativa entre Arturia MiniLab 3 y KeyLab"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab",
+      "type": "post_x",
+      "title": "Comparativa entre Arturia MiniLab 3 y KeyLab"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab",
+      "type": "respuesta_youtube",
+      "title": "Comparativa entre Arturia MiniLab 3 y KeyLab"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak",
+      "type": "respuesta_tecnica",
+      "title": "Arturia MiniFreak vs MicroFreak: ¿Cuál elegir para tu producción?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak",
+      "type": "post_educativo",
+      "title": "Arturia MiniFreak vs MicroFreak: ¿Cuál elegir?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak",
+      "type": "snippet_social",
+      "title": "Arturia MiniFreak vs MicroFreak: ¿Cuál elegir?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak",
+      "type": "post_social",
+      "title": "Arturia MiniFreak vs MicroFreak: ¿Cuál elegir para tu música?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak",
+      "type": "post_x",
+      "title": "Arturia MiniFreak vs MicroFreak: ¿Cuál elegir?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak",
+      "type": "respuesta_youtube",
+      "title": "Arturia MiniFreak vs MicroFreak: ¿Cuál elegir para tu música?"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-comparativa-baterias-electronicas",
+      "type": "post_educativo",
+      "title": "Comparativa de Baterías Electrónicas: Midiplus ED8 vs ED6"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-comparativa-baterias-electronicas",
+      "type": "snippet_social",
+      "title": "Comparativa de Baterías Electrónicas: Midiplus ED8 vs ED6"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-comparativa-baterias-electronicas",
+      "type": "post_social",
+      "title": "Comparativa de Baterías Electrónicas: Midiplus ED8 vs ED6"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-comparativa-baterias-electronicas",
+      "type": "post_x",
+      "title": "Comparativa de Baterías Electrónicas: Midiplus ED8 vs ED6"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "interfaz-audio-grabar-voz-casa-2",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-casa-2",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "monitores-estudio-home-studio-chico-1",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "monitores-estudio-home-studio-chico-1",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "monitores-estudio-home-studio-chico-1",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-home-studio",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-home-studio",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-comparativa-baterias-electronicas",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-comparativa-baterias-electronicas",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 341.73
+}

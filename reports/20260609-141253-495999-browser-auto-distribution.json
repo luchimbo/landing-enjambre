@@ -1,0 +1,119 @@
+{
+  "timestamp_utc": "20260609-141253-495999",
+  "command": "auto-distribution",
+  "channels": [
+    "facebook",
+    "instagram",
+    "x",
+    "youtube"
+  ],
+  "unsupported_channels": [],
+  "limit": 25,
+  "per_channel": 2,
+  "dry_run": false,
+  "allow_proposed": false,
+  "published_or_attempted": 2,
+  "blocked_seen": 671,
+  "results": [
+    {
+      "id": "20260609-134652-905443:synido-livemix-streaming-voz:respuesta_youtube:youtube:1781013055012",
+      "channel": "youtube",
+      "slug": "synido-livemix-streaming-voz",
+      "result": {
+        "ok": false,
+        "error": "YouTube requiere source_thread_url de un video"
+      }
+    },
+    {
+      "id": "20260609-134652-905443:synido-livemix-streaming-guitarra:respuesta_youtube:youtube:1781013029079",
+      "channel": "youtube",
+      "slug": "synido-livemix-streaming-guitarra",
+      "result": {
+        "ok": false,
+        "error": "YouTube requiere source_thread_url de un video"
+      }
+    }
+  ],
+  "blocked_sample": [
+    {
+      "id": "20260609-141203-061135:youtube:auto-listen:1",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260609-141203-061135:youtube:auto-listen:0",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260609-134652-905443:synido-livedock-directo-creadores-contenido:respuesta_youtube:youtube:1781013079735",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260609-134652-905443:synido-livedock-directo-creadores-contenido:post_x:x:1781013076102",
+      "channel": "x",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260609-134427-922218:youtube:auto-listen:13",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260609-134427-922218:youtube:auto-listen:12",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260609-134427-922218:youtube:auto-listen:11",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260609-133802-388935:synido-tempopad-beats-finger-drumming:respuesta_youtube:youtube:1781012667417",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260609-132002-789788:youtube:auto-listen:1",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260609-132002-789788:youtube:auto-listen:0",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    }
+  ]
+}

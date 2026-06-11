@@ -1,0 +1,10 @@
+{
+  "timestamp_utc": "20260601-134650-613780",
+  "command": "build",
+  "status": "blocked",
+  "stage": "data_validation",
+  "errors": [
+    "interfaz-audio-podcast-grabar-casa: slug duplicado",
+    "interfaz-audio-podcast-grabar-casa: seo_title duplicado"
+  ]
+}

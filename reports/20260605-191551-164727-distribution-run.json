@@ -1,0 +1,326 @@
+{
+  "timestamp_utc": "20260605-191551-164727",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260605-191004-926306",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 56,
+  "pieces_blocked": 4,
+  "proposed": [
+    {
+      "slug": "midiplus-akm322-escritorio-chico-principiantes",
+      "type": "respuesta_tecnica",
+      "title": "El Controlador MIDI Perfecto para Escritorios Pequeños: MIDIPLUS AKM322"
+    },
+    {
+      "slug": "midiplus-akm322-escritorio-chico-principiantes",
+      "type": "post_educativo",
+      "title": "El Controlador MIDI Perfecto para Tu Escritorio: MIDIPLUS AKM322"
+    },
+    {
+      "slug": "midiplus-akm322-escritorio-chico-principiantes",
+      "type": "snippet_social",
+      "title": "El Controlador MIDI Perfecto para Tu Escritorio: MIDIPLUS AKM322"
+    },
+    {
+      "slug": "midiplus-akm322-escritorio-chico-principiantes",
+      "type": "post_social",
+      "title": "El Controlador MIDI Perfecto para Escritorios Pequeños"
+    },
+    {
+      "slug": "midiplus-akm322-escritorio-chico-principiantes",
+      "type": "post_x",
+      "title": "El Controlador MIDI Perfecto para Tu Escritorio: MIDIPLUS AKM322"
+    },
+    {
+      "slug": "midiplus-akm322-escritorio-chico-principiantes",
+      "type": "respuesta_youtube",
+      "title": "El Controlador MIDI Ideal para Escritorios Pequeños: MIDIPLUS AKM322"
+    },
+    {
+      "slug": "controladores-midi-61-teclas",
+      "type": "respuesta_tecnica",
+      "title": "Mejora tu experiencia con el MIDIPLUS i61"
+    },
+    {
+      "slug": "controladores-midi-61-teclas",
+      "type": "post_educativo",
+      "title": "Mejora tu experiencia con el MIDIPLUS i61"
+    },
+    {
+      "slug": "controladores-midi-61-teclas",
+      "type": "snippet_social",
+      "title": "Mejora tu experiencia con el MIDIPLUS i61"
+    },
+    {
+      "slug": "controladores-midi-61-teclas",
+      "type": "post_social",
+      "title": "Mejora tu experiencia con el MIDIPLUS i61"
+    },
+    {
+      "slug": "controladores-midi-61-teclas",
+      "type": "post_x",
+      "title": "Mejora tu experiencia con el MIDIPLUS i61"
+    },
+    {
+      "slug": "controladores-midi-61-teclas",
+      "type": "respuesta_youtube",
+      "title": "Mejora tu experiencia con el MIDIPLUS i61"
+    },
+    {
+      "slug": "equipo-para-podcast-economico",
+      "type": "respuesta_tecnica",
+      "title": "El equipo ideal para tu podcast económico"
+    },
+    {
+      "slug": "equipo-para-podcast-economico",
+      "type": "post_educativo",
+      "title": "El equipo ideal para tu podcast económico"
+    },
+    {
+      "slug": "equipo-para-podcast-economico",
+      "type": "snippet_social",
+      "title": "El equipo ideal para tu podcast económico"
+    },
+    {
+      "slug": "equipo-para-podcast-economico",
+      "type": "post_social",
+      "title": "El equipo ideal para tu podcast económico"
+    },
+    {
+      "slug": "equipo-para-podcast-economico",
+      "type": "post_x",
+      "title": "El equipo ideal para tu podcast económico"
+    },
+    {
+      "slug": "equipo-para-podcast-economico",
+      "type": "respuesta_youtube",
+      "title": "El equipo ideal para un podcast económico"
+    },
+    {
+      "slug": "guia-auriculares-cerrados-grabar-voces",
+      "type": "respuesta_tecnica",
+      "title": "Elegí los Auriculares Cerrados Perfectos para Grabar Voces"
+    },
+    {
+      "slug": "guia-auriculares-cerrados-grabar-voces",
+      "type": "post_educativo",
+      "title": "Elegí los Auriculares Cerrados Perfectos para Grabar Voces"
+    },
+    {
+      "slug": "guia-auriculares-cerrados-grabar-voces",
+      "type": "snippet_social",
+      "title": "Elegí los Auriculares Cerrados Perfectos para Grabar Voces"
+    },
+    {
+      "slug": "guia-auriculares-cerrados-grabar-voces",
+      "type": "post_social",
+      "title": "Elegí los Auriculares Cerrados Perfectos para Grabar Voces"
+    },
+    {
+      "slug": "guia-auriculares-cerrados-grabar-voces",
+      "type": "post_x",
+      "title": "Elegí los Auriculares Cerrados Perfectos para Grabar Voces"
+    },
+    {
+      "slug": "guia-auriculares-cerrados-grabar-voces",
+      "type": "respuesta_youtube",
+      "title": "Elegí Auriculares Cerrados para Grabar Voces Sin Bleed"
+    },
+    {
+      "slug": "bateria-electronica-para-departamento-principiantes",
+      "type": "respuesta_tecnica",
+      "title": "Baterías Electrónicas: La Solución Ideal para Practicar en Departamentos"
+    },
+    {
+      "slug": "bateria-electronica-para-departamento-principiantes",
+      "type": "post_educativo",
+      "title": "Baterías Electrónicas: La Solución Ideal para Practicar en Departamentos"
+    },
+    {
+      "slug": "bateria-electronica-para-departamento-principiantes",
+      "type": "snippet_social",
+      "title": "Baterías Electrónicas: Practica en tu Departamento sin Molestar"
+    },
+    {
+      "slug": "bateria-electronica-para-departamento-principiantes",
+      "type": "post_social",
+      "title": "Baterías Electrónicas: La Solución Perfecta para Practicar en Casa"
+    },
+    {
+      "slug": "bateria-electronica-para-departamento-principiantes",
+      "type": "post_x",
+      "title": "Baterías Electrónicas: La Solución Perfecta para Practicar en Casa"
+    },
+    {
+      "slug": "bateria-electronica-para-departamento-principiantes",
+      "type": "respuesta_youtube",
+      "title": "Baterías Electrónicas: Perfectas para Practicar en Departamentos"
+    },
+    {
+      "slug": "arturia-keystep-pro-para-hardware-compatible-con-ableton",
+      "type": "respuesta_tecnica",
+      "title": "Arturia KeyStep Pro: Tu aliado en producción musical"
+    },
+    {
+      "slug": "arturia-keystep-pro-para-hardware-compatible-con-ableton",
+      "type": "post_educativo",
+      "title": "Arturia KeyStep Pro: Tu aliado en producción musical"
+    },
+    {
+      "slug": "arturia-keystep-pro-para-hardware-compatible-con-ableton",
+      "type": "snippet_social",
+      "title": "Arturia KeyStep Pro: Tu aliado en producción musical"
+    },
+    {
+      "slug": "arturia-keystep-pro-para-hardware-compatible-con-ableton",
+      "type": "post_social",
+      "title": "Arturia KeyStep Pro: Tu aliado en producción musical"
+    },
+    {
+      "slug": "arturia-keystep-pro-para-hardware-compatible-con-ableton",
+      "type": "post_x",
+      "title": "Arturia KeyStep Pro: Tu aliado en producción musical"
+    },
+    {
+      "slug": "arturia-keystep-pro-para-hardware-compatible-con-ableton",
+      "type": "respuesta_youtube",
+      "title": "Arturia KeyStep Pro: Ideal para tu producción con Ableton"
+    },
+    {
+      "slug": "como-elegir-midiplus-ak490-para-principiantes",
+      "type": "snippet_social",
+      "title": "El MIDIPLUS AK490: Tu primer teclado MIDI ideal"
+    },
+    {
+      "slug": "como-elegir-midiplus-ak490-para-principiantes",
+      "type": "post_x",
+      "title": "El MIDIPLUS AK490: Tu teclado MIDI ideal para comenzar"
+    },
+    {
+      "slug": "midiplus-akm322-escritorio-chico-fl-studio",
+      "type": "respuesta_tecnica",
+      "title": "El Controlador MIDI Compacto que Necesitas: MIDIPLUS AKM322"
+    },
+    {
+      "slug": "midiplus-akm322-escritorio-chico-fl-studio",
+      "type": "post_educativo",
+      "title": "El Controlador MIDI Compacto que Necesitas: MIDIPLUS AKM322"
+    },
+    {
+      "slug": "midiplus-akm322-escritorio-chico-fl-studio",
+      "type": "snippet_social",
+      "title": "El Controlador MIDI Compacto que Necesitas: MIDIPLUS AKM322"
+    },
+    {
+      "slug": "midiplus-akm322-escritorio-chico-fl-studio",
+      "type": "post_social",
+      "title": "El Controlador MIDI Compacto que Necesitas: MIDIPLUS AKM322"
+    },
+    {
+      "slug": "midiplus-akm322-escritorio-chico-fl-studio",
+      "type": "post_x",
+      "title": "MIDIPLUS AKM322: Controlador MIDI Compacto Ideal para tu Escritorio"
+    },
+    {
+      "slug": "midiplus-akm322-escritorio-chico-fl-studio",
+      "type": "respuesta_youtube",
+      "title": "El Controlador MIDI Compacto que Necesitas: MIDIPLUS AKM322"
+    },
+    {
+      "slug": "como-elegir-midiplus-i61-para-tocar-con-mas-teclas",
+      "type": "respuesta_tecnica",
+      "title": "Cómo elegir un controlador MIDI de 61 teclas para tu producción"
+    },
+    {
+      "slug": "como-elegir-midiplus-i61-para-tocar-con-mas-teclas",
+      "type": "post_educativo",
+      "title": "Elige el MIDIPLUS i61 para una experiencia musical superior"
+    },
+    {
+      "slug": "como-elegir-midiplus-i61-para-tocar-con-mas-teclas",
+      "type": "snippet_social",
+      "title": "Elige el MIDIPLUS i61 para una experiencia musical superior"
+    },
+    {
+      "slug": "como-elegir-midiplus-i61-para-tocar-con-mas-teclas",
+      "type": "post_social",
+      "title": "Elige el MIDIPLUS i61 para tocar con más teclas"
+    },
+    {
+      "slug": "como-elegir-midiplus-i61-para-tocar-con-mas-teclas",
+      "type": "post_x",
+      "title": "Elige el MIDIPLUS i61 para una experiencia musical superior"
+    },
+    {
+      "slug": "como-elegir-midiplus-i61-para-tocar-con-mas-teclas",
+      "type": "respuesta_youtube",
+      "title": "Elige el MIDIPLUS i61 para tocar con más teclas"
+    },
+    {
+      "slug": "setup-con-midiplus-i61-para-tocar-con-mas-teclas",
+      "type": "respuesta_tecnica",
+      "title": "Optimiza tu setup musical con el MIDIPLUS i61"
+    },
+    {
+      "slug": "setup-con-midiplus-i61-para-tocar-con-mas-teclas",
+      "type": "post_educativo",
+      "title": "Optimiza tu setup musical con el MIDIPLUS i61"
+    },
+    {
+      "slug": "setup-con-midiplus-i61-para-tocar-con-mas-teclas",
+      "type": "snippet_social",
+      "title": "Optimiza tu setup musical con el MIDIPLUS i61"
+    },
+    {
+      "slug": "setup-con-midiplus-i61-para-tocar-con-mas-teclas",
+      "type": "post_social",
+      "title": "Optimiza tu setup musical con el MIDIPLUS i61"
+    },
+    {
+      "slug": "setup-con-midiplus-i61-para-tocar-con-mas-teclas",
+      "type": "post_x",
+      "title": "Optimiza tu setup musical con el MIDIPLUS i61"
+    },
+    {
+      "slug": "setup-con-midiplus-i61-para-tocar-con-mas-teclas",
+      "type": "respuesta_youtube",
+      "title": "Optimiza tu setup musical con el MIDIPLUS i61"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "como-elegir-midiplus-ak490-para-principiantes",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "como-elegir-midiplus-ak490-para-principiantes",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "como-elegir-midiplus-ak490-para-principiantes",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "como-elegir-midiplus-ak490-para-principiantes",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 346.24
+}

@@ -1,0 +1,184 @@
+{
+  "timestamp_utc": "20260528-183628-931628",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260528-183433-333703",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 5,
+  "pieces_proposed": 22,
+  "pieces_blocked": 8,
+  "proposed": [
+    {
+      "slug": "mejor-opcion-midiplus-studio-m-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "MIDIPLUS Studio M: Tu aliado en el home studio"
+    },
+    {
+      "slug": "mejor-opcion-midiplus-studio-m-home-studio",
+      "type": "post_educativo",
+      "title": "MIDIPLUS Studio M: Tu aliado en el home studio"
+    },
+    {
+      "slug": "mejor-opcion-midiplus-studio-m-home-studio",
+      "type": "snippet_social",
+      "title": "MIDIPLUS Studio M: Tu aliado en el home studio"
+    },
+    {
+      "slug": "mejor-opcion-midiplus-studio-m-home-studio",
+      "type": "post_social",
+      "title": "MIDIPLUS Studio M: Tu aliado en el home studio"
+    },
+    {
+      "slug": "mejor-opcion-midiplus-studio-m-home-studio",
+      "type": "post_x",
+      "title": "MIDIPLUS Studio M: Tu aliado en el home studio"
+    },
+    {
+      "slug": "mejor-opcion-midiplus-studio-m-home-studio",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS Studio M: Ideal para tu Home Studio"
+    },
+    {
+      "slug": "mejor-opcion-midiplus-ms6-home-studio",
+      "type": "post_x",
+      "title": "Monitores Midiplus MS6: Ideal para tu Home Studio"
+    },
+    {
+      "slug": "comparar-microfonos-usb-para-podcast",
+      "type": "post_educativo",
+      "title": "Los mejores micrófonos USB para tu podcast"
+    },
+    {
+      "slug": "comparar-microfonos-usb-para-podcast",
+      "type": "snippet_social",
+      "title": "Los mejores micrófonos USB para tu podcast"
+    },
+    {
+      "slug": "comparar-microfonos-usb-para-podcast",
+      "type": "post_social",
+      "title": "Los mejores micrófonos USB para tu podcast"
+    },
+    {
+      "slug": "comparar-microfonos-usb-para-podcast",
+      "type": "post_x",
+      "title": "Los mejores micrófonos USB para tu podcast"
+    },
+    {
+      "slug": "comparar-microfonos-usb-para-podcast",
+      "type": "respuesta_youtube",
+      "title": "Los mejores micrófonos USB para comenzar tu podcast"
+    },
+    {
+      "slug": "mejor-microfono-xlr-para-podcast",
+      "type": "respuesta_tecnica",
+      "title": "Encuentra el Mejor Micrófono XLR para Tu Podcast"
+    },
+    {
+      "slug": "mejor-microfono-xlr-para-podcast",
+      "type": "snippet_social",
+      "title": "Encuentra el Mejor Micrófono XLR para Tu Podcast"
+    },
+    {
+      "slug": "mejor-microfono-xlr-para-podcast",
+      "type": "post_social",
+      "title": "Encuentra el Mejor Micrófono XLR para Tu Podcast"
+    },
+    {
+      "slug": "mejor-microfono-xlr-para-podcast",
+      "type": "post_x",
+      "title": "Encuentra el Mejor Micrófono XLR para Tu Podcast"
+    },
+    {
+      "slug": "mejor-opcion-microfono-condensador-para-voz",
+      "type": "respuesta_tecnica",
+      "title": "Elige el Mejor Micrófono Condensador para Tu Voz"
+    },
+    {
+      "slug": "mejor-opcion-microfono-condensador-para-voz",
+      "type": "post_educativo",
+      "title": "Elige el Mejor Micrófono Condensador para Tu Voz"
+    },
+    {
+      "slug": "mejor-opcion-microfono-condensador-para-voz",
+      "type": "snippet_social",
+      "title": "Elige el Mejor Micrófono Condensador para Tu Voz"
+    },
+    {
+      "slug": "mejor-opcion-microfono-condensador-para-voz",
+      "type": "post_social",
+      "title": "Elige el Mejor Micrófono Condensador para Tu Voz"
+    },
+    {
+      "slug": "mejor-opcion-microfono-condensador-para-voz",
+      "type": "post_x",
+      "title": "Elige el Mejor Micrófono Condensador para Tu Voz"
+    },
+    {
+      "slug": "mejor-opcion-microfono-condensador-para-voz",
+      "type": "respuesta_youtube",
+      "title": "Elige el Mejor Micrófono Condensador para Tu Voz"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "mejor-opcion-midiplus-ms6-home-studio",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "mejor-opcion-midiplus-ms6-home-studio",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "mejor-opcion-midiplus-ms6-home-studio",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "mejor-opcion-midiplus-ms6-home-studio",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "mejor-opcion-midiplus-ms6-home-studio",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "comparar-microfonos-usb-para-podcast",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "mejor-microfono-xlr-para-podcast",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "mejor-microfono-xlr-para-podcast",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 115.6
+}

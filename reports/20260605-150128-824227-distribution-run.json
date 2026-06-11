@@ -1,0 +1,366 @@
+{
+  "timestamp_utc": "20260605-150128-824227",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260605-145633-367217",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 36,
+  "pieces_blocked": 24,
+  "proposed": [
+    {
+      "slug": "controlador-para-sintetizadores-hardware",
+      "type": "respuesta_tecnica",
+      "title": "Controladores para Sintetizadores Hardware: Guía Técnica"
+    },
+    {
+      "slug": "controlador-para-sintetizadores-hardware",
+      "type": "post_educativo",
+      "title": "Controladores para Sintetizadores Hardware: Guía para Elegir"
+    },
+    {
+      "slug": "controlador-para-sintetizadores-hardware",
+      "type": "snippet_social",
+      "title": "Controladores para Sintetizadores Hardware: Guía Rápida"
+    },
+    {
+      "slug": "controlador-para-sintetizadores-hardware",
+      "type": "post_social",
+      "title": "Controladores para Sintetizadores Hardware: ¿Cuál Elegir?"
+    },
+    {
+      "slug": "controlador-para-sintetizadores-hardware",
+      "type": "post_x",
+      "title": "Controladores para Sintetizadores Hardware: Guía Rápida"
+    },
+    {
+      "slug": "controlador-para-sintetizadores-hardware",
+      "type": "respuesta_youtube",
+      "title": "Controladores para Sintetizadores Hardware: Lo que Debes Saber"
+    },
+    {
+      "slug": "bateria-electronica-para-principiantes",
+      "type": "respuesta_tecnica",
+      "title": "Elige la batería electrónica perfecta para comenzar"
+    },
+    {
+      "slug": "bateria-electronica-para-principiantes",
+      "type": "post_educativo",
+      "title": "Elige la batería electrónica perfecta para comenzar"
+    },
+    {
+      "slug": "bateria-electronica-para-principiantes",
+      "type": "snippet_social",
+      "title": "Elige la batería electrónica perfecta para comenzar"
+    },
+    {
+      "slug": "bateria-electronica-para-principiantes",
+      "type": "post_social",
+      "title": "Elige la batería electrónica perfecta para comenzar"
+    },
+    {
+      "slug": "bateria-electronica-para-principiantes",
+      "type": "post_x",
+      "title": "Elige la batería electrónica perfecta para comenzar"
+    },
+    {
+      "slug": "bateria-electronica-silenciosa-departamento",
+      "type": "post_social",
+      "title": "Baterías Electrónicas Silenciosas para Tu Hogar"
+    },
+    {
+      "slug": "bateria-electronica-silenciosa-departamento",
+      "type": "respuesta_youtube",
+      "title": "Baterías Electrónicas Silenciosas: Ideal para tu Departamento"
+    },
+    {
+      "slug": "setup-youtube-buen-audio",
+      "type": "respuesta_tecnica",
+      "title": "Arma tu setup para YouTube con excelente audio"
+    },
+    {
+      "slug": "setup-youtube-buen-audio",
+      "type": "post_educativo",
+      "title": "Arma tu setup para YouTube con excelente audio"
+    },
+    {
+      "slug": "setup-youtube-buen-audio",
+      "type": "snippet_social",
+      "title": "Arma tu setup para YouTube con excelente audio"
+    },
+    {
+      "slug": "setup-youtube-buen-audio",
+      "type": "post_social",
+      "title": "Arma tu setup para YouTube con excelente audio"
+    },
+    {
+      "slug": "setup-youtube-buen-audio",
+      "type": "post_x",
+      "title": "Arma tu setup para YouTube con excelente audio"
+    },
+    {
+      "slug": "setup-youtube-buen-audio",
+      "type": "respuesta_youtube",
+      "title": "Arma tu setup para YouTube con excelente audio"
+    },
+    {
+      "slug": "regalo-productor-musical",
+      "type": "respuesta_tecnica",
+      "title": "Los mejores regalos para productores musicales: guía técnica"
+    },
+    {
+      "slug": "regalo-productor-musical",
+      "type": "post_educativo",
+      "title": "Los mejores regalos para productores musicales"
+    },
+    {
+      "slug": "regalo-productor-musical",
+      "type": "snippet_social",
+      "title": "Los mejores regalos para productores musicales"
+    },
+    {
+      "slug": "regalo-productor-musical",
+      "type": "post_social",
+      "title": "Los mejores regalos para productores musicales 🎶"
+    },
+    {
+      "slug": "regalo-productor-musical",
+      "type": "post_x",
+      "title": "Los mejores regalos para productores musicales"
+    },
+    {
+      "slug": "regalo-productor-musical",
+      "type": "respuesta_youtube",
+      "title": "Los mejores regalos para productores musicales: guía práctica"
+    },
+    {
+      "slug": "regalo-para-musico-principiante",
+      "type": "post_social",
+      "title": "Los mejores regalos para músicos principiantes 🎶"
+    },
+    {
+      "slug": "controladores-midi-fl-studio-ableton",
+      "type": "post_x",
+      "title": "Los mejores controladores MIDI para FL Studio y Ableton"
+    },
+    {
+      "slug": "controladores-midi-ableton-comparativa",
+      "type": "post_educativo",
+      "title": "Controladores MIDI para Ableton: Encuentra el Ideal"
+    },
+    {
+      "slug": "controladores-midi-ableton-comparativa",
+      "type": "snippet_social",
+      "title": "Controladores MIDI para Ableton: Encuentra el Ideal"
+    },
+    {
+      "slug": "controladores-midi-ableton-comparativa",
+      "type": "post_social",
+      "title": "Controladores MIDI para Ableton: Encuentra el Ideal"
+    },
+    {
+      "slug": "controladores-midi-ableton-comparativa",
+      "type": "post_x",
+      "title": "Controladores MIDI para Ableton: Encuentra el Ideal"
+    },
+    {
+      "slug": "controladores-midi-ableton-comparativa",
+      "type": "respuesta_youtube",
+      "title": "Controladores MIDI para Ableton: Encuentra el Ideal"
+    },
+    {
+      "slug": "que-comprar-para-placa-de-sonido-guitarra",
+      "type": "post_educativo",
+      "title": "Elige la mejor interfaz de audio para tu guitarra"
+    },
+    {
+      "slug": "que-comprar-para-placa-de-sonido-guitarra",
+      "type": "snippet_social",
+      "title": "Elige la mejor interfaz de audio para tu guitarra"
+    },
+    {
+      "slug": "que-comprar-para-placa-de-sonido-guitarra",
+      "type": "post_social",
+      "title": "Elige la mejor interfaz de audio para tu guitarra"
+    },
+    {
+      "slug": "que-comprar-para-placa-de-sonido-guitarra",
+      "type": "post_x",
+      "title": "Elige la mejor interfaz de audio para tu guitarra"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "bateria-electronica-para-principiantes",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "bateria-electronica-silenciosa-departamento",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "bateria-electronica-silenciosa-departamento",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "bateria-electronica-silenciosa-departamento",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "bateria-electronica-silenciosa-departamento",
+      "type": "post_x",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "baterias-electronicas-para-produccion-musical",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "baterias-electronicas-para-produccion-musical",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "baterias-electronicas-para-produccion-musical",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "baterias-electronicas-para-produccion-musical",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "baterias-electronicas-para-produccion-musical",
+      "type": "post_x",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "baterias-electronicas-para-produccion-musical",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "regalo-para-musico-principiante",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "regalo-para-musico-principiante",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "regalo-para-musico-principiante",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "regalo-para-musico-principiante",
+      "type": "post_x",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "regalo-para-musico-principiante",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controladores-midi-fl-studio-ableton",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controladores-midi-fl-studio-ableton",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controladores-midi-fl-studio-ableton",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controladores-midi-fl-studio-ableton",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controladores-midi-fl-studio-ableton",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controladores-midi-ableton-comparativa",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "que-comprar-para-placa-de-sonido-guitarra",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "que-comprar-para-placa-de-sonido-guitarra",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 295.46
+}

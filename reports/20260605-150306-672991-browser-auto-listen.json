@@ -1,0 +1,80 @@
+{
+  "timestamp_utc": "20260605-150306-672991",
+  "command": "auto-listen",
+  "channels": [
+    "facebook",
+    "instagram",
+    "x",
+    "youtube"
+  ],
+  "searches": 2,
+  "per_search": 2,
+  "dry_run": false,
+  "items": 5,
+  "distribution_drafts": 5,
+  "social_intel_path": "D:\\AgentesGuille\\data\\social_intel.jsonl",
+  "search_tasks_path": "D:\\AgentesGuille\\data\\distribution_search_tasks.jsonl",
+  "content_feedback_path": "D:\\AgentesGuille\\data\\content_feedback.jsonl",
+  "sample": [
+    {
+      "id": "20260605-150223-468722:instagram:0",
+      "created_at_utc": "2026-06-05T15:02:45.530087+00:00",
+      "run_id": "20260605-150223-468722",
+      "channel": "instagram",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.instagram.com/p/DKlslFwsis_/",
+      "source_title": "",
+      "source_context": "Photo by Qatar Home Studio on June 06, 2025."
+    },
+    {
+      "id": "20260605-150223-468722:youtube:1",
+      "created_at_utc": "2026-06-05T15:03:01.353121+00:00",
+      "run_id": "20260605-150223-468722",
+      "channel": "youtube",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.youtube.com/watch?v=nQ9uh2UHfqI&t=622s&pp=ygUfY29udHJvbGFkb3IgTUlESSBwYXJhIEZMIFN0dWRpbw%3D%3D",
+      "source_title": "13:11 13:11 Now playing",
+      "source_context": "DO NOT BUY A 25-KEY MIDI CONTROLLER WITHOUT WATCHING THIS VIDEO 55K views 1 year ago Marcelo Fernández Hi everyone! In today's video, we're reviewing different 25-key MIDI controller options. We'll talk about the keyboard, the ... CC 10 chapters Introducción | Controladores MIDI de 25 teclas | Controladores Mini | Teclado | Controles | Arpegiador | Portabilidad | Integración | Precio | ¿Cuál comprar?"
+    },
+    {
+      "id": "20260605-150223-468722:youtube:2",
+      "created_at_utc": "2026-06-05T15:03:01.396863+00:00",
+      "run_id": "20260605-150223-468722",
+      "channel": "youtube",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.youtube.com/watch?v=nQ9uh2UHfqI",
+      "source_title": "Introducción Introducción 0:00",
+      "source_context": "Introducción Introducción 0:00 Introducción 0:00 Controladores MIDI de 25 teclas Controladores MIDI de 25 teclas 0:17 Controladores MIDI de 25 teclas 0:17 Controladores Mini Controladores Mini 1:48 Controladores Mini 1:48 Teclado Teclado 2:28 Teclado 2:28 Controles Controles 4:09 Controles 4:09 Arpegiador Arpegiador 5:07 Arpegiador 5:07"
+    },
+    {
+      "id": "20260605-150223-468722:youtube:3",
+      "created_at_utc": "2026-06-05T15:03:06.583901+00:00",
+      "run_id": "20260605-150223-468722",
+      "channel": "youtube",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CQapiJeUiarOvKtXn5OUPhOTWgArSzezBhwHk4vK7xxVkEAQgAGCh0ISALIIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAHBxJPrQ6gDBMgDCqoE2QJP0EBSRAITkBdLAqDK6jb5qVAoCTKwTLXNspnjW_YmPTo2lnbbSj28LcqXp0jh_gr0bx7D1R17vTjVjUgpGOSSF968QFGB3ilCIHkqEI7GjF1GUc-0xk9p2-4MF3c2B6k5-B6bQNwxBRONKD6BQlmfJNJTyn9k1dxZhmiD5r6LpkuoeZxhqU0aAkMvgFv6vV9FSstIag_VyTtTVbJ1jIeuYgGWj7dk3gq35peeRJTrUPY_yNSxwSHAu6UoU9dXdK0dM_ifYDhBlidaPY-OXFpElBqHpR87Ll-gupCk5kQn5I0UtdezhprZKlOtjI9_S0GUJyTZSnO6W8zr01S2wIDcd_aCdjMHluFFctM-S0goD3nYlU_oVH8LxHJdYE3jkd75PzmQNRXtp4YMC8tvCzjG16lGMnkHPntaMaTP0r3mKuyQUoYntgslJqtT21yXi2oeT-SuCyRD3diIBfCjmodZkgUICBN4jtSO8B6gBqEBgAfB_OPKHogHAZAHAqgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAfVzhuoB77ZsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLX3ZQa2VxVllpY3eoCAHSCDEIABACGFoyAQA6FI_QgICAgASAwICAgICAgAKqgIAQSNmg0jVQFFjgxImor_CUA2ABmgkdaHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2ixCYHF4wRhgzsFyAkXyAmPAcgJwgGYCwG6C14IAxAFGAQgBygBMBxAAUgAWH1gAGgAcAGIAQCYAQGiASkKHiAD2rgEGDIWOhQKEigwSIvT0uXmH5gXgY2nPZgZANABAagCBcACAqgBAdgBAYACAYgCBboDBXZpc2Ns0AsS0gwCEAHaDCYKCxCQgYOWhuXNyMcBEgIBAxoNGPCjmodZII-amsfZBUABSgIQH5oNARKqDQJBUsgNAbgT____________AbAUA8AVgYCAQNAVAdgVAeIWAggBgBcBihcYCAMYASABKAEwATgBQAFIAVABWAFgAmgBoBcBuhcGKAAwADgB0BgB8BgBwhkCCAE&ase=2&gclid=Cj0KCQjw54nRBhDCARIsAMcY_SC5maO2IHjsHM0WIYDyntM31TUmxF5jiEOnnh3EDfR44lr-FI0ys4QaAjGAEALw_wcB&num=4&cid=CAESpAHg9tJWaoAiarAef5_7IcAoMBOuG0cSs6NrYauCenK06vXVf6qGCmXqVlefkqsg3M8eAV58Ex4fNv_RD9hiczGgLCZqTdhfvpccMo1SwX-2FQHviAKvODmLNE3TCwo-juV5Wj_QIkD1N-3Q2bpvrb9-1itoIsXfuWcxTkV_K7RGCvqz9RM3RaXfUgQiqWP-LjHkpKFV5IxiO7e5FskdqwgqCjXOsw&ad_cpn=%5BCPN%5D&sig=AOD64_06282oKoB6L5f1DZNbNLinL3BQOQ&ms=%5BCLICK_MS%5D&adurl=https://www.youtube.com/watch%3Fv%3D_vPkeqVYicw%26gad_source%3D2%26gad_campaignid%3D23905866224&ctype=110&video_id=_vPkeqVYicw&label=video_click_to_advertiser_site&nb=21&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "source_title": "",
+      "source_context": "Kychron V6 Max: Best Full-Sized Keyboards Find the best full-sized keyboards on YouTube Sponsored Whitehilltrade Watch Visit site"
+    },
+    {
+      "id": "20260605-150223-468722:youtube:4",
+      "created_at_utc": "2026-06-05T15:03:06.628926+00:00",
+      "run_id": "20260605-150223-468722",
+      "channel": "youtube",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CQapiJeUiarOvKtXn5OUPhOTWgArSzezBhwHk4vK7xxVkEAQgAGCh0ISALIIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAHBxJPrQ6gDBMgDCqoE2QJP0EBSRAITkBdLAqDK6jb5qVAoCTKwTLXNspnjW_YmPTo2lnbbSj28LcqXp0jh_gr0bx7D1R17vTjVjUgpGOSSF968QFGB3ilCIHkqEI7GjF1GUc-0xk9p2-4MF3c2B6k5-B6bQNwxBRONKD6BQlmfJNJTyn9k1dxZhmiD5r6LpkuoeZxhqU0aAkMvgFv6vV9FSstIag_VyTtTVbJ1jIeuYgGWj7dk3gq35peeRJTrUPY_yNSxwSHAu6UoU9dXdK0dM_ifYDhBlidaPY-OXFpElBqHpR87Ll-gupCk5kQn5I0UtdezhprZKlOtjI9_S0GUJyTZSnO6W8zr01S2wIDcd_aCdjMHluFFctM-S0goD3nYlU_oVH8LxHJdYE3jkd75PzmQNRXtp4YMC8tvCzjG16lGMnkHPntaMaTP0r3mKuyQUoYntgslJqtT21yXi2oeT-SuCyRD3diIBfCjmodZkgUICBN4jtSO8B6gBqEBgAfB_OPKHogHAZAHAqgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAfVzhuoB77ZsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLX3ZQa2VxVllpY3eoCAHSCDEIABACGFoyAQA6FI_QgICAgASAwICAgICAgAKqgIAQSNmg0jVQFFjgxImor_CUA2ABmgkdaHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2ixCYHF4wRhgzsFyAkXyAmPAcgJwgGYCwG6C14IAxAFGAQgBygBMBxAAUgAWH1gAGgAcAGIAQCYAQGiASkKHiAD2rgEGDIWOhQKEigwSIvT0uXmH5gXgY2nPZgZANABAagCBcACAqgBAdgBAYACAYgCBboDBXZpc2Ns0AsS0gwCEAHaDCYKCxCQgYOWhuXNyMcBEgIBAxoNGPCjmodZII-amsfZBUABSgIQH5oNARKqDQJBUsgNAbgT____________AbAUA8AVgYCAQNAVAdgVAeIWAggBgBcBihcYCAMYASABKAEwATgBQAFIAVABWAFgAmgBoBcBuhcGKAAwADgB0BgB8BgBwhkCCAE&ase=2&gclid=Cj0KCQjw54nRBhDCARIsAMcY_SC5maO2IHjsHM0WIYDyntM31TUmxF5jiEOnnh3EDfR44lr-FI0ys4QaAjGAEALw_wcB&num=4&cid=CAESpAHg9tJWaoAiarAef5_7IcAoMBOuG0cSs6NrYauCenK06vXVf6qGCmXqVlefkqsg3M8eAV58Ex4fNv_RD9hiczGgLCZqTdhfvpccMo1SwX-2FQHviAKvODmLNE3TCwo-juV5Wj_QIkD1N-3Q2bpvrb9-1itoIsXfuWcxTkV_K7RGCvqz9RM3RaXfUgQiqWP-LjHkpKFV5IxiO7e5FskdqwgqCjXOsw&ad_cpn=%5BCPN%5D&sig=AOD64_06282oKoB6L5f1DZNbNLinL3BQOQ&ms=%5BCLICK_MS%5D&adurl=https://www.youtube.com/watch%3Fv%3D_vPkeqVYicw%26gad_source%3D2%26gad_campaignid%3D23905866224&ctype=110&video_id=_vPkeqVYicw&label=video_click_to_advertiser_site&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "source_title": "Kychron V6 Max: Best Full-Sized Keyboards",
+      "source_context": "Kychron V6 Max: Best Full-Sized Keyboards Find the best full-sized keyboards on YouTube Sponsored Whitehilltrade"
+    }
+  ]
+}

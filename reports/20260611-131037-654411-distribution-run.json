@@ -1,0 +1,334 @@
+{
+  "timestamp_utc": "20260611-131037-654411",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260611-130552-738145",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 52,
+  "pieces_blocked": 8,
+  "proposed": [
+    {
+      "slug": "controlador-midi-61-teclas-midiplus-i61-2",
+      "type": "respuesta_tecnica",
+      "title": "MIDIPLUS i61: Tu Compañero Ideal para Tocar Acordes"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-midiplus-i61-2",
+      "type": "post_educativo",
+      "title": "MIDIPLUS i61: Tu Compañero Ideal para Tocar Acordes"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-midiplus-i61-2",
+      "type": "snippet_social",
+      "title": "MIDIPLUS i61: Tu Compañero Ideal para Tocar Acordes"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-midiplus-i61-2",
+      "type": "post_social",
+      "title": "MIDIPLUS i61: Tu Compañero Ideal para Tocar Acordes"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-midiplus-i61-2",
+      "type": "post_x",
+      "title": "MIDIPLUS i61: Ideal para Tocar Acordes con Comodidad"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-midiplus-i61-2",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS i61: Ideal para Expandir tu Creatividad Musical"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-chico-3",
+      "type": "respuesta_tecnica",
+      "title": "Monitores Midiplus MS5 para tu home studio chico"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-chico-3",
+      "type": "post_educativo",
+      "title": "Monitores Midiplus MS5: Ideal para tu Home Studio Chico"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-chico-3",
+      "type": "snippet_social",
+      "title": "Monitores Midiplus MS5 para tu home studio chico"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-chico-3",
+      "type": "post_social",
+      "title": "Monitores Midiplus MS5: Perfectos para tu Home Studio Chico"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-chico-3",
+      "type": "post_x",
+      "title": "Monitores Midiplus MS5 para tu home studio chico"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-chico-3",
+      "type": "respuesta_youtube",
+      "title": "Monitores Midiplus MS5: Ideal para tu Home Studio Chico"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-producir",
+      "type": "respuesta_tecnica",
+      "title": "Monitores Midiplus MS5: Ideal para tu Home Studio"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-producir",
+      "type": "post_educativo",
+      "title": "Monitores Midiplus MS5: Ideal para tu Home Studio"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-producir",
+      "type": "snippet_social",
+      "title": "Monitores Midiplus MS5: Ideal para tu Home Studio"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-producir",
+      "type": "post_social",
+      "title": "Monitores Midiplus MS5: Perfectos para tu Home Studio"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-producir",
+      "type": "post_x",
+      "title": "Monitores Midiplus MS5: Ideal para tu Home Studio"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-producir",
+      "type": "respuesta_youtube",
+      "title": "Monitores Midiplus MS5: Ideal para tu Home Studio"
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-chico",
+      "type": "post_x",
+      "title": "Monitores Midiplus MS6: Sonido Ideal para Home Studio Chico"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-workflow",
+      "type": "respuesta_tecnica",
+      "title": "MiniFreak vs MicroFreak: ¿Cuál es el mejor para vos?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-workflow",
+      "type": "post_educativo",
+      "title": "MiniFreak vs MicroFreak: ¿Cuál es el mejor para vos?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-workflow",
+      "type": "snippet_social",
+      "title": "MiniFreak vs MicroFreak: ¿Cuál es el mejor para vos?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-workflow",
+      "type": "post_social",
+      "title": "MiniFreak vs MicroFreak: ¿Cuál es el mejor para vos?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-workflow",
+      "type": "post_x",
+      "title": "MiniFreak vs MicroFreak: ¿Cuál es el mejor para vos?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-workflow",
+      "type": "respuesta_youtube",
+      "title": "MiniFreak vs MicroFreak: ¿Cuál elegir para tu workflow?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-texturas",
+      "type": "respuesta_tecnica",
+      "title": "Arturia MiniFreak vs MicroFreak: Comparativa para Texturas"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-texturas",
+      "type": "post_educativo",
+      "title": "Arturia MiniFreak vs MicroFreak: Comparativa para Texturas"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-texturas",
+      "type": "snippet_social",
+      "title": "Arturia MiniFreak vs MicroFreak: Comparativa para Texturas"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-texturas",
+      "type": "post_social",
+      "title": "Arturia MiniFreak vs MicroFreak: ¿Cuál elegir para tus texturas?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-texturas",
+      "type": "post_x",
+      "title": "Arturia MiniFreak vs MicroFreak: Comparativa para Texturas"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-texturas",
+      "type": "respuesta_youtube",
+      "title": "Arturia MiniFreak vs MicroFreak: Comparativa para Texturas"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-para-creadores-de-contenido",
+      "type": "respuesta_tecnica",
+      "title": "Midiplus ED8 vs ED6: Comparativa para Creadores de Contenido"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-para-creadores-de-contenido",
+      "type": "snippet_social",
+      "title": "Midiplus ED8 vs ED6: ¿Cuál elegir para tu música?"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-para-creadores-de-contenido",
+      "type": "post_social",
+      "title": "Midiplus ED8 vs ED6: ¿Cuál elegir para tu música?"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-para-creadores-de-contenido",
+      "type": "post_x",
+      "title": "Midiplus ED8 vs ED6: ¿Cuál elegir para tu contenido?"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-para-creadores-de-contenido",
+      "type": "respuesta_youtube",
+      "title": "Midiplus ED8 vs ED6: ¿Cuál elegir para tu producción musical?"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-setup-portable",
+      "type": "respuesta_tecnica",
+      "title": "Midiplus ED8 vs ED6: ¿Cuál es la mejor opción para tu setup portátil?"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-setup-portable",
+      "type": "snippet_social",
+      "title": "Midiplus ED8 vs ED6: ¿Cuál elegir para tu setup portátil?"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-setup-portable",
+      "type": "post_social",
+      "title": "Midiplus ED8 vs ED6: ¿Cuál elegir para tu setup portátil?"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-setup-portable",
+      "type": "post_x",
+      "title": "Midiplus ED8 vs ED6: ¿Cuál es la mejor opción portátil?"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-para-tocar-en-vivo",
+      "type": "respuesta_tecnica",
+      "title": "Midiplus ED8 vs ED6: ¿Cuál Elegir para Tocar en Vivo?"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-para-tocar-en-vivo",
+      "type": "post_educativo",
+      "title": "Midiplus ED8 vs ED6: ¿Cuál Elegir para Tocar en Vivo?"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-para-tocar-en-vivo",
+      "type": "snippet_social",
+      "title": "Midiplus ED8 vs ED6: ¿Cuál Elegir para Tocar en Vivo?"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-para-tocar-en-vivo",
+      "type": "post_social",
+      "title": "Midiplus ED8 vs ED6: ¿Cuál Elegir para Tocar en Vivo?"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-para-tocar-en-vivo",
+      "type": "post_x",
+      "title": "Midiplus ED8 vs ED6: ¿Cuál Elegir para Tocar en Vivo?"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-para-tocar-en-vivo",
+      "type": "respuesta_youtube",
+      "title": "Midiplus ED8 vs ED6: ¿Cuál Elegir para Tocar en Vivo?"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-guitarra",
+      "type": "respuesta_tecnica",
+      "title": "La Batería Electrónica MIDIPLUS ED6 para Guitarristas"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-guitarra",
+      "type": "post_educativo",
+      "title": "La Batería Electrónica MIDIPLUS ED6 para Guitarristas"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-guitarra",
+      "type": "snippet_social",
+      "title": "La Batería Electrónica MIDIPLUS ED6: Ideal para Guitarristas"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-guitarra",
+      "type": "post_social",
+      "title": "La Batería Electrónica MIDIPLUS ED6: Ideal para Guitarristas"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-guitarra",
+      "type": "post_x",
+      "title": "La Batería Electrónica MIDIPLUS ED6 para Guitarristas"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-guitarra",
+      "type": "respuesta_youtube",
+      "title": "La Batería Electrónica MIDIPLUS ED6 para Guitarristas"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "midiplus-ms6-home-studio-chico",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-chico",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-chico",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-chico",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-chico",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-para-creadores-de-contenido",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-setup-portable",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-setup-portable",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 284.92
+}

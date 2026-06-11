@@ -1,0 +1,19 @@
+{
+  "timestamp_utc": "20260601-130001-438036",
+  "command": "weekly",
+  "status": "blocked",
+  "steps": [
+    {
+      "step": "validate-before",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\build_landings.py",
+        "validate"
+      ],
+      "started_utc": "20260601-130001-268965",
+      "finished_utc": "20260601-130001-437848",
+      "returncode": 1,
+      "status": "failed"
+    }
+  ]
+}

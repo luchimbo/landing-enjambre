@@ -1,0 +1,142 @@
+{
+  "timestamp_utc": "20260602-123952-259626",
+  "command": "auto-listen",
+  "channels": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "reddit",
+    "x",
+    "youtube"
+  ],
+  "searches": 3,
+  "per_search": 2,
+  "dry_run": false,
+  "items": 16,
+  "distribution_drafts": 16,
+  "social_intel_path": "D:\\AgentesGuille\\data\\social_intel.jsonl",
+  "search_tasks_path": "D:\\AgentesGuille\\data\\distribution_search_tasks.jsonl",
+  "content_feedback_path": "D:\\AgentesGuille\\data\\content_feedback.jsonl",
+  "sample": [
+    {
+      "id": "20260602-123802-430867:facebook:0",
+      "created_at_utc": "2026-06-02T12:38:14.154789+00:00",
+      "run_id": "20260602-123802-430867",
+      "channel": "facebook",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.facebook.com/groups/1641846816129693/?__cft__[0]=AZbOLVpzCn3zEGXLx7oBdENHYW2EEvotsPduu_y7DvoGkJ11-UnXQYKR7HPlqOYIOLDjEsXM8MrkZMyO3S_wLQ1YMEP1WoNu6oeGoUpkSRyr_IZONY4zMSJbq_IWHWUepq1lRGOC8ZP5gPgAih6exs92cet99dU8VC_xTLykZfhaMXFMFthiMuwKubD3NkDoKYPB3X8Z8cnS4pK2FKYu6WvS&__tn__=%3C%3C%2CP-R",
+      "source_title": "INSTRUMENTOS MUSICALES compra venta permuta argentina",
+      "source_context": "INSTRUMENTOS MUSICALES compra venta permuta argentina"
+    },
+    {
+      "id": "20260602-123802-430867:facebook:1",
+      "created_at_utc": "2026-06-02T12:38:14.350199+00:00",
+      "run_id": "20260602-123802-430867",
+      "channel": "facebook",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.facebook.com/groups/1641846816129693/?__cft__[0]=AZbOLVpzCn3zEGXLx7oBdENHYW2EEvotsPduu_y7DvoGkJ11-UnXQYKR7HPlqOYIOLDjEsXM8MrkZMyO3S_wLQ1YMEP1WoNu6oeGoUpkSRyr_IZONY4zMSJbq_IWHWUepq1lRGOC8ZP5gPgAih6exs92cet99dU8VC_xTLykZfhaMXFMFthiMuwKubD3NkDoKYPB3X8Z8cnS4pK2FKYu6WvS&__tn__=-UC%2CP-R",
+      "source_title": "INSTRUMENTOS MUSICALES compra venta permuta argentina",
+      "source_context": "INSTRUMENTOS MUSICALES compra venta permuta argentina · Unirte"
+    },
+    {
+      "id": "20260602-123802-430867:instagram:2",
+      "created_at_utc": "2026-06-02T12:38:38.553404+00:00",
+      "run_id": "20260602-123802-430867",
+      "channel": "instagram",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.instagram.com/p/DKlslFwsis_/",
+      "source_title": "",
+      "source_context": "Photo by Qatar Home Studio on June 06, 2025."
+    },
+    {
+      "id": "20260602-123802-430867:instagram:3",
+      "created_at_utc": "2026-06-02T12:38:44.145313+00:00",
+      "run_id": "20260602-123802-430867",
+      "channel": "instagram",
+      "query": "controlador MIDI para Ableton",
+      "landing_slug": "controlador-midi-para-ableton-comparativa",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-ableton-comparativa/",
+      "source_url": "https://www.instagram.com/p/DADgsL1oB6a/",
+      "source_title": "",
+      "source_context": "Photo shared by Max Cooper on September 18, 2024 tagging @ableton, and @c74connect."
+    },
+    {
+      "id": "20260602-123802-430867:linkedin:4",
+      "created_at_utc": "2026-06-02T12:38:50.223640+00:00",
+      "run_id": "20260602-123802-430867",
+      "channel": "linkedin",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.linkedin.com/in/guillermo-coronel/es/",
+      "source_title": "",
+      "source_context": "Guillermo Coronel • 3er+ Desarrollador de instrumentos musicales electrónicos con IA (Arduino + MIDI) | Team Leader CX | Soporte Técnico | RR.PP & Gestión e Innovación Pública 1 semana • Editado • Seguir"
+    },
+    {
+      "id": "20260602-123802-430867:linkedin:5",
+      "created_at_utc": "2026-06-02T12:38:50.266522+00:00",
+      "run_id": "20260602-123802-430867",
+      "channel": "linkedin",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.linkedin.com/search/results/all/?keywords=%23hardwaredevelopment&origin=HASH_TAG_FROM_FEED",
+      "source_title": "#HardwareDevelopment",
+      "source_context": "Publicación en el feed Guillermo Coronel • 3er+ Desarrollador de instrumentos musicales electrónicos con IA (Arduino + MIDI) | Team Leader CX | Soporte Técnico | RR.PP & Gestión e Innovación Pública 1 semana • Editado • Seguir 🚀 SENSITIVE MINI MIDI CONTROLLER: Hardware abierto, conectividad híbrida y expresividad musical. Les comparto el desarrollo de mi último proyecto de luthería electrónica: un controlador MIDI híbrido diseñado desde cero sobre la arquitectura del chip ESP32-S3. El objetivo principal fue fusionar la estabilidad de la conexión tradicional por cable con la libertad de la conectividad inalámbrica, sin sacrificar rendimiento ni la expresividad al tocar. Para lograrlo, desarrollé un firmware personalizado que gestiona en simultáneo USB Nativo y Bluetooth de baja latencia (BLE MIDI), sumando características avanzadas de ejecución como la presión independiente por nota (Polyphonic Aftertouch). Acá les cuento qué logré con este desarrollo: 🎛️ Prestaciones y Versatilidad Conectividad Dual Simultánea: Capacidad de transmitir datos de manera paralela por cable USB-C y de forma inalámbrica. Esto permite controlar dos dispositivos o sintetizadores distintos al mismo tiempo"
+    },
+    {
+      "id": "20260602-123802-430867:linkedin:6",
+      "created_at_utc": "2026-06-02T12:38:56.425370+00:00",
+      "run_id": "20260602-123802-430867",
+      "channel": "linkedin",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.linkedin.com/pulse/la-voz-nueva-frontera-del-e-learning-claves-para-jim%C3%A9nez-herrad%C3%B3n-6gukf/",
+      "source_title": "",
+      "source_context": "La voz, la nueva frontera del e-learning: claves para asistentes conversacionales educativos. Juan Bautista Jiménez Herradón"
+    },
+    {
+      "id": "20260602-123802-430867:linkedin:7",
+      "created_at_utc": "2026-06-02T12:39:02.577784+00:00",
+      "run_id": "20260602-123802-430867",
+      "channel": "linkedin",
+      "query": "controlador MIDI para Ableton",
+      "landing_slug": "controlador-midi-para-ableton-comparativa",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-ableton-comparativa/",
+      "source_url": "https://www.linkedin.com/in/guillermo-coronel/es/",
+      "source_title": "",
+      "source_context": "Guillermo Coronel • 3er+ Desarrollador de instrumentos musicales electrónicos con IA (Arduino + MIDI) | Team Leader CX | Soporte Técnico | RR.PP & Gestión e Innovación Pública 1 semana • Editado • Seguir"
+    },
+    {
+      "id": "20260602-123802-430867:linkedin:8",
+      "created_at_utc": "2026-06-02T12:39:02.623042+00:00",
+      "run_id": "20260602-123802-430867",
+      "channel": "linkedin",
+      "query": "controlador MIDI para Ableton",
+      "landing_slug": "controlador-midi-para-ableton-comparativa",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-ableton-comparativa/",
+      "source_url": "https://www.linkedin.com/search/results/all/?keywords=%23hardwaredevelopment&origin=HASH_TAG_FROM_FEED",
+      "source_title": "#HardwareDevelopment",
+      "source_context": "Publicación en el feed Guillermo Coronel • 3er+ Desarrollador de instrumentos musicales electrónicos con IA (Arduino + MIDI) | Team Leader CX | Soporte Técnico | RR.PP & Gestión e Innovación Pública 1 semana • Editado • Seguir 🚀 SENSITIVE MINI MIDI CONTROLLER: Hardware abierto, conectividad híbrida y expresividad musical. Les comparto el desarrollo de mi último proyecto de luthería electrónica: un controlador MIDI híbrido diseñado desde cero sobre la arquitectura del chip ESP32-S3. El objetivo principal fue fusionar la estabilidad de la conexión tradicional por cable con la libertad de la conectividad inalámbrica, sin sacrificar rendimiento ni la expresividad al tocar. Para lograrlo, desarrollé un firmware personalizado que gestiona en simultáneo USB Nativo y Bluetooth de baja latencia (BLE MIDI), sumando características avanzadas de ejecución como la presión independiente por nota (Polyphonic Aftertouch). Acá les cuento qué logré con este desarrollo: 🎛️ Prestaciones y Versatilidad Conectividad Dual Simultánea: Capacidad de transmitir datos de manera paralela por cable USB-C y de forma inalámbrica. Esto permite controlar dos dispositivos o sintetizadores distintos al mismo tiempo"
+    },
+    {
+      "id": "20260602-123802-430867:reddit:9",
+      "created_at_utc": "2026-06-02T12:39:13.199660+00:00",
+      "run_id": "20260602-123802-430867",
+      "channel": "reddit",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.reddit.com/r/godot/comments/1tupnkl/so_im_trying_to_make_a_simple_music_keyboard/",
+      "source_title": "So, I'm trying to make a simple music keyboard following a tutorial, but i ran into an issue",
+      "source_context": "So, I'm trying to make a simple music keyboard following a tutorial, but i ran into an issue r/godot · hace 3 min So, I'm trying to make a simple music keyboard following a tutorial, but i ran into an issue 1 voto·0 comentarios"
+    }
+  ]
+}

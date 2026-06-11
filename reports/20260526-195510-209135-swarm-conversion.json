@@ -1,0 +1,26 @@
+{
+  "timestamp_utc": "20260526-195510-209135",
+  "command": "conversion",
+  "status": "ok",
+  "steps": [
+    {
+      "step": "conversion",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\agente_conversion.py",
+        "run",
+        "--window-days",
+        "30",
+        "--min-views",
+        "1",
+        "--limit",
+        "5",
+        "--dry-run"
+      ],
+      "started_utc": "20260526-195508-112737",
+      "finished_utc": "20260526-195510-208944",
+      "returncode": 0,
+      "status": "ok"
+    }
+  ]
+}

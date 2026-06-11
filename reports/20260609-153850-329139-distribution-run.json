@@ -1,0 +1,336 @@
+{
+  "timestamp_utc": "20260609-153850-329139",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260609-153353-478869",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 51,
+  "pieces_blocked": 9,
+  "proposed": [
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador-4",
+      "type": "respuesta_tecnica",
+      "title": "Arturia KeyStep Pro: Controlador y Secuenciador para tu Setup"
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador-4",
+      "type": "post_educativo",
+      "title": "Arturia KeyStep Pro: Controlador y Secuenciador para tu Setup"
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador-4",
+      "type": "snippet_social",
+      "title": "Arturia KeyStep Pro: Controlador y Secuenciador para tu Setup"
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador-4",
+      "type": "post_social",
+      "title": "Arturia KeyStep Pro: Tu Compañero Ideal para Producción Musical"
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador-4",
+      "type": "post_x",
+      "title": "Arturia KeyStep Pro: Controlador y Secuenciador para tu Setup"
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador-4",
+      "type": "respuesta_youtube",
+      "title": "Arturia KeyStep Pro: Controlador y Secuenciador Ideal"
+    },
+    {
+      "slug": "arturia-polybrute-setup-portable",
+      "type": "respuesta_tecnica",
+      "title": "Arturia PolyBrute: Potencia y Versatilidad en un Sintetizador Portátil"
+    },
+    {
+      "slug": "arturia-polybrute-setup-portable",
+      "type": "post_educativo",
+      "title": "Arturia PolyBrute: Potencia y Versatilidad en un Solo Sintetizador"
+    },
+    {
+      "slug": "arturia-polybrute-setup-portable",
+      "type": "snippet_social",
+      "title": "Arturia PolyBrute: Potencia y Versatilidad en un Setup Portátil"
+    },
+    {
+      "slug": "arturia-polybrute-setup-portable",
+      "type": "post_social",
+      "title": "Arturia PolyBrute: Potencia y Versatilidad en un Sintetizador"
+    },
+    {
+      "slug": "arturia-polybrute-setup-portable",
+      "type": "post_x",
+      "title": "Arturia PolyBrute: Potencia y Versatilidad en un Sintetizador"
+    },
+    {
+      "slug": "arturia-polybrute-setup-portable",
+      "type": "respuesta_youtube",
+      "title": "Arturia PolyBrute: Ideal para un Setup Portátil"
+    },
+    {
+      "slug": "midiplus-ak490-principiantes-pads",
+      "type": "respuesta_tecnica",
+      "title": "MIDIPLUS AK490: Ideal para Principiantes en Producción Musical"
+    },
+    {
+      "slug": "midiplus-ak490-principiantes-pads",
+      "type": "post_educativo",
+      "title": "MIDIPLUS AK490: El teclado MIDI para comenzar a crear"
+    },
+    {
+      "slug": "midiplus-ak490-principiantes-pads",
+      "type": "snippet_social",
+      "title": "MIDIPLUS AK490: Ideal para principiantes en producción musical"
+    },
+    {
+      "slug": "midiplus-ak490-principiantes-pads",
+      "type": "post_social",
+      "title": "MIDIPLUS AK490: Tu primer teclado MIDI para crear música"
+    },
+    {
+      "slug": "midiplus-ak490-principiantes-pads",
+      "type": "post_x",
+      "title": "MIDIPLUS AK490: Ideal para principiantes en producción musical"
+    },
+    {
+      "slug": "midiplus-ak490-principiantes-pads",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS AK490: Ideal para principiantes en producción musical"
+    },
+    {
+      "slug": "midiplus-mi3-escritorio-chico-creadores-contenido",
+      "type": "respuesta_tecnica",
+      "title": "Monitores Midiplus MI3: Potencia y Compactibilidad para Creadores"
+    },
+    {
+      "slug": "midiplus-mi3-escritorio-chico-creadores-contenido",
+      "type": "snippet_social",
+      "title": "Monitores Midiplus MI3: Potencia y Compactibilidad"
+    },
+    {
+      "slug": "midiplus-mi3-escritorio-chico-creadores-contenido",
+      "type": "post_social",
+      "title": "Monitores Midiplus MI3: Potencia y Compactibilidad para Creadores"
+    },
+    {
+      "slug": "midiplus-mi3-escritorio-chico-creadores-contenido",
+      "type": "post_x",
+      "title": "Monitores Midiplus MI3: Potencia y Compactibilidad"
+    },
+    {
+      "slug": "midiplus-mi3-escritorio-chico-creadores-contenido",
+      "type": "respuesta_youtube",
+      "title": "Monitores Midiplus MI3: Compactos y Potentes para Creadores"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-creadores-contenido",
+      "type": "post_social",
+      "title": "MIDIPLUS ED6: La Batería Electrónica Perfecta para Creadores"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-creadores-contenido",
+      "type": "post_x",
+      "title": "MIDIPLUS ED6: La Batería Electrónica Perfecta para Creadores"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-setup-portable",
+      "type": "respuesta_tecnica",
+      "title": "La Batería Electrónica Midiplus ED6 para Tu Setup Portable"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-setup-portable",
+      "type": "post_educativo",
+      "title": "La Batería Electrónica Midiplus ED6 para Tu Setup Portable"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-setup-portable",
+      "type": "snippet_social",
+      "title": "La Batería Electrónica Midiplus ED6 para Tu Setup Portable"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-setup-portable",
+      "type": "post_social",
+      "title": "La Batería Electrónica Midiplus ED6: Ideal para Practicar en Cualquier Lugar"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-setup-portable",
+      "type": "post_x",
+      "title": "La Batería Electrónica Midiplus ED6: Ideal para Practicar"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-setup-portable",
+      "type": "respuesta_youtube",
+      "title": "La Batería Electrónica Midiplus ED6: Ideal para Practicar en Cualquier Lugar"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-audio-casa",
+      "type": "respuesta_tecnica",
+      "title": "Optimiza tu práctica de batería con la MIDIPLUS ED6"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-audio-casa",
+      "type": "post_educativo",
+      "title": "Optimiza tu práctica de batería con la MIDIPLUS ED6"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-audio-casa",
+      "type": "snippet_social",
+      "title": "Optimiza tu práctica de batería con la MIDIPLUS ED6"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-audio-casa",
+      "type": "post_social",
+      "title": "Optimiza tu práctica de batería con la MIDIPLUS ED6"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-audio-casa",
+      "type": "post_x",
+      "title": "Optimiza tu práctica de batería con la MIDIPLUS ED6"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-audio-casa",
+      "type": "respuesta_youtube",
+      "title": "Optimiza tu práctica de batería con la MIDIPLUS ED6"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-noche",
+      "type": "respuesta_tecnica",
+      "title": "Practica Batería Electrónica con el MIDIPLUS ED6"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-noche",
+      "type": "post_educativo",
+      "title": "Practica Batería Electrónica con el MIDIPLUS ED6"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-noche",
+      "type": "snippet_social",
+      "title": "Practica Batería Electrónica con el MIDIPLUS ED6"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-noche",
+      "type": "post_social",
+      "title": "Practica Batería Electrónica con el MIDIPLUS ED6 🎶"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-noche",
+      "type": "post_x",
+      "title": "Practica Batería Electrónica con el MIDIPLUS ED6"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-noche",
+      "type": "respuesta_youtube",
+      "title": "Practica Batería Electrónica con el MIDIPLUS ED6"
+    },
+    {
+      "slug": "guia-para-elegir-auriculares-para-grabar-podcast",
+      "type": "respuesta_tecnica",
+      "title": "Guía para elegir auriculares cerrados para grabar podcasts"
+    },
+    {
+      "slug": "guia-para-elegir-auriculares-para-grabar-podcast",
+      "type": "post_educativo",
+      "title": "Guía para elegir auriculares cerrados para grabar podcasts"
+    },
+    {
+      "slug": "guia-para-elegir-auriculares-para-grabar-podcast",
+      "type": "snippet_social",
+      "title": "Guía para elegir auriculares cerrados para grabar podcasts"
+    },
+    {
+      "slug": "guia-para-elegir-auriculares-para-grabar-podcast",
+      "type": "post_social",
+      "title": "Guía para elegir auriculares cerrados para grabar podcasts"
+    },
+    {
+      "slug": "guia-para-elegir-auriculares-para-grabar-podcast",
+      "type": "post_x",
+      "title": "Guía para elegir auriculares cerrados para grabar podcasts"
+    },
+    {
+      "slug": "guia-para-elegir-auriculares-para-grabar-podcast",
+      "type": "respuesta_youtube",
+      "title": "Guía para elegir auriculares cerrados para grabar podcasts"
+    },
+    {
+      "slug": "arturia-minilab-3-ableton-musica-electronica",
+      "type": "post_social",
+      "title": "Arturia MiniLab 3: Ideal para Producir Música Electrónica"
+    },
+    {
+      "slug": "arturia-minilab-3-ableton-musica-electronica",
+      "type": "post_x",
+      "title": "Arturia MiniLab 3: Ideal para Producir Música Electrónica"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "midiplus-mi3-escritorio-chico-creadores-contenido",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-creadores-contenido",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-creadores-contenido",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-creadores-contenido",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-creadores-contenido",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "arturia-minilab-3-ableton-musica-electronica",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "arturia-minilab-3-ableton-musica-electronica",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "arturia-minilab-3-ableton-musica-electronica",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "arturia-minilab-3-ableton-musica-electronica",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 296.85
+}

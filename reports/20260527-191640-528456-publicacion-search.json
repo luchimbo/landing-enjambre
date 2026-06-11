@@ -1,0 +1,11 @@
+{
+  "timestamp_utc": "20260527-191640-528456",
+  "command": "search",
+  "channel": "reddit-public",
+  "dry_run": true,
+  "run_id": "20260527-191628-453321",
+  "found": 1,
+  "proposed": 0,
+  "blocked": 0,
+  "elapsed_seconds": 12.07
+}

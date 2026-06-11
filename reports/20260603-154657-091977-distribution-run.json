@@ -1,0 +1,332 @@
+{
+  "timestamp_utc": "20260603-154657-091977",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260603-154312-751793",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 53,
+  "pieces_blocked": 7,
+  "proposed": [
+    {
+      "slug": "interfaz-audio-portable-notebook",
+      "type": "respuesta_tecnica",
+      "title": "Elige la Mejor Interfaz de Audio para tu Notebook"
+    },
+    {
+      "slug": "interfaz-audio-portable-notebook",
+      "type": "post_educativo",
+      "title": "Elige la Mejor Interfaz de Audio para tu Notebook"
+    },
+    {
+      "slug": "interfaz-audio-portable-notebook",
+      "type": "snippet_social",
+      "title": "Elige la Mejor Interfaz de Audio para tu Notebook"
+    },
+    {
+      "slug": "interfaz-audio-portable-notebook",
+      "type": "post_social",
+      "title": "Elige la Mejor Interfaz de Audio para tu Notebook"
+    },
+    {
+      "slug": "interfaz-audio-portable-notebook",
+      "type": "post_x",
+      "title": "Elige la Mejor Interfaz de Audio para tu Notebook"
+    },
+    {
+      "slug": "interfaz-audio-portable-notebook",
+      "type": "respuesta_youtube",
+      "title": "Elige la Mejor Interfaz de Audio para tu Notebook"
+    },
+    {
+      "slug": "interfaz-audio-para-ipad-o-mobile",
+      "type": "respuesta_tecnica",
+      "title": "Las mejores interfaces de audio para iPad o móvil"
+    },
+    {
+      "slug": "interfaz-audio-para-ipad-o-mobile",
+      "type": "snippet_social",
+      "title": "Las mejores interfaces de audio para tu iPad o móvil"
+    },
+    {
+      "slug": "interfaz-audio-para-ipad-o-mobile",
+      "type": "post_social",
+      "title": "Las mejores interfaces de audio para tu iPad o móvil"
+    },
+    {
+      "slug": "interfaz-audio-para-ipad-o-mobile",
+      "type": "post_x",
+      "title": "Las mejores interfaces de audio para iPad o móvil"
+    },
+    {
+      "slug": "interfaz-audio-para-ipad-o-mobile",
+      "type": "respuesta_youtube",
+      "title": "Las mejores interfaces de audio para iPad y móvil"
+    },
+    {
+      "slug": "interfaz-con-phantom-power-para-microfono-condensador",
+      "type": "respuesta_tecnica",
+      "title": "Elige la interfaz ideal para tu micrófono condensador"
+    },
+    {
+      "slug": "interfaz-con-phantom-power-para-microfono-condensador",
+      "type": "post_educativo",
+      "title": "Elige la interfaz ideal para tu micrófono condensador"
+    },
+    {
+      "slug": "interfaz-con-phantom-power-para-microfono-condensador",
+      "type": "snippet_social",
+      "title": "Elige la interfaz ideal para tu micrófono condensador"
+    },
+    {
+      "slug": "interfaz-con-phantom-power-para-microfono-condensador",
+      "type": "post_social",
+      "title": "Elige la interfaz ideal para tu micrófono condensador"
+    },
+    {
+      "slug": "interfaz-con-phantom-power-para-microfono-condensador",
+      "type": "post_x",
+      "title": "Elige la interfaz ideal para tu micrófono condensador"
+    },
+    {
+      "slug": "interfaz-con-phantom-power-para-microfono-condensador",
+      "type": "respuesta_youtube",
+      "title": "Elige la interfaz ideal para tu micrófono condensador"
+    },
+    {
+      "slug": "interfaz-audio-monitores-estudio",
+      "type": "respuesta_tecnica",
+      "title": "Conecta tus Monitores de Estudio con la Interfaz de Audio Perfecta"
+    },
+    {
+      "slug": "interfaz-audio-monitores-estudio",
+      "type": "post_educativo",
+      "title": "Conecta tus Monitores de Estudio con la Interfaz de Audio Perfecta"
+    },
+    {
+      "slug": "interfaz-audio-monitores-estudio",
+      "type": "snippet_social",
+      "title": "Conecta tus Monitores de Estudio con la Interfaz de Audio Ideal"
+    },
+    {
+      "slug": "interfaz-audio-monitores-estudio",
+      "type": "post_social",
+      "title": "Conecta tus Monitores de Estudio con la Interfaz Ideal"
+    },
+    {
+      "slug": "interfaz-audio-monitores-estudio",
+      "type": "post_x",
+      "title": "Conecta tus Monitores de Estudio con la Interfaz de Audio Ideal"
+    },
+    {
+      "slug": "interfaz-audio-monitores-estudio",
+      "type": "respuesta_youtube",
+      "title": "Conecta tus Monitores de Estudio con la Interfaz de Audio Perfecta"
+    },
+    {
+      "slug": "monitores-estudio-escritorio-compactos",
+      "type": "post_x",
+      "title": "Monitores de Estudio Compactos para tu Escritorio"
+    },
+    {
+      "slug": "monitores-estudio-cuarto-sin-tratar",
+      "type": "respuesta_tecnica",
+      "title": "Monitores de estudio ideales para espacios sin tratar"
+    },
+    {
+      "slug": "monitores-estudio-cuarto-sin-tratar",
+      "type": "post_educativo",
+      "title": "Monitores de estudio ideales para espacios sin tratar"
+    },
+    {
+      "slug": "monitores-estudio-cuarto-sin-tratar",
+      "type": "snippet_social",
+      "title": "Monitores de estudio ideales para espacios sin tratar"
+    },
+    {
+      "slug": "monitores-estudio-cuarto-sin-tratar",
+      "type": "post_social",
+      "title": "Monitores de estudio ideales para espacios sin tratar"
+    },
+    {
+      "slug": "monitores-estudio-cuarto-sin-tratar",
+      "type": "post_x",
+      "title": "Monitores de estudio ideales para espacios sin tratar"
+    },
+    {
+      "slug": "monitores-estudio-cuarto-sin-tratar",
+      "type": "respuesta_youtube",
+      "title": "Monitores de estudio ideales para cuartos sin tratar"
+    },
+    {
+      "slug": "monitores-activos-para-producir",
+      "type": "respuesta_tecnica",
+      "title": "Elige los Mejores Monitores Activos para Producir"
+    },
+    {
+      "slug": "monitores-activos-para-producir",
+      "type": "post_educativo",
+      "title": "Elige los Mejores Monitores Activos para Producir"
+    },
+    {
+      "slug": "monitores-activos-para-producir",
+      "type": "snippet_social",
+      "title": "Elige los Mejores Monitores Activos para Producir"
+    },
+    {
+      "slug": "monitores-activos-para-producir",
+      "type": "post_social",
+      "title": "Elige los Mejores Monitores Activos para Producir Música 🎶"
+    },
+    {
+      "slug": "monitores-activos-para-producir",
+      "type": "post_x",
+      "title": "Elige los Mejores Monitores Activos para Producir"
+    },
+    {
+      "slug": "monitores-activos-para-producir",
+      "type": "respuesta_youtube",
+      "title": "Elige los Mejores Monitores Activos para Producir"
+    },
+    {
+      "slug": "monitores-editar-video-buen-audio",
+      "type": "respuesta_tecnica",
+      "title": "Monitores para una edición de video con calidad de audio"
+    },
+    {
+      "slug": "monitores-editar-video-buen-audio",
+      "type": "post_educativo",
+      "title": "Monitores para una edición de video con calidad de audio"
+    },
+    {
+      "slug": "monitores-editar-video-buen-audio",
+      "type": "snippet_social",
+      "title": "Monitores para una edición de video con calidad de audio"
+    },
+    {
+      "slug": "monitores-editar-video-buen-audio",
+      "type": "post_social",
+      "title": "Monitores para una edición de video con calidad de audio"
+    },
+    {
+      "slug": "monitores-editar-video-buen-audio",
+      "type": "post_x",
+      "title": "Monitores para una edición de video con calidad de audio"
+    },
+    {
+      "slug": "monitores-editar-video-buen-audio",
+      "type": "respuesta_youtube",
+      "title": "Monitores para una edición de video con calidad de audio"
+    },
+    {
+      "slug": "controlador-midi-para-tocar-acordes",
+      "type": "respuesta_tecnica",
+      "title": "Controladores MIDI para Tocar Acordes: Elegir la Cantidad de Teclas"
+    },
+    {
+      "slug": "controlador-midi-para-tocar-acordes",
+      "type": "post_educativo",
+      "title": "Controladores MIDI para Tocar Acordes: ¿Cuántas Teclas Necesitas?"
+    },
+    {
+      "slug": "controlador-midi-para-tocar-acordes",
+      "type": "snippet_social",
+      "title": "Controladores MIDI para Tocar Acordes: Eligiendo Teclas"
+    },
+    {
+      "slug": "controlador-midi-para-tocar-acordes",
+      "type": "post_social",
+      "title": "Controladores MIDI para Tocar Acordes: ¿Cuál Elegir?"
+    },
+    {
+      "slug": "controlador-midi-para-tocar-acordes",
+      "type": "post_x",
+      "title": "Controladores MIDI para Tocar Acordes: ¿Cuántas Teclas Necesitas?"
+    },
+    {
+      "slug": "controlador-midi-para-tocar-acordes",
+      "type": "respuesta_youtube",
+      "title": "Controladores MIDI para Tocar Acordes: ¿Cuántas Teclas Necesitas?"
+    },
+    {
+      "slug": "controlador-midi-para-beats-de-trap",
+      "type": "respuesta_tecnica",
+      "title": "Controladores MIDI para Crear Beats de Trap: Guía Técnica"
+    },
+    {
+      "slug": "controlador-midi-para-beats-de-trap",
+      "type": "post_educativo",
+      "title": "Controladores MIDI para Crear Beats de Trap: Guía Práctica"
+    },
+    {
+      "slug": "controlador-midi-para-beats-de-trap",
+      "type": "snippet_social",
+      "title": "Controladores MIDI para Crear Beats de Trap"
+    },
+    {
+      "slug": "controlador-midi-para-beats-de-trap",
+      "type": "post_social",
+      "title": "Controladores MIDI para Crear Beats de Trap"
+    },
+    {
+      "slug": "controlador-midi-para-beats-de-trap",
+      "type": "post_x",
+      "title": "Controladores MIDI para Crear Beats de Trap"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "interfaz-audio-para-ipad-o-mobile",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "monitores-estudio-escritorio-compactos",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "monitores-estudio-escritorio-compactos",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "monitores-estudio-escritorio-compactos",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "monitores-estudio-escritorio-compactos",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "monitores-estudio-escritorio-compactos",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-para-beats-de-trap",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 224.34
+}

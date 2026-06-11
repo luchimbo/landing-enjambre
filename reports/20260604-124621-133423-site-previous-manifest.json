@@ -1,0 +1,3479 @@
+{
+  "timestamp_utc": "20260604-124621-133423",
+  "command": "build",
+  "status": "snapshot",
+  "site_dir": "D:\\AgentesGuille\\site",
+  "file_count": 694,
+  "files": [
+    {
+      "path": "alctron-um900-streaming-grabar-en-casa/index.html",
+      "size": 36824,
+      "sha256": "67368b3c2e5d154f4d4320dbbfd6ceed41cbe2cd52457f546b86877a4033934b"
+    },
+    {
+      "path": "alctron-um900-streaming-home-studio/index.html",
+      "size": 34657,
+      "sha256": "94cd4017e9d90cc06b0475108283339eb74f111b58739c43f7a8bb5d73d1ca33"
+    },
+    {
+      "path": "alctron-um900-streaming-microfono-usb/index.html",
+      "size": 36470,
+      "sha256": "875508ad92dc8f61b3b885055a51fe02607b7cb512a338ac417cdcd6882f5870"
+    },
+    {
+      "path": "alctron-um900-streaming-principiantes/index.html",
+      "size": 36761,
+      "sha256": "5fc4c6994f8a9a4ce437ca5adda965e515d4282d3a294e09cc157c60eea0351a"
+    },
+    {
+      "path": "arturia-keystep-pro-controlador-secuenciador/index.html",
+      "size": 36512,
+      "sha256": "1d7970c2eab2850ccd25e440522f6031764730b83ce8c9ddfcc828ae35a85613"
+    },
+    {
+      "path": "arturia-keystep-pro-controlador-secuenciador-home-studio/index.html",
+      "size": 36945,
+      "sha256": "4a3125378b59d0caa8e824a12bef49cdac8125dcc01d2e55d5b111713f1fb20d"
+    },
+    {
+      "path": "arturia-keystep-pro-fl-studio/index.html",
+      "size": 36592,
+      "sha256": "9b34b0988ba374e43798f8935f209be65551e2b706ff6e50bf2ad75671c2a5ff"
+    },
+    {
+      "path": "arturia-keystep-pro-hardware-directo/index.html",
+      "size": 34755,
+      "sha256": "5eb435613a3bc491a8db532f43230a7239eb4f9165489580ff83e724117de057"
+    },
+    {
+      "path": "arturia-keystep-pro-home-studio/index.html",
+      "size": 35049,
+      "sha256": "b1f978625a4f4ac1720b0759aa1e2ac9fedccb2bb105f9a99e6f74e34048efe5"
+    },
+    {
+      "path": "arturia-keystep-pro-para-hardware-compatible-con-ableton/index.html",
+      "size": 37248,
+      "sha256": "60bf22752d3227e8bf84ab9e31230f461c16f36738e2f2491a3c8f26bbe1a89b"
+    },
+    {
+      "path": "arturia-keystep-pro-para-principiantes/index.html",
+      "size": 36883,
+      "sha256": "bfe2d88bfc3f464d8379df0d2cc19503df8a8864806f0ab6384c7a6c68ef092b"
+    },
+    {
+      "path": "arturia-keystep-pro-setup-portable/index.html",
+      "size": 34551,
+      "sha256": "d5936a5aa52ebf7648b713fa1d57ea77b5fe0f56fe8d19d5514acfff9b34724d"
+    },
+    {
+      "path": "arturia-keystep-pro-workflow-sin-complicarse/index.html",
+      "size": 35087,
+      "sha256": "d396dbdca14b78ceaa3370dffe38c6f15a822d67ec248ab57366e045c8f9a1bb"
+    },
+    {
+      "path": "arturia-microfreak-inicio-sintesis-home-studio/index.html",
+      "size": 37011,
+      "sha256": "e74050a3ffd9288afa9679e83bbe1395f853e47afec2abbce8493086204ccf8c"
+    },
+    {
+      "path": "arturia-microfreak-para-empezar-en-sintesis/index.html",
+      "size": 36974,
+      "sha256": "d2c66946445e077317b0161e2d4a6fb481ebdce7fe1024af2317a18ebd44ba91"
+    },
+    {
+      "path": "arturia-minifreak-vs-microfreak/index.html",
+      "size": 35805,
+      "sha256": "760487b613f56d0a9f3ca8a23afc7036cf7a225ebf2b30076250d7429f04cb5d"
+    },
+    {
+      "path": "arturia-minifreak-vs-microfreak-home-studio/index.html",
+      "size": 36700,
+      "sha256": "cc68b68c7ff3da51e3c07f7e67dee6305053d2f058cd25894b3559ad13366be2"
+    },
+    {
+      "path": "arturia-minifreak-vs-microfreak-para-principiantes/index.html",
+      "size": 36364,
+      "sha256": "b5e7967d375e29f8497cea1e9ae51bfe818ea7469d911c764a6d018753044696"
+    },
+    {
+      "path": "arturia-minilab-3-ableton-creadores-contenido/index.html",
+      "size": 34705,
+      "sha256": "2d258fd575266f723367bf60c055ff09a45aed58ed9fa04613c6b2edcc60e65b"
+    },
+    {
+      "path": "arturia-minilab-3-fl-studio/index.html",
+      "size": 36435,
+      "sha256": "5ed22a57147d8ac70d149885a770433f2f939e7003c65099cb204c7384d51d55"
+    },
+    {
+      "path": "arturia-minilab-3-fl-studio-home-studio/index.html",
+      "size": 36979,
+      "sha256": "ac9d1c449c9677646ec84241ec1e8053ff0434e1de2e4c2afbf9436fd0920f59"
+    },
+    {
+      "path": "arturia-minilab-3-fl-studio-principiantes/index.html",
+      "size": 36932,
+      "sha256": "dfc3a69d7515faca948e424536aaf9541feef30c5f4671d46802a829bde57eae"
+    },
+    {
+      "path": "arturia-minilab-3-para-ableton-home-studio/index.html",
+      "size": 36853,
+      "sha256": "65125d110b18d35055dce158e8d7460d67237d6086be19c60b53511f0b68a1d7"
+    },
+    {
+      "path": "arturia-minilab-3-vs-keylab/index.html",
+      "size": 36152,
+      "sha256": "1010d5d2916fa0ad3b45a0af4ba2168e745dcf9e6500f53ee344f3d502930dd9"
+    },
+    {
+      "path": "arturia-minilab-3-vs-keylab-acordes/index.html",
+      "size": 33766,
+      "sha256": "b1f4220b29f44246231ad164107f5a17ea0657156c5899e0722a31be06dd0eae"
+    },
+    {
+      "path": "arturia-minilab-3-vs-keylab-comparativa/index.html",
+      "size": 35684,
+      "sha256": "bf0d243ab22283ca22ec72fa64f15ccffb5ebb31d397424443614b854554c1f4"
+    },
+    {
+      "path": "arturia-minilab-3-vs-keylab-con-pads/index.html",
+      "size": 34134,
+      "sha256": "9bd7167d6ab50d8d16ff9ce104ca6a010c90b82242cbbb3d05184a4ec9f33a88"
+    },
+    {
+      "path": "arturia-minilab-3-vs-keylab-creadores-contenido/index.html",
+      "size": 34245,
+      "sha256": "9f7c1c62492ffbee54560c323d168d85ec0fc7125c6591b68a38bde2b6fe6574"
+    },
+    {
+      "path": "arturia-minilab-3-vs-keylab-departamento/index.html",
+      "size": 33758,
+      "sha256": "3f06935a30eebedb71f6469fc972c841b002d8f34a161c2b68c46a7093b55304"
+    },
+    {
+      "path": "arturia-minilab-3-vs-keylab-escritorio-chico/index.html",
+      "size": 33658,
+      "sha256": "2ead84db74ad44f6a12f6bfaff41afcf211c9625fb6b60abda674d1267657179"
+    },
+    {
+      "path": "arturia-minilab-3-vs-keylab-fl-studio/index.html",
+      "size": 36430,
+      "sha256": "4e8a9950fcc787d740d76732f6830776bc8bd498ef0dff28eda41ef6b8ac8d94"
+    },
+    {
+      "path": "arturia-minilab-3-vs-keylab-home-studio/index.html",
+      "size": 35769,
+      "sha256": "d5409a1397280bcabcf9e914c6e031d03d38416861c94f5f80239ad6a814fbbf"
+    },
+    {
+      "path": "arturia-minilab-3-vs-keylab-notebook/index.html",
+      "size": 33851,
+      "sha256": "2ef4f3085a8a03aea155ce58cb0c77814134559d53b2ca6400711befcf7bae3b"
+    },
+    {
+      "path": "arturia-minilab-3-vs-keylab-para-hacer-beats/index.html",
+      "size": 34494,
+      "sha256": "5e9e5a6e4f360208635d86d62681a0d052f883d5189157f14656f2a80da35d1f"
+    },
+    {
+      "path": "arturia-minilab-3-vs-keylab-para-principiantes/index.html",
+      "size": 35763,
+      "sha256": "6e530fe4c63b329d9973c86bf1a1f2f13d3b376ec60c3d1ba9f8a632d1137224"
+    },
+    {
+      "path": "arturia-minilab-3-vs-keylab-setup-portable/index.html",
+      "size": 36206,
+      "sha256": "79b227756bc520e8536dd790a71ff9e56b0d800b6049e339c1db5dcd81a1b7e5"
+    },
+    {
+      "path": "arturia-minilab-3-vs-keylab-workflow/index.html",
+      "size": 33976,
+      "sha256": "e80e950bed20f8043cc7a34653944686dc3c47f0dc90b47f0e8de3b101118bee"
+    },
+    {
+      "path": "arturia-polybrute-estudio/index.html",
+      "size": 37118,
+      "sha256": "aa95126e2002ed1ad1a06ac575dfa5306fb60a49f2dc8da8cdbdb5feccae33e4"
+    },
+    {
+      "path": "arturia-polybrute-estudio-principiantes/index.html",
+      "size": 37215,
+      "sha256": "0a390cc816f2ecb73e52c7fd88ef6117a4a38ba893d8d6647566f6f7f918a35a"
+    },
+    {
+      "path": "arturia-polybrute-home-studio/index.html",
+      "size": 36750,
+      "sha256": "def9bfe73dd419814df9c559b232ae0e9868691e60fec012250fe11c1bde5595"
+    },
+    {
+      "path": "assets/LogoPCMIDIBlanco.png",
+      "size": 456935,
+      "sha256": "2e7621128540e1a5eaa44881602583f30bc1340148bfd9f2ce0484f8e47d797f"
+    },
+    {
+      "path": "assets/LogoPCMIDINegro.png",
+      "size": 458369,
+      "sha256": "168d22a5e9b57ad6d844dd7150be247231332f9838525acf40ee5d9214766308"
+    },
+    {
+      "path": "audio-technica-at2020-home-studio/index.html",
+      "size": 36799,
+      "sha256": "9f21443c5a42b94ee46bfc7fd372284a4132d5a4fcb82ce2a3925afb8e0c34f1"
+    },
+    {
+      "path": "audio-technica-at2020-home-studio-grabacion/index.html",
+      "size": 34861,
+      "sha256": "afd46374106ef05dffe24311f0cd4097cd529937ce47f465659bbb418f117702"
+    },
+    {
+      "path": "audio-technica-at2020-home-studio-principiantes/index.html",
+      "size": 34510,
+      "sha256": "da5eaae8e88904b23514c6a971e7209de0978a3ddc7e85a1a1e4f0243c82fa1a"
+    },
+    {
+      "path": "audio-technica-at2020-home-studio-streaming/index.html",
+      "size": 36808,
+      "sha256": "c721d34152bed0e317328167a082ecdab013f0fa9632d0cd59d4786296d7eb36"
+    },
+    {
+      "path": "audio-technica-ath-m20x-grabar-departamento/index.html",
+      "size": 36465,
+      "sha256": "520ea9d3fefe3d85d01f1e27742b7f59e5115b461dac4418e6409e4307da0c77"
+    },
+    {
+      "path": "audio-technica-ath-m20x-grabar-home-studio/index.html",
+      "size": 36623,
+      "sha256": "92d313618c0138905d4a62c36ac2bf6e09dfbe54a2fb15a6a33fc7697f5b98bb"
+    },
+    {
+      "path": "audio-technica-ath-m20x-grabar-principiantes/index.html",
+      "size": 36597,
+      "sha256": "0d4c2f234288e402a76a8d99645a24e71bc01aa5b649a0db7b597d70dfeb5c6b"
+    },
+    {
+      "path": "audio-technica-ath-m20x-para-grabar/index.html",
+      "size": 36463,
+      "sha256": "b8dee956b5b90f7dae6d9fe1a275f151d81c79c5c536185816e7593fb2b3f721"
+    },
+    {
+      "path": "audio-technica-ath-m50x-monitoreo/index.html",
+      "size": 36483,
+      "sha256": "2eafa3c34baff6e9dcc3689606397d5e6b4b5596f3fff178a8bb00fa2624acae"
+    },
+    {
+      "path": "audio-technica-ath-m50x-monitoreo-departamento/index.html",
+      "size": 36455,
+      "sha256": "3576dd39a3e2ace574cea9441817116e586181ab4d5ed916925dfdbce7528aae"
+    },
+    {
+      "path": "audio-technica-ath-m50x-monitoreo-home-studio/index.html",
+      "size": 36760,
+      "sha256": "6b8c80062de920b302d8b47fd11377a382dc270fe969a17d3e91fd7b47e8dbcf"
+    },
+    {
+      "path": "audio-technica-ath-m50x-monitoreo-principiantes/index.html",
+      "size": 37045,
+      "sha256": "b97d07e01b4ef8359833f9e6581a6e01337ba16bff4552feac5bb4e0de681f03"
+    },
+    {
+      "path": "auriculares-bateria-electronica-home-studio/index.html",
+      "size": 36709,
+      "sha256": "01ea272f0e772ce5f7fe677b3e9debc056e4b709f544e78b7d63a0342a242c84"
+    },
+    {
+      "path": "auriculares-cerrados-grabar-voces/index.html",
+      "size": 36631,
+      "sha256": "30025f981d0528eabda92993bdd62a407404a498c829d31355d299fbd478a8bd"
+    },
+    {
+      "path": "auriculares-cerrados-grabar-voces-casa/index.html",
+      "size": 36803,
+      "sha256": "398eba8b664c78939f6a691ceb593b0ca5b6743b5974d3dbb6b7da82becaec76"
+    },
+    {
+      "path": "auriculares-cerrados-grabar-voces-departamento/index.html",
+      "size": 36544,
+      "sha256": "6229262117298fdf4632775ed1c99c903803e25d40352e1369d8e11ed053ee0b"
+    },
+    {
+      "path": "auriculares-cerrados-grabar-voces-guitarra/index.html",
+      "size": 34620,
+      "sha256": "9cf97c0d56265cfcdb26a0e412efffa142f6785840fe1d6471f54b12d23cf42f"
+    },
+    {
+      "path": "auriculares-cerrados-grabar-voces-home-studio/index.html",
+      "size": 36626,
+      "sha256": "a4dfcb8f834d2db0bef7e87290a7bc05feff7925e16ab1e229dae404d9a5caba"
+    },
+    {
+      "path": "auriculares-cerrados-grabar-voces-noche/index.html",
+      "size": 33707,
+      "sha256": "4c1d04c1e8dd7582c058a88a56e6dde3b4f68af9d72a635734d6bb88ac68cf79"
+    },
+    {
+      "path": "auriculares-cerrados-grabar-voces-notebook/index.html",
+      "size": 34215,
+      "sha256": "b109c24b902f02fefd4e1ba5f0dee9168f80f0383168e066a132c9ab0062b91b"
+    },
+    {
+      "path": "auriculares-cerrados-grabar-voces-portable/index.html",
+      "size": 36624,
+      "sha256": "fc59ed69b85980826c97f6cc36ad72d71110ce545c5813db6cdaa80234287ac0"
+    },
+    {
+      "path": "auriculares-cerrados-grabar-voces-principiantes/index.html",
+      "size": 36559,
+      "sha256": "a6590bf2fbf22dc60b9c23fd203c3b24dec44ce2f1eee4509bd21487f7a29774"
+    },
+    {
+      "path": "auriculares-cerrados-grabar-voces-streaming/index.html",
+      "size": 36571,
+      "sha256": "63fa04a9cff276ab9e78b4c71cd52d312dd08249997d6a38b9c6460672d2ead6"
+    },
+    {
+      "path": "auriculares-cerrados-para-grabar-voces/index.html",
+      "size": 36589,
+      "sha256": "07f06cd607f6ca5d5e2b9b37f9c977ffefffaa2839befe5afb1fbcdad364a68c"
+    },
+    {
+      "path": "auriculares-cerrados-para-grabar-voces-guitarra/index.html",
+      "size": 36546,
+      "sha256": "ac29232f62839cd2b213ab3a66acad1b3987f4fd8f1d3f8aca74652ff2ac3dee"
+    },
+    {
+      "path": "auriculares-cerrados-vs-abiertos-home-studio/index.html",
+      "size": 36309,
+      "sha256": "3cf2111c4de9b39b6f93418a813271e9978215f9ddbb817dee0ef2ac0f48acdc"
+    },
+    {
+      "path": "auriculares-para-bateria-electronica/index.html",
+      "size": 36714,
+      "sha256": "28893700b7f504638030a95d5fdf8fd42b593ef0351ee03344dd63302eea1c1e"
+    },
+    {
+      "path": "auriculares-para-bateria-electronica-departamento/index.html",
+      "size": 36689,
+      "sha256": "fa1fdd6b0f72f785814eb0be9323f783b11d1b8c4230626fc27b5d2a193de58a"
+    },
+    {
+      "path": "auriculares-para-bateria-electronica-principiantes/index.html",
+      "size": 34583,
+      "sha256": "2138a48f1ae8e84245d5e29ef9f94db3065a74d9706d0d61e035097675aa99a0"
+    },
+    {
+      "path": "auriculares-para-grabar-podcast/index.html",
+      "size": 36323,
+      "sha256": "65c46f6c9490ac8f596457a1dcf28d92896e352b8eb4db3d14962af3c4261905"
+    },
+    {
+      "path": "auriculares-para-grabar-podcast-17/index.html",
+      "size": 36450,
+      "sha256": "fa37b71bad49aa77d81990532bfad2d0059186123917cb644b88dee4c58eb7e5"
+    },
+    {
+      "path": "auriculares-para-grabar-podcast-departamento/index.html",
+      "size": 36699,
+      "sha256": "59e529764a96a8ef52f7ce6c635d6b869a3640babd1512e5fc60397ded90d22d"
+    },
+    {
+      "path": "auriculares-para-grabar-podcast-en-casa/index.html",
+      "size": 36835,
+      "sha256": "d7200fb73eb7659cd9c40fe0c110a552e491ca3635ce0fdfc251a9bda5c397ec"
+    },
+    {
+      "path": "auriculares-para-grabar-podcast-home-studio/index.html",
+      "size": 36497,
+      "sha256": "a8bfc58de6d36c8f0f96e6f862b763d641b29828795fca8b26c102a68815158f"
+    },
+    {
+      "path": "auriculares-para-grabar-podcast-principiantes/index.html",
+      "size": 36432,
+      "sha256": "976048e1d07a21170e7e5717271132dd9c6fa008001a3ea0e4e92b4e2ca5c942"
+    },
+    {
+      "path": "auriculares-para-grabar-podcast-streaming/index.html",
+      "size": 36655,
+      "sha256": "80228fff46d0d81095e14a1f9cafe6df4505a6f415edc0bf005d44429e6eafbc"
+    },
+    {
+      "path": "auriculares-para-grabar-voces-creadores-contenido/index.html",
+      "size": 34635,
+      "sha256": "7af06c041a21cd20d9d9d6330cf51d6343962615a5e7d61817234573f072ac31"
+    },
+    {
+      "path": "auriculares-para-mezclar-de-noche/index.html",
+      "size": 36511,
+      "sha256": "d693e5e51f80e155cf1b2aba8cfa4d15caa708497c909dd07b7a6a0bdf2f94a3"
+    },
+    {
+      "path": "auriculares-para-producir-musica/index.html",
+      "size": 36512,
+      "sha256": "095ece11e63fe69240cfb81d9e3d2d3fbeb74bad827f40a842ad1414d8e161a2"
+    },
+    {
+      "path": "auriculares-para-streaming/index.html",
+      "size": 36500,
+      "sha256": "525b98777cf91b2a624fab3de69093ff82e06d797389078796aed72a2152168d"
+    },
+    {
+      "path": "auriculares-para-tocar-guitarra-con-interfaz/index.html",
+      "size": 36528,
+      "sha256": "11984388576caa5e8ff4af484d8d4495a95e6c5b18b5b2e7ea25b971a1af3411"
+    },
+    {
+      "path": "bateria-electronica-departamento-home-studio/index.html",
+      "size": 34717,
+      "sha256": "6b3ed9e7bc1fceffbc3849a9dc7381736c10d73374b9a7b72aba1d80d39ee2be"
+    },
+    {
+      "path": "bateria-electronica-departamento-practica-silenciosa/index.html",
+      "size": 36805,
+      "sha256": "20f80d3410cb91fa8683bef14a07866c44502640fbdbd30fe86ba9335856d2da"
+    },
+    {
+      "path": "bateria-electronica-departamento-practicar-noche/index.html",
+      "size": 37065,
+      "sha256": "1983ee84511f57a506f4db29f7cd73b7711f27901e507036b1a7abf58be7f02b"
+    },
+    {
+      "path": "bateria-electronica-para-chicos/index.html",
+      "size": 35682,
+      "sha256": "47092d990e02a5c3ddbd6a5f93a21bb4e218011b83fc599276409a07cc96bf67"
+    },
+    {
+      "path": "bateria-electronica-para-departamento/index.html",
+      "size": 37061,
+      "sha256": "d672eb1c0910bd6c3e00556a3ed644469f43ae5ef92da1c0d548fb5f4cd5d3d4"
+    },
+    {
+      "path": "bateria-electronica-para-departamento-home-studio/index.html",
+      "size": 36846,
+      "sha256": "90083a169142291b4a3a28d3a803ed986bf0bba75423e31f77eeabb43b4c11bb"
+    },
+    {
+      "path": "bateria-electronica-para-departamento-principiantes/index.html",
+      "size": 36400,
+      "sha256": "fbac1734b455ee52343ce115f7f6086a83d310ca71443bb6e00b239fdf446888"
+    },
+    {
+      "path": "bateria-electronica-para-departamento-setup-portable/index.html",
+      "size": 34590,
+      "sha256": "030685ee7cb6621dfe0d9c166e6c59b1e6b007813520e8e907fc7a5cba0652fb"
+    },
+    {
+      "path": "bateria-electronica-para-grabar-midi/index.html",
+      "size": 36408,
+      "sha256": "bbb4a25c7410109e247901310619a9e4c3785ed64ce27f17e2c42b44e751d9e6"
+    },
+    {
+      "path": "bateria-electronica-para-practicar-de-noche/index.html",
+      "size": 35898,
+      "sha256": "8fb98e76b7c140a2be1a6045e3422e23102ba231147a85639ddb6be5c43eba2b"
+    },
+    {
+      "path": "bateria-electronica-para-principiantes/index.html",
+      "size": 36734,
+      "sha256": "85c7a607b164d9ab1fd5caaa2d0ed1d9ec8f384e9231e35d0bcf4b7e071affae"
+    },
+    {
+      "path": "bateria-electronica-para-tocar-en-vivo/index.html",
+      "size": 37594,
+      "sha256": "9816a9df01c6f410cffe4420478253e6539151b0f45d2959270b06c177b081b0"
+    },
+    {
+      "path": "bateria-electronica-silenciosa-departamento/index.html",
+      "size": 36996,
+      "sha256": "9efbb7c670665054fd4944d16ed4fd44be5cdfa4e99d6fa9a6c26c078dce79ab"
+    },
+    {
+      "path": "baterias-electronicas-para-produccion-musical/index.html",
+      "size": 36176,
+      "sha256": "50ac927c578b0decff645c460a0e6e88ca3a5a65af9161388f91c8eb6005fdf8"
+    },
+    {
+      "path": "brazo-microfono-streaming/index.html",
+      "size": 36334,
+      "sha256": "a8993efcf5bb6402f8909c79c5ae74e463f0245851a25298a92ffbb60345be0e"
+    },
+    {
+      "path": "brazo-microfono-streaming-ergonomia-audio/index.html",
+      "size": 36467,
+      "sha256": "71f182833a5902edc16adae58ec52472cc8a4de88cbfbe29cedd93eed78e9acf"
+    },
+    {
+      "path": "brazo-microfono-streaming-grabar-casa/index.html",
+      "size": 36916,
+      "sha256": "4877ffccf31682fe09d65ac1b0918793bf2f17b20d296dcad2f53b76bfdfe066"
+    },
+    {
+      "path": "brazo-microfono-streaming-home-studio/index.html",
+      "size": 36651,
+      "sha256": "c4d85d7d4f7cf3a54c6f6121b5e565fc98b6a0f8c0c4e675d64425bff36bb200"
+    },
+    {
+      "path": "brazo-microfono-streaming-principiantes/index.html",
+      "size": 36609,
+      "sha256": "0526217091ae2c434bdf5ada506534117e3e76135c7a38a6d3f210886cda1cf7"
+    },
+    {
+      "path": "brazo-para-microfono-streaming/index.html",
+      "size": 36487,
+      "sha256": "3f8719011394dc4b43a4607503f5a48098ad9f4b9605a052f324b243f44c5bec"
+    },
+    {
+      "path": "cadena-audio-guitarra-interfaz-monitoreo/index.html",
+      "size": 36793,
+      "sha256": "defa8ae162f9afd2041764979e9f0c62277c165688300d48599e69a0ff3980b6"
+    },
+    {
+      "path": "cadena-audio-streaming/index.html",
+      "size": 36737,
+      "sha256": "515e4b3f0fbd05160eb1ab8cf6d1b9a5e1bbf9ccbc66c41dda4cc317215ae13a"
+    },
+    {
+      "path": "cadena-de-audio-para-grabar-voz/index.html",
+      "size": 36453,
+      "sha256": "88197f078e6befaf057c6e9413d7eefd2ba7c5b1f368fe761598cb0f708af19b"
+    },
+    {
+      "path": "camara-para-youtube-home-studio/index.html",
+      "size": 36317,
+      "sha256": "d720cc064e119484069eae27869b448556d9279d9ac891b58c133ceef964cea9"
+    },
+    {
+      "path": "camara-streaming-microfono-setup/index.html",
+      "size": 36353,
+      "sha256": "f5cb55f81c88f1c76d5aa1139ebf2d2f85821ccd579392367c89f9f4dc46cb78"
+    },
+    {
+      "path": "camara-y-microfono-para-streaming/index.html",
+      "size": 36623,
+      "sha256": "8f5d79499c39c9b7e2b63bcd5224a2bdc905c04c7a584c3056347910437a9d5b"
+    },
+    {
+      "path": "como-elegir-alctron-um900-para-streaming/index.html",
+      "size": 36420,
+      "sha256": "e0a01af73487ef8050e15e5968bc836d070d562195aa2d4d9cb05e1884247a5b"
+    },
+    {
+      "path": "como-elegir-arturia-keystep-pro/index.html",
+      "size": 36432,
+      "sha256": "ecec1436a693911d0633dc5553c3065af1f7b3c0ae5174e4d690f553c094df6e"
+    },
+    {
+      "path": "como-elegir-arturia-microfreak-para-empezar-en-sintesis/index.html",
+      "size": 37043,
+      "sha256": "aa2052601854edac18b7a7fd2728edc395188343a0f021994bef5f6d5299ccae"
+    },
+    {
+      "path": "como-elegir-arturia-minifreak-vs-microfreak/index.html",
+      "size": 35941,
+      "sha256": "b210f3a207de9bef99b1f227b1f6fe4f328afd2af7a9e1ef42f1c99e3a67942e"
+    },
+    {
+      "path": "como-elegir-arturia-minilab-3-para-ableton/index.html",
+      "size": 36654,
+      "sha256": "3c5eeb7b406137ff5d2ce2ce540a076bdbce06ab94f03f2b5da85645332592f9"
+    },
+    {
+      "path": "como-elegir-arturia-minilab-3-para-fl-studio/index.html",
+      "size": 36652,
+      "sha256": "397bea58afcb5acd294e4c8b20ce3e70bbcaadb799b20e2e108936a98648aa91"
+    },
+    {
+      "path": "como-elegir-arturia-polybrute-estudio/index.html",
+      "size": 37220,
+      "sha256": "5a337f39b407a667b60ad4c023aeef336ad016ec7c76348d2760b2521842d8e9"
+    },
+    {
+      "path": "como-elegir-audio-technica-at2020-para-home-studio/index.html",
+      "size": 36458,
+      "sha256": "9aed892763e24eb8321c128512365e9c109d1ec9d6ffc22e2e6e83cc6fb269c6"
+    },
+    {
+      "path": "como-elegir-audio-technica-ath-m20x-para-grabar/index.html",
+      "size": 36267,
+      "sha256": "3438024a374ab16bf9a3144f19e8d73a6125b9697733f7ca9e89dc873454ceeb"
+    },
+    {
+      "path": "como-elegir-audio-technica-ath-m50x-para-monitoreo/index.html",
+      "size": 36652,
+      "sha256": "76a45db000fe65a647055cbc8355cee51966f4cfc502eb3ef372dcce41b31b93"
+    },
+    {
+      "path": "como-elegir-auriculares-cerrados-para-grabar-voces/index.html",
+      "size": 36494,
+      "sha256": "9d60134cc1e6d3160cb0250fde26fcdc3e8d47f4944dba0179175b772cd9724f"
+    },
+    {
+      "path": "como-elegir-auriculares-para-grabar-podcast/index.html",
+      "size": 36390,
+      "sha256": "11ad76ceca9c6876d766c7a233c6facff9632732cc68e60ef7d3283f2c688135"
+    },
+    {
+      "path": "como-elegir-bateria-electronica-para-departamento/index.html",
+      "size": 36706,
+      "sha256": "def35a66e3dcb00b0377a70418e54c5a3e1dcfbde434f76202d737cfc1ca8b96"
+    },
+    {
+      "path": "como-elegir-brazo-para-microfono-de-streaming/index.html",
+      "size": 36298,
+      "sha256": "1b932dbf327dd6e5b8f18271bda76c4fe4164c1e7a7bab5d5801e064b3d639c2"
+    },
+    {
+      "path": "como-elegir-controlador-midi-para-ableton/index.html",
+      "size": 36693,
+      "sha256": "ed8a997b20456369b69bcd5ca0537779b85d6b56ecf910c2f9ccb369c912416f"
+    },
+    {
+      "path": "como-elegir-controlador-midi-para-fl-studio/index.html",
+      "size": 36970,
+      "sha256": "146855363c29bb9e05a0cf6526870e6ca99c17c483d935b9cb7b8d5d49dcebe0"
+    },
+    {
+      "path": "como-elegir-filtro-pop-para-grabar-voz/index.html",
+      "size": 36526,
+      "sha256": "945c34682150a160428ac655bfea1f138d6e91e80732fbbbd44d147cc585f97f"
+    },
+    {
+      "path": "como-elegir-interfaz-audio-streaming/index.html",
+      "size": 36962,
+      "sha256": "145021b2f5256e677565b276cfc6aa3bd97635e65394c57f440b25b7f23dd3e8"
+    },
+    {
+      "path": "como-elegir-interfaz-de-audio-con-dos-entradas/index.html",
+      "size": 36659,
+      "sha256": "b04357c1c64deb880800d297895fe80e0d9e997ee4c88933dbbd70fde3d874f8"
+    },
+    {
+      "path": "como-elegir-interfaz-de-audio-para-grabar-voz-en-casa/index.html",
+      "size": 37103,
+      "sha256": "1e08db35bd58eaacefec5d5dcd2bc15e462241223f571a72a5a52ceae9ced4db"
+    },
+    {
+      "path": "como-elegir-microfono-condensador-para-voz/index.html",
+      "size": 36901,
+      "sha256": "1866dd48730321c9e7fbfbf112d7a42045d369a1d43e8bb536f182296bc36a66"
+    },
+    {
+      "path": "como-elegir-microfono-para-podcast/index.html",
+      "size": 36444,
+      "sha256": "f40b463ed118723641bdc1aa295afa099fe0e5c24342052a0cedc8a19fe3e655"
+    },
+    {
+      "path": "como-elegir-microfono-para-streaming/index.html",
+      "size": 37040,
+      "sha256": "555db285ed1628e69cae194d1c6afed8fece0757e924cef4765ee33f7dcb5709"
+    },
+    {
+      "path": "como-elegir-microfono-usb-para-podcast/index.html",
+      "size": 35934,
+      "sha256": "937dd25bf7656f6be2291ad069e02b8080afb063483886484ff360acdb93d991"
+    },
+    {
+      "path": "como-elegir-microfono-xlr-para-podcast/index.html",
+      "size": 34716,
+      "sha256": "fd5e5f66af1fc3a07e3389524a83c888212f776bcd871d6ddf2349fb95ba10c5"
+    },
+    {
+      "path": "como-elegir-midiplus-ak490-para-principiantes/index.html",
+      "size": 36225,
+      "sha256": "c5190a683e9635b9cb86d160ef60677b8f6a7c246e4b39e17d802fbd5e865aff"
+    },
+    {
+      "path": "como-elegir-midiplus-akm322-escritorio-chico/index.html",
+      "size": 36577,
+      "sha256": "1a60fe626dae5925f0b2c2932a998e117afd3d8480bc802f8c3c210dcc162938"
+    },
+    {
+      "path": "como-elegir-midiplus-ed6-para-practicar-bateria/index.html",
+      "size": 36369,
+      "sha256": "3b47e87c8857495222d6dd6c3679be6f3cd6c0dff4b4419b9d95059e8e9b55c7"
+    },
+    {
+      "path": "como-elegir-midiplus-ed8-vs-ed6/index.html",
+      "size": 34273,
+      "sha256": "ae5339f16143b0a1db150b1188dbab75665aee329640879615dab05a6045c48d"
+    },
+    {
+      "path": "como-elegir-midiplus-i61-para-tocar-con-mas-teclas/index.html",
+      "size": 36719,
+      "sha256": "da0af2852c822316b0d88fc4d7821bee110c154f41a3f0cb76672188eb18dc1b"
+    },
+    {
+      "path": "como-elegir-midiplus-ms5-para-home-studio/index.html",
+      "size": 36946,
+      "sha256": "13d8ea98ba2e7533a19411d2a95da7a62be0f373eeacfa67ba8d8ff413a94844"
+    },
+    {
+      "path": "como-elegir-midiplus-ms6-para-home-studio/index.html",
+      "size": 36612,
+      "sha256": "ecce7e979657cbba3b2ad0d576d3a1f0f135042413ab19ef942fbc877e7c0272"
+    },
+    {
+      "path": "como-elegir-midiplus-studio-m-home-studio/index.html",
+      "size": 36495,
+      "sha256": "8b8304d87ba770bdc7c0a72e904ce1db8aaca4d8b2f2cc475147fd4a3e9d8a2d"
+    },
+    {
+      "path": "como-elegir-monitores-5-o-6-pulgadas/index.html",
+      "size": 34247,
+      "sha256": "7f425f35b3ab82800e65874ce0de310953f7b0d4f8b27597cfd07f2e1a69307a"
+    },
+    {
+      "path": "como-elegir-monitores-de-estudio-para-home-studio-chico/index.html",
+      "size": 37323,
+      "sha256": "606abe9796bbc726a10544b71ca194c07525f153b03ee9e4cc749cdf20e6ca99"
+    },
+    {
+      "path": "como-elegir-monitores-para-mezclar-en-cuarto-chico/index.html",
+      "size": 36761,
+      "sha256": "b718644be629152c6eae297e66e6f7bec008ef6c3d845f1a024b26bd4982ce62"
+    },
+    {
+      "path": "como-elegir-placa-de-sonido-para-guitarra/index.html",
+      "size": 36734,
+      "sha256": "93d01ce4ca100c700daec39c5932db23c3e68bf256750ec806362ae125af628a"
+    },
+    {
+      "path": "como-elegir-placa-de-sonido-para-guitarra-y-voz/index.html",
+      "size": 36661,
+      "sha256": "aa0c5cd9063db27891a68555ff5308fb419927613c1a59f6d2f4ca2a313cfef7"
+    },
+    {
+      "path": "como-elegir-sintetizador-para-aprender-sintesis/index.html",
+      "size": 36817,
+      "sha256": "f8594a5347c337e46437c94bf0d283e67d0f4e0f948f7d9edea0828985cebeb6"
+    },
+    {
+      "path": "como-elegir-synido-tempokey-25-para-producir/index.html",
+      "size": 36966,
+      "sha256": "436cb6a31cd8f38d41dafa895ce3b19195e43dd51be3c10f61b07093417cdf8a"
+    },
+    {
+      "path": "comparar-arturia-microfreak-sintesis/index.html",
+      "size": 36983,
+      "sha256": "f05c8c67d450390b726ce1e0ecc572ae705fb994b4929df5eaa4c5f799dcbc78"
+    },
+    {
+      "path": "comparar-arturia-minilab-3-fl-studio/index.html",
+      "size": 36713,
+      "sha256": "b93ad6002c91d5db6db09d9a22b408ffac6ca10eb94bcc41afdfc86b02baf246"
+    },
+    {
+      "path": "comparar-audio-technica-ath-m20x-grabar/index.html",
+      "size": 36393,
+      "sha256": "47443841cde04822dbb7b937aeed3037e0ae1673b9f93ed808b82db9660a5405"
+    },
+    {
+      "path": "comparar-audio-technica-ath-m50x-monitoreo/index.html",
+      "size": 36458,
+      "sha256": "3fddc7c22e2a6a0d96ff9c29ef365e212c3dd84c51707701c1c863ff6f0627b5"
+    },
+    {
+      "path": "comparar-auriculares-cerrados-grabar-voces/index.html",
+      "size": 36704,
+      "sha256": "f9922d6b8eab790c5911019ce5cee88ff3f489202513ef4c6a2d0b56e5848aba"
+    },
+    {
+      "path": "comparar-baterias-electronicas-departamento/index.html",
+      "size": 36380,
+      "sha256": "34a7553f8929bbe925f8c2aae7ce88a7614922d5966bee724cc8f218de00d95e"
+    },
+    {
+      "path": "comparar-controladores-midi-ableton/index.html",
+      "size": 37007,
+      "sha256": "b46cecaf7de267bead29883c9d190349ba1ba445d0f41858a6dd45d86fe4bbfd"
+    },
+    {
+      "path": "comparar-filtros-pop-grabar-voz/index.html",
+      "size": 36679,
+      "sha256": "3797babed203349a73acee1d2dc787080696d95b957e17a5ebe278e6ca4013a5"
+    },
+    {
+      "path": "comparar-microfono-usb-alctron-um900-streaming/index.html",
+      "size": 36322,
+      "sha256": "fc9c0336f5e28d738ec6160eee74650f17e2dc1888606801231f17e6b5d9ebd1"
+    },
+    {
+      "path": "comparar-microfonos-audio-technica-at2020-home-studio/index.html",
+      "size": 36854,
+      "sha256": "a5efbef29b5f1d851d3b4499a4fe3deee5564c2bd51e561ba9ba5f8dfe354047"
+    },
+    {
+      "path": "comparar-microfonos-condensador-para-voz/index.html",
+      "size": 36671,
+      "sha256": "c9e198dc5780eda4cc15b4c0f3b534ac460d0bef0aee0a62da29339b79ffb547"
+    },
+    {
+      "path": "comparar-microfonos-para-podcast-usb-o-xlr/index.html",
+      "size": 36603,
+      "sha256": "9c476b1ae17ccb76d9c7d8e932b373fcf94726a1cf463192e38f82d6a104f265"
+    },
+    {
+      "path": "comparar-microfonos-streaming/index.html",
+      "size": 36527,
+      "sha256": "7f5cb9a2567bb10db4029519bf8f06bbee3101376a390793ae97dda14744fbfe"
+    },
+    {
+      "path": "comparar-microfonos-usb-para-podcast/index.html",
+      "size": 36489,
+      "sha256": "3eccbd9bebd9c513119c5bbf5f1f6542ee82424c9b2be3e24b20e4ade5db6cf8"
+    },
+    {
+      "path": "comparar-microfonos-xlr-podcast/index.html",
+      "size": 36482,
+      "sha256": "3466f25a31bd4f9c4d9cbcea2172e7d1d66391fbad971331733d921fba608a91"
+    },
+    {
+      "path": "comparar-monitores-5-6-pulgadas/index.html",
+      "size": 36681,
+      "sha256": "9d4f9874fadd53055f9c99660068ce6d9dca4205f71157bfb1327d5f73d6ba2c"
+    },
+    {
+      "path": "comparar-monitores-estudio-home-studio-chico/index.html",
+      "size": 34825,
+      "sha256": "36d9c2b9a3077085e424fbd62c3a9edd5450be881d2461697c1c65db0ce10808"
+    },
+    {
+      "path": "comparar-monitores-home-studio/index.html",
+      "size": 36845,
+      "sha256": "a6ff2444a22b2511ea4de03559f9d9eae6b9b72249b96e7b39f98b9cbb3c1515"
+    },
+    {
+      "path": "comparar-opciones-arturia-keystep-pro/index.html",
+      "size": 37075,
+      "sha256": "241d35c8ef7c4c1fd385ec6c707f71a2bcc66c3f1c66a2a16c37cf8611223cac"
+    },
+    {
+      "path": "comparar-opciones-arturia-minilab-3-ableton/index.html",
+      "size": 36768,
+      "sha256": "b69a9122a1f7b1be0950240e4e753f1a22299ebc9095db4366a78ce987e2af73"
+    },
+    {
+      "path": "comparar-opciones-arturia-polybrute-estudio/index.html",
+      "size": 36819,
+      "sha256": "88db341d55cae1e65a69f25dfa4e918815c130d9890f0a08bdcdb45c83a454cd"
+    },
+    {
+      "path": "comparar-opciones-auriculares-bateria-electronica/index.html",
+      "size": 36665,
+      "sha256": "9f79b118c1d83aa6eabcc81e2c56ebc83bd1323dd40d3e41b2da888a2d7f48a7"
+    },
+    {
+      "path": "comparar-opciones-auriculares-grabar-podcast/index.html",
+      "size": 36349,
+      "sha256": "d16b37bfaab23b284b69b432a4e7d0588ed8b55385c2253bc7c3becb3e51dcbe"
+    },
+    {
+      "path": "comparar-opciones-brazo-microfono-streaming/index.html",
+      "size": 36324,
+      "sha256": "3408156925c3e23ea5d8f94a188f48242a439df3ede4baeea1e5d39089c90caf"
+    },
+    {
+      "path": "comparar-opciones-controlador-midi-fl-studio/index.html",
+      "size": 36954,
+      "sha256": "b8cc917c8a448e03582d62e7bf29f65cc1a69a7708d9c998cae2b48c219b8688"
+    },
+    {
+      "path": "comparar-opciones-interfaz-audio-dos-entradas/index.html",
+      "size": 36683,
+      "sha256": "e4b5144f6c2f8b181c7f2d0d31f7d25339eda7ac97d7f9048e3fce465f971136"
+    },
+    {
+      "path": "comparar-opciones-interfaz-audio-grabar-voz-casa/index.html",
+      "size": 36927,
+      "sha256": "280ca2fe2138971f89e29f68c99f2e8a1fb677a315cecb1fd9ae0467187fe556"
+    },
+    {
+      "path": "comparar-opciones-interfaz-audio-podcast/index.html",
+      "size": 36891,
+      "sha256": "1c0c75c1f0f7e9a663b992a3fae699f889102f0260b6b922b159d1634e08d7a3"
+    },
+    {
+      "path": "comparar-opciones-interfaz-audio-streaming/index.html",
+      "size": 36968,
+      "sha256": "b28aec5787323618a61ea650f7047ad3562b3d8c991cf9d9e4a769bda47a4beb"
+    },
+    {
+      "path": "comparar-opciones-midiplus-ak490-principiantes/index.html",
+      "size": 36825,
+      "sha256": "2818d37d2a5925a51a299794694882b142c332963794519f773864543af5bb17"
+    },
+    {
+      "path": "comparar-opciones-midiplus-akm322-escritorio-chico/index.html",
+      "size": 36877,
+      "sha256": "91e11420447962da86c1e2c2bf8e5c9e96ce4ad006969b70a85cd6af6ec44fd7"
+    },
+    {
+      "path": "comparar-opciones-midiplus-ed6-practicar-bateria/index.html",
+      "size": 36372,
+      "sha256": "1c3a7a4d4d0f9547ed6eaed3a63a065a45ddf85f6ca5089fdb58ba999bbdbfae"
+    },
+    {
+      "path": "comparar-opciones-midiplus-i61/index.html",
+      "size": 36647,
+      "sha256": "5a4d3acd552de8f97451fec9efd26056d23218b40d94bde440d88d4eef18720d"
+    },
+    {
+      "path": "comparar-opciones-midiplus-ms5-home-studio/index.html",
+      "size": 36818,
+      "sha256": "90d6de74464e1ba059e952a79aba8ece1f162fea7a1e8a66204aa110cb3f1b84"
+    },
+    {
+      "path": "comparar-opciones-midiplus-ms6-home-studio/index.html",
+      "size": 36797,
+      "sha256": "366b697374eaf8e1e9795ac343c5ff5828855deba0da92ab0dc784e328191689"
+    },
+    {
+      "path": "comparar-opciones-midiplus-studio-m-home-studio/index.html",
+      "size": 37209,
+      "sha256": "dd3e0217f5d6e3eeacfb3f6516f05088ad662495c3228641ae3d81af6c46fbc2"
+    },
+    {
+      "path": "comparar-opciones-placa-sonido-guitarra/index.html",
+      "size": 36754,
+      "sha256": "c80b0f4bdcf7866ae54c14cbeb05243ed539262a7365bead3b28a8ffd09d17a1"
+    },
+    {
+      "path": "comparar-opciones-placa-sonido-guitarra-voz/index.html",
+      "size": 36796,
+      "sha256": "f7b9ac81f39ac738ed166dfc87a7b8d36b30a185c850e730359caae15b55c1ea"
+    },
+    {
+      "path": "comparar-opciones-synido-tempokey-25/index.html",
+      "size": 36559,
+      "sha256": "b4155faffc8dd930fc0198e589094663c76e3ef69537052b0df7d69d4e4e884d"
+    },
+    {
+      "path": "comparar-sintetizadores-para-aprender-sintesis/index.html",
+      "size": 37188,
+      "sha256": "99afffe8f443c8c209e41d6e6bdb9e5f2a8bf05950e55adcbfd8c6e85b5fe56c"
+    },
+    {
+      "path": "comparativa-arturia-minifreak-vs-microfreak/index.html",
+      "size": 36444,
+      "sha256": "38c4b2eb95d5db56e1bb8087ac6b528bdbcc9128cd06ab2e63a7a75f5ed24570"
+    },
+    {
+      "path": "comparativa-arturia-minilab-3-vs-keylab/index.html",
+      "size": 35956,
+      "sha256": "243e99782bfbdafa987a043fe3072969c803741c7754409c8f34e3b23c099589"
+    },
+    {
+      "path": "comparativa-arturia-minilab-3-vs-keylab-4/index.html",
+      "size": 35660,
+      "sha256": "96e89a7721e3f3c496c057e9b530504dd378221599170f6d089ff732f7129f27"
+    },
+    {
+      "path": "comparativa-baterias-electronicas-midiplus-ed8-vs-ed6/index.html",
+      "size": 35736,
+      "sha256": "1db6777aef8ec33f99448976cfab9a23af8957a475a32de7f2633d7c9c1ba2a8"
+    },
+    {
+      "path": "comparativa-midiplus-ed8-vs-ed6/index.html",
+      "size": 36157,
+      "sha256": "cd9dcc9cfcb4d9ad2d7d90dceb78af71d86b1f4a306d35d3aaa5e831b7092e42"
+    },
+    {
+      "path": "comparativa-monitores-5-vs-6-pulgadas/index.html",
+      "size": 35784,
+      "sha256": "a5ea432f9829cc740eaa5529947e2c9a71bed29c4279c1ca6a6fa938648ca355"
+    },
+    {
+      "path": "comprar-audio-technica-at2020-home-studio/index.html",
+      "size": 36657,
+      "sha256": "3eb3ed9b773c7425b32ce62a75878c17f6171aec34148d9cdae959b67e7b6883"
+    },
+    {
+      "path": "controlador-arturia-minilab-3-ableton/index.html",
+      "size": 35987,
+      "sha256": "dab0803166ea077288499a1ba2590c9321787e713a10acc60a00e2ebc5848c27"
+    },
+    {
+      "path": "controlador-arturia-minilab-3-ableton-1/index.html",
+      "size": 36455,
+      "sha256": "899874f3a816a9c18c81133f8c29f06a67bd8007421d86acfdc3d77f17cb4c5a"
+    },
+    {
+      "path": "controlador-arturia-minilab-3-ableton-49/index.html",
+      "size": 37101,
+      "sha256": "9abfbd9a1a561c0f91dfb7ff5f6131e1c628469600df885c7f9305041cddbd5e"
+    },
+    {
+      "path": "controlador-arturia-minilab-3-ableton-beats/index.html",
+      "size": 34538,
+      "sha256": "3ecfa0ed4d952738efdf8a99f7bed3f6e73afb9a8b7dd293fc0da065c052b48b"
+    },
+    {
+      "path": "controlador-arturia-minilab-3-ableton-fl-studio/index.html",
+      "size": 36704,
+      "sha256": "8994da5a1e312d8aabe59282d66e65c77bc4c1bbf1ca7dc6bed05226a0539ccd"
+    },
+    {
+      "path": "controlador-arturia-minilab-3-escritorio-chico/index.html",
+      "size": 34766,
+      "sha256": "e0dd74170c377a857bf85fa4959af79484aa51cdc01fd63b6a101d8e8d85ad28"
+    },
+    {
+      "path": "controlador-arturia-minilab-3-para-ableton-departamento/index.html",
+      "size": 35096,
+      "sha256": "dde5fe3c1573d0e4ba734baa1b22d92066b8e7abc8d39ce4f3e3382a5ee09fa9"
+    },
+    {
+      "path": "controlador-arturia-minilab-3-para-ableton-principiantes/index.html",
+      "size": 36983,
+      "sha256": "d3400ca370d1e2428d6c1c6511cd74ef93eb45cecb7beab540450a57aeb3f377"
+    },
+    {
+      "path": "controlador-arturia-minilab-3-setup-portable/index.html",
+      "size": 34876,
+      "sha256": "a2fe0f52c04f9d76500db597169b53b0369b0a4fc41677dc3d990da4692e9581"
+    },
+    {
+      "path": "controlador-compacto-synido-tempokey-25/index.html",
+      "size": 36989,
+      "sha256": "8450b36594fcc17986a4de72a59d5049ffa35ac06e004be6b68fcd2ee639d989"
+    },
+    {
+      "path": "controlador-midi-25-teclas-vs-49-teclas/index.html",
+      "size": 36309,
+      "sha256": "53ea383e98309a926b68cf9099d30b37b55a41ded2ffa2892e18b131d3901342"
+    },
+    {
+      "path": "controlador-midi-49-teclas-vs-61-teclas/index.html",
+      "size": 36057,
+      "sha256": "ae5bd43390a88b918cd773ae6af3f5010b2ee7539f0829b6738cbecd15fa12d2"
+    },
+    {
+      "path": "controlador-midi-61-teclas-ableton/index.html",
+      "size": 36994,
+      "sha256": "6ead6ec9529aa4f2de47d8ba75d4b1c9f16918d2dd428288ea25c6ea681dea84"
+    },
+    {
+      "path": "controlador-midi-61-teclas-fl-studio/index.html",
+      "size": 36934,
+      "sha256": "a7e911775139db1a9556ab80bc08221f909e4be55b11b4d93141b54c8073de66"
+    },
+    {
+      "path": "controlador-midi-61-teclas-midiplus-i61/index.html",
+      "size": 36603,
+      "sha256": "3c7a4bccdb1013b24b0c606ee711e1b4533ec38da9479956bc7a561f930fe4de"
+    },
+    {
+      "path": "controlador-midi-ableton-acordes/index.html",
+      "size": 36980,
+      "sha256": "edeb3b9a3d1371facc358eea59f09ed9e7e8e5e25a59a67cc41bcd3c43e83861"
+    },
+    {
+      "path": "controlador-midi-ableton-creadores-contenido/index.html",
+      "size": 36578,
+      "sha256": "0a5f3503bf7f687f74458ff35d273b4f38e4939388300d86d44292b167320cde"
+    },
+    {
+      "path": "controlador-midi-ableton-departamento/index.html",
+      "size": 36871,
+      "sha256": "7fe5d9f508779d475fb946515294f6d7437f36d9e4f49132b0fb844d4945d5d9"
+    },
+    {
+      "path": "controlador-midi-ableton-escritorio-chico/index.html",
+      "size": 36645,
+      "sha256": "85ca9a226b1a67462585f97d70f9c00c5fbd21e3ea72475550bff70af1cc9aeb"
+    },
+    {
+      "path": "controlador-midi-ableton-fl-studio-comparativa/index.html",
+      "size": 36668,
+      "sha256": "e8dca7e3a85f5a9d7dd89ac198f583899c71c2e44cacf9c5e4270282d6ec4490"
+    },
+    {
+      "path": "controlador-midi-ableton-home-studio/index.html",
+      "size": 36802,
+      "sha256": "fa8fd918a5de930734eeda864eddb9aaa2ff48597a01d23fb8ad078eb77a91cc"
+    },
+    {
+      "path": "controlador-midi-ableton-home-studio-67/index.html",
+      "size": 36927,
+      "sha256": "c25552587c6612629161a10b756fd167108a33c07e7ec8b6f72b0c897dea6a7b"
+    },
+    {
+      "path": "controlador-midi-ableton-musica-electronica/index.html",
+      "size": 34712,
+      "sha256": "c979dc8e02618f5fa4f6018239cbb1412e4a6abbcd9e001e3388cd8448003f8e"
+    },
+    {
+      "path": "controlador-midi-ableton-pads/index.html",
+      "size": 37135,
+      "sha256": "770d672c4b5b965fc639ea305e1ca1976cd25851eb49c60f661180dcbe29862e"
+    },
+    {
+      "path": "controlador-midi-ableton-samples/index.html",
+      "size": 36835,
+      "sha256": "c818a42026c07e1b10e6ec18e1eff1a381dc819c0a0909305aec243dd29febfc"
+    },
+    {
+      "path": "controlador-midi-ableton-setup-portable/index.html",
+      "size": 36376,
+      "sha256": "08045c7c4948d88d903c84635894252dceadb8023a3d83c07b6bccab9c3d67b0"
+    },
+    {
+      "path": "controlador-midi-ableton-sin-complicaciones/index.html",
+      "size": 36832,
+      "sha256": "9d1cd6feea6bfe40a1ba4aacb05a0ef7f76a76aa62e778fb4e6b3d850633247d"
+    },
+    {
+      "path": "controlador-midi-ableton-trap/index.html",
+      "size": 36920,
+      "sha256": "9f88c19f2f1f85d704631d1d5ca4b216f1ddb98f0257b0e8a2d4a61e2742fe30"
+    },
+    {
+      "path": "controlador-midi-aprender-piano/index.html",
+      "size": 36860,
+      "sha256": "72485d382e82b0f1e1ab7c4295747c1f4260e4e249589e9303380ed8184b9654"
+    },
+    {
+      "path": "controlador-midi-arturia-minilab-3-ableton/index.html",
+      "size": 34599,
+      "sha256": "52dcfc52ccfe768f5b24fd4ef6b4d066ab36b2f1ca7d61a9312515fdc8d51976"
+    },
+    {
+      "path": "controlador-midi-arturia-minilab-3-fl-studio/index.html",
+      "size": 37213,
+      "sha256": "27345cabbed7f120d4038f05fe08745600991acd4910fed1a55657428ddc01e8"
+    },
+    {
+      "path": "controlador-midi-arturia-minilab-3-fl-studio-4/index.html",
+      "size": 37166,
+      "sha256": "34f66152b8e8b2d9acdb2d493f514688d3dc243ffa689851b0c6026b0b5c5550"
+    },
+    {
+      "path": "controlador-midi-arturia-minilab-3-fl-studio-trap/index.html",
+      "size": 34641,
+      "sha256": "2bf13fd572c47706c24ec4018e459a0ef2188c5a3178e45f8c46c634e632e712"
+    },
+    {
+      "path": "controlador-midi-arturia-minilab-3-home-studio/index.html",
+      "size": 34704,
+      "sha256": "7f963056f512af40816c4c65aa76ab8a1312e3067a5ec8e7b3bafd56f5d75dea"
+    },
+    {
+      "path": "controlador-midi-compacto-escritorio-chico/index.html",
+      "size": 36907,
+      "sha256": "3fab87da697a338436067eee8bb7d53cd0d378423cc38aad39df93a33052c4bc"
+    },
+    {
+      "path": "controlador-midi-fl-studio-acordes/index.html",
+      "size": 37077,
+      "sha256": "14d229cb120bf82a9d9dd08132680b06ec4218fe3490481fd348d022ab7dd25e"
+    },
+    {
+      "path": "controlador-midi-fl-studio-creadores-contenido/index.html",
+      "size": 36885,
+      "sha256": "370e23254c47f47423b3f0cdd8f91381b9a5da140b5df9f42e692534fe2a0c26"
+    },
+    {
+      "path": "controlador-midi-fl-studio-departamento/index.html",
+      "size": 36746,
+      "sha256": "13605fbece5fb4b8a38aad395d2b6419d35fbda7403e8c130980f9cd5233bf4c"
+    },
+    {
+      "path": "controlador-midi-fl-studio-escritorio-chico/index.html",
+      "size": 36627,
+      "sha256": "5d8394068407b6e65fa6b716cfa0a4e7cb6a1c9004076f8d2549991af354a960"
+    },
+    {
+      "path": "controlador-midi-fl-studio-home-studio/index.html",
+      "size": 36957,
+      "sha256": "8452e59639cbd915276e6d4e37669ce72a4c7a51983ce7f7a446015468d0b0d6"
+    },
+    {
+      "path": "controlador-midi-fl-studio-home-studio-chico/index.html",
+      "size": 36855,
+      "sha256": "b374fe00af3421862912540322b7b1a2c5aa3a162e768323dbc1ed2a1f97e81d"
+    },
+    {
+      "path": "controlador-midi-fl-studio-notebook/index.html",
+      "size": 36752,
+      "sha256": "0af7361deb2ce49b013b0dcfa8b4551d75b6639599cb8f983a03fe8c55eff778"
+    },
+    {
+      "path": "controlador-midi-fl-studio-principiantes/index.html",
+      "size": 36738,
+      "sha256": "25dbe79cb59705c299e501b11b259bb54cb4dc069c48c3d6e62a66a349e89a84"
+    },
+    {
+      "path": "controlador-midi-fl-studio-setup-portable/index.html",
+      "size": 34913,
+      "sha256": "9f73feccfe428c8a96ba267cc43cd01d7ec3fa2bb952b0eadcc2c37d9bb0913e"
+    },
+    {
+      "path": "controlador-midi-fl-studio-sin-complicaciones/index.html",
+      "size": 36650,
+      "sha256": "b47cf201d0f1bd58bb839c79b127ffd1f4371b80dce44923423587a34e1d9ec2"
+    },
+    {
+      "path": "controlador-midi-fl-studio-trap/index.html",
+      "size": 36610,
+      "sha256": "11793c55be6082f1083ca8399b5c899497fde9d181ee5a98631487bd39d999a5"
+    },
+    {
+      "path": "controlador-midi-para-ableton-comparativa/index.html",
+      "size": 36828,
+      "sha256": "2c8510c6088eff7e8b2fc6a0b071f8284ee76cb2889b5f2becc544dd40b590b0"
+    },
+    {
+      "path": "controlador-midi-para-ableton-finger-drumming/index.html",
+      "size": 37283,
+      "sha256": "f101aa3ee842835758a94f6679f65e227db3a7ee26687a7c41ed53e619120809"
+    },
+    {
+      "path": "controlador-midi-para-ableton-hacer-beats/index.html",
+      "size": 36670,
+      "sha256": "70e9fd321e5849763fc3f126db1c23513f5bd2fbfa753e83c1557a8b86346879"
+    },
+    {
+      "path": "controlador-midi-para-ableton-live-set/index.html",
+      "size": 36536,
+      "sha256": "cf691821509b2365c64764b3a47a0f05a8cbe9630ee1aee1aa064321250df1b0"
+    },
+    {
+      "path": "controlador-midi-para-ableton-principiantes/index.html",
+      "size": 36683,
+      "sha256": "a22858486be775779e4f3645afdf09dcaf00f7cc66dc4bc71a00c5981e01c61b"
+    },
+    {
+      "path": "controlador-midi-para-beats-de-trap/index.html",
+      "size": 36663,
+      "sha256": "000b94e86bae5e59680ed4a3d945165ac230fd3b4599e16015982f30e1e2c88e"
+    },
+    {
+      "path": "controlador-midi-para-cubase/index.html",
+      "size": 36737,
+      "sha256": "b08f03065e7817f9f7259d390161d3e808db4e8db23dbd9e757f9d3fc5dc65be"
+    },
+    {
+      "path": "controlador-midi-para-fl-studio/index.html",
+      "size": 37616,
+      "sha256": "cd9d4b2ec5d909792becdd38a33c84c0d064c8cdff8562688620c5928e24d4f3"
+    },
+    {
+      "path": "controlador-midi-para-logic/index.html",
+      "size": 36655,
+      "sha256": "75b5bcabdad3f32a6b071323e40ff5c8df491d2c9dbe2e1c5bd33243dc9e3c10"
+    },
+    {
+      "path": "controlador-midi-para-reaper/index.html",
+      "size": 36388,
+      "sha256": "61bdc53b562fe619fa01d55774ef53a3fc03b88f433420c19a9412cae48f6237"
+    },
+    {
+      "path": "controlador-midi-para-reggaeton/index.html",
+      "size": 36823,
+      "sha256": "8aeab503290981e008f2fdc5396ceee5670860beec383165e8661cc2a8cab61c"
+    },
+    {
+      "path": "controlador-midi-para-sintetizadores-virtuales/index.html",
+      "size": 36791,
+      "sha256": "f7407114e26b6656fa132f3f635c4bda71efeb5d260cb31f86828ac8a8c345ab"
+    },
+    {
+      "path": "controlador-midi-para-techno/index.html",
+      "size": 36865,
+      "sha256": "3ddaaa8d1fb60edc8558c59516598fe72754565c32999abe0e46d3db1fad3d18"
+    },
+    {
+      "path": "controlador-midi-para-tocar-acordes/index.html",
+      "size": 36715,
+      "sha256": "23b42e88f6eba9db9ffe6efee6ab838e50770813442017c8885c79a72f761b4b"
+    },
+    {
+      "path": "controlador-midi-portable-arturia-minilab-3/index.html",
+      "size": 34727,
+      "sha256": "b1ec86f884659d4c0b5b4eaadac5add972d69bf9cd9e1a799507814eb887863e"
+    },
+    {
+      "path": "controlador-midi-portable-viajar/index.html",
+      "size": 37004,
+      "sha256": "5ea99a3fc0ff4324903a7e7815058257cefa6bad1f18a5d25de83a3190a91a3b"
+    },
+    {
+      "path": "controlador-midi-synido-tempokey-25-ableton/index.html",
+      "size": 36865,
+      "sha256": "121827f41d3e42fe8239390fb4fc43379c3e11527ba97caca4d3a9a3edb94bfd"
+    },
+    {
+      "path": "controlador-midi-synido-tempokey-25-fl-studio/index.html",
+      "size": 36737,
+      "sha256": "255ddc6ad06321f0caa7e1878f75c43a141765a4285c1b94f71dfc244a19f2d3"
+    },
+    {
+      "path": "controlador-para-sintetizadores-hardware/index.html",
+      "size": 37026,
+      "sha256": "6819182dfd59eb8aab591b797aba8d89ef0c514ab7d21ae126cd2d3513b262b8"
+    },
+    {
+      "path": "controladores-midi-61-teclas/index.html",
+      "size": 36998,
+      "sha256": "544360c9f66d28b0efae1dc75f1b06d8c31e9aa604a32e980416f35fbd967dec"
+    },
+    {
+      "path": "controladores-midi-ableton-comparativa/index.html",
+      "size": 36936,
+      "sha256": "56b94ba2cef6374ac9d1d5b4f26b17739a40497848b744c65abc7a8038e06880"
+    },
+    {
+      "path": "controladores-midi-ableton-notebook/index.html",
+      "size": 36681,
+      "sha256": "4507579a1f9f8252a1f59fe5a18826bcef4a1e8a7f10c8f84862cb4be344190a"
+    },
+    {
+      "path": "controladores-midi-arturia-minilab-3-fl-studio/index.html",
+      "size": 37010,
+      "sha256": "e3917b933e139078953b431d2c0c171a75a4bf4acae0532cf1ac327d9d23fd6b"
+    },
+    {
+      "path": "controladores-midi-con-pads-para-produccion/index.html",
+      "size": 36676,
+      "sha256": "3ab609f83949ffb01cca15c368082e145c35be05d5e3fd4f5007550b5e41098e"
+    },
+    {
+      "path": "controladores-midi-con-perillas/index.html",
+      "size": 36668,
+      "sha256": "076e8d5ffae4b7f3ab42774b3f53975dc00facacaebc5dc04718e8b1b0cb176d"
+    },
+    {
+      "path": "controladores-midi-fl-studio-ableton/index.html",
+      "size": 36805,
+      "sha256": "96faf681edc5f13e718c7b5617f41f896df7ae715b1a3178c547fec58f5399c6"
+    },
+    {
+      "path": "controladores-midi-fl-studio-beats/index.html",
+      "size": 34913,
+      "sha256": "a913ab8b68073988fb4333686bd612c2b25c011812b50955ca70a2ef1f4ad2d7"
+    },
+    {
+      "path": "controladores-midi-fl-studio-finger-drumming/index.html",
+      "size": 36867,
+      "sha256": "eb6ef2754b3465a8a63ac0485e6a8a40be1537fa947234f7dc9e2912c66b4fe2"
+    },
+    {
+      "path": "controladores-midi-fl-studio-live-set/index.html",
+      "size": 37219,
+      "sha256": "7cd6c763d4fd29f5e2d6656cdd3cd7e77420c3f16f0b1e1c0c8c7ebbb4ee5073"
+    },
+    {
+      "path": "controladores-midi-fl-studio-samples/index.html",
+      "size": 36941,
+      "sha256": "43bd9035f0d6867ac32378d3c322fa32ac8bcbc00f5556de641ce17cde8c23a8"
+    },
+    {
+      "path": "controladores-midi-para-ableton/index.html",
+      "size": 37064,
+      "sha256": "42112c059a8966be49a3406362154e285f89bf48ffab538c380994ccb477d5ac"
+    },
+    {
+      "path": "controladores-midi-para-fl-studio-con-pads/index.html",
+      "size": 36820,
+      "sha256": "9bc2878779d1d1e7251812121e81865d27731e5830168be7651a21671b27c0b6"
+    },
+    {
+      "path": "controladores-secuenciadores-arturia-keystep-pro/index.html",
+      "size": 36930,
+      "sha256": "4041c3596b8d3a25058aa9592179e7052400025bc092a571fcc5b3cd629fefa4"
+    },
+    {
+      "path": "equipo-para-empezar-a-producir-musica/index.html",
+      "size": 37290,
+      "sha256": "c9b9e27f9ab1a1605ac0b07ce76b86d434a3ec7a6f0fc590687f4bf9ac44ddbe"
+    },
+    {
+      "path": "equipo-para-grabar-covers-en-casa/index.html",
+      "size": 36940,
+      "sha256": "4ad5913cb2ffabc6bcc078d3098a83313bab95e51f8aae59aa03bfde4f4d5eb7"
+    },
+    {
+      "path": "equipo-para-hacer-beats-en-notebook/index.html",
+      "size": 37154,
+      "sha256": "fdeb97666679d34a096c0a67e68a0f4d21d76d35b0bc9783635b1e13a064bfaa"
+    },
+    {
+      "path": "equipo-para-podcast-economico/index.html",
+      "size": 36474,
+      "sha256": "9da2d6e7ec7cb88da694659ea54e4e79c9c5faf0b911ba6790b22d402fe4c6d6"
+    },
+    {
+      "path": "equipo-para-streaming-sin-complicarse/index.html",
+      "size": 36643,
+      "sha256": "42b43f0b5b64db82e3af68dd890da1f4de224b413b4a61ad31ff62c11db4824d"
+    },
+    {
+      "path": "filtro-pop-para-grabar-voz/index.html",
+      "size": 36828,
+      "sha256": "a3eb2a1a06bc3dad90339329a3df3cd1643852698cbf73069427894af0c14cfc"
+    },
+    {
+      "path": "filtro-pop-para-grabar-voz-50/index.html",
+      "size": 36507,
+      "sha256": "2f49e40d4b37f792784a122e96b72d6c97bf64816f88868ef907e1c7710977d1"
+    },
+    {
+      "path": "filtro-pop-para-grabar-voz-en-casa/index.html",
+      "size": 36841,
+      "sha256": "77cddb9aafc0f33d90528e4b40f1526ce9156df46394c48948e21eea4fa73981"
+    },
+    {
+      "path": "filtro-pop-para-grabar-voz-home-studio/index.html",
+      "size": 36555,
+      "sha256": "8e097df904ab104a6790aa662aa0e39348be7cf5abdc6659cc4994f40ebd7926"
+    },
+    {
+      "path": "filtro-pop-para-grabar-voz-principiantes/index.html",
+      "size": 36800,
+      "sha256": "fa3969c43f9a6512709d4c7dfc66c9bfc57792540771cb7f6520dfb958256ceb"
+    },
+    {
+      "path": "filtro-pop-para-grabar-voz-streaming/index.html",
+      "size": 36756,
+      "sha256": "2547681c263d73a681ca9c9477a53f9a2e1b92fc0826351ae448fca9b1e100f2"
+    },
+    {
+      "path": "guia-arturia-minilab-3-vs-keylab/index.html",
+      "size": 33551,
+      "sha256": "4a875c85f28fc213f5539af5bc89b7a7ac8dc72e7a595eab354b23b7a237c2d3"
+    },
+    {
+      "path": "guia-auriculares-cerrados-grabar-voces/index.html",
+      "size": 36514,
+      "sha256": "9bc79097c24dd7ad226a0f746bafd20ced8d7e997ab4d11627168dc054e51ebf"
+    },
+    {
+      "path": "guia-comparativa-midiplus-ed8-vs-ed6/index.html",
+      "size": 36290,
+      "sha256": "4fa22fdda6ec712dbdb7f71451c9372db267fdff96de44698aecdaf67d39b6bc"
+    },
+    {
+      "path": "guia-controlador-midi-fl-studio/index.html",
+      "size": 36837,
+      "sha256": "a7dceb8c1835a92320a3c8721297728027025516915a6ad7aecef5ab08d89caa"
+    },
+    {
+      "path": "guia-elegir-alctron-um900-streaming/index.html",
+      "size": 36680,
+      "sha256": "2aa96d04fb3bd1111c3a3f5d44e7349ba42a0b980c4f685afce591bebd683f34"
+    },
+    {
+      "path": "guia-elegir-arturia-microfreak-sintesis/index.html",
+      "size": 36772,
+      "sha256": "0836c76c52d37135753c8ee55ed7b27a384251c94bc93d3d6642a17207835fca"
+    },
+    {
+      "path": "guia-elegir-arturia-minifreak-vs-microfreak/index.html",
+      "size": 35980,
+      "sha256": "1e04b5be06100701600c27f98f6559280c581125e774e5a765c4d9485efcf0e8"
+    },
+    {
+      "path": "guia-elegir-arturia-minilab-3-ableton/index.html",
+      "size": 36551,
+      "sha256": "dd04a709fe7df5327362798e85f9ca8ba0e7a671f3ba145f049ccb1d3e386cd0"
+    },
+    {
+      "path": "guia-elegir-arturia-minilab-3-fl-studio/index.html",
+      "size": 36593,
+      "sha256": "8b29bccd98f9e4fc4f09c644d9858248780d76f167d9adbd7c91ebd7d1af25b7"
+    },
+    {
+      "path": "guia-elegir-arturia-polybrute-estudio/index.html",
+      "size": 37054,
+      "sha256": "f96f09706f875ebc9f9ea70a7ad229a3f4d38eb0c2db73ca0bd53c70c74bfad4"
+    },
+    {
+      "path": "guia-elegir-audio-technica-at2020-home-studio/index.html",
+      "size": 36804,
+      "sha256": "4783fbb0d1998e5ec171a5111ab238de24ef97e7c95041f39287c15338539e55"
+    },
+    {
+      "path": "guia-elegir-audio-technica-ath-m20x-grabar/index.html",
+      "size": 36386,
+      "sha256": "41a2d2722f4b11ed2e8d464bd000e658904e8251f3ec66bb7cf24c272f335c9d"
+    },
+    {
+      "path": "guia-elegir-audio-technica-ath-m50x-monitoreo/index.html",
+      "size": 36628,
+      "sha256": "61f0a177cbcdbd8b2e5c521da29e88920604d274e0c8bc5ee68bed02f7489a1b"
+    },
+    {
+      "path": "guia-elegir-bateria-electronica-departamento/index.html",
+      "size": 36386,
+      "sha256": "e39c4ce3f571ea94c9781db2529e5856e8ac3b4e1f8d4bc61c2dbb807e86414a"
+    },
+    {
+      "path": "guia-elegir-brazo-microfono-streaming/index.html",
+      "size": 36178,
+      "sha256": "5382b9991902dbb84ccdbc88bfc276ad915a91fc6fb987ec3338f12736e9a452"
+    },
+    {
+      "path": "guia-elegir-controlador-midi-ableton/index.html",
+      "size": 37040,
+      "sha256": "62fc4364d46f67eaad10194673dcc8f7d23fbab19b5e607b7dce0cc1426d7610"
+    },
+    {
+      "path": "guia-elegir-filtro-pop-grabar-voz/index.html",
+      "size": 36725,
+      "sha256": "03ab89ec031ecd15b516826b5483416239399d6276ec4c7fe24e5f15f142de64"
+    },
+    {
+      "path": "guia-elegir-interfaz-audio-dos-entradas/index.html",
+      "size": 36512,
+      "sha256": "c476451813290f5fccbfe192ba03477e5a7fdf34b5813aeadbcaaeae798a430e"
+    },
+    {
+      "path": "guia-elegir-interfaz-audio-grabar-voz-casa/index.html",
+      "size": 36748,
+      "sha256": "a009d84a950b35a4a122941fb9aad28fe94bc2167b898cd4a41efc90295d9963"
+    },
+    {
+      "path": "guia-elegir-interfaz-audio-streaming/index.html",
+      "size": 34686,
+      "sha256": "10bce259674f91d62e9b6a6a835008c5e128023c858e09e592e39dd090ebdf6e"
+    },
+    {
+      "path": "guia-elegir-microfono-streaming/index.html",
+      "size": 36970,
+      "sha256": "dc93a54be67a6f8518c806b20f89d47ca1dd7396d24d72cd4c854aedbe262731"
+    },
+    {
+      "path": "guia-elegir-microfono-usb-podcast/index.html",
+      "size": 36408,
+      "sha256": "8a4e609e00f3ba92962547793b46a16282a8677acc745251566951ab99cd8147"
+    },
+    {
+      "path": "guia-elegir-microfono-xlr-podcast/index.html",
+      "size": 36603,
+      "sha256": "042556e8f949fe09f4e1b28e1cbcdf302722ddac8de79012427763b8a9ffc4de"
+    },
+    {
+      "path": "guia-elegir-midiplus-ak490-principiantes/index.html",
+      "size": 34628,
+      "sha256": "894b824275a5fc08a202de31e8890bf1e6aee2c3b9ffb7de5ee702fd32d40af4"
+    },
+    {
+      "path": "guia-elegir-midiplus-akm322-escritorio-chico/index.html",
+      "size": 36725,
+      "sha256": "209097bbfc2aa7347070c50186b25feab725726549d8722040459fe2c209b6ee"
+    },
+    {
+      "path": "guia-elegir-midiplus-ed6-practicar-bateria/index.html",
+      "size": 36714,
+      "sha256": "8ae7c5cc85efe6ebe05dc851ee7559c746a5a6da837cba375e6afd247062babf"
+    },
+    {
+      "path": "guia-elegir-midiplus-i61-teclado-controlador/index.html",
+      "size": 36630,
+      "sha256": "ebd4aeaa1b0bc365799672ba734b71efd1eddefbdd3cc030e4a7791b4039db5d"
+    },
+    {
+      "path": "guia-elegir-midiplus-ms6-home-studio/index.html",
+      "size": 36815,
+      "sha256": "cdcfe3690fbe3dc7f7fc3c6f161cfb857eb630c16b1ac16dc47a6e697b96d4c9"
+    },
+    {
+      "path": "guia-elegir-midiplus-studio-m-home-studio/index.html",
+      "size": 36979,
+      "sha256": "b9b4e56837c604450944334cc959b6049b1b14471605047a5a7ac1e088116c2e"
+    },
+    {
+      "path": "guia-elegir-monitores-5-o-6-pulgadas/index.html",
+      "size": 36741,
+      "sha256": "724adda0c868c5f4398396987916bf34f203422b5eba8d8279cbad35228ec9c2"
+    },
+    {
+      "path": "guia-elegir-monitores-cuarto-chico/index.html",
+      "size": 36683,
+      "sha256": "c70cabeb7fe81ba6fbbd0fb131e94c7e5a0df929f817087398a3d8124c615403"
+    },
+    {
+      "path": "guia-elegir-monitores-estudio-home-studio-chico/index.html",
+      "size": 37117,
+      "sha256": "d65f6a27c97c4ae0b081cec893482ef1e51712dead6c3fbc7e3bdd05b269ae7a"
+    },
+    {
+      "path": "guia-elegir-synido-tempokey-25/index.html",
+      "size": 36887,
+      "sha256": "b63ee5985ad406d0237b1a7919798e0ae93caa8404225da15223fd37e9602b51"
+    },
+    {
+      "path": "guia-para-elegir-auriculares-para-bateria-electronica/index.html",
+      "size": 36538,
+      "sha256": "8de9b8974e9196098d52fe5dcf5ba5162d8cc0624e06c1c61ecfe0489dbf0388"
+    },
+    {
+      "path": "guia-para-elegir-placa-de-sonido-para-guitarra/index.html",
+      "size": 36591,
+      "sha256": "b8b5c79d2e68a62bcff7b6e743334ea0ae05ef53f345b2f3b3ba2c1444bd9732"
+    },
+    {
+      "path": "guia-para-elegir-placa-de-sonido-para-guitarra-y-voz/index.html",
+      "size": 36831,
+      "sha256": "857e97d8a7beb1e553285ad7976762086927e76c263e75a2f4ea2220dcf780a9"
+    },
+    {
+      "path": "home-studio-con-poco-espacio/index.html",
+      "size": 36920,
+      "sha256": "b1df806293c81c0daab01734bd29053d4e04e15ed53acd70d95d1b7f8d851b00"
+    },
+    {
+      "path": "home-studio-para-crear-contenido/index.html",
+      "size": 36884,
+      "sha256": "016e52267341b41298e51b9bce5afaf6fe43e8b05eac94b65c9b8fca15f18b45"
+    },
+    {
+      "path": "home-studio-para-guitarra/index.html",
+      "size": 36679,
+      "sha256": "74670c425f50c189587c6e1de09f98f12ce9c5608751d08659f4c8dc37e08a0a"
+    },
+    {
+      "path": "home-studio-para-principiantes/index.html",
+      "size": 36749,
+      "sha256": "743026a92f8a741f6714e98a4555e3a908c7d5ad47fd1962f49bd1af533fa6d7"
+    },
+    {
+      "path": "home-studio-para-principiantes-guitarra/index.html",
+      "size": 34977,
+      "sha256": "4321638d6e1a067dc1ef4d9bdda3825bb93f3a37ddd9571f03f48647c98aca6c"
+    },
+    {
+      "path": "home-studio-para-principiantes-guitarra-42/index.html",
+      "size": 34971,
+      "sha256": "3c272c745b0f2c7bfc6eefba898ab7ef5205b7cc645b242f99ec6267e92623a7"
+    },
+    {
+      "path": "home-studio-para-principiantes-locucion/index.html",
+      "size": 34496,
+      "sha256": "3fd54f8dc827e96e6866643daff9ca4a8bd1c73b9ca6322021971f3f54dd5950"
+    },
+    {
+      "path": "home-studio-para-voz-y-guitarra/index.html",
+      "size": 36495,
+      "sha256": "1fc23966edec9b9ea9dfeca70df857d3c7e9767cb055e392b716155a7c06bd4a"
+    },
+    {
+      "path": "home-studio-piano-voz/index.html",
+      "size": 36287,
+      "sha256": "e6fd89b99fff5d1655dd1027216531b0ae0aa8b2dbc6501436b39dc620c0ea5c"
+    },
+    {
+      "path": "home-studio-principiantes-ableton/index.html",
+      "size": 37132,
+      "sha256": "5069dcc9a81766a2357880f1f9493a8350e3e36da5d6539e8f66bfb0ae5e6a83"
+    },
+    {
+      "path": "home-studio-principiantes-conectar-monitores/index.html",
+      "size": 34780,
+      "sha256": "cec337f61afaed8d981fb8a08fd4d3eaf56dacfa949bdecab6f07fe8f8cbca37"
+    },
+    {
+      "path": "home-studio-principiantes-creadores-contenido/index.html",
+      "size": 34604,
+      "sha256": "a4f14bc70873856c4d18d1f9ec1ab8e925a0ceda5f9cbc9b08ed006fd7b50a92"
+    },
+    {
+      "path": "home-studio-principiantes-editar-video/index.html",
+      "size": 34199,
+      "sha256": "2ab53b5a83192deaea2983e5d0f57bf0647bd595219debfd4e66e1aee850276e"
+    },
+    {
+      "path": "home-studio-principiantes-fl-studio/index.html",
+      "size": 37320,
+      "sha256": "4fc114e6a7d0d8b817b12df8b8e572559b1619fdd38c2974e87093eba6a32be2"
+    },
+    {
+      "path": "home-studio-principiantes-interfaz-audio/index.html",
+      "size": 34809,
+      "sha256": "ea5ed229bc3d50b488923ec29f802b1400c7fc4f9835d981170cd8fc52098bb1"
+    },
+    {
+      "path": "home-studio-principiantes-mezclar-noche/index.html",
+      "size": 35037,
+      "sha256": "c1e56e871cd40f840562ea51125ab902948435e1b92a2e13d8f7b5630c0a3d19"
+    },
+    {
+      "path": "home-studio-principiantes-voces/index.html",
+      "size": 34809,
+      "sha256": "edfdead9789b5e322ffad7a1f9c6728b35e0e16de9b466f214887f9f15448029"
+    },
+    {
+      "path": "home-studio-rap-setup/index.html",
+      "size": 36772,
+      "sha256": "212355fe33bb9939a19a6ad3d57132382ad024c05cd916666d66e090ea1c7933"
+    },
+    {
+      "path": "home-studio-sin-molestar-vecinos/index.html",
+      "size": 36917,
+      "sha256": "d99c31c7a93b3d9a13b19f72641caa4e1845656aceac7b502c3e38c7a150363d"
+    },
+    {
+      "path": "index.html",
+      "size": 24036,
+      "sha256": "48c182d28f56f04c8b65925dc763d38357b6194358fd8317d456b7e528500540"
+    },
+    {
+      "path": "interfaz-audio-dos-entradas-grabar-casa/index.html",
+      "size": 36598,
+      "sha256": "7b95bdd6b43120a4f784d9615d865a3acf698212ebc4afbf8fb06fc3ffce1865"
+    },
+    {
+      "path": "interfaz-audio-dos-entradas-principiantes/index.html",
+      "size": 36722,
+      "sha256": "afd305dd71ca10f968c9f2b275749fbf18ae6c4afc7f59addd97092343584f7e"
+    },
+    {
+      "path": "interfaz-audio-dos-entradas-streaming/index.html",
+      "size": 36889,
+      "sha256": "a7ec34a3b503a69a9347a33df580f95b689e46f27efeda35463172d266e9459e"
+    },
+    {
+      "path": "interfaz-audio-grabar-voz-casa/index.html",
+      "size": 36700,
+      "sha256": "aafc83be9e6ccb6cc8eca27339e5dc0e945759953e2c6267626b6089b1cea491"
+    },
+    {
+      "path": "interfaz-audio-grabar-voz-casa-2/index.html",
+      "size": 34889,
+      "sha256": "138fb53e86b79c5eac71fecc11f001af2f7e668abcefd142cd19fa3b7706f7e8"
+    },
+    {
+      "path": "interfaz-audio-grabar-voz-casa-4/index.html",
+      "size": 34894,
+      "sha256": "11db40805744abe2162f3c560203ebae8ffce2ac307ae42072be64c028a2e318"
+    },
+    {
+      "path": "interfaz-audio-grabar-voz-casa-8/index.html",
+      "size": 37146,
+      "sha256": "69185c25f329363051c477dfd8b1bc8ad44c377de991d408bba1aa65c60840bb"
+    },
+    {
+      "path": "interfaz-audio-grabar-voz-departamento/index.html",
+      "size": 37098,
+      "sha256": "6d937ff93af18c0e16bce8ecdcdd5d0ec89709072c24c12077da1800bfc31516"
+    },
+    {
+      "path": "interfaz-audio-grabar-voz-guitarra/index.html",
+      "size": 36565,
+      "sha256": "b9d5a3fa9bb429772f3d07d4d8564c1574fd72985310a3352703752c9427ccfe"
+    },
+    {
+      "path": "interfaz-audio-grabar-voz-guitarra-casa/index.html",
+      "size": 36436,
+      "sha256": "c0b9b1916af83d3b935cdc9c42b90731d204ad8f71882e09638b0a1e0ba38e1f"
+    },
+    {
+      "path": "interfaz-audio-grabar-voz-locucion-casa/index.html",
+      "size": 34827,
+      "sha256": "9304f9165f5c6a6ec65d5e123980f296b1b2e998791be9cee6916f2354ee5862"
+    },
+    {
+      "path": "interfaz-audio-grabar-voz-portable/index.html",
+      "size": 34454,
+      "sha256": "aa9a65e6795cbfef018b3cab693c9610d90357c1e057d05460a258207d056396"
+    },
+    {
+      "path": "interfaz-audio-grabar-voz-principiantes/index.html",
+      "size": 36786,
+      "sha256": "8725befe46450e5d7e5f241ecba235c2d729a2af1db78fc9130e76908adabbb3"
+    },
+    {
+      "path": "interfaz-audio-grabar-voz-streaming/index.html",
+      "size": 36988,
+      "sha256": "bc9a4290f0c7c2b7cb2d64e8196bcb644cf02402f92d33e1378933c59be5d1ca"
+    },
+    {
+      "path": "interfaz-audio-monitores-estudio/index.html",
+      "size": 36776,
+      "sha256": "36d9bed47d191fb91b0546c3a11967998eda9030b42d2a7170beef2d15bd2c26"
+    },
+    {
+      "path": "interfaz-audio-para-ipad-o-mobile/index.html",
+      "size": 36851,
+      "sha256": "124099b6788f7ea46b40b4af49713a0dabbed1ac17d09495991254deca3f194a"
+    },
+    {
+      "path": "interfaz-audio-podcast/index.html",
+      "size": 36758,
+      "sha256": "7cbc56cbae02e8aa8a2af5a0df715e91f477c88a063062a5ea26fe917138ba76"
+    },
+    {
+      "path": "interfaz-audio-podcast-grabar-casa/index.html",
+      "size": 37037,
+      "sha256": "78298e7746117869de1790c545ea68e8059d268de7887db62d788f7ec1af2962"
+    },
+    {
+      "path": "interfaz-audio-podcast-home-studio/index.html",
+      "size": 36922,
+      "sha256": "ace84224fcfb4c0802c4d13275248566ed8882bbaf08f755ec8c84c68de56608"
+    },
+    {
+      "path": "interfaz-audio-podcast-principiantes/index.html",
+      "size": 34745,
+      "sha256": "1cd75918e7b0d57362043eec2f1ca54bc7577d519c4719d01baf6d329c7102aa"
+    },
+    {
+      "path": "interfaz-audio-portable-notebook/index.html",
+      "size": 36742,
+      "sha256": "3f22889c9f13be95ba651fc8e4ea2d94610268b68f4f1f29e08a3b09f16155e7"
+    },
+    {
+      "path": "interfaz-audio-streaming-grabar-casa/index.html",
+      "size": 36884,
+      "sha256": "c37f99e466d23e2838f135b99c2daaffe45e5de3e289c4ad6f1b550fd732556b"
+    },
+    {
+      "path": "interfaz-audio-streaming-principiantes/index.html",
+      "size": 36767,
+      "sha256": "d0c7ac04f8c5df5538ab2ee96cc1f4bd2c032c974c7ece9e30eb55a316a1a16c"
+    },
+    {
+      "path": "interfaz-con-phantom-power-para-microfono-condensador/index.html",
+      "size": 36903,
+      "sha256": "7e232793429a694d052c155f3149f18853faeddd3644ef6a5fb596cd43567937"
+    },
+    {
+      "path": "interfaz-de-audio-dos-entradas-home-studio/index.html",
+      "size": 36560,
+      "sha256": "fe6e3820e56dd9470f181111277c87c2039995c37649f3f00bbac40c12124fc6"
+    },
+    {
+      "path": "interfaz-de-audio-dos-entradas-para-voz-e-instrumento/index.html",
+      "size": 36235,
+      "sha256": "f1c41cbc5f04350ac96cd7679250b834b0fca235be8586580d34ec87f1478e03"
+    },
+    {
+      "path": "interfaz-de-audio-para-bajo-electrico/index.html",
+      "size": 36647,
+      "sha256": "a39a235ae9efde1b56939c4382e95946db22f7ed9f2a351c5c736e1b1066d8e3"
+    },
+    {
+      "path": "interfaz-de-audio-para-dos-microfonos/index.html",
+      "size": 36597,
+      "sha256": "57d017438299afc5e3a23f6ec5ac7aecb354dae6af8174b72eaf5d2a9ab33211"
+    },
+    {
+      "path": "interfaz-de-audio-para-grabar-covers-en-casa/index.html",
+      "size": 34755,
+      "sha256": "00b78ec494d04a94ccd560998e0a1f5081193b5d1db69c4d39a1adfe3ce02436"
+    },
+    {
+      "path": "interfaz-de-audio-para-grabar-voz-en-casa/index.html",
+      "size": 37722,
+      "sha256": "b5c7d7d99fc8c75ef4bb33e8308d769f4e53e007fbb5daf6f4663ac69254ad7a"
+    },
+    {
+      "path": "interfaz-de-audio-para-grabar-voz-en-casa-26/index.html",
+      "size": 36631,
+      "sha256": "6537da10576be210886fa5e2e9fe7896d636ce97dcbe6073282ac6cd81a683a7"
+    },
+    {
+      "path": "interfaz-de-audio-para-grabar-voz-en-casa-28/index.html",
+      "size": 36627,
+      "sha256": "8aaa1fbe358a0abadb484777dfa4d1a5253e183a643f48150b866b6b19058026"
+    },
+    {
+      "path": "interfaz-de-audio-para-grabar-voz-en-casa-7/index.html",
+      "size": 34522,
+      "sha256": "f88ef1ecdbe91dbb9a9ed59f109d45de17b0796a60581882aef8a6d096ec20f7"
+    },
+    {
+      "path": "interfaz-de-audio-para-podcast-streaming/index.html",
+      "size": 36873,
+      "sha256": "5250e1c22ecaa6b58db99ccd4ae7e4b8c3a2413bc4bcd210c9cf03fae896cd2e"
+    },
+    {
+      "path": "interfaz-de-audio-para-streaming-con-monitoreo/index.html",
+      "size": 36637,
+      "sha256": "473d6ba66c19250df0c2f9416511a84a8e134d1a1c47dcddb32dfe6b7a2dadfb"
+    },
+    {
+      "path": "interfaz-de-audio-para-streaming-home-studio/index.html",
+      "size": 36517,
+      "sha256": "46888a4dc8b2adacb1e5cfed657c164cf440f7db3caee8b5c6ab52e0e2d22d08"
+    },
+    {
+      "path": "interfaz-de-audio-para-teclado-y-voz/index.html",
+      "size": 36853,
+      "sha256": "317e6c49e4c35d84b45f3504b5c5b610e5c54a1ba18a8b122cedb36f445de0a6"
+    },
+    {
+      "path": "interfaz-sonido-guitarra-voz/index.html",
+      "size": 36677,
+      "sha256": "fc02215f784bbeddb40da8948c82fa747c8ae8111e1e6283675e5ac2dc7b007d"
+    },
+    {
+      "path": "mejor-filtro-pop-para-grabar-voz/index.html",
+      "size": 36796,
+      "sha256": "aeb57acb830cd3ba81566446bdc23cf0777f2167258bcee911d807aeed9f4370"
+    },
+    {
+      "path": "mejor-microfono-usb-para-podcast/index.html",
+      "size": 35725,
+      "sha256": "3f4a98136577f026905ca8d5c468360e424166c31b6d4777c506d32a3f382fa6"
+    },
+    {
+      "path": "mejor-microfono-xlr-para-podcast/index.html",
+      "size": 36917,
+      "sha256": "7162de272db25d73917ed687b2684af3e0e9d3940fe0b0fcdfd5987755e78431"
+    },
+    {
+      "path": "mejor-opcion-alctron-um900-streaming/index.html",
+      "size": 36707,
+      "sha256": "1dba86f689f1f86b412d79bc4a1f51f7013e7e8b351be1f4c2bbb304ad5d3d61"
+    },
+    {
+      "path": "mejor-opcion-arturia-keystep-pro-hardware/index.html",
+      "size": 36829,
+      "sha256": "a96cee41196ddf2f5f00ff98e186b5243870a3cc9f964ece41905c65146e91c0"
+    },
+    {
+      "path": "mejor-opcion-arturia-microfreak-sintesis/index.html",
+      "size": 35068,
+      "sha256": "247e169b3158bf6d775e5505fb710311f4f2a6e8105f91384ff7e8e3180da00f"
+    },
+    {
+      "path": "mejor-opcion-arturia-minilab-3-ableton/index.html",
+      "size": 36582,
+      "sha256": "c819352c90d9abb8bd4a2a1335fc822a39e6f0ab1c7cb8df4e95e5d969ba1d6e"
+    },
+    {
+      "path": "mejor-opcion-arturia-minilab-3-fl-studio/index.html",
+      "size": 36841,
+      "sha256": "2d61142080c4ce46d30dc30006f0e1f7ec78f0e0430dd3a2caebad94cffc263f"
+    },
+    {
+      "path": "mejor-opcion-arturia-polybrute-estudio/index.html",
+      "size": 36915,
+      "sha256": "846521c5ce07eff503607e4912b8b86288e209de8ba5559bd502210064f3f949"
+    },
+    {
+      "path": "mejor-opcion-audio-technica-at2020-home-studio/index.html",
+      "size": 36706,
+      "sha256": "25de6f6c041f7e33780fd96493b9371b1424703001191b3f90b0237de4a4229c"
+    },
+    {
+      "path": "mejor-opcion-audio-technica-ath-m20x-grabar/index.html",
+      "size": 36712,
+      "sha256": "b57a569394ee2311146f8781ef9c83c3c1b232cf3ba4ad279a3a96faf1629d56"
+    },
+    {
+      "path": "mejor-opcion-audio-technica-ath-m50x-monitoreo/index.html",
+      "size": 36506,
+      "sha256": "919ca517c58e4990f7b5b4af80fa0c97058927bdebed910a01786c6fb4e1756c"
+    },
+    {
+      "path": "mejor-opcion-auriculares-bateria-electronica/index.html",
+      "size": 36873,
+      "sha256": "68c99887c70d86338e26af334182655796b2bfd6dfe1edc71e3d7ed515fbcc65"
+    },
+    {
+      "path": "mejor-opcion-auriculares-grabar-podcast/index.html",
+      "size": 36592,
+      "sha256": "7512c1e1fdccadb6668c4064b1298e62ec50ab3f9ad70bc0b0094120afe35430"
+    },
+    {
+      "path": "mejor-opcion-bateria-electronica-departamento/index.html",
+      "size": 36265,
+      "sha256": "1bfa7ed6b694ff89ebb8bb92fadf73fc5e74550f37a4a2adde1d184974387166"
+    },
+    {
+      "path": "mejor-opcion-brazo-microfono-streaming/index.html",
+      "size": 36200,
+      "sha256": "25520c74af9b1fd1dcecbee93fd7ff75fad570de8e6190406796661ef53055eb"
+    },
+    {
+      "path": "mejor-opcion-controlador-midi-fl-studio/index.html",
+      "size": 37099,
+      "sha256": "c77103607710ebb46c3f338c5445ab425959c52c36e1143bdd682fe3d24b272d"
+    },
+    {
+      "path": "mejor-opcion-controlador-midi-para-ableton/index.html",
+      "size": 36518,
+      "sha256": "25e70c6f255df1e093bb9af21cc7e81ef3eb24a2f5dfbed7ed5d7ea5720849a3"
+    },
+    {
+      "path": "mejor-opcion-interfaz-audio-dos-entradas/index.html",
+      "size": 36799,
+      "sha256": "7d770bfedef95891a900251265210347c9eb8bb09421aed6776fe132ccdc1356"
+    },
+    {
+      "path": "mejor-opcion-interfaz-audio-grabar-voz-casa/index.html",
+      "size": 36853,
+      "sha256": "a06959f67da9f8cb758131809549879da8c1549e06ddd4e52269283ee1e14882"
+    },
+    {
+      "path": "mejor-opcion-interfaz-audio-podcast/index.html",
+      "size": 36740,
+      "sha256": "a8f6c0364050b5f08acc6b2081b9cb9672f519218d679a77ad8ea46fd5c43a1b"
+    },
+    {
+      "path": "mejor-opcion-interfaz-audio-streaming/index.html",
+      "size": 36637,
+      "sha256": "72c4147d3e3af7addba995eab9a0d787bde2bb47bc3a1bfcd72b7912e809dee9"
+    },
+    {
+      "path": "mejor-opcion-microfono-condensador-para-voz/index.html",
+      "size": 36607,
+      "sha256": "15f993e44b5e08a0417ae3efe1c00ad522d4e207a391deb73c49de4d483f95f2"
+    },
+    {
+      "path": "mejor-opcion-microfono-para-podcast/index.html",
+      "size": 36546,
+      "sha256": "8cbdaad00d7ca995175206ccebc44bde4232e92049003985f84b3dfb70d03728"
+    },
+    {
+      "path": "mejor-opcion-microfono-streaming/index.html",
+      "size": 36598,
+      "sha256": "44a46d38a005ff34da3a48207caa3b0204cd6f511fe6cc9d23e5b8731d7b3a89"
+    },
+    {
+      "path": "mejor-opcion-midiplus-ak490-principiantes/index.html",
+      "size": 36651,
+      "sha256": "e4475137252aadd08027966034df104d55e9a88b27a8215fe62b84dd4899b66f"
+    },
+    {
+      "path": "mejor-opcion-midiplus-akm322-escritorio-chico/index.html",
+      "size": 36902,
+      "sha256": "0d85f9bb96e114edc41f52dcd23d94151303ff9bb2b07b6e03bb2ebd02ddc303"
+    },
+    {
+      "path": "mejor-opcion-midiplus-ed6-practicar-bateria/index.html",
+      "size": 36482,
+      "sha256": "ea0aa1e63f598aefb6ab00b8989b87e1d510335c5c19048419b9c21cf3c02150"
+    },
+    {
+      "path": "mejor-opcion-midiplus-i61-teclado-controlador/index.html",
+      "size": 37007,
+      "sha256": "34860d4db3bda73dfaf800b56518e500cc173c78990de4286f908667172eaa3b"
+    },
+    {
+      "path": "mejor-opcion-midiplus-ms5-home-studio/index.html",
+      "size": 36829,
+      "sha256": "e11e5ca0c7765758e30f3860b658aee83981c3e73b9b8937e18ddd3db0b21b58"
+    },
+    {
+      "path": "mejor-opcion-midiplus-ms6-home-studio/index.html",
+      "size": 36905,
+      "sha256": "02673c77032e1ea1a66197c6dbb7439b1963e674ecaccc9715fd5e9fc304c06c"
+    },
+    {
+      "path": "mejor-opcion-midiplus-studio-m-home-studio/index.html",
+      "size": 36923,
+      "sha256": "e80483e9e9a696d8605e5529a638af3d6204c60d9aa98bb601be0ff0db1a638e"
+    },
+    {
+      "path": "mejor-opcion-monitores-5-pulgadas-o-6-pulgadas/index.html",
+      "size": 35937,
+      "sha256": "1a3ec7f8445b68900d33d3db12b6b9ee401b9e336298d071aa22641b5413e0f1"
+    },
+    {
+      "path": "mejor-opcion-monitores-cuarto-chico/index.html",
+      "size": 36762,
+      "sha256": "530a5edd8c2203ff6c657ee2da058c5773dc03e1dab6c4ba89b10e080a4e61b1"
+    },
+    {
+      "path": "mejor-opcion-monitores-estudio-home-studio-chico/index.html",
+      "size": 36973,
+      "sha256": "e75bc27da43c45a0c5c051a76a2fffb813473ad1b4f3631c5afded65ef096e68"
+    },
+    {
+      "path": "mejor-opcion-placa-sonido-guitarra/index.html",
+      "size": 36906,
+      "sha256": "16b0185378f4eecf5ff5ce37ea9e205449bca10f8c0ae5691248373e24483d5b"
+    },
+    {
+      "path": "mejor-opcion-placa-sonido-guitarra-voz/index.html",
+      "size": 36782,
+      "sha256": "c1d72f5cc8dc5ccc90c55dbc59c68f49a8405b8cba015abede47cadfc18daaec"
+    },
+    {
+      "path": "mejor-opcion-sintetizador-aprender-sintesis/index.html",
+      "size": 36890,
+      "sha256": "2f7cd7f4984a243c44429cfecc8e1912767260cd1d99932507052cca9a5d5a22"
+    },
+    {
+      "path": "mejor-opcion-synido-tempokey-25-producir/index.html",
+      "size": 36768,
+      "sha256": "d4d9e902d136a4ae3665fdf4c5edf162364c089b6afe0ba0ff81572c1ed65b7c"
+    },
+    {
+      "path": "mejorar-audio-streaming-microfono/index.html",
+      "size": 36649,
+      "sha256": "f7ee435c7eefe9e25edb1b16e51f878a14f54a66aaffc05d97fa14146aab1421"
+    },
+    {
+      "path": "microfono-condensador-para-voz-grabacion/index.html",
+      "size": 36588,
+      "sha256": "c236f517369318b1bd8f2fa8b0839575e17dfd2b7a5f15f1d1e11a1d5a39a003"
+    },
+    {
+      "path": "microfono-condensador-para-voz-grabar-en-casa/index.html",
+      "size": 36545,
+      "sha256": "c4048522d1ebc50232312ec1e3f653c970408ce6ac3dade1b63820ddea86236b"
+    },
+    {
+      "path": "microfono-condensador-para-voz-home-studio/index.html",
+      "size": 36780,
+      "sha256": "04886d2e547ae7a68109deabca683287c9b42e66c1ab68b53f280c1675e92599"
+    },
+    {
+      "path": "microfono-condensador-para-voz-principiantes/index.html",
+      "size": 36719,
+      "sha256": "e6e2516eec75a571656e7916bd1cef83aae998cbb15e92b86017ebf5496115d3"
+    },
+    {
+      "path": "microfono-condensador-para-voz-streaming/index.html",
+      "size": 37020,
+      "sha256": "05267469a3a8d3850ff976e3129cf8e16fa2e45e5e28e7747df52330565af30e"
+    },
+    {
+      "path": "microfono-dinamico-vs-condensador-para-podcast/index.html",
+      "size": 36593,
+      "sha256": "83fcae87973fc10fa8ba825122129494c8c5658b9e563b83b54c28193c5bc316"
+    },
+    {
+      "path": "microfono-para-cantar-en-home-studio/index.html",
+      "size": 36689,
+      "sha256": "b6481be63ca3d9a04725ffcb4a5d5dfa3c4ec86c77e0ecf2732196cc809e69d6"
+    },
+    {
+      "path": "microfono-para-clases-online/index.html",
+      "size": 36525,
+      "sha256": "d819e0369449a495970528f87e6c049736edd7bf8dc7b62b0409088287019f37"
+    },
+    {
+      "path": "microfono-para-grabar-reels/index.html",
+      "size": 36494,
+      "sha256": "8198875ee954c0661b795bc9e2715b48482c87501ed1265afc9aef57082f7124"
+    },
+    {
+      "path": "microfono-para-locucion-en-casa/index.html",
+      "size": 36687,
+      "sha256": "0ce2534deddd465b91115c9f03bea4db7f61bd177657bfc4f48792b410bf35f0"
+    },
+    {
+      "path": "microfono-para-podcast-clases-online-usb-o-xlr/index.html",
+      "size": 36689,
+      "sha256": "4238fb1c6b1cbbc05a0331df7a690833f5a74b32be306daea0e11f6a8d23e67a"
+    },
+    {
+      "path": "microfono-para-podcast-con-invitado/index.html",
+      "size": 37069,
+      "sha256": "0968b32c5dc90911124e4fb8474f1d4181cc6aff0a144ea3a4bc97e5b5752c34"
+    },
+    {
+      "path": "microfono-para-podcast-conectar-monitores/index.html",
+      "size": 34635,
+      "sha256": "4d5db541a806eb7b5622add7f18ebb275549a234bb3fcc3178ec2e02e54ea3af"
+    },
+    {
+      "path": "microfono-para-podcast-departamento-usb-o-xlr/index.html",
+      "size": 34724,
+      "sha256": "2bfe8b604abede860a3ccd2fb8b3e81fdc3798871581e24ea7efd03824ae84af"
+    },
+    {
+      "path": "microfono-para-podcast-dos-entradas-usb-o-xlr/index.html",
+      "size": 34453,
+      "sha256": "539a67de377527a1ca0efa2c55cba1cda145f936efce38c02f4d54bf827c2081"
+    },
+    {
+      "path": "microfono-para-podcast-en-casa-usb-o-xlr/index.html",
+      "size": 36770,
+      "sha256": "ccfcd03f80e809fb8ef7ed5e4aab8afd1738c00a3b4678d6c91bdff0dcd1ead9"
+    },
+    {
+      "path": "microfono-para-podcast-home-studio-chico/index.html",
+      "size": 36793,
+      "sha256": "aac4a847515ba74c192bd42712b2baa3dd81c9be82f1b10659d71b084d23dcee"
+    },
+    {
+      "path": "microfono-para-podcast-home-studio-usb-o-xlr/index.html",
+      "size": 36788,
+      "sha256": "cb17df9e09cd26f8c639a830eaf6be063cf9bfd5b1934e3758485635677b2e47"
+    },
+    {
+      "path": "microfono-para-podcast-locucion-usb-o-xlr/index.html",
+      "size": 34526,
+      "sha256": "a6a8f99b3d4e40d19a5a8eb192bae5adfa51a2f4c41153d858b9116cbd845a3b"
+    },
+    {
+      "path": "microfono-para-podcast-mejorar-audio-en-casa/index.html",
+      "size": 36541,
+      "sha256": "6285d89d8b27fab057c39a6bb18d40c4726fce61ad3d861d5bb70c11d50dcc49"
+    },
+    {
+      "path": "microfono-para-podcast-para-grabar-covers/index.html",
+      "size": 36591,
+      "sha256": "5b2e525be7e194f74ba8e842e6797a105b48893f892dbd60fef59d2cd0f0c816"
+    },
+    {
+      "path": "microfono-para-podcast-para-guitarra-usb-o-xlr/index.html",
+      "size": 34453,
+      "sha256": "e36b62b5a6073701283a187d48c83a6ace13e10b77054aabf10ee08288806154"
+    },
+    {
+      "path": "microfono-para-podcast-principiantes-usb-o-xlr/index.html",
+      "size": 36807,
+      "sha256": "d01e2c4b5d3ee1df97a5ac91d85bd9d588b60c3e4d46cc08909dc35b50155e73"
+    },
+    {
+      "path": "microfono-para-podcast-setup-portable-usb-o-xlr/index.html",
+      "size": 37029,
+      "sha256": "6cbedc639f0cd8c11fe0e7bfe09b7eaf0b2ba1709c328ece703a2b19fdfa42a4"
+    },
+    {
+      "path": "microfono-para-podcast-sin-complicarse/index.html",
+      "size": 36695,
+      "sha256": "7fcd70168c913d4a02249a20240113c10916d6f2208aab83f32f002a9fc160cf"
+    },
+    {
+      "path": "microfono-para-podcast-streaming-usb-o-xlr/index.html",
+      "size": 36875,
+      "sha256": "3b31836b9b7fa6fe652abdfe3702aa462b85d0a7b6f4e3c66d3421e187cbb351"
+    },
+    {
+      "path": "microfono-para-podcast-twitch-usb-o-xlr/index.html",
+      "size": 36356,
+      "sha256": "102968b85932f09a01e354c20bc680dc484256640a905c1339bd18a9ce2a9f30"
+    },
+    {
+      "path": "microfono-para-podcast-usb-o-xlr/index.html",
+      "size": 36603,
+      "sha256": "34e10859f53fadb0c3f8337d62aff8c26b5ad9b5004b163dcb11450b1d1ec74b"
+    },
+    {
+      "path": "microfono-para-podcast-usb-o-xlr-7/index.html",
+      "size": 34661,
+      "sha256": "86cae18477bd77c459eee8078b05ad75dcdfd69a1e5cdb0b41449a598898c553"
+    },
+    {
+      "path": "microfono-para-podcast-voz-usb-o-xlr/index.html",
+      "size": 36645,
+      "sha256": "08ba5ca8caf76b8b21b2c34852590d5686c8941e306ecfd2e79f46fedf71c229"
+    },
+    {
+      "path": "microfono-para-podcast-youtube-usb-o-xlr/index.html",
+      "size": 36656,
+      "sha256": "220a5d2ac6e87c86b6bf1e25efe7d354004419c1313dc5ec169b8209ce1c9535"
+    },
+    {
+      "path": "microfono-para-streaming/index.html",
+      "size": 35696,
+      "sha256": "4197c0973f3761b2cd5819e2faf05e89bf7a95847c599f0222a04f0eee3e89c6"
+    },
+    {
+      "path": "microfono-para-streaming-clases-online/index.html",
+      "size": 34441,
+      "sha256": "7f536ac5e1f3c6a3fac4ede7d84c916a56a3d78d6c400029f7fa132a14e17e09"
+    },
+    {
+      "path": "microfono-para-streaming-con-interfaz-de-audio/index.html",
+      "size": 34873,
+      "sha256": "a2c17b51db2f8fde79af1ad30d284d65cdf748b53d611055bbf8004c3eaef435"
+    },
+    {
+      "path": "microfono-para-streaming-creadores-contenido/index.html",
+      "size": 34906,
+      "sha256": "361aa9f84037f8f669ac6917660e3c880fd8bd92c307955b2ab27fae92ffd769"
+    },
+    {
+      "path": "microfono-para-streaming-de-noche/index.html",
+      "size": 36829,
+      "sha256": "9e19e0067f124767588154c22f1d0c3b2b1e58633ac112cea3c427efc5712136"
+    },
+    {
+      "path": "microfono-para-streaming-departamento/index.html",
+      "size": 36847,
+      "sha256": "1486c1c4cbdf41299008f89581cc4596f945f368952ba853ef3590552dc6932c"
+    },
+    {
+      "path": "microfono-para-streaming-grabar-contenido/index.html",
+      "size": 34655,
+      "sha256": "4a7d096b54bc675f113775d3944d748a2a1540ea01fc023e5cd2b920e087ee75"
+    },
+    {
+      "path": "microfono-para-streaming-grabar-covers/index.html",
+      "size": 34610,
+      "sha256": "befaff18004a81e3c96be95e3ad0133e0bff84ca67b690e62f11fa313eee0b13"
+    },
+    {
+      "path": "microfono-para-streaming-grabar-en-casa/index.html",
+      "size": 36689,
+      "sha256": "219c5921bb5407060969ce9ee3cf6daf8ec1e63befe470c2bca77bb157661698"
+    },
+    {
+      "path": "microfono-para-streaming-grabar-voces/index.html",
+      "size": 34675,
+      "sha256": "57415f27eafbfe7218f72e70c8882397989519879ec06bf249a5c5559c39a270"
+    },
+    {
+      "path": "microfono-para-streaming-guitarra/index.html",
+      "size": 36675,
+      "sha256": "a04fab7c64610e75540f74de5b7d0a8d84889c4d8bf97ff36c52182109cba7d1"
+    },
+    {
+      "path": "microfono-para-streaming-home-studio/index.html",
+      "size": 36803,
+      "sha256": "68a885721a8be63f3089d63c7cd644c00de2735e2c1e5be0d597ee25a72412f5"
+    },
+    {
+      "path": "microfono-para-streaming-home-studio-chico/index.html",
+      "size": 36537,
+      "sha256": "a6c7adc0ba55a0c023dc0a6542acef15ca03886d583aaebe9742297370fd4106"
+    },
+    {
+      "path": "microfono-para-streaming-locucion/index.html",
+      "size": 34879,
+      "sha256": "c625946849c9b694f98e958dd508a11e19606fbd1fd1b666dae719c62df8052a"
+    },
+    {
+      "path": "microfono-para-streaming-mejorar-audio-en-casa/index.html",
+      "size": 36718,
+      "sha256": "7793c313b26c44aa2d8a28285e0c6a6c7b9bf6b5ff0688a8e9cf6fd90305c1c4"
+    },
+    {
+      "path": "microfono-para-streaming-para-principiantes/index.html",
+      "size": 36722,
+      "sha256": "3c97f0bed3bac3a7f4a8dc9e01c6345d0e44e88a79971ac4d1e623f027f204dd"
+    },
+    {
+      "path": "microfono-para-streaming-para-voces/index.html",
+      "size": 34659,
+      "sha256": "a96ddb531e6909ba5ceba849bbe8d950a143b296b6c6baaa8819bc25db85ee54"
+    },
+    {
+      "path": "microfono-para-streaming-podcast/index.html",
+      "size": 36562,
+      "sha256": "02905daa4af86eab5272ef5ea2e5d5536f2417d570bbada4a5c73168c6374c31"
+    },
+    {
+      "path": "microfono-para-streaming-portable/index.html",
+      "size": 36500,
+      "sha256": "5eeeeb5d03e39135c1c79893e1473a75f77371a239bc6a521ad4ada6212ba1a2"
+    },
+    {
+      "path": "microfono-para-streaming-sin-complicarse/index.html",
+      "size": 36608,
+      "sha256": "2c5ab776723dfc3733f83b00123300ec57db444d7978cf83f4a51dbd6e768768"
+    },
+    {
+      "path": "microfono-para-streaming-twitch/index.html",
+      "size": 36297,
+      "sha256": "74ee374ae89eb56473db1af2767b74e3ad1fc4b64bd9ec0e577257d79e524cdc"
+    },
+    {
+      "path": "microfono-para-streaming-youtube/index.html",
+      "size": 36291,
+      "sha256": "028faac90dc72716600de30ab6156c2594bf780df3b68d3ec561662f3d1e9f1b"
+    },
+    {
+      "path": "microfono-usb-para-podcast-departamento/index.html",
+      "size": 36741,
+      "sha256": "7c7cad4251d83a7917c8f5157a334a9fd9403f19545217526c032397a33490e4"
+    },
+    {
+      "path": "microfono-usb-para-podcast-en-casa/index.html",
+      "size": 36409,
+      "sha256": "f4570ff31b9b932ef6f0d99a451f61e5e7cc500416dde1cf62258a34591fc572"
+    },
+    {
+      "path": "microfono-usb-para-podcast-home-studio/index.html",
+      "size": 36762,
+      "sha256": "07a18eb63ca2e808dfe8a7f3db72d637e2a6cc94fe4dcf352e4d870253262ac9"
+    },
+    {
+      "path": "microfono-usb-para-podcast-principiantes/index.html",
+      "size": 35843,
+      "sha256": "08b494e0fed1a4ceeb6cb7b6c4ceb1ec52f81fb4982c568e21a9a5f88ed2a021"
+    },
+    {
+      "path": "microfono-usb-para-podcast-sin-interfaz/index.html",
+      "size": 36173,
+      "sha256": "94eadcc87d724cbe70ee51780a7f340abfa2aaa92e50246580e15649ef2234da"
+    },
+    {
+      "path": "microfono-usb-para-podcast-streaming/index.html",
+      "size": 35911,
+      "sha256": "2f1c173c4f9d69c0af91ba57b47164f8725e9c8e45c2742a46be8b77cd09abba"
+    },
+    {
+      "path": "microfono-usb-vs-interfaz-de-audio/index.html",
+      "size": 37092,
+      "sha256": "8de715e10460038d111c4c4cb30f992c8a4df6b2824bf8d5654c509a67642890"
+    },
+    {
+      "path": "microfono-xlr-para-podcast/index.html",
+      "size": 36823,
+      "sha256": "9a987c674e5224e47718e3302807be9e0b70ca15d5176d715536d248445d3782"
+    },
+    {
+      "path": "microfono-xlr-para-podcast-en-casa/index.html",
+      "size": 36689,
+      "sha256": "6467ca151bbc0fa13427036888039d7ec6850e0e3f8c5dc8df631473d05f47d6"
+    },
+    {
+      "path": "microfono-xlr-para-podcast-home-studio/index.html",
+      "size": 36986,
+      "sha256": "5ecb9fb39573ba21767746f8f17d3609d45dd0effca4b136d05cd59a7390492f"
+    },
+    {
+      "path": "microfono-xlr-para-podcast-principiantes/index.html",
+      "size": 36533,
+      "sha256": "33eded158a83d84ba897e9e781d672e522aef27837a6333a5a9165e80d47e3e2"
+    },
+    {
+      "path": "microfono-xlr-para-podcast-streaming/index.html",
+      "size": 36744,
+      "sha256": "3fd4e2fae36a726a8e7eeeec5e1ac837ac6be2389b311bbcce5c60da936ab289"
+    },
+    {
+      "path": "midiplus-ak490-principiantes/index.html",
+      "size": 36570,
+      "sha256": "97fadf62d6d487a2ef8aea269b817e4b0a27fcf667c83b6a08e4b8264ee2bbc8"
+    },
+    {
+      "path": "midiplus-ak490-principiantes-ableton/index.html",
+      "size": 36864,
+      "sha256": "da12b792c7d4a150dfd0944e471e5242aa2ca65b0a13d5e594a44aaa5a59d899"
+    },
+    {
+      "path": "midiplus-ak490-principiantes-fl-studio/index.html",
+      "size": 36769,
+      "sha256": "63294f7c4943548d0c7d68d45550889771b3099e276f5f781d445abd79bdc448"
+    },
+    {
+      "path": "midiplus-ak490-principiantes-home-studio/index.html",
+      "size": 36958,
+      "sha256": "0308e23fee2fe9ccae885cc5c212592883e6128b2205548ce0278aa23daebde3"
+    },
+    {
+      "path": "midiplus-akm322-controlador-compacto-escritorio/index.html",
+      "size": 36759,
+      "sha256": "2525334049f1f493deb4a61e1c1fdf13ccbac25fce59c103978de8e534df5aca"
+    },
+    {
+      "path": "midiplus-akm322-controlador-compacto-home-studio/index.html",
+      "size": 36976,
+      "sha256": "f7124f1e04859d3fa2137833713a8194ccaffc6cfd9acd10ebd887de6d5c3b09"
+    },
+    {
+      "path": "midiplus-akm322-controlador-midi-escritorio/index.html",
+      "size": 37058,
+      "sha256": "51b11e42ab1a4db4488987f98ec4991e9df4f61c5f42ac6ca4a0d02d083b75a8"
+    },
+    {
+      "path": "midiplus-akm322-escritorio-chico-fl-studio/index.html",
+      "size": 37098,
+      "sha256": "c29a41db14d117ff091fa3e21feb6161c95e36124c513734a59dcac34f94eb98"
+    },
+    {
+      "path": "midiplus-akm322-escritorio-chico-principiantes/index.html",
+      "size": 37094,
+      "sha256": "d9ef4c3697c95770858cc4ae547eefccde34c0ada98dc56b236cba4eaef03b91"
+    },
+    {
+      "path": "midiplus-ed6-practicar-bateria/index.html",
+      "size": 36766,
+      "sha256": "b63e13603372ab82bc3402d362ab580c3285cd0dc0427f1c47a65791b731018e"
+    },
+    {
+      "path": "midiplus-ed6-practicar-bateria-departamento/index.html",
+      "size": 36594,
+      "sha256": "dabad3d4c7f8fb52488129bf1ad1eb0cd5b214b46067ad1fc18c4dd102b12b21"
+    },
+    {
+      "path": "midiplus-ed6-practicar-bateria-home-studio/index.html",
+      "size": 36874,
+      "sha256": "e782bfcc85bb0cf4574df8fc51cb9afb19ba37f62fa06df3b0e0d35adcfe6e6c"
+    },
+    {
+      "path": "midiplus-ed6-practicar-bateria-principiantes/index.html",
+      "size": 36703,
+      "sha256": "316455b167676df900e853155d420c301a18cedbba2e2017e5c2f8bdcd0f7402"
+    },
+    {
+      "path": "midiplus-ed8-vs-ed6-comparativa-baterias-electronicas/index.html",
+      "size": 36174,
+      "sha256": "ec66b0c5147dc3aedf74f0a9fc0c5320bbc0e5b81c7125102c7108de1bee2116"
+    },
+    {
+      "path": "midiplus-ed8-vs-ed6-home-studio/index.html",
+      "size": 35541,
+      "sha256": "2ff8b74b286e372664b4fd95c6455d0d31100b58ac184407c40293083c4c0218"
+    },
+    {
+      "path": "midiplus-ed8-vs-ed6-para-departamento/index.html",
+      "size": 36285,
+      "sha256": "9f1edeeeacba2f1915c93ab9e275289be9e283fb2651218ea5f6ffc434bdd36b"
+    },
+    {
+      "path": "midiplus-ed8-vs-ed6-para-principiantes/index.html",
+      "size": 35761,
+      "sha256": "950fb6f5f5bb75db1613e3745b8f457de35aeca43f3d102b2f11dd0316457bcb"
+    },
+    {
+      "path": "midiplus-i61-controlador-61-teclas-home-studio/index.html",
+      "size": 37139,
+      "sha256": "3a3671430203bfb6476739157708d421b6827d1841bfd53da0a3a8dd1c7b9128"
+    },
+    {
+      "path": "midiplus-i61-controlador-teclado-principiantes/index.html",
+      "size": 36762,
+      "sha256": "547250e6d5138c14406580c75f487a9ae3f7abdcf2841791c2301bd924857050"
+    },
+    {
+      "path": "midiplus-mi3-escritorio-chico/index.html",
+      "size": 36553,
+      "sha256": "f27fc3844e98db1e1fdbfda9a74296a35e96da14a90cfcfb207b7390e2f28bee"
+    },
+    {
+      "path": "midiplus-ms5-home-studio/index.html",
+      "size": 36900,
+      "sha256": "e454b3fc815ca16ad81f9a3df81f191f345a3b8d79681df1f801e40d1f14764f"
+    },
+    {
+      "path": "midiplus-ms5-home-studio-principiantes/index.html",
+      "size": 36964,
+      "sha256": "b54b344d006c2d1be40f9c3a7e446526b67f7eaf189546f77975588fc94bfdbb"
+    },
+    {
+      "path": "midiplus-ms6-home-studio/index.html",
+      "size": 36791,
+      "sha256": "6288038e32c7832931c2c12ed824c589ff4ca425a9e474b34b26e33c217243f3"
+    },
+    {
+      "path": "midiplus-ms6-home-studio-principiantes/index.html",
+      "size": 37111,
+      "sha256": "e1283f269d08bfaee08454b3950bcf10c2b02463ccd832325ea2fc60827b2a58"
+    },
+    {
+      "path": "midiplus-studio-m-home-studio/index.html",
+      "size": 36516,
+      "sha256": "e64a3afdf8f6d5b15d2cdb6cb07f6ea6cdd9dffe2d60d39097bb6ac8f139b91f"
+    },
+    {
+      "path": "midiplus-studio-m-home-studio-grabar/index.html",
+      "size": 36817,
+      "sha256": "f333676f54783001050192a5564c596e50bf1c8b13df4884bbc064313ca26056"
+    },
+    {
+      "path": "midiplus-studio-m-home-studio-principiantes/index.html",
+      "size": 36847,
+      "sha256": "a0fc6c74b3a663b0fbd53dcf55266c6aafadecac7aab395802595718a7acebbf"
+    },
+    {
+      "path": "midiplus-studio-m-home-studio-streaming/index.html",
+      "size": 36737,
+      "sha256": "bb5f66046ef3c102a057ad1d8076bab1cd220f1cbeae46c7e0073bd42372fc10"
+    },
+    {
+      "path": "modulos-bateria-electronica-pc-midi/index.html",
+      "size": 36238,
+      "sha256": "6debba9d0fc4ff27b8e5d9b352967e5fd2faa814d4f003a6d409b3ce22c49566"
+    },
+    {
+      "path": "monitores-5-6-pulgadas-home-studio/index.html",
+      "size": 33834,
+      "sha256": "12e61476c158719850c27974ba8b82d59db6bb6caa3b23718b0c22be08e0338a"
+    },
+    {
+      "path": "monitores-5-pulgadas-o-6-pulgadas-para-principiantes/index.html",
+      "size": 36445,
+      "sha256": "33f9544ca5fa3d68a5d9355fe4f1934e70d5069605a76731b59b6cf60dddd610"
+    },
+    {
+      "path": "monitores-5-pulgadas-vs-6-pulgadas/index.html",
+      "size": 36028,
+      "sha256": "d76acce883891582d2255cda02eb208ed798430fe5e3e3f00e2e2750c82b9670"
+    },
+    {
+      "path": "monitores-6-pulgadas-home-studio/index.html",
+      "size": 36771,
+      "sha256": "69534675ddd0cc40f1a33d85d01a81690ac991b302fe978566797076de98b2bc"
+    },
+    {
+      "path": "monitores-activos-para-producir/index.html",
+      "size": 36716,
+      "sha256": "684f2019150fa8051cfa29f5a4949c139bdc2ef1bcbdb88aa48fbc10a9feb5d0"
+    },
+    {
+      "path": "monitores-de-estudio-vs-auriculares/index.html",
+      "size": 37508,
+      "sha256": "85f38cd5d9676d9de8db9016f4bd6b9140193580772050eb7dce55a76bb47d20"
+    },
+    {
+      "path": "monitores-editar-video-buen-audio/index.html",
+      "size": 36766,
+      "sha256": "b72f57ca611a3e55a33a35e427a1df08c51c80ab4f3c4900928bd77e216f3e67"
+    },
+    {
+      "path": "monitores-estudio-cuarto-sin-tratar/index.html",
+      "size": 36784,
+      "sha256": "1241d0b3e2d89bff7b91aa58ae0e60cb7bc2bda461f7576db255350d522b1f03"
+    },
+    {
+      "path": "monitores-estudio-escritorio-compactos/index.html",
+      "size": 36383,
+      "sha256": "06d19022affabcb21958cf2bdc3d7b8fdea65332d7cafd2de553cf80b147e8e8"
+    },
+    {
+      "path": "monitores-estudio-home-studio-chico/index.html",
+      "size": 36494,
+      "sha256": "af229c448237b286a336667c1f0310e7ce01b02f9a6a4b50fcd2cba5c995057a"
+    },
+    {
+      "path": "monitores-estudio-home-studio-chico-27/index.html",
+      "size": 34767,
+      "sha256": "d7f35f10e461360bc0bc002c55b0467f0dec4afabfdb42be03fe5b141c3e9db4"
+    },
+    {
+      "path": "monitores-estudio-home-studio-chico-4/index.html",
+      "size": 34715,
+      "sha256": "1379795029d47c6ac639628b941e86ba726a17a16fbee7379821d4e501bd1b08"
+    },
+    {
+      "path": "monitores-estudio-home-studio-pequeno/index.html",
+      "size": 36477,
+      "sha256": "06c52bab5eeb2f666d989f3b8f6bc431454b750a8830c678e9fca51e8c2388a0"
+    },
+    {
+      "path": "monitores-estudio-home-studio-pequeno-1/index.html",
+      "size": 36749,
+      "sha256": "4f4902879fb2e3d3462a6194dba7069c3d0f9705200c9bb2ea19247ffdc5a27c"
+    },
+    {
+      "path": "monitores-para-mezclar-en-cuarto-chico/index.html",
+      "size": 36623,
+      "sha256": "e31cd0af37082a7922a150d78b63a2ca0dbad37478ee71e23a2d0049a6f18327"
+    },
+    {
+      "path": "monitores-para-mezclar-en-cuarto-chico-29/index.html",
+      "size": 36569,
+      "sha256": "76cb7d080fa3e77e576cf91a1a96417758d42039faa86ceff64973e02cf320e3"
+    },
+    {
+      "path": "monitores-para-mezclar-en-cuarto-chico-3/index.html",
+      "size": 36814,
+      "sha256": "8b6e505e8e997b05e05b501e3b9efb06330985146db8d3111951bf77ab5850c8"
+    },
+    {
+      "path": "monitores-para-mezclar-en-cuarto-chico-home-studio/index.html",
+      "size": 36856,
+      "sha256": "2e31186506266fe38ddc8da3767f5b714ab397e4e715a46695273a7f33446103"
+    },
+    {
+      "path": "monitores-para-mezclar-en-cuarto-chico-para-principiantes/index.html",
+      "size": 36967,
+      "sha256": "61f276c4785aa3aa2238880d8ced7cca259e03b975df6b358a08fd92fb1b9232"
+    },
+    {
+      "path": "pads-midi-para-disparar-samples/index.html",
+      "size": 36473,
+      "sha256": "0dd8c3e1cddf467658ae290cd78af27ab4025d0779e91d613073b49458baed1d"
+    },
+    {
+      "path": "pads-midi-para-finger-drumming/index.html",
+      "size": 36387,
+      "sha256": "dcccd832384e334c461367a92d63d0d4cf859a473983ab817f5fd62df87a2faa"
+    },
+    {
+      "path": "pads-platillos-bateria-electronica/index.html",
+      "size": 36192,
+      "sha256": "ef5abd391af5bc4cb0c56111c8243b0eb0ffe134521c764d5a90e4c1984a0d12"
+    },
+    {
+      "path": "placa-sonido-guitarra/index.html",
+      "size": 36283,
+      "sha256": "d9bce2037798647091c2f1549e0c79598ac5dbeb98148d34dd05b24fa2c022f2"
+    },
+    {
+      "path": "placa-sonido-guitarra-6/index.html",
+      "size": 34658,
+      "sha256": "3b7a72d774dd0efe41a6f9148a98cfbbaba8c9e88099b5dd284ec8b2cacf0059"
+    },
+    {
+      "path": "placa-sonido-guitarra-audio-casa/index.html",
+      "size": 36729,
+      "sha256": "d99aba59a3e6b2127b99806e1abd70ab57f8a7283df176f83017224b1fe93dca"
+    },
+    {
+      "path": "placa-sonido-guitarra-creadores-contenido/index.html",
+      "size": 34748,
+      "sha256": "8fc95f68973b17187d548eaf167050f39536f148c09f1cd8467d2797bf8c3177"
+    },
+    {
+      "path": "placa-sonido-guitarra-departamento/index.html",
+      "size": 36514,
+      "sha256": "bc43d139ed7842be600f58a490ebd1ef2a00d71fc55cb94ba508aa7dd43e5a51"
+    },
+    {
+      "path": "placa-sonido-guitarra-dos-entradas/index.html",
+      "size": 36390,
+      "sha256": "9767aa70ad920c5329bdc08db7c6d775473e5e8dffab7a9e7c37df09a35276c3"
+    },
+    {
+      "path": "placa-sonido-guitarra-grabar-casa/index.html",
+      "size": 36420,
+      "sha256": "405eedac7e20193c9d5e483724eb5f1289a61012ccd17c24378922d65a262456"
+    },
+    {
+      "path": "placa-sonido-guitarra-grabar-contenido/index.html",
+      "size": 36983,
+      "sha256": "895fd4128eddb8c0cf4423e3213e66cc7d16a1bb355d036fecdf4184128b86fa"
+    },
+    {
+      "path": "placa-sonido-guitarra-grabar-voces/index.html",
+      "size": 36556,
+      "sha256": "b54ce9f0c1038020f1a298fa25f90c0611f05ad75ce99de13ed36bfaf9bd57f1"
+    },
+    {
+      "path": "placa-sonido-guitarra-home-studio/index.html",
+      "size": 36691,
+      "sha256": "cb93350d8b7bbd6093487aedc1fb30511951929fb95e8b96048dad372ec17bbc"
+    },
+    {
+      "path": "placa-sonido-guitarra-home-studio-28/index.html",
+      "size": 34746,
+      "sha256": "977a0251ae5fa933f8e60ad1359f8675ad8a22feea28f66ef4ecda7ccc98c7bf"
+    },
+    {
+      "path": "placa-sonido-guitarra-mezclar-noche/index.html",
+      "size": 34593,
+      "sha256": "65010336375a4fa5e9cba515133cf8c365461d145ee5164063d64560132150d8"
+    },
+    {
+      "path": "placa-sonido-guitarra-monitores/index.html",
+      "size": 34439,
+      "sha256": "00083666d9666210452b37ce8ae2f890485a17e38f9e8842344b02d557cc490e"
+    },
+    {
+      "path": "placa-sonido-guitarra-notebook/index.html",
+      "size": 36400,
+      "sha256": "7f639fbfaae8228edc97da1534c94ad6f4844d0b23e24ffcad199ff394597355"
+    },
+    {
+      "path": "placa-sonido-guitarra-principiantes/index.html",
+      "size": 36620,
+      "sha256": "37e88cdfbac5d89121b77621ea72457ea7e239e1a504f612f5cbd4824f47e966"
+    },
+    {
+      "path": "placa-sonido-guitarra-setup-portable/index.html",
+      "size": 34760,
+      "sha256": "4edd3b2398510dc5e432847f9dadb92f20e3c9d2a5a18ee61d7e144122a40f27"
+    },
+    {
+      "path": "placa-sonido-guitarra-streaming/index.html",
+      "size": 36443,
+      "sha256": "071b518a3b979ed7fd9d4f54cb44aa42c6a992f3337f6ff6ab4a9785325771f8"
+    },
+    {
+      "path": "placa-sonido-guitarra-voz/index.html",
+      "size": 36823,
+      "sha256": "65ab6f32796cdcfabe245ff0bd089bf00e98fa435bf746e083980876e79412db"
+    },
+    {
+      "path": "placa-sonido-guitarra-voz-10/index.html",
+      "size": 36555,
+      "sha256": "f99693fd017116461385a1d8e87d872d6ecf770446ec6f29921162aeadc6bb4c"
+    },
+    {
+      "path": "placa-sonido-guitarra-voz-principiantes/index.html",
+      "size": 36919,
+      "sha256": "de25e97d80fd5ea2e0965ec748505da78e1f4d7f17f9ce099470682f7a1b820b"
+    },
+    {
+      "path": "que-comprar-controlador-midi-fl-studio/index.html",
+      "size": 36630,
+      "sha256": "9f8c13417ff9b8413b980aa49bb5bfdfe4212173fbcab578a8bdfabcf42c95fb"
+    },
+    {
+      "path": "que-comprar-microfono-usb-podcast/index.html",
+      "size": 35773,
+      "sha256": "7d8ad172373c82676dc3a2be0040e1d0ba79e1559bea91096de1a879b2fa2626"
+    },
+    {
+      "path": "que-comprar-para-alctron-um900-streaming/index.html",
+      "size": 36486,
+      "sha256": "daba700b7c35b0244d0df705e89fe92b2f11cd1c835e190a8981160608fa46ab"
+    },
+    {
+      "path": "que-comprar-para-arturia-microfreak/index.html",
+      "size": 36996,
+      "sha256": "18117a1cfc20b08fc7811da289b4f13280cbdc8b90893ebbdfafa5219ae63b88"
+    },
+    {
+      "path": "que-comprar-para-arturia-polybrute-para-estudio/index.html",
+      "size": 36951,
+      "sha256": "17a0fcba25d11e59f0266961cbffff2b83d8ca8dd1e4dea4ceb128682c54cb9b"
+    },
+    {
+      "path": "que-comprar-para-audio-technica-ath-m20x-para-grabar/index.html",
+      "size": 36817,
+      "sha256": "3a93bda87f42f80d479a9564f49c0be30e24eda9f08505ce6f223da1f20fa32b"
+    },
+    {
+      "path": "que-comprar-para-audio-technica-ath-m50x/index.html",
+      "size": 36757,
+      "sha256": "59cf51d3feed250791359baddd088312d938e83a2b8ccc396555bb4c65b5d5f4"
+    },
+    {
+      "path": "que-comprar-para-auriculares-cerrados-para-grabar-voces/index.html",
+      "size": 36594,
+      "sha256": "780e6213598ec8eb39f5efe9c8613a500612998a706b507bf4e7f2d733886a4a"
+    },
+    {
+      "path": "que-comprar-para-bateria-electronica-para-departamento/index.html",
+      "size": 36373,
+      "sha256": "fac5c39cfc924d60fde72a57258a0bd7cd69938c976f37537fbe3e9493a8c969"
+    },
+    {
+      "path": "que-comprar-para-interfaz-de-audio-con-dos-entradas/index.html",
+      "size": 34390,
+      "sha256": "abc71c42870d8b712718dd00cff4c99c350ee76c2e6ff6a1eda6753b57cc1dc8"
+    },
+    {
+      "path": "que-comprar-para-interfaz-de-audio-para-grabar-voz-en-casa/index.html",
+      "size": 36922,
+      "sha256": "7c89a93bd660e2b466871f9fb38a505c548148910d923650a2576b745e77cf03"
+    },
+    {
+      "path": "que-comprar-para-interfaz-de-audio-para-podcast/index.html",
+      "size": 37051,
+      "sha256": "f30159a3681385789ed30ddf0ce50216c53fe621af13960ee5cf946f88418ab2"
+    },
+    {
+      "path": "que-comprar-para-interfaz-de-audio-para-streaming/index.html",
+      "size": 36997,
+      "sha256": "d432957d0a695784a0c099f8f2e6011d6c7c4cffb9ec2f05f19ffea443f2370a"
+    },
+    {
+      "path": "que-comprar-para-microfono-condensador-para-voz/index.html",
+      "size": 36811,
+      "sha256": "13f841f5588fb3b6313a814b0d5f976981652e6f9e4edb080b4f08e156237894"
+    },
+    {
+      "path": "que-comprar-para-microfono-para-podcast/index.html",
+      "size": 36727,
+      "sha256": "340a198f1b6a64a668ab01212716674faa38d26987e40a2cfc0fa57eae7ac646"
+    },
+    {
+      "path": "que-comprar-para-microfono-xlr-para-podcast/index.html",
+      "size": 36801,
+      "sha256": "53adb2ca1bbf2a1223d7dd146d1b2c25f0e7982e3fca5fc18639a7d360b98110"
+    },
+    {
+      "path": "que-comprar-para-midiplus-ak490-principiantes/index.html",
+      "size": 36819,
+      "sha256": "00d1c0defc58cec7b617293ff96725159c8aa5bf99b654344ac2c9027170feb3"
+    },
+    {
+      "path": "que-comprar-para-midiplus-ed6-practicar-bateria/index.html",
+      "size": 36891,
+      "sha256": "7df0c6ea65d399c46829d378a23d0c47eed827d09ff52d2393eb583b29e772bb"
+    },
+    {
+      "path": "que-comprar-para-midiplus-ms5-home-studio/index.html",
+      "size": 36738,
+      "sha256": "74d14325b03a7e5537cb70557e49d3df6e606c91ff9054240002f07bff5dbf69"
+    },
+    {
+      "path": "que-comprar-para-midiplus-studio-m-home-studio/index.html",
+      "size": 36865,
+      "sha256": "305d7dd25876ccf377c406defecabc7033398f0839156f950f56e91ad9b39fc8"
+    },
+    {
+      "path": "que-comprar-para-placa-de-sonido-guitarra/index.html",
+      "size": 36868,
+      "sha256": "69ef6ebe4d81faac8d59fd06eea96f6c76ecba6ab91be1497da72e90a8902920"
+    },
+    {
+      "path": "que-comprar-para-sintetizador-para-aprender-sintesis/index.html",
+      "size": 37061,
+      "sha256": "86c54c320236905469ea3412ac2347d0f1ba49af43be4f6613d624240ea50aab"
+    },
+    {
+      "path": "que-comprar-primero-para-home-studio/index.html",
+      "size": 36856,
+      "sha256": "234609fc36f3d167307f6d22228c51048990379c64de62dde735efb0df86768a"
+    },
+    {
+      "path": "regalo-para-baterista-practica-electronica/index.html",
+      "size": 36470,
+      "sha256": "2acfe51c13c6164ae3f5d0e2762615a66b24837e53ecab13963b25c612cc2fd9"
+    },
+    {
+      "path": "regalo-para-cantante-microfonos-auriculares/index.html",
+      "size": 36602,
+      "sha256": "c014983e34f93330242b62f37770d8cfacb5cfbc750adc21e3e12f3175e99637"
+    },
+    {
+      "path": "regalo-para-musico-principiante/index.html",
+      "size": 37096,
+      "sha256": "895410aa524d0b45c71b12e90ca11c0e9bf896032e6db1e110b6253af1dcfe70"
+    },
+    {
+      "path": "regalo-para-streamer/index.html",
+      "size": 36788,
+      "sha256": "9b8fdee668122a8f3f5d5587e877c0af30c740f7812ef55f66d58041f3258121"
+    },
+    {
+      "path": "regalo-para-tecladista/index.html",
+      "size": 36818,
+      "sha256": "badebdcbaba74fc91154412874c40ad7f67eadf4084df4acdaa53bce035ac3ff"
+    },
+    {
+      "path": "regalo-productor-musical/index.html",
+      "size": 37005,
+      "sha256": "b46b414dfd5968b1f55fcf6c644077ff225dde82600f8a3570fffaa60b68f239"
+    },
+    {
+      "path": "robots.txt",
+      "size": 77,
+      "sha256": "cdc0abc640f906de374705d68a21e168915af0905500cc2664d235a390096f36"
+    },
+    {
+      "path": "secuenciador-hardware-para-sintetizadores/index.html",
+      "size": 36695,
+      "sha256": "4a1354301233a60b4f4176c7448b171302a135733bf8d23f8d7d8138038558cf"
+    },
+    {
+      "path": "secuenciador-para-dawless/index.html",
+      "size": 36711,
+      "sha256": "a25ce3abc2860bea29ac9950f4808cc56e9e4f773ed9d7d565d3b53f90c939bf"
+    },
+    {
+      "path": "secuenciador-para-modular-y-sintes/index.html",
+      "size": 36616,
+      "sha256": "0b18aefad04e372ef38a5a5aef55b4c4c139d914a1741cbee733e10342231070"
+    },
+    {
+      "path": "setup-arturia-keystep-pro-hardware/index.html",
+      "size": 36647,
+      "sha256": "c18f0b254e9993c89ea6e8aeb88e634ec52c6b507b4189acbd4368daa72e1e92"
+    },
+    {
+      "path": "setup-arturia-microfreak-sintesis/index.html",
+      "size": 37282,
+      "sha256": "cb6370056e0447d2c99d7de358e452fee22d9112b1dd4582edbf0a35a3980371"
+    },
+    {
+      "path": "setup-arturia-minilab-3-ableton/index.html",
+      "size": 36612,
+      "sha256": "1836c7ce50e9d1e7a031957f381338740864c9c18aeeba3b30af476c7d4dd1f9"
+    },
+    {
+      "path": "setup-arturia-minilab-3-fl-studio/index.html",
+      "size": 36854,
+      "sha256": "04d16259055642f52f2dd89f58539399aeaad79dae857c6c75df72410c475152"
+    },
+    {
+      "path": "setup-arturia-minilab-3-vs-keylab/index.html",
+      "size": 36294,
+      "sha256": "6fc5e09faaa803e2ecbe85a57d89f0ea9b87e2803df6db507fb6c9f575c34193"
+    },
+    {
+      "path": "setup-arturia-polybrute-estudio/index.html",
+      "size": 36757,
+      "sha256": "3efe30662a2c41b670639fb70d9670864878ce906902108c166383d955838bb1"
+    },
+    {
+      "path": "setup-audio-technica-at2020-home-studio/index.html",
+      "size": 36901,
+      "sha256": "fc41caf55760bf21b336d96e0a1e18b8233f11b03fe478b22133629814bd15be"
+    },
+    {
+      "path": "setup-audio-technica-ath-m20x-grabar/index.html",
+      "size": 36875,
+      "sha256": "1253576fbfbc1de120c71ef1c04e934d5fe6544c40ac22902a5bf4aa656c2f9e"
+    },
+    {
+      "path": "setup-audio-technica-ath-m50x-monitoreo/index.html",
+      "size": 37011,
+      "sha256": "0ce43773cd5656ea6f45dd9381216758a6b1c52a1d3b4d96b946a25a0415f9eb"
+    },
+    {
+      "path": "setup-auriculares-bateria-electronica/index.html",
+      "size": 36332,
+      "sha256": "575c31817698f74588e84718f02e8aaf1983979fcb5c4e543297953e829a2f35"
+    },
+    {
+      "path": "setup-auriculares-cerrados-grabar-voces/index.html",
+      "size": 37228,
+      "sha256": "18f9dfdfe9b87b32ae536c283c1499c9a2e69232b70ffe7f192192a8622751d3"
+    },
+    {
+      "path": "setup-auriculares-grabar-podcast/index.html",
+      "size": 36735,
+      "sha256": "eb76e66ab8c5f9d26b4f002869b8041abe55c97722bf309836b9ebb38d7fd664"
+    },
+    {
+      "path": "setup-bateria-electronica-departamento/index.html",
+      "size": 36864,
+      "sha256": "5e449878652458d87fb63a86dfb5b1ebdd169869cc6a9ece1cc7dd074f12a32c"
+    },
+    {
+      "path": "setup-brazo-microfono-streaming/index.html",
+      "size": 36594,
+      "sha256": "f11d0a1c701d9441f3e36b03800c3100bcdaf107e3f3eade2253f8acfe854a76"
+    },
+    {
+      "path": "setup-cantante-compositor/index.html",
+      "size": 36686,
+      "sha256": "b69509d2a38f2d4de29a22aac9dae105b450a98b8777ba1063a86e8cfdebb67b"
+    },
+    {
+      "path": "setup-compacto-escritorio-chico/index.html",
+      "size": 36782,
+      "sha256": "ebbe08b27943d6a40a35002a2f6c5d631a17739116b89d2a7a0d6bc6b4c17fff"
+    },
+    {
+      "path": "setup-con-alctron-um900-para-streaming/index.html",
+      "size": 36815,
+      "sha256": "4f064fbbb7ea1ec564f784efc4be5caacce6f49d7078e6e56e06ea838ea08cf9"
+    },
+    {
+      "path": "setup-con-interfaz-de-audio-con-dos-entradas/index.html",
+      "size": 36745,
+      "sha256": "4580d79ee5345c764d23c60e92f2c08b883eca269b3c83f56e0a121a195f57da"
+    },
+    {
+      "path": "setup-con-interfaz-de-audio-para-grabar-voz-en-casa/index.html",
+      "size": 37144,
+      "sha256": "a8c1cdf3dafd34c6ce48beb3028fc2c4cef6a26e7ab8aac406b315fb583cf25a"
+    },
+    {
+      "path": "setup-con-interfaz-de-audio-para-podcast/index.html",
+      "size": 37153,
+      "sha256": "2786c24b9e945d52aafe7f07ef0208bb8e41ffa52c2e8baa412f5770d9256d67"
+    },
+    {
+      "path": "setup-con-interfaz-de-audio-para-streaming/index.html",
+      "size": 37095,
+      "sha256": "b170c7494f1f1840875f1633d2a78a7a69622a9badff08aceb20dd84b809aa40"
+    },
+    {
+      "path": "setup-con-microfono-para-streaming/index.html",
+      "size": 36981,
+      "sha256": "69a6fb2c3025dfda18d5c9d4f738cf84a002be8cc1b2967844a150dd511ae3f9"
+    },
+    {
+      "path": "setup-con-midiplus-ak490-para-principiantes/index.html",
+      "size": 36896,
+      "sha256": "80fd62f1cc36c5e4ce8da278653977a3998df7edb61ece310f8894aad59db19f"
+    },
+    {
+      "path": "setup-con-midiplus-akm322-escritorio-chico/index.html",
+      "size": 36925,
+      "sha256": "f20e572ce1cdd1a8846f82d4473dd9f52bcf452723803535a533ff38320f71b0"
+    },
+    {
+      "path": "setup-con-midiplus-ed6-para-practicar-bateria/index.html",
+      "size": 36514,
+      "sha256": "5b2310af11609f8edd408c8fdbcda19692655c1c8242be83a8dd0577df2bdc99"
+    },
+    {
+      "path": "setup-con-midiplus-ed8-vs-ed6/index.html",
+      "size": 35433,
+      "sha256": "d4f13939bea18cc80a0231dc19bd9d1e83983e8e3bdb4289f86e4492df617fac"
+    },
+    {
+      "path": "setup-con-midiplus-i61-para-tocar-con-mas-teclas/index.html",
+      "size": 36883,
+      "sha256": "c746e661a8b28bef2cba23041601184d815c5400d84db41de4286f2e6e7dd544"
+    },
+    {
+      "path": "setup-con-midiplus-ms5-para-home-studio/index.html",
+      "size": 36663,
+      "sha256": "425bcfc900aa11974dee8476640ea6c8b9b17a68e58f2fef61dabce57600f9ab"
+    },
+    {
+      "path": "setup-con-midiplus-ms6-para-home-studio/index.html",
+      "size": 36629,
+      "sha256": "92a024b79da5056b5b2e1dc74c9d8bec84377c497b7d390333fc6bb773edd00b"
+    },
+    {
+      "path": "setup-con-midiplus-studio-m-para-home-studio/index.html",
+      "size": 36814,
+      "sha256": "1c73a3a2aeb038c0775ba69b85154b8fe0de8f70f599f68b1c31db2c653ea37a"
+    },
+    {
+      "path": "setup-con-monitores-5-o-6-pulgadas/index.html",
+      "size": 36543,
+      "sha256": "3bcc27be730aba951158171cd0558e35b500cc2bb7fa34b0944cbce3eb51a14d"
+    },
+    {
+      "path": "setup-con-monitores-para-mezclar-en-cuarto-chico/index.html",
+      "size": 37066,
+      "sha256": "bd21b8a4f5c1c219cf36e192a9d538240329e1415cd57be4326f3a818ced02a6"
+    },
+    {
+      "path": "setup-con-placa-de-sonido-para-guitarra/index.html",
+      "size": 36646,
+      "sha256": "0c26924c5306c6e68d0402c25a5a6a799aba29212ff915172a2c3bd1c83963c6"
+    },
+    {
+      "path": "setup-con-placa-de-sonido-para-guitarra-y-voz/index.html",
+      "size": 36826,
+      "sha256": "3347ba72a81346d6e111402407f3913d2b1d208f58852c3cb676b8f754b3e11d"
+    },
+    {
+      "path": "setup-controlador-midi-ableton/index.html",
+      "size": 36860,
+      "sha256": "685510be9716d21d6dadff688bded3853e1cdeb6a6f52369b4cdffa45b2f8b77"
+    },
+    {
+      "path": "setup-controlador-midi-fl-studio/index.html",
+      "size": 36643,
+      "sha256": "66b9f38a2dce40fd33ab3308d9cf5245886cac639202d82db0260bbb82d27999"
+    },
+    {
+      "path": "setup-de-streaming-con-buen-audio/index.html",
+      "size": 36948,
+      "sha256": "7e4e6f6ca9936118fe29a9cd9371a3e09ec61ef52c2b590ce8a3296fb569d94d"
+    },
+    {
+      "path": "setup-filtro-pop-grabar-voz/index.html",
+      "size": 37364,
+      "sha256": "c968162838d1fd6631ac10f01f04370d139c6301889eb9dd4f393e89024873c9"
+    },
+    {
+      "path": "setup-guitarrista-productor/index.html",
+      "size": 36497,
+      "sha256": "29128025b3f108cb93440704c586b7970139d49608bd1392547c88ecd0ec49d0"
+    },
+    {
+      "path": "setup-microfono-condensador-voz/index.html",
+      "size": 36730,
+      "sha256": "56c2cf71876a54bc9079a46f6f32aafb3d48a6230a3c43802ec8efbe5a5e0a33"
+    },
+    {
+      "path": "setup-microfono-podcast-usb-xlr/index.html",
+      "size": 36765,
+      "sha256": "275c14f67b862f601c55ded819f10f19af4745c251591fc486b359397a012074"
+    },
+    {
+      "path": "setup-microfono-usb-podcast/index.html",
+      "size": 35640,
+      "sha256": "28543d5812617a49212471512e8a36965750b423287e9236638426a71fb495d3"
+    },
+    {
+      "path": "setup-microfono-xlr-podcast/index.html",
+      "size": 36559,
+      "sha256": "b9452ea42389358992c1f1c40ecf55c5b6960f664be9a7852fa6f6a58cb632b2"
+    },
+    {
+      "path": "setup-monitores-estudio-home-studio-chico/index.html",
+      "size": 36744,
+      "sha256": "14518984b7b1e0e04c23424839d96ae164023efead6b89fd3b7f2d118a602c82"
+    },
+    {
+      "path": "setup-musica-electronica-sin-computadora/index.html",
+      "size": 36726,
+      "sha256": "b8131ef27f3e40e0ad35246ee5a45b1b332ebf4eb2baa508987ae4d3e1ebfb09"
+    },
+    {
+      "path": "setup-musica-urbana-en-casa/index.html",
+      "size": 36413,
+      "sha256": "e9937579c23d415fab61994f470aa7e3fd56b4ee1268807204b9d2bc6d9d8a3e"
+    },
+    {
+      "path": "setup-para-beatmaker-principiante/index.html",
+      "size": 37120,
+      "sha256": "b88d835cf45c6644c60b64027338475b56f7ada8591756e7fa9b516e7a06c32c"
+    },
+    {
+      "path": "setup-para-beatmaking-efectivo/index.html",
+      "size": 36776,
+      "sha256": "3903e0ed63197ca4f454d318ae7643f875d1730867901a46df46e8ec918960ce"
+    },
+    {
+      "path": "setup-para-cursos-online/index.html",
+      "size": 36740,
+      "sha256": "ff0b454af5dd93d63e9b4512d7cd919b74582d5ab18859012ab8d5ceb54e8daa"
+    },
+    {
+      "path": "setup-para-podcast-de-video/index.html",
+      "size": 36581,
+      "sha256": "9e4301768f804dfb701f0cd5429275840b221da0c6e96baf4e6cf8d4ef83db8c"
+    },
+    {
+      "path": "setup-para-producir-musica-electronica/index.html",
+      "size": 36870,
+      "sha256": "f606b5278de067e89b285b0e220f1ca0329dd6d48299bea0f3e526c55ab998a2"
+    },
+    {
+      "path": "setup-para-twitch-con-microfono/index.html",
+      "size": 36672,
+      "sha256": "f3a87e08b707df03d22b0c651ce768891d9d599c13bfaa97dfad4ea67fc8583a"
+    },
+    {
+      "path": "setup-portable-para-producir/index.html",
+      "size": 36744,
+      "sha256": "5844da05b23537e9d1b35083175d7de8abc267b9fc766aa1d1577b64b8440c30"
+    },
+    {
+      "path": "setup-productor-departamento/index.html",
+      "size": 36987,
+      "sha256": "87fd5a22bb181e0937b552b8ac1e1a7f57f71dc2c1b7177e68de289ec58f7fe6"
+    },
+    {
+      "path": "setup-sintetizador-aprender-sintesis/index.html",
+      "size": 36816,
+      "sha256": "77d8b31a12656ba501cf451baa9eac91f0c0b1eb051a092c005196b9a990f4ff"
+    },
+    {
+      "path": "setup-streaming-audio-creadores-contenido/index.html",
+      "size": 34983,
+      "sha256": "ce2c52fc9aed67c9d83b691e95d48e25ea06a32a442f2fdf2e1f3efe6a61781b"
+    },
+    {
+      "path": "setup-streaming-audio-podcast-video/index.html",
+      "size": 34857,
+      "sha256": "7365d823ac7f572735520549ecba21e4494e83a24dd561f1bed65dfb9159387b"
+    },
+    {
+      "path": "setup-streaming-buen-audio-grabar-voces/index.html",
+      "size": 37019,
+      "sha256": "bfb91cb50a075b58fb02a8c98f8e25aba08d7756a9c7c6d94b73c17e5a0aeb94"
+    },
+    {
+      "path": "setup-streaming-buen-audio-guitarra/index.html",
+      "size": 36674,
+      "sha256": "6ae1fd93a172c8160d17df9e6e08814d64019a8ec5a254081f384f280b84093e"
+    },
+    {
+      "path": "setup-streaming-buen-audio-guitarra-10/index.html",
+      "size": 34616,
+      "sha256": "fed85aebaa054f821b76eff1d7321e450e771a1d64e7a8ec2a6bcd84c212c56d"
+    },
+    {
+      "path": "setup-streaming-buen-audio-interfaz-audio/index.html",
+      "size": 34966,
+      "sha256": "a3d1ce202834158ab78ff04c44c38e51e21ccd1b6097a3a26ea377dde322b806"
+    },
+    {
+      "path": "setup-streaming-buen-audio-noche/index.html",
+      "size": 34761,
+      "sha256": "685b7a257a0ec8fb3c01bbcc03529e9c3157dff03f952bca6c92ea9ccd4533ed"
+    },
+    {
+      "path": "setup-streaming-buen-audio-podcast/index.html",
+      "size": 36663,
+      "sha256": "859601bd1987921631277737313cd1b11add5bb3e0319fc02a8725030b95c40c"
+    },
+    {
+      "path": "setup-streaming-buen-audio-twitch/index.html",
+      "size": 34204,
+      "sha256": "53e7665d2bc0ddaaa9d1b668ed9ed66cdfca2cf1cc893ffcf64198b90c058f65"
+    },
+    {
+      "path": "setup-streaming-buen-audio-voces/index.html",
+      "size": 34681,
+      "sha256": "86061cb38803b264774bd9af67511c509babca402c5138d3d94101aa7dd2a8b1"
+    },
+    {
+      "path": "setup-streaming-buen-audio-voz/index.html",
+      "size": 34829,
+      "sha256": "0c826b11f644e4c1120620d1dec591b993a7c672c5553d539fbb4cdca4bfcf1a"
+    },
+    {
+      "path": "setup-streaming-buen-audio-youtube/index.html",
+      "size": 36807,
+      "sha256": "11fbe7c47847432e97a47ee0eecdd634eabb232f11e1ad2e821f194a3c3c20af"
+    },
+    {
+      "path": "setup-synido-tempokey-25-producir/index.html",
+      "size": 36909,
+      "sha256": "01ed1c06317144f93284d87a178ed626f0c843a8ad2e69e85351eb3046f62a33"
+    },
+    {
+      "path": "setup-transmisiones-en-vivo/index.html",
+      "size": 36821,
+      "sha256": "94ff0da1b0e524fcf46082bf8aad9d5ead5d5702e0f296a85c189fa0cc796844"
+    },
+    {
+      "path": "setup-youtube-buen-audio/index.html",
+      "size": 36890,
+      "sha256": "5161b8e0113f7cfd9dc53a855f2ead4ac48b1453053a29981f1c2ff32a298bfa"
+    },
+    {
+      "path": "sinte-analogico-para-principiantes/index.html",
+      "size": 36739,
+      "sha256": "5a1345d3cd856a3c46fca2f18ddd2f5a2c07559bd23956b7d14c7d9b06fdd324"
+    },
+    {
+      "path": "sinte-hibrido-para-directo/index.html",
+      "size": 36538,
+      "sha256": "7b6fa2caac30655275835c7d0db9097168d9613b0fd75aa0dc07bed3e53cf5c9"
+    },
+    {
+      "path": "sintetizador-aprender-sintesis-creadores-contenido/index.html",
+      "size": 36957,
+      "sha256": "88051255d28d1d965c70347c5a4bf335edb0dc2c501ce77d205a76b20edde375"
+    },
+    {
+      "path": "sintetizador-aprender-sintesis-leads/index.html",
+      "size": 34945,
+      "sha256": "6c3339e97aaebd4afa02c0071c129d70c0f522888bf759d1efd0a747f454259c"
+    },
+    {
+      "path": "sintetizador-aprender-sintesis-musica-electronica/index.html",
+      "size": 34988,
+      "sha256": "5febf3ed7efc9813c89867b8d67b4f8bab8453896f803326c94c87141df89f88"
+    },
+    {
+      "path": "sintetizador-aprender-sintesis-musica-electronica-5/index.html",
+      "size": 34957,
+      "sha256": "2c7429f18d41c5b4b2c8092fc0b63666d9dccd6b8e378521f784e9ed1ec7394e"
+    },
+    {
+      "path": "sintetizador-aprender-sintesis-portable/index.html",
+      "size": 37058,
+      "sha256": "e7606d15f8af666ef6badc8081919a4561d0bdc8ff47e7c9b7e6973941d70d7f"
+    },
+    {
+      "path": "sintetizador-aprender-sintesis-texturas/index.html",
+      "size": 36908,
+      "sha256": "7276e1124749984d52dbfcb4237e57cc65f85cfe9df6f67cee982475643da896"
+    },
+    {
+      "path": "sintetizador-con-vocoder-para-voz-procesada/index.html",
+      "size": 36709,
+      "sha256": "5ddae61afce10583da823843e10503af12ee95e413ed89591ba83844578000c3"
+    },
+    {
+      "path": "sintetizador-hardware-home-studio/index.html",
+      "size": 37011,
+      "sha256": "f56a6e19e7b7eed7a2352caca85fc32246d421186a5561dcc3eb892c1051f345"
+    },
+    {
+      "path": "sintetizador-para-ambient/index.html",
+      "size": 36710,
+      "sha256": "a4151b000adcf318385fe45fa22cd579b4aa49cf2cfbfdeed3449f48ab98ea47"
+    },
+    {
+      "path": "sintetizador-para-aprender-sintesis/index.html",
+      "size": 36855,
+      "sha256": "9d6afd94fedf05ae9bf3077c7a8f1ba6cbffc91abca6ac8929109db24c2d8bf8"
+    },
+    {
+      "path": "sintetizador-para-aprender-sintesis-bajos/index.html",
+      "size": 34944,
+      "sha256": "56224adba500d9826abac50dc806bd4fcabfc81d9828d5f2d5c81c5682df7172"
+    },
+    {
+      "path": "sintetizador-para-aprender-sintesis-con-vocoder/index.html",
+      "size": 34606,
+      "sha256": "978d0108a3ad81a09e0eaac1110c09c04ba85c09a547eb9d2f6fe7c672f71147"
+    },
+    {
+      "path": "sintetizador-para-aprender-sintesis-home-studio/index.html",
+      "size": 36610,
+      "sha256": "c3bda022fde10526b391b5c2e32f24b634720aae96090f512dfa98673886765c"
+    },
+    {
+      "path": "sintetizador-para-aprender-sintesis-home-studio-10/index.html",
+      "size": 36988,
+      "sha256": "ff81b7613f2d34f9ffdbe6c4dde2973c91160642ef8992ad000200e043fd1606"
+    },
+    {
+      "path": "sintetizador-para-aprender-sintesis-para-directo/index.html",
+      "size": 34918,
+      "sha256": "eae538e77686b054d4c451f16bdc4ef35bd1e77f351a79634c984c7ca23f19eb"
+    },
+    {
+      "path": "sintetizador-para-aprender-sintesis-para-pads/index.html",
+      "size": 34765,
+      "sha256": "68cb1300fca6217c5ed89819ee4cb0a1b5c3428354531787b14750c57986fc00"
+    },
+    {
+      "path": "sintetizador-para-aprender-sintesis-sin-complicarse/index.html",
+      "size": 35021,
+      "sha256": "2ca394a63a0f68866a003304b23a442b86b47e5514d845e1887554a1b4c2b19f"
+    },
+    {
+      "path": "sintetizador-para-aprender-sintesis-sin-computadora/index.html",
+      "size": 35017,
+      "sha256": "3ae1190a013d8c76bb6bb9e631dc0a336daac49321a95322995d8c897f278eb3"
+    },
+    {
+      "path": "sintetizador-para-bajos/index.html",
+      "size": 36756,
+      "sha256": "d04bb1c0a7b8cc7e884e2f084c34af299cd1162f892d02dbf06593d93cef4533"
+    },
+    {
+      "path": "sintetizador-para-pads-y-atmosferas/index.html",
+      "size": 36502,
+      "sha256": "73fa01a7817eb4c8e27c3a45bfcbeb17e7beb88c77f52be493504a67dc2539c1"
+    },
+    {
+      "path": "sintetizador-para-principiantes-aprendizaje/index.html",
+      "size": 37050,
+      "sha256": "c4e777fe0243ca2c7f5c5b29921c90976c5952f49d6dd6994e3ee5344484c84d"
+    },
+    {
+      "path": "sintetizadores-para-sonidos-lead/index.html",
+      "size": 36542,
+      "sha256": "e87a18f930e6e85a4f28b04109af859526945b5facbbe9b6fd67095f9488a769"
+    },
+    {
+      "path": "sitemap.xml",
+      "size": 86017,
+      "sha256": "98ce6885e587fa956e777ca0e812b9f9cf3723ed214a2abd355a37876c66527c"
+    },
+    {
+      "path": "synido-livedock-directo/index.html",
+      "size": 36835,
+      "sha256": "2635ebffcddec397d82c063c949e18c525861e028d59eea042f7feaee0307446"
+    },
+    {
+      "path": "synido-livemix-streaming-creadores/index.html",
+      "size": 36748,
+      "sha256": "b1931719e5f7969707b711f56db8e99e851c2f5be41f3fd77b5dd1e639aac63d"
+    },
+    {
+      "path": "synido-tempokey-25-controlador-compacto/index.html",
+      "size": 36812,
+      "sha256": "80ce9a033c06f685f0197cd92866fa4af7c363ee654c75b629a6eeab9fe7f022"
+    },
+    {
+      "path": "synido-tempokey-25-home-studio/index.html",
+      "size": 36956,
+      "sha256": "4fa8971884c92bebd2032d711bb24e1824e61ee1ddafd50318bc24a7254b69f6"
+    },
+    {
+      "path": "synido-tempokey-25-para-principiantes/index.html",
+      "size": 36996,
+      "sha256": "3552d242fcca468597c90f6726fd0fff38fd4fefe6bb9dcd4dc87760ea552d37"
+    },
+    {
+      "path": "synido-tempopad-beats-ableton/index.html",
+      "size": 36733,
+      "sha256": "3dd731c0aab3d63df4d2fc58a43387771f825672cf648914ec99a96db6ef86fa"
+    },
+    {
+      "path": "synido-tempopad-beats-controlador/index.html",
+      "size": 36483,
+      "sha256": "ff9d070a37f36ebd905a7e1e30c66424398fe633a7915f93d8ea706880ab5d77"
+    },
+    {
+      "path": "synido-tempopad-beats-fl-studio/index.html",
+      "size": 36710,
+      "sha256": "71f61a9881466d8a00e5a77ffef8e34069266edaa6125eef6fbe2a1229ed75ba"
+    },
+    {
+      "path": "teclado-midi-chico-para-notebook/index.html",
+      "size": 37246,
+      "sha256": "ffcfdd7b0dd85d8b81fc162bab2128b92badd9fa09562d0c85296850b6ab70e1"
+    },
+    {
+      "path": "upgrade-home-studio-principiante/index.html",
+      "size": 37007,
+      "sha256": "c248a76d978c2acb2620463043e4ac276d40266aea2ae609878bfe194cf0386c"
+    }
+  ]
+}

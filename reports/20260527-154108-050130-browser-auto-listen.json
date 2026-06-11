@@ -1,0 +1,53 @@
+{
+  "timestamp_utc": "20260527-154108-050130",
+  "command": "auto-listen",
+  "channels": [
+    "instagram",
+    "youtube"
+  ],
+  "searches": 1,
+  "per_search": 2,
+  "dry_run": true,
+  "items": 3,
+  "social_intel_path": "D:\\AgentesGuille\\data\\social_intel.jsonl",
+  "search_tasks_path": "D:\\AgentesGuille\\data\\distribution_search_tasks.jsonl",
+  "content_feedback_path": "D:\\AgentesGuille\\data\\content_feedback.jsonl",
+  "sample": [
+    {
+      "id": "20260527-154057-029822:instagram:0",
+      "created_at_utc": "2026-05-27T15:41:02.343213+00:00",
+      "run_id": "20260527-154057-029822",
+      "channel": "instagram",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.instagram.com/explore/search/keyword/?q=controlador%20MIDI%20para%20FL%20Studio#",
+      "source_title": "También de MetaTambién de Meta",
+      "source_context": "También de MetaTambién de Meta"
+    },
+    {
+      "id": "20260527-154057-029822:youtube:1",
+      "created_at_utc": "2026-05-27T15:41:08.049824+00:00",
+      "run_id": "20260527-154057-029822",
+      "channel": "youtube",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.youtube.com/watch?v=GPVLFMJQYDQ&pp=ygUfY29udHJvbGFkb3IgTUlESSBwYXJhIEZMIFN0dWRpbw%3D%3D",
+      "source_title": "8:27 Now playing",
+      "source_context": "8:27 Now playing EL MEJOR CONTROLADOR MIDI PARA FL STUDIO - FL Key Mini Novation 16K views 4 years ago Eric Kauffmann ADQUIERE FL KEY MINI AQUÍ: https://tinyurl.com/FLKEYMINI ¿NECESITAS LANZAR TU MÚSICA? Pues te recomiendo ... 4K CC 13 chapters Intro | Explicación de controles | Channel Rack | Instrumento | Secuenciador | Plugin | Volumen Mixer | Paneo Mixer | Cambio de presets | Note repeat | Modo Escala | Resumen | Patrocinio"
+    },
+    {
+      "id": "20260527-154057-029822:youtube:2",
+      "created_at_utc": "2026-05-27T15:41:08.049842+00:00",
+      "run_id": "20260527-154057-029822",
+      "channel": "youtube",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.youtube.com/watch?v=GPVLFMJQYDQ",
+      "source_title": "Intro Intro 0:00",
+      "source_context": "Intro Intro 0:00 Intro 0:00 Explicación de controles Explicación de controles 0:49 Explicación de controles 0:49 Channel Rack Channel Rack 1:50 Channel Rack 1:50 Instrumento Instrumento 2:38 Instrumento 2:38 Secuenciador Secuenciador 3:09 Secuenciador 3:09 Plugin Plugin 4:10 Plugin 4:10 Volumen Mixer Volumen Mixer 4:46 Volumen Mixer 4:46"
+    }
+  ]
+}

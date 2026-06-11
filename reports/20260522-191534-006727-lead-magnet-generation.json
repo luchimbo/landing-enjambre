@@ -1,0 +1,150 @@
+{
+  "timestamp_utc": "20260522-191534-006727",
+  "command": "lead-magnets",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260522-191115-124648",
+  "dry_run": false,
+  "requested_limit": 25,
+  "processed_count": 31,
+  "created_count": 25,
+  "skipped_count": 3,
+  "blocked_count": 3,
+  "created": [
+    {
+      "slug": "controlador-midi-para-ableton-comparativa",
+      "title": "Comparativa: Controladores MIDI para Ableton"
+    },
+    {
+      "slug": "microfono-para-podcast-usb-o-xlr",
+      "title": "Comparativa: Micrófonos USB vs XLR para podcast"
+    },
+    {
+      "slug": "microfono-para-streaming",
+      "title": "Checklist: 5 claves para elegir tu micrófono de streaming"
+    },
+    {
+      "slug": "auriculares-cerrados-para-grabar-voces",
+      "title": "Checklist: 5 claves para elegir auriculares cerrados"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis",
+      "title": "Checklist: 5 claves para elegir tu primer sintetizador"
+    },
+    {
+      "slug": "bateria-electronica-para-departamento",
+      "title": "Checklist: 5 aspectos clave para elegir tu batería electrónica"
+    },
+    {
+      "slug": "setup-de-streaming-con-buen-audio",
+      "title": "Checklist: 8 pasos para un setup de streaming profesional"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab",
+      "title": "Comparativa: Arturia MiniLab 3 vs KeyLab"
+    },
+    {
+      "slug": "home-studio-para-principiantes",
+      "title": "Checklist: Elementos esenciales para tu Home Studio"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-ableton",
+      "title": "Checklist: 5 claves para elegir tu MiniLab 3"
+    },
+    {
+      "slug": "arturia-minilab-3-fl-studio",
+      "title": "Checklist: 5 claves para elegir el MiniLab 3 ideal"
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador",
+      "title": "Checklist: 8 aspectos clave del Arturia KeyStep Pro"
+    },
+    {
+      "slug": "arturia-microfreak-para-empezar-en-sintesis",
+      "title": "Checklist: 5 claves para elegir tu primer sintetizador"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak",
+      "title": "Comparativa: Arturia MiniFreak vs MicroFreak"
+    },
+    {
+      "slug": "arturia-polybrute-estudio",
+      "title": "Guía: Claves para elegir un sintetizador avanzado"
+    },
+    {
+      "slug": "synido-tempokey-25-controlador-compacto",
+      "title": "Checklist: 5 claves para elegir tu controlador MIDI"
+    },
+    {
+      "slug": "synido-livemix-streaming-creadores",
+      "title": "Checklist: 5 aspectos clave al elegir tu interfaz LiveMix"
+    },
+    {
+      "slug": "synido-livedock-directo",
+      "title": "Checklist: 5 claves para elegir tu interfaz Synido LiveDock"
+    },
+    {
+      "slug": "midiplus-ak490-principiantes",
+      "title": "Checklist: 5 Claves para Elegir tu Teclado MIDI"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-escritorio",
+      "title": "Checklist: Elegir el Controlador MIDI Compacto Ideal"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-midiplus-i61",
+      "title": "Checklist: 8 claves para elegir tu controlador MIDI de 61 teclas"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio",
+      "title": "Checklist: 5 claves para elegir tu interfaz de audio"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio",
+      "title": "Checklist: 5 aspectos clave al elegir monitores MS5"
+    },
+    {
+      "slug": "midiplus-mi3-escritorio-chico",
+      "title": "Checklist: 5 pasos para elegir monitores compactos"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria",
+      "title": "Checklist: 5 aspectos clave al elegir una batería electrónica"
+    }
+  ],
+  "skipped": [
+    {
+      "slug": "controlador-midi-para-fl-studio",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "placa-sonido-guitarra",
+      "reason": "already_exists"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "monitores-estudio-home-studio-chico",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 339 (char 809)"
+    },
+    {
+      "slug": "synido-tempopad-beats-controlador",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 278 (char 728)"
+    },
+    {
+      "slug": "midiplus-ms6-home-studio",
+      "reason": "validation_error",
+      "errors": [
+        "claim prohibido detectado: precio",
+        "claim prohibido detectado: precios"
+      ]
+    }
+  ],
+  "elapsed_seconds": 258.88
+}

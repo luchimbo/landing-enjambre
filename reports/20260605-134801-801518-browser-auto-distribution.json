@@ -1,0 +1,242 @@
+{
+  "timestamp_utc": "20260605-134801-801518",
+  "command": "auto-distribution",
+  "channels": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "reddit",
+    "x",
+    "youtube"
+  ],
+  "unsupported_channels": [],
+  "limit": 18,
+  "per_channel": 3,
+  "dry_run": false,
+  "allow_proposed": false,
+  "published_or_attempted": 7,
+  "blocked_seen": 762,
+  "results": [
+    {
+      "id": "20260605-134418-161713:youtube:auto-listen:34",
+      "channel": "youtube",
+      "slug": "microfono-para-podcast-usb-o-xlr",
+      "result": {
+        "ok": true,
+        "url": "https://www.youtube.com/watch?v=v7DyRmMkqCI&t=18s&pp=ygUWbWljcm9mb25vIHBhcmEgcG9kY2FzdNIHCQk4CwGHKiGM7w%3D%3D",
+        "dismissed": [
+          {
+            "ok": true,
+            "label": "subtitles/closed captions unavailable"
+          }
+        ],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "youtube_placeholder",
+              "ok": true,
+              "prep": {
+                "ok": true,
+                "tries": 1,
+                "tag": "YTD-COMMENT-SIMPLEBOX-RENDERER"
+              },
+              "open": {
+                "ok": true,
+                "selector": "#placeholder-area"
+              },
+              "fill": {
+                "ok": true,
+                "selector": "[aria-label*=\"Add a comment\"]",
+                "length": 140
+              },
+              "submit": {
+                "ok": true,
+                "selector": "#submit-button button"
+              },
+              "keyboard_submit": {
+                "ok": false,
+                "skipped": true
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260605-134418-161713:youtube:auto-listen:33",
+      "channel": "youtube",
+      "slug": "microfono-para-podcast-usb-o-xlr",
+      "result": {
+        "ok": true,
+        "url": "https://www.youtube.com/watch?v=oU6tDISaZAQ&t=630s&pp=ygUWbWljcm9mb25vIHBhcmEgcG9kY2FzdA%3D%3D",
+        "dismissed": [
+          {
+            "ok": true,
+            "label": "subtitles/closed captions unavailable"
+          }
+        ],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "youtube_placeholder",
+              "ok": true,
+              "prep": {
+                "ok": true,
+                "tries": 1,
+                "tag": "YTD-COMMENT-SIMPLEBOX-RENDERER"
+              },
+              "open": {
+                "ok": true,
+                "selector": "#placeholder-area"
+              },
+              "fill": {
+                "ok": true,
+                "selector": "[aria-label*=\"Add a comment\"]",
+                "length": 140
+              },
+              "submit": {
+                "ok": true,
+                "selector": "#submit-button button"
+              },
+              "keyboard_submit": {
+                "ok": false,
+                "skipped": true
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260605-134418-161713:youtube:auto-listen:31",
+      "channel": "youtube",
+      "slug": "placa-sonido-guitarra",
+      "result": {
+        "ok": false,
+        "error": "[WinError 10053] Se ha anulado una conexión establecida por el software en su equipo host"
+      }
+    },
+    {
+      "id": "20260605-134418-161713:reddit:auto-listen:19",
+      "channel": "reddit",
+      "slug": "microfono-para-podcast-usb-o-xlr",
+      "result": {
+        "ok": false,
+        "error": "[WinError 10053] Se ha anulado una conexión establecida por el software en su equipo host"
+      }
+    },
+    {
+      "id": "20260605-134418-161713:reddit:auto-listen:15",
+      "channel": "reddit",
+      "slug": "controlador-midi-para-fl-studio",
+      "result": {
+        "ok": false,
+        "error": "[WinError 10053] Se ha anulado una conexión establecida por el software en su equipo host"
+      }
+    },
+    {
+      "id": "20260605-134418-161713:reddit:auto-listen:14",
+      "channel": "reddit",
+      "slug": "controlador-midi-para-fl-studio",
+      "result": {
+        "ok": false,
+        "error": "[WinError 10053] Se ha anulado una conexión establecida por el software en su equipo host"
+      }
+    },
+    {
+      "id": "20260605-134418-161713:linkedin:auto-listen:12",
+      "channel": "linkedin",
+      "slug": "microfono-para-streaming",
+      "result": {
+        "ok": false,
+        "error": "[WinError 10053] Se ha anulado una conexión establecida por el software en su equipo host"
+      }
+    }
+  ],
+  "blocked_sample": [
+    {
+      "id": "20260605-134418-161713:youtube:auto-listen:35",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260605-134418-161713:youtube:auto-listen:32",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260605-134418-161713:youtube:auto-listen:30",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260605-134418-161713:youtube:auto-listen:27",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260605-134418-161713:youtube:auto-listen:21",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260605-134418-161713:reddit:auto-listen:18",
+      "channel": "reddit",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260605-134418-161713:reddit:auto-listen:17",
+      "channel": "reddit",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260605-134418-161713:reddit:auto-listen:16",
+      "channel": "reddit",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260605-134418-161713:linkedin:auto-listen:11",
+      "channel": "linkedin",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260605-134418-161713:linkedin:auto-listen:10",
+      "channel": "linkedin",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    }
+  ]
+}

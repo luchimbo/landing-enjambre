@@ -1,0 +1,65 @@
+{
+  "timestamp_utc": "20260527-182536-470608",
+  "command": "auto-listen",
+  "channels": [
+    "instagram"
+  ],
+  "searches": 2,
+  "per_search": 2,
+  "dry_run": false,
+  "items": 4,
+  "distribution_drafts": 4,
+  "social_intel_path": "D:\\AgentesGuille\\data\\social_intel.jsonl",
+  "search_tasks_path": "D:\\AgentesGuille\\data\\distribution_search_tasks.jsonl",
+  "content_feedback_path": "D:\\AgentesGuille\\data\\content_feedback.jsonl",
+  "sample": [
+    {
+      "id": "20260527-182525-486226:instagram:0",
+      "created_at_utc": "2026-05-27T18:25:30.991677+00:00",
+      "run_id": "20260527-182525-486226",
+      "channel": "instagram",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.instagram.com/p/BpaFs6wHIsc/",
+      "source_title": "Reel",
+      "source_context": "Reel"
+    },
+    {
+      "id": "20260527-182525-486226:instagram:1",
+      "created_at_utc": "2026-05-27T18:25:30.991785+00:00",
+      "run_id": "20260527-182525-486226",
+      "channel": "instagram",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.instagram.com/p/DW4SjJxiFOy/",
+      "source_title": "Secuencia",
+      "source_context": "Secuencia"
+    },
+    {
+      "id": "20260527-182525-486226:instagram:2",
+      "created_at_utc": "2026-05-27T18:25:36.469179+00:00",
+      "run_id": "20260527-182525-486226",
+      "channel": "instagram",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.instagram.com/p/DKlslFwsis_/",
+      "source_title": "",
+      "source_context": "Photo by Qatar Home Studio on June 06, 2025."
+    },
+    {
+      "id": "20260527-182525-486226:instagram:3",
+      "created_at_utc": "2026-05-27T18:25:36.469248+00:00",
+      "run_id": "20260527-182525-486226",
+      "channel": "instagram",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.instagram.com/p/DS1gcLzE46w/",
+      "source_title": "Reel",
+      "source_context": "Reel"
+    }
+  ]
+}

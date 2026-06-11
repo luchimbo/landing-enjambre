@@ -1,0 +1,382 @@
+{
+  "timestamp_utc": "20260605-174357-692948",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260605-173801-570241",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 12,
+  "pieces_proposed": 70,
+  "pieces_blocked": 2,
+  "proposed": [
+    {
+      "slug": "secuenciador-para-dawless",
+      "type": "post_educativo",
+      "title": "Secuenciadores para un flujo creativo sin computadora"
+    },
+    {
+      "slug": "secuenciador-para-dawless",
+      "type": "snippet_social",
+      "title": "Secuenciadores para un flujo creativo sin computadora"
+    },
+    {
+      "slug": "secuenciador-para-dawless",
+      "type": "post_social",
+      "title": "Secuenciadores: tu aliado para crear sin computadora 🎶"
+    },
+    {
+      "slug": "secuenciador-para-dawless",
+      "type": "post_x",
+      "title": "Secuenciadores para un flujo creativo sin computadora"
+    },
+    {
+      "slug": "secuenciador-para-dawless",
+      "type": "respuesta_youtube",
+      "title": "Secuenciadores para un flujo creativo sin computadora"
+    },
+    {
+      "slug": "secuenciador-para-modular-y-sintes",
+      "type": "respuesta_tecnica",
+      "title": "Secuenciadores ideales para modular y sintetizadores"
+    },
+    {
+      "slug": "secuenciador-para-modular-y-sintes",
+      "type": "post_educativo",
+      "title": "Secuenciadores ideales para modular y sintetizadores"
+    },
+    {
+      "slug": "secuenciador-para-modular-y-sintes",
+      "type": "snippet_social",
+      "title": "Secuenciadores ideales para modular y sintetizadores"
+    },
+    {
+      "slug": "secuenciador-para-modular-y-sintes",
+      "type": "post_social",
+      "title": "Secuenciadores ideales para modular y sintetizadores"
+    },
+    {
+      "slug": "secuenciador-para-modular-y-sintes",
+      "type": "post_x",
+      "title": "Secuenciadores ideales para modular y sintetizadores"
+    },
+    {
+      "slug": "secuenciador-para-modular-y-sintes",
+      "type": "respuesta_youtube",
+      "title": "Secuenciadores ideales para modular y sintetizadores"
+    },
+    {
+      "slug": "sinte-analogico-para-principiantes",
+      "type": "respuesta_tecnica",
+      "title": "Tu primer sintetizador analógico: guía para principiantes"
+    },
+    {
+      "slug": "sinte-analogico-para-principiantes",
+      "type": "snippet_social",
+      "title": "Tu primer sintetizador analógico: guía para principiantes"
+    },
+    {
+      "slug": "sinte-analogico-para-principiantes",
+      "type": "post_social",
+      "title": "Tu primer sintetizador analógico: guía para principiantes"
+    },
+    {
+      "slug": "sinte-analogico-para-principiantes",
+      "type": "post_x",
+      "title": "Tu primer sintetizador analógico: guía para principiantes"
+    },
+    {
+      "slug": "sinte-analogico-para-principiantes",
+      "type": "respuesta_youtube",
+      "title": "Tu primer sintetizador analógico: consejos para principiantes"
+    },
+    {
+      "slug": "sinte-hibrido-para-directo",
+      "type": "respuesta_tecnica",
+      "title": "Sintetizadores Híbridos: Clave para Actuaciones en Vivo"
+    },
+    {
+      "slug": "sinte-hibrido-para-directo",
+      "type": "post_educativo",
+      "title": "Sintetizadores Híbridos: Clave para tus Actuaciones en Vivo"
+    },
+    {
+      "slug": "sinte-hibrido-para-directo",
+      "type": "snippet_social",
+      "title": "Sintetizadores Híbridos para tus Actuaciones en Vivo"
+    },
+    {
+      "slug": "sinte-hibrido-para-directo",
+      "type": "post_social",
+      "title": "Sintetizadores Híbridos: Potencia tu Actuación en Vivo"
+    },
+    {
+      "slug": "sinte-hibrido-para-directo",
+      "type": "post_x",
+      "title": "Sintetizadores Híbridos para tus Actuaciones en Vivo"
+    },
+    {
+      "slug": "sinte-hibrido-para-directo",
+      "type": "respuesta_youtube",
+      "title": "Sintetizadores Híbridos: Clave para Actuaciones en Vivo"
+    },
+    {
+      "slug": "sintetizadores-para-sonidos-lead",
+      "type": "respuesta_tecnica",
+      "title": "Sintetizadores para Crear Sonidos Lead Impactantes"
+    },
+    {
+      "slug": "sintetizadores-para-sonidos-lead",
+      "type": "post_educativo",
+      "title": "Sintetizadores para Crear Sonidos Lead Impactantes"
+    },
+    {
+      "slug": "sintetizadores-para-sonidos-lead",
+      "type": "snippet_social",
+      "title": "Sintetizadores para Crear Sonidos Lead Impactantes"
+    },
+    {
+      "slug": "sintetizadores-para-sonidos-lead",
+      "type": "post_social",
+      "title": "Sintetizadores para Sonidos Lead Impactantes 🎹"
+    },
+    {
+      "slug": "sintetizadores-para-sonidos-lead",
+      "type": "post_x",
+      "title": "Sintetizadores para Crear Sonidos Lead Impactantes"
+    },
+    {
+      "slug": "sintetizadores-para-sonidos-lead",
+      "type": "respuesta_youtube",
+      "title": "Sintetizadores para Sonidos Lead: Claves para Elegir"
+    },
+    {
+      "slug": "sintetizador-para-pads-y-atmosferas",
+      "type": "respuesta_tecnica",
+      "title": "Sintetizadores para Crear Pads y Atmósferas: Guía Técnica"
+    },
+    {
+      "slug": "sintetizador-para-pads-y-atmosferas",
+      "type": "post_educativo",
+      "title": "Sintetizadores para Crear Pads y Atmósferas: Guía Práctica"
+    },
+    {
+      "slug": "sintetizador-para-pads-y-atmosferas",
+      "type": "snippet_social",
+      "title": "Sintetizadores para Crear Pads y Atmósferas"
+    },
+    {
+      "slug": "sintetizador-para-pads-y-atmosferas",
+      "type": "post_social",
+      "title": "Descubre Sintetizadores para Crear Pads y Atmósferas"
+    },
+    {
+      "slug": "sintetizador-para-pads-y-atmosferas",
+      "type": "post_x",
+      "title": "Sintetizadores para Crear Pads y Atmósferas"
+    },
+    {
+      "slug": "sintetizador-para-pads-y-atmosferas",
+      "type": "respuesta_youtube",
+      "title": "Sintetizadores para Crear Pads y Atmósferas: Claves para Elegir"
+    },
+    {
+      "slug": "sintetizador-con-vocoder-para-voz-procesada",
+      "type": "respuesta_tecnica",
+      "title": "Sintetizadores con Vocoder: Mejora Tu Voz en Producción Musical"
+    },
+    {
+      "slug": "sintetizador-con-vocoder-para-voz-procesada",
+      "type": "post_educativo",
+      "title": "Sintetizadores con Vocoder para Dar Vida a Tu Voz"
+    },
+    {
+      "slug": "sintetizador-con-vocoder-para-voz-procesada",
+      "type": "snippet_social",
+      "title": "Sintetizadores con Vocoder para Transformar Tu Voz"
+    },
+    {
+      "slug": "sintetizador-con-vocoder-para-voz-procesada",
+      "type": "post_social",
+      "title": "Sintetizadores con Vocoder: Da Vida a Tu Voz 🎤"
+    },
+    {
+      "slug": "sintetizador-con-vocoder-para-voz-procesada",
+      "type": "post_x",
+      "title": "Sintetizadores con Vocoder: Da Vida a Tu Voz"
+    },
+    {
+      "slug": "sintetizador-con-vocoder-para-voz-procesada",
+      "type": "respuesta_youtube",
+      "title": "Sintetizadores con Vocoder: Transforma Tu Voz Creativamente"
+    },
+    {
+      "slug": "bateria-electronica-para-practicar-de-noche",
+      "type": "respuesta_tecnica",
+      "title": "Baterías Electrónicas para Practicar Sin Molestias"
+    },
+    {
+      "slug": "bateria-electronica-para-practicar-de-noche",
+      "type": "post_educativo",
+      "title": "Baterías Electrónicas: La Solución Ideal para Practicar de Noche"
+    },
+    {
+      "slug": "bateria-electronica-para-practicar-de-noche",
+      "type": "snippet_social",
+      "title": "Baterías Electrónicas para Practicar Sin Molestias"
+    },
+    {
+      "slug": "bateria-electronica-para-practicar-de-noche",
+      "type": "post_social",
+      "title": "Baterías Electrónicas: Tu Compañera Ideal para Practicar de Noche"
+    },
+    {
+      "slug": "bateria-electronica-para-practicar-de-noche",
+      "type": "post_x",
+      "title": "Baterías Electrónicas para Practicar Sin Molestias"
+    },
+    {
+      "slug": "bateria-electronica-para-practicar-de-noche",
+      "type": "respuesta_youtube",
+      "title": "Baterías Electrónicas: La Solución Silenciosa para Practicar de Noche"
+    },
+    {
+      "slug": "bateria-electronica-para-chicos",
+      "type": "respuesta_tecnica",
+      "title": "Guía para Elegir una Batería Electrónica para Niños"
+    },
+    {
+      "slug": "bateria-electronica-para-chicos",
+      "type": "post_educativo",
+      "title": "Baterías Electrónicas para Chicos: Comenzá a Tocar"
+    },
+    {
+      "slug": "bateria-electronica-para-chicos",
+      "type": "snippet_social",
+      "title": "Baterías Electrónicas para Chicos: Comenzá a Tocar"
+    },
+    {
+      "slug": "bateria-electronica-para-chicos",
+      "type": "post_social",
+      "title": "Baterías Electrónicas para Chicos: Comenzá a Tocar"
+    },
+    {
+      "slug": "bateria-electronica-para-chicos",
+      "type": "post_x",
+      "title": "Baterías Electrónicas para Chicos: Comenzá a Tocar"
+    },
+    {
+      "slug": "bateria-electronica-para-chicos",
+      "type": "respuesta_youtube",
+      "title": "Consejos para Elegir Baterías Electrónicas para Niños"
+    },
+    {
+      "slug": "bateria-electronica-para-tocar-en-vivo",
+      "type": "respuesta_tecnica",
+      "title": "Elige la Batería Electrónica Perfecta para tus Shows en Vivo"
+    },
+    {
+      "slug": "bateria-electronica-para-tocar-en-vivo",
+      "type": "post_educativo",
+      "title": "Elige la Batería Electrónica Perfecta para tus Shows en Vivo"
+    },
+    {
+      "slug": "bateria-electronica-para-tocar-en-vivo",
+      "type": "snippet_social",
+      "title": "Elige la Batería Electrónica Perfecta para tus Shows en Vivo"
+    },
+    {
+      "slug": "bateria-electronica-para-tocar-en-vivo",
+      "type": "post_social",
+      "title": "Elige la Batería Electrónica Perfecta para tus Shows en Vivo"
+    },
+    {
+      "slug": "bateria-electronica-para-tocar-en-vivo",
+      "type": "post_x",
+      "title": "Elige la Batería Electrónica Perfecta para tus Shows en Vivo"
+    },
+    {
+      "slug": "bateria-electronica-para-tocar-en-vivo",
+      "type": "respuesta_youtube",
+      "title": "Elige la Batería Electrónica Perfecta para tus Shows en Vivo"
+    },
+    {
+      "slug": "bateria-electronica-para-grabar-midi",
+      "type": "respuesta_tecnica",
+      "title": "Baterías Electrónicas para Grabar MIDI: Guía para Productores"
+    },
+    {
+      "slug": "bateria-electronica-para-grabar-midi",
+      "type": "post_educativo",
+      "title": "Baterías Electrónicas para Grabar MIDI: Guía para Productores"
+    },
+    {
+      "slug": "bateria-electronica-para-grabar-midi",
+      "type": "snippet_social",
+      "title": "Baterías Electrónicas para Grabar MIDI: Guía Rápida"
+    },
+    {
+      "slug": "bateria-electronica-para-grabar-midi",
+      "type": "post_social",
+      "title": "Baterías Electrónicas para Grabar MIDI: ¡Elige la Tuya!"
+    },
+    {
+      "slug": "bateria-electronica-para-grabar-midi",
+      "type": "post_x",
+      "title": "Baterías Electrónicas para Grabar MIDI: Guía Rápida"
+    },
+    {
+      "slug": "bateria-electronica-para-grabar-midi",
+      "type": "respuesta_youtube",
+      "title": "Guía para Elegir Baterías Electrónicas para Grabar MIDI"
+    },
+    {
+      "slug": "modulos-bateria-electronica-pc-midi",
+      "type": "respuesta_tecnica",
+      "title": "Encuentra el Módulo Perfecto para tu Batería Electrónica"
+    },
+    {
+      "slug": "modulos-bateria-electronica-pc-midi",
+      "type": "post_educativo",
+      "title": "Encuentra el Módulo Perfecto para tu Batería Electrónica"
+    },
+    {
+      "slug": "modulos-bateria-electronica-pc-midi",
+      "type": "snippet_social",
+      "title": "Encuentra el Módulo Perfecto para tu Batería Electrónica"
+    },
+    {
+      "slug": "modulos-bateria-electronica-pc-midi",
+      "type": "post_social",
+      "title": "Encuentra el Módulo Perfecto para tu Batería Electrónica"
+    },
+    {
+      "slug": "modulos-bateria-electronica-pc-midi",
+      "type": "post_x",
+      "title": "Encuentra el Módulo Perfecto para tu Batería Electrónica"
+    },
+    {
+      "slug": "modulos-bateria-electronica-pc-midi",
+      "type": "respuesta_youtube",
+      "title": "Encuentra el Módulo Perfecto para tu Batería Electrónica"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "secuenciador-para-dawless",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "sinte-analogico-para-principiantes",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 356.12
+}

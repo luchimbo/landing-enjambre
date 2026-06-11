@@ -1,0 +1,80 @@
+{
+  "timestamp_utc": "20260611-172827-892589",
+  "command": "auto-listen",
+  "channels": [
+    "facebook",
+    "instagram",
+    "x",
+    "youtube"
+  ],
+  "searches": 2,
+  "per_search": 2,
+  "dry_run": false,
+  "items": 5,
+  "distribution_drafts": 5,
+  "social_intel_path": "D:\\AgentesGuille\\data\\social_intel.jsonl",
+  "search_tasks_path": "D:\\AgentesGuille\\data\\distribution_search_tasks.jsonl",
+  "content_feedback_path": "D:\\AgentesGuille\\data\\content_feedback.jsonl",
+  "sample": [
+    {
+      "id": "20260611-172744-162605:instagram:0",
+      "created_at_utc": "2026-06-11T17:28:00.691965+00:00",
+      "run_id": "20260611-172744-162605",
+      "channel": "instagram",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.instagram.com/p/DS3IXVpkmh_/",
+      "source_title": "",
+      "source_context": "#flstudio #music #praise4ngell"
+    },
+    {
+      "id": "20260611-172744-162605:instagram:1",
+      "created_at_utc": "2026-06-11T17:28:06.223878+00:00",
+      "run_id": "20260611-172744-162605",
+      "channel": "instagram",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.instagram.com/p/C_t3pB6yNNr/",
+      "source_title": "",
+      "source_context": "Go Solo / / Universal Audio Apollo Solo Heritage Edition (SGD845) / / Desktop 2 x 4 Thunderbolt 3 Audio Interface / / Amazing sounding class-leading AD/DA for maximum fidelity / / Two Pristine Preamps with Unison technology provides spot-on emulations of classic preamps / / Realtime UAD Processing allows near-zero latency tracking with classic UAD plug-in effects, regardless of software buffer setting / / SGD1,800 plug-in bundle on top of the Analog Classics plug-in bundle / / Produce with LUNA Recording System — a free, fully-integrated recording application made for Apollo / / Best-in-class headphone amplifier for loud, detailed, low-noise monitoring / / Bus-powered connection to Mac and Windows systems for easy portability and reduced cable clutter / / Get yours today at our showroom or online store: https://sinamex.com/product/universal-audio-apollo-solo/"
+    },
+    {
+      "id": "20260611-172744-162605:instagram:2",
+      "created_at_utc": "2026-06-11T17:28:06.271446+00:00",
+      "run_id": "20260611-172744-162605",
+      "channel": "instagram",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.instagram.com/p/DB263Y8zYZ1/",
+      "source_title": "",
+      "source_context": "Universal Audio Volt - Seven Stereo"
+    },
+    {
+      "id": "20260611-172744-162605:youtube:3",
+      "created_at_utc": "2026-06-11T17:28:27.758867+00:00",
+      "run_id": "20260611-172744-162605",
+      "channel": "youtube",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.youtube.com/watch?v=9GqOBgasFEA&t=136s&pp=ygUpaW50ZXJmYXogZGUgYXVkaW8gcGFyYSBncmFiYXIgdm96IGVuIGNhc2E%3D",
+      "source_title": "9:56 9:56 Now playing",
+      "source_context": "👉 How to Make a RECORDING STUDIO at HOME - Economical Minimalist Home Studio 408K views 2 years ago Marce Ferrace This is the Simplest way to make your Minimalist HOME STUDIO in your room! What you need to know to be able to Record at Home ... CC 8 chapters Home Studio Minimalista | Qué PC necesito ? | Que es un DAW ? | Los Auriculares PLANOS (Fundamental) | Para qué se usa la Interfaz o placa de Sonido ? | El micrófono Ideal | Son Necesarios los Monitores de Audio ? | Qué es un Controlador MIDI ?"
+    },
+    {
+      "id": "20260611-172744-162605:youtube:4",
+      "created_at_utc": "2026-06-11T17:28:27.804527+00:00",
+      "run_id": "20260611-172744-162605",
+      "channel": "youtube",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.youtube.com/watch?v=9GqOBgasFEA",
+      "source_title": "Home Studio Minimalista Home Studio Minimalista 0:00",
+      "source_context": "Home Studio Minimalista Home Studio Minimalista 0:00 Home Studio Minimalista 0:00 Qué PC necesito ? Qué PC necesito ? 0:16 Qué PC necesito ? 0:16 Que es un DAW ? Que es un DAW ? 1:27 Que es un DAW ? 1:27 Los Auriculares PLANOS (Fundamental) Los Auriculares PLANOS (Fundamental) 2:02 Los Auriculares PLANOS (Fundamental) 2:02"
+    }
+  ]
+}

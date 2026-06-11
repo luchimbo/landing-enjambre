@@ -1,0 +1,17 @@
+{
+  "timestamp_utc": "20260526-200102-403794",
+  "command": "status",
+  "database": "postgres",
+  "stats": {
+    "leads": {
+      "total": 3,
+      "active": 3,
+      "unsubscribed": 0
+    },
+    "messages": {
+      "sent": 3,
+      "pending": 6,
+      "failed": 0
+    }
+  }
+}

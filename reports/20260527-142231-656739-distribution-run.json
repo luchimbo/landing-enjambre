@@ -1,0 +1,54 @@
+{
+  "timestamp_utc": "20260527-142231-656739",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260527-142132-390942",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 2,
+  "pieces_proposed": 3,
+  "pieces_blocked": 3,
+  "proposed": [
+    {
+      "slug": "monitores-5-pulgadas-vs-6-pulgadas",
+      "type": "respuesta_tecnica",
+      "title": "Monitores de 5 pulgadas vs 6 pulgadas: ¿Cuál elegir para tu estudio?"
+    },
+    {
+      "slug": "monitores-5-pulgadas-vs-6-pulgadas",
+      "type": "post_educativo",
+      "title": "Monitores de 5 pulgadas vs 6 pulgadas: ¿Cuál elegir para tu estudio?"
+    },
+    {
+      "slug": "monitores-5-pulgadas-vs-6-pulgadas",
+      "type": "snippet_social",
+      "title": "Monitores de 5 pulgadas vs 6 pulgadas: ¿Cuál elegir?"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "controlador-midi-25-teclas-vs-49-teclas",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-25-teclas-vs-49-teclas",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-25-teclas-vs-49-teclas",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 59.27
+}

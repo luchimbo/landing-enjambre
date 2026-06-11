@@ -1,0 +1,406 @@
+{
+  "timestamp_utc": "20260608-164443-493876",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260608-163801-913639",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 12,
+  "pieces_proposed": 58,
+  "pieces_blocked": 14,
+  "proposed": [
+    {
+      "slug": "controlador-arturia-minilab-3-ableton-1",
+      "type": "post_social",
+      "title": "Arturia MiniLab 3: Tu aliado para producir en Ableton"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-ableton-1",
+      "type": "post_x",
+      "title": "Arturia MiniLab 3: Tu aliado para producir en Ableton"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-ableton-1",
+      "type": "respuesta_youtube",
+      "title": "Arturia MiniLab 3: Ideal para tu flujo en Ableton"
+    },
+    {
+      "slug": "guia-elegir-audio-technica-ath-m20x-grabar",
+      "type": "respuesta_tecnica",
+      "title": "Elige el Audio Technica ATH-M20x para tus Grabaciones"
+    },
+    {
+      "slug": "guia-elegir-audio-technica-ath-m20x-grabar",
+      "type": "post_educativo",
+      "title": "Elige el Audio Technica ATH-M20x para tus Grabaciones"
+    },
+    {
+      "slug": "guia-elegir-audio-technica-ath-m20x-grabar",
+      "type": "snippet_social",
+      "title": "Elige el Audio Technica ATH-M20x para tus Grabaciones"
+    },
+    {
+      "slug": "guia-elegir-audio-technica-ath-m20x-grabar",
+      "type": "post_social",
+      "title": "Elige el Audio Technica ATH-M20x para tus Grabaciones"
+    },
+    {
+      "slug": "guia-elegir-audio-technica-ath-m20x-grabar",
+      "type": "post_x",
+      "title": "Elige el Audio Technica ATH-M20x para tus Grabaciones"
+    },
+    {
+      "slug": "guia-elegir-audio-technica-ath-m20x-grabar",
+      "type": "respuesta_youtube",
+      "title": "Elige el Audio Technica ATH-M20x para tus Grabaciones"
+    },
+    {
+      "slug": "interfaz-sonido-guitarra-voz",
+      "type": "respuesta_tecnica",
+      "title": "Elige la Interfaz de Sonido Perfecta para Guitarra y Voz"
+    },
+    {
+      "slug": "interfaz-sonido-guitarra-voz",
+      "type": "post_educativo",
+      "title": "Elige la Interfaz de Sonido Perfecta para Guitarra y Voz"
+    },
+    {
+      "slug": "interfaz-sonido-guitarra-voz",
+      "type": "snippet_social",
+      "title": "Elige la Interfaz de Sonido Perfecta para Guitarra y Voz"
+    },
+    {
+      "slug": "interfaz-sonido-guitarra-voz",
+      "type": "post_social",
+      "title": "Elige la Interfaz de Sonido Perfecta para Guitarra y Voz"
+    },
+    {
+      "slug": "interfaz-sonido-guitarra-voz",
+      "type": "post_x",
+      "title": "Elige la Interfaz de Sonido Perfecta para Guitarra y Voz"
+    },
+    {
+      "slug": "interfaz-sonido-guitarra-voz",
+      "type": "respuesta_youtube",
+      "title": "Elige la Interfaz de Sonido Perfecta para Guitarra y Voz"
+    },
+    {
+      "slug": "placa-sonido-guitarra-voz-principiantes",
+      "type": "respuesta_tecnica",
+      "title": "La Mejor Placa de Sonido para Guitarras y Voces"
+    },
+    {
+      "slug": "placa-sonido-guitarra-voz-principiantes",
+      "type": "post_educativo",
+      "title": "La Mejor Placa de Sonido para Guitarras y Voces"
+    },
+    {
+      "slug": "placa-sonido-guitarra-voz-principiantes",
+      "type": "snippet_social",
+      "title": "La Mejor Placa de Sonido para Guitarras y Voces"
+    },
+    {
+      "slug": "placa-sonido-guitarra-voz-principiantes",
+      "type": "post_social",
+      "title": "La Mejor Placa de Sonido para Guitarras y Voces"
+    },
+    {
+      "slug": "placa-sonido-guitarra-voz-principiantes",
+      "type": "post_x",
+      "title": "La Mejor Placa de Sonido para Guitarras y Voces"
+    },
+    {
+      "slug": "placa-sonido-guitarra-voz-principiantes",
+      "type": "respuesta_youtube",
+      "title": "La Mejor Placa de Sonido para Guitarras y Voces"
+    },
+    {
+      "slug": "controladores-midi-fl-studio-samples",
+      "type": "respuesta_tecnica",
+      "title": "Controladores MIDI para FL Studio: Encuentra el Ideal para Vos"
+    },
+    {
+      "slug": "controladores-midi-fl-studio-samples",
+      "type": "post_educativo",
+      "title": "Controladores MIDI para FL Studio: Encuentra el Ideal para Vos"
+    },
+    {
+      "slug": "controladores-midi-fl-studio-samples",
+      "type": "snippet_social",
+      "title": "Controladores MIDI para FL Studio: Encuentra el Ideal para Vos"
+    },
+    {
+      "slug": "controladores-midi-fl-studio-samples",
+      "type": "post_x",
+      "title": "Controladores MIDI para FL Studio: Encuentra el Ideal"
+    },
+    {
+      "slug": "controladores-midi-fl-studio-samples",
+      "type": "respuesta_youtube",
+      "title": "Controladores MIDI para FL Studio: Lo que Debes Saber"
+    },
+    {
+      "slug": "controladores-midi-ableton-notebook",
+      "type": "respuesta_tecnica",
+      "title": "Controladores MIDI ideales para Ableton en tu notebook"
+    },
+    {
+      "slug": "controladores-midi-ableton-notebook",
+      "type": "post_educativo",
+      "title": "Controladores MIDI ideales para Ableton en tu notebook"
+    },
+    {
+      "slug": "controladores-midi-ableton-notebook",
+      "type": "snippet_social",
+      "title": "Controladores MIDI ideales para Ableton en tu notebook"
+    },
+    {
+      "slug": "controladores-midi-ableton-notebook",
+      "type": "post_x",
+      "title": "Controladores MIDI ideales para Ableton en tu notebook"
+    },
+    {
+      "slug": "placa-sonido-guitarra-creadores-contenido",
+      "type": "respuesta_tecnica",
+      "title": "Placas de Sonido para Guitarra: Guía para Creadores de Contenido"
+    },
+    {
+      "slug": "placa-sonido-guitarra-creadores-contenido",
+      "type": "post_educativo",
+      "title": "Placas de Sonido para Guitarra: Guía para Creadores de Contenido"
+    },
+    {
+      "slug": "placa-sonido-guitarra-creadores-contenido",
+      "type": "snippet_social",
+      "title": "Placas de Sonido para Guitarra: Guía para Creadores de Contenido"
+    },
+    {
+      "slug": "placa-sonido-guitarra-creadores-contenido",
+      "type": "post_social",
+      "title": "Placas de Sonido para Guitarra: La Elección Perfecta"
+    },
+    {
+      "slug": "placa-sonido-guitarra-creadores-contenido",
+      "type": "post_x",
+      "title": "Placas de Sonido para Guitarra: Guía para Creadores de Contenido"
+    },
+    {
+      "slug": "placa-sonido-guitarra-creadores-contenido",
+      "type": "respuesta_youtube",
+      "title": "Placas de Sonido para Guitarra: Guía para Creadores de Contenido"
+    },
+    {
+      "slug": "placa-sonido-guitarra-setup-portable",
+      "type": "respuesta_tecnica",
+      "title": "Placas de Sonido para Guitarras en Setup Portable"
+    },
+    {
+      "slug": "placa-sonido-guitarra-setup-portable",
+      "type": "post_educativo",
+      "title": "Placas de Sonido para Guitarras en Setup Portable"
+    },
+    {
+      "slug": "placa-sonido-guitarra-setup-portable",
+      "type": "snippet_social",
+      "title": "Placas de Sonido para Guitarras en Setup Portable"
+    },
+    {
+      "slug": "placa-sonido-guitarra-setup-portable",
+      "type": "post_social",
+      "title": "Placas de Sonido para Guitarras en Setup Portable"
+    },
+    {
+      "slug": "placa-sonido-guitarra-setup-portable",
+      "type": "post_x",
+      "title": "Placas de Sonido para Guitarras en Setup Portable"
+    },
+    {
+      "slug": "placa-sonido-guitarra-setup-portable",
+      "type": "respuesta_youtube",
+      "title": "Placas de Sonido para Guitarras en Setup Portable"
+    },
+    {
+      "slug": "placa-sonido-guitarra-audio-casa",
+      "type": "respuesta_tecnica",
+      "title": "Placas de sonido para guitarra: mejora tu audio en casa"
+    },
+    {
+      "slug": "placa-sonido-guitarra-audio-casa",
+      "type": "snippet_social",
+      "title": "Placas de sonido para guitarra: mejora tu audio en casa"
+    },
+    {
+      "slug": "placa-sonido-guitarra-audio-casa",
+      "type": "post_social",
+      "title": "Placas de sonido para guitarra: mejora tu audio en casa"
+    },
+    {
+      "slug": "placa-sonido-guitarra-audio-casa",
+      "type": "post_x",
+      "title": "Placas de sonido para guitarra: mejora tu audio en casa"
+    },
+    {
+      "slug": "placa-sonido-guitarra-audio-casa",
+      "type": "respuesta_youtube",
+      "title": "Placas de sonido para guitarra: Mejora tu audio en casa"
+    },
+    {
+      "slug": "placa-sonido-guitarra-grabar-contenido",
+      "type": "post_educativo",
+      "title": "Las mejores placas de sonido para grabar tu guitarra"
+    },
+    {
+      "slug": "placa-sonido-guitarra-grabar-contenido",
+      "type": "post_social",
+      "title": "Las mejores placas de sonido para grabar tu guitarra 🎸"
+    },
+    {
+      "slug": "placa-sonido-guitarra-grabar-contenido",
+      "type": "post_x",
+      "title": "Las mejores placas de sonido para grabar tu guitarra"
+    },
+    {
+      "slug": "placa-sonido-guitarra-grabar-contenido",
+      "type": "respuesta_youtube",
+      "title": "Las mejores placas de sonido para grabar tu guitarra"
+    },
+    {
+      "slug": "placa-sonido-guitarra-dos-entradas",
+      "type": "post_educativo",
+      "title": "Placas de sonido ideales para guitarra con dos entradas"
+    },
+    {
+      "slug": "placa-sonido-guitarra-dos-entradas",
+      "type": "snippet_social",
+      "title": "Placas de sonido ideales para guitarra con dos entradas"
+    },
+    {
+      "slug": "placa-sonido-guitarra-dos-entradas",
+      "type": "post_social",
+      "title": "Placas de sonido perfectas para tu guitarra con dos entradas 🎸"
+    },
+    {
+      "slug": "placa-sonido-guitarra-dos-entradas",
+      "type": "post_x",
+      "title": "Placas de sonido ideales para guitarra con dos entradas"
+    },
+    {
+      "slug": "placa-sonido-guitarra-dos-entradas",
+      "type": "respuesta_youtube",
+      "title": "Placas de sonido para guitarra: elige la mejor interfaz"
+    },
+    {
+      "slug": "placa-sonido-guitarra-notebook",
+      "type": "post_educativo",
+      "title": "Placas de sonido para guitarra en tu notebook: Guía esencial"
+    },
+    {
+      "slug": "placa-sonido-guitarra-notebook",
+      "type": "post_x",
+      "title": "Placas de sonido para guitarra en tu notebook"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "controlador-arturia-minilab-3-ableton-1",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-ableton-1",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-ableton-1",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controladores-midi-fl-studio-samples",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controladores-midi-ableton-notebook",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controladores-midi-ableton-notebook",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "placa-sonido-guitarra-audio-casa",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "placa-sonido-guitarra-grabar-contenido",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "placa-sonido-guitarra-grabar-contenido",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "placa-sonido-guitarra-dos-entradas",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "placa-sonido-guitarra-notebook",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "placa-sonido-guitarra-notebook",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "placa-sonido-guitarra-notebook",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "placa-sonido-guitarra-notebook",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 401.58
+}

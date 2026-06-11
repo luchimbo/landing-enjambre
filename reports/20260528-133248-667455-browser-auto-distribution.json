@@ -1,0 +1,29 @@
+{
+  "timestamp_utc": "20260528-133248-667455",
+  "command": "auto-distribution",
+  "channels": [
+    "facebook",
+    "instagram",
+    "x",
+    "youtube"
+  ],
+  "unsupported_channels": [],
+  "limit": 8,
+  "per_channel": 1,
+  "dry_run": false,
+  "allow_proposed": false,
+  "published_or_attempted": 1,
+  "blocked_seen": 0,
+  "results": [
+    {
+      "id": "20260528-133035-943074:mejor-opcion-midiplus-ms5-home-studio:respuesta_youtube:youtube:1779975159911",
+      "channel": "youtube",
+      "slug": "mejor-opcion-midiplus-ms5-home-studio",
+      "result": {
+        "ok": false,
+        "error": "YouTube requiere source_thread_url de un video"
+      }
+    }
+  ],
+  "blocked_sample": []
+}

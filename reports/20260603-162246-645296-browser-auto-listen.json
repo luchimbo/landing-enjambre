@@ -1,0 +1,44 @@
+{
+  "timestamp_utc": "20260603-162246-645296",
+  "command": "auto-listen",
+  "channels": [
+    "facebook",
+    "instagram",
+    "x",
+    "youtube"
+  ],
+  "searches": 2,
+  "per_search": 2,
+  "dry_run": false,
+  "items": 2,
+  "distribution_drafts": 2,
+  "social_intel_path": "D:\\AgentesGuille\\data\\social_intel.jsonl",
+  "search_tasks_path": "D:\\AgentesGuille\\data\\distribution_search_tasks.jsonl",
+  "content_feedback_path": "D:\\AgentesGuille\\data\\content_feedback.jsonl",
+  "sample": [
+    {
+      "id": "20260603-162203-076135:youtube:0",
+      "created_at_utc": "2026-06-03T16:22:41.175565+00:00",
+      "run_id": "20260603-162203-076135",
+      "channel": "youtube",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.youtube.com/watch?v=gdJvuZbbwvs&pp=ygUfY29udHJvbGFkb3IgTUlESSBwYXJhIEZMIFN0dWRpbw%3D%3D",
+      "source_title": "6:34 6:34 Now playing",
+      "source_context": "¿Controlador MIDI vs Mouse? Descubre las 5 VENTAJAS de usar el Minilab3 de Arturia en FL Studio 21 4.8K views 2 years ago Blue Larimar Music No lo quería admitir... pero USAR TECLADO MIDI es otra cosa Hoy exploramos juntos 5 aspectos a considerar si nunca has ... 8 chapters INTRO | VENTAJA 1 | VENTAJA 2 | VENTAJA 3 | VENTAJA 4 | VENTAJA 5 | Demostración Arturia MiniLab3 | Resumen"
+    },
+    {
+      "id": "20260603-162203-076135:youtube:1",
+      "created_at_utc": "2026-06-03T16:22:46.365822+00:00",
+      "run_id": "20260603-162203-076135",
+      "channel": "youtube",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.youtube.com/watch?v=fNKlVVXHX80",
+      "source_title": "This AI turns MIDI and lyrics to Vocals - The best AI vocal generator",
+      "source_context": "This AI turns MIDI and lyrics to Vocals - The best AI vocal generator"
+    }
+  ]
+}

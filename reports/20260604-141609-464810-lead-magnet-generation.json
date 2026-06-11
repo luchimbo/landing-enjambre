@@ -1,0 +1,910 @@
+{
+  "timestamp_utc": "20260604-141609-464810",
+  "command": "lead-magnets",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260604-140419-491270",
+  "dry_run": false,
+  "requested_limit": 50,
+  "processed_count": 703,
+  "created_count": 50,
+  "skipped_count": 595,
+  "blocked_count": 58,
+  "created": [
+    {
+      "slug": "placa-sonido-guitarra-mezclar-noche",
+      "title": "Checklist: Elegí la Placa de Sonido Ideal para Guitarra"
+    },
+    {
+      "slug": "monitores-5-6-pulgadas-home-studio",
+      "title": "Comparativa: Monitores de 5 vs 6 pulgadas"
+    },
+    {
+      "slug": "placa-sonido-guitarra-monitores",
+      "title": "Checklist: Elegí la mejor placa de sonido para guitarra"
+    },
+    {
+      "slug": "microfono-para-podcast-para-guitarra-usb-o-xlr",
+      "title": "Comparativa: Micrófonos USB vs XLR para tu podcast"
+    },
+    {
+      "slug": "microfono-para-streaming-clases-online",
+      "title": "Checklist: 5 claves para elegir micrófono para streaming"
+    },
+    {
+      "slug": "microfono-para-streaming-locucion",
+      "title": "Checklist: 5 aspectos clave al elegir micrófono para streaming"
+    },
+    {
+      "slug": "auriculares-para-grabar-voces-creadores-contenido",
+      "title": "Checklist: 5 claves para elegir auriculares cerrados"
+    },
+    {
+      "slug": "microfono-para-podcast-conectar-monitores",
+      "title": "Comparativa: Micrófonos USB vs XLR para podcast"
+    },
+    {
+      "slug": "microfono-para-streaming-grabar-covers",
+      "title": "Checklist: 8 aspectos para elegir micrófono para streaming"
+    },
+    {
+      "slug": "bateria-electronica-departamento-home-studio",
+      "title": "Checklist: Elegir la batería electrónica ideal para tu departamento"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-twitch",
+      "title": "Checklist: Equipamiento esencial para streaming en Twitch"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-departamento",
+      "title": "Comparativa: Arturia MiniLab 3 vs KeyLab"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-workflow",
+      "title": "Comparativa: Arturia MiniLab 3 vs KeyLab"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-para-hacer-beats",
+      "title": "Comparativa: Arturia MiniLab 3 vs KeyLab para beats"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-notebook",
+      "title": "Comparativa: MiniLab 3 vs KeyLab para tu notebook"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-con-pads",
+      "title": "Comparativa: Arturia MiniLab 3 vs KeyLab"
+    },
+    {
+      "slug": "home-studio-para-principiantes-locucion",
+      "title": "Checklist: Elementos clave para tu Home Studio de locución"
+    },
+    {
+      "slug": "home-studio-principiantes-interfaz-audio",
+      "title": "Checklist: Elementos clave para tu Home Studio"
+    },
+    {
+      "slug": "home-studio-para-principiantes-guitarra-42",
+      "title": "Checklist: Equipamiento esencial para tu Home Studio"
+    },
+    {
+      "slug": "home-studio-principiantes-editar-video",
+      "title": "Checklist: Equipamiento esencial para tu Home Studio"
+    },
+    {
+      "slug": "interfaz-de-audio-para-grabar-covers-en-casa",
+      "title": "Checklist: 7 pasos para elegir tu interfaz de audio"
+    },
+    {
+      "slug": "como-elegir-microfono-xlr-para-podcast",
+      "title": "Checklist: Elegí el micrófono XLR ideal para tu podcast"
+    },
+    {
+      "slug": "controlador-midi-ableton-musica-electronica",
+      "title": "Comparativa: Controladores MIDI para Ableton"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-locucion-casa",
+      "title": "Checklist: 8 claves para elegir tu interfaz de audio"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-casa-4",
+      "title": "Checklist: 7 puntos clave para elegir tu interfaz de audio"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-guitarra-10",
+      "title": "Checklist: Arma tu Setup de Streaming para Guitarra"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-escritorio-chico",
+      "title": "Comparativa: Arturia MiniLab 3 vs KeyLab 88 MK3"
+    },
+    {
+      "slug": "home-studio-principiantes-creadores-contenido",
+      "title": "Checklist: Elementos clave para tu Home Studio"
+    },
+    {
+      "slug": "como-elegir-midiplus-ed8-vs-ed6",
+      "title": "Comparativa: Midiplus ED8 vs ED6 en detalle"
+    },
+    {
+      "slug": "microfono-para-streaming-creadores-contenido",
+      "title": "Checklist: Elegí el Micrófono Perfecto para Streaming"
+    },
+    {
+      "slug": "monitores-estudio-home-studio-chico-4",
+      "title": "Checklist: Elegir Monitores para Cuartos Pequeños"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-guitarra",
+      "title": "Checklist: Auriculares Cerrados para Grabaciones Sin Bleed"
+    },
+    {
+      "slug": "comparar-monitores-estudio-home-studio-chico",
+      "title": "Guía: Elegir Monitores de Estudio para Espacios Pequeños"
+    },
+    {
+      "slug": "alctron-um900-streaming-home-studio",
+      "title": "Checklist: 5 claves para elegir tu micrófono USB"
+    },
+    {
+      "slug": "que-comprar-para-interfaz-de-audio-con-dos-entradas",
+      "title": "Checklist: Elegí la interfaz de audio ideal para vos"
+    },
+    {
+      "slug": "controladores-midi-fl-studio-beats",
+      "title": "Comparativa: Controladores MIDI para FL Studio"
+    },
+    {
+      "slug": "microfono-para-podcast-usb-o-xlr-7",
+      "title": "Comparativa: Micrófonos USB vs XLR para Podcast"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-creadores-contenido",
+      "title": "Comparativa: Arturia MiniLab 3 vs KeyLab"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-escritorio-chico",
+      "title": "Checklist: 5 Claves para Elegir tu Controlador MIDI"
+    },
+    {
+      "slug": "controlador-midi-portable-arturia-minilab-3",
+      "title": "Checklist: Elegir el controlador MIDI ideal para FL Studio"
+    },
+    {
+      "slug": "arturia-keystep-pro-setup-portable",
+      "title": "Checklist: 8 aspectos para elegir tu controlador secuenciador"
+    },
+    {
+      "slug": "arturia-keystep-pro-hardware-directo",
+      "title": "Checklist: Elegir el controlador secuenciador ideal"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-casa-2",
+      "title": "Checklist: 7 puntos antes de elegir tu interfaz de audio"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-notebook",
+      "title": "Checklist: 5 claves para elegir auriculares cerrados"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-voces",
+      "title": "Checklist: Elementos clave para un setup de streaming"
+    },
+    {
+      "slug": "monitores-estudio-home-studio-chico-1",
+      "title": "Checklist: Elegir monitores para tu home studio chico"
+    },
+    {
+      "slug": "home-studio-para-principiantes-voz",
+      "title": "Checklist: Elementos clave para tu home studio de voces"
+    },
+    {
+      "slug": "arturia-microfreak-sintesis-vocoder-primer-sinte",
+      "title": "Checklist: 5 puntos clave para elegir tu primer sinte"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-para-bajos",
+      "title": "Comparativa: MiniFreak vs MicroFreak para bajos"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-para-pads",
+      "title": "Comparativa: Arturia MiniFreak vs MicroFreak para pads"
+    }
+  ],
+  "skipped": [
+    {
+      "slug": "controlador-midi-para-fl-studio",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "controlador-midi-para-ableton-comparativa",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "placa-sonido-guitarra",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "microfono-para-podcast-usb-o-xlr",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "microfono-para-streaming",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "monitores-estudio-home-studio-chico",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "auriculares-cerrados-para-grabar-voces",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "bateria-electronica-para-departamento",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "setup-de-streaming-con-buen-audio",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "home-studio-para-principiantes",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-ableton",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "arturia-minilab-3-fl-studio",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "arturia-microfreak-para-empezar-en-sintesis",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "arturia-polybrute-estudio",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "synido-tempokey-25-controlador-compacto",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "synido-tempopad-beats-controlador",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "synido-livemix-streaming-creadores",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "synido-livedock-directo",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "midiplus-ak490-principiantes",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-escritorio",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-midiplus-i61",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "midiplus-ms6-home-studio",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "midiplus-mi3-escritorio-chico",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-comparativa-baterias-electronicas",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-sin-interfaz",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-grabacion",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "audio-technica-at2020-home-studio",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "alctron-um900-streaming-microfono-usb",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "brazo-para-microfono-streaming",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "filtro-pop-para-grabar-voz",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "audio-technica-ath-m20x-para-grabar",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "auriculares-para-bateria-electronica",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "monitores-para-mezclar-en-cuarto-chico",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "monitores-5-pulgadas-vs-6-pulgadas",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "interfaz-audio-podcast",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "interfaz-de-audio-para-streaming-con-monitoreo",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "interfaz-de-audio-dos-entradas-para-voz-e-instrumento",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "placa-sonido-guitarra-voz",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "home-studio-rap-setup",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "home-studio-para-guitarra",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "setup-para-beatmaking-efectivo",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "setup-para-producir-musica-electronica",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "setup-portable-para-producir",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "teclado-midi-chico-para-notebook",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "controladores-midi-con-pads-para-produccion",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "controlador-midi-25-teclas-vs-49-teclas",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "controlador-midi-49-teclas-vs-61-teclas",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "controlador-midi-para-logic",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "controlador-midi-para-cubase",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "controlador-midi-para-reaper",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "sintetizador-para-bajos",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "sintetizador-para-ambient",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "sintetizador-hardware-home-studio",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "secuenciador-hardware-para-sintetizadores",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "controlador-para-sintetizadores-hardware",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "bateria-electronica-para-principiantes",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "bateria-electronica-silenciosa-departamento",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "baterias-electronicas-para-produccion-musical",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "camara-y-microfono-para-streaming",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "setup-youtube-buen-audio",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "setup-para-twitch-con-microfono",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "regalo-productor-musical",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "regalo-para-musico-principiante",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "que-comprar-controlador-midi-fl-studio",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "como-elegir-controlador-midi-para-fl-studio",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "mejor-opcion-controlador-midi-fl-studio",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "guia-controlador-midi-fl-studio",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "comparar-opciones-controlador-midi-fl-studio",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-principiantes",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-home-studio",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "controladores-midi-fl-studio-ableton",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "controladores-midi-ableton-comparativa",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "como-elegir-controlador-midi-para-ableton",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "mejor-opcion-controlador-midi-para-ableton",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "guia-elegir-controlador-midi-ableton",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "comparar-controladores-midi-ableton",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "setup-controlador-midi-ableton",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "controlador-midi-para-ableton-principiantes",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "controlador-midi-ableton-home-studio",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "controlador-midi-ableton-fl-studio-comparativa",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "que-comprar-para-interfaz-de-audio-para-grabar-voz-en-casa",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "como-elegir-interfaz-de-audio-para-grabar-voz-en-casa",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "mejor-opcion-interfaz-audio-grabar-voz-casa",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "setup-con-interfaz-de-audio-para-grabar-voz-en-casa",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-principiantes",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "interfaz-de-audio-para-grabar-voz-en-casa-28",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-streaming",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-casa",
+      "reason": "already_exists"
+    },
+    {
+      "slug": "que-comprar-para-placa-de-sonido-guitarra",
+      "reason": "already_exists"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "placa-sonido-guitarra-home-studio-28",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 324 (char 761)"
+    },
+    {
+      "slug": "guia-elegir-interfaz-audio-streaming",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 293 (char 760)"
+    },
+    {
+      "slug": "interfaz-audio-podcast-principiantes",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 300 (char 744)"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-portable",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 329 (char 778)"
+    },
+    {
+      "slug": "interfaz-de-audio-para-grabar-voz-en-casa-7",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 286 (char 752)"
+    },
+    {
+      "slug": "microfono-para-streaming-grabar-contenido",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 256 (char 707)"
+    },
+    {
+      "slug": "microfono-para-streaming-con-interfaz-de-audio",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 300 (char 753)"
+    },
+    {
+      "slug": "monitores-estudio-home-studio-chico-27",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 322 (char 766)"
+    },
+    {
+      "slug": "auriculares-para-bateria-electronica-principiantes",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 233 (char 676)"
+    },
+    {
+      "slug": "como-elegir-monitores-5-o-6-pulgadas",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 300 (char 720)"
+    },
+    {
+      "slug": "microfono-para-streaming-grabar-voces",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 241 (char 703)"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-bajos",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 257 (char 705)"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-para-pads",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 323 (char 790)"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-para-directo",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 265 (char 726)"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-musica-electronica",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 331 (char 789)"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-con-vocoder",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 247 (char 700)"
+    },
+    {
+      "slug": "bateria-electronica-para-departamento-setup-portable",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 256 (char 734)"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-interfaz-audio",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 247 (char 698)"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-acordes",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 243 (char 689)"
+    },
+    {
+      "slug": "home-studio-principiantes-voces",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 294 (char 738)"
+    },
+    {
+      "slug": "home-studio-para-principiantes-guitarra",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 252 (char 685)"
+    },
+    {
+      "slug": "home-studio-principiantes-conectar-monitores",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 285 (char 722)"
+    },
+    {
+      "slug": "home-studio-principiantes-mezclar-noche",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 245 (char 662)"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-para-ableton-departamento",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 272 (char 714)"
+    },
+    {
+      "slug": "arturia-minilab-3-ableton-creadores-contenido",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 281 (char 742)"
+    },
+    {
+      "slug": "mejor-opcion-arturia-microfreak-sintesis",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 278 (char 727)"
+    },
+    {
+      "slug": "microfono-para-streaming-para-voces",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 245 (char 696)"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-noche",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 231 (char 700)"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-musica-electronica-5",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 256 (char 696)"
+    },
+    {
+      "slug": "microfono-para-podcast-dos-entradas-usb-o-xlr",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 288 (char 705)"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-sin-complicarse",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 339 (char 798)"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-leads",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 252 (char 697)"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-sin-computadora",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 339 (char 736)"
+    },
+    {
+      "slug": "setup-streaming-audio-creadores-contenido",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 302 (char 769)"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-voz",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 241 (char 687)"
+    },
+    {
+      "slug": "setup-streaming-audio-podcast-video",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 273 (char 732)"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-home-studio",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 272 (char 728)"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-setup-portable",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 246 (char 686)"
+    },
+    {
+      "slug": "guia-elegir-midiplus-ak490-principiantes",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 293 (char 741)"
+    },
+    {
+      "slug": "audio-technica-at2020-home-studio-grabacion",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 282 (char 699)"
+    },
+    {
+      "slug": "placa-sonido-guitarra-6",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 265 (char 711)"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-noche",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 244 (char 707)"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-ableton-beats",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 264 (char 710)"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-ableton",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 281 (char 720)"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-fl-studio-trap",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 315 (char 735)"
+    },
+    {
+      "slug": "arturia-keystep-pro-home-studio",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 334 (char 812)"
+    },
+    {
+      "slug": "arturia-keystep-pro-workflow-sin-complicarse",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 255 (char 675)"
+    },
+    {
+      "slug": "guia-arturia-minilab-3-vs-keylab",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 236 (char 665)"
+    },
+    {
+      "slug": "microfono-para-podcast-locucion-usb-o-xlr",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 309 (char 732)"
+    },
+    {
+      "slug": "bateria-electronica-para-departamento-practicar-noche",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 276 (char 741)"
+    },
+    {
+      "slug": "bateria-electronica-departamento-vivo",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 255 (char 716)"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-locucion",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 257 (char 709)"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-producir-musica-electronica",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 296 (char 748)"
+    },
+    {
+      "slug": "arturia-minilab-3-fl-studio-beats",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 261 (char 711)"
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador-beats",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 251 (char 715)"
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador-9",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 255 (char 704)"
+    },
+    {
+      "slug": "arturia-microfreak-sintesis-departamento",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 352 (char 799)"
+    },
+    {
+      "slug": "arturia-microfreak-setup-portable-sintesis",
+      "reason": "generation_error",
+      "error": "Illegal trailing comma before end of object: line 10 column 274 (char 722)"
+    }
+  ],
+  "elapsed_seconds": 709.97
+}

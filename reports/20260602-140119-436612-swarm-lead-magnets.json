@@ -1,0 +1,20 @@
+{
+  "timestamp_utc": "20260602-140119-436612",
+  "command": "lead-magnets",
+  "status": "ok",
+  "steps": [
+    {
+      "step": "lead-magnets",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\agente_lead_magnets.py",
+        "--limit",
+        "5"
+      ],
+      "started_utc": "20260602-140000-879556",
+      "finished_utc": "20260602-140119-436332",
+      "returncode": 0,
+      "status": "ok"
+    }
+  ]
+}

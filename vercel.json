@@ -1,9 +1,10 @@
 {
-  "buildCommand": "python build_landings.py build --base-url https://blog.pcmidicenter.com",
+  "buildCommand": "python build_landings.py build --base-url https://blog.pcmidicenter.com && python scripts/build_dashboard.py",
   "outputDirectory": "site",
   "cleanUrls": true,
   "trailingSlash": true,
   "rewrites": [
+    { "source": "/api/dashboard/:path*", "destination": "/api/dashboard" },
     { "source": "/api/:path*/", "destination": "/api/:path*" }
   ],
   "crons": [

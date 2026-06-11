@@ -1,0 +1,322 @@
+{
+  "timestamp_utc": "20260604-124045-184520",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260604-123511-906402",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 58,
+  "pieces_blocked": 2,
+  "proposed": [
+    {
+      "slug": "guia-elegir-audio-technica-ath-m50x-monitoreo",
+      "type": "respuesta_tecnica",
+      "title": "Guía para Elegir el Audio Technica ATH-M50x para Monitoreo"
+    },
+    {
+      "slug": "guia-elegir-audio-technica-ath-m50x-monitoreo",
+      "type": "post_educativo",
+      "title": "Guía para Elegir el Audio Technica ATH-M50x para Monitoreo"
+    },
+    {
+      "slug": "guia-elegir-audio-technica-ath-m50x-monitoreo",
+      "type": "snippet_social",
+      "title": "Guía para elegir el Audio Technica ATH-M50x para monitoreo"
+    },
+    {
+      "slug": "guia-elegir-audio-technica-ath-m50x-monitoreo",
+      "type": "post_social",
+      "title": "Elige el Audio Technica ATH-M50x para Monitoreo de Calidad"
+    },
+    {
+      "slug": "guia-elegir-audio-technica-ath-m50x-monitoreo",
+      "type": "post_x",
+      "title": "Elige el Audio Technica ATH-M50x para Monitoreo de Calidad"
+    },
+    {
+      "slug": "guia-elegir-audio-technica-ath-m50x-monitoreo",
+      "type": "respuesta_youtube",
+      "title": "Guía para Elegir el Audio Technica ATH-M50x para Monitoreo"
+    },
+    {
+      "slug": "setup-audio-technica-ath-m50x-monitoreo",
+      "type": "respuesta_tecnica",
+      "title": "Crea tu setup de monitoreo con Audio Technica ATH-M50x"
+    },
+    {
+      "slug": "setup-audio-technica-ath-m50x-monitoreo",
+      "type": "post_educativo",
+      "title": "Crea tu setup de monitoreo con Audio Technica ATH-M50x"
+    },
+    {
+      "slug": "setup-audio-technica-ath-m50x-monitoreo",
+      "type": "snippet_social",
+      "title": "Crea tu setup de monitoreo con Audio Technica ATH-M50x"
+    },
+    {
+      "slug": "setup-audio-technica-ath-m50x-monitoreo",
+      "type": "post_social",
+      "title": "Crea tu setup de monitoreo con Audio Technica ATH-M50x"
+    },
+    {
+      "slug": "setup-audio-technica-ath-m50x-monitoreo",
+      "type": "post_x",
+      "title": "Crea tu setup de monitoreo con Audio Technica ATH-M50x"
+    },
+    {
+      "slug": "setup-audio-technica-ath-m50x-monitoreo",
+      "type": "respuesta_youtube",
+      "title": "Crea tu setup de monitoreo con Audio Technica ATH-M50x"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo-principiantes",
+      "type": "respuesta_tecnica",
+      "title": "Audio Technica ATH-M50x: Ideal para Monitoreo de Principiantes"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo-principiantes",
+      "type": "post_educativo",
+      "title": "Audio Technica ATH-M50x: El Auricular Perfecto para Principiantes"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo-principiantes",
+      "type": "snippet_social",
+      "title": "Audio Technica ATH-M50x: Ideal para Principiantes en Monitoreo"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo-principiantes",
+      "type": "post_social",
+      "title": "Audio Technica ATH-M50x: Ideal para Principiantes en Monitoreo"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo-principiantes",
+      "type": "post_x",
+      "title": "Audio Technica ATH-M50x: Ideal para Principiantes en Monitoreo"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo-principiantes",
+      "type": "respuesta_youtube",
+      "title": "Audio Technica ATH-M50x: Ideal para Monitoreo de Principiantes"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Audio Technica ATH-M50x: Ideal para Monitoreo en Home Studio"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo-home-studio",
+      "type": "post_educativo",
+      "title": "Audio Technica ATH-M50x: La Elección de los Profesionales"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo-home-studio",
+      "type": "snippet_social",
+      "title": "Audio Technica ATH-M50x: Auriculares de Referencia para tu Home Studio"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo-home-studio",
+      "type": "post_social",
+      "title": "Audio Technica ATH-M50x: La Elección de los Profesionales"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo-home-studio",
+      "type": "post_x",
+      "title": "Audio Technica ATH-M50x: Auriculares de Referencia para Estudio"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Audio Technica ATH-M50x: Una Elección Sólida para Monitoreo"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo-departamento",
+      "type": "respuesta_tecnica",
+      "title": "Audio Technica ATH-M50x: Ideal para Monitoreo en Departamentos"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo-departamento",
+      "type": "post_educativo",
+      "title": "Audio Technica ATH-M50x: Ideal para Monitoreo en Departamentos"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo-departamento",
+      "type": "snippet_social",
+      "title": "Audio Technica ATH-M50x: Tu Compañero de Monitoreo Perfecto"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo-departamento",
+      "type": "post_social",
+      "title": "Audio Technica ATH-M50x: Ideal para Monitoreo en Casa"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo-departamento",
+      "type": "post_x",
+      "title": "Audio Technica ATH-M50x: Tu Compañero de Monitoreo Perfecto"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo-departamento",
+      "type": "respuesta_youtube",
+      "title": "Audio Technica ATH-M50x: Ideal para Monitoreo en Casa"
+    },
+    {
+      "slug": "auriculares-bateria-electronica-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Auriculares ideales para practicar batería electrónica en casa"
+    },
+    {
+      "slug": "auriculares-bateria-electronica-home-studio",
+      "type": "post_educativo",
+      "title": "Auriculares ideales para practicar batería electrónica en casa"
+    },
+    {
+      "slug": "auriculares-bateria-electronica-home-studio",
+      "type": "snippet_social",
+      "title": "Auriculares ideales para practicar batería electrónica en casa"
+    },
+    {
+      "slug": "auriculares-bateria-electronica-home-studio",
+      "type": "post_social",
+      "title": "Auriculares ideales para practicar batería electrónica en casa"
+    },
+    {
+      "slug": "auriculares-bateria-electronica-home-studio",
+      "type": "post_x",
+      "title": "Auriculares ideales para practicar batería electrónica en casa"
+    },
+    {
+      "slug": "auriculares-bateria-electronica-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Auriculares ideales para practicar batería electrónica en casa"
+    },
+    {
+      "slug": "como-elegir-monitores-para-mezclar-en-cuarto-chico",
+      "type": "respuesta_tecnica",
+      "title": "Eligiendo monitores para mezclar en espacios pequeños"
+    },
+    {
+      "slug": "como-elegir-monitores-para-mezclar-en-cuarto-chico",
+      "type": "post_educativo",
+      "title": "Eligiendo monitores para mezclar en espacios pequeños"
+    },
+    {
+      "slug": "como-elegir-monitores-para-mezclar-en-cuarto-chico",
+      "type": "snippet_social",
+      "title": "Eligiendo monitores para mezclar en espacios pequeños"
+    },
+    {
+      "slug": "como-elegir-monitores-para-mezclar-en-cuarto-chico",
+      "type": "post_social",
+      "title": "Eligiendo monitores para mezclar en espacios pequeños"
+    },
+    {
+      "slug": "como-elegir-monitores-para-mezclar-en-cuarto-chico",
+      "type": "post_x",
+      "title": "Eligiendo monitores para mezclar en espacios pequeños"
+    },
+    {
+      "slug": "como-elegir-monitores-para-mezclar-en-cuarto-chico",
+      "type": "respuesta_youtube",
+      "title": "Eligiendo monitores para mezclar en espacios pequeños"
+    },
+    {
+      "slug": "setup-con-monitores-para-mezclar-en-cuarto-chico",
+      "type": "respuesta_tecnica",
+      "title": "Crea el Setup Perfecto para tu Home Studio"
+    },
+    {
+      "slug": "setup-con-monitores-para-mezclar-en-cuarto-chico",
+      "type": "post_educativo",
+      "title": "Crea el Setup Perfecto para tu Home Studio"
+    },
+    {
+      "slug": "setup-con-monitores-para-mezclar-en-cuarto-chico",
+      "type": "snippet_social",
+      "title": "Crea el Setup Perfecto para tu Home Studio"
+    },
+    {
+      "slug": "setup-con-monitores-para-mezclar-en-cuarto-chico",
+      "type": "post_social",
+      "title": "Crea el Setup Perfecto para tu Home Studio"
+    },
+    {
+      "slug": "setup-con-monitores-para-mezclar-en-cuarto-chico",
+      "type": "post_x",
+      "title": "Crea el Setup Perfecto para tu Home Studio"
+    },
+    {
+      "slug": "setup-con-monitores-para-mezclar-en-cuarto-chico",
+      "type": "respuesta_youtube",
+      "title": "Crea el Setup Perfecto para tu Home Studio"
+    },
+    {
+      "slug": "monitores-para-mezclar-en-cuarto-chico-para-principiantes",
+      "type": "snippet_social",
+      "title": "Monitores de estudio para principiantes en espacios pequeños"
+    },
+    {
+      "slug": "monitores-para-mezclar-en-cuarto-chico-para-principiantes",
+      "type": "post_social",
+      "title": "Monitores de estudio para principiantes en espacios pequeños"
+    },
+    {
+      "slug": "monitores-para-mezclar-en-cuarto-chico-para-principiantes",
+      "type": "post_x",
+      "title": "Monitores de estudio para principiantes en espacios pequeños"
+    },
+    {
+      "slug": "monitores-para-mezclar-en-cuarto-chico-para-principiantes",
+      "type": "respuesta_youtube",
+      "title": "Monitores de estudio para principiantes en espacios pequeños"
+    },
+    {
+      "slug": "monitores-para-mezclar-en-cuarto-chico-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Monitores para mezclar en home studio chico: guía técnica"
+    },
+    {
+      "slug": "monitores-para-mezclar-en-cuarto-chico-home-studio",
+      "type": "post_educativo",
+      "title": "Monitores para mezclar en tu home studio chico"
+    },
+    {
+      "slug": "monitores-para-mezclar-en-cuarto-chico-home-studio",
+      "type": "snippet_social",
+      "title": "Monitores ideales para mezclar en un home studio chico"
+    },
+    {
+      "slug": "monitores-para-mezclar-en-cuarto-chico-home-studio",
+      "type": "post_social",
+      "title": "Monitores ideales para tu home studio chico"
+    },
+    {
+      "slug": "monitores-para-mezclar-en-cuarto-chico-home-studio",
+      "type": "post_x",
+      "title": "Monitores para mezclar en tu home studio chico"
+    },
+    {
+      "slug": "monitores-para-mezclar-en-cuarto-chico-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Monitores ideales para mezclar en home studios pequeños"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "monitores-para-mezclar-en-cuarto-chico-para-principiantes",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "monitores-para-mezclar-en-cuarto-chico-para-principiantes",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 333.28
+}

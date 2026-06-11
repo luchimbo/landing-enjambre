@@ -1,0 +1,182 @@
+{
+  "timestamp_utc": "20260611-130016-607930",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260611-125828-995151",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 5,
+  "pieces_proposed": 23,
+  "pieces_blocked": 7,
+  "proposed": [
+    {
+      "slug": "como-elegir-interfaz-de-audio-para-podcast",
+      "type": "respuesta_tecnica",
+      "title": "Cómo elegir la interfaz de audio ideal para tu podcast"
+    },
+    {
+      "slug": "como-elegir-interfaz-de-audio-para-podcast",
+      "type": "post_educativo",
+      "title": "Cómo elegir la interfaz de audio ideal para tu podcast"
+    },
+    {
+      "slug": "como-elegir-interfaz-de-audio-para-podcast",
+      "type": "snippet_social",
+      "title": "Cómo elegir la interfaz de audio ideal para tu podcast"
+    },
+    {
+      "slug": "como-elegir-interfaz-de-audio-para-podcast",
+      "type": "post_x",
+      "title": "Cómo elegir la interfaz de audio ideal para tu podcast"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-chico-4",
+      "type": "respuesta_tecnica",
+      "title": "Monitores Midiplus MS5: ideales para home studio pequeño"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-chico-4",
+      "type": "post_educativo",
+      "title": "Monitores Midiplus MS5: la elección perfecta para tu home studio"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-chico-4",
+      "type": "snippet_social",
+      "title": "Monitores Midiplus MS5: ideales para tu home studio pequeño"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-chico-4",
+      "type": "post_social",
+      "title": "Monitores Midiplus MS5: ideales para tu home studio"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-chico-4",
+      "type": "post_x",
+      "title": "Monitores Midiplus MS5: ideales para tu home studio pequeño"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-chico-4",
+      "type": "respuesta_youtube",
+      "title": "Monitores Midiplus MS5: ideales para tu home studio pequeño"
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-escritorio",
+      "type": "post_social",
+      "title": "Monitores Midiplus MS6: Sonido Profesional en Tu Escritorio"
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-escritorio",
+      "type": "post_x",
+      "title": "Monitores Midiplus MS6: Sonido Profesional en Tu Escritorio"
+    },
+    {
+      "slug": "midiplus-ed6-bateria-electronica-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Batería Electrónica MIDIPLUS ED6: Ideal para tu Home Studio"
+    },
+    {
+      "slug": "midiplus-ed6-bateria-electronica-home-studio",
+      "type": "post_educativo",
+      "title": "Batería Electrónica MIDIPLUS ED6: Ideal para tu Home Studio"
+    },
+    {
+      "slug": "midiplus-ed6-bateria-electronica-home-studio",
+      "type": "snippet_social",
+      "title": "Batería Electrónica MIDIPLUS ED6 para tu Home Studio"
+    },
+    {
+      "slug": "midiplus-ed6-bateria-electronica-home-studio",
+      "type": "post_social",
+      "title": "Descubre la Batería Electrónica MIDIPLUS ED6 para tu Home Studio"
+    },
+    {
+      "slug": "midiplus-ed6-bateria-electronica-home-studio",
+      "type": "post_x",
+      "title": "Batería Electrónica MIDIPLUS ED6: Ideal para tu Home Studio"
+    },
+    {
+      "slug": "midiplus-ed6-bateria-electronica-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Batería Electrónica MIDIPLUS ED6: Ideal para tu Home Studio"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-home-studio-11",
+      "type": "respuesta_tecnica",
+      "title": "Iniciá tu Podcast con Micrófonos USB de Calidad"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-home-studio-11",
+      "type": "post_educativo",
+      "title": "Iniciá tu Podcast con Micrófonos USB de Calidad"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-home-studio-11",
+      "type": "snippet_social",
+      "title": "Iniciá tu Podcast con Micrófonos USB de Calidad"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-home-studio-11",
+      "type": "post_social",
+      "title": "Iniciá tu Podcast con un Micrófono USB de Calidad"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-home-studio-11",
+      "type": "post_x",
+      "title": "Iniciá tu Podcast con Micrófonos USB de Calidad"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "como-elegir-interfaz-de-audio-para-podcast",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "como-elegir-interfaz-de-audio-para-podcast",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-escritorio",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-escritorio",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-escritorio",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-escritorio",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "microfono-usb-para-podcast-home-studio-11",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 107.61
+}

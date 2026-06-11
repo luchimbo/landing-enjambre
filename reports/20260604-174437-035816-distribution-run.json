@@ -1,0 +1,402 @@
+{
+  "timestamp_utc": "20260604-174437-035816",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260604-173801-696477",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 12,
+  "pieces_proposed": 60,
+  "pieces_blocked": 12,
+  "proposed": [
+    {
+      "slug": "microfono-para-podcast-dos-entradas-usb-o-xlr",
+      "type": "respuesta_tecnica",
+      "title": "Elige entre micrófonos USB y XLR para tu podcast"
+    },
+    {
+      "slug": "microfono-para-podcast-dos-entradas-usb-o-xlr",
+      "type": "post_educativo",
+      "title": "Encuentra el micrófono ideal para tu podcast"
+    },
+    {
+      "slug": "microfono-para-podcast-dos-entradas-usb-o-xlr",
+      "type": "snippet_social",
+      "title": "Encuentra el micrófono ideal para tu podcast"
+    },
+    {
+      "slug": "microfono-para-podcast-dos-entradas-usb-o-xlr",
+      "type": "post_social",
+      "title": "Encuentra el micrófono ideal para tu podcast"
+    },
+    {
+      "slug": "microfono-para-podcast-dos-entradas-usb-o-xlr",
+      "type": "post_x",
+      "title": "Encuentra el micrófono ideal para tu podcast"
+    },
+    {
+      "slug": "microfono-para-podcast-dos-entradas-usb-o-xlr",
+      "type": "respuesta_youtube",
+      "title": "Elige el micrófono ideal para tu podcast: USB vs XLR"
+    },
+    {
+      "slug": "home-studio-principiantes-creadores-contenido",
+      "type": "respuesta_tecnica",
+      "title": "Guía para Armar un Home Studio para Creadores de Contenido"
+    },
+    {
+      "slug": "home-studio-principiantes-creadores-contenido",
+      "type": "post_educativo",
+      "title": "Crea tu Home Studio Ideal para Creadores de Contenido"
+    },
+    {
+      "slug": "home-studio-principiantes-creadores-contenido",
+      "type": "snippet_social",
+      "title": "Crea tu Home Studio Ideal para Contenido"
+    },
+    {
+      "slug": "home-studio-principiantes-creadores-contenido",
+      "type": "post_social",
+      "title": "Crea tu Home Studio Ideal para Contenido"
+    },
+    {
+      "slug": "home-studio-principiantes-creadores-contenido",
+      "type": "post_x",
+      "title": "Crea tu Home Studio Ideal para Contenido"
+    },
+    {
+      "slug": "home-studio-principiantes-creadores-contenido",
+      "type": "respuesta_youtube",
+      "title": "Crea tu Home Studio Ideal para Contenido"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Arturia MiniLab 3: Ideal para tu Home Studio Compacto"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-home-studio",
+      "type": "post_educativo",
+      "title": "Arturia MiniLab 3: Tu Compañero Perfecto para la Producción"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-home-studio",
+      "type": "snippet_social",
+      "title": "Arturia MiniLab 3: Ideal para tu Home Studio Compacto"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-home-studio",
+      "type": "post_social",
+      "title": "Arturia MiniLab 3: Ideal para tu Home Studio"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-home-studio",
+      "type": "post_x",
+      "title": "Arturia MiniLab 3: Ideal para tu Home Studio"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Arturia MiniLab 3: Ideal para tu Home Studio Compacto"
+    },
+    {
+      "slug": "microfono-para-streaming-creadores-contenido",
+      "type": "respuesta_tecnica",
+      "title": "Mejora el Audio de Tus Directos con el Micrófono Ideal"
+    },
+    {
+      "slug": "microfono-para-streaming-creadores-contenido",
+      "type": "snippet_social",
+      "title": "Mejora el Audio de Tus Directos con el Micrófono Ideal"
+    },
+    {
+      "slug": "microfono-para-streaming-creadores-contenido",
+      "type": "post_social",
+      "title": "Mejora el Audio de Tus Directos con el Micrófono Ideal"
+    },
+    {
+      "slug": "microfono-para-streaming-creadores-contenido",
+      "type": "post_x",
+      "title": "Mejora el Audio de Tus Directos con el Micrófono Ideal"
+    },
+    {
+      "slug": "microfono-para-streaming-creadores-contenido",
+      "type": "respuesta_youtube",
+      "title": "Mejora el Audio de Tus Directos con el Micrófono Ideal"
+    },
+    {
+      "slug": "monitores-estudio-home-studio-chico-4",
+      "type": "post_social",
+      "title": "Monitores de Estudio para tu Home Studio en Espacios Reducidos"
+    },
+    {
+      "slug": "monitores-estudio-home-studio-chico-4",
+      "type": "post_x",
+      "title": "Monitores de Estudio para tu Home Studio en Espacios Reducidos"
+    },
+    {
+      "slug": "audio-technica-at2020-home-studio-grabacion",
+      "type": "respuesta_tecnica",
+      "title": "Audio Technica AT2020: Ideal para tu Home Studio"
+    },
+    {
+      "slug": "audio-technica-at2020-home-studio-grabacion",
+      "type": "post_educativo",
+      "title": "Audio Technica AT2020: Calidad de grabación en tu hogar"
+    },
+    {
+      "slug": "audio-technica-at2020-home-studio-grabacion",
+      "type": "snippet_social",
+      "title": "Audio Technica AT2020: Calidad de grabación en tu hogar"
+    },
+    {
+      "slug": "audio-technica-at2020-home-studio-grabacion",
+      "type": "post_social",
+      "title": "Audio Technica AT2020: Calidad de grabación en casa"
+    },
+    {
+      "slug": "audio-technica-at2020-home-studio-grabacion",
+      "type": "post_x",
+      "title": "Audio Technica AT2020: Calidad de grabación en casa"
+    },
+    {
+      "slug": "audio-technica-at2020-home-studio-grabacion",
+      "type": "respuesta_youtube",
+      "title": "Audio Technica AT2020: Ideal para tu home studio"
+    },
+    {
+      "slug": "alctron-um900-streaming-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Alctron UM900: Ideal para streaming en home studio"
+    },
+    {
+      "slug": "alctron-um900-streaming-home-studio",
+      "type": "post_educativo",
+      "title": "Alctron UM900: El micrófono USB ideal para tu streaming"
+    },
+    {
+      "slug": "alctron-um900-streaming-home-studio",
+      "type": "snippet_social",
+      "title": "Alctron UM900: Ideal para tu streaming en home studio"
+    },
+    {
+      "slug": "alctron-um900-streaming-home-studio",
+      "type": "post_social",
+      "title": "Alctron UM900: El micrófono USB ideal para tu streaming"
+    },
+    {
+      "slug": "alctron-um900-streaming-home-studio",
+      "type": "post_x",
+      "title": "Alctron UM900: Tu aliado para streaming en home studio"
+    },
+    {
+      "slug": "alctron-um900-streaming-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Alctron UM900: Ideal para Streaming en Home Studio"
+    },
+    {
+      "slug": "que-comprar-para-interfaz-de-audio-con-dos-entradas",
+      "type": "post_x",
+      "title": "Elegí la interfaz de audio perfecta para tu música"
+    },
+    {
+      "slug": "que-comprar-para-interfaz-de-audio-con-dos-entradas",
+      "type": "respuesta_youtube",
+      "title": "Elegí la interfaz de audio perfecta para tu música"
+    },
+    {
+      "slug": "microfono-para-podcast-usb-o-xlr-7",
+      "type": "respuesta_tecnica",
+      "title": "Elige el microfono perfecto para tu podcast"
+    },
+    {
+      "slug": "microfono-para-podcast-usb-o-xlr-7",
+      "type": "post_educativo",
+      "title": "Elige el microfono perfecto para tu podcast"
+    },
+    {
+      "slug": "microfono-para-podcast-usb-o-xlr-7",
+      "type": "snippet_social",
+      "title": "Elige el microfono perfecto para tu podcast"
+    },
+    {
+      "slug": "microfono-para-podcast-usb-o-xlr-7",
+      "type": "post_social",
+      "title": "Elige el microfono perfecto para tu podcast"
+    },
+    {
+      "slug": "microfono-para-podcast-usb-o-xlr-7",
+      "type": "post_x",
+      "title": "Elige el microfono perfecto para tu podcast"
+    },
+    {
+      "slug": "microfono-para-podcast-usb-o-xlr-7",
+      "type": "respuesta_youtube",
+      "title": "Elige el microfono perfecto para tu podcast"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-ableton",
+      "type": "post_educativo",
+      "title": "Arturia MiniLab 3: Tu aliado en producción musical"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-ableton",
+      "type": "snippet_social",
+      "title": "Arturia MiniLab 3: Tu aliado en producción musical"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-ableton",
+      "type": "post_social",
+      "title": "Arturia MiniLab 3: Tu compañero ideal para hacer música"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-ableton",
+      "type": "post_x",
+      "title": "Arturia MiniLab 3: Tu aliado en producción musical"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-ableton",
+      "type": "respuesta_youtube",
+      "title": "Arturia MiniLab 3: Ideal para producción y presentaciones en vivo"
+    },
+    {
+      "slug": "controlador-midi-portable-arturia-minilab-3",
+      "type": "respuesta_tecnica",
+      "title": "Arturia MiniLab 3: Controlador MIDI Compacto para Producción Portátil"
+    },
+    {
+      "slug": "controlador-midi-portable-arturia-minilab-3",
+      "type": "post_educativo",
+      "title": "Arturia MiniLab 3: Controlador MIDI Compacto para Creatividad"
+    },
+    {
+      "slug": "controlador-midi-portable-arturia-minilab-3",
+      "type": "snippet_social",
+      "title": "Arturia MiniLab 3: Controlador MIDI Compacto para Creatividad"
+    },
+    {
+      "slug": "controlador-midi-portable-arturia-minilab-3",
+      "type": "post_social",
+      "title": "Arturia MiniLab 3: Tu Compañero Ideal para Crear Música en Cualquier Lugar"
+    },
+    {
+      "slug": "controlador-midi-portable-arturia-minilab-3",
+      "type": "post_x",
+      "title": "Arturia MiniLab 3: Controlador MIDI Compacto para Creatividad"
+    },
+    {
+      "slug": "controlador-midi-portable-arturia-minilab-3",
+      "type": "respuesta_youtube",
+      "title": "Arturia MiniLab 3: Controlador Compacto para FL Studio"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-fl-studio-trap",
+      "type": "post_educativo",
+      "title": "Arturia MiniLab 3: Tu Controlador MIDI para Trap"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-fl-studio-trap",
+      "type": "snippet_social",
+      "title": "Arturia MiniLab 3: Tu Controlador MIDI Ideal para Trap"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-fl-studio-trap",
+      "type": "post_social",
+      "title": "Arturia MiniLab 3: Tu Controlador MIDI para Trap"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-fl-studio-trap",
+      "type": "post_x",
+      "title": "Arturia MiniLab 3: Tu Controlador MIDI para Trap"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "microfono-para-streaming-creadores-contenido",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "monitores-estudio-home-studio-chico-4",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "monitores-estudio-home-studio-chico-4",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "monitores-estudio-home-studio-chico-4",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "monitores-estudio-home-studio-chico-4",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "que-comprar-para-interfaz-de-audio-con-dos-entradas",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "que-comprar-para-interfaz-de-audio-con-dos-entradas",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "que-comprar-para-interfaz-de-audio-con-dos-entradas",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "que-comprar-para-interfaz-de-audio-con-dos-entradas",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-ableton",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-fl-studio-trap",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-fl-studio-trap",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 395.34
+}

@@ -1,0 +1,330 @@
+{
+  "timestamp_utc": "20260605-131435-162961",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260605-131002-824250",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 54,
+  "pieces_blocked": 6,
+  "proposed": [
+    {
+      "slug": "comparativa-midiplus-ed8-vs-ed6",
+      "type": "respuesta_tecnica",
+      "title": "Midiplus ED8 vs ED6: Comparativa para Baterías Electrónicas"
+    },
+    {
+      "slug": "comparativa-midiplus-ed8-vs-ed6",
+      "type": "post_educativo",
+      "title": "Midiplus ED8 vs ED6: ¿Cuál es la mejor opción para ti?"
+    },
+    {
+      "slug": "comparativa-midiplus-ed8-vs-ed6",
+      "type": "snippet_social",
+      "title": "Midiplus ED8 vs ED6: ¿Cuál es la mejor opción para ti?"
+    },
+    {
+      "slug": "comparativa-midiplus-ed8-vs-ed6",
+      "type": "post_social",
+      "title": "Midiplus ED8 vs ED6: ¿Cuál elegir para tu música?"
+    },
+    {
+      "slug": "comparativa-midiplus-ed8-vs-ed6",
+      "type": "post_x",
+      "title": "Midiplus ED8 vs ED6: ¿Cuál es la mejor opción para ti?"
+    },
+    {
+      "slug": "comparativa-midiplus-ed8-vs-ed6",
+      "type": "respuesta_youtube",
+      "title": "Midiplus ED8 vs ED6: Comparativa para músicos"
+    },
+    {
+      "slug": "mejor-opcion-alctron-um900-streaming",
+      "type": "respuesta_tecnica",
+      "title": "Alctron UM900: El micrófono ideal para streaming"
+    },
+    {
+      "slug": "mejor-opcion-alctron-um900-streaming",
+      "type": "post_educativo",
+      "title": "Alctron UM900: El micrófono ideal para streaming"
+    },
+    {
+      "slug": "mejor-opcion-alctron-um900-streaming",
+      "type": "snippet_social",
+      "title": "Alctron UM900: El micrófono ideal para streaming"
+    },
+    {
+      "slug": "mejor-opcion-alctron-um900-streaming",
+      "type": "post_social",
+      "title": "Alctron UM900: Tu aliado perfecto para streaming 🎤"
+    },
+    {
+      "slug": "mejor-opcion-alctron-um900-streaming",
+      "type": "post_x",
+      "title": "Alctron UM900: El micrófono ideal para streaming"
+    },
+    {
+      "slug": "mejor-opcion-alctron-um900-streaming",
+      "type": "respuesta_youtube",
+      "title": "Alctron UM900: El micrófono ideal para streaming"
+    },
+    {
+      "slug": "mejor-filtro-pop-para-grabar-voz",
+      "type": "respuesta_tecnica",
+      "title": "Mejora tus grabaciones de voz con un filtro pop"
+    },
+    {
+      "slug": "mejor-filtro-pop-para-grabar-voz",
+      "type": "post_educativo",
+      "title": "Mejora tus grabaciones de voz con un filtro pop"
+    },
+    {
+      "slug": "mejor-filtro-pop-para-grabar-voz",
+      "type": "snippet_social",
+      "title": "Mejora tus grabaciones de voz con un filtro pop"
+    },
+    {
+      "slug": "mejor-filtro-pop-para-grabar-voz",
+      "type": "post_social",
+      "title": "Mejora tus grabaciones de voz con un filtro pop"
+    },
+    {
+      "slug": "mejor-filtro-pop-para-grabar-voz",
+      "type": "post_x",
+      "title": "Mejora tus grabaciones de voz con un filtro pop"
+    },
+    {
+      "slug": "mejor-filtro-pop-para-grabar-voz",
+      "type": "respuesta_youtube",
+      "title": "Mejora tus grabaciones de voz con un filtro pop"
+    },
+    {
+      "slug": "comparar-filtros-pop-grabar-voz",
+      "type": "respuesta_tecnica",
+      "title": "Mejora tus Grabaciones de Voz con Filtros Pop"
+    },
+    {
+      "slug": "comparar-filtros-pop-grabar-voz",
+      "type": "post_educativo",
+      "title": "Mejora tus Grabaciones de Voz con Filtros Pop"
+    },
+    {
+      "slug": "comparar-filtros-pop-grabar-voz",
+      "type": "snippet_social",
+      "title": "Mejora tus Grabaciones de Voz con Filtros Pop"
+    },
+    {
+      "slug": "comparar-filtros-pop-grabar-voz",
+      "type": "post_social",
+      "title": "Mejora tus Grabaciones de Voz con Filtros Pop"
+    },
+    {
+      "slug": "comparar-filtros-pop-grabar-voz",
+      "type": "post_x",
+      "title": "Mejora tus Grabaciones de Voz con Filtros Pop"
+    },
+    {
+      "slug": "comparar-filtros-pop-grabar-voz",
+      "type": "respuesta_youtube",
+      "title": "Mejora tus Grabaciones de Voz con Filtros Pop"
+    },
+    {
+      "slug": "mejor-opcion-audio-technica-ath-m20x-grabar",
+      "type": "respuesta_tecnica",
+      "title": "Audio Technica ATH-M20x: Auriculares Cerrados para Grabación"
+    },
+    {
+      "slug": "mejor-opcion-audio-technica-ath-m20x-grabar",
+      "type": "snippet_social",
+      "title": "Audio Technica ATH-M20x: Auriculares Cerrados para Grabación"
+    },
+    {
+      "slug": "mejor-opcion-audio-technica-ath-m20x-grabar",
+      "type": "post_social",
+      "title": "Audio Technica ATH-M20x: Auriculares Cerrados para Grabación"
+    },
+    {
+      "slug": "mejor-opcion-audio-technica-ath-m20x-grabar",
+      "type": "post_x",
+      "title": "Audio Technica ATH-M20x: Auriculares Cerrados para Grabación"
+    },
+    {
+      "slug": "mejor-opcion-audio-technica-ath-m20x-grabar",
+      "type": "respuesta_youtube",
+      "title": "Audio Technica ATH-M20x: Ideal para Grabación"
+    },
+    {
+      "slug": "comparar-audio-technica-ath-m20x-grabar",
+      "type": "respuesta_tecnica",
+      "title": "Elige el auricular cerrado ideal para grabar"
+    },
+    {
+      "slug": "comparar-audio-technica-ath-m20x-grabar",
+      "type": "post_educativo",
+      "title": "Elige el auricular cerrado ideal para grabar"
+    },
+    {
+      "slug": "comparar-audio-technica-ath-m20x-grabar",
+      "type": "snippet_social",
+      "title": "Elige el auricular cerrado ideal para grabar"
+    },
+    {
+      "slug": "comparar-audio-technica-ath-m20x-grabar",
+      "type": "post_social",
+      "title": "Elige el auricular cerrado ideal para grabar"
+    },
+    {
+      "slug": "comparar-audio-technica-ath-m20x-grabar",
+      "type": "post_x",
+      "title": "Elige el auricular cerrado ideal para grabar"
+    },
+    {
+      "slug": "comparar-audio-technica-ath-m20x-grabar",
+      "type": "respuesta_youtube",
+      "title": "Elige el auricular cerrado ideal para grabar"
+    },
+    {
+      "slug": "mejor-opcion-placa-sonido-guitarra-voz",
+      "type": "respuesta_tecnica",
+      "title": "Encuentra la mejor interfaz de audio para tus grabaciones"
+    },
+    {
+      "slug": "mejor-opcion-placa-sonido-guitarra-voz",
+      "type": "post_educativo",
+      "title": "Encuentra la mejor interfaz de audio para tus grabaciones"
+    },
+    {
+      "slug": "mejor-opcion-placa-sonido-guitarra-voz",
+      "type": "snippet_social",
+      "title": "Encuentra la mejor interfaz de audio para tus grabaciones"
+    },
+    {
+      "slug": "mejor-opcion-placa-sonido-guitarra-voz",
+      "type": "post_social",
+      "title": "Encuentra la mejor interfaz de audio para tus grabaciones"
+    },
+    {
+      "slug": "mejor-opcion-placa-sonido-guitarra-voz",
+      "type": "post_x",
+      "title": "Encuentra la mejor interfaz de audio para guitarra y voz"
+    },
+    {
+      "slug": "mejor-opcion-placa-sonido-guitarra-voz",
+      "type": "respuesta_youtube",
+      "title": "Encuentra la mejor interfaz de audio para guitarra y voz"
+    },
+    {
+      "slug": "comparar-opciones-placa-sonido-guitarra-voz",
+      "type": "respuesta_tecnica",
+      "title": "Cómo elegir la interfaz de audio ideal para guitarra y voz"
+    },
+    {
+      "slug": "comparar-opciones-placa-sonido-guitarra-voz",
+      "type": "post_educativo",
+      "title": "Encuentra la interfaz de audio perfecta para tu música"
+    },
+    {
+      "slug": "comparar-opciones-placa-sonido-guitarra-voz",
+      "type": "snippet_social",
+      "title": "Encuentra la interfaz de audio perfecta para tu música"
+    },
+    {
+      "slug": "comparar-opciones-placa-sonido-guitarra-voz",
+      "type": "post_social",
+      "title": "Encuentra la interfaz de audio perfecta para tu música"
+    },
+    {
+      "slug": "comparar-opciones-placa-sonido-guitarra-voz",
+      "type": "post_x",
+      "title": "Encuentra la interfaz de audio perfecta para tu música"
+    },
+    {
+      "slug": "mejor-opcion-auriculares-grabar-podcast",
+      "type": "snippet_social",
+      "title": "Auriculares cerrados para grabar podcasts de calidad"
+    },
+    {
+      "slug": "mejor-opcion-auriculares-grabar-podcast",
+      "type": "post_social",
+      "title": "Auriculares cerrados para grabar podcasts de calidad"
+    },
+    {
+      "slug": "mejor-opcion-auriculares-grabar-podcast",
+      "type": "post_x",
+      "title": "Auriculares cerrados ideales para grabar podcasts"
+    },
+    {
+      "slug": "mejor-opcion-auriculares-grabar-podcast",
+      "type": "respuesta_youtube",
+      "title": "Auriculares cerrados ideales para grabar podcasts"
+    },
+    {
+      "slug": "setup-con-midiplus-ed8-vs-ed6",
+      "type": "post_educativo",
+      "title": "Compara las Baterías Electrónicas Midiplus ED8 y ED6"
+    },
+    {
+      "slug": "setup-con-midiplus-ed8-vs-ed6",
+      "type": "snippet_social",
+      "title": "Compara las Baterías Electrónicas Midiplus ED8 y ED6"
+    },
+    {
+      "slug": "setup-con-midiplus-ed8-vs-ed6",
+      "type": "post_social",
+      "title": "Compara las Baterías Electrónicas Midiplus ED8 y ED6"
+    },
+    {
+      "slug": "setup-con-midiplus-ed8-vs-ed6",
+      "type": "post_x",
+      "title": "Compara las Baterías Electrónicas Midiplus ED8 y ED6"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "mejor-opcion-audio-technica-ath-m20x-grabar",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: precio"
+      ]
+    },
+    {
+      "slug": "comparar-opciones-placa-sonido-guitarra-voz",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "mejor-opcion-auriculares-grabar-podcast",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "mejor-opcion-auriculares-grabar-podcast",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "setup-con-midiplus-ed8-vs-ed6",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "setup-con-midiplus-ed8-vs-ed6",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 272.34
+}

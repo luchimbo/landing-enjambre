@@ -1,0 +1,179 @@
+{
+  "timestamp_utc": "20260609-132125-590902",
+  "command": "auto-distribution",
+  "channels": [
+    "facebook",
+    "instagram",
+    "x",
+    "youtube"
+  ],
+  "unsupported_channels": [],
+  "limit": 25,
+  "per_channel": 2,
+  "dry_run": false,
+  "allow_proposed": false,
+  "published_or_attempted": 4,
+  "blocked_seen": 657,
+  "results": [
+    {
+      "id": "20260609-130952-995161:arturia-minifreak-vs-microfreak-departamento:snippet_social:social:1781010943034",
+      "channel": "facebook",
+      "slug": "arturia-minifreak-vs-microfreak-departamento",
+      "result": {
+        "ok": true,
+        "url": "https://www.facebook.com/",
+        "dismissed": [],
+        "open": {
+          "ok": true,
+          "label": "crear una publicación ¿qué estás pensando, bruno?"
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "publicar"
+          ]
+        },
+        "fallback_like": {
+          "ok": true,
+          "mode": "selector",
+          "selector": "[aria-label=\"Me gusta\"]"
+        }
+      }
+    },
+    {
+      "id": "20260609-130952-995161:midiplus-ms6-home-studio-audio:respuesta_youtube:youtube:1781010843772",
+      "channel": "youtube",
+      "slug": "midiplus-ms6-home-studio-audio",
+      "result": {
+        "ok": false,
+        "error": "YouTube requiere source_thread_url de un video"
+      }
+    },
+    {
+      "id": "20260609-130952-995161:midiplus-ms6-home-studio-audio:post_social:facebook:1781010833561",
+      "channel": "facebook",
+      "slug": "midiplus-ms6-home-studio-audio",
+      "result": {
+        "ok": true,
+        "url": "https://www.facebook.com/",
+        "dismissed": [],
+        "open": {
+          "ok": true,
+          "label": "crear una publicación ¿qué estás pensando, bruno?"
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "publicar"
+          ]
+        },
+        "fallback_like": {
+          "ok": true,
+          "mode": "selector",
+          "selector": "[aria-label=\"Me gusta\"]"
+        }
+      }
+    },
+    {
+      "id": "20260609-130952-995161:midiplus-ms6-home-studio-setup-portable:respuesta_youtube:youtube:1781010800981",
+      "channel": "youtube",
+      "slug": "midiplus-ms6-home-studio-setup-portable",
+      "result": {
+        "ok": false,
+        "error": "YouTube requiere source_thread_url de un video"
+      }
+    }
+  ],
+  "blocked_sample": [
+    {
+      "id": "20260609-132002-789788:youtube:auto-listen:1",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260609-132002-789788:youtube:auto-listen:0",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260609-130952-995161:arturia-minifreak-vs-microfreak-departamento:respuesta_youtube:youtube:1781010961004",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260609-130952-995161:arturia-minifreak-vs-microfreak-departamento:post_x:x:1781010955618",
+      "channel": "x",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260609-125002-246063:controlador-midi-synido-tempokey-25-notebook:respuesta_youtube:youtube:1781009440544",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260609-125002-246063:controlador-midi-synido-tempokey-25-notebook:snippet_social:social:1781009431905",
+      "channel": "facebook",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260609-125002-246063:controlador-midi-synido-tempokey-25-notebook:snippet_social:social:1781009431905",
+      "channel": "x",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260609-125002-246063:midiplus-studio-m-home-studio-departamento:respuesta_youtube:youtube:1781009609045",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260609-125002-246063:midiplus-studio-m-home-studio-departamento:post_x:x:1781009603435",
+      "channel": "x",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260609-125002-246063:midiplus-studio-m-home-studio-departamento:post_social:facebook:1781009600809",
+      "channel": "facebook",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    }
+  ]
+}

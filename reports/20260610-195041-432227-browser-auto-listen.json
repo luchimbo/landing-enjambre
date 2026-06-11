@@ -1,0 +1,80 @@
+{
+  "timestamp_utc": "20260610-195041-432227",
+  "command": "auto-listen",
+  "channels": [
+    "facebook",
+    "instagram",
+    "x",
+    "youtube"
+  ],
+  "searches": 2,
+  "per_search": 2,
+  "dry_run": false,
+  "items": 5,
+  "distribution_drafts": 5,
+  "social_intel_path": "D:\\AgentesGuille\\data\\social_intel.jsonl",
+  "search_tasks_path": "D:\\AgentesGuille\\data\\distribution_search_tasks.jsonl",
+  "content_feedback_path": "D:\\AgentesGuille\\data\\content_feedback.jsonl",
+  "sample": [
+    {
+      "id": "20260610-194957-032552:instagram:0",
+      "created_at_utc": "2026-06-10T19:50:14.828342+00:00",
+      "run_id": "20260610-194957-032552",
+      "channel": "instagram",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.instagram.com/p/DKH7R96snzX/",
+      "source_title": "",
+      "source_context": "Late-night session. Just me, FL Studio & the sound. 🌃 #flstudio #musicproducer #homestudio #studiolife"
+    },
+    {
+      "id": "20260610-194957-032552:instagram:1",
+      "created_at_utc": "2026-06-10T19:50:20.366874+00:00",
+      "run_id": "20260610-194957-032552",
+      "channel": "instagram",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.instagram.com/p/DKlslFwsis_/",
+      "source_title": "",
+      "source_context": "🎚️ The World’s Best-Selling Audio Interface. The Scarlett 2i2 3rd Gen delivers iconic Focusrite sound, crystal-clear mic preamps, and ultra-low latency — trusted by millions of artists worldwide. 🎸 Plug in your mic or instrument and start creating with studio-grade clarity. 🔥 Reliable. Powerful. Ready for anything. 👉 Order Now at: Qatarhomestudio.com #QatarHomeStudio #Doha #Scarlett2i2 #Focusrite #Scarlett2i23rdGen #AudioInterface #HomeStudioSetup #RecordingStudio #QatarAudio #QatarProducers #QatarPodcasters #QatarContentCreators #StudioGear #CreateMore #StudioLife #SoundBetter #Qatar"
+    },
+    {
+      "id": "20260610-194957-032552:youtube:2",
+      "created_at_utc": "2026-06-10T19:50:36.168282+00:00",
+      "run_id": "20260610-194957-032552",
+      "channel": "youtube",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.youtube.com/watch?v=GPVLFMJQYDQ&t=14s&pp=ygUfY29udHJvbGFkb3IgTUlESSBwYXJhIEZMIFN0dWRpbw%3D%3D",
+      "source_title": "8:27 8:27 Now playing",
+      "source_context": "EL MEJOR CONTROLADOR MIDI PARA FL STUDIO - FL Key Mini Novation 16K views 4 years ago Eric Kauffmann ADQUIERE FL KEY MINI AQUÍ: https://tinyurl.com/FLKEYMINI ¿NECESITAS LANZAR TU MÚSICA? Pues te recomiendo ... 4K CC 13 chapters Intro | Explicación de controles | Channel Rack | Instrumento | Secuenciador | Plugin | Volumen Mixer | Paneo Mixer | Cambio de presets | Note repeat | Modo Escala | Resumen | Patrocinio"
+    },
+    {
+      "id": "20260610-194957-032552:youtube:3",
+      "created_at_utc": "2026-06-10T19:50:41.343699+00:00",
+      "run_id": "20260610-194957-032552",
+      "channel": "youtube",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.youtube.com/watch?v=9GqOBgasFEA&t=136s&pp=ygUpaW50ZXJmYXogZGUgYXVkaW8gcGFyYSBncmFiYXIgdm96IGVuIGNhc2HSBwkJOQsBhyohjO8%3D",
+      "source_title": "9:56 9:56 Now playing",
+      "source_context": "👉 How to Make a RECORDING STUDIO at HOME - Economical Minimalist Home Studio 408K views 2 years ago Marce Ferrace This is the Simplest way to make your Minimalist HOME STUDIO in your room! What you need to know to be able to Record at Home ... CC 8 chapters Home Studio Minimalista | Qué PC necesito ? | Que es un DAW ? | Los Auriculares PLANOS (Fundamental) | Para qué se usa la Interfaz o placa de Sonido ? | El micrófono Ideal | Son Necesarios los Monitores de Audio ? | Qué es un Controlador MIDI ?"
+    },
+    {
+      "id": "20260610-194957-032552:youtube:4",
+      "created_at_utc": "2026-06-10T19:50:41.388831+00:00",
+      "run_id": "20260610-194957-032552",
+      "channel": "youtube",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.youtube.com/watch?v=9GqOBgasFEA",
+      "source_title": "Home Studio Minimalista Home Studio Minimalista 0:00",
+      "source_context": "Home Studio Minimalista Home Studio Minimalista 0:00 Home Studio Minimalista 0:00 Qué PC necesito ? Qué PC necesito ? 0:16 Qué PC necesito ? 0:16 Que es un DAW ? Que es un DAW ? 1:27 Que es un DAW ? 1:27 Los Auriculares PLANOS (Fundamental) Los Auriculares PLANOS (Fundamental) 2:02 Los Auriculares PLANOS (Fundamental) 2:02"
+    }
+  ]
+}

@@ -1,0 +1,386 @@
+{
+  "timestamp_utc": "20260608-184511-698560",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260608-183801-804225",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 12,
+  "pieces_proposed": 68,
+  "pieces_blocked": 4,
+  "proposed": [
+    {
+      "slug": "sintetizador-para-aprender-sintesis-bajos",
+      "type": "respuesta_tecnica",
+      "title": "Elige tu Sintetizador para Aprender Síntesis de Bajos"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-bajos",
+      "type": "post_educativo",
+      "title": "Elige tu Sintetizador para Aprender Síntesis de Bajos"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-bajos",
+      "type": "snippet_social",
+      "title": "Elige tu Sintetizador para Aprender Síntesis de Bajos"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-bajos",
+      "type": "post_social",
+      "title": "Elige tu Sintetizador para Aprender Síntesis de Bajos"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-bajos",
+      "type": "post_x",
+      "title": "Elige tu Sintetizador para Aprender Síntesis de Bajos"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-bajos",
+      "type": "respuesta_youtube",
+      "title": "Elige tu Sintetizador para Aprender Síntesis de Bajos"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-para-pads",
+      "type": "respuesta_tecnica",
+      "title": "Sintetizadores ideales para aprender síntesis de pads"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-para-pads",
+      "type": "post_educativo",
+      "title": "Sintetizadores ideales para aprender síntesis de pads"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-para-pads",
+      "type": "snippet_social",
+      "title": "Sintetizadores ideales para aprender síntesis de pads"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-para-pads",
+      "type": "post_social",
+      "title": "Sintetizadores ideales para aprender a crear pads"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-para-pads",
+      "type": "post_x",
+      "title": "Sintetizadores ideales para aprender síntesis de pads"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-para-pads",
+      "type": "respuesta_youtube",
+      "title": "Sintetizadores ideales para aprender síntesis de pads"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-para-directo",
+      "type": "snippet_social",
+      "title": "Elige el sintetizador ideal para aprender síntesis en directo"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-para-directo",
+      "type": "post_social",
+      "title": "Encuentra el sintetizador ideal para tus directos"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-para-directo",
+      "type": "post_x",
+      "title": "Elige el sintetizador ideal para aprender síntesis en directo"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-para-directo",
+      "type": "respuesta_youtube",
+      "title": "Elige el sintetizador ideal para aprender síntesis en directo"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-texturas",
+      "type": "respuesta_tecnica",
+      "title": "Encuentra el sintetizador ideal para aprender síntesis"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-texturas",
+      "type": "post_educativo",
+      "title": "Encuentra el sintetizador ideal para aprender síntesis"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-texturas",
+      "type": "snippet_social",
+      "title": "Encuentra el sintetizador ideal para aprender síntesis"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-texturas",
+      "type": "post_social",
+      "title": "Encuentra tu sintetizador ideal para crear texturas sonoras"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-texturas",
+      "type": "post_x",
+      "title": "Encuentra tu sintetizador ideal para aprender síntesis"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-texturas",
+      "type": "respuesta_youtube",
+      "title": "Encuentra el sintetizador ideal para aprender síntesis"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-musica-electronica",
+      "type": "respuesta_tecnica",
+      "title": "Sintetizadores ideales para aprender síntesis en música electrónica"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-musica-electronica",
+      "type": "snippet_social",
+      "title": "Sintetizadores para aprender síntesis en música electrónica"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-musica-electronica",
+      "type": "post_social",
+      "title": "Sintetizadores ideales para iniciarte en la síntesis musical 🎹"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-musica-electronica",
+      "type": "post_x",
+      "title": "Sintetizadores para aprender síntesis en música electrónica"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-musica-electronica",
+      "type": "respuesta_youtube",
+      "title": "Sintetizadores ideales para aprender síntesis en música electrónica"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-con-vocoder",
+      "type": "respuesta_tecnica",
+      "title": "Encuentra tu sintetizador ideal para aprender síntesis"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-con-vocoder",
+      "type": "post_educativo",
+      "title": "Encuentra tu sintetizador ideal para aprender síntesis"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-con-vocoder",
+      "type": "snippet_social",
+      "title": "Encuentra tu sintetizador ideal para aprender síntesis"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-con-vocoder",
+      "type": "post_social",
+      "title": "Encuentra tu sintetizador ideal para aprender síntesis"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-con-vocoder",
+      "type": "post_x",
+      "title": "Encuentra tu sintetizador ideal para aprender síntesis"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-con-vocoder",
+      "type": "respuesta_youtube",
+      "title": "Encuentra tu sintetizador ideal para aprender síntesis"
+    },
+    {
+      "slug": "bateria-electronica-para-departamento-setup-portable",
+      "type": "respuesta_tecnica",
+      "title": "Baterías Electrónicas: Solución Ideal para Practicar en Departamentos"
+    },
+    {
+      "slug": "bateria-electronica-para-departamento-setup-portable",
+      "type": "post_educativo",
+      "title": "Baterías Electrónicas para Practicar en Departamentos"
+    },
+    {
+      "slug": "bateria-electronica-para-departamento-setup-portable",
+      "type": "post_social",
+      "title": "Baterías Electrónicas: La Solución Perfecta para Practicar en Casa"
+    },
+    {
+      "slug": "bateria-electronica-para-departamento-setup-portable",
+      "type": "post_x",
+      "title": "Baterías Electrónicas: La Solución Perfecta para Departamentos"
+    },
+    {
+      "slug": "bateria-electronica-para-departamento-setup-portable",
+      "type": "respuesta_youtube",
+      "title": "Baterías Electrónicas: Perfectas para Practicar en Departamentos"
+    },
+    {
+      "slug": "bateria-electronica-departamento-practica-silenciosa",
+      "type": "respuesta_tecnica",
+      "title": "Baterías Electrónicas: La Solución Perfecta para Practicar en Casa"
+    },
+    {
+      "slug": "bateria-electronica-departamento-practica-silenciosa",
+      "type": "post_educativo",
+      "title": "Baterías Electrónicas: La Solución Perfecta para Practicar en Casa"
+    },
+    {
+      "slug": "bateria-electronica-departamento-practica-silenciosa",
+      "type": "snippet_social",
+      "title": "Baterías Electrónicas: Practica en Casa Sin Molestar"
+    },
+    {
+      "slug": "bateria-electronica-departamento-practica-silenciosa",
+      "type": "post_social",
+      "title": "Baterías Electrónicas: Perfectas para Practicar en Casa"
+    },
+    {
+      "slug": "bateria-electronica-departamento-practica-silenciosa",
+      "type": "post_x",
+      "title": "Baterías Electrónicas: Perfectas para Practicar en Casa"
+    },
+    {
+      "slug": "bateria-electronica-departamento-practica-silenciosa",
+      "type": "respuesta_youtube",
+      "title": "Baterías Electrónicas: Perfectas para Practicar en Casa"
+    },
+    {
+      "slug": "bateria-electronica-departamento-practicar-noche",
+      "type": "respuesta_tecnica",
+      "title": "Baterías Electrónicas: Perfectas para Practicar en Departamentos"
+    },
+    {
+      "slug": "bateria-electronica-departamento-practicar-noche",
+      "type": "post_educativo",
+      "title": "Baterías Electrónicas: Tu Compañera Ideal para Practicar de Noche"
+    },
+    {
+      "slug": "bateria-electronica-departamento-practicar-noche",
+      "type": "snippet_social",
+      "title": "Baterías Electrónicas: Perfectas para Practicar de Noche"
+    },
+    {
+      "slug": "bateria-electronica-departamento-practicar-noche",
+      "type": "post_social",
+      "title": "Baterías Electrónicas: Perfectas para Practicar de Noche 🎶"
+    },
+    {
+      "slug": "bateria-electronica-departamento-practicar-noche",
+      "type": "post_x",
+      "title": "Baterías Electrónicas: Perfectas para Practicar de Noche"
+    },
+    {
+      "slug": "bateria-electronica-departamento-practicar-noche",
+      "type": "respuesta_youtube",
+      "title": "Baterías Electrónicas: Perfectas para Practicar en el Departamento"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-youtube",
+      "type": "respuesta_tecnica",
+      "title": "Arma tu Setup de Streaming con Audio de Calidad"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-youtube",
+      "type": "post_educativo",
+      "title": "Arma tu Setup de Streaming con Audio de Calidad"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-youtube",
+      "type": "snippet_social",
+      "title": "Arma tu Setup de Streaming con Audio de Calidad"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-youtube",
+      "type": "post_social",
+      "title": "Arma tu Setup de Streaming con Audio de Calidad"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-youtube",
+      "type": "post_x",
+      "title": "Arma tu Setup de Streaming con Audio de Calidad"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-youtube",
+      "type": "respuesta_youtube",
+      "title": "Arma tu Setup de Streaming con Audio de Calidad"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-twitch",
+      "type": "respuesta_tecnica",
+      "title": "Crea un setup de streaming con audio de calidad"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-twitch",
+      "type": "post_educativo",
+      "title": "Crea un setup de streaming con audio de calidad"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-twitch",
+      "type": "snippet_social",
+      "title": "Crea un setup de streaming con audio de calidad"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-twitch",
+      "type": "post_social",
+      "title": "Crea un setup de streaming con audio de calidad"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-twitch",
+      "type": "post_x",
+      "title": "Crea un setup de streaming con audio de calidad"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-twitch",
+      "type": "respuesta_youtube",
+      "title": "Crea un setup de streaming con audio de calidad"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-podcast",
+      "type": "respuesta_tecnica",
+      "title": "Arma tu Setup de Streaming para Podcasting"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-podcast",
+      "type": "post_educativo",
+      "title": "Arma tu Setup de Streaming para Podcasting con Buen Audio"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-podcast",
+      "type": "snippet_social",
+      "title": "Arma tu Setup de Streaming para Podcasting"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-podcast",
+      "type": "post_social",
+      "title": "Arma tu Setup de Streaming para Podcasting"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-podcast",
+      "type": "post_x",
+      "title": "Arma tu Setup de Streaming para Podcasting"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-podcast",
+      "type": "respuesta_youtube",
+      "title": "Arma tu Setup de Streaming para Podcasting con Buen Audio"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "sintetizador-para-aprender-sintesis-para-directo",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-para-directo",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-musica-electronica",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "bateria-electronica-para-departamento-setup-portable",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 429.89
+}

@@ -1,0 +1,332 @@
+{
+  "timestamp_utc": "20260604-131625-446541",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260604-131101-982091",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 53,
+  "pieces_blocked": 7,
+  "proposed": [
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo-departamento",
+      "type": "respuesta_tecnica",
+      "title": "Audio Technica ATH-M50x: Ideal para Monitoreo en Departamentos"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo-departamento",
+      "type": "post_educativo",
+      "title": "Audio Technica ATH-M50x: Tu Compañero de Monitoreo Perfecto"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo-departamento",
+      "type": "snippet_social",
+      "title": "Audio Technica ATH-M50x: Tu Compañero de Monitoreo Perfecto"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo-departamento",
+      "type": "post_social",
+      "title": "Audio Technica ATH-M50x: Tu Compañero de Monitoreo Perfecto"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo-departamento",
+      "type": "post_x",
+      "title": "Audio Technica ATH-M50x: Ideal para Monitoreo en Casa"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo-departamento",
+      "type": "respuesta_youtube",
+      "title": "Audio Technica ATH-M50x: Ideal para Monitoreo en Casa"
+    },
+    {
+      "slug": "auriculares-bateria-electronica-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Auriculares ideales para practicar batería electrónica en casa"
+    },
+    {
+      "slug": "auriculares-bateria-electronica-home-studio",
+      "type": "post_educativo",
+      "title": "Auriculares ideales para practicar batería electrónica en casa"
+    },
+    {
+      "slug": "auriculares-bateria-electronica-home-studio",
+      "type": "snippet_social",
+      "title": "Auriculares ideales para practicar batería electrónica en casa"
+    },
+    {
+      "slug": "auriculares-bateria-electronica-home-studio",
+      "type": "post_social",
+      "title": "Auriculares ideales para practicar batería electrónica en casa"
+    },
+    {
+      "slug": "auriculares-bateria-electronica-home-studio",
+      "type": "post_x",
+      "title": "Auriculares ideales para practicar batería electrónica en casa"
+    },
+    {
+      "slug": "auriculares-bateria-electronica-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Auriculares ideales para practicar batería electrónica en casa"
+    },
+    {
+      "slug": "como-elegir-monitores-para-mezclar-en-cuarto-chico",
+      "type": "respuesta_tecnica",
+      "title": "Eligiendo monitores para mezclar en espacios pequeños"
+    },
+    {
+      "slug": "como-elegir-monitores-para-mezclar-en-cuarto-chico",
+      "type": "post_educativo",
+      "title": "Eligiendo monitores para mezclar en espacios pequeños"
+    },
+    {
+      "slug": "como-elegir-monitores-para-mezclar-en-cuarto-chico",
+      "type": "snippet_social",
+      "title": "Eligiendo monitores para mezclar en espacios pequeños"
+    },
+    {
+      "slug": "como-elegir-monitores-para-mezclar-en-cuarto-chico",
+      "type": "post_social",
+      "title": "Eligiendo monitores para mezclar en espacios pequeños"
+    },
+    {
+      "slug": "como-elegir-monitores-para-mezclar-en-cuarto-chico",
+      "type": "post_x",
+      "title": "Eligiendo monitores para mezclar en espacios pequeños"
+    },
+    {
+      "slug": "como-elegir-monitores-para-mezclar-en-cuarto-chico",
+      "type": "respuesta_youtube",
+      "title": "Eligiendo monitores para mezclar en espacios pequeños"
+    },
+    {
+      "slug": "setup-con-monitores-para-mezclar-en-cuarto-chico",
+      "type": "respuesta_tecnica",
+      "title": "Crea el Setup Perfecto para tu Home Studio"
+    },
+    {
+      "slug": "setup-con-monitores-para-mezclar-en-cuarto-chico",
+      "type": "post_educativo",
+      "title": "Crea el Setup Perfecto para tu Home Studio"
+    },
+    {
+      "slug": "setup-con-monitores-para-mezclar-en-cuarto-chico",
+      "type": "snippet_social",
+      "title": "Crea el Setup Perfecto para tu Home Studio"
+    },
+    {
+      "slug": "setup-con-monitores-para-mezclar-en-cuarto-chico",
+      "type": "post_social",
+      "title": "Crea el Setup Perfecto para tu Home Studio"
+    },
+    {
+      "slug": "setup-con-monitores-para-mezclar-en-cuarto-chico",
+      "type": "post_x",
+      "title": "Crea el Setup Perfecto para tu Home Studio"
+    },
+    {
+      "slug": "setup-con-monitores-para-mezclar-en-cuarto-chico",
+      "type": "respuesta_youtube",
+      "title": "Crea el Setup Perfecto para tu Home Studio"
+    },
+    {
+      "slug": "monitores-para-mezclar-en-cuarto-chico-para-principiantes",
+      "type": "snippet_social",
+      "title": "Monitores de estudio para principiantes en espacios pequeños"
+    },
+    {
+      "slug": "monitores-para-mezclar-en-cuarto-chico-para-principiantes",
+      "type": "post_social",
+      "title": "Monitores de estudio ideales para principiantes en espacios pequeños"
+    },
+    {
+      "slug": "monitores-para-mezclar-en-cuarto-chico-para-principiantes",
+      "type": "post_x",
+      "title": "Monitores de estudio para principiantes en espacios pequeños"
+    },
+    {
+      "slug": "monitores-para-mezclar-en-cuarto-chico-para-principiantes",
+      "type": "respuesta_youtube",
+      "title": "Monitores de estudio para principiantes en espacios pequeños"
+    },
+    {
+      "slug": "monitores-para-mezclar-en-cuarto-chico-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Monitores para mezclar en tu home studio chico"
+    },
+    {
+      "slug": "monitores-para-mezclar-en-cuarto-chico-home-studio",
+      "type": "post_educativo",
+      "title": "Monitores para mezclar en tu home studio chico"
+    },
+    {
+      "slug": "monitores-para-mezclar-en-cuarto-chico-home-studio",
+      "type": "snippet_social",
+      "title": "Monitores para mezclar en tu home studio chico"
+    },
+    {
+      "slug": "monitores-para-mezclar-en-cuarto-chico-home-studio",
+      "type": "post_social",
+      "title": "Monitores ideales para tu home studio chico"
+    },
+    {
+      "slug": "monitores-para-mezclar-en-cuarto-chico-home-studio",
+      "type": "post_x",
+      "title": "Monitores para mezclar en tu home studio chico"
+    },
+    {
+      "slug": "monitores-para-mezclar-en-cuarto-chico-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Monitores ideales para mezclar en un cuarto chico"
+    },
+    {
+      "slug": "monitores-para-mezclar-en-cuarto-chico-29",
+      "type": "respuesta_tecnica",
+      "title": "Monitores para mezclar en tu home studio"
+    },
+    {
+      "slug": "monitores-para-mezclar-en-cuarto-chico-29",
+      "type": "post_social",
+      "title": "Monitores ideales para tu home studio en un cuarto chico"
+    },
+    {
+      "slug": "monitores-para-mezclar-en-cuarto-chico-29",
+      "type": "respuesta_youtube",
+      "title": "Monitores para mezclar en un cuarto chico: guía esencial"
+    },
+    {
+      "slug": "guia-elegir-monitores-5-o-6-pulgadas",
+      "type": "snippet_social",
+      "title": "¿Monitores de 5 o 6 Pulgadas? Encuentra el Ideal para Ti"
+    },
+    {
+      "slug": "guia-elegir-monitores-5-o-6-pulgadas",
+      "type": "post_social",
+      "title": "¿Monitores de 5 o 6 Pulgadas? Encuentra el Ideal para Ti"
+    },
+    {
+      "slug": "guia-elegir-monitores-5-o-6-pulgadas",
+      "type": "post_x",
+      "title": "¿Monitores de 5 o 6 Pulgadas? Encuentra el Ideal para Ti"
+    },
+    {
+      "slug": "guia-elegir-monitores-5-o-6-pulgadas",
+      "type": "respuesta_youtube",
+      "title": "¿Monitores de 5 o 6 Pulgadas? Lo Que Debes Saber"
+    },
+    {
+      "slug": "setup-con-monitores-5-o-6-pulgadas",
+      "type": "respuesta_tecnica",
+      "title": "¿Monitores de 5 o 6 pulgadas? Elegí el mejor para tu estudio"
+    },
+    {
+      "slug": "setup-con-monitores-5-o-6-pulgadas",
+      "type": "post_educativo",
+      "title": "¿Monitores de 5 o 6 pulgadas? Elegí el mejor para tu estudio"
+    },
+    {
+      "slug": "setup-con-monitores-5-o-6-pulgadas",
+      "type": "snippet_social",
+      "title": "¿Monitores de 5 o 6 pulgadas? Encuentra el ideal para tu estudio"
+    },
+    {
+      "slug": "setup-con-monitores-5-o-6-pulgadas",
+      "type": "post_social",
+      "title": "¿Monitores de 5 o 6 pulgadas? Elegí el mejor para tu estudio"
+    },
+    {
+      "slug": "setup-con-monitores-5-o-6-pulgadas",
+      "type": "post_x",
+      "title": "¿Monitores de 5 o 6 pulgadas? Elegí el mejor para tu estudio"
+    },
+    {
+      "slug": "setup-con-monitores-5-o-6-pulgadas",
+      "type": "respuesta_youtube",
+      "title": "¿Monitores de 5 o 6 pulgadas? Elige el mejor para tu estudio"
+    },
+    {
+      "slug": "monitores-5-pulgadas-o-6-pulgadas-para-principiantes",
+      "type": "respuesta_tecnica",
+      "title": "Monitores de 5 y 6 pulgadas: ¿Cuál elegir para tu home studio?"
+    },
+    {
+      "slug": "monitores-5-pulgadas-o-6-pulgadas-para-principiantes",
+      "type": "post_educativo",
+      "title": "Monitores de 5 y 6 pulgadas: ¿Cuál es el mejor para ti?"
+    },
+    {
+      "slug": "monitores-5-pulgadas-o-6-pulgadas-para-principiantes",
+      "type": "snippet_social",
+      "title": "Monitores de 5 y 6 pulgadas: ¿Cuál elegir para tu estudio?"
+    },
+    {
+      "slug": "monitores-5-pulgadas-o-6-pulgadas-para-principiantes",
+      "type": "post_social",
+      "title": "Monitores de 5 y 6 pulgadas: ¿Cuál elegir para tu música?"
+    },
+    {
+      "slug": "monitores-5-pulgadas-o-6-pulgadas-para-principiantes",
+      "type": "post_x",
+      "title": "Monitores de 5 y 6 pulgadas: ¿Cuál elegir para tu home studio?"
+    },
+    {
+      "slug": "monitores-5-pulgadas-o-6-pulgadas-para-principiantes",
+      "type": "respuesta_youtube",
+      "title": "Monitores de 5 y 6 pulgadas: ¿Cuál elegir para tu estudio?"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "monitores-para-mezclar-en-cuarto-chico-para-principiantes",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "monitores-para-mezclar-en-cuarto-chico-para-principiantes",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "monitores-para-mezclar-en-cuarto-chico-29",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "monitores-para-mezclar-en-cuarto-chico-29",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "monitores-para-mezclar-en-cuarto-chico-29",
+      "type": "post_x",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-elegir-monitores-5-o-6-pulgadas",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-elegir-monitores-5-o-6-pulgadas",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 323.46
+}

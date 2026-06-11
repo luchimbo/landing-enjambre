@@ -1,0 +1,394 @@
+{
+  "timestamp_utc": "20260608-204431-756237",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260608-203801-832460",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 12,
+  "pieces_proposed": 64,
+  "pieces_blocked": 8,
+  "proposed": [
+    {
+      "slug": "setup-streaming-audio-podcast-video",
+      "type": "respuesta_tecnica",
+      "title": "Crea el Mejor Setup de Streaming para tus Podcasts"
+    },
+    {
+      "slug": "setup-streaming-audio-podcast-video",
+      "type": "post_educativo",
+      "title": "Crea el Mejor Setup de Streaming para tus Podcasts"
+    },
+    {
+      "slug": "setup-streaming-audio-podcast-video",
+      "type": "snippet_social",
+      "title": "Crea el Mejor Setup de Streaming para tus Podcasts"
+    },
+    {
+      "slug": "setup-streaming-audio-podcast-video",
+      "type": "post_social",
+      "title": "Crea el Mejor Setup de Streaming para tus Podcasts 🎤"
+    },
+    {
+      "slug": "setup-streaming-audio-podcast-video",
+      "type": "post_x",
+      "title": "Crea el Mejor Setup de Streaming para tus Podcasts"
+    },
+    {
+      "slug": "setup-streaming-audio-podcast-video",
+      "type": "respuesta_youtube",
+      "title": "Crea el Mejor Setup de Streaming para tus Podcasts"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-setup-portable",
+      "type": "post_social",
+      "title": "Arturia MiniLab 3: Tu Compañero Ideal para Producción Portátil"
+    },
+    {
+      "slug": "guia-elegir-midiplus-ak490-principiantes",
+      "type": "respuesta_tecnica",
+      "title": "Elige el MIDIPLUS AK490: Tu Primer Teclado MIDI"
+    },
+    {
+      "slug": "guia-elegir-midiplus-ak490-principiantes",
+      "type": "post_educativo",
+      "title": "Elige el MIDIPLUS AK490: Tu Primer Teclado MIDI"
+    },
+    {
+      "slug": "guia-elegir-midiplus-ak490-principiantes",
+      "type": "snippet_social",
+      "title": "Elige el MIDIPLUS AK490: Tu Primer Teclado MIDI"
+    },
+    {
+      "slug": "guia-elegir-midiplus-ak490-principiantes",
+      "type": "post_social",
+      "title": "Elige el MIDIPLUS AK490: Tu Primer Teclado MIDI"
+    },
+    {
+      "slug": "guia-elegir-midiplus-ak490-principiantes",
+      "type": "post_x",
+      "title": "Elige el MIDIPLUS AK490: Tu Primer Teclado MIDI"
+    },
+    {
+      "slug": "guia-elegir-midiplus-ak490-principiantes",
+      "type": "respuesta_youtube",
+      "title": "Guía para Elegir el MIDIPLUS AK490 como Principiante"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-guitarra",
+      "type": "respuesta_tecnica",
+      "title": "Auriculares Cerrados para Grabaciones Sin Bleed"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-guitarra",
+      "type": "post_educativo",
+      "title": "Auriculares Cerrados para Grabaciones Sin Bleed"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-guitarra",
+      "type": "snippet_social",
+      "title": "Auriculares Cerrados para Grabaciones Sin Bleed"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-guitarra",
+      "type": "post_social",
+      "title": "Auriculares Cerrados: Clave para Grabar Voces Sin Bleed"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-guitarra",
+      "type": "post_x",
+      "title": "Auriculares Cerrados para Grabaciones Sin Bleed"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-guitarra",
+      "type": "respuesta_youtube",
+      "title": "Auriculares Cerrados: Clave para Grabaciones Sin Bleed"
+    },
+    {
+      "slug": "controladores-midi-fl-studio-beats",
+      "type": "respuesta_tecnica",
+      "title": "Controladores MIDI para FL Studio: Opciones para Hacer Beats"
+    },
+    {
+      "slug": "controladores-midi-fl-studio-beats",
+      "type": "post_educativo",
+      "title": "Controladores MIDI para FL Studio: Crea Beats con Estilo"
+    },
+    {
+      "slug": "controladores-midi-fl-studio-beats",
+      "type": "snippet_social",
+      "title": "Controladores MIDI para FL Studio: Crea Beats con Estilo"
+    },
+    {
+      "slug": "controladores-midi-fl-studio-beats",
+      "type": "post_social",
+      "title": "Controladores MIDI para FL Studio: ¡Crea Beats Geniales! 🎶"
+    },
+    {
+      "slug": "controladores-midi-fl-studio-beats",
+      "type": "post_x",
+      "title": "Controladores MIDI para FL Studio: Crea Beats con Estilo"
+    },
+    {
+      "slug": "controladores-midi-fl-studio-beats",
+      "type": "respuesta_youtube",
+      "title": "Controladores MIDI para FL Studio: Guía para Hacer Beats"
+    },
+    {
+      "slug": "placa-sonido-guitarra-6",
+      "type": "respuesta_tecnica",
+      "title": "Eligiendo la Placa de Sonido Perfecta para tu Guitarra"
+    },
+    {
+      "slug": "placa-sonido-guitarra-6",
+      "type": "post_educativo",
+      "title": "Eligiendo la Placa de Sonido Perfecta para tu Guitarra"
+    },
+    {
+      "slug": "placa-sonido-guitarra-6",
+      "type": "snippet_social",
+      "title": "Eligiendo la Placa de Sonido Perfecta para tu Guitarra"
+    },
+    {
+      "slug": "placa-sonido-guitarra-6",
+      "type": "post_social",
+      "title": "Eligiendo la Placa de Sonido Perfecta para tu Guitarra"
+    },
+    {
+      "slug": "placa-sonido-guitarra-6",
+      "type": "post_x",
+      "title": "Eligiendo la Placa de Sonido Perfecta para tu Guitarra"
+    },
+    {
+      "slug": "placa-sonido-guitarra-6",
+      "type": "respuesta_youtube",
+      "title": "Eligiendo la Placa de Sonido Perfecta para tu Guitarra"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-noche",
+      "type": "respuesta_tecnica",
+      "title": "Crea el Setup de Streaming Ideal para Mezclar de Noche"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-noche",
+      "type": "post_educativo",
+      "title": "Crea el Setup de Streaming Ideal para Mezclar de Noche"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-noche",
+      "type": "snippet_social",
+      "title": "Crea el Setup de Streaming Ideal para Mezclar de Noche"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-noche",
+      "type": "post_social",
+      "title": "Crea el Setup de Streaming Ideal para Mezclar de Noche"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-noche",
+      "type": "post_x",
+      "title": "Crea el Setup de Streaming Ideal para Mezclar de Noche"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-noche",
+      "type": "respuesta_youtube",
+      "title": "Crea el Setup de Streaming Ideal para Mezclar de Noche"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-ableton-beats",
+      "type": "respuesta_tecnica",
+      "title": "Arturia MiniLab 3: Tu Compañero Ideal para Hacer Beats"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-ableton-beats",
+      "type": "post_educativo",
+      "title": "Arturia MiniLab 3: Tu Compañero Ideal para Hacer Beats"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-ableton-beats",
+      "type": "snippet_social",
+      "title": "Arturia MiniLab 3: Tu Compañero Ideal para Hacer Beats"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-ableton-beats",
+      "type": "post_social",
+      "title": "Arturia MiniLab 3: Tu Compañero Ideal para Hacer Beats"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-ableton-beats",
+      "type": "post_x",
+      "title": "Arturia MiniLab 3: Tu Compañero Ideal para Hacer Beats"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-ableton-beats",
+      "type": "respuesta_youtube",
+      "title": "Arturia MiniLab 3: Ideal para Hacer Beats en Ableton"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-escritorio-chico",
+      "type": "respuesta_tecnica",
+      "title": "Arturia MiniLab 3: Ideal para Escritorios Pequeños en Producción"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-escritorio-chico",
+      "type": "post_educativo",
+      "title": "Arturia MiniLab 3: Tu Compañero Perfecto para Producción"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-escritorio-chico",
+      "type": "snippet_social",
+      "title": "Arturia MiniLab 3: Ideal para Escritorios Pequeños"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-escritorio-chico",
+      "type": "post_social",
+      "title": "Arturia MiniLab 3: Ideal para tu Escritorio Compacto"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-escritorio-chico",
+      "type": "post_x",
+      "title": "Arturia MiniLab 3: Ideal para Espacios Reducidos"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-escritorio-chico",
+      "type": "respuesta_youtube",
+      "title": "Arturia MiniLab 3: Ideal para Escritorios Pequeños"
+    },
+    {
+      "slug": "arturia-keystep-pro-setup-portable",
+      "type": "snippet_social",
+      "title": "Arturia KeyStep Pro: Ideal para Setups Portables"
+    },
+    {
+      "slug": "arturia-keystep-pro-setup-portable",
+      "type": "post_social",
+      "title": "Arturia KeyStep Pro: Tu aliado en setups portables"
+    },
+    {
+      "slug": "arturia-keystep-pro-setup-portable",
+      "type": "post_x",
+      "title": "Arturia KeyStep Pro: Ideal para setups portables"
+    },
+    {
+      "slug": "arturia-keystep-pro-workflow-sin-complicarse",
+      "type": "respuesta_tecnica",
+      "title": "Optimiza tu workflow musical con Arturia KeyStep Pro"
+    },
+    {
+      "slug": "arturia-keystep-pro-workflow-sin-complicarse",
+      "type": "post_educativo",
+      "title": "Optimiza tu workflow musical con Arturia KeyStep Pro"
+    },
+    {
+      "slug": "arturia-keystep-pro-workflow-sin-complicarse",
+      "type": "snippet_social",
+      "title": "Optimiza tu workflow musical con Arturia KeyStep Pro"
+    },
+    {
+      "slug": "arturia-keystep-pro-workflow-sin-complicarse",
+      "type": "post_social",
+      "title": "Optimiza tu workflow musical con Arturia KeyStep Pro"
+    },
+    {
+      "slug": "arturia-keystep-pro-workflow-sin-complicarse",
+      "type": "post_x",
+      "title": "Optimiza tu workflow musical con Arturia KeyStep Pro"
+    },
+    {
+      "slug": "arturia-keystep-pro-workflow-sin-complicarse",
+      "type": "respuesta_youtube",
+      "title": "Optimiza tu workflow musical con Arturia KeyStep Pro"
+    },
+    {
+      "slug": "arturia-keystep-pro-hardware-directo",
+      "type": "respuesta_tecnica",
+      "title": "Arturia KeyStep Pro: Tu aliado en el escenario"
+    },
+    {
+      "slug": "arturia-keystep-pro-hardware-directo",
+      "type": "post_educativo",
+      "title": "Arturia KeyStep Pro: Tu aliado en el escenario"
+    },
+    {
+      "slug": "arturia-keystep-pro-hardware-directo",
+      "type": "snippet_social",
+      "title": "Arturia KeyStep Pro: Tu aliado en el escenario"
+    },
+    {
+      "slug": "arturia-keystep-pro-hardware-directo",
+      "type": "post_social",
+      "title": "Arturia KeyStep Pro: Tu aliado en el escenario"
+    },
+    {
+      "slug": "arturia-keystep-pro-hardware-directo",
+      "type": "post_x",
+      "title": "Arturia KeyStep Pro: Tu aliado en el escenario"
+    },
+    {
+      "slug": "arturia-keystep-pro-hardware-directo",
+      "type": "respuesta_youtube",
+      "title": "Arturia KeyStep Pro: Ideal para tus actuaciones en directo"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "controlador-arturia-minilab-3-setup-portable",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-setup-portable",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-setup-portable",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-setup-portable",
+      "type": "post_x",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-setup-portable",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "arturia-keystep-pro-setup-portable",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "arturia-keystep-pro-setup-portable",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "arturia-keystep-pro-setup-portable",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 389.92
+}

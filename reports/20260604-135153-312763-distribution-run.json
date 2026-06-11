@@ -1,0 +1,332 @@
+{
+  "timestamp_utc": "20260604-135153-312763",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260604-134642-165862",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 53,
+  "pieces_blocked": 7,
+  "proposed": [
+    {
+      "slug": "que-comprar-para-interfaz-de-audio-para-podcast",
+      "type": "post_educativo",
+      "title": "Elige la interfaz de audio ideal para tu podcast"
+    },
+    {
+      "slug": "que-comprar-para-interfaz-de-audio-para-podcast",
+      "type": "snippet_social",
+      "title": "Elige la interfaz de audio ideal para tu podcast"
+    },
+    {
+      "slug": "que-comprar-para-interfaz-de-audio-para-podcast",
+      "type": "post_social",
+      "title": "Elige la interfaz de audio ideal para tu podcast"
+    },
+    {
+      "slug": "que-comprar-para-interfaz-de-audio-para-podcast",
+      "type": "post_x",
+      "title": "Elige la interfaz de audio ideal para tu podcast"
+    },
+    {
+      "slug": "setup-con-interfaz-de-audio-para-podcast",
+      "type": "respuesta_tecnica",
+      "title": "Crea el Setup Perfecto para Tu Podcast"
+    },
+    {
+      "slug": "setup-con-interfaz-de-audio-para-podcast",
+      "type": "post_educativo",
+      "title": "Crea el Setup Perfecto para Tu Podcast"
+    },
+    {
+      "slug": "setup-con-interfaz-de-audio-para-podcast",
+      "type": "snippet_social",
+      "title": "Crea el Setup Perfecto para Tu Podcast"
+    },
+    {
+      "slug": "setup-con-interfaz-de-audio-para-podcast",
+      "type": "post_social",
+      "title": "Crea el Setup Perfecto para Tu Podcast 🎤"
+    },
+    {
+      "slug": "setup-con-interfaz-de-audio-para-podcast",
+      "type": "post_x",
+      "title": "Crea el Setup Perfecto para Tu Podcast"
+    },
+    {
+      "slug": "setup-con-interfaz-de-audio-para-podcast",
+      "type": "respuesta_youtube",
+      "title": "Crea el Setup Perfecto para Tu Podcast"
+    },
+    {
+      "slug": "interfaz-audio-podcast-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Las Mejores Interfaces de Audio para Tu Podcast"
+    },
+    {
+      "slug": "interfaz-audio-podcast-home-studio",
+      "type": "post_educativo",
+      "title": "Las Mejores Interfaces de Audio para Tu Podcast"
+    },
+    {
+      "slug": "interfaz-audio-podcast-home-studio",
+      "type": "snippet_social",
+      "title": "Las Mejores Interfaces de Audio para Tu Podcast"
+    },
+    {
+      "slug": "interfaz-audio-podcast-home-studio",
+      "type": "post_social",
+      "title": "Las Mejores Interfaces de Audio para Tu Podcast"
+    },
+    {
+      "slug": "interfaz-audio-podcast-home-studio",
+      "type": "post_x",
+      "title": "Las Mejores Interfaces de Audio para Tu Podcast"
+    },
+    {
+      "slug": "interfaz-audio-podcast-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Las Mejores Interfaces de Audio para Tu Podcast"
+    },
+    {
+      "slug": "que-comprar-para-interfaz-de-audio-para-streaming",
+      "type": "respuesta_tecnica",
+      "title": "Elige la mejor interfaz de audio para tus transmisiones"
+    },
+    {
+      "slug": "que-comprar-para-interfaz-de-audio-para-streaming",
+      "type": "snippet_social",
+      "title": "Elige la mejor interfaz de audio para tus transmisiones"
+    },
+    {
+      "slug": "que-comprar-para-interfaz-de-audio-para-streaming",
+      "type": "post_social",
+      "title": "Elige la mejor interfaz de audio para tus transmisiones"
+    },
+    {
+      "slug": "que-comprar-para-interfaz-de-audio-para-streaming",
+      "type": "post_x",
+      "title": "Elige la mejor interfaz de audio para tus transmisiones"
+    },
+    {
+      "slug": "que-comprar-para-interfaz-de-audio-para-streaming",
+      "type": "respuesta_youtube",
+      "title": "Elige la mejor interfaz de audio para tus transmisiones"
+    },
+    {
+      "slug": "como-elegir-interfaz-audio-streaming",
+      "type": "respuesta_tecnica",
+      "title": "Elige la interfaz de audio ideal para tus transmisiones"
+    },
+    {
+      "slug": "como-elegir-interfaz-audio-streaming",
+      "type": "post_educativo",
+      "title": "Elige la interfaz de audio ideal para tus transmisiones"
+    },
+    {
+      "slug": "como-elegir-interfaz-audio-streaming",
+      "type": "snippet_social",
+      "title": "Elige la interfaz de audio ideal para tus transmisiones"
+    },
+    {
+      "slug": "como-elegir-interfaz-audio-streaming",
+      "type": "post_social",
+      "title": "Elige la interfaz de audio ideal para tus transmisiones"
+    },
+    {
+      "slug": "como-elegir-interfaz-audio-streaming",
+      "type": "post_x",
+      "title": "Elige la interfaz de audio ideal para tus transmisiones"
+    },
+    {
+      "slug": "como-elegir-interfaz-audio-streaming",
+      "type": "respuesta_youtube",
+      "title": "Elige la interfaz de audio ideal para tus transmisiones"
+    },
+    {
+      "slug": "setup-con-interfaz-de-audio-para-streaming",
+      "type": "respuesta_tecnica",
+      "title": "Elige la interfaz de audio perfecta para tu streaming"
+    },
+    {
+      "slug": "setup-con-interfaz-de-audio-para-streaming",
+      "type": "post_educativo",
+      "title": "Elige la interfaz de audio perfecta para tu streaming"
+    },
+    {
+      "slug": "setup-con-interfaz-de-audio-para-streaming",
+      "type": "snippet_social",
+      "title": "Elige la interfaz de audio perfecta para tu streaming"
+    },
+    {
+      "slug": "setup-con-interfaz-de-audio-para-streaming",
+      "type": "post_social",
+      "title": "Elige la interfaz de audio perfecta para tu streaming"
+    },
+    {
+      "slug": "setup-con-interfaz-de-audio-para-streaming",
+      "type": "post_x",
+      "title": "Elige la interfaz de audio perfecta para tu streaming"
+    },
+    {
+      "slug": "setup-con-interfaz-de-audio-para-streaming",
+      "type": "respuesta_youtube",
+      "title": "Elige la interfaz de audio perfecta para tu streaming"
+    },
+    {
+      "slug": "interfaz-audio-streaming-principiantes",
+      "type": "post_educativo",
+      "title": "Elige la Mejor Interfaz de Audio para Streaming"
+    },
+    {
+      "slug": "interfaz-audio-streaming-principiantes",
+      "type": "snippet_social",
+      "title": "Elige la Mejor Interfaz de Audio para Streaming"
+    },
+    {
+      "slug": "interfaz-audio-streaming-principiantes",
+      "type": "post_social",
+      "title": "Elige la Mejor Interfaz de Audio para Streaming 🎤"
+    },
+    {
+      "slug": "interfaz-audio-streaming-principiantes",
+      "type": "post_x",
+      "title": "Elige la Mejor Interfaz de Audio para Streaming"
+    },
+    {
+      "slug": "interfaz-de-audio-para-streaming-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Elige la Mejor Interfaz de Audio para tu Home Studio"
+    },
+    {
+      "slug": "interfaz-de-audio-para-streaming-home-studio",
+      "type": "snippet_social",
+      "title": "Elige la Mejor Interfaz de Audio para tu Home Studio"
+    },
+    {
+      "slug": "interfaz-de-audio-para-streaming-home-studio",
+      "type": "post_social",
+      "title": "Elige la Mejor Interfaz de Audio para tu Home Studio 🎤"
+    },
+    {
+      "slug": "interfaz-de-audio-para-streaming-home-studio",
+      "type": "post_x",
+      "title": "Elige la Mejor Interfaz de Audio para tu Home Studio"
+    },
+    {
+      "slug": "interfaz-de-audio-para-streaming-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Elige la Mejor Interfaz de Audio para tu Home Studio"
+    },
+    {
+      "slug": "interfaz-audio-streaming-grabar-casa",
+      "type": "respuesta_tecnica",
+      "title": "Las Mejores Interfaces de Audio para Streaming en Casa"
+    },
+    {
+      "slug": "interfaz-audio-streaming-grabar-casa",
+      "type": "snippet_social",
+      "title": "Las Mejores Interfaces de Audio para Streaming en Casa"
+    },
+    {
+      "slug": "interfaz-audio-streaming-grabar-casa",
+      "type": "post_social",
+      "title": "Las Mejores Interfaces de Audio para Streaming en Casa"
+    },
+    {
+      "slug": "interfaz-audio-streaming-grabar-casa",
+      "type": "post_x",
+      "title": "Las Mejores Interfaces de Audio para Streaming en Casa"
+    },
+    {
+      "slug": "interfaz-audio-streaming-grabar-casa",
+      "type": "respuesta_youtube",
+      "title": "Las Mejores Interfaces de Audio para Streaming en Casa"
+    },
+    {
+      "slug": "como-elegir-interfaz-de-audio-con-dos-entradas",
+      "type": "respuesta_tecnica",
+      "title": "Cómo elegir la interfaz de audio perfecta con dos entradas"
+    },
+    {
+      "slug": "como-elegir-interfaz-de-audio-con-dos-entradas",
+      "type": "post_educativo",
+      "title": "Cómo elegir la interfaz de audio perfecta con dos entradas"
+    },
+    {
+      "slug": "como-elegir-interfaz-de-audio-con-dos-entradas",
+      "type": "snippet_social",
+      "title": "Cómo elegir la interfaz de audio perfecta con dos entradas"
+    },
+    {
+      "slug": "como-elegir-interfaz-de-audio-con-dos-entradas",
+      "type": "post_social",
+      "title": "Cómo elegir la interfaz de audio perfecta con dos entradas"
+    },
+    {
+      "slug": "como-elegir-interfaz-de-audio-con-dos-entradas",
+      "type": "post_x",
+      "title": "Cómo elegir la interfaz de audio perfecta con dos entradas"
+    },
+    {
+      "slug": "como-elegir-interfaz-de-audio-con-dos-entradas",
+      "type": "respuesta_youtube",
+      "title": "Cómo elegir la interfaz de audio perfecta con dos entradas"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "que-comprar-para-interfaz-de-audio-para-podcast",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "que-comprar-para-interfaz-de-audio-para-podcast",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "que-comprar-para-interfaz-de-audio-para-streaming",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "interfaz-audio-streaming-principiantes",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "interfaz-audio-streaming-principiantes",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "interfaz-de-audio-para-streaming-home-studio",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "interfaz-audio-streaming-grabar-casa",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 311.15
+}

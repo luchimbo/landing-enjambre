@@ -1,0 +1,332 @@
+{
+  "timestamp_utc": "20260603-143725-101812",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260603-143321-436641",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 53,
+  "pieces_blocked": 7,
+  "proposed": [
+    {
+      "slug": "home-studio-principiantes-ableton",
+      "type": "respuesta_tecnica",
+      "title": "Crea tu Home Studio para Principiantes con Ableton"
+    },
+    {
+      "slug": "home-studio-principiantes-ableton",
+      "type": "post_educativo",
+      "title": "Crea tu Home Studio para Principiantes con Ableton"
+    },
+    {
+      "slug": "home-studio-principiantes-ableton",
+      "type": "snippet_social",
+      "title": "Crea tu Home Studio para Principiantes con Ableton"
+    },
+    {
+      "slug": "home-studio-principiantes-ableton",
+      "type": "post_social",
+      "title": "Crea tu Home Studio para Principiantes con Ableton"
+    },
+    {
+      "slug": "home-studio-principiantes-ableton",
+      "type": "post_x",
+      "title": "Crea tu Home Studio para Principiantes con Ableton"
+    },
+    {
+      "slug": "home-studio-principiantes-ableton",
+      "type": "respuesta_youtube",
+      "title": "Crea tu Home Studio para Principiantes con Ableton"
+    },
+    {
+      "slug": "guia-elegir-interfaz-audio-grabar-voz-casa",
+      "type": "respuesta_tecnica",
+      "title": "Elige la Interfaz de Audio Ideal para Grabar Tu Voz"
+    },
+    {
+      "slug": "guia-elegir-interfaz-audio-grabar-voz-casa",
+      "type": "post_educativo",
+      "title": "Elige la Interfaz de Audio Ideal para Grabar Tu Voz"
+    },
+    {
+      "slug": "guia-elegir-interfaz-audio-grabar-voz-casa",
+      "type": "snippet_social",
+      "title": "Elige la Interfaz de Audio Ideal para Grabar Tu Voz"
+    },
+    {
+      "slug": "guia-elegir-interfaz-audio-grabar-voz-casa",
+      "type": "post_social",
+      "title": "Elige la Interfaz de Audio Ideal para Grabar Tu Voz"
+    },
+    {
+      "slug": "guia-elegir-interfaz-audio-grabar-voz-casa",
+      "type": "post_x",
+      "title": "Elige la Interfaz de Audio Ideal para Grabar Tu Voz"
+    },
+    {
+      "slug": "guia-elegir-interfaz-audio-grabar-voz-casa",
+      "type": "respuesta_youtube",
+      "title": "Elige la Interfaz de Audio Ideal para Grabar Tu Voz"
+    },
+    {
+      "slug": "arturia-minilab-3-para-ableton-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Arturia MiniLab 3: Ideal para tu Home Studio con Ableton"
+    },
+    {
+      "slug": "arturia-minilab-3-para-ableton-home-studio",
+      "type": "post_educativo",
+      "title": "Arturia MiniLab 3: Tu Compañero Perfecto para Producción Musical"
+    },
+    {
+      "slug": "arturia-minilab-3-para-ableton-home-studio",
+      "type": "snippet_social",
+      "title": "Arturia MiniLab 3: Ideal para tu Home Studio"
+    },
+    {
+      "slug": "arturia-minilab-3-para-ableton-home-studio",
+      "type": "post_social",
+      "title": "Arturia MiniLab 3: Tu Compañero Perfecto para Producción Musical"
+    },
+    {
+      "slug": "arturia-minilab-3-para-ableton-home-studio",
+      "type": "post_x",
+      "title": "Arturia MiniLab 3: Ideal para tu Home Studio"
+    },
+    {
+      "slug": "arturia-minilab-3-para-ableton-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Arturia MiniLab 3: Ideal para tu Home Studio"
+    },
+    {
+      "slug": "arturia-minilab-3-fl-studio-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Arturia MiniLab 3: Ideal para Beats y Melodías en FL Studio"
+    },
+    {
+      "slug": "arturia-minilab-3-fl-studio-home-studio",
+      "type": "post_educativo",
+      "title": "Arturia MiniLab 3: Tu Compañero Ideal para FL Studio"
+    },
+    {
+      "slug": "arturia-minilab-3-fl-studio-home-studio",
+      "type": "snippet_social",
+      "title": "Arturia MiniLab 3: Tu Compañero Ideal para FL Studio"
+    },
+    {
+      "slug": "arturia-minilab-3-fl-studio-home-studio",
+      "type": "post_social",
+      "title": "Arturia MiniLab 3: Tu Compañero Ideal para FL Studio"
+    },
+    {
+      "slug": "arturia-minilab-3-fl-studio-home-studio",
+      "type": "post_x",
+      "title": "Arturia MiniLab 3: Ideal para FL Studio en tu Home Studio"
+    },
+    {
+      "slug": "arturia-minilab-3-fl-studio-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Arturia MiniLab 3: Ideal para Beats en FL Studio"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-fl-studio",
+      "type": "respuesta_tecnica",
+      "title": "Arturia MiniLab 3: Ideal para Beats y Melodías en FL Studio"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-fl-studio",
+      "type": "post_educativo",
+      "title": "Arturia MiniLab 3: Tu Compañero Ideal para Producción Musical"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-fl-studio",
+      "type": "snippet_social",
+      "title": "Arturia MiniLab 3: Ideal para Beats y Melodías"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-fl-studio",
+      "type": "post_social",
+      "title": "Arturia MiniLab 3: Tu Compañero Ideal para Producción Musical"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-fl-studio",
+      "type": "post_x",
+      "title": "Arturia MiniLab 3: Tu Compañero Ideal para Producción Musical"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-fl-studio",
+      "type": "respuesta_youtube",
+      "title": "Arturia MiniLab 3: Ideal para Beats y Melodías en FL Studio"
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Arturia KeyStep Pro: Controlador y Secuenciador para tu Home Studio"
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador-home-studio",
+      "type": "post_educativo",
+      "title": "Arturia KeyStep Pro: Controlador y Secuenciador para tu Home Studio"
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador-home-studio",
+      "type": "snippet_social",
+      "title": "Arturia KeyStep Pro: Controlador y Secuenciador para tu Home Studio"
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador-home-studio",
+      "type": "post_social",
+      "title": "Arturia KeyStep Pro: Tu Aliado en el Home Studio"
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador-home-studio",
+      "type": "post_x",
+      "title": "Arturia KeyStep Pro: Tu Controlador y Secuenciador Ideal"
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Arturia KeyStep Pro: Ideal para tu Home Studio"
+    },
+    {
+      "slug": "arturia-microfreak-inicio-sintesis-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Arturia MicroFreak: Ideal para Iniciar en Síntesis en Home Studio"
+    },
+    {
+      "slug": "arturia-microfreak-inicio-sintesis-home-studio",
+      "type": "post_educativo",
+      "title": "Arturia MicroFreak: El sintetizador ideal para principiantes"
+    },
+    {
+      "slug": "arturia-microfreak-inicio-sintesis-home-studio",
+      "type": "snippet_social",
+      "title": "Arturia MicroFreak: El sintetizador ideal para principiantes"
+    },
+    {
+      "slug": "arturia-microfreak-inicio-sintesis-home-studio",
+      "type": "post_social",
+      "title": "Arturia MicroFreak: Ideal para Iniciar en la Síntesis"
+    },
+    {
+      "slug": "arturia-microfreak-inicio-sintesis-home-studio",
+      "type": "post_x",
+      "title": "Arturia MicroFreak: Tu primer sintetizador de hardware"
+    },
+    {
+      "slug": "arturia-microfreak-inicio-sintesis-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Arturia MicroFreak: Ideal para Iniciar en Síntesis"
+    },
+    {
+      "slug": "arturia-polybrute-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Arturia PolyBrute: Potencia y Versatilidad para tu Estudio"
+    },
+    {
+      "slug": "arturia-polybrute-home-studio",
+      "type": "post_educativo",
+      "title": "Arturia PolyBrute: Potencia y Versatilidad para tu Estudio"
+    },
+    {
+      "slug": "arturia-polybrute-home-studio",
+      "type": "snippet_social",
+      "title": "Arturia PolyBrute: Potencia y Versatilidad para tu Estudio"
+    },
+    {
+      "slug": "arturia-polybrute-home-studio",
+      "type": "post_social",
+      "title": "Arturia PolyBrute: Potencia y Versatilidad para tu Estudio"
+    },
+    {
+      "slug": "arturia-polybrute-home-studio",
+      "type": "post_x",
+      "title": "Arturia PolyBrute: Potencia y Versatilidad para tu Estudio"
+    },
+    {
+      "slug": "arturia-polybrute-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Arturia PolyBrute: Potencia y Versatilidad para tu Estudio"
+    },
+    {
+      "slug": "synido-tempokey-25-home-studio",
+      "type": "post_educativo",
+      "title": "Controlador MIDI Synido TempoKEY 25: Tu aliado en el home studio"
+    },
+    {
+      "slug": "synido-tempokey-25-home-studio",
+      "type": "snippet_social",
+      "title": "Controlador MIDI Synido TempoKEY 25: Ideal para tu home studio"
+    },
+    {
+      "slug": "synido-tempokey-25-home-studio",
+      "type": "post_social",
+      "title": "Descubre el Synido TempoKEY 25 para tu home studio 🎹"
+    },
+    {
+      "slug": "synido-tempokey-25-home-studio",
+      "type": "post_x",
+      "title": "Controlador MIDI Synido TempoKEY 25: Ideal para tu home studio"
+    },
+    {
+      "slug": "synido-tempokey-25-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Controlador MIDI Synido TempoKEY 25: Ideal para tu home studio"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "monitores-estudio-home-studio-pequeno",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "monitores-estudio-home-studio-pequeno",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "monitores-estudio-home-studio-pequeno",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "monitores-estudio-home-studio-pequeno",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "monitores-estudio-home-studio-pequeno",
+      "type": "post_x",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "monitores-estudio-home-studio-pequeno",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "synido-tempokey-25-home-studio",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 243.66
+}

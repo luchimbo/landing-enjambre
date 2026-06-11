@@ -1,0 +1,142 @@
+{
+  "timestamp_utc": "20260611-194125-402285",
+  "command": "auto-listen",
+  "channels": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "reddit",
+    "x",
+    "youtube"
+  ],
+  "searches": 6,
+  "per_search": 3,
+  "dry_run": false,
+  "items": 31,
+  "distribution_drafts": 31,
+  "social_intel_path": "D:\\AgentesGuille\\data\\social_intel.jsonl",
+  "search_tasks_path": "D:\\AgentesGuille\\data\\distribution_search_tasks.jsonl",
+  "content_feedback_path": "D:\\AgentesGuille\\data\\content_feedback.jsonl",
+  "sample": [
+    {
+      "id": "20260611-193802-512090:instagram:0",
+      "created_at_utc": "2026-06-11T19:38:41.074832+00:00",
+      "run_id": "20260611-193802-512090",
+      "channel": "instagram",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.instagram.com/p/DS3IXVpkmh_/",
+      "source_title": "",
+      "source_context": "#flstudio #music #praise4ngell"
+    },
+    {
+      "id": "20260611-193802-512090:instagram:1",
+      "created_at_utc": "2026-06-11T19:38:46.616958+00:00",
+      "run_id": "20260611-193802-512090",
+      "channel": "instagram",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.instagram.com/p/DB263Y8zYZ1/",
+      "source_title": "",
+      "source_context": "Universal Audio Volt - Seven Stereo"
+    },
+    {
+      "id": "20260611-193802-512090:instagram:2",
+      "created_at_utc": "2026-06-11T19:39:03.180346+00:00",
+      "run_id": "20260611-193802-512090",
+      "channel": "instagram",
+      "query": "microfono para podcast",
+      "landing_slug": "microfono-para-podcast-usb-o-xlr",
+      "landing_url": "https://blog.pcmidicenter.com/microfono-para-podcast-usb-o-xlr/",
+      "source_url": "https://www.instagram.com/p/DS3IXVpkmh_/",
+      "source_title": "",
+      "source_context": "#flstudio #music #praise4ngell"
+    },
+    {
+      "id": "20260611-193802-512090:instagram:3",
+      "created_at_utc": "2026-06-11T19:39:03.222293+00:00",
+      "run_id": "20260611-193802-512090",
+      "channel": "instagram",
+      "query": "microfono para podcast",
+      "landing_slug": "microfono-para-podcast-usb-o-xlr",
+      "landing_url": "https://blog.pcmidicenter.com/microfono-para-podcast-usb-o-xlr/",
+      "source_url": "https://www.instagram.com/p/DKH7R96snzX/",
+      "source_title": "",
+      "source_context": "Late-night session. Just me, FL Studio & the sound. 🌃 #flstudio #musicproducer #homestudio #studiolife"
+    },
+    {
+      "id": "20260611-193802-512090:linkedin:4",
+      "created_at_utc": "2026-06-11T19:39:15.152408+00:00",
+      "run_id": "20260611-193802-512090",
+      "channel": "linkedin",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.linkedin.com/in/guillermo-coronel/es/",
+      "source_title": "",
+      "source_context": "Guillermo Coronel • 3er+ Desarrollador de instrumentos musicales electrónicos con IA (Arduino + MIDI) | Team Leader CX | Soporte Técnico | RR.PP & Gestión e Innovación Pública 2 días • Seguir"
+    },
+    {
+      "id": "20260611-193802-512090:linkedin:5",
+      "created_at_utc": "2026-06-11T19:39:15.203152+00:00",
+      "run_id": "20260611-193802-512090",
+      "channel": "linkedin",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.linkedin.com/search/results/all/?keywords=%23musictech&origin=HASH_TAG_FROM_FEED",
+      "source_title": "#MusicTech",
+      "source_context": "Publicación en el feed Guillermo Coronel • 3er+ Desarrollador de instrumentos musicales electrónicos con IA (Arduino + MIDI) | Team Leader CX | Soporte Técnico | RR.PP & Gestión e Innovación Pública 2 días • Seguir 📱 CONVERTÍ MI CELULAR EN UN CONTROLADOR MIDI (Inalámbrico y Open Source) Construí mi propio controlador MIDI por software con JavaScript y Electron 🎹✨ Este es uno de los proyectos más divertidos y desafiantes que encaré últimamente desde Sensitive Lab: un entorno MIDI por software inspirado en el clásico diseño del Arturia MiniLab, pero construido completamente con tecnologías web. 🔍 ¿Qué hace este desarrollo? Interfaz Completa de Escritorio: Teclado de 2 octavas con pitch bender y mod wheel integrados. 8 Knobs Asignables: Mapeados directamente a parámetros MIDI esenciales (cutoff, reverb, delay, volumen, etc.). Control Remoto Inalámbrico: Podés usar la pantalla de tu celular vía WiFi para controlar los pads, el piano y los knobs touch en tiempo real, sin cables. Integración Nativa: Se conecta con cualquier DAW del mercado (Reaper, FL Studio, Ableton Live) reconociéndolo como si fuera un controlador de hardware físico. 🛠️ El Stack Tecnológico: ¿Cómo está hecho? Elect"
+    },
+    {
+      "id": "20260611-193802-512090:linkedin:6",
+      "created_at_utc": "2026-06-11T19:39:15.256543+00:00",
+      "run_id": "20260611-193802-512090",
+      "channel": "linkedin",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.linkedin.com/search/results/all/?keywords=%23javascript&origin=HASH_TAG_FROM_FEED",
+      "source_title": "#JavaScript",
+      "source_context": "Publicación en el feed Guillermo Coronel • 3er+ Desarrollador de instrumentos musicales electrónicos con IA (Arduino + MIDI) | Team Leader CX | Soporte Técnico | RR.PP & Gestión e Innovación Pública 2 días • Seguir 📱 CONVERTÍ MI CELULAR EN UN CONTROLADOR MIDI (Inalámbrico y Open Source) Construí mi propio controlador MIDI por software con JavaScript y Electron 🎹✨ Este es uno de los proyectos más divertidos y desafiantes que encaré últimamente desde Sensitive Lab: un entorno MIDI por software inspirado en el clásico diseño del Arturia MiniLab, pero construido completamente con tecnologías web. 🔍 ¿Qué hace este desarrollo? Interfaz Completa de Escritorio: Teclado de 2 octavas con pitch bender y mod wheel integrados. 8 Knobs Asignables: Mapeados directamente a parámetros MIDI esenciales (cutoff, reverb, delay, volumen, etc.). Control Remoto Inalámbrico: Podés usar la pantalla de tu celular vía WiFi para controlar los pads, el piano y los knobs touch en tiempo real, sin cables. Integración Nativa: Se conecta con cualquier DAW del mercado (Reaper, FL Studio, Ableton Live) reconociéndolo como si fuera un controlador de hardware físico. 🛠️ El Stack Tecnológico: ¿Cómo está hecho? Elect"
+    },
+    {
+      "id": "20260611-193802-512090:linkedin:7",
+      "created_at_utc": "2026-06-11T19:39:21.640918+00:00",
+      "run_id": "20260611-193802-512090",
+      "channel": "linkedin",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.linkedin.com/pulse/la-voz-nueva-frontera-del-e-learning-claves-para-jim%C3%A9nez-herrad%C3%B3n-6gukf/",
+      "source_title": "",
+      "source_context": "La voz, la nueva frontera del e-learning: claves para asistentes conversacionales educativos. Juan Bautista Jiménez Herradón"
+    },
+    {
+      "id": "20260611-193802-512090:linkedin:8",
+      "created_at_utc": "2026-06-11T19:39:21.687107+00:00",
+      "run_id": "20260611-193802-512090",
+      "channel": "linkedin",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.linkedin.com/in/tonisoriano/",
+      "source_title": "",
+      "source_context": "Toni Soriano • 3er+ Productor de sonido & diseñador sonoro | Especialista en audio para contenido y audiovisual | Fundador de Onda Estudios | Consultor y asesor de sonido para grabación y producción de podcasts, música y voz. 1 mes • Editado • Seguir"
+    },
+    {
+      "id": "20260611-193802-512090:linkedin:9",
+      "created_at_utc": "2026-06-11T19:39:27.910847+00:00",
+      "run_id": "20260611-193802-512090",
+      "channel": "linkedin",
+      "query": "controlador MIDI para Ableton",
+      "landing_slug": "controlador-midi-para-ableton-comparativa",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-ableton-comparativa/",
+      "source_url": "https://www.linkedin.com/in/guillermo-coronel/es/",
+      "source_title": "",
+      "source_context": "Guillermo Coronel • 3er+ Desarrollador de instrumentos musicales electrónicos con IA (Arduino + MIDI) | Team Leader CX | Soporte Técnico | RR.PP & Gestión e Innovación Pública 2 días • Seguir"
+    }
+  ]
+}

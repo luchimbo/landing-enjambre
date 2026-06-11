@@ -1,0 +1,92 @@
+{
+  "timestamp_utc": "20260611-155247-858054",
+  "command": "auto-listen",
+  "channels": [
+    "facebook",
+    "instagram",
+    "x",
+    "youtube"
+  ],
+  "searches": 2,
+  "per_search": 2,
+  "dry_run": false,
+  "items": 6,
+  "distribution_drafts": 6,
+  "social_intel_path": "D:\\AgentesGuille\\data\\social_intel.jsonl",
+  "search_tasks_path": "D:\\AgentesGuille\\data\\distribution_search_tasks.jsonl",
+  "content_feedback_path": "D:\\AgentesGuille\\data\\content_feedback.jsonl",
+  "sample": [
+    {
+      "id": "20260611-155203-665784:instagram:0",
+      "created_at_utc": "2026-06-11T15:52:20.229220+00:00",
+      "run_id": "20260611-155203-665784",
+      "channel": "instagram",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.instagram.com/p/DS3IXVpkmh_/",
+      "source_title": "",
+      "source_context": "#flstudio #music #praise4ngell"
+    },
+    {
+      "id": "20260611-155203-665784:instagram:1",
+      "created_at_utc": "2026-06-11T15:52:25.822903+00:00",
+      "run_id": "20260611-155203-665784",
+      "channel": "instagram",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.instagram.com/p/C_t3pB6yNNr/",
+      "source_title": "",
+      "source_context": "Go Solo / / Universal Audio Apollo Solo Heritage Edition (SGD845) / / Desktop 2 x 4 Thunderbolt 3 Audio Interface / / Amazing sounding class-leading AD/DA for maximum fidelity / / Two Pristine Preamps with Unison technology provides spot-on emulations of classic preamps / / Realtime UAD Processing allows near-zero latency tracking with classic UAD plug-in effects, regardless of software buffer setting / / SGD1,800 plug-in bundle on top of the Analog Classics plug-in bundle / / Produce with LUNA Recording System — a free, fully-integrated recording application made for Apollo / / Best-in-class headphone amplifier for loud, detailed, low-noise monitoring / / Bus-powered connection to Mac and Windows systems for easy portability and reduced cable clutter / / Get yours today at our showroom or online store: https://sinamex.com/product/universal-audio-apollo-solo/"
+    },
+    {
+      "id": "20260611-155203-665784:instagram:2",
+      "created_at_utc": "2026-06-11T15:52:25.873390+00:00",
+      "run_id": "20260611-155203-665784",
+      "channel": "instagram",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.instagram.com/p/DB263Y8zYZ1/",
+      "source_title": "",
+      "source_context": "Universal Audio Volt - Seven Stereo"
+    },
+    {
+      "id": "20260611-155203-665784:youtube:3",
+      "created_at_utc": "2026-06-11T15:52:42.380124+00:00",
+      "run_id": "20260611-155203-665784",
+      "channel": "youtube",
+      "query": "controlador MIDI para FL Studio",
+      "landing_slug": "controlador-midi-para-fl-studio",
+      "landing_url": "https://blog.pcmidicenter.com/controlador-midi-para-fl-studio/",
+      "source_url": "https://www.youtube.com/watch?v=gdJvuZbbwvs&pp=ygUfY29udHJvbGFkb3IgTUlESSBwYXJhIEZMIFN0dWRpbw%3D%3D",
+      "source_title": "",
+      "source_context": "¿Controlador MIDI vs Mouse? Descubre las 5 VENTAJAS de usar el Minilab3 de Arturia en FL Studio 21 4.8K views 2 years ago Blue Larimar Music No lo quería admitir... pero USAR TECLADO MIDI es otra cosa Hoy exploramos juntos 5 aspectos a considerar si nunca has ... 8 chapters INTRO | VENTAJA 1 | VENTAJA 2 | VENTAJA 3 | VENTAJA 4 | VENTAJA 5 | Demostración Arturia MiniLab3 | Resumen"
+    },
+    {
+      "id": "20260611-155203-665784:youtube:4",
+      "created_at_utc": "2026-06-11T15:52:47.583271+00:00",
+      "run_id": "20260611-155203-665784",
+      "channel": "youtube",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.youtube.com/watch?v=T5aSENq_GdE&pp=ygUpaW50ZXJmYXogZGUgYXVkaW8gcGFyYSBncmFiYXIgdm96IGVuIGNhc2E%3D",
+      "source_title": "14:29 14:29 Now playing",
+      "source_context": "✔Home Studio Basic Kit 2025: What You Need 165K views 1 year ago Naito Producer If you're thinking about setting up your first home studio with the basic kit and the bare minimum, this is the video for you ... 4K 11 chapters Intro | Ordenador | Daw | Auriculares | Interface de audio | Micrófono | Altavoces/monitores | Teclado midi | DistroKid | Mobiliario | Tratamiento acústico"
+    },
+    {
+      "id": "20260611-155203-665784:youtube:5",
+      "created_at_utc": "2026-06-11T15:52:47.631298+00:00",
+      "run_id": "20260611-155203-665784",
+      "channel": "youtube",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.youtube.com/watch?v=T5aSENq_GdE",
+      "source_title": "Intro Intro 0:00",
+      "source_context": "Intro Intro 0:00 Intro 0:00 Ordenador Ordenador 0:35 Ordenador 0:35 Daw Daw 1:30 Daw 1:30 Auriculares Auriculares 3:50 Auriculares 3:50"
+    }
+  ]
+}

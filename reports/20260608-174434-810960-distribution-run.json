@@ -1,0 +1,390 @@
+{
+  "timestamp_utc": "20260608-174434-810960",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260608-173801-791977",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 12,
+  "pieces_proposed": 66,
+  "pieces_blocked": 6,
+  "proposed": [
+    {
+      "slug": "placa-sonido-guitarra-mezclar-noche",
+      "type": "respuesta_tecnica",
+      "title": "Placas de Sonido para Guitarras: Mezcla Perfecta de Noche"
+    },
+    {
+      "slug": "placa-sonido-guitarra-mezclar-noche",
+      "type": "post_educativo",
+      "title": "Placas de Sonido para Guitarras: Mezcla Perfecta de Noche"
+    },
+    {
+      "slug": "placa-sonido-guitarra-mezclar-noche",
+      "type": "snippet_social",
+      "title": "Placas de Sonido para Guitarras: Mezcla Perfecta de Noche"
+    },
+    {
+      "slug": "placa-sonido-guitarra-mezclar-noche",
+      "type": "post_social",
+      "title": "Placas de Sonido para Guitarras: Mezcla Perfecta de Noche"
+    },
+    {
+      "slug": "placa-sonido-guitarra-mezclar-noche",
+      "type": "post_x",
+      "title": "Placas de Sonido para Guitarras: Mezcla Perfecta de Noche"
+    },
+    {
+      "slug": "placa-sonido-guitarra-mezclar-noche",
+      "type": "respuesta_youtube",
+      "title": "Placas de Sonido para Guitarras: Mejora tus Mezclas Nocturnas"
+    },
+    {
+      "slug": "como-elegir-sintetizador-para-aprender-sintesis",
+      "type": "respuesta_tecnica",
+      "title": "Elige el sintetizador perfecto para comenzar tu viaje musical"
+    },
+    {
+      "slug": "como-elegir-sintetizador-para-aprender-sintesis",
+      "type": "post_educativo",
+      "title": "Elige el sintetizador perfecto para comenzar tu viaje musical"
+    },
+    {
+      "slug": "como-elegir-sintetizador-para-aprender-sintesis",
+      "type": "snippet_social",
+      "title": "Elige el sintetizador perfecto para comenzar tu viaje musical"
+    },
+    {
+      "slug": "como-elegir-sintetizador-para-aprender-sintesis",
+      "type": "post_social",
+      "title": "Elige el sintetizador perfecto para comenzar tu viaje musical"
+    },
+    {
+      "slug": "como-elegir-sintetizador-para-aprender-sintesis",
+      "type": "post_x",
+      "title": "Elige el sintetizador perfecto para comenzar tu viaje musical"
+    },
+    {
+      "slug": "como-elegir-sintetizador-para-aprender-sintesis",
+      "type": "respuesta_youtube",
+      "title": "Elige el sintetizador perfecto para comenzar tu viaje musical"
+    },
+    {
+      "slug": "guia-elegir-alctron-um900-streaming",
+      "type": "respuesta_tecnica",
+      "title": "Guía técnica para elegir el Alctron UM900 en streaming"
+    },
+    {
+      "slug": "guia-elegir-alctron-um900-streaming",
+      "type": "post_educativo",
+      "title": "Guía para elegir el Alctron UM900 en streaming"
+    },
+    {
+      "slug": "guia-elegir-alctron-um900-streaming",
+      "type": "snippet_social",
+      "title": "Guía para elegir el Alctron UM900 en streaming"
+    },
+    {
+      "slug": "guia-elegir-alctron-um900-streaming",
+      "type": "post_social",
+      "title": "Guía para elegir el Alctron UM900 en streaming"
+    },
+    {
+      "slug": "guia-elegir-alctron-um900-streaming",
+      "type": "post_x",
+      "title": "Guía para elegir el Alctron UM900 en streaming"
+    },
+    {
+      "slug": "guia-elegir-alctron-um900-streaming",
+      "type": "respuesta_youtube",
+      "title": "Guía para elegir el Alctron UM900 en streaming"
+    },
+    {
+      "slug": "placa-sonido-guitarra-voz-10",
+      "type": "respuesta_tecnica",
+      "title": "Elige la mejor placa de sonido para tu guitarra y voz"
+    },
+    {
+      "slug": "placa-sonido-guitarra-voz-10",
+      "type": "post_educativo",
+      "title": "Elige la mejor placa de sonido para tu guitarra y voz"
+    },
+    {
+      "slug": "placa-sonido-guitarra-voz-10",
+      "type": "snippet_social",
+      "title": "Elige la mejor placa de sonido para guitarra y voz"
+    },
+    {
+      "slug": "placa-sonido-guitarra-voz-10",
+      "type": "post_x",
+      "title": "Elige la mejor placa de sonido para guitarra y voz"
+    },
+    {
+      "slug": "placa-sonido-guitarra-voz-10",
+      "type": "respuesta_youtube",
+      "title": "Elige la mejor placa de sonido para guitarra y voz"
+    },
+    {
+      "slug": "placa-sonido-guitarra-grabar-voces",
+      "type": "respuesta_tecnica",
+      "title": "Placas de sonido para grabar voces e instrumentos: guía técnica"
+    },
+    {
+      "slug": "placa-sonido-guitarra-grabar-voces",
+      "type": "post_educativo",
+      "title": "Placas de sonido para grabar voces e instrumentos"
+    },
+    {
+      "slug": "placa-sonido-guitarra-grabar-voces",
+      "type": "snippet_social",
+      "title": "Placas de sonido para grabar voces e instrumentos"
+    },
+    {
+      "slug": "placa-sonido-guitarra-grabar-voces",
+      "type": "post_social",
+      "title": "Placas de sonido para grabar voces e instrumentos"
+    },
+    {
+      "slug": "placa-sonido-guitarra-grabar-voces",
+      "type": "post_x",
+      "title": "Placas de sonido para grabar voces e instrumentos"
+    },
+    {
+      "slug": "placa-sonido-guitarra-grabar-voces",
+      "type": "respuesta_youtube",
+      "title": "Placas de sonido para grabar voces e instrumentos: guía técnica"
+    },
+    {
+      "slug": "auriculares-para-grabar-voces-creadores-contenido",
+      "type": "respuesta_tecnica",
+      "title": "Auriculares Cerrados para Grabar Voces: Claves para Evitar Bleed"
+    },
+    {
+      "slug": "auriculares-para-grabar-voces-creadores-contenido",
+      "type": "post_educativo",
+      "title": "Auriculares Cerrados para Grabar Voces: Clave para Creadores de Contenido"
+    },
+    {
+      "slug": "auriculares-para-grabar-voces-creadores-contenido",
+      "type": "snippet_social",
+      "title": "Auriculares Cerrados para Grabar Voces: Clave para Creadores de Contenido"
+    },
+    {
+      "slug": "auriculares-para-grabar-voces-creadores-contenido",
+      "type": "post_social",
+      "title": "Auriculares Cerrados: Clave para Grabar Voces Sin Interferencias"
+    },
+    {
+      "slug": "auriculares-para-grabar-voces-creadores-contenido",
+      "type": "post_x",
+      "title": "Auriculares Cerrados para Grabar Voces: Clave para Creadores"
+    },
+    {
+      "slug": "auriculares-para-grabar-voces-creadores-contenido",
+      "type": "respuesta_youtube",
+      "title": "Auriculares Cerrados para Grabación de Voces: Claves para Evitar Bleed"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-portable",
+      "type": "respuesta_tecnica",
+      "title": "Auriculares Cerrados para Grabación de Voces en Movimiento"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-portable",
+      "type": "post_educativo",
+      "title": "Auriculares Cerrados para Grabación de Voces en Movimiento"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-portable",
+      "type": "snippet_social",
+      "title": "Auriculares Cerrados para Grabación de Voces en Movimiento"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-portable",
+      "type": "post_social",
+      "title": "Auriculares Cerrados: Clave para Grabar Voces sin Interferencias"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-portable",
+      "type": "post_x",
+      "title": "Auriculares Cerrados para Grabación de Voces en Movimiento"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-portable",
+      "type": "respuesta_youtube",
+      "title": "Auriculares Cerrados para Grabación de Voces en Movimiento"
+    },
+    {
+      "slug": "auriculares-para-bateria-electronica-principiantes",
+      "type": "post_educativo",
+      "title": "Auriculares ideales para practicar batería electrónica"
+    },
+    {
+      "slug": "auriculares-para-bateria-electronica-principiantes",
+      "type": "snippet_social",
+      "title": "Auriculares ideales para practicar batería electrónica"
+    },
+    {
+      "slug": "auriculares-para-bateria-electronica-principiantes",
+      "type": "post_social",
+      "title": "Auriculares ideales para practicar batería electrónica"
+    },
+    {
+      "slug": "auriculares-para-bateria-electronica-principiantes",
+      "type": "post_x",
+      "title": "Auriculares ideales para practicar batería electrónica"
+    },
+    {
+      "slug": "auriculares-para-bateria-electronica-principiantes",
+      "type": "respuesta_youtube",
+      "title": "Auriculares ideales para practicar batería electrónica"
+    },
+    {
+      "slug": "auriculares-cerrados-para-grabar-voces-guitarra",
+      "type": "respuesta_tecnica",
+      "title": "Auriculares Cerrados para Grabación de Voces y Guitarras"
+    },
+    {
+      "slug": "auriculares-cerrados-para-grabar-voces-guitarra",
+      "type": "post_educativo",
+      "title": "Auriculares Cerrados para Grabación de Voces y Guitarras"
+    },
+    {
+      "slug": "auriculares-cerrados-para-grabar-voces-guitarra",
+      "type": "snippet_social",
+      "title": "Auriculares Cerrados para Grabación de Voces y Guitarras"
+    },
+    {
+      "slug": "auriculares-cerrados-para-grabar-voces-guitarra",
+      "type": "post_social",
+      "title": "Auriculares Cerrados: Clave para Grabar Voces y Guitarras"
+    },
+    {
+      "slug": "auriculares-cerrados-para-grabar-voces-guitarra",
+      "type": "post_x",
+      "title": "Auriculares Cerrados para Grabación de Voces y Guitarras"
+    },
+    {
+      "slug": "auriculares-cerrados-para-grabar-voces-guitarra",
+      "type": "respuesta_youtube",
+      "title": "Auriculares Cerrados para Grabación de Voces y Guitarras"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces",
+      "type": "respuesta_tecnica",
+      "title": "Auriculares Cerrados para una Grabación Perfecta"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces",
+      "type": "post_educativo",
+      "title": "Auriculares Cerrados para una Grabación Perfecta"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces",
+      "type": "snippet_social",
+      "title": "Auriculares Cerrados para una Grabación Perfecta"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces",
+      "type": "post_social",
+      "title": "Auriculares Cerrados para Grabaciones Sin Bleed"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces",
+      "type": "post_x",
+      "title": "Auriculares Cerrados para Grabación de Voces Sin Bleed"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces",
+      "type": "respuesta_youtube",
+      "title": "Auriculares Cerrados: Clave para Grabar Voces sin Bleed"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-creadores-contenido",
+      "type": "respuesta_tecnica",
+      "title": "Elegir el sintetizador ideal para aprender síntesis"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-creadores-contenido",
+      "type": "post_educativo",
+      "title": "Aprendé síntesis con el sintetizador adecuado"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-creadores-contenido",
+      "type": "snippet_social",
+      "title": "Aprendé síntesis con el sintetizador adecuado"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-creadores-contenido",
+      "type": "post_social",
+      "title": "Aprendé síntesis con el sintetizador adecuado"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-creadores-contenido",
+      "type": "post_x",
+      "title": "Elegí el sintetizador ideal para aprender síntesis"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-creadores-contenido",
+      "type": "respuesta_youtube",
+      "title": "Elegir el sintetizador ideal para aprender síntesis"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-portable",
+      "type": "post_educativo",
+      "title": "Sintetizadores ideales para aprender síntesis de forma portátil"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-portable",
+      "type": "post_x",
+      "title": "Sintetizadores ideales para aprender síntesis de forma portátil"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "placa-sonido-guitarra-voz-10",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "auriculares-para-bateria-electronica-principiantes",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-portable",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-portable",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-portable",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-portable",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 393.02
+}

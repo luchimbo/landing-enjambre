@@ -1,0 +1,342 @@
+{
+  "timestamp_utc": "20260604-142652-398016",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260604-142222-368702",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 48,
+  "pieces_blocked": 12,
+  "proposed": [
+    {
+      "slug": "guia-elegir-interfaz-audio-dos-entradas",
+      "type": "post_x",
+      "title": "Elige la Interfaz de Audio Perfecta para Voz e Instrumento"
+    },
+    {
+      "slug": "guia-elegir-interfaz-audio-dos-entradas",
+      "type": "respuesta_youtube",
+      "title": "Elige la Interfaz de Audio Perfecta para Voz e Instrumento"
+    },
+    {
+      "slug": "setup-con-interfaz-de-audio-con-dos-entradas",
+      "type": "respuesta_tecnica",
+      "title": "Configura tu setup con la interfaz de audio perfecta"
+    },
+    {
+      "slug": "setup-con-interfaz-de-audio-con-dos-entradas",
+      "type": "post_educativo",
+      "title": "Configura tu setup con la interfaz de audio perfecta"
+    },
+    {
+      "slug": "setup-con-interfaz-de-audio-con-dos-entradas",
+      "type": "snippet_social",
+      "title": "Configura tu setup con la interfaz de audio perfecta"
+    },
+    {
+      "slug": "setup-con-interfaz-de-audio-con-dos-entradas",
+      "type": "post_social",
+      "title": "Configura tu setup con la interfaz de audio perfecta"
+    },
+    {
+      "slug": "setup-con-interfaz-de-audio-con-dos-entradas",
+      "type": "post_x",
+      "title": "Configura tu setup con la interfaz de audio perfecta"
+    },
+    {
+      "slug": "setup-con-interfaz-de-audio-con-dos-entradas",
+      "type": "respuesta_youtube",
+      "title": "Configura tu setup con la interfaz de audio perfecta"
+    },
+    {
+      "slug": "interfaz-audio-dos-entradas-principiantes",
+      "type": "respuesta_tecnica",
+      "title": "La Interfaz de Audio Perfecta para Principiantes"
+    },
+    {
+      "slug": "interfaz-audio-dos-entradas-principiantes",
+      "type": "post_educativo",
+      "title": "La Interfaz de Audio Perfecta para Principiantes"
+    },
+    {
+      "slug": "interfaz-audio-dos-entradas-principiantes",
+      "type": "snippet_social",
+      "title": "La Interfaz de Audio Perfecta para Principiantes"
+    },
+    {
+      "slug": "interfaz-audio-dos-entradas-principiantes",
+      "type": "post_social",
+      "title": "La Interfaz de Audio Perfecta para Principiantes"
+    },
+    {
+      "slug": "interfaz-audio-dos-entradas-principiantes",
+      "type": "post_x",
+      "title": "La Interfaz de Audio Perfecta para Principiantes"
+    },
+    {
+      "slug": "interfaz-audio-dos-entradas-principiantes",
+      "type": "respuesta_youtube",
+      "title": "La Interfaz de Audio Perfecta para Principiantes"
+    },
+    {
+      "slug": "interfaz-de-audio-dos-entradas-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Elige la Interfaz de Audio Ideal para Tu Home Studio"
+    },
+    {
+      "slug": "interfaz-de-audio-dos-entradas-home-studio",
+      "type": "post_educativo",
+      "title": "Elige la Interfaz de Audio Ideal para Tu Home Studio"
+    },
+    {
+      "slug": "interfaz-de-audio-dos-entradas-home-studio",
+      "type": "snippet_social",
+      "title": "Elige la Interfaz de Audio Ideal para Tu Home Studio"
+    },
+    {
+      "slug": "interfaz-de-audio-dos-entradas-home-studio",
+      "type": "post_social",
+      "title": "Elige la Interfaz de Audio Ideal para Tu Home Studio"
+    },
+    {
+      "slug": "interfaz-de-audio-dos-entradas-home-studio",
+      "type": "post_x",
+      "title": "Elige la Interfaz de Audio Ideal para Tu Home Studio"
+    },
+    {
+      "slug": "interfaz-de-audio-dos-entradas-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Elige la Interfaz de Audio Ideal para Tu Home Studio"
+    },
+    {
+      "slug": "interfaz-audio-dos-entradas-grabar-casa",
+      "type": "respuesta_tecnica",
+      "title": "Guía para Elegir una Interfaz de Audio con Dos Entradas"
+    },
+    {
+      "slug": "interfaz-audio-dos-entradas-grabar-casa",
+      "type": "post_educativo",
+      "title": "Encuentra la Interfaz de Audio Perfecta para Tu Hogar"
+    },
+    {
+      "slug": "interfaz-audio-dos-entradas-grabar-casa",
+      "type": "snippet_social",
+      "title": "Encuentra la Interfaz de Audio Perfecta para Tu Hogar"
+    },
+    {
+      "slug": "interfaz-audio-dos-entradas-grabar-casa",
+      "type": "post_x",
+      "title": "Encuentra la Interfaz de Audio Perfecta para Tu Hogar"
+    },
+    {
+      "slug": "interfaz-audio-dos-entradas-grabar-casa",
+      "type": "respuesta_youtube",
+      "title": "Elige la Interfaz de Audio Ideal para Grabar en Casa"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-home-studio-chico",
+      "type": "respuesta_tecnica",
+      "title": "Controladores MIDI Perfectos para tu Home Studio"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-home-studio-chico",
+      "type": "post_educativo",
+      "title": "Controladores MIDI Perfectos para tu Home Studio"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-home-studio-chico",
+      "type": "snippet_social",
+      "title": "Controladores MIDI Perfectos para tu Home Studio"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-home-studio-chico",
+      "type": "post_social",
+      "title": "Controladores MIDI Perfectos para tu Home Studio"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-home-studio-chico",
+      "type": "post_x",
+      "title": "Controladores MIDI Perfectos para tu Home Studio"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-creadores-contenido",
+      "type": "respuesta_tecnica",
+      "title": "Los Mejores Controladores MIDI para FL Studio"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-creadores-contenido",
+      "type": "post_educativo",
+      "title": "Los Mejores Controladores MIDI para FL Studio"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-creadores-contenido",
+      "type": "snippet_social",
+      "title": "Los Mejores Controladores MIDI para FL Studio"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-creadores-contenido",
+      "type": "post_social",
+      "title": "Los Mejores Controladores MIDI para FL Studio"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-creadores-contenido",
+      "type": "post_x",
+      "title": "Los Mejores Controladores MIDI para FL Studio"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-creadores-contenido",
+      "type": "respuesta_youtube",
+      "title": "Los Mejores Controladores MIDI para FL Studio"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-acordes",
+      "type": "respuesta_tecnica",
+      "title": "Controladores MIDI para FL Studio: Toca Acordes con Estilo"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-acordes",
+      "type": "post_educativo",
+      "title": "Controladores MIDI para FL Studio: Toca Acordes con Estilo"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-acordes",
+      "type": "snippet_social",
+      "title": "Controladores MIDI para FL Studio: Toca Acordes con Estilo"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-acordes",
+      "type": "post_social",
+      "title": "Controladores MIDI para FL Studio: Toca Acordes con Estilo"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-acordes",
+      "type": "post_x",
+      "title": "Controladores MIDI para FL Studio: Toca Acordes con Estilo"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-acordes",
+      "type": "respuesta_youtube",
+      "title": "Controladores MIDI para FL Studio: Toca Acordes con Estilo"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-notebook",
+      "type": "post_x",
+      "title": "Controladores MIDI ideales para FL Studio en tu notebook"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-escritorio-chico",
+      "type": "post_educativo",
+      "title": "Controladores MIDI Compactos para FL Studio: Guía de Comparación"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-escritorio-chico",
+      "type": "snippet_social",
+      "title": "Controladores MIDI Compactos para FL Studio"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-escritorio-chico",
+      "type": "post_social",
+      "title": "Controladores MIDI Compactos para FL Studio: ¿Cuál elegir?"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-escritorio-chico",
+      "type": "post_x",
+      "title": "Controladores MIDI Compactos para FL Studio"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-escritorio-chico",
+      "type": "respuesta_youtube",
+      "title": "Controladores MIDI Compactos para FL Studio: Guía de Selección"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "guia-elegir-interfaz-audio-dos-entradas",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-elegir-interfaz-audio-dos-entradas",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-elegir-interfaz-audio-dos-entradas",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-elegir-interfaz-audio-dos-entradas",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "interfaz-audio-dos-entradas-grabar-casa",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-fl-studio-home-studio-chico",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-fl-studio-notebook",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-fl-studio-notebook",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-fl-studio-notebook",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-fl-studio-notebook",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-fl-studio-notebook",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-fl-studio-escritorio-chico",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 270.03
+}

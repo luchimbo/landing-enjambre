@@ -1,0 +1,64 @@
+{
+  "timestamp_utc": "20260527-155038-946306",
+  "command": "auto-distribution",
+  "channels": [
+    "x",
+    "youtube"
+  ],
+  "unsupported_channels": [],
+  "limit": 2,
+  "per_channel": 1,
+  "dry_run": false,
+  "allow_proposed": false,
+  "published_or_attempted": 2,
+  "blocked_seen": 0,
+  "results": [
+    {
+      "id": "20260527-142132-390942:controlador-midi-25-teclas-vs-49-teclas:snippet_social:social:1779891751655",
+      "channel": "x",
+      "slug": "controlador-midi-25-teclas-vs-49-teclas",
+      "result": {
+        "ok": true,
+        "url": "https://x.com/compose/post",
+        "fill": {
+          "ok": true,
+          "selector": "[data-testid=\"tweetTextarea_0\"]",
+          "length": 275
+        },
+        "post": {
+          "ok": true,
+          "selector": "[data-testid=\"tweetButtonInline\"]"
+        }
+      }
+    },
+    {
+      "id": "20260527-154246-961388:youtube:auto-listen:1",
+      "channel": "youtube",
+      "slug": "controlador-midi-para-fl-studio",
+      "result": {
+        "ok": false,
+        "url": "https://www.youtube.com/watch?v=GPVLFMJQYDQ&pp=ygUfY29udHJvbGFkb3IgTUlESSBwYXJhIEZMIFN0dWRpb9IHCQkKCwGHKiGM7w%3D%3D",
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "añade un comentario",
+            "add a comment"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comentar"
+          ]
+        }
+      }
+    }
+  ],
+  "blocked_sample": []
+}

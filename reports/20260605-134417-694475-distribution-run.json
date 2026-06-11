@@ -1,0 +1,406 @@
+{
+  "timestamp_utc": "20260605-134417-694475",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260605-133801-473510",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 12,
+  "pieces_proposed": 58,
+  "pieces_blocked": 14,
+  "proposed": [
+    {
+      "slug": "comparar-opciones-auriculares-grabar-podcast",
+      "type": "respuesta_tecnica",
+      "title": "Los Mejores Auriculares Cerrados para Grabar tu Podcast"
+    },
+    {
+      "slug": "comparar-opciones-auriculares-grabar-podcast",
+      "type": "post_educativo",
+      "title": "Los Mejores Auriculares Cerrados para Grabar tu Podcast"
+    },
+    {
+      "slug": "comparar-opciones-auriculares-grabar-podcast",
+      "type": "snippet_social",
+      "title": "Los Mejores Auriculares Cerrados para Grabar tu Podcast"
+    },
+    {
+      "slug": "comparar-opciones-auriculares-grabar-podcast",
+      "type": "post_social",
+      "title": "Los Mejores Auriculares Cerrados para Grabar tu Podcast"
+    },
+    {
+      "slug": "comparar-opciones-auriculares-grabar-podcast",
+      "type": "post_x",
+      "title": "Los Mejores Auriculares Cerrados para Grabar tu Podcast"
+    },
+    {
+      "slug": "comparar-opciones-auriculares-grabar-podcast",
+      "type": "respuesta_youtube",
+      "title": "Los Mejores Auriculares Cerrados para Grabar tu Podcast"
+    },
+    {
+      "slug": "mejor-opcion-auriculares-bateria-electronica",
+      "type": "respuesta_tecnica",
+      "title": "Los mejores auriculares para tu batería electrónica"
+    },
+    {
+      "slug": "mejor-opcion-auriculares-bateria-electronica",
+      "type": "post_educativo",
+      "title": "Los mejores auriculares para tu batería electrónica"
+    },
+    {
+      "slug": "mejor-opcion-auriculares-bateria-electronica",
+      "type": "snippet_social",
+      "title": "Los mejores auriculares para tu batería electrónica"
+    },
+    {
+      "slug": "mejor-opcion-auriculares-bateria-electronica",
+      "type": "post_social",
+      "title": "Los mejores auriculares para tu batería electrónica"
+    },
+    {
+      "slug": "mejor-opcion-auriculares-bateria-electronica",
+      "type": "post_x",
+      "title": "Los mejores auriculares para tu batería electrónica"
+    },
+    {
+      "slug": "mejor-opcion-auriculares-bateria-electronica",
+      "type": "respuesta_youtube",
+      "title": "Los mejores auriculares para tu batería electrónica"
+    },
+    {
+      "slug": "comparar-opciones-auriculares-bateria-electronica",
+      "type": "post_educativo",
+      "title": "Auriculares ideales para tu batería electrónica"
+    },
+    {
+      "slug": "comparar-opciones-auriculares-bateria-electronica",
+      "type": "snippet_social",
+      "title": "Auriculares ideales para tu batería electrónica"
+    },
+    {
+      "slug": "comparar-opciones-auriculares-bateria-electronica",
+      "type": "post_social",
+      "title": "Auriculares ideales para tu batería electrónica"
+    },
+    {
+      "slug": "comparar-opciones-auriculares-bateria-electronica",
+      "type": "post_x",
+      "title": "Auriculares ideales para tu batería electrónica"
+    },
+    {
+      "slug": "comparar-opciones-auriculares-bateria-electronica",
+      "type": "respuesta_youtube",
+      "title": "Auriculares ideales para tu batería electrónica"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-departamento",
+      "type": "snippet_social",
+      "title": "Comparativa entre Arturia MiniLab 3 y KeyLab para tu departamento"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-departamento",
+      "type": "post_social",
+      "title": "Comparativa Arturia MiniLab 3 y KeyLab para tu departamento"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-departamento",
+      "type": "post_x",
+      "title": "Comparativa Arturia MiniLab 3 y KeyLab para tu departamento"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-setup-portable",
+      "type": "respuesta_tecnica",
+      "title": "Arturia MiniLab 3 vs KeyLab: ¿Cuál elegir para tu setup?"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-setup-portable",
+      "type": "post_educativo",
+      "title": "Arturia MiniLab 3 vs KeyLab: ¿Cuál elegir para tu setup?"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-setup-portable",
+      "type": "snippet_social",
+      "title": "Arturia MiniLab 3 vs KeyLab: ¿Cuál elegir para tu setup?"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-setup-portable",
+      "type": "post_social",
+      "title": "Arturia MiniLab 3 vs KeyLab: ¿Cuál elegir para tu setup?"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-setup-portable",
+      "type": "post_x",
+      "title": "Arturia MiniLab 3 vs KeyLab: ¿Cuál elegir para tu setup?"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-setup-portable",
+      "type": "respuesta_youtube",
+      "title": "Arturia MiniLab 3 vs KeyLab: ¿Cuál elegir para tu setup?"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-workflow",
+      "type": "post_x",
+      "title": "Arturia MiniLab 3 vs KeyLab: Elige el mejor controlador"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-para-hacer-beats",
+      "type": "respuesta_tecnica",
+      "title": "Arturia MiniLab 3 vs KeyLab: ¿Cuál es mejor para hacer beats?"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-para-hacer-beats",
+      "type": "post_educativo",
+      "title": "Arturia MiniLab 3 vs KeyLab: ¿Cuál es mejor para hacer beats?"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-para-hacer-beats",
+      "type": "snippet_social",
+      "title": "Arturia MiniLab 3 vs KeyLab: ¿Cuál elegir para tus beats?"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-para-hacer-beats",
+      "type": "post_social",
+      "title": "Arturia MiniLab 3 vs KeyLab: ¿Cuál elegir para tus beats?"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-para-hacer-beats",
+      "type": "post_x",
+      "title": "Arturia MiniLab 3 vs KeyLab: ¿Cuál es mejor para hacer beats?"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-para-hacer-beats",
+      "type": "respuesta_youtube",
+      "title": "Arturia MiniLab 3 vs KeyLab: ¿Cuál elegir para hacer beats?"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-acordes",
+      "type": "post_x",
+      "title": "Comparativa Arturia MiniLab 3 vs KeyLab para tocar acordes"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-acordes",
+      "type": "respuesta_youtube",
+      "title": "Comparativa Arturia MiniLab 3 y KeyLab para tocar acordes"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-notebook",
+      "type": "respuesta_tecnica",
+      "title": "Comparativa: Arturia MiniLab 3 vs KeyLab para producción en notebook"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-notebook",
+      "type": "post_educativo",
+      "title": "Comparativa: Arturia MiniLab 3 vs KeyLab para producción en notebook"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-notebook",
+      "type": "snippet_social",
+      "title": "Comparativa: Arturia MiniLab 3 vs KeyLab para producción en notebook"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-notebook",
+      "type": "post_social",
+      "title": "Comparativa: Arturia MiniLab 3 vs KeyLab para producción en notebook"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-notebook",
+      "type": "post_x",
+      "title": "Comparativa: Arturia MiniLab 3 vs KeyLab para producción en notebook"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-notebook",
+      "type": "respuesta_youtube",
+      "title": "Comparativa: Arturia MiniLab 3 vs KeyLab para producción en notebook"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-con-pads",
+      "type": "respuesta_tecnica",
+      "title": "Comparativa entre Arturia MiniLab 3 y KeyLab con pads"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-con-pads",
+      "type": "post_educativo",
+      "title": "Comparativa entre Arturia MiniLab 3 y KeyLab con pads"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-con-pads",
+      "type": "post_social",
+      "title": "Comparativa entre Arturia MiniLab 3 y KeyLab con pads"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-con-pads",
+      "type": "post_x",
+      "title": "Comparativa entre Arturia MiniLab 3 y KeyLab con pads"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-con-pads",
+      "type": "respuesta_youtube",
+      "title": "Comparativa entre Arturia MiniLab 3 y KeyLab con pads"
+    },
+    {
+      "slug": "mejor-opcion-arturia-microfreak-sintesis",
+      "type": "respuesta_tecnica",
+      "title": "Arturia MicroFreak: La puerta a la síntesis musical"
+    },
+    {
+      "slug": "mejor-opcion-arturia-microfreak-sintesis",
+      "type": "post_educativo",
+      "title": "Arturia MicroFreak: La puerta a la síntesis musical"
+    },
+    {
+      "slug": "mejor-opcion-arturia-microfreak-sintesis",
+      "type": "snippet_social",
+      "title": "Arturia MicroFreak: La puerta a la síntesis musical"
+    },
+    {
+      "slug": "mejor-opcion-arturia-microfreak-sintesis",
+      "type": "post_social",
+      "title": "Arturia MicroFreak: Tu primer paso en la síntesis musical"
+    },
+    {
+      "slug": "mejor-opcion-arturia-microfreak-sintesis",
+      "type": "post_x",
+      "title": "Arturia MicroFreak: Tu primer paso en síntesis musical"
+    },
+    {
+      "slug": "mejor-opcion-arturia-microfreak-sintesis",
+      "type": "respuesta_youtube",
+      "title": "Arturia MicroFreak: Tu primer paso en la síntesis musical"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-escritorio-chico",
+      "type": "respuesta_tecnica",
+      "title": "Comparativa entre Arturia MiniLab 3 y KeyLab para escritorio"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-escritorio-chico",
+      "type": "post_educativo",
+      "title": "Comparativa entre Arturia MiniLab 3 y KeyLab para escritorio"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-escritorio-chico",
+      "type": "snippet_social",
+      "title": "Comparativa Arturia MiniLab 3 y KeyLab para Escritorios Pequeños"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-escritorio-chico",
+      "type": "post_social",
+      "title": "Comparativa entre Arturia MiniLab 3 y KeyLab para tu escritorio"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-escritorio-chico",
+      "type": "post_x",
+      "title": "Comparativa entre Arturia MiniLab 3 y KeyLab para escritorio"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-escritorio-chico",
+      "type": "respuesta_youtube",
+      "title": "Comparativa entre Arturia MiniLab 3 y KeyLab para escritorio chico"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "comparar-opciones-auriculares-bateria-electronica",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-departamento",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-departamento",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-departamento",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-workflow",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-workflow",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-workflow",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-workflow",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-workflow",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-acordes",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-acordes",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-acordes",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-acordes",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-con-pads",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 376.22
+}

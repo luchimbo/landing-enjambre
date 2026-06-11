@@ -1,0 +1,334 @@
+{
+  "timestamp_utc": "20260605-172608-910191",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260605-171914-190543",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 51,
+  "pieces_blocked": 9,
+  "proposed": [
+    {
+      "slug": "guia-elegir-synido-tempokey-25",
+      "type": "post_x",
+      "title": "Elige el Synido TempoKEY 25 para tu producción musical"
+    },
+    {
+      "slug": "setup-synido-tempokey-25-producir",
+      "type": "respuesta_tecnica",
+      "title": "Crea tu setup perfecto con Synido TempoKEY 25"
+    },
+    {
+      "slug": "setup-synido-tempokey-25-producir",
+      "type": "post_educativo",
+      "title": "Crea tu setup perfecto con Synido TempoKEY 25"
+    },
+    {
+      "slug": "setup-synido-tempokey-25-producir",
+      "type": "snippet_social",
+      "title": "Crea tu setup perfecto con Synido TempoKEY 25"
+    },
+    {
+      "slug": "setup-synido-tempokey-25-producir",
+      "type": "post_social",
+      "title": "Crea tu setup perfecto con Synido TempoKEY 25 🎹"
+    },
+    {
+      "slug": "setup-synido-tempokey-25-producir",
+      "type": "post_x",
+      "title": "Crea tu setup perfecto con Synido TempoKEY 25"
+    },
+    {
+      "slug": "setup-synido-tempokey-25-producir",
+      "type": "respuesta_youtube",
+      "title": "Crea tu setup perfecto con Synido TempoKEY 25"
+    },
+    {
+      "slug": "synido-tempokey-25-para-principiantes",
+      "type": "respuesta_tecnica",
+      "title": "El Synido TempoKEY 25: Tu Compañero Ideal para Producir Música"
+    },
+    {
+      "slug": "synido-tempokey-25-para-principiantes",
+      "type": "post_educativo",
+      "title": "El Synido TempoKEY 25: Tu Compañero Ideal para Producir Música"
+    },
+    {
+      "slug": "synido-tempokey-25-para-principiantes",
+      "type": "snippet_social",
+      "title": "El Synido TempoKEY 25: Ideal para Principiantes en Producción Musical"
+    },
+    {
+      "slug": "synido-tempokey-25-para-principiantes",
+      "type": "post_social",
+      "title": "El Synido TempoKEY 25: Tu Compañero Ideal para Producir Música"
+    },
+    {
+      "slug": "synido-tempokey-25-para-principiantes",
+      "type": "post_x",
+      "title": "El Synido TempoKEY 25: Ideal para Principiantes en Producción"
+    },
+    {
+      "slug": "synido-tempokey-25-para-principiantes",
+      "type": "respuesta_youtube",
+      "title": "El Synido TempoKEY 25: Ideal para Principiantes en Producción Musical"
+    },
+    {
+      "slug": "synido-tempopad-beats-ableton",
+      "type": "respuesta_tecnica",
+      "title": "Crea Beats con el Synido TempoPAD en Ableton"
+    },
+    {
+      "slug": "synido-tempopad-beats-ableton",
+      "type": "post_educativo",
+      "title": "Crea Beats con el Synido TempoPAD en Ableton"
+    },
+    {
+      "slug": "synido-tempopad-beats-ableton",
+      "type": "snippet_social",
+      "title": "Crea Beats con el Synido TempoPAD en Ableton"
+    },
+    {
+      "slug": "synido-tempopad-beats-ableton",
+      "type": "post_social",
+      "title": "Crea Beats con el Synido TempoPAD en Ableton"
+    },
+    {
+      "slug": "synido-tempopad-beats-ableton",
+      "type": "post_x",
+      "title": "Crea Beats con el Synido TempoPAD en Ableton"
+    },
+    {
+      "slug": "synido-tempopad-beats-ableton",
+      "type": "respuesta_youtube",
+      "title": "Crea Beats con el Synido TempoPAD en Ableton"
+    },
+    {
+      "slug": "synido-tempopad-beats-fl-studio",
+      "type": "respuesta_tecnica",
+      "title": "Crea beats increíbles con el Synido TempoPAD en FL Studio"
+    },
+    {
+      "slug": "synido-tempopad-beats-fl-studio",
+      "type": "post_educativo",
+      "title": "Crea beats increíbles con el Synido TempoPAD"
+    },
+    {
+      "slug": "synido-tempopad-beats-fl-studio",
+      "type": "snippet_social",
+      "title": "Crea beats increíbles con el Synido TempoPAD"
+    },
+    {
+      "slug": "synido-tempopad-beats-fl-studio",
+      "type": "post_social",
+      "title": "Crea beats increíbles con el Synido TempoPAD"
+    },
+    {
+      "slug": "synido-tempopad-beats-fl-studio",
+      "type": "post_x",
+      "title": "Crea beats increíbles con el Synido TempoPAD"
+    },
+    {
+      "slug": "synido-tempopad-beats-fl-studio",
+      "type": "respuesta_youtube",
+      "title": "Crea beats increíbles con el Synido TempoPAD"
+    },
+    {
+      "slug": "auriculares-para-streaming",
+      "type": "respuesta_tecnica",
+      "title": "Auriculares ideales para streaming y monitoreo en vivo"
+    },
+    {
+      "slug": "auriculares-para-streaming",
+      "type": "post_educativo",
+      "title": "Auriculares ideales para streaming y monitoreo en vivo"
+    },
+    {
+      "slug": "auriculares-para-streaming",
+      "type": "snippet_social",
+      "title": "Auriculares ideales para streaming y monitoreo en vivo"
+    },
+    {
+      "slug": "auriculares-para-streaming",
+      "type": "post_social",
+      "title": "Auriculares ideales para streaming y monitoreo en vivo"
+    },
+    {
+      "slug": "auriculares-para-streaming",
+      "type": "post_x",
+      "title": "Auriculares ideales para streaming y monitoreo en vivo"
+    },
+    {
+      "slug": "auriculares-para-streaming",
+      "type": "respuesta_youtube",
+      "title": "Auriculares ideales para streaming y monitoreo en vivo"
+    },
+    {
+      "slug": "auriculares-para-tocar-guitarra-con-interfaz",
+      "type": "respuesta_tecnica",
+      "title": "Auriculares para tocar guitarra y monitorear tu sonido"
+    },
+    {
+      "slug": "auriculares-para-tocar-guitarra-con-interfaz",
+      "type": "post_educativo",
+      "title": "Auriculares para tocar guitarra y monitorear tu sonido"
+    },
+    {
+      "slug": "auriculares-para-tocar-guitarra-con-interfaz",
+      "type": "snippet_social",
+      "title": "Auriculares ideales para tocar guitarra y monitorear sonido"
+    },
+    {
+      "slug": "auriculares-para-tocar-guitarra-con-interfaz",
+      "type": "post_social",
+      "title": "Auriculares ideales para tocar guitarra y monitorear tu sonido"
+    },
+    {
+      "slug": "auriculares-para-tocar-guitarra-con-interfaz",
+      "type": "post_x",
+      "title": "Auriculares para tocar guitarra y monitorear tu sonido"
+    },
+    {
+      "slug": "auriculares-para-tocar-guitarra-con-interfaz",
+      "type": "respuesta_youtube",
+      "title": "Auriculares ideales para tocar guitarra y monitorear sonido"
+    },
+    {
+      "slug": "controladores-midi-con-perillas",
+      "type": "post_educativo",
+      "title": "Controladores MIDI con Perillas para Control Total"
+    },
+    {
+      "slug": "controladores-midi-con-perillas",
+      "type": "post_social",
+      "title": "Controladores MIDI con Perillas: ¡Elige el Mejor para Ti!"
+    },
+    {
+      "slug": "controladores-midi-con-perillas",
+      "type": "post_x",
+      "title": "Controladores MIDI con Perillas: Control Total en tu Producción"
+    },
+    {
+      "slug": "pads-midi-para-finger-drumming",
+      "type": "respuesta_tecnica",
+      "title": "Guía para elegir pads MIDI para finger drumming"
+    },
+    {
+      "slug": "pads-midi-para-finger-drumming",
+      "type": "post_educativo",
+      "title": "Encuentra los mejores pads MIDI para finger drumming"
+    },
+    {
+      "slug": "pads-midi-para-finger-drumming",
+      "type": "snippet_social",
+      "title": "Encuentra los mejores pads MIDI para finger drumming"
+    },
+    {
+      "slug": "pads-midi-para-finger-drumming",
+      "type": "post_social",
+      "title": "Encuentra los mejores pads MIDI para finger drumming"
+    },
+    {
+      "slug": "pads-midi-para-finger-drumming",
+      "type": "post_x",
+      "title": "Encuentra los mejores pads MIDI para finger drumming"
+    },
+    {
+      "slug": "pads-midi-para-disparar-samples",
+      "type": "respuesta_tecnica",
+      "title": "Elige los Mejores Pads MIDI para Tu Live Set"
+    },
+    {
+      "slug": "pads-midi-para-disparar-samples",
+      "type": "post_educativo",
+      "title": "Elige los Mejores Pads MIDI para Tu Live Set"
+    },
+    {
+      "slug": "pads-midi-para-disparar-samples",
+      "type": "snippet_social",
+      "title": "Elige los Mejores Pads MIDI para Tu Live Set"
+    },
+    {
+      "slug": "pads-midi-para-disparar-samples",
+      "type": "post_social",
+      "title": "Elige los Mejores Pads MIDI para Tu Live Set"
+    },
+    {
+      "slug": "pads-midi-para-disparar-samples",
+      "type": "post_x",
+      "title": "Elige los Mejores Pads MIDI para Tu Live Set"
+    },
+    {
+      "slug": "pads-midi-para-disparar-samples",
+      "type": "respuesta_youtube",
+      "title": "Elige los Mejores Pads MIDI para Tu Live Set"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "guia-elegir-synido-tempokey-25",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-elegir-synido-tempokey-25",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-elegir-synido-tempokey-25",
+      "type": "snippet_social",
+      "reason": "The read operation timed out"
+    },
+    {
+      "slug": "guia-elegir-synido-tempokey-25",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-elegir-synido-tempokey-25",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controladores-midi-con-perillas",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controladores-midi-con-perillas",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controladores-midi-con-perillas",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "pads-midi-para-finger-drumming",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 414.72
+}

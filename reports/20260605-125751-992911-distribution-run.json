@@ -1,0 +1,188 @@
+{
+  "timestamp_utc": "20260605-125751-992911",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260605-125532-057468",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 5,
+  "pieces_proposed": 20,
+  "pieces_blocked": 10,
+  "proposed": [
+    {
+      "slug": "comparativa-baterias-electronicas-midiplus-ed8-vs-ed6",
+      "type": "snippet_social",
+      "title": "Comparativa entre las Baterías Electrónicas Midiplus ED8 y ED6"
+    },
+    {
+      "slug": "comparativa-baterias-electronicas-midiplus-ed8-vs-ed6",
+      "type": "post_social",
+      "title": "Comparativa: Baterías Electrónicas Midiplus ED8 vs ED6"
+    },
+    {
+      "slug": "comparativa-baterias-electronicas-midiplus-ed8-vs-ed6",
+      "type": "post_x",
+      "title": "Comparativa entre las Baterías Electrónicas Midiplus ED8 y ED6"
+    },
+    {
+      "slug": "guia-comparativa-midiplus-ed8-vs-ed6",
+      "type": "snippet_social",
+      "title": "Comparativa entre la Batería Electrónica Midiplus ED8 y ED6"
+    },
+    {
+      "slug": "guia-comparativa-midiplus-ed8-vs-ed6",
+      "type": "post_x",
+      "title": "Comparativa entre la Batería Electrónica Midiplus ED8 y ED6"
+    },
+    {
+      "slug": "guia-comparativa-midiplus-ed8-vs-ed6",
+      "type": "respuesta_youtube",
+      "title": "Comparativa entre la Batería Electrónica Midiplus ED8 y ED6"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-para-principiantes",
+      "type": "respuesta_tecnica",
+      "title": "Comparativa entre la Midiplus ED8 y ED6 para principiantes"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-para-principiantes",
+      "type": "post_educativo",
+      "title": "Comparativa entre la Midiplus ED8 y ED6 para principiantes"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-para-principiantes",
+      "type": "snippet_social",
+      "title": "Comparativa entre la Midiplus ED8 y ED6 para principiantes"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-para-principiantes",
+      "type": "post_social",
+      "title": "Comparativa entre la Midiplus ED8 y ED6 para principiantes"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-para-principiantes",
+      "type": "post_x",
+      "title": "Comparativa entre la Midiplus ED8 y ED6 para principiantes"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-para-principiantes",
+      "type": "respuesta_youtube",
+      "title": "Comparativa de baterías electrónicas Midiplus ED8 y ED6"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-para-departamento",
+      "type": "post_social",
+      "title": "Comparativa de Baterías Electrónicas Midiplus ED8 y ED6"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-para-departamento",
+      "type": "post_x",
+      "title": "Comparativa de Baterías Electrónicas Midiplus ED8 y ED6"
+    },
+    {
+      "slug": "comparar-arturia-microfreak-sintesis",
+      "type": "respuesta_tecnica",
+      "title": "Arturia MicroFreak: Tu Primer Sintetizador Híbrido"
+    },
+    {
+      "slug": "comparar-arturia-microfreak-sintesis",
+      "type": "post_educativo",
+      "title": "Arturia MicroFreak: Tu Primer Sintetizador Híbrido"
+    },
+    {
+      "slug": "comparar-arturia-microfreak-sintesis",
+      "type": "snippet_social",
+      "title": "Arturia MicroFreak: Tu Primer Sintetizador Híbrido"
+    },
+    {
+      "slug": "comparar-arturia-microfreak-sintesis",
+      "type": "post_social",
+      "title": "Arturia MicroFreak: Tu Primer Sintetizador Híbrido"
+    },
+    {
+      "slug": "comparar-arturia-microfreak-sintesis",
+      "type": "post_x",
+      "title": "Arturia MicroFreak: Tu Primer Sintetizador Híbrido"
+    },
+    {
+      "slug": "comparar-arturia-microfreak-sintesis",
+      "type": "respuesta_youtube",
+      "title": "Arturia MicroFreak: Tu Primer Sintetizador Híbrido"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "comparativa-baterias-electronicas-midiplus-ed8-vs-ed6",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "comparativa-baterias-electronicas-midiplus-ed8-vs-ed6",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "comparativa-baterias-electronicas-midiplus-ed8-vs-ed6",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-comparativa-midiplus-ed8-vs-ed6",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-comparativa-midiplus-ed8-vs-ed6",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-comparativa-midiplus-ed8-vs-ed6",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-para-departamento",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-para-departamento",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-para-departamento",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-para-departamento",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 139.94
+}

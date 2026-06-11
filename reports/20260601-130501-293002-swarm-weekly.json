@@ -1,0 +1,47 @@
+{
+  "timestamp_utc": "20260601-130501-293002",
+  "command": "weekly",
+  "status": "blocked",
+  "steps": [
+    {
+      "step": "validate-before",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\build_landings.py",
+        "validate"
+      ],
+      "started_utc": "20260601-123500-934442",
+      "finished_utc": "20260601-123501-122659",
+      "returncode": 0,
+      "status": "ok"
+    },
+    {
+      "step": "research",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\build_landings.py",
+        "research",
+        "--limit",
+        "50"
+      ],
+      "started_utc": "20260601-123501-122770",
+      "finished_utc": "20260601-123501-269550",
+      "returncode": 0,
+      "status": "ok"
+    },
+    {
+      "step": "generate",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\build_landings.py",
+        "generate",
+        "--limit",
+        "50"
+      ],
+      "started_utc": "20260601-123501-269681",
+      "finished_utc": "20260601-130501-292470",
+      "returncode": -1,
+      "status": "timeout"
+    }
+  ]
+}

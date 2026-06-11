@@ -1,0 +1,11 @@
+{
+  "timestamp_utc": "20260529-124610-451398",
+  "command": "build",
+  "status": "ok",
+  "landings": 514,
+  "site_dir": "D:\\AgentesGuille\\site",
+  "sitemap_urls": 515,
+  "previous_manifest": "D:\\AgentesGuille\\reports\\20260529-124556-781776-site-previous-manifest.json",
+  "current_manifest": "D:\\AgentesGuille\\reports\\20260529-124610-450237-site-current-manifest.json",
+  "file_count": 519
+}

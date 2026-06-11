@@ -1,0 +1,7 @@
+{
+  "timestamp_utc": "20260522-161748-837215",
+  "command": "geo-audit",
+  "status": "pending",
+  "reason": "agent_not_implemented",
+  "message": "Comando reservado para agente futuro; no modifica archivos de datos ni site."
+}

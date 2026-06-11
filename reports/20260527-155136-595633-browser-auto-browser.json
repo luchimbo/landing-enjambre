@@ -1,0 +1,878 @@
+{
+  "timestamp_utc": "20260527-155136-595633",
+  "command": "auto-browser",
+  "task_path": "D:\\AgentesGuille\\data\\auto_browser_inspect_editors.json",
+  "task_hash": "62ff88d744414cbbcd4287a560b776b8c14c7eeb28f101f0c0ff68901e14f9b2",
+  "dry_run": false,
+  "actions": 1,
+  "results": [
+    {
+      "index": 1,
+      "type": "eval",
+      "result": {
+        "ok": true,
+        "value": [
+          {
+            "tag": "INPUT",
+            "role": null,
+            "aria": null,
+            "contenteditable": null,
+            "text": "AfisOVd2cIP2ZY6KNV0",
+            "rect": {
+              "w": 0,
+              "h": 0,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "tag": "INPUT",
+            "role": null,
+            "aria": null,
+            "contenteditable": null,
+            "text": "mb",
+            "rect": {
+              "w": 0,
+              "h": 0,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Volver a la página anterior",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 40,
+              "h": 40,
+              "x": -32,
+              "y": 8
+            }
+          },
+          {
+            "tag": "A",
+            "role": "link",
+            "aria": "Facebook",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 40,
+              "h": 40,
+              "x": 16,
+              "y": 8
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Salir de predicción de escritura",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 20,
+              "h": 20,
+              "x": 40,
+              "y": 18
+            }
+          },
+          {
+            "tag": "INPUT",
+            "role": "combobox",
+            "aria": "Buscar en Facebook",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 32,
+              "h": 40,
+              "x": 92,
+              "y": 8
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "navigation",
+            "aria": "Facebook",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 905,
+              "h": 56,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "tag": "A",
+            "role": "link",
+            "aria": "Inicio",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 81,
+              "h": 56,
+              "x": 279,
+              "y": 0
+            }
+          },
+          {
+            "tag": "A",
+            "role": "link",
+            "aria": "Reels",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 81,
+              "h": 56,
+              "x": 368,
+              "y": 0
+            }
+          },
+          {
+            "tag": "A",
+            "role": "link",
+            "aria": "Amigos",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 81,
+              "h": 56,
+              "x": 457,
+              "y": 0
+            }
+          },
+          {
+            "tag": "A",
+            "role": "link",
+            "aria": "Grupos",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 81,
+              "h": 56,
+              "x": 545,
+              "y": 0
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "navigation",
+            "aria": "Controles y configuración de la cuenta",
+            "contenteditable": null,
+            "text": "Buscar amigos",
+            "rect": {
+              "w": 184,
+              "h": 56,
+              "x": 705,
+              "y": 0
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Menú de Facebook",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 40,
+              "h": 40,
+              "x": 705,
+              "y": 8
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Messenger",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 40,
+              "h": 40,
+              "x": 753,
+              "y": 8
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Messenger",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 0,
+              "h": 0,
+              "x": 779,
+              "y": 2
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Notificaciones",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 40,
+              "h": 40,
+              "x": 801,
+              "y": 8
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Notificaciones",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 0,
+              "h": 0,
+              "x": 827,
+              "y": 2
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Tu perfil",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 40,
+              "h": 40,
+              "x": 849,
+              "y": 8
+            }
+          },
+          {
+            "tag": "svg",
+            "role": "img",
+            "aria": "Tu perfil",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 40,
+              "h": 40,
+              "x": 849,
+              "y": 8
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "navigation",
+            "aria": "Accesos directos",
+            "contenteditable": null,
+            "text": "Menú de FacebookBruno LabsMeta AIAmigosRecuerdosGuardadoGruposReelsMarketplaceFeedsEventosAdministrador de anunciosVer m",
+            "rect": {
+              "w": 0,
+              "h": 0,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Ver más artículos de la sección Explorar",
+            "contenteditable": null,
+            "text": "Ver más",
+            "rect": {
+              "w": 0,
+              "h": 0,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "tag": "FOOTER",
+            "role": "contentinfo",
+            "aria": "Facebook",
+            "contenteditable": null,
+            "text": "Privacidad  · Condiciones  · Publicidad  · Opciones de anuncios   · Cookies  · Más",
+            "rect": {
+              "w": 0,
+              "h": 0,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Más enlaces de pie de página",
+            "contenteditable": null,
+            "text": "Más",
+            "rect": {
+              "w": 0,
+              "h": 0,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Cerrar",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 32,
+              "h": 32,
+              "x": 545,
+              "y": 88
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Aceptar",
+            "contenteditable": null,
+            "text": "Aceptar",
+            "rect": {
+              "w": 261,
+              "h": 36,
+              "x": 48,
+              "y": 259
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Ahora no",
+            "contenteditable": null,
+            "text": "Ahora no",
+            "rect": {
+              "w": 261,
+              "h": 36,
+              "x": 48,
+              "y": 295
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Aceptar",
+            "contenteditable": null,
+            "text": "Aceptar",
+            "rect": {
+              "w": 261,
+              "h": 36,
+              "x": 317,
+              "y": 259
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Ahora no",
+            "contenteditable": null,
+            "text": "Ahora no",
+            "rect": {
+              "w": 261,
+              "h": 36,
+              "x": 317,
+              "y": 259
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "region",
+            "aria": "Crear una publicación",
+            "contenteditable": null,
+            "text": "Crear una publicación\n¿Qué estás pensando, Bruno?",
+            "rect": {
+              "w": 561,
+              "h": 62,
+              "x": 32,
+              "y": 319
+            }
+          },
+          {
+            "tag": "A",
+            "role": "link",
+            "aria": "Biografía de Bruno Labs",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 40,
+              "h": 40,
+              "x": 48,
+              "y": 331
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Vídeo en directo",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 40,
+              "h": 40,
+              "x": 457,
+              "y": 331
+            }
+          },
+          {
+            "tag": "INPUT",
+            "role": null,
+            "aria": null,
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 0,
+              "h": 0,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Foto/vídeo",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 40,
+              "h": 40,
+              "x": 497,
+              "y": 331
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Sentimiento/actividad",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 40,
+              "h": 40,
+              "x": 537,
+              "y": 331
+            }
+          },
+          {
+            "tag": "A",
+            "role": "link",
+            "aria": "iLeorju",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 40,
+              "h": 40,
+              "x": 44,
+              "y": 490
+            }
+          },
+          {
+            "tag": "svg",
+            "role": "img",
+            "aria": "iLeorju",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 40,
+              "h": 40,
+              "x": 44,
+              "y": 490
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Acciones en esta publicación de iLeorju",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 20,
+              "h": 20,
+              "x": 517,
+              "y": 498
+            }
+          },
+          {
+            "tag": "A",
+            "role": "link",
+            "aria": "Ocultar publicación de iLeorju",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 36,
+              "h": 36,
+              "x": 545,
+              "y": 490
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Abrir reel en el visor de reels",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 561,
+              "h": 561,
+              "x": 32,
+              "y": 588
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "group",
+            "aria": "Video player",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 561,
+              "h": 561,
+              "x": 32,
+              "y": 588
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Me gusta",
+            "contenteditable": null,
+            "text": "18,6 mil",
+            "rect": {
+              "w": 97,
+              "h": 32,
+              "x": 36,
+              "y": 1153
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Reaccionar",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 16,
+              "h": 42,
+              "x": 111,
+              "y": 1148
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Dejar un comentario",
+            "contenteditable": null,
+            "text": "67",
+            "rect": {
+              "w": 66,
+              "h": 32,
+              "x": 133,
+              "y": 1153
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Envía la publicación a amigos o publícala en tu perfil.",
+            "contenteditable": null,
+            "text": "473",
+            "rect": {
+              "w": 74,
+              "h": 32,
+              "x": 199,
+              "y": 1153
+            }
+          },
+          {
+            "tag": "SPAN",
+            "role": "toolbar",
+            "aria": "Consulta quién ha reaccionado a esto",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 40,
+              "h": 22,
+              "x": 541,
+              "y": 1158
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Me gusta: 12 mil personas",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 18,
+              "h": 18,
+              "x": 543,
+              "y": 1160
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Me divierte: 5669 personas",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 18,
+              "h": 18,
+              "x": 561,
+              "y": 1160
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "status",
+            "aria": "Cargando…",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 561,
+              "h": 286,
+              "x": 32,
+              "y": 1203
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "status",
+            "aria": "Cargando…",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 561,
+              "h": 286,
+              "x": 32,
+              "y": 1501
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Nuevo mensaje",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 48,
+              "h": 48,
+              "x": 841,
+              "y": 853
+            }
+          },
+          {
+            "tag": "INPUT",
+            "role": null,
+            "aria": null,
+            "contenteditable": null,
+            "text": "AfisOVd2cIP2ZY6KNV0",
+            "rect": {
+              "w": 0,
+              "h": 0,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "tag": "INPUT",
+            "role": null,
+            "aria": null,
+            "contenteditable": null,
+            "text": "mb",
+            "rect": {
+              "w": 0,
+              "h": 0,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Notificaciones",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 0,
+              "h": 0,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "tag": "A",
+            "role": "link",
+            "aria": "iLeorju",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 0,
+              "h": 0,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "tag": "svg",
+            "role": "img",
+            "aria": "iLeorju",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 0,
+              "h": 0,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Acciones en esta publicación de iLeorju",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 0,
+              "h": 0,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "tag": "A",
+            "role": "link",
+            "aria": "Ocultar publicación de iLeorju",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 0,
+              "h": 0,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Me gusta",
+            "contenteditable": null,
+            "text": "18,6 mil",
+            "rect": {
+              "w": 0,
+              "h": 0,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Reaccionar",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 0,
+              "h": 0,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Dejar un comentario",
+            "contenteditable": null,
+            "text": "67",
+            "rect": {
+              "w": 0,
+              "h": 0,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Envía la publicación a amigos o publícala en tu perfil.",
+            "contenteditable": null,
+            "text": "473",
+            "rect": {
+              "w": 0,
+              "h": 0,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "tag": "SPAN",
+            "role": "toolbar",
+            "aria": "Consulta quién ha reaccionado a esto",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 0,
+              "h": 0,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Me gusta: 12 mil personas",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 0,
+              "h": 0,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "button",
+            "aria": "Me divierte: 5669 personas",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 0,
+              "h": 0,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "status",
+            "aria": "Cargando…",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 0,
+              "h": 0,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "tag": "DIV",
+            "role": "status",
+            "aria": "Cargando…",
+            "contenteditable": null,
+            "text": "",
+            "rect": {
+              "w": 0,
+              "h": 0,
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "extracts": {}
+}

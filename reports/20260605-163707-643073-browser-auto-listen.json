@@ -1,0 +1,56 @@
+{
+  "timestamp_utc": "20260605-163707-643073",
+  "command": "auto-listen",
+  "channels": [
+    "facebook",
+    "instagram",
+    "x",
+    "youtube"
+  ],
+  "searches": 2,
+  "per_search": 2,
+  "dry_run": false,
+  "items": 3,
+  "distribution_drafts": 3,
+  "social_intel_path": "D:\\AgentesGuille\\data\\social_intel.jsonl",
+  "search_tasks_path": "D:\\AgentesGuille\\data\\distribution_search_tasks.jsonl",
+  "content_feedback_path": "D:\\AgentesGuille\\data\\content_feedback.jsonl",
+  "sample": [
+    {
+      "id": "20260605-163624-024753:instagram:0",
+      "created_at_utc": "2026-06-05T16:36:46.181354+00:00",
+      "run_id": "20260605-163624-024753",
+      "channel": "instagram",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.instagram.com/p/DKlslFwsis_/",
+      "source_title": "",
+      "source_context": "Photo by Qatar Home Studio on June 06, 2025."
+    },
+    {
+      "id": "20260605-163624-024753:youtube:1",
+      "created_at_utc": "2026-06-05T16:37:07.508977+00:00",
+      "run_id": "20260605-163624-024753",
+      "channel": "youtube",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.youtube.com/watch?v=T5aSENq_GdE&pp=ygUpaW50ZXJmYXogZGUgYXVkaW8gcGFyYSBncmFiYXIgdm96IGVuIGNhc2E%3D",
+      "source_title": "14:29 14:29 Now playing",
+      "source_context": "✔Home Studio Basic Kit 2025: What You Need 162K views 1 year ago Naito Producer If you're thinking about setting up your first home studio with the basic kit and the bare minimum, this is the video for you ... 4K 11 chapters Intro | Ordenador | Daw | Auriculares | Interface de audio | Micrófono | Altavoces/monitores | Teclado midi | DistroKid | Mobiliario | Tratamiento acústico"
+    },
+    {
+      "id": "20260605-163624-024753:youtube:2",
+      "created_at_utc": "2026-06-05T16:37:07.553998+00:00",
+      "run_id": "20260605-163624-024753",
+      "channel": "youtube",
+      "query": "interfaz de audio para grabar voz en casa",
+      "landing_slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "landing_url": "https://blog.pcmidicenter.com/interfaz-de-audio-para-grabar-voz-en-casa/",
+      "source_url": "https://www.youtube.com/watch?v=T5aSENq_GdE",
+      "source_title": "Intro Intro 0:00",
+      "source_context": "Intro Intro 0:00 Intro 0:00 Ordenador Ordenador 0:35 Ordenador 0:35 Daw Daw 1:30 Daw 1:30 Auriculares Auriculares 3:50 Auriculares 3:50 Interface de audio Interface de audio 4:58 Interface de audio 4:58 Micrófono Micrófono 6:40 Micrófono 6:40"
+    }
+  ]
+}

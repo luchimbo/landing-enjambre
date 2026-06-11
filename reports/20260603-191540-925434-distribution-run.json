@@ -1,0 +1,322 @@
+{
+  "timestamp_utc": "20260603-191540-925434",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260603-191144-406776",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 58,
+  "pieces_blocked": 2,
+  "proposed": [
+    {
+      "slug": "microfono-xlr-para-podcast-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "El micrófono XLR perfecto para tu podcast en casa"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-home-studio",
+      "type": "post_educativo",
+      "title": "El micrófono XLR perfecto para tu podcast en casa"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-home-studio",
+      "type": "snippet_social",
+      "title": "El micrófono XLR perfecto para tu podcast en casa"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-home-studio",
+      "type": "post_social",
+      "title": "El micrófono XLR perfecto para tu podcast en casa"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-home-studio",
+      "type": "post_x",
+      "title": "El micrófono XLR ideal para tu podcast en casa"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-home-studio",
+      "type": "respuesta_youtube",
+      "title": "El micrófono XLR ideal para tu podcast en casa"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-streaming",
+      "type": "respuesta_tecnica",
+      "title": "Guía para Elegir un Micrófono XLR para Podcasting y Streaming"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-streaming",
+      "type": "post_educativo",
+      "title": "Encuentra el Micrófono XLR Perfecto para Tu Podcast"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-streaming",
+      "type": "snippet_social",
+      "title": "Encuentra el Micrófono XLR Perfecto para Tu Podcast"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-streaming",
+      "type": "post_social",
+      "title": "Encuentra el Micrófono XLR Perfecto para Tu Podcast 🎤"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-streaming",
+      "type": "post_x",
+      "title": "Encuentra el Micrófono XLR Perfecto para Tu Podcast"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-streaming",
+      "type": "respuesta_youtube",
+      "title": "Elige el Mejor Micrófono XLR para Tu Podcast"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-en-casa",
+      "type": "respuesta_tecnica",
+      "title": "Los mejores micrófonos XLR para grabar tu podcast en casa"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-en-casa",
+      "type": "post_educativo",
+      "title": "Los mejores micrófonos XLR para grabar tu podcast en casa"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-en-casa",
+      "type": "snippet_social",
+      "title": "Los mejores micrófonos XLR para grabar tu podcast en casa"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-en-casa",
+      "type": "post_social",
+      "title": "Los mejores micrófonos XLR para tu podcast en casa"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-en-casa",
+      "type": "post_x",
+      "title": "Los mejores micrófonos XLR para grabar tu podcast en casa"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-en-casa",
+      "type": "respuesta_youtube",
+      "title": "Los mejores micrófonos XLR para grabar tu podcast en casa"
+    },
+    {
+      "slug": "que-comprar-para-microfono-condensador-para-voz",
+      "type": "respuesta_tecnica",
+      "title": "Elige el micrófono condensador perfecto para tus grabaciones"
+    },
+    {
+      "slug": "que-comprar-para-microfono-condensador-para-voz",
+      "type": "post_educativo",
+      "title": "Elige el micrófono condensador perfecto para tus grabaciones"
+    },
+    {
+      "slug": "que-comprar-para-microfono-condensador-para-voz",
+      "type": "post_social",
+      "title": "Elige el micrófono condensador perfecto para tus grabaciones"
+    },
+    {
+      "slug": "que-comprar-para-microfono-condensador-para-voz",
+      "type": "post_x",
+      "title": "Elige el micrófono condensador perfecto para tus grabaciones"
+    },
+    {
+      "slug": "que-comprar-para-microfono-condensador-para-voz",
+      "type": "respuesta_youtube",
+      "title": "Elige el micrófono condensador perfecto para tus grabaciones"
+    },
+    {
+      "slug": "como-elegir-microfono-condensador-para-voz",
+      "type": "respuesta_tecnica",
+      "title": "Cómo Elegir el Micrófono Condensador Perfecto para Voces"
+    },
+    {
+      "slug": "como-elegir-microfono-condensador-para-voz",
+      "type": "post_educativo",
+      "title": "Cómo Elegir el Micrófono Condensador Perfecto para Voces"
+    },
+    {
+      "slug": "como-elegir-microfono-condensador-para-voz",
+      "type": "snippet_social",
+      "title": "Cómo Elegir el Micrófono Condensador Perfecto para Voces"
+    },
+    {
+      "slug": "como-elegir-microfono-condensador-para-voz",
+      "type": "post_social",
+      "title": "Cómo Elegir el Micrófono Condensador Perfecto para Voces"
+    },
+    {
+      "slug": "como-elegir-microfono-condensador-para-voz",
+      "type": "post_x",
+      "title": "Cómo Elegir el Micrófono Condensador Perfecto para Voces"
+    },
+    {
+      "slug": "como-elegir-microfono-condensador-para-voz",
+      "type": "respuesta_youtube",
+      "title": "Cómo Elegir el Micrófono Condensador Perfecto para Voces"
+    },
+    {
+      "slug": "setup-microfono-condensador-voz",
+      "type": "respuesta_tecnica",
+      "title": "Guía para elegir un micrófono condensador para grabar voces"
+    },
+    {
+      "slug": "setup-microfono-condensador-voz",
+      "type": "post_educativo",
+      "title": "Guía para elegir un micrófono condensador para voz"
+    },
+    {
+      "slug": "setup-microfono-condensador-voz",
+      "type": "snippet_social",
+      "title": "Guía para elegir un micrófono condensador para voz"
+    },
+    {
+      "slug": "setup-microfono-condensador-voz",
+      "type": "post_social",
+      "title": "Guía para elegir un micrófono condensador para grabar voces"
+    },
+    {
+      "slug": "setup-microfono-condensador-voz",
+      "type": "post_x",
+      "title": "Guía para elegir un micrófono condensador para voz"
+    },
+    {
+      "slug": "setup-microfono-condensador-voz",
+      "type": "respuesta_youtube",
+      "title": "Guía para elegir un micrófono condensador para voz"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-streaming",
+      "type": "respuesta_tecnica",
+      "title": "Elige el micrófono condensador perfecto para tu streaming"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-streaming",
+      "type": "post_educativo",
+      "title": "Elige el micrófono condensador perfecto para tu streaming"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-streaming",
+      "type": "snippet_social",
+      "title": "Elige el micrófono condensador perfecto para tu streaming"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-streaming",
+      "type": "post_social",
+      "title": "Elige el micrófono condensador perfecto para tu streaming"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-streaming",
+      "type": "post_x",
+      "title": "Elige el micrófono condensador perfecto para tu streaming"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-streaming",
+      "type": "respuesta_youtube",
+      "title": "Elige el micrófono condensador perfecto para tu streaming"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-grabar-en-casa",
+      "type": "respuesta_tecnica",
+      "title": "Guía para elegir un micrófono condensador para grabar voces en casa"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-grabar-en-casa",
+      "type": "post_educativo",
+      "title": "Encuentra el micrófono condensador perfecto para tu hogar"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-grabar-en-casa",
+      "type": "snippet_social",
+      "title": "Encuentra el micrófono condensador perfecto para tu hogar"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-grabar-en-casa",
+      "type": "post_social",
+      "title": "Encuentra el micrófono condensador perfecto para tu hogar"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-grabar-en-casa",
+      "type": "post_x",
+      "title": "Encuentra el micrófono condensador perfecto para tu hogar"
+    },
+    {
+      "slug": "comprar-audio-technica-at2020-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Todo lo que necesitas para tu Audio Technica AT2020"
+    },
+    {
+      "slug": "comprar-audio-technica-at2020-home-studio",
+      "type": "post_educativo",
+      "title": "Todo lo que necesitas para tu Audio Technica AT2020"
+    },
+    {
+      "slug": "comprar-audio-technica-at2020-home-studio",
+      "type": "snippet_social",
+      "title": "Todo lo que necesitas para tu Audio Technica AT2020"
+    },
+    {
+      "slug": "comprar-audio-technica-at2020-home-studio",
+      "type": "post_social",
+      "title": "Todo lo que necesitas para tu Audio Technica AT2020 🎤"
+    },
+    {
+      "slug": "comprar-audio-technica-at2020-home-studio",
+      "type": "post_x",
+      "title": "Todo lo que necesitas para tu Audio Technica AT2020"
+    },
+    {
+      "slug": "comprar-audio-technica-at2020-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Todo lo que necesitas para tu Audio Technica AT2020"
+    },
+    {
+      "slug": "como-elegir-audio-technica-at2020-para-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Elige el Audio Technica AT2020 para tu home studio"
+    },
+    {
+      "slug": "como-elegir-audio-technica-at2020-para-home-studio",
+      "type": "post_educativo",
+      "title": "Elige el Audio Technica AT2020 para tu home studio"
+    },
+    {
+      "slug": "como-elegir-audio-technica-at2020-para-home-studio",
+      "type": "snippet_social",
+      "title": "Elige el Audio Technica AT2020 para tu home studio"
+    },
+    {
+      "slug": "como-elegir-audio-technica-at2020-para-home-studio",
+      "type": "post_social",
+      "title": "Elige el Audio Technica AT2020 para tu home studio"
+    },
+    {
+      "slug": "como-elegir-audio-technica-at2020-para-home-studio",
+      "type": "post_x",
+      "title": "Elige el Audio Technica AT2020 para tu home studio"
+    },
+    {
+      "slug": "como-elegir-audio-technica-at2020-para-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Elige el Audio Technica AT2020 para tu home studio"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "que-comprar-para-microfono-condensador-para-voz",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "microfono-condensador-para-voz-grabar-en-casa",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 236.52
+}

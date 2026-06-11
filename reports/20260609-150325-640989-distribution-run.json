@@ -1,0 +1,330 @@
+{
+  "timestamp_utc": "20260609-150325-640989",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260609-145713-295309",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 54,
+  "pieces_blocked": 6,
+  "proposed": [
+    {
+      "slug": "midiplus-akm322-controlador-compacto-escritorio-25",
+      "type": "respuesta_tecnica",
+      "title": "MIDIPLUS AKM322: Controlador Compacto para tu Workflow"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-escritorio-25",
+      "type": "post_educativo",
+      "title": "MIDIPLUS AKM322: Tu Controlador Compacto Ideal"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-escritorio-25",
+      "type": "snippet_social",
+      "title": "MIDIPLUS AKM322: Tu Controlador Compacto Ideal"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-escritorio-25",
+      "type": "post_social",
+      "title": "MIDIPLUS AKM322: Tu Controlador Compacto Ideal"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-escritorio-25",
+      "type": "post_x",
+      "title": "MIDIPLUS AKM322: Tu Controlador Compacto Ideal"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-escritorio-25",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS AKM322: Controlador Compacto para tu Workflow"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-para-beats",
+      "type": "respuesta_tecnica",
+      "title": "MIDIPLUS AKM322: Ideal para Escritorios Pequeños y Producción de Beats"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-para-beats",
+      "type": "post_educativo",
+      "title": "MIDIPLUS AKM322: Tu Compañero Perfecto para Hacer Beats"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-para-beats",
+      "type": "snippet_social",
+      "title": "MIDIPLUS AKM322: Ideal para Hacer Beats en Espacios Pequeños"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-para-beats",
+      "type": "post_social",
+      "title": "MIDIPLUS AKM322: Tu Compañero Perfecto para Hacer Beats"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-para-beats",
+      "type": "post_x",
+      "title": "MIDIPLUS AKM322: Ideal para Hacer Beats en Espacios Pequeños"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-para-beats",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS AKM322: Ideal para Beats en Espacios Pequeños"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-escritorio-27",
+      "type": "snippet_social",
+      "title": "MIDIPLUS AKM322: Tu Compañero Ideal para el Escritorio"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-escritorio-27",
+      "type": "post_social",
+      "title": "MIDIPLUS AKM322: Tu Compañero Ideal para el Escritorio"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-escritorio-27",
+      "type": "post_x",
+      "title": "MIDIPLUS AKM322: Ideal para Escritorios Compactos"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-escritorio-27",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS AKM322: Ideal para Escritorios Pequeños"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-notebook",
+      "type": "respuesta_tecnica",
+      "title": "El Controlador MIDI Perfecto para Escritorios Pequeños"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-notebook",
+      "type": "post_educativo",
+      "title": "El Controlador MIDI Perfecto para Escritorios Pequeños"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-notebook",
+      "type": "snippet_social",
+      "title": "El Controlador MIDI Perfecto para Escritorios Pequeños"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-notebook",
+      "type": "post_social",
+      "title": "El Controlador MIDI Perfecto para Escritorios Pequeños"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-notebook",
+      "type": "post_x",
+      "title": "El Controlador MIDI Perfecto para Escritorios Pequeños"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-notebook",
+      "type": "respuesta_youtube",
+      "title": "El Controlador MIDI Ideal para Espacios Reducidos"
+    },
+    {
+      "slug": "midiplus-i61-controlador-teclado-61-teclas",
+      "type": "respuesta_tecnica",
+      "title": "MIDIPLUS i61: Ideal para Creadores de Contenido Musical"
+    },
+    {
+      "slug": "midiplus-i61-controlador-teclado-61-teclas",
+      "type": "post_educativo",
+      "title": "MIDIPLUS i61: Tu Compañero Ideal para la Creación Musical"
+    },
+    {
+      "slug": "midiplus-i61-controlador-teclado-61-teclas",
+      "type": "snippet_social",
+      "title": "MIDIPLUS i61: Tu Compañero Ideal para la Creación Musical"
+    },
+    {
+      "slug": "midiplus-i61-controlador-teclado-61-teclas",
+      "type": "post_social",
+      "title": "MIDIPLUS i61: Tu Compañero Ideal para la Creación Musical"
+    },
+    {
+      "slug": "midiplus-i61-controlador-teclado-61-teclas",
+      "type": "post_x",
+      "title": "MIDIPLUS i61: Tu Compañero Ideal para la Creación Musical"
+    },
+    {
+      "slug": "midiplus-i61-controlador-teclado-61-teclas",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS i61: Ideal para Creadores de Contenido Musical"
+    },
+    {
+      "slug": "midiplus-i61-controlador-61-teclas-portable",
+      "type": "respuesta_tecnica",
+      "title": "MIDIPLUS i61: Ideal para un Setup Portable con 61 Teclas"
+    },
+    {
+      "slug": "midiplus-i61-controlador-61-teclas-portable",
+      "type": "post_educativo",
+      "title": "MIDIPLUS i61: Tu Compañero Ideal para Producción Musical"
+    },
+    {
+      "slug": "midiplus-i61-controlador-61-teclas-portable",
+      "type": "snippet_social",
+      "title": "MIDIPLUS i61: Tu Compañero Ideal para Producción Musical"
+    },
+    {
+      "slug": "midiplus-i61-controlador-61-teclas-portable",
+      "type": "post_social",
+      "title": "MIDIPLUS i61: Tu Compañero Ideal para Producción Musical"
+    },
+    {
+      "slug": "midiplus-i61-controlador-61-teclas-portable",
+      "type": "post_x",
+      "title": "MIDIPLUS i61: Ideal para tu Setup Portable"
+    },
+    {
+      "slug": "midiplus-i61-controlador-61-teclas-portable",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS i61: Ideal para tu Setup Portable de Producción Musical"
+    },
+    {
+      "slug": "midiplus-i61-controlador-61-teclas-notebook",
+      "type": "snippet_social",
+      "title": "MIDIPLUS i61: Tu Compañero Perfecto para Producir Música"
+    },
+    {
+      "slug": "midiplus-i61-controlador-61-teclas-notebook",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS i61: Ideal para Productores Musicales"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-departamento",
+      "type": "respuesta_tecnica",
+      "title": "Tu primer sintetizador para aprender síntesis"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-departamento",
+      "type": "post_educativo",
+      "title": "Tu primer sintetizador para aprender síntesis"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-departamento",
+      "type": "snippet_social",
+      "title": "Tu primer sintetizador para aprender síntesis"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-departamento",
+      "type": "post_social",
+      "title": "Tu primer sintetizador para aprender síntesis"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-departamento",
+      "type": "post_x",
+      "title": "Tu primer sintetizador para aprender síntesis"
+    },
+    {
+      "slug": "sintetizador-aprender-sintesis-departamento",
+      "type": "respuesta_youtube",
+      "title": "Tu primer sintetizador: consejos para principiantes"
+    },
+    {
+      "slug": "bateria-electronica-departamento-streaming",
+      "type": "respuesta_tecnica",
+      "title": "Baterías Electrónicas para Practicar en tu Departamento"
+    },
+    {
+      "slug": "bateria-electronica-departamento-streaming",
+      "type": "post_educativo",
+      "title": "Baterías Electrónicas para Practicar en tu Departamento"
+    },
+    {
+      "slug": "bateria-electronica-departamento-streaming",
+      "type": "snippet_social",
+      "title": "Baterías Electrónicas para Practicar en tu Departamento"
+    },
+    {
+      "slug": "bateria-electronica-departamento-streaming",
+      "type": "post_social",
+      "title": "Baterías Electrónicas: Perfectas para Practicar en Casa 🎶"
+    },
+    {
+      "slug": "bateria-electronica-departamento-streaming",
+      "type": "post_x",
+      "title": "Baterías Electrónicas: Ideal para Practicar en tu Departamento"
+    },
+    {
+      "slug": "bateria-electronica-departamento-streaming",
+      "type": "respuesta_youtube",
+      "title": "Baterías Electrónicas: Ideal para Practicar en Departamentos"
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador-bajos",
+      "type": "respuesta_tecnica",
+      "title": "Arturia KeyStep Pro: Tu aliado para crear bajos potentes"
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador-bajos",
+      "type": "post_educativo",
+      "title": "Arturia KeyStep Pro: Tu aliado para crear bajos potentes"
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador-bajos",
+      "type": "snippet_social",
+      "title": "Arturia KeyStep Pro: Ideal para Crear Bajos Potentes"
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador-bajos",
+      "type": "post_social",
+      "title": "Arturia KeyStep Pro: Tu aliado para crear bajos potentes"
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador-bajos",
+      "type": "post_x",
+      "title": "Arturia KeyStep Pro: Ideal para bajos potentes"
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador-bajos",
+      "type": "respuesta_youtube",
+      "title": "Arturia KeyStep Pro: Ideal para crear bajos potentes"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "midiplus-akm322-controlador-compacto-escritorio-27",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-escritorio-27",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-i61-controlador-61-teclas-notebook",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-i61-controlador-61-teclas-notebook",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-i61-controlador-61-teclas-notebook",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-i61-controlador-61-teclas-notebook",
+      "type": "post_x",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 372.35
+}

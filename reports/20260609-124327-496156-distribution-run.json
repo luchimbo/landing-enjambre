@@ -1,0 +1,392 @@
+{
+  "timestamp_utc": "20260609-124327-496156",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260609-123802-346268",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 12,
+  "pieces_proposed": 65,
+  "pieces_blocked": 7,
+  "proposed": [
+    {
+      "slug": "auriculares-cerrados-grabar-voces-notebook",
+      "type": "respuesta_tecnica",
+      "title": "Auriculares Cerrados para Grabaciones de Voz: Claves para Evitar Bleed"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-notebook",
+      "type": "post_educativo",
+      "title": "Auriculares Cerrados para Grabaciones de Voz: Clave para Evitar Bleed"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-notebook",
+      "type": "snippet_social",
+      "title": "Auriculares Cerrados para Grabaciones de Voz"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-notebook",
+      "type": "post_social",
+      "title": "Auriculares Cerrados: Clave para Grabar Voces sin Ruido"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-notebook",
+      "type": "post_x",
+      "title": "Auriculares Cerrados para Grabaciones de Voz"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-notebook",
+      "type": "respuesta_youtube",
+      "title": "Auriculares Cerrados para Grabaciones de Voz Efectivas"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-voces",
+      "type": "respuesta_tecnica",
+      "title": "Crea un setup de streaming profesional para voces"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-voces",
+      "type": "post_educativo",
+      "title": "Crea un setup de streaming profesional para voces"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-voces",
+      "type": "snippet_social",
+      "title": "Crea un setup de streaming profesional para voces"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-voces",
+      "type": "post_social",
+      "title": "Crea un setup de streaming profesional para voces"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-voces",
+      "type": "post_x",
+      "title": "Crea un setup de streaming profesional para voces"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-voces",
+      "type": "respuesta_youtube",
+      "title": "Crea un setup de streaming profesional para voces"
+    },
+    {
+      "slug": "bateria-electronica-para-departamento-practicar-noche",
+      "type": "post_social",
+      "title": "Baterías Electrónicas: ¡Practica de Noche Sin Molestar a Nadie!"
+    },
+    {
+      "slug": "bateria-electronica-para-departamento-practicar-noche",
+      "type": "post_x",
+      "title": "Baterías Electrónicas para Practicar en Tu Departamento"
+    },
+    {
+      "slug": "bateria-electronica-departamento-vivo",
+      "type": "respuesta_tecnica",
+      "title": "Baterías Electrónicas: Ideal para Practicar en Departamentos"
+    },
+    {
+      "slug": "bateria-electronica-departamento-vivo",
+      "type": "snippet_social",
+      "title": "Baterías Electrónicas: Perfectas para Practicar en tu Departamento"
+    },
+    {
+      "slug": "bateria-electronica-departamento-vivo",
+      "type": "post_social",
+      "title": "Baterías Electrónicas: Perfectas para Practicar en Casa"
+    },
+    {
+      "slug": "bateria-electronica-departamento-vivo",
+      "type": "post_x",
+      "title": "Baterías Electrónicas: Ideal para Practicar en Departamentos"
+    },
+    {
+      "slug": "bateria-electronica-departamento-vivo",
+      "type": "respuesta_youtube",
+      "title": "Baterías Electrónicas: Perfectas para Practicar en Departamentos"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-locucion",
+      "type": "respuesta_tecnica",
+      "title": "Crea tu Setup de Streaming con Audio Profesional"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-locucion",
+      "type": "post_educativo",
+      "title": "Crea tu Setup de Streaming con Audio Profesional"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-locucion",
+      "type": "snippet_social",
+      "title": "Crea tu Setup de Streaming con Audio Profesional"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-locucion",
+      "type": "post_social",
+      "title": "Crea tu Setup de Streaming con Audio Profesional"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-locucion",
+      "type": "post_x",
+      "title": "Crea tu Setup de Streaming con Audio Profesional"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-locucion",
+      "type": "respuesta_youtube",
+      "title": "Crea un Setup de Streaming con Audio Profesional"
+    },
+    {
+      "slug": "arturia-minilab-3-fl-studio-beats",
+      "type": "post_educativo",
+      "title": "Arturia MiniLab 3: Controlador MIDI ideal para tus beats"
+    },
+    {
+      "slug": "arturia-minilab-3-fl-studio-beats",
+      "type": "snippet_social",
+      "title": "Arturia MiniLab 3: Controlador MIDI ideal para tus beats"
+    },
+    {
+      "slug": "arturia-minilab-3-fl-studio-beats",
+      "type": "post_social",
+      "title": "Arturia MiniLab 3: Tu aliado para hacer beats en FL Studio"
+    },
+    {
+      "slug": "arturia-minilab-3-fl-studio-beats",
+      "type": "post_x",
+      "title": "Arturia MiniLab 3: Controlador MIDI ideal para tus beats"
+    },
+    {
+      "slug": "arturia-minilab-3-fl-studio-beats",
+      "type": "respuesta_youtube",
+      "title": "Arturia MiniLab 3: Controlador MIDI para tus beats en FL Studio"
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador-beats",
+      "type": "respuesta_tecnica",
+      "title": "Arturia KeyStep Pro: Ideal para Hacer Beats con Hardware"
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador-beats",
+      "type": "post_educativo",
+      "title": "Arturia KeyStep Pro: Tu Compañero Perfecto para Hacer Beats"
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador-beats",
+      "type": "snippet_social",
+      "title": "Arturia KeyStep Pro: Ideal para tus Beats"
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador-beats",
+      "type": "post_social",
+      "title": "Arturia KeyStep Pro: Tu Compañero Ideal para Hacer Beats"
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador-beats",
+      "type": "post_x",
+      "title": "Arturia KeyStep Pro: Ideal para Hacer Beats"
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador-beats",
+      "type": "respuesta_youtube",
+      "title": "Arturia KeyStep Pro: Ideal para Hacer Beats"
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador-9",
+      "type": "respuesta_tecnica",
+      "title": "Arturia KeyStep Pro: Tu aliado en la creación musical"
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador-9",
+      "type": "snippet_social",
+      "title": "Arturia KeyStep Pro: Tu aliado en la creación musical"
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador-9",
+      "type": "post_social",
+      "title": "Arturia KeyStep Pro: Tu aliado en la creación musical"
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador-9",
+      "type": "post_x",
+      "title": "Arturia KeyStep Pro: Tu aliado en la creación musical"
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador-9",
+      "type": "respuesta_youtube",
+      "title": "Arturia KeyStep Pro: Controlador Secuenciador Ideal para Tu Música"
+    },
+    {
+      "slug": "arturia-microfreak-sintesis-departamento",
+      "type": "respuesta_tecnica",
+      "title": "Arturia MicroFreak: Ideal para iniciarse en síntesis en espacios reducidos"
+    },
+    {
+      "slug": "arturia-microfreak-sintesis-departamento",
+      "type": "post_educativo",
+      "title": "Arturia MicroFreak: Ideal para Iniciar en Síntesis en tu Departamento"
+    },
+    {
+      "slug": "arturia-microfreak-sintesis-departamento",
+      "type": "snippet_social",
+      "title": "Arturia MicroFreak: Tu primer sintetizador ideal para el hogar"
+    },
+    {
+      "slug": "arturia-microfreak-sintesis-departamento",
+      "type": "post_social",
+      "title": "Arturia MicroFreak: Tu primer sintetizador ideal para el hogar"
+    },
+    {
+      "slug": "arturia-microfreak-sintesis-departamento",
+      "type": "post_x",
+      "title": "Arturia MicroFreak: Tu primer sintetizador ideal para departamentos"
+    },
+    {
+      "slug": "arturia-microfreak-sintesis-departamento",
+      "type": "respuesta_youtube",
+      "title": "Arturia MicroFreak: Ideal para Sintetizar en Espacios Pequeños"
+    },
+    {
+      "slug": "arturia-microfreak-setup-portable-sintesis",
+      "type": "respuesta_tecnica",
+      "title": "Arturia MicroFreak: Ideal para iniciarte en la síntesis"
+    },
+    {
+      "slug": "arturia-microfreak-setup-portable-sintesis",
+      "type": "post_educativo",
+      "title": "Arturia MicroFreak: Ideal para iniciarte en la síntesis"
+    },
+    {
+      "slug": "arturia-microfreak-setup-portable-sintesis",
+      "type": "snippet_social",
+      "title": "Arturia MicroFreak: Ideal para iniciarte en la síntesis"
+    },
+    {
+      "slug": "arturia-microfreak-setup-portable-sintesis",
+      "type": "post_social",
+      "title": "Arturia MicroFreak: Tu primer paso en la síntesis portátil"
+    },
+    {
+      "slug": "arturia-microfreak-setup-portable-sintesis",
+      "type": "post_x",
+      "title": "Arturia MicroFreak: Tu primer sintetizador portátil"
+    },
+    {
+      "slug": "arturia-microfreak-setup-portable-sintesis",
+      "type": "respuesta_youtube",
+      "title": "Arturia MicroFreak: Tu primer sintetizador portátil ideal"
+    },
+    {
+      "slug": "arturia-microfreak-sintesis-vocoder-primer-sinte",
+      "type": "respuesta_tecnica",
+      "title": "Arturia MicroFreak: Ideal para iniciarse en la síntesis"
+    },
+    {
+      "slug": "arturia-microfreak-sintesis-vocoder-primer-sinte",
+      "type": "post_educativo",
+      "title": "Arturia MicroFreak: Tu primer sinte hardware ideal"
+    },
+    {
+      "slug": "arturia-microfreak-sintesis-vocoder-primer-sinte",
+      "type": "snippet_social",
+      "title": "Arturia MicroFreak: Tu primer paso en la síntesis"
+    },
+    {
+      "slug": "arturia-microfreak-sintesis-vocoder-primer-sinte",
+      "type": "post_social",
+      "title": "Arturia MicroFreak: Tu primer paso en la síntesis"
+    },
+    {
+      "slug": "arturia-microfreak-sintesis-vocoder-primer-sinte",
+      "type": "post_x",
+      "title": "Arturia MicroFreak: Tu primer sinte hardware ideal"
+    },
+    {
+      "slug": "arturia-microfreak-sintesis-vocoder-primer-sinte",
+      "type": "respuesta_youtube",
+      "title": "Arturia MicroFreak: Tu primer sinte hardware ideal"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-creadores-contenido",
+      "type": "respuesta_tecnica",
+      "title": "Arturia PolyBrute: Un Sinte Avanzado para Creadores de Contenido"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-creadores-contenido",
+      "type": "post_educativo",
+      "title": "Arturia PolyBrute: Potencia tu estudio de creación de contenido"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-creadores-contenido",
+      "type": "snippet_social",
+      "title": "Arturia PolyBrute: Potencia tu estudio de creación de contenido"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-creadores-contenido",
+      "type": "post_social",
+      "title": "Arturia PolyBrute: Mejora tu estudio de creación de contenido"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-creadores-contenido",
+      "type": "post_x",
+      "title": "Arturia PolyBrute: Potencia tu estudio de creación de contenido"
+    },
+    {
+      "slug": "arturia-polybrute-estudio-creadores-contenido",
+      "type": "respuesta_youtube",
+      "title": "Arturia PolyBrute: Un Aliado para Creadores de Contenido"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "bateria-electronica-para-departamento-practicar-noche",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "bateria-electronica-para-departamento-practicar-noche",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "bateria-electronica-para-departamento-practicar-noche",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "bateria-electronica-para-departamento-practicar-noche",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "bateria-electronica-departamento-vivo",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "arturia-minilab-3-fl-studio-beats",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador-9",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 325.15
+}

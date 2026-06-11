@@ -1,0 +1,195 @@
+{
+  "timestamp_utc": "20260605-141242-488803",
+  "command": "auto-distribution",
+  "channels": [
+    "facebook",
+    "instagram",
+    "x",
+    "youtube"
+  ],
+  "unsupported_channels": [],
+  "limit": 25,
+  "per_channel": 2,
+  "dry_run": false,
+  "allow_proposed": false,
+  "published_or_attempted": 2,
+  "blocked_seen": 447,
+  "results": [
+    {
+      "id": "20260605-141133-162384:youtube:auto-listen:3",
+      "channel": "youtube",
+      "slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "result": {
+        "ok": true,
+        "url": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CtLMhO9kiav2lA8_n5OUPpK2OwAvSzezBhwHk4vK7xxVkEAEgAGCh0ISALIIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAHBxJPrQ6gDBMgDCqoE2QJP0IR_IADFylRlOEFYu9ioymDxk5kd_4S47wcQawJ6oiT7IbHhV4QsXIT8H7qv4ybFItTCp2GcD4_1Op5I3AEsOv-iY6vOc-DsKW4WVxDLO5BMWqTrF4DRN_Old2sqi5QssAhmvpoKuoLJ-TaiwmwdUHkUKnDhIRnTqI7FIRPUK1umH7K3NnqpZWYLcTStNr2TtrPFHeiRm3ha5aBF1QpFDmEiOxV0AyPsAB6lUvOXQ-n1niuZR7PJsMzNSZIuF9Lt6Iga7h5ddGVBFGZQxBh1I9Ur7ILWbEmitpMzWqdLLQ4sRxMF9scgdEtab2CQqNPDpUfusa0eBMmrRE3bn8SY68VnKCdk6GpOeZikoWVmGD2o4bZPcmz1foATuzlVwjrZYkUPRzWaCuTS4xvDXIRrGxDejavIiW0uB0Ww-L4F83KpLGhsXf6ebpufMYuJu42NlYSnC6JcDfiIBfCjmodZkgUICBN4jtSO8B6gBqEBgAfB_OPKHogHAZAHAqgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAfVzhuoB77ZsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLX3ZQa2VxVllpY3eoCAHSCDEIABACGFoyAQA6FI_QgICAgASAwICAgICAgAKqgIAQSNmg0jVQFFj4l7X5o_CUA2ABmgkdaHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2ixCYHF4wRhgzsFyAkXyAmPAcgJwgGYCwG6C14IAxAFGAQgBygBMBxAAUgAWH1gAGgAcAGIAQCYAQGiASkKHiAD2rgEGDIWOhQKEigwSIvT0uXmH5gXgY2nPZgZANABAagCBcACAqgBAdgBAYACAYgCBboDBXZpc2Ns0AsS0gwCEAHaDCUKChDA_tKFs6y76l4SAgEDGg0Y8KOah1kgj5qax9kFQAFKAhAfmg0BEqoNAkFSyA0BuBP___________8BsBQDwBWBgIBA0BUB2BUB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwG6FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=Cj0KCQjw54nRBhDCARIsAMcY_SDuivfDtY8OeycGYdXUKqeJVFKTT6JxKk3IQDobjG-8sbRyouxle1AaAlzUEALw_wcB&num=1&cid=CAESpAHg9gd8acS-VYkQSdq9ziuaXfoe7xJOmhMDACfjVvuR5G0CBKTkVUs4Sfqrmf7CGHRJU33CsSHqLqCJUOYSPsPFQXzGY6nX5t5GDEDGO6kCugYNgOcbBkrWkDIZ1hhZ-q7xB_zm_nBJepVe70CG0KijtPWoDmX8LfqUQpgtC7r5te29xfUTLuOhun-_JGSMM6ByfOQm2ZXMiQxwjS17jFrVPL5L3A&ad_cpn=%5BCPN%5D&sig=AOD64_06beGGe8fKFlYYOsh4vG-YppJBWg&ms=%5BCLICK_MS%5D&adurl=https://www.youtube.com/watch%3Fv%3D_vPkeqVYicw%26gad_source%3D2%26gad_campaignid%3D23905866224&ctype=110&video_id=_vPkeqVYicw&label=video_click_to_advertiser_site&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+        "dismissed": [
+          {
+            "ok": true,
+            "label": "subtitles/closed captions unavailable"
+          }
+        ],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "youtube_placeholder",
+              "ok": true,
+              "prep": {
+                "ok": true,
+                "tries": 1,
+                "tag": "YTD-COMMENT-SIMPLEBOX-RENDERER"
+              },
+              "open": {
+                "ok": true,
+                "selector": "#placeholder-area"
+              },
+              "fill": {
+                "ok": true,
+                "selector": "[aria-label*=\"Add a comment\"]",
+                "length": 147
+              },
+              "submit": {
+                "ok": true,
+                "selector": "#submit-button button"
+              },
+              "keyboard_submit": {
+                "ok": false,
+                "skipped": true
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260605-141133-162384:youtube:auto-listen:2",
+      "channel": "youtube",
+      "slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "result": {
+        "ok": true,
+        "url": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CtLMhO9kiav2lA8_n5OUPpK2OwAvSzezBhwHk4vK7xxVkEAEgAGCh0ISALIIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAHBxJPrQ6gDBMgDCqoE2QJP0IR_IADFylRlOEFYu9ioymDxk5kd_4S47wcQawJ6oiT7IbHhV4QsXIT8H7qv4ybFItTCp2GcD4_1Op5I3AEsOv-iY6vOc-DsKW4WVxDLO5BMWqTrF4DRN_Old2sqi5QssAhmvpoKuoLJ-TaiwmwdUHkUKnDhIRnTqI7FIRPUK1umH7K3NnqpZWYLcTStNr2TtrPFHeiRm3ha5aBF1QpFDmEiOxV0AyPsAB6lUvOXQ-n1niuZR7PJsMzNSZIuF9Lt6Iga7h5ddGVBFGZQxBh1I9Ur7ILWbEmitpMzWqdLLQ4sRxMF9scgdEtab2CQqNPDpUfusa0eBMmrRE3bn8SY68VnKCdk6GpOeZikoWVmGD2o4bZPcmz1foATuzlVwjrZYkUPRzWaCuTS4xvDXIRrGxDejavIiW0uB0Ww-L4F83KpLGhsXf6ebpufMYuJu42NlYSnC6JcDfiIBfCjmodZkgUICBN4jtSO8B6gBqEBgAfB_OPKHogHAZAHAqgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAfVzhuoB77ZsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLX3ZQa2VxVllpY3eoCAHSCDEIABACGFoyAQA6FI_QgICAgASAwICAgICAgAKqgIAQSNmg0jVQFFj4l7X5o_CUA2ABmgkdaHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2ixCYHF4wRhgzsFyAkXyAmPAcgJwgGYCwG6C14IAxAFGAQgBygBMBxAAUgAWH1gAGgAcAGIAQCYAQGiASkKHiAD2rgEGDIWOhQKEigwSIvT0uXmH5gXgY2nPZgZANABAagCBcACAqgBAdgBAYACAYgCBboDBXZpc2Ns0AsS0gwCEAHaDCUKChDA_tKFs6y76l4SAgEDGg0Y8KOah1kgj5qax9kFQAFKAhAfmg0BEqoNAkFSyA0BuBP___________8BsBQDwBWBgIBA0BUB2BUB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwG6FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=Cj0KCQjw54nRBhDCARIsAMcY_SDuivfDtY8OeycGYdXUKqeJVFKTT6JxKk3IQDobjG-8sbRyouxle1AaAlzUEALw_wcB&num=1&cid=CAESpAHg9gd8acS-VYkQSdq9ziuaXfoe7xJOmhMDACfjVvuR5G0CBKTkVUs4Sfqrmf7CGHRJU33CsSHqLqCJUOYSPsPFQXzGY6nX5t5GDEDGO6kCugYNgOcbBkrWkDIZ1hhZ-q7xB_zm_nBJepVe70CG0KijtPWoDmX8LfqUQpgtC7r5te29xfUTLuOhun-_JGSMM6ByfOQm2ZXMiQxwjS17jFrVPL5L3A&ad_cpn=%5BCPN%5D&sig=AOD64_06beGGe8fKFlYYOsh4vG-YppJBWg&ms=%5BCLICK_MS%5D&adurl=https://www.youtube.com/watch%3Fv%3D_vPkeqVYicw%26gad_source%3D2%26gad_campaignid%3D23905866224&ctype=110&video_id=_vPkeqVYicw&label=video_click_to_advertiser_site&nb=21&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+        "dismissed": [
+          {
+            "ok": true,
+            "label": "subtitles/closed captions unavailable"
+          }
+        ],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "youtube_placeholder",
+              "ok": true,
+              "prep": {
+                "ok": true,
+                "tries": 1,
+                "tag": "YTD-COMMENT-SIMPLEBOX-RENDERER"
+              },
+              "open": {
+                "ok": true,
+                "selector": "#placeholder-area"
+              },
+              "fill": {
+                "ok": true,
+                "selector": "[aria-label*=\"Add a comment\"]",
+                "length": 147
+              },
+              "submit": {
+                "ok": true,
+                "selector": "#submit-button button"
+              },
+              "keyboard_submit": {
+                "ok": false,
+                "skipped": true
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "blocked_sample": [
+    {
+      "id": "20260605-141133-162384:youtube:auto-listen:1",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260605-134418-161713:youtube:auto-listen:35",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260605-134418-161713:youtube:auto-listen:34",
+      "channel": "youtube",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260605-134418-161713:youtube:auto-listen:33",
+      "channel": "youtube",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260605-134418-161713:youtube:auto-listen:32",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260605-134418-161713:youtube:auto-listen:31",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260605-134418-161713:youtube:auto-listen:30",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260605-134418-161713:youtube:auto-listen:27",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260605-134418-161713:youtube:auto-listen:21",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260605-134418-161713:instagram:auto-listen:2",
+      "channel": "instagram",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "timestamp_utc": "20260528-201045-232075",
+  "command": "watch",
+  "status": "ok",
+  "started_utc": "20260528-200923-507627",
+  "dry_run": true,
+  "steps": [
+    {
+      "step": "nurture",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\agente_4_nurture.py",
+        "process",
+        "--limit",
+        "1",
+        "--dry-run"
+      ],
+      "started_utc": "20260528-200923-509324",
+      "finished_utc": "20260528-200933-514244",
+      "returncode": 0,
+      "status": "ok"
+    },
+    {
+      "step": "conversion",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\agente_conversion.py",
+        "run",
+        "--window-days",
+        "30",
+        "--min-views",
+        "50",
+        "--limit",
+        "1",
+        "--dry-run"
+      ],
+      "started_utc": "20260528-200934-736877",
+      "finished_utc": "20260528-200944-741841",
+      "returncode": 0,
+      "status": "ok"
+    },
+    {
+      "step": "distribution-generate",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\agente_distribucion.py",
+        "generate",
+        "--limit",
+        "1",
+        "--dry-run"
+      ],
+      "started_utc": "20260528-200945-197748",
+      "finished_utc": "20260528-201015-205365",
+      "returncode": 0,
+      "status": "ok"
+    },
+    {
+      "step": "distribution-approve",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\agente_distribucion.py",
+        "approve",
+        "--limit",
+        "1",
+        "--dry-run"
+      ],
+      "started_utc": "20260528-201015-207406",
+      "finished_utc": "20260528-201025-213452",
+      "returncode": 0,
+      "status": "ok"
+    },
+    {
+      "step": "publish",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\agente_publicacion.py",
+        "publish",
+        "--limit",
+        "1",
+        "--dry-run",
+        "--channel",
+        "reddit-public"
+      ],
+      "started_utc": "20260528-201025-215236",
+      "finished_utc": "20260528-201035-221438",
+      "returncode": 0,
+      "status": "ok"
+    },
+    {
+      "step": "validate",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\build_landings.py",
+        "validate"
+      ],
+      "started_utc": "20260528-201035-223483",
+      "finished_utc": "20260528-201045-230639",
+      "returncode": 0,
+      "status": "ok"
+    }
+  ]
+}

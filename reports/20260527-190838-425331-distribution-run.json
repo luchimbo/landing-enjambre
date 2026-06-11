@@ -1,0 +1,22 @@
+{
+  "timestamp_utc": "20260527-190838-425331",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260527-190820-984804",
+  "dry_run": true,
+  "channel_filter": "youtube",
+  "since_last_deploy": false,
+  "landings_selected": 1,
+  "pieces_proposed": 1,
+  "pieces_blocked": 0,
+  "proposed": [
+    {
+      "slug": "monitores-5-pulgadas-vs-6-pulgadas",
+      "type": "respuesta_youtube",
+      "title": "Monitores de 5 pulgadas vs 6 pulgadas: ¿Cuál elegir?"
+    }
+  ],
+  "blocked": [],
+  "elapsed_seconds": 17.44
+}

@@ -1,0 +1,177 @@
+{
+  "timestamp_utc": "20260527-154710-169172",
+  "command": "auto-distribution",
+  "channels": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "reddit",
+    "x",
+    "youtube"
+  ],
+  "unsupported_channels": [],
+  "limit": 6,
+  "per_channel": 1,
+  "dry_run": false,
+  "allow_proposed": false,
+  "published_or_attempted": 6,
+  "blocked_seen": 0,
+  "results": [
+    {
+      "id": "20260526-195410-369574:reddit-public:1to10es",
+      "channel": "reddit",
+      "slug": "arturia-minilab-3-vs-keylab",
+      "result": {
+        "ok": false,
+        "url": "https://www.reddit.com/r/edmproduction/comments/1to10es/beginner_looking_for_help_with_shaperbox_3_or/",
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "añadir un comentario",
+            "add a comment",
+            "comment"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comentar",
+            "comment",
+            "reply"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260527-142132-390942:monitores-5-pulgadas-vs-6-pulgadas:post_educativo:linkedin:1779891709970",
+      "channel": "linkedin",
+      "slug": "monitores-5-pulgadas-vs-6-pulgadas",
+      "result": {
+        "ok": false,
+        "url": "https://www.linkedin.com/feed/",
+        "open": {
+          "ok": true,
+          "label": "crear publicación"
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "publicar",
+            "post"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260527-142132-390942:monitores-5-pulgadas-vs-6-pulgadas:snippet_social:social:1779891723557",
+      "channel": "facebook",
+      "slug": "monitores-5-pulgadas-vs-6-pulgadas",
+      "result": {
+        "ok": false,
+        "url": "https://www.facebook.com/",
+        "open": {
+          "ok": true,
+          "label": "crear una publicación ¿qué estás pensando, bruno?"
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "publicar",
+            "post"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260527-142132-390942:monitores-5-pulgadas-vs-6-pulgadas:snippet_social:social:1779891723557",
+      "channel": "instagram",
+      "slug": "monitores-5-pulgadas-vs-6-pulgadas",
+      "result": {
+        "ok": true,
+        "url": "https://www.instagram.com/",
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "añade un comentario",
+            "add a comment",
+            "reply"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": true,
+          "label": "repostear"
+        }
+      }
+    },
+    {
+      "id": "20260527-142132-390942:monitores-5-pulgadas-vs-6-pulgadas:snippet_social:social:1779891723557",
+      "channel": "x",
+      "slug": "monitores-5-pulgadas-vs-6-pulgadas",
+      "result": {
+        "ok": true,
+        "url": "https://x.com/compose/post",
+        "fill": {
+          "ok": true,
+          "selector": "[contenteditable=\"true\"][role=\"textbox\"]",
+          "length": 275
+        },
+        "post": {
+          "ok": true,
+          "label": "schedule post"
+        }
+      }
+    },
+    {
+      "id": "20260527-154246-961388:youtube:auto-listen:1",
+      "channel": "youtube",
+      "slug": "controlador-midi-para-fl-studio",
+      "result": {
+        "ok": false,
+        "url": "https://www.youtube.com/watch?v=GPVLFMJQYDQ&pp=ygUfY29udHJvbGFkb3IgTUlESSBwYXJhIEZMIFN0dWRpb9IHCQkKCwGHKiGM7w%3D%3D",
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "añade un comentario",
+            "add a comment",
+            "comment"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comentar",
+            "comment"
+          ]
+        }
+      }
+    }
+  ],
+  "blocked_sample": []
+}

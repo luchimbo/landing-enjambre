@@ -1,0 +1,1604 @@
+{
+  "timestamp_utc": "20260601-173520-145715",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260601-171406-993044",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 50,
+  "pieces_proposed": 257,
+  "pieces_blocked": 43,
+  "proposed": [
+    {
+      "slug": "comparar-opciones-interfaz-audio-podcast",
+      "type": "respuesta_tecnica",
+      "title": "Encuentra la interfaz de audio perfecta para tu podcast"
+    },
+    {
+      "slug": "comparar-opciones-interfaz-audio-podcast",
+      "type": "snippet_social",
+      "title": "Encuentra la interfaz de audio perfecta para tu podcast"
+    },
+    {
+      "slug": "comparar-opciones-interfaz-audio-podcast",
+      "type": "post_x",
+      "title": "Encuentra la interfaz de audio perfecta para tu podcast"
+    },
+    {
+      "slug": "comparar-opciones-interfaz-audio-podcast",
+      "type": "respuesta_youtube",
+      "title": "Encuentra la interfaz de audio perfecta para tu podcast"
+    },
+    {
+      "slug": "mejor-opcion-interfaz-audio-streaming",
+      "type": "respuesta_tecnica",
+      "title": "Encuentra la mejor interfaz de audio para streaming"
+    },
+    {
+      "slug": "mejor-opcion-interfaz-audio-streaming",
+      "type": "snippet_social",
+      "title": "Encuentra la mejor interfaz de audio para streaming"
+    },
+    {
+      "slug": "mejor-opcion-interfaz-audio-streaming",
+      "type": "post_social",
+      "title": "Encuentra la mejor interfaz de audio para streaming"
+    },
+    {
+      "slug": "mejor-opcion-interfaz-audio-streaming",
+      "type": "post_x",
+      "title": "Encuentra la mejor interfaz de audio para streaming"
+    },
+    {
+      "slug": "mejor-opcion-interfaz-audio-streaming",
+      "type": "respuesta_youtube",
+      "title": "Encuentra la mejor interfaz de audio para streaming"
+    },
+    {
+      "slug": "comparar-opciones-interfaz-audio-dos-entradas",
+      "type": "post_x",
+      "title": "Elige la interfaz de audio perfecta para tus grabaciones"
+    },
+    {
+      "slug": "comparar-opciones-interfaz-audio-dos-entradas",
+      "type": "respuesta_youtube",
+      "title": "Elige la interfaz de audio perfecta para tus grabaciones"
+    },
+    {
+      "slug": "mejor-opcion-monitores-cuarto-chico",
+      "type": "snippet_social",
+      "title": "Los mejores monitores para mezclar en un cuarto chico"
+    },
+    {
+      "slug": "mejor-opcion-monitores-cuarto-chico",
+      "type": "post_social",
+      "title": "Los mejores monitores para mezclar en un cuarto chico"
+    },
+    {
+      "slug": "mejor-opcion-monitores-cuarto-chico",
+      "type": "post_x",
+      "title": "Los mejores monitores para mezclar en un cuarto chico"
+    },
+    {
+      "slug": "microfono-para-streaming-mejorar-audio-en-casa",
+      "type": "respuesta_tecnica",
+      "title": "Mejora tu audio en casa con micrófonos para streaming"
+    },
+    {
+      "slug": "microfono-para-streaming-mejorar-audio-en-casa",
+      "type": "post_educativo",
+      "title": "Mejora tu audio en casa con micrófonos para streaming"
+    },
+    {
+      "slug": "microfono-para-streaming-mejorar-audio-en-casa",
+      "type": "snippet_social",
+      "title": "Mejora tu audio en casa con micrófonos para streaming"
+    },
+    {
+      "slug": "microfono-para-streaming-mejorar-audio-en-casa",
+      "type": "post_social",
+      "title": "Mejora tu audio en casa con micrófonos para streaming"
+    },
+    {
+      "slug": "microfono-para-streaming-mejorar-audio-en-casa",
+      "type": "post_x",
+      "title": "Mejora tu audio en casa con micrófonos para streaming"
+    },
+    {
+      "slug": "microfono-para-streaming-mejorar-audio-en-casa",
+      "type": "respuesta_youtube",
+      "title": "Mejora tu audio en casa con micrófonos para streaming"
+    },
+    {
+      "slug": "microfono-para-podcast-mejorar-audio-en-casa",
+      "type": "respuesta_tecnica",
+      "title": "Elige el Mejor Micrófono para Tu Podcast en Casa"
+    },
+    {
+      "slug": "microfono-para-podcast-mejorar-audio-en-casa",
+      "type": "post_educativo",
+      "title": "Elige el Mejor Micrófono para Tu Podcast en Casa"
+    },
+    {
+      "slug": "microfono-para-podcast-mejorar-audio-en-casa",
+      "type": "snippet_social",
+      "title": "Elige el Mejor Micrófono para Tu Podcast en Casa"
+    },
+    {
+      "slug": "microfono-para-podcast-mejorar-audio-en-casa",
+      "type": "post_social",
+      "title": "Elige el Mejor Micrófono para Tu Podcast en Casa"
+    },
+    {
+      "slug": "microfono-para-podcast-mejorar-audio-en-casa",
+      "type": "post_x",
+      "title": "Elige el Mejor Micrófono para Tu Podcast en Casa"
+    },
+    {
+      "slug": "microfono-para-podcast-mejorar-audio-en-casa",
+      "type": "respuesta_youtube",
+      "title": "Elige el Mejor Micrófono para Tu Podcast en Casa"
+    },
+    {
+      "slug": "microfono-para-podcast-usb-o-xlr",
+      "type": "respuesta_tecnica",
+      "title": "Elige el micrófono ideal para tu podcast"
+    },
+    {
+      "slug": "microfono-para-podcast-usb-o-xlr",
+      "type": "post_educativo",
+      "title": "Elige el micrófono ideal para tu podcast"
+    },
+    {
+      "slug": "microfono-para-podcast-usb-o-xlr",
+      "type": "snippet_social",
+      "title": "Elige el micrófono ideal para tu podcast"
+    },
+    {
+      "slug": "microfono-para-podcast-usb-o-xlr",
+      "type": "post_social",
+      "title": "Elige el micrófono ideal para tu podcast"
+    },
+    {
+      "slug": "microfono-para-podcast-usb-o-xlr",
+      "type": "post_x",
+      "title": "Elige el micrófono ideal para tu podcast"
+    },
+    {
+      "slug": "microfono-para-podcast-usb-o-xlr",
+      "type": "respuesta_youtube",
+      "title": "Elige el micrófono ideal para tu podcast"
+    },
+    {
+      "slug": "microfono-para-streaming",
+      "type": "respuesta_tecnica",
+      "title": "Micrófonos para Streaming: Mejora tu Audio en Directos"
+    },
+    {
+      "slug": "microfono-para-streaming",
+      "type": "post_educativo",
+      "title": "Micrófonos para Streaming: Mejora tu Audio en Directos"
+    },
+    {
+      "slug": "microfono-para-streaming",
+      "type": "snippet_social",
+      "title": "Micrófonos para Streaming: Mejora tu Audio en Directos"
+    },
+    {
+      "slug": "microfono-para-streaming",
+      "type": "post_social",
+      "title": "Micrófonos para Streaming: Mejora tu Audio en Directos"
+    },
+    {
+      "slug": "microfono-para-streaming",
+      "type": "post_x",
+      "title": "Micrófonos para Streaming: Mejora tu Audio en Directos"
+    },
+    {
+      "slug": "microfono-para-streaming",
+      "type": "respuesta_youtube",
+      "title": "Micrófonos para Streaming: Mejora tu Audio en Directos"
+    },
+    {
+      "slug": "monitores-estudio-home-studio-chico",
+      "type": "respuesta_tecnica",
+      "title": "Monitores de Estudio Ideales para Espacios Reducidos"
+    },
+    {
+      "slug": "monitores-estudio-home-studio-chico",
+      "type": "post_educativo",
+      "title": "Monitores de Estudio Ideales para Espacios Reducidos"
+    },
+    {
+      "slug": "monitores-estudio-home-studio-chico",
+      "type": "snippet_social",
+      "title": "Monitores de Estudio Ideales para Espacios Reducidos"
+    },
+    {
+      "slug": "monitores-estudio-home-studio-chico",
+      "type": "post_social",
+      "title": "Monitores de Estudio Ideales para Espacios Reducidos"
+    },
+    {
+      "slug": "monitores-estudio-home-studio-chico",
+      "type": "post_x",
+      "title": "Monitores de Estudio Ideales para Espacios Reducidos"
+    },
+    {
+      "slug": "monitores-estudio-home-studio-chico",
+      "type": "respuesta_youtube",
+      "title": "Monitores de Estudio Ideales para Espacios Reducidos"
+    },
+    {
+      "slug": "home-studio-para-principiantes",
+      "type": "respuesta_tecnica",
+      "title": "Arma tu Home Studio desde Cero: Guía para Principiantes"
+    },
+    {
+      "slug": "home-studio-para-principiantes",
+      "type": "post_educativo",
+      "title": "Arma tu Home Studio desde Cero: Guía para Principiantes"
+    },
+    {
+      "slug": "home-studio-para-principiantes",
+      "type": "snippet_social",
+      "title": "Arma tu Home Studio desde Cero: Guía para Principiantes"
+    },
+    {
+      "slug": "home-studio-para-principiantes",
+      "type": "post_social",
+      "title": "Arma tu Home Studio desde Cero y Comienza a Crear Música"
+    },
+    {
+      "slug": "home-studio-para-principiantes",
+      "type": "post_x",
+      "title": "Arma tu Home Studio desde Cero"
+    },
+    {
+      "slug": "home-studio-para-principiantes",
+      "type": "respuesta_youtube",
+      "title": "Guía para armar tu Home Studio desde cero"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-midiplus-i61",
+      "type": "respuesta_tecnica",
+      "title": "Controlador MIDI MIDIPLUS i61: Toca con más rango"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-midiplus-i61",
+      "type": "post_educativo",
+      "title": "Controlador MIDI MIDIPLUS i61: Toca con más rango"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-midiplus-i61",
+      "type": "snippet_social",
+      "title": "Controlador MIDI MIDIPLUS i61: Toca con más rango"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-midiplus-i61",
+      "type": "post_social",
+      "title": "Controlador MIDI MIDIPLUS i61: Toca con más rango"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-midiplus-i61",
+      "type": "post_x",
+      "title": "Controlador MIDI MIDIPLUS i61: Toca con más rango"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-midiplus-i61",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS i61: Tu aliado para tocar con más teclas"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio",
+      "type": "post_educativo",
+      "title": "Transformá tu home studio con la MIDIPLUS Studio M"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio",
+      "type": "snippet_social",
+      "title": "Transformá tu home studio con la MIDIPLUS Studio M"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio",
+      "type": "post_social",
+      "title": "Transformá tu home studio con la MIDIPLUS Studio M"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio",
+      "type": "post_x",
+      "title": "Transformá tu home studio con la MIDIPLUS Studio M"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Transformá tu home studio con la MIDIPLUS Studio M"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio",
+      "type": "post_x",
+      "title": "Monitores Midiplus MS5: Sonido de calidad para tu home studio"
+    },
+    {
+      "slug": "midiplus-ms6-home-studio",
+      "type": "snippet_social",
+      "title": "Monitores Midiplus MS6: La Elección Perfecta para tu Home Studio"
+    },
+    {
+      "slug": "midiplus-ms6-home-studio",
+      "type": "post_social",
+      "title": "Monitores Midiplus MS6: La Elección Perfecta para tu Home Studio"
+    },
+    {
+      "slug": "midiplus-ms6-home-studio",
+      "type": "post_x",
+      "title": "Monitores Midiplus MS6: La Elección Perfecta para tu Home Studio"
+    },
+    {
+      "slug": "midiplus-ms6-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Monitores Midiplus MS6: Ideal para tu Home Studio"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-sin-interfaz",
+      "type": "respuesta_tecnica",
+      "title": "Inicia tu Podcast con Micrófonos USB de Calidad"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-sin-interfaz",
+      "type": "post_educativo",
+      "title": "Inicia tu Podcast con Micrófonos USB de Calidad"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-sin-interfaz",
+      "type": "snippet_social",
+      "title": "Inicia tu Podcast con Micrófonos USB de Calidad"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-sin-interfaz",
+      "type": "post_social",
+      "title": "Inicia tu Podcast con Micrófonos USB de Calidad"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-sin-interfaz",
+      "type": "post_x",
+      "title": "Inicia tu Podcast con Micrófonos USB de Calidad"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-sin-interfaz",
+      "type": "respuesta_youtube",
+      "title": "Inicia tu Podcast con Micrófonos USB de Calidad"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast",
+      "type": "respuesta_tecnica",
+      "title": "Encuentra el micrófono XLR ideal para tu podcast"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast",
+      "type": "post_educativo",
+      "title": "Encuentra el micrófono XLR ideal para tu podcast"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast",
+      "type": "snippet_social",
+      "title": "Encuentra el micrófono XLR ideal para tu podcast"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast",
+      "type": "post_social",
+      "title": "Encuentra el micrófono XLR ideal para tu podcast"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast",
+      "type": "post_x",
+      "title": "Encuentra el micrófono XLR ideal para tu podcast"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast",
+      "type": "respuesta_youtube",
+      "title": "Guía para elegir un micrófono XLR para tu podcast"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-grabacion",
+      "type": "respuesta_tecnica",
+      "title": "Elige el micrófono condensador perfecto para tu voz"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-grabacion",
+      "type": "snippet_social",
+      "title": "Elige el micrófono condensador perfecto para tu voz"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-grabacion",
+      "type": "post_social",
+      "title": "Elige el micrófono condensador perfecto para tu voz"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-grabacion",
+      "type": "post_x",
+      "title": "Elige el micrófono condensador perfecto para tu voz"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-grabacion",
+      "type": "respuesta_youtube",
+      "title": "Elige el micrófono condensador ideal para grabar tu voz"
+    },
+    {
+      "slug": "alctron-um900-streaming-microfono-usb",
+      "type": "respuesta_tecnica",
+      "title": "Alctron UM900: Ideal para Streaming y Grabación de Voces"
+    },
+    {
+      "slug": "alctron-um900-streaming-microfono-usb",
+      "type": "post_educativo",
+      "title": "Alctron UM900: Tu compañero perfecto para streaming"
+    },
+    {
+      "slug": "alctron-um900-streaming-microfono-usb",
+      "type": "snippet_social",
+      "title": "Alctron UM900: Ideal para tus sesiones de streaming"
+    },
+    {
+      "slug": "alctron-um900-streaming-microfono-usb",
+      "type": "post_social",
+      "title": "Alctron UM900: Ideal para tu streaming y grabaciones"
+    },
+    {
+      "slug": "alctron-um900-streaming-microfono-usb",
+      "type": "post_x",
+      "title": "Alctron UM900: Ideal para Streaming y Grabaciones"
+    },
+    {
+      "slug": "alctron-um900-streaming-microfono-usb",
+      "type": "respuesta_youtube",
+      "title": "Alctron UM900: Ideal para Streaming y Grabación de Voces"
+    },
+    {
+      "slug": "brazo-para-microfono-streaming",
+      "type": "respuesta_tecnica",
+      "title": "Optimiza tu Streaming con un Brazo para Micrófono"
+    },
+    {
+      "slug": "brazo-para-microfono-streaming",
+      "type": "snippet_social",
+      "title": "Optimiza tu Streaming con un Brazo para Micrófono"
+    },
+    {
+      "slug": "brazo-para-microfono-streaming",
+      "type": "post_social",
+      "title": "Optimiza tu Streaming con un Brazo para Micrófono"
+    },
+    {
+      "slug": "brazo-para-microfono-streaming",
+      "type": "post_x",
+      "title": "Optimiza tu Streaming con un Brazo para Micrófono"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo",
+      "type": "respuesta_tecnica",
+      "title": "Audio Technica ATH-M50x: Consideraciones para Monitoreo"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo",
+      "type": "post_educativo",
+      "title": "Audio Technica ATH-M50x: Tu Auricular de Monitoreo de Confianza"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo",
+      "type": "snippet_social",
+      "title": "Audio Technica ATH-M50x: Tu Auricular de Monitoreo de Confianza"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo",
+      "type": "post_social",
+      "title": "Audio Technica ATH-M50x: Tu Auricular de Monitoreo de Confianza"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo",
+      "type": "post_x",
+      "title": "Audio Technica ATH-M50x: Auricular de Monitoreo Confiable"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo",
+      "type": "respuesta_youtube",
+      "title": "Audio Technica ATH-M50x: Ideal para Monitoreo en Producción Musical"
+    },
+    {
+      "slug": "monitores-para-mezclar-en-cuarto-chico",
+      "type": "snippet_social",
+      "title": "Monitores de estudio para espacios pequeños"
+    },
+    {
+      "slug": "monitores-para-mezclar-en-cuarto-chico",
+      "type": "post_social",
+      "title": "Monitores de estudio ideales para tu cuarto chico 🎶"
+    },
+    {
+      "slug": "monitores-para-mezclar-en-cuarto-chico",
+      "type": "post_x",
+      "title": "Monitores de estudio para espacios pequeños"
+    },
+    {
+      "slug": "interfaz-audio-podcast",
+      "type": "respuesta_tecnica",
+      "title": "Elige la interfaz de audio perfecta para tu podcast"
+    },
+    {
+      "slug": "interfaz-audio-podcast",
+      "type": "post_educativo",
+      "title": "Elige la interfaz de audio perfecta para tu podcast"
+    },
+    {
+      "slug": "interfaz-audio-podcast",
+      "type": "snippet_social",
+      "title": "Elige la interfaz de audio perfecta para tu podcast"
+    },
+    {
+      "slug": "interfaz-audio-podcast",
+      "type": "post_social",
+      "title": "Elige la interfaz de audio perfecta para tu podcast"
+    },
+    {
+      "slug": "interfaz-audio-podcast",
+      "type": "post_x",
+      "title": "Elige la interfaz de audio perfecta para tu podcast"
+    },
+    {
+      "slug": "interfaz-audio-podcast",
+      "type": "respuesta_youtube",
+      "title": "Elige la interfaz de audio perfecta para tu podcast"
+    },
+    {
+      "slug": "interfaz-de-audio-para-streaming-con-monitoreo",
+      "type": "respuesta_tecnica",
+      "title": "Elige la Interfaz de Audio Ideal para Streaming"
+    },
+    {
+      "slug": "interfaz-de-audio-para-streaming-con-monitoreo",
+      "type": "post_educativo",
+      "title": "Elige la Interfaz de Audio Ideal para Streaming"
+    },
+    {
+      "slug": "interfaz-de-audio-para-streaming-con-monitoreo",
+      "type": "snippet_social",
+      "title": "Elige la Interfaz de Audio Ideal para Streaming"
+    },
+    {
+      "slug": "interfaz-de-audio-para-streaming-con-monitoreo",
+      "type": "post_social",
+      "title": "Elige la Interfaz de Audio Ideal para Streaming"
+    },
+    {
+      "slug": "interfaz-de-audio-para-streaming-con-monitoreo",
+      "type": "post_x",
+      "title": "Elige la Interfaz de Audio Ideal para Streaming"
+    },
+    {
+      "slug": "interfaz-de-audio-para-streaming-con-monitoreo",
+      "type": "respuesta_youtube",
+      "title": "Elige la Interfaz de Audio Ideal para Streaming"
+    },
+    {
+      "slug": "interfaz-de-audio-dos-entradas-para-voz-e-instrumento",
+      "type": "respuesta_tecnica",
+      "title": "Elige la Interfaz de Audio Perfecta para Tu Voz e Instrumento"
+    },
+    {
+      "slug": "interfaz-de-audio-dos-entradas-para-voz-e-instrumento",
+      "type": "post_educativo",
+      "title": "Elige la Interfaz de Audio Perfecta para Tu Voz e Instrumento"
+    },
+    {
+      "slug": "interfaz-de-audio-dos-entradas-para-voz-e-instrumento",
+      "type": "snippet_social",
+      "title": "Elige la Interfaz de Audio Perfecta para Tu Voz e Instrumento"
+    },
+    {
+      "slug": "interfaz-de-audio-dos-entradas-para-voz-e-instrumento",
+      "type": "post_social",
+      "title": "Elige la Interfaz de Audio Perfecta para Tu Voz e Instrumento"
+    },
+    {
+      "slug": "interfaz-de-audio-dos-entradas-para-voz-e-instrumento",
+      "type": "post_x",
+      "title": "Elige la Interfaz de Audio Perfecta para Tu Voz e Instrumento"
+    },
+    {
+      "slug": "interfaz-de-audio-dos-entradas-para-voz-e-instrumento",
+      "type": "respuesta_youtube",
+      "title": "Elige la Interfaz de Audio Perfecta para Voz e Instrumento"
+    },
+    {
+      "slug": "home-studio-rap-setup",
+      "type": "respuesta_tecnica",
+      "title": "Crea tu Home Studio Ideal para Rap"
+    },
+    {
+      "slug": "home-studio-rap-setup",
+      "type": "post_educativo",
+      "title": "Crea tu Home Studio Ideal para Rap"
+    },
+    {
+      "slug": "home-studio-rap-setup",
+      "type": "snippet_social",
+      "title": "Crea tu Home Studio Ideal para Rap"
+    },
+    {
+      "slug": "home-studio-rap-setup",
+      "type": "post_social",
+      "title": "Crea tu Home Studio Ideal para Rap"
+    },
+    {
+      "slug": "home-studio-rap-setup",
+      "type": "post_x",
+      "title": "Crea tu Home Studio Ideal para Rap"
+    },
+    {
+      "slug": "home-studio-rap-setup",
+      "type": "respuesta_youtube",
+      "title": "Crea tu Home Studio Ideal para Rap"
+    },
+    {
+      "slug": "home-studio-para-guitarra",
+      "type": "respuesta_tecnica",
+      "title": "Crea el Home Studio Perfecto para tu Guitarra"
+    },
+    {
+      "slug": "home-studio-para-guitarra",
+      "type": "post_educativo",
+      "title": "Crea el Home Studio Perfecto para tu Guitarra"
+    },
+    {
+      "slug": "home-studio-para-guitarra",
+      "type": "snippet_social",
+      "title": "Crea el Home Studio Perfecto para tu Guitarra"
+    },
+    {
+      "slug": "home-studio-para-guitarra",
+      "type": "post_social",
+      "title": "Crea el Home Studio Perfecto para tu Guitarra"
+    },
+    {
+      "slug": "home-studio-para-guitarra",
+      "type": "post_x",
+      "title": "Crea el Home Studio Perfecto para tu Guitarra"
+    },
+    {
+      "slug": "home-studio-para-guitarra",
+      "type": "respuesta_youtube",
+      "title": "Crea el Home Studio Perfecto para tu Guitarra"
+    },
+    {
+      "slug": "teclado-midi-chico-para-notebook",
+      "type": "respuesta_tecnica",
+      "title": "Controladores MIDI Compactos: Guía para Elegir el Ideal"
+    },
+    {
+      "slug": "teclado-midi-chico-para-notebook",
+      "type": "post_educativo",
+      "title": "Controladores MIDI Compactos: La Elección Perfecta para tu Notebook"
+    },
+    {
+      "slug": "teclado-midi-chico-para-notebook",
+      "type": "snippet_social",
+      "title": "Controladores MIDI Compactos para tu Notebook"
+    },
+    {
+      "slug": "teclado-midi-chico-para-notebook",
+      "type": "post_social",
+      "title": "Controladores MIDI Compactos: Perfectos para tu Notebook"
+    },
+    {
+      "slug": "teclado-midi-chico-para-notebook",
+      "type": "post_x",
+      "title": "Controladores MIDI Compactos para tu Notebook"
+    },
+    {
+      "slug": "teclado-midi-chico-para-notebook",
+      "type": "respuesta_youtube",
+      "title": "Controladores MIDI Compactos para tu Notebook"
+    },
+    {
+      "slug": "controlador-midi-para-logic",
+      "type": "respuesta_tecnica",
+      "title": "Controladores MIDI para Logic: Potencia tu Producción"
+    },
+    {
+      "slug": "controlador-midi-para-logic",
+      "type": "post_educativo",
+      "title": "Controladores MIDI para Logic: Potencia tu Producción"
+    },
+    {
+      "slug": "controlador-midi-para-logic",
+      "type": "snippet_social",
+      "title": "Controladores MIDI para Logic: Potencia tu Producción"
+    },
+    {
+      "slug": "controlador-midi-para-logic",
+      "type": "post_social",
+      "title": "Controladores MIDI para Logic: Encuentra el Ideal para Ti"
+    },
+    {
+      "slug": "controlador-midi-para-logic",
+      "type": "post_x",
+      "title": "Controladores MIDI para Logic: Elige el Mejor para Ti"
+    },
+    {
+      "slug": "controlador-midi-para-logic",
+      "type": "respuesta_youtube",
+      "title": "Controladores MIDI para Logic: Guía para Elegir el Mejor"
+    },
+    {
+      "slug": "controlador-midi-para-cubase",
+      "type": "respuesta_tecnica",
+      "title": "Controladores MIDI ideales para Cubase"
+    },
+    {
+      "slug": "controlador-midi-para-cubase",
+      "type": "snippet_social",
+      "title": "Controladores MIDI ideales para Cubase"
+    },
+    {
+      "slug": "controlador-midi-para-cubase",
+      "type": "post_x",
+      "title": "Controladores MIDI ideales para Cubase"
+    },
+    {
+      "slug": "controlador-midi-para-cubase",
+      "type": "respuesta_youtube",
+      "title": "Controladores MIDI ideales para Cubase"
+    },
+    {
+      "slug": "controlador-midi-para-reaper",
+      "type": "respuesta_tecnica",
+      "title": "Controladores MIDI para Reaper: Potencia tu producción"
+    },
+    {
+      "slug": "controlador-midi-para-reaper",
+      "type": "post_educativo",
+      "title": "Controladores MIDI para Reaper: Potencia tu producción"
+    },
+    {
+      "slug": "controlador-midi-para-reaper",
+      "type": "snippet_social",
+      "title": "Controladores MIDI para Reaper: Potencia tu producción"
+    },
+    {
+      "slug": "controlador-midi-para-reaper",
+      "type": "post_social",
+      "title": "Controladores MIDI para Reaper: Potencia tu producción"
+    },
+    {
+      "slug": "controlador-midi-para-reaper",
+      "type": "post_x",
+      "title": "Controladores MIDI para Reaper: Elige el Mejor"
+    },
+    {
+      "slug": "controlador-midi-para-reaper",
+      "type": "respuesta_youtube",
+      "title": "Controladores MIDI para Reaper: Encuentra el Ideal"
+    },
+    {
+      "slug": "camara-y-microfono-para-streaming",
+      "type": "respuesta_tecnica",
+      "title": "Arma tu Setup Audiovisual para Streaming de Calidad"
+    },
+    {
+      "slug": "camara-y-microfono-para-streaming",
+      "type": "post_educativo",
+      "title": "Arma tu Setup Audiovisual para Streaming"
+    },
+    {
+      "slug": "camara-y-microfono-para-streaming",
+      "type": "snippet_social",
+      "title": "Arma tu Setup Audiovisual para Streaming"
+    },
+    {
+      "slug": "camara-y-microfono-para-streaming",
+      "type": "post_social",
+      "title": "Arma tu Setup Audiovisual para Streaming 🎥🎤"
+    },
+    {
+      "slug": "camara-y-microfono-para-streaming",
+      "type": "post_x",
+      "title": "Arma tu Setup Audiovisual para Streaming"
+    },
+    {
+      "slug": "camara-y-microfono-para-streaming",
+      "type": "respuesta_youtube",
+      "title": "Arma tu Setup Audiovisual para Streaming con Éxito"
+    },
+    {
+      "slug": "setup-para-twitch-con-microfono",
+      "type": "respuesta_tecnica",
+      "title": "Arma tu setup para Twitch con el micrófono adecuado"
+    },
+    {
+      "slug": "setup-para-twitch-con-microfono",
+      "type": "post_educativo",
+      "title": "Arma tu setup para Twitch con el micrófono adecuado"
+    },
+    {
+      "slug": "setup-para-twitch-con-microfono",
+      "type": "snippet_social",
+      "title": "Arma tu setup para Twitch con el micrófono adecuado"
+    },
+    {
+      "slug": "setup-para-twitch-con-microfono",
+      "type": "post_social",
+      "title": "Arma tu setup para Twitch con el micrófono adecuado"
+    },
+    {
+      "slug": "setup-para-twitch-con-microfono",
+      "type": "post_x",
+      "title": "Arma tu setup para Twitch con el micrófono adecuado"
+    },
+    {
+      "slug": "setup-para-twitch-con-microfono",
+      "type": "respuesta_youtube",
+      "title": "Arma tu setup para Twitch con el micrófono adecuado"
+    },
+    {
+      "slug": "que-comprar-controlador-midi-fl-studio",
+      "type": "respuesta_tecnica",
+      "title": "Elige el mejor controlador MIDI para FL Studio"
+    },
+    {
+      "slug": "que-comprar-controlador-midi-fl-studio",
+      "type": "post_educativo",
+      "title": "Elige el mejor controlador MIDI para FL Studio"
+    },
+    {
+      "slug": "que-comprar-controlador-midi-fl-studio",
+      "type": "snippet_social",
+      "title": "Elige el mejor controlador MIDI para FL Studio"
+    },
+    {
+      "slug": "que-comprar-controlador-midi-fl-studio",
+      "type": "post_social",
+      "title": "Elige el mejor controlador MIDI para FL Studio"
+    },
+    {
+      "slug": "que-comprar-controlador-midi-fl-studio",
+      "type": "post_x",
+      "title": "Elige el mejor controlador MIDI para FL Studio"
+    },
+    {
+      "slug": "que-comprar-controlador-midi-fl-studio",
+      "type": "respuesta_youtube",
+      "title": "Elige el mejor controlador MIDI para FL Studio"
+    },
+    {
+      "slug": "como-elegir-controlador-midi-para-fl-studio",
+      "type": "respuesta_tecnica",
+      "title": "Guía para elegir el controlador MIDI perfecto para FL Studio"
+    },
+    {
+      "slug": "como-elegir-controlador-midi-para-fl-studio",
+      "type": "post_educativo",
+      "title": "Guía para elegir el controlador MIDI perfecto para FL Studio"
+    },
+    {
+      "slug": "como-elegir-controlador-midi-para-fl-studio",
+      "type": "snippet_social",
+      "title": "Guía para elegir el controlador MIDI perfecto para FL Studio"
+    },
+    {
+      "slug": "como-elegir-controlador-midi-para-fl-studio",
+      "type": "post_social",
+      "title": "Guía para elegir el controlador MIDI perfecto para FL Studio"
+    },
+    {
+      "slug": "como-elegir-controlador-midi-para-fl-studio",
+      "type": "post_x",
+      "title": "Guía para elegir el controlador MIDI perfecto para FL Studio"
+    },
+    {
+      "slug": "como-elegir-controlador-midi-para-fl-studio",
+      "type": "respuesta_youtube",
+      "title": "Guía para elegir el controlador MIDI perfecto para FL Studio"
+    },
+    {
+      "slug": "guia-controlador-midi-fl-studio",
+      "type": "respuesta_tecnica",
+      "title": "Elige el Controlador MIDI Perfecto para FL Studio"
+    },
+    {
+      "slug": "guia-controlador-midi-fl-studio",
+      "type": "post_educativo",
+      "title": "Elige el Controlador MIDI Perfecto para FL Studio"
+    },
+    {
+      "slug": "guia-controlador-midi-fl-studio",
+      "type": "snippet_social",
+      "title": "Elige el Controlador MIDI Perfecto para FL Studio"
+    },
+    {
+      "slug": "guia-controlador-midi-fl-studio",
+      "type": "post_social",
+      "title": "Elige el Controlador MIDI Perfecto para FL Studio"
+    },
+    {
+      "slug": "guia-controlador-midi-fl-studio",
+      "type": "post_x",
+      "title": "Elige el Controlador MIDI Perfecto para FL Studio"
+    },
+    {
+      "slug": "guia-controlador-midi-fl-studio",
+      "type": "respuesta_youtube",
+      "title": "Elige el Controlador MIDI Perfecto para FL Studio"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-principiantes",
+      "type": "respuesta_tecnica",
+      "title": "Controladores MIDI ideales para FL Studio"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-principiantes",
+      "type": "post_educativo",
+      "title": "Controladores MIDI ideales para FL Studio"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-principiantes",
+      "type": "snippet_social",
+      "title": "Controladores MIDI ideales para FL Studio"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-principiantes",
+      "type": "post_social",
+      "title": "Controladores MIDI ideales para FL Studio"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-principiantes",
+      "type": "post_x",
+      "title": "Controladores MIDI ideales para FL Studio"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-principiantes",
+      "type": "respuesta_youtube",
+      "title": "Controladores MIDI ideales para FL Studio"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Controladores MIDI ideales para FL Studio en tu Home Studio"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-home-studio",
+      "type": "post_social",
+      "title": "Controladores MIDI ideales para FL Studio en tu Home Studio"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-home-studio",
+      "type": "post_x",
+      "title": "Controladores MIDI para FL Studio en tu Home Studio"
+    },
+    {
+      "slug": "controlador-midi-fl-studio-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Controladores MIDI ideales para FL Studio en tu Home Studio"
+    },
+    {
+      "slug": "como-elegir-controlador-midi-para-ableton",
+      "type": "respuesta_tecnica",
+      "title": "Cómo elegir el controlador MIDI perfecto para Ableton"
+    },
+    {
+      "slug": "como-elegir-controlador-midi-para-ableton",
+      "type": "post_educativo",
+      "title": "Cómo elegir el controlador MIDI perfecto para Ableton"
+    },
+    {
+      "slug": "como-elegir-controlador-midi-para-ableton",
+      "type": "post_social",
+      "title": "Cómo elegir el controlador MIDI perfecto para Ableton"
+    },
+    {
+      "slug": "como-elegir-controlador-midi-para-ableton",
+      "type": "post_x",
+      "title": "Cómo elegir el controlador MIDI perfecto para Ableton"
+    },
+    {
+      "slug": "como-elegir-controlador-midi-para-ableton",
+      "type": "respuesta_youtube",
+      "title": "Cómo elegir el controlador MIDI perfecto para Ableton"
+    },
+    {
+      "slug": "guia-elegir-controlador-midi-ableton",
+      "type": "respuesta_tecnica",
+      "title": "Elige el controlador MIDI perfecto para Ableton"
+    },
+    {
+      "slug": "guia-elegir-controlador-midi-ableton",
+      "type": "post_educativo",
+      "title": "Elige el controlador MIDI perfecto para Ableton"
+    },
+    {
+      "slug": "guia-elegir-controlador-midi-ableton",
+      "type": "snippet_social",
+      "title": "Elige el controlador MIDI perfecto para Ableton"
+    },
+    {
+      "slug": "guia-elegir-controlador-midi-ableton",
+      "type": "post_social",
+      "title": "Elige el controlador MIDI perfecto para Ableton"
+    },
+    {
+      "slug": "guia-elegir-controlador-midi-ableton",
+      "type": "post_x",
+      "title": "Elige el controlador MIDI perfecto para Ableton"
+    },
+    {
+      "slug": "guia-elegir-controlador-midi-ableton",
+      "type": "respuesta_youtube",
+      "title": "Elige el controlador MIDI perfecto para Ableton"
+    },
+    {
+      "slug": "setup-controlador-midi-ableton",
+      "type": "respuesta_tecnica",
+      "title": "Optimiza tu setup MIDI para Ableton"
+    },
+    {
+      "slug": "setup-controlador-midi-ableton",
+      "type": "post_educativo",
+      "title": "Optimiza tu setup MIDI para Ableton"
+    },
+    {
+      "slug": "setup-controlador-midi-ableton",
+      "type": "snippet_social",
+      "title": "Optimiza tu setup MIDI para Ableton"
+    },
+    {
+      "slug": "setup-controlador-midi-ableton",
+      "type": "post_social",
+      "title": "Optimiza tu setup MIDI para Ableton y mejora tu producción"
+    },
+    {
+      "slug": "setup-controlador-midi-ableton",
+      "type": "post_x",
+      "title": "Optimiza tu setup MIDI para Ableton"
+    },
+    {
+      "slug": "setup-controlador-midi-ableton",
+      "type": "respuesta_youtube",
+      "title": "Optimiza tu setup MIDI para Ableton"
+    },
+    {
+      "slug": "controlador-midi-para-ableton-principiantes",
+      "type": "respuesta_tecnica",
+      "title": "Controladores MIDI para Ableton: Guía para Principiantes"
+    },
+    {
+      "slug": "controlador-midi-para-ableton-principiantes",
+      "type": "post_educativo",
+      "title": "Controladores MIDI para Ableton: Tu Compañero Ideal"
+    },
+    {
+      "slug": "controlador-midi-para-ableton-principiantes",
+      "type": "snippet_social",
+      "title": "Controladores MIDI para Ableton: Tu Compañero Ideal"
+    },
+    {
+      "slug": "controlador-midi-para-ableton-principiantes",
+      "type": "post_social",
+      "title": "Controladores MIDI para Ableton: Tu Compañero Ideal"
+    },
+    {
+      "slug": "controlador-midi-para-ableton-principiantes",
+      "type": "post_x",
+      "title": "Controladores MIDI para Ableton: Tu Compañero Ideal"
+    },
+    {
+      "slug": "controlador-midi-para-ableton-principiantes",
+      "type": "respuesta_youtube",
+      "title": "Controladores MIDI para Ableton: Guía para Principiantes"
+    },
+    {
+      "slug": "controlador-midi-ableton-home-studio",
+      "type": "snippet_social",
+      "title": "Controladores MIDI ideales para Ableton en tu Home Studio"
+    },
+    {
+      "slug": "controlador-midi-ableton-home-studio",
+      "type": "post_social",
+      "title": "Controladores MIDI ideales para Ableton en tu Home Studio"
+    },
+    {
+      "slug": "controlador-midi-ableton-home-studio",
+      "type": "post_x",
+      "title": "Controladores MIDI ideales para Ableton en tu Home Studio"
+    },
+    {
+      "slug": "controlador-midi-ableton-fl-studio-comparativa",
+      "type": "respuesta_tecnica",
+      "title": "Comparativa de Controladores MIDI para Ableton y FL Studio"
+    },
+    {
+      "slug": "controlador-midi-ableton-fl-studio-comparativa",
+      "type": "post_educativo",
+      "title": "Comparativa de Controladores MIDI para Ableton y FL Studio"
+    },
+    {
+      "slug": "controlador-midi-ableton-fl-studio-comparativa",
+      "type": "post_social",
+      "title": "Comparativa de Controladores MIDI para Ableton y FL Studio"
+    },
+    {
+      "slug": "controlador-midi-ableton-fl-studio-comparativa",
+      "type": "post_x",
+      "title": "Comparativa de Controladores MIDI para Ableton y FL Studio"
+    },
+    {
+      "slug": "controlador-midi-ableton-fl-studio-comparativa",
+      "type": "respuesta_youtube",
+      "title": "Comparativa de Controladores MIDI para Ableton y FL Studio"
+    },
+    {
+      "slug": "que-comprar-para-interfaz-de-audio-para-grabar-voz-en-casa",
+      "type": "post_educativo",
+      "title": "Elige la mejor interfaz de audio para grabar tu voz en casa"
+    },
+    {
+      "slug": "que-comprar-para-interfaz-de-audio-para-grabar-voz-en-casa",
+      "type": "snippet_social",
+      "title": "Elige la mejor interfaz de audio para grabar tu voz en casa"
+    },
+    {
+      "slug": "que-comprar-para-interfaz-de-audio-para-grabar-voz-en-casa",
+      "type": "post_social",
+      "title": "Elige la mejor interfaz de audio para grabar tu voz en casa"
+    },
+    {
+      "slug": "que-comprar-para-interfaz-de-audio-para-grabar-voz-en-casa",
+      "type": "post_x",
+      "title": "Elige la mejor interfaz de audio para grabar tu voz en casa"
+    },
+    {
+      "slug": "que-comprar-para-interfaz-de-audio-para-grabar-voz-en-casa",
+      "type": "respuesta_youtube",
+      "title": "Elige la mejor interfaz de audio para grabar tu voz en casa"
+    },
+    {
+      "slug": "como-elegir-interfaz-de-audio-para-grabar-voz-en-casa",
+      "type": "respuesta_tecnica",
+      "title": "Elige la interfaz de audio ideal para grabar voces en casa"
+    },
+    {
+      "slug": "como-elegir-interfaz-de-audio-para-grabar-voz-en-casa",
+      "type": "post_educativo",
+      "title": "Elige la interfaz de audio ideal para grabar voces en casa"
+    },
+    {
+      "slug": "como-elegir-interfaz-de-audio-para-grabar-voz-en-casa",
+      "type": "post_social",
+      "title": "Elige la interfaz de audio ideal para grabar voces en casa"
+    },
+    {
+      "slug": "como-elegir-interfaz-de-audio-para-grabar-voz-en-casa",
+      "type": "post_x",
+      "title": "Elige la interfaz de audio ideal para grabar voces en casa"
+    },
+    {
+      "slug": "setup-con-interfaz-de-audio-para-grabar-voz-en-casa",
+      "type": "respuesta_tecnica",
+      "title": "Crea tu Home Studio para Grabar Voces de Forma Efectiva"
+    },
+    {
+      "slug": "setup-con-interfaz-de-audio-para-grabar-voz-en-casa",
+      "type": "post_educativo",
+      "title": "Crea tu Home Studio para Grabar Voces de Forma Efectiva"
+    },
+    {
+      "slug": "setup-con-interfaz-de-audio-para-grabar-voz-en-casa",
+      "type": "snippet_social",
+      "title": "Crea tu Home Studio para Grabar Voces en Casa"
+    },
+    {
+      "slug": "setup-con-interfaz-de-audio-para-grabar-voz-en-casa",
+      "type": "post_social",
+      "title": "Crea tu Home Studio para Grabar Voces en Casa"
+    },
+    {
+      "slug": "setup-con-interfaz-de-audio-para-grabar-voz-en-casa",
+      "type": "post_x",
+      "title": "Crea tu Home Studio para Grabar Voces"
+    },
+    {
+      "slug": "setup-con-interfaz-de-audio-para-grabar-voz-en-casa",
+      "type": "respuesta_youtube",
+      "title": "Crea tu Home Studio para Grabar Voces de Forma Efectiva"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-principiantes",
+      "type": "respuesta_tecnica",
+      "title": "Elegí tu Interfaz de Audio para Grabar Voz en Casa"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-principiantes",
+      "type": "post_educativo",
+      "title": "Elegí tu Interfaz de Audio para Grabar Voz en Casa"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-principiantes",
+      "type": "snippet_social",
+      "title": "Elegí tu Interfaz de Audio para Grabar Voz en Casa"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-principiantes",
+      "type": "post_social",
+      "title": "Elegí tu Interfaz de Audio para Grabar Voz en Casa"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-principiantes",
+      "type": "post_x",
+      "title": "Elegí tu Interfaz de Audio para Grabar Voz en Casa"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-principiantes",
+      "type": "respuesta_youtube",
+      "title": "Elegí tu Interfaz de Audio para Grabar Voz en Casa"
+    },
+    {
+      "slug": "interfaz-de-audio-para-grabar-voz-en-casa-28",
+      "type": "post_educativo",
+      "title": "La interfaz de audio perfecta para tu home studio"
+    },
+    {
+      "slug": "interfaz-de-audio-para-grabar-voz-en-casa-28",
+      "type": "snippet_social",
+      "title": "La interfaz de audio perfecta para tu home studio"
+    },
+    {
+      "slug": "interfaz-de-audio-para-grabar-voz-en-casa-28",
+      "type": "post_social",
+      "title": "La interfaz de audio perfecta para tu home studio"
+    },
+    {
+      "slug": "interfaz-de-audio-para-grabar-voz-en-casa-28",
+      "type": "post_x",
+      "title": "La interfaz de audio perfecta para tu home studio"
+    },
+    {
+      "slug": "interfaz-de-audio-para-grabar-voz-en-casa-28",
+      "type": "respuesta_youtube",
+      "title": "La interfaz de audio perfecta para grabar voces en casa"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-streaming",
+      "type": "respuesta_tecnica",
+      "title": "Las Mejores Interfaces de Audio para Grabar Voz en Casa"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-streaming",
+      "type": "post_educativo",
+      "title": "Las Mejores Interfaces de Audio para Grabar Voz en Casa"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-streaming",
+      "type": "snippet_social",
+      "title": "Las Mejores Interfaces de Audio para Grabar Voz en Casa"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-streaming",
+      "type": "post_social",
+      "title": "Las Mejores Interfaces de Audio para Grabar Voz en Casa 🎤"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-streaming",
+      "type": "post_x",
+      "title": "Las Mejores Interfaces de Audio para Grabar Voz en Casa"
+    },
+    {
+      "slug": "interfaz-audio-grabar-voz-streaming",
+      "type": "respuesta_youtube",
+      "title": "Las Mejores Interfaces de Audio para Grabar Voz en Casa"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "comparar-opciones-interfaz-audio-podcast",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "comparar-opciones-interfaz-audio-podcast",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "mejor-opcion-interfaz-audio-streaming",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "comparar-opciones-interfaz-audio-dos-entradas",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "comparar-opciones-interfaz-audio-dos-entradas",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "comparar-opciones-interfaz-audio-dos-entradas",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "comparar-opciones-interfaz-audio-dos-entradas",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "mejor-opcion-monitores-cuarto-chico",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "mejor-opcion-monitores-cuarto-chico",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "mejor-opcion-monitores-cuarto-chico",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms5-home-studio",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms5-home-studio",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms5-home-studio",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms5-home-studio",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms5-home-studio",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms6-home-studio",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms6-home-studio",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "microfono-condensador-para-voz-grabacion",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "brazo-para-microfono-streaming",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "brazo-para-microfono-streaming",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "monitores-para-mezclar-en-cuarto-chico",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "monitores-para-mezclar-en-cuarto-chico",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "monitores-para-mezclar-en-cuarto-chico",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-para-cubase",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-para-cubase",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "sintetizador-hardware-home-studio",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "sintetizador-hardware-home-studio",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "sintetizador-hardware-home-studio",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "sintetizador-hardware-home-studio",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "sintetizador-hardware-home-studio",
+      "type": "post_x",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "sintetizador-hardware-home-studio",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-fl-studio-home-studio",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-fl-studio-home-studio",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "como-elegir-controlador-midi-para-ableton",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-ableton-home-studio",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-ableton-home-studio",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-ableton-home-studio",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-ableton-fl-studio-comparativa",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "que-comprar-para-interfaz-de-audio-para-grabar-voz-en-casa",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "como-elegir-interfaz-de-audio-para-grabar-voz-en-casa",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "como-elegir-interfaz-de-audio-para-grabar-voz-en-casa",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "interfaz-de-audio-para-grabar-voz-en-casa-28",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 1273.15
+}

@@ -1,0 +1,342 @@
+{
+  "timestamp_utc": "20260605-142617-712087",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260605-142043-189219",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 48,
+  "pieces_blocked": 12,
+  "proposed": [
+    {
+      "slug": "guia-elegir-microfono-podcast-usb-xlr",
+      "type": "post_social",
+      "title": "Cómo Elegir el Micrófono Perfecto para Tu Podcast"
+    },
+    {
+      "slug": "guia-elegir-microfono-podcast-usb-xlr",
+      "type": "post_x",
+      "title": "Cómo Elegir el Micrófono Perfecto para Tu Podcast"
+    },
+    {
+      "slug": "guia-elegir-microfono-podcast-usb-xlr",
+      "type": "respuesta_youtube",
+      "title": "Cómo Elegir el Micrófono Perfecto para Tu Podcast"
+    },
+    {
+      "slug": "microfono-para-podcast-para-notebook",
+      "type": "respuesta_tecnica",
+      "title": "El micrófono perfecto para tu podcast en notebook"
+    },
+    {
+      "slug": "microfono-para-podcast-para-notebook",
+      "type": "post_social",
+      "title": "El micrófono perfecto para tu podcast en notebook"
+    },
+    {
+      "slug": "microfono-para-podcast-para-notebook",
+      "type": "post_x",
+      "title": "El micrófono perfecto para tu podcast en notebook"
+    },
+    {
+      "slug": "microfono-para-podcast-para-notebook",
+      "type": "respuesta_youtube",
+      "title": "El micrófono perfecto para tu podcast en notebook"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-home-studio-3",
+      "type": "respuesta_tecnica",
+      "title": "Arturia MiniLab 3: Ideal para FL Studio en Home Studios Pequeños"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-home-studio-3",
+      "type": "post_educativo",
+      "title": "Arturia MiniLab 3: Tu Controlador MIDI para FL Studio"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-home-studio-3",
+      "type": "snippet_social",
+      "title": "Arturia MiniLab 3: Controlador Ideal para FL Studio"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-home-studio-3",
+      "type": "post_social",
+      "title": "Arturia MiniLab 3: Tu Compañero Ideal para FL Studio"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-home-studio-3",
+      "type": "post_x",
+      "title": "Arturia MiniLab 3: Ideal para tu Home Studio en FL Studio"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-home-studio-3",
+      "type": "respuesta_youtube",
+      "title": "Arturia MiniLab 3: Ideal para tu Home Studio en FL Studio"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-departamento",
+      "type": "respuesta_tecnica",
+      "title": "Controlador MIDI Synido TempoKEY 25: Ideal para espacios pequeños"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-departamento",
+      "type": "post_educativo",
+      "title": "Controlador MIDI Synido TempoKEY 25: Ideal para espacios pequeños"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-departamento",
+      "type": "snippet_social",
+      "title": "Controlador MIDI Synido TempoKEY 25: Ideal para espacios pequeños"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-departamento",
+      "type": "post_social",
+      "title": "Controlador MIDI Synido TempoKEY 25: Perfecto para tu departamento"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-departamento",
+      "type": "post_x",
+      "title": "Controlador MIDI Synido TempoKEY 25: Ideal para espacios pequeños"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-departamento",
+      "type": "respuesta_youtube",
+      "title": "Controlador MIDI Synido TempoKEY 25: Compacto y Funcional"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-escritorio",
+      "type": "respuesta_tecnica",
+      "title": "Synido TempoKEY 25: Ideal para Producción en Espacios Reducidos"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-escritorio",
+      "type": "post_educativo",
+      "title": "Synido TempoKEY 25: Tu Compañero Ideal para Producción Compacta"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-escritorio",
+      "type": "snippet_social",
+      "title": "Synido TempoKEY 25: Ideal para Producción Compacta"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-escritorio",
+      "type": "post_social",
+      "title": "Synido TempoKEY 25: Ideal para tu Espacio de Producción Compacto"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-escritorio",
+      "type": "post_x",
+      "title": "Synido TempoKEY 25: Ideal para Producción Compacta"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-escritorio",
+      "type": "respuesta_youtube",
+      "title": "Synido TempoKEY 25: Ideal para Espacios Compactos"
+    },
+    {
+      "slug": "synido-livemix-streaming-monitores",
+      "type": "respuesta_tecnica",
+      "title": "Optimiza tu Streaming con Synido LiveMix y Monitores de Estudio"
+    },
+    {
+      "slug": "synido-livemix-streaming-monitores",
+      "type": "post_educativo",
+      "title": "Optimiza tu Streaming con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-monitores",
+      "type": "snippet_social",
+      "title": "Optimiza tu Streaming con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-monitores",
+      "type": "post_social",
+      "title": "Optimiza tu Streaming con Synido LiveMix 🎤"
+    },
+    {
+      "slug": "synido-livemix-streaming-monitores",
+      "type": "post_x",
+      "title": "Optimiza tu Streaming con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-monitores",
+      "type": "respuesta_youtube",
+      "title": "Optimiza tu Streaming con Synido LiveMix para Monitores"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-home-studio-20",
+      "type": "respuesta_tecnica",
+      "title": "MIDIPLUS AKM322: Ideal para Home Studio Compacto"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-home-studio-20",
+      "type": "post_educativo",
+      "title": "MIDIPLUS AKM322: El Controlador Compacto que Necesitás"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-home-studio-20",
+      "type": "snippet_social",
+      "title": "MIDIPLUS AKM322: Ideal para tu Home Studio Compacto"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-home-studio-20",
+      "type": "post_social",
+      "title": "MIDIPLUS AKM322: El Controlador Compacto que Necesitás"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-home-studio-20",
+      "type": "post_x",
+      "title": "MIDIPLUS AKM322: Ideal para tu Home Studio Compacto"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-home-studio-20",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS AKM322: Ideal para Home Studios Compactos"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-home-studio",
+      "type": "post_x",
+      "title": "MIDIPLUS i61: Ideal para tu Home Studio"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-departamento",
+      "type": "respuesta_tecnica",
+      "title": "MIDIPLUS i61: Ideal para Espacios Reducidos con Más Teclas"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-departamento",
+      "type": "post_educativo",
+      "title": "MIDIPLUS i61: Tu Compañero Musical en el Departamento"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-departamento",
+      "type": "snippet_social",
+      "title": "MIDIPLUS i61: Tu Compañero Musical en el Departamento"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-departamento",
+      "type": "post_social",
+      "title": "Descubre el MIDIPLUS i61: Perfecto para tu Espacio Musical"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-departamento",
+      "type": "post_x",
+      "title": "MIDIPLUS i61: Ideal para tu Espacio Musical en el Departamento"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-departamento",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS i61: Ideal para tu Espacio Musical en el Departamento"
+    },
+    {
+      "slug": "controlador-midi-61-teclas",
+      "type": "snippet_social",
+      "title": "MIDIPLUS i61: Tu Compañero Ideal para la Producción Musical"
+    },
+    {
+      "slug": "controlador-midi-61-teclas",
+      "type": "post_social",
+      "title": "MIDIPLUS i61: Tu Compañero Ideal para la Producción Musical"
+    },
+    {
+      "slug": "controlador-midi-61-teclas",
+      "type": "post_x",
+      "title": "MIDIPLUS i61: Tu Compañero Ideal para la Producción Musical"
+    },
+    {
+      "slug": "controlador-midi-61-teclas",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS i61: Ideal para un Workflow Eficiente en Producción Musical"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "guia-elegir-microfono-podcast-usb-xlr",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-elegir-microfono-podcast-usb-xlr",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-elegir-microfono-podcast-usb-xlr",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "microfono-para-podcast-para-notebook",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "microfono-para-podcast-para-notebook",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-61-teclas-home-studio",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-61-teclas-home-studio",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-61-teclas-home-studio",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-61-teclas-home-studio",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-61-teclas-home-studio",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-61-teclas",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-61-teclas",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 334.52
+}

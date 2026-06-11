@@ -1,0 +1,14 @@
+{
+  "timestamp_utc": "20260602-123007-194109",
+  "command": "process",
+  "database": "postgres",
+  "dry_run": false,
+  "limit": 5,
+  "results": {
+    "processed": 0,
+    "sent": 0,
+    "skipped": 0,
+    "failed": 0,
+    "errors": []
+  }
+}

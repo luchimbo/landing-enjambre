@@ -1,0 +1,176 @@
+{
+  "timestamp_utc": "20260604-124943-181243",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260604-124644-551219",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 5,
+  "pieces_proposed": 26,
+  "pieces_blocked": 4,
+  "proposed": [
+    {
+      "slug": "comparar-monitores-estudio-home-studio-chico",
+      "type": "post_social",
+      "title": "Eligiendo Monitores de Estudio para Tu Home Studio Chico"
+    },
+    {
+      "slug": "comparar-monitores-estudio-home-studio-chico",
+      "type": "post_x",
+      "title": "Eligiendo Monitores de Estudio para Tu Home Studio Chico"
+    },
+    {
+      "slug": "comparar-monitores-estudio-home-studio-chico",
+      "type": "respuesta_youtube",
+      "title": "Eligiendo Monitores de Estudio para Tu Home Studio Chico"
+    },
+    {
+      "slug": "guia-elegir-audio-technica-ath-m50x-monitoreo",
+      "type": "respuesta_tecnica",
+      "title": "Guía para Elegir el Audio Technica ATH-M50x para Monitoreo"
+    },
+    {
+      "slug": "guia-elegir-audio-technica-ath-m50x-monitoreo",
+      "type": "post_educativo",
+      "title": "Elige el Audio Technica ATH-M50x para Monitoreo de Calidad"
+    },
+    {
+      "slug": "guia-elegir-audio-technica-ath-m50x-monitoreo",
+      "type": "snippet_social",
+      "title": "Guía para Elegir Audio Technica ATH-M50x para Monitoreo"
+    },
+    {
+      "slug": "guia-elegir-audio-technica-ath-m50x-monitoreo",
+      "type": "post_social",
+      "title": "Elige el Audio Technica ATH-M50x para Monitoreo de Calidad"
+    },
+    {
+      "slug": "guia-elegir-audio-technica-ath-m50x-monitoreo",
+      "type": "post_x",
+      "title": "Elige el Audio Technica ATH-M50x para Monitoreo de Calidad"
+    },
+    {
+      "slug": "guia-elegir-audio-technica-ath-m50x-monitoreo",
+      "type": "respuesta_youtube",
+      "title": "Guía para Elegir el Audio Technica ATH-M50x para Monitoreo"
+    },
+    {
+      "slug": "setup-audio-technica-ath-m50x-monitoreo",
+      "type": "post_educativo",
+      "title": "Crea tu setup de monitoreo con Audio Technica ATH-M50x"
+    },
+    {
+      "slug": "setup-audio-technica-ath-m50x-monitoreo",
+      "type": "snippet_social",
+      "title": "Crea tu setup de monitoreo con Audio Technica ATH-M50x"
+    },
+    {
+      "slug": "setup-audio-technica-ath-m50x-monitoreo",
+      "type": "post_social",
+      "title": "Crea tu setup de monitoreo con Audio Technica ATH-M50x"
+    },
+    {
+      "slug": "setup-audio-technica-ath-m50x-monitoreo",
+      "type": "post_x",
+      "title": "Crea tu setup de monitoreo con Audio Technica ATH-M50x"
+    },
+    {
+      "slug": "setup-audio-technica-ath-m50x-monitoreo",
+      "type": "respuesta_youtube",
+      "title": "Crea tu setup de monitoreo con Audio Technica ATH-M50x"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo-principiantes",
+      "type": "respuesta_tecnica",
+      "title": "Audio Technica ATH-M50x: Auricular Ideal para Principiantes"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo-principiantes",
+      "type": "post_educativo",
+      "title": "Audio Technica ATH-M50x: El Auricular Perfecto para Principiantes"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo-principiantes",
+      "type": "snippet_social",
+      "title": "Audio Technica ATH-M50x: Ideal para Principiantes en Monitoreo"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo-principiantes",
+      "type": "post_social",
+      "title": "Audio Technica ATH-M50x: Ideal para Principiantes en Monitoreo"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo-principiantes",
+      "type": "post_x",
+      "title": "Audio Technica ATH-M50x: Ideal para Principiantes en Monitoreo"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo-principiantes",
+      "type": "respuesta_youtube",
+      "title": "Audio Technica ATH-M50x: Ideal para Principiantes en Monitoreo"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Audio Technica ATH-M50x: Monitoreo en Home Studio"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo-home-studio",
+      "type": "post_educativo",
+      "title": "Audio Technica ATH-M50x: La Elección de los Profesionales"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo-home-studio",
+      "type": "snippet_social",
+      "title": "Audio Technica ATH-M50x: La Elección de los Profesionales"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo-home-studio",
+      "type": "post_social",
+      "title": "Audio Technica ATH-M50x: Auriculares de Referencia para tu Home Studio"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo-home-studio",
+      "type": "post_x",
+      "title": "Audio Technica ATH-M50x: La Elección de los Profesionales"
+    },
+    {
+      "slug": "audio-technica-ath-m50x-monitoreo-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Audio Technica ATH-M50x: Ideal para Monitoreo en Home Studio"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "comparar-monitores-estudio-home-studio-chico",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "comparar-monitores-estudio-home-studio-chico",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "comparar-monitores-estudio-home-studio-chico",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "setup-audio-technica-ath-m50x-monitoreo",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: precio"
+      ]
+    }
+  ],
+  "elapsed_seconds": 178.63
+}

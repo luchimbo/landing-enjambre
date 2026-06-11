@@ -1,0 +1,81 @@
+{
+  "timestamp_utc": "20260522-161829-803943",
+  "command": "weekly",
+  "status": "ok",
+  "dry_run": true,
+  "steps": [
+    {
+      "step": "validate-before",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\build_landings.py",
+        "validate"
+      ],
+      "started_utc": "20260522-161811-330346",
+      "finished_utc": "20260522-161811-525512",
+      "returncode": 0,
+      "status": "ok"
+    },
+    {
+      "step": "research",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\build_landings.py",
+        "research",
+        "--limit",
+        "0",
+        "--no-web"
+      ],
+      "started_utc": "20260522-161811-525572",
+      "finished_utc": "20260522-161811-693547",
+      "returncode": 0,
+      "status": "ok"
+    },
+    {
+      "step": "generate",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\build_landings.py",
+        "generate",
+        "--limit",
+        "0",
+        "--dry-run",
+        "--max-seconds",
+        "1"
+      ],
+      "started_utc": "20260522-161811-693607",
+      "finished_utc": "20260522-161811-826777",
+      "returncode": 0,
+      "status": "ok"
+    },
+    {
+      "step": "validate-after",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\build_landings.py",
+        "validate"
+      ],
+      "started_utc": "20260522-161811-826845",
+      "finished_utc": "20260522-161812-012684",
+      "returncode": 0,
+      "status": "ok"
+    },
+    {
+      "step": "build",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\build_landings.py",
+        "build"
+      ],
+      "started_utc": "20260522-161812-012745",
+      "finished_utc": "20260522-161829-803708",
+      "returncode": 0,
+      "status": "ok"
+    },
+    {
+      "step": "deploy",
+      "status": "skipped",
+      "reason": "dry_run"
+    }
+  ]
+}

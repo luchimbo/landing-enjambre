@@ -1,0 +1,87 @@
+{
+  "timestamp_utc": "20260527-160054-219970",
+  "command": "auto-distribution",
+  "channels": [
+    "linkedin"
+  ],
+  "unsupported_channels": [],
+  "limit": 1,
+  "per_channel": 1,
+  "dry_run": false,
+  "allow_proposed": false,
+  "published_or_attempted": 1,
+  "blocked_seen": 0,
+  "results": [
+    {
+      "id": "20260527-155248-456296:linkedin:auto-listen:2",
+      "channel": "linkedin",
+      "slug": "controlador-midi-para-fl-studio",
+      "result": {
+        "ok": true,
+        "url": "https://www.linkedin.com/feed/",
+        "dismissed": [
+          {
+            "ok": true,
+            "label": "cerrar menú de omisión"
+          }
+        ],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "linkedin_post_prompt",
+              "ok": false,
+              "open": {
+                "ok": true,
+                "label": "crear publicación"
+              },
+              "fill": {
+                "ok": false,
+                "error": "editor visible no encontrado"
+              },
+              "submit": {
+                "ok": false,
+                "error": "boton por texto no encontrado",
+                "texts": [
+                  "publicar",
+                  "post"
+                ]
+              },
+              "keyboard_submit": {
+                "ok": false,
+                "skipped": true
+              }
+            },
+            {
+              "strategy": "linkedin_comment",
+              "ok": true,
+              "open": {
+                "ok": true,
+                "label": "91 comentarios 91 comentarios"
+              },
+              "fill": {
+                "ok": true,
+                "selector": "[aria-label][contenteditable=\"true\"]",
+                "length": 340
+              },
+              "submit": {
+                "ok": false,
+                "error": "boton por texto no encontrado",
+                "texts": [
+                  "publicar",
+                  "post"
+                ]
+              },
+              "keyboard_submit": {
+                "ok": true,
+                "method": "ctrl_enter"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "blocked_sample": []
+}

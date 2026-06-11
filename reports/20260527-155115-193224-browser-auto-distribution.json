@@ -1,0 +1,66 @@
+{
+  "timestamp_utc": "20260527-155115-193224",
+  "command": "auto-distribution",
+  "channels": [
+    "facebook",
+    "linkedin"
+  ],
+  "unsupported_channels": [],
+  "limit": 2,
+  "per_channel": 1,
+  "dry_run": false,
+  "allow_proposed": false,
+  "published_or_attempted": 2,
+  "blocked_seen": 0,
+  "results": [
+    {
+      "id": "20260527-142132-390942:monitores-5-pulgadas-vs-6-pulgadas:post_educativo:linkedin:1779891709970",
+      "channel": "linkedin",
+      "slug": "monitores-5-pulgadas-vs-6-pulgadas",
+      "result": {
+        "ok": false,
+        "url": "https://www.linkedin.com/feed/",
+        "open": {
+          "ok": true,
+          "label": "crear publicación"
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "publicar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260527-142132-390942:monitores-5-pulgadas-vs-6-pulgadas:snippet_social:social:1779891723557",
+      "channel": "facebook",
+      "slug": "monitores-5-pulgadas-vs-6-pulgadas",
+      "result": {
+        "ok": false,
+        "url": "https://www.facebook.com/",
+        "open": {
+          "ok": true,
+          "label": "crear una publicación ¿qué estás pensando, bruno?"
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "publicar"
+          ]
+        }
+      }
+    }
+  ],
+  "blocked_sample": []
+}

@@ -1,0 +1,31 @@
+{
+  "timestamp_utc": "20260527-190755-654376",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260527-190748-778750",
+  "dry_run": true,
+  "channel_filter": "facebook",
+  "since_last_deploy": false,
+  "landings_selected": 2,
+  "pieces_proposed": 0,
+  "pieces_blocked": 2,
+  "proposed": [],
+  "blocked": [
+    {
+      "slug": "monitores-5-pulgadas-vs-6-pulgadas",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-25-teclas-vs-49-teclas",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 6.88
+}

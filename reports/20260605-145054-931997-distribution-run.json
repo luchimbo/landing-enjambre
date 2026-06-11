@@ -1,0 +1,1578 @@
+{
+  "timestamp_utc": "20260605-145054-931997",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260605-142309-896314",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 50,
+  "pieces_proposed": 242,
+  "pieces_blocked": 58,
+  "proposed": [
+    {
+      "slug": "guia-elegir-microfono-podcast-usb-xlr",
+      "type": "post_social",
+      "title": "Cómo Elegir el Micrófono Perfecto para Tu Podcast"
+    },
+    {
+      "slug": "guia-elegir-microfono-podcast-usb-xlr",
+      "type": "post_x",
+      "title": "Cómo Elegir el Micrófono Perfecto para Tu Podcast"
+    },
+    {
+      "slug": "guia-elegir-microfono-podcast-usb-xlr",
+      "type": "respuesta_youtube",
+      "title": "Cómo Elegir el Micrófono Perfecto para Tu Podcast"
+    },
+    {
+      "slug": "microfono-para-podcast-para-notebook",
+      "type": "respuesta_tecnica",
+      "title": "El micrófono perfecto para tu podcast en notebook"
+    },
+    {
+      "slug": "microfono-para-podcast-para-notebook",
+      "type": "post_educativo",
+      "title": "El micrófono perfecto para tu podcast en notebook"
+    },
+    {
+      "slug": "microfono-para-podcast-para-notebook",
+      "type": "snippet_social",
+      "title": "El micrófono perfecto para tu podcast en notebook"
+    },
+    {
+      "slug": "microfono-para-podcast-para-notebook",
+      "type": "post_social",
+      "title": "El micrófono ideal para tu podcast en notebook"
+    },
+    {
+      "slug": "microfono-para-podcast-para-notebook",
+      "type": "post_x",
+      "title": "El micrófono perfecto para tu podcast en notebook"
+    },
+    {
+      "slug": "microfono-para-podcast-para-notebook",
+      "type": "respuesta_youtube",
+      "title": "El micrófono ideal para tu podcast en notebook: USB vs XLR"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-home-studio-3",
+      "type": "post_educativo",
+      "title": "Arturia MiniLab 3: Tu Controlador MIDI para FL Studio"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-home-studio-3",
+      "type": "snippet_social",
+      "title": "Arturia MiniLab 3: Ideal para tu Home Studio en FL Studio"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-home-studio-3",
+      "type": "post_social",
+      "title": "Arturia MiniLab 3: Tu Controlador MIDI para FL Studio"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-home-studio-3",
+      "type": "post_x",
+      "title": "Arturia MiniLab 3: Tu Controlador MIDI Ideal para FL Studio"
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-home-studio-3",
+      "type": "respuesta_youtube",
+      "title": "Arturia MiniLab 3: Ideal para tu Home Studio en FL Studio"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-departamento",
+      "type": "respuesta_tecnica",
+      "title": "Controlador MIDI Synido TempoKEY 25: Ideal para espacios pequeños"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-departamento",
+      "type": "post_educativo",
+      "title": "Controlador MIDI Synido TempoKEY 25: Ideal para espacios pequeños"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-departamento",
+      "type": "snippet_social",
+      "title": "Controlador MIDI Synido TempoKEY 25: Ideal para espacios pequeños"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-departamento",
+      "type": "post_social",
+      "title": "Controlador MIDI Synido TempoKEY 25: Perfecto para tu departamento"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-departamento",
+      "type": "post_x",
+      "title": "Controlador MIDI Synido TempoKEY 25: Compacto y Funcional"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-departamento",
+      "type": "respuesta_youtube",
+      "title": "Controlador MIDI Synido TempoKEY 25: Compacto y Funcional"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-escritorio",
+      "type": "post_educativo",
+      "title": "Synido TempoKEY 25: Tu Compañero Ideal para Producción Compacta"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-escritorio",
+      "type": "snippet_social",
+      "title": "Synido TempoKEY 25: Tu Compañero Ideal para Producción Compacta"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-escritorio",
+      "type": "post_social",
+      "title": "Synido TempoKEY 25: Tu Compañero Ideal para Producción Compacta"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-escritorio",
+      "type": "post_x",
+      "title": "Synido TempoKEY 25: Ideal para Producción Compacta"
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-escritorio",
+      "type": "respuesta_youtube",
+      "title": "Synido TempoKEY 25: Ideal para Espacios Compactos"
+    },
+    {
+      "slug": "synido-livemix-streaming-monitores",
+      "type": "respuesta_tecnica",
+      "title": "Optimiza tu Streaming con Synido LiveMix y Monitores de Estudio"
+    },
+    {
+      "slug": "synido-livemix-streaming-monitores",
+      "type": "post_educativo",
+      "title": "Optimiza tu Streaming con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-monitores",
+      "type": "snippet_social",
+      "title": "Optimiza tu Streaming con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-monitores",
+      "type": "post_social",
+      "title": "Optimiza tu Streaming con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-monitores",
+      "type": "post_x",
+      "title": "Optimiza tu Streaming con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-monitores",
+      "type": "respuesta_youtube",
+      "title": "Optimiza tu Streaming con Synido LiveMix y Monitores"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-home-studio-20",
+      "type": "respuesta_tecnica",
+      "title": "MIDIPLUS AKM322: Un Controlador Compacto para Tu Home Studio"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-home-studio-20",
+      "type": "post_educativo",
+      "title": "MIDIPLUS AKM322: El Controlador Compacto que Necesitás"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-home-studio-20",
+      "type": "snippet_social",
+      "title": "MIDIPLUS AKM322: Controlador Compacto para tu Home Studio"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-home-studio-20",
+      "type": "post_social",
+      "title": "MIDIPLUS AKM322: El Controlador Compacto que Necesitás"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-home-studio-20",
+      "type": "post_x",
+      "title": "MIDIPLUS AKM322: El Controlador Compacto Ideal para tu Home Studio"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-home-studio-20",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS AKM322: Ideal para Home Studios Compactos"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-home-studio",
+      "type": "snippet_social",
+      "title": "MIDIPLUS i61: Ideal para tu Home Studio"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-home-studio",
+      "type": "post_x",
+      "title": "MIDIPLUS i61: Ideal para tu Home Studio"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-departamento",
+      "type": "respuesta_tecnica",
+      "title": "MIDIPLUS i61: Ideal para Productores en Espacios Reducidos"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-departamento",
+      "type": "post_educativo",
+      "title": "MIDIPLUS i61: Tu Compañero Musical en el Departamento"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-departamento",
+      "type": "snippet_social",
+      "title": "MIDIPLUS i61: Tu Compañero Musical en el Departamento"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-departamento",
+      "type": "post_social",
+      "title": "MIDIPLUS i61: Tu Compañero Musical en el Departamento"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-departamento",
+      "type": "post_x",
+      "title": "MIDIPLUS i61: Tu Compañero Musical en el Departamento"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-departamento",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS i61: Ideal para tu Espacio Musical en el Departamento"
+    },
+    {
+      "slug": "controlador-midi-61-teclas",
+      "type": "post_educativo",
+      "title": "MIDIPLUS i61: Tu Compañero Ideal para la Producción Musical"
+    },
+    {
+      "slug": "controlador-midi-61-teclas",
+      "type": "snippet_social",
+      "title": "MIDIPLUS i61: Tu Compañero Ideal para la Producción Musical"
+    },
+    {
+      "slug": "controlador-midi-61-teclas",
+      "type": "post_social",
+      "title": "MIDIPLUS i61: Tu Compañero Ideal para la Producción Musical"
+    },
+    {
+      "slug": "controlador-midi-61-teclas",
+      "type": "post_x",
+      "title": "MIDIPLUS i61: Tu Compañero Ideal para la Producción Musical"
+    },
+    {
+      "slug": "controlador-midi-61-teclas",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS i61: Ideal para un Flujo de Trabajo Eficiente"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-beats",
+      "type": "respuesta_tecnica",
+      "title": "MIDIPLUS i61: Ideal para Expandir Tu Creatividad en Beats"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-beats",
+      "type": "post_educativo",
+      "title": "MIDIPLUS i61: Tu Compañero Perfecto para Hacer Beats"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-beats",
+      "type": "snippet_social",
+      "title": "MIDIPLUS i61: Ideal para tus Beats y Melodías"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-beats",
+      "type": "post_social",
+      "title": "MIDIPLUS i61: Tu Compañero Perfecto para Hacer Beats"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-beats",
+      "type": "post_x",
+      "title": "MIDIPLUS i61: Ideal para Expandir tu Creatividad en Beats"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-beats",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS i61: Ideal para Expandir tu Creatividad Musical"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-escritorio-chico",
+      "type": "respuesta_tecnica",
+      "title": "MIDIPLUS i61: Ideal para Escritorios Pequeños"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-escritorio-chico",
+      "type": "snippet_social",
+      "title": "MIDIPLUS i61: Tu Compañero Ideal para el Escritorio"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-escritorio-chico",
+      "type": "post_social",
+      "title": "MIDIPLUS i61: Tu Compañero Ideal para el Escritorio"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-escritorio-chico",
+      "type": "post_x",
+      "title": "MIDIPLUS i61: Ideal para tu Escritorio Compacto"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-creadores-contenido",
+      "type": "respuesta_tecnica",
+      "title": "MIDIPLUS Studio M: Interfaz Ideal para Creadores de Contenido"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-creadores-contenido",
+      "type": "post_educativo",
+      "title": "MIDIPLUS Studio M: Tu Aliada en el Home Studio"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-creadores-contenido",
+      "type": "snippet_social",
+      "title": "MIDIPLUS Studio M: Tu Aliada en el Home Studio"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-creadores-contenido",
+      "type": "post_social",
+      "title": "MIDIPLUS Studio M: Tu Aliada en el Home Studio"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-creadores-contenido",
+      "type": "post_x",
+      "title": "MIDIPLUS Studio M: Tu Aliada en el Home Studio"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-creadores-contenido",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS Studio M: Ideal para tu Home Studio"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-portable",
+      "type": "respuesta_tecnica",
+      "title": "MIDIPLUS Studio M: Interfaz Ideal para Home Studios Portátiles"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-portable",
+      "type": "post_educativo",
+      "title": "MIDIPLUS Studio M: Tu Compañera Ideal para el Home Studio"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-portable",
+      "type": "snippet_social",
+      "title": "MIDIPLUS Studio M: Ideal para tu Home Studio Portable"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-portable",
+      "type": "post_social",
+      "title": "MIDIPLUS Studio M: Tu Compañera Ideal para el Home Studio"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-portable",
+      "type": "post_x",
+      "title": "MIDIPLUS Studio M: Ideal para tu Home Studio Portable"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-portable",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS Studio M: Ideal para tu Home Studio Portable"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-audio",
+      "type": "post_educativo",
+      "title": "Mejorá tu audio en casa con MIDIPLUS Studio M"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-audio",
+      "type": "snippet_social",
+      "title": "Mejorá tu audio en casa con MIDIPLUS Studio M"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-audio",
+      "type": "post_social",
+      "title": "Mejorá tu audio en casa con MIDIPLUS Studio M"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-audio",
+      "type": "post_x",
+      "title": "Mejorá tu audio en casa con MIDIPLUS Studio M"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-audio",
+      "type": "respuesta_youtube",
+      "title": "Mejorá tu audio en casa con MIDIPLUS Studio M"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-voz",
+      "type": "respuesta_tecnica",
+      "title": "MIDIPLUS Studio M: Ideal para Grabar Voces en Home Studio"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-voz",
+      "type": "post_educativo",
+      "title": "MIDIPLUS Studio M: Tu Aliado para Grabar Voces"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-voz",
+      "type": "snippet_social",
+      "title": "MIDIPLUS Studio M: Tu Aliado para Grabar Voces"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-voz",
+      "type": "post_social",
+      "title": "MIDIPLUS Studio M: Tu Aliado para Grabar Voces en Casa"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-voz",
+      "type": "post_x",
+      "title": "MIDIPLUS Studio M: Ideal para Grabar Voces en tu Home Studio"
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-voz",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS Studio M: Ideal para Grabar Voces en Home Studio"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-chico",
+      "type": "post_social",
+      "title": "Monitores Midiplus MS5: Ideales para tu Home Studio Chico"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-chico",
+      "type": "post_x",
+      "title": "Monitores Midiplus MS5: Ideales para Home Studios Pequeños"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-portable",
+      "type": "respuesta_tecnica",
+      "title": "Monitores Midiplus MS5: Tu aliado en el home studio"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-portable",
+      "type": "post_educativo",
+      "title": "Monitores Midiplus MS5: Tu aliado en el home studio"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-portable",
+      "type": "snippet_social",
+      "title": "Monitores Midiplus MS5: Tu aliado en el home studio"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-portable",
+      "type": "post_social",
+      "title": "Monitores Midiplus MS5: Tu aliado en el home studio"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-portable",
+      "type": "post_x",
+      "title": "Monitores Midiplus MS5: Tu aliado en el home studio"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-portable",
+      "type": "respuesta_youtube",
+      "title": "Monitores Midiplus MS5: Ideal para tu Home Studio Portable"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-audio",
+      "type": "respuesta_tecnica",
+      "title": "Monitores Midiplus MS5: Ideal para tu Home Studio"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-audio",
+      "type": "post_educativo",
+      "title": "Transforma tu home studio con los monitores Midiplus MS5"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-audio",
+      "type": "snippet_social",
+      "title": "Transforma tu home studio con los monitores Midiplus MS5"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-audio",
+      "type": "post_x",
+      "title": "Transforma tu home studio con los monitores Midiplus MS5"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-escritorio",
+      "type": "respuesta_tecnica",
+      "title": "Monitores Midiplus MS5: Sonido Profesional en tu Escritorio"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-escritorio",
+      "type": "post_educativo",
+      "title": "Monitores Midiplus MS5: Sonido Profesional en tu Escritorio"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-escritorio",
+      "type": "snippet_social",
+      "title": "Monitores Midiplus MS5: Sonido Profesional en tu Escritorio"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-escritorio",
+      "type": "post_social",
+      "title": "Monitores Midiplus MS5: Sonido Profesional en tu Escritorio"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-escritorio",
+      "type": "post_x",
+      "title": "Monitores Midiplus MS5: Sonido Profesional en tu Escritorio"
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-creadores-contenido",
+      "type": "snippet_social",
+      "title": "Monitores Midiplus MS6: Sonido Ideal para Tu Home Studio"
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-creadores-contenido",
+      "type": "post_x",
+      "title": "Monitores Midiplus MS6: Sonido Profesional para Creadores"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-para-directo",
+      "type": "respuesta_tecnica",
+      "title": "Arturia MiniFreak vs MicroFreak: ¿Cuál elegir para tus shows?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-para-directo",
+      "type": "post_educativo",
+      "title": "Arturia MiniFreak vs MicroFreak: ¿Cuál elegir para tus shows?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-para-directo",
+      "type": "snippet_social",
+      "title": "Arturia MiniFreak vs MicroFreak: ¿Cuál elegir para tus shows?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-para-directo",
+      "type": "post_social",
+      "title": "Arturia MiniFreak vs MicroFreak: ¿Cuál elegir para tus shows?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-para-directo",
+      "type": "post_x",
+      "title": "Arturia MiniFreak vs MicroFreak: ¿Cuál elegir para tus shows?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-para-directo",
+      "type": "respuesta_youtube",
+      "title": "Arturia MiniFreak vs MicroFreak: ¿Cuál elegir para tus shows?"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis",
+      "type": "respuesta_tecnica",
+      "title": "Elige tu primer sintetizador para aprender síntesis"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis",
+      "type": "post_educativo",
+      "title": "Elige tu primer sintetizador para aprender síntesis"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis",
+      "type": "snippet_social",
+      "title": "Elige tu primer sintetizador para aprender síntesis"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis",
+      "type": "post_social",
+      "title": "Elige tu primer sintetizador para aprender síntesis"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis",
+      "type": "post_x",
+      "title": "Elige tu primer sintetizador para aprender síntesis"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis",
+      "type": "respuesta_youtube",
+      "title": "Elige tu primer sintetizador para aprender síntesis"
+    },
+    {
+      "slug": "bateria-electronica-para-departamento",
+      "type": "respuesta_tecnica",
+      "title": "Baterías Electrónicas para Practicar en Departamentos: Guía Técnica"
+    },
+    {
+      "slug": "bateria-electronica-para-departamento",
+      "type": "post_educativo",
+      "title": "Baterías Electrónicas Perfectas para Practicar en Casa"
+    },
+    {
+      "slug": "bateria-electronica-para-departamento",
+      "type": "snippet_social",
+      "title": "Baterías Electrónicas para Practicar en Casa sin Molestar"
+    },
+    {
+      "slug": "bateria-electronica-para-departamento",
+      "type": "post_social",
+      "title": "Baterías Electrónicas: ¡Perfectas para Practicar en Casa! 🥁"
+    },
+    {
+      "slug": "bateria-electronica-para-departamento",
+      "type": "post_x",
+      "title": "Baterías Electrónicas: Practica en Casa sin Molestar"
+    },
+    {
+      "slug": "bateria-electronica-para-departamento",
+      "type": "respuesta_youtube",
+      "title": "Baterías Electrónicas: La Solución para Practicar en Casa"
+    },
+    {
+      "slug": "setup-de-streaming-con-buen-audio",
+      "type": "respuesta_tecnica",
+      "title": "Arma tu setup de streaming con audio profesional"
+    },
+    {
+      "slug": "setup-de-streaming-con-buen-audio",
+      "type": "post_educativo",
+      "title": "Arma tu setup de streaming con audio profesional"
+    },
+    {
+      "slug": "setup-de-streaming-con-buen-audio",
+      "type": "snippet_social",
+      "title": "Arma tu setup de streaming con audio profesional"
+    },
+    {
+      "slug": "setup-de-streaming-con-buen-audio",
+      "type": "post_social",
+      "title": "Arma tu setup de streaming con audio profesional"
+    },
+    {
+      "slug": "setup-de-streaming-con-buen-audio",
+      "type": "post_x",
+      "title": "Arma tu setup de streaming con audio profesional"
+    },
+    {
+      "slug": "setup-de-streaming-con-buen-audio",
+      "type": "respuesta_youtube",
+      "title": "Arma tu setup de streaming con audio profesional"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-ableton",
+      "type": "post_social",
+      "title": "Arturia MiniLab 3: Tu Compañero Ideal para Ableton"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-ableton",
+      "type": "post_x",
+      "title": "Arturia MiniLab 3: Ideal para tu producción en Ableton"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-ableton",
+      "type": "respuesta_youtube",
+      "title": "Arturia MiniLab 3: Ideal para tu producción en Ableton"
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador",
+      "type": "respuesta_tecnica",
+      "title": "Arturia KeyStep Pro: Un Controlador Secuenciador Versátil"
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador",
+      "type": "post_educativo",
+      "title": "Arturia KeyStep Pro: Tu aliado en la producción musical"
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador",
+      "type": "snippet_social",
+      "title": "Arturia KeyStep Pro: Tu aliado en la producción musical"
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador",
+      "type": "post_social",
+      "title": "Arturia KeyStep Pro: Tu aliado en la producción musical"
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador",
+      "type": "post_x",
+      "title": "Arturia KeyStep Pro: Ideal para tu producción musical"
+    },
+    {
+      "slug": "arturia-keystep-pro-controlador-secuenciador",
+      "type": "respuesta_youtube",
+      "title": "Arturia KeyStep Pro: Un gran controlador secuenciador"
+    },
+    {
+      "slug": "arturia-microfreak-para-empezar-en-sintesis",
+      "type": "respuesta_tecnica",
+      "title": "Arturia MicroFreak: El sintetizador ideal para principiantes"
+    },
+    {
+      "slug": "arturia-microfreak-para-empezar-en-sintesis",
+      "type": "post_educativo",
+      "title": "Arturia MicroFreak: El sintetizador ideal para principiantes"
+    },
+    {
+      "slug": "arturia-microfreak-para-empezar-en-sintesis",
+      "type": "snippet_social",
+      "title": "Arturia MicroFreak: El sintetizador ideal para principiantes"
+    },
+    {
+      "slug": "arturia-microfreak-para-empezar-en-sintesis",
+      "type": "post_social",
+      "title": "Arturia MicroFreak: El sintetizador ideal para principiantes"
+    },
+    {
+      "slug": "arturia-microfreak-para-empezar-en-sintesis",
+      "type": "post_x",
+      "title": "Arturia MicroFreak: El sintetizador ideal para principiantes"
+    },
+    {
+      "slug": "arturia-microfreak-para-empezar-en-sintesis",
+      "type": "respuesta_youtube",
+      "title": "Arturia MicroFreak: El sintetizador ideal para principiantes"
+    },
+    {
+      "slug": "arturia-polybrute-estudio",
+      "type": "respuesta_tecnica",
+      "title": "Arturia PolyBrute: Potencia y Versatilidad en Tu Estudio"
+    },
+    {
+      "slug": "arturia-polybrute-estudio",
+      "type": "post_educativo",
+      "title": "Arturia PolyBrute: Potencia y Versatilidad en Tu Estudio"
+    },
+    {
+      "slug": "arturia-polybrute-estudio",
+      "type": "snippet_social",
+      "title": "Arturia PolyBrute: Potencia y Versatilidad en Tu Estudio"
+    },
+    {
+      "slug": "arturia-polybrute-estudio",
+      "type": "post_social",
+      "title": "Arturia PolyBrute: Potencia y Versatilidad en Tu Estudio"
+    },
+    {
+      "slug": "arturia-polybrute-estudio",
+      "type": "post_x",
+      "title": "Arturia PolyBrute: Potencia y Versatilidad en Tu Estudio"
+    },
+    {
+      "slug": "arturia-polybrute-estudio",
+      "type": "respuesta_youtube",
+      "title": "Arturia PolyBrute: Un Sinte Avanzado para Tu Estudio"
+    },
+    {
+      "slug": "synido-tempokey-25-controlador-compacto",
+      "type": "respuesta_tecnica",
+      "title": "Controlador MIDI Synido TempoKEY 25: Compacto y Versátil"
+    },
+    {
+      "slug": "synido-tempokey-25-controlador-compacto",
+      "type": "post_educativo",
+      "title": "Controlador MIDI Synido TempoKEY 25: Compacto y Versátil para Producción"
+    },
+    {
+      "slug": "synido-tempokey-25-controlador-compacto",
+      "type": "snippet_social",
+      "title": "Controlador MIDI Synido TempoKEY 25 para Producción"
+    },
+    {
+      "slug": "synido-tempokey-25-controlador-compacto",
+      "type": "post_social",
+      "title": "Controlador MIDI Synido TempoKEY 25: Tu Compañero Ideal para Producir"
+    },
+    {
+      "slug": "synido-tempokey-25-controlador-compacto",
+      "type": "post_x",
+      "title": "Controlador MIDI Synido TempoKEY 25 para Producción"
+    },
+    {
+      "slug": "synido-tempokey-25-controlador-compacto",
+      "type": "respuesta_youtube",
+      "title": "Controlador MIDI Synido TempoKEY 25: Compacto y Versátil"
+    },
+    {
+      "slug": "synido-tempopad-beats-controlador",
+      "type": "respuesta_tecnica",
+      "title": "Controladores Synido TempoPAD para tus beats"
+    },
+    {
+      "slug": "synido-tempopad-beats-controlador",
+      "type": "post_educativo",
+      "title": "Controladores Synido TempoPAD: Tu aliado para crear beats"
+    },
+    {
+      "slug": "synido-tempopad-beats-controlador",
+      "type": "snippet_social",
+      "title": "Controladores Synido TempoPAD para tus beats"
+    },
+    {
+      "slug": "synido-tempopad-beats-controlador",
+      "type": "post_social",
+      "title": "Controladores Synido TempoPAD para tus beats"
+    },
+    {
+      "slug": "synido-tempopad-beats-controlador",
+      "type": "post_x",
+      "title": "Controladores Synido TempoPAD para tus beats"
+    },
+    {
+      "slug": "synido-tempopad-beats-controlador",
+      "type": "respuesta_youtube",
+      "title": "Controladores Synido TempoPAD para tus beats"
+    },
+    {
+      "slug": "synido-livemix-streaming-creadores",
+      "type": "respuesta_tecnica",
+      "title": "Sincroniza tu voz y música con Synido LiveMix para streaming"
+    },
+    {
+      "slug": "synido-livemix-streaming-creadores",
+      "type": "snippet_social",
+      "title": "Sincroniza tu voz y música con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-creadores",
+      "type": "post_social",
+      "title": "Sincroniza tu voz y música con Synido LiveMix 🎤🎶"
+    },
+    {
+      "slug": "synido-livemix-streaming-creadores",
+      "type": "post_x",
+      "title": "Sincroniza tu voz y música con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-creadores",
+      "type": "respuesta_youtube",
+      "title": "Sincroniza tu voz y música con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livedock-directo",
+      "type": "respuesta_tecnica",
+      "title": "Optimiza tus directos con Synido LiveDock"
+    },
+    {
+      "slug": "synido-livedock-directo",
+      "type": "post_educativo",
+      "title": "Optimiza tus directos con Synido LiveDock"
+    },
+    {
+      "slug": "synido-livedock-directo",
+      "type": "snippet_social",
+      "title": "Optimiza tus directos con Synido LiveDock"
+    },
+    {
+      "slug": "synido-livedock-directo",
+      "type": "post_social",
+      "title": "Optimiza tus directos con Synido LiveDock"
+    },
+    {
+      "slug": "synido-livedock-directo",
+      "type": "post_x",
+      "title": "Optimiza tus directos con Synido LiveDock"
+    },
+    {
+      "slug": "synido-livedock-directo",
+      "type": "respuesta_youtube",
+      "title": "Optimiza tus directos con Synido LiveDock"
+    },
+    {
+      "slug": "midiplus-ak490-principiantes",
+      "type": "post_social",
+      "title": "MIDIPLUS AK490: Tu Compañero Perfecto para Comenzar"
+    },
+    {
+      "slug": "midiplus-ak490-principiantes",
+      "type": "post_x",
+      "title": "MIDIPLUS AK490: Ideal para Principiantes en Producción Musical"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-escritorio",
+      "type": "respuesta_tecnica",
+      "title": "El Controlador MIDI Ideal para Escritorios Pequeños"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-escritorio",
+      "type": "snippet_social",
+      "title": "El Controlador MIDI Ideal para Escritorios Pequeños"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-escritorio",
+      "type": "post_social",
+      "title": "El Controlador MIDI Ideal para Escritorios Pequeños"
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-escritorio",
+      "type": "post_x",
+      "title": "El Controlador MIDI Ideal para Escritorios Pequeños"
+    },
+    {
+      "slug": "midiplus-mi3-escritorio-chico",
+      "type": "snippet_social",
+      "title": "Monitores Midiplus MI3: Ideales para Escritorios Pequeños"
+    },
+    {
+      "slug": "midiplus-mi3-escritorio-chico",
+      "type": "post_x",
+      "title": "Monitores Midiplus MI3: Perfectos para tu Escritorio"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria",
+      "type": "respuesta_tecnica",
+      "title": "Practica con la Batería Electrónica MIDIPLUS ED6"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria",
+      "type": "post_educativo",
+      "title": "Practica con la Batería Electrónica MIDIPLUS ED6"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria",
+      "type": "snippet_social",
+      "title": "Practica con la Batería Electrónica MIDIPLUS ED6"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria",
+      "type": "post_social",
+      "title": "Practica con la Batería Electrónica MIDIPLUS ED6 🎶"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria",
+      "type": "post_x",
+      "title": "Practica con la Batería Electrónica MIDIPLUS ED6"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria",
+      "type": "respuesta_youtube",
+      "title": "Practica con la Batería Electrónica MIDIPLUS ED6"
+    },
+    {
+      "slug": "filtro-pop-para-grabar-voz",
+      "type": "respuesta_tecnica",
+      "title": "Filtros Pop: Esenciales para Grabaciones de Voz"
+    },
+    {
+      "slug": "filtro-pop-para-grabar-voz",
+      "type": "post_educativo",
+      "title": "Filtros Pop: Esenciales para Grabaciones de Voz"
+    },
+    {
+      "slug": "filtro-pop-para-grabar-voz",
+      "type": "snippet_social",
+      "title": "Filtros Pop: Esenciales para Grabaciones de Voz"
+    },
+    {
+      "slug": "filtro-pop-para-grabar-voz",
+      "type": "post_social",
+      "title": "Filtros Pop: Esenciales para Grabaciones de Voz"
+    },
+    {
+      "slug": "filtro-pop-para-grabar-voz",
+      "type": "post_x",
+      "title": "Filtros Pop: Esenciales para Grabaciones de Voz"
+    },
+    {
+      "slug": "filtro-pop-para-grabar-voz",
+      "type": "respuesta_youtube",
+      "title": "Filtros Pop: Mejora tus Grabaciones de Voz"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast",
+      "type": "respuesta_tecnica",
+      "title": "Auriculares Ideales para Grabar Tu Podcast"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast",
+      "type": "post_educativo",
+      "title": "Auriculares Ideales para Grabar Tu Podcast"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast",
+      "type": "snippet_social",
+      "title": "Auriculares Ideales para Grabar Tu Podcast"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast",
+      "type": "post_social",
+      "title": "Auriculares Ideales para Grabar Tu Podcast"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast",
+      "type": "post_x",
+      "title": "Auriculares Ideales para Grabar Tu Podcast"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast",
+      "type": "respuesta_youtube",
+      "title": "Auriculares Ideales para Grabar Tu Podcast"
+    },
+    {
+      "slug": "audio-technica-ath-m20x-para-grabar",
+      "type": "respuesta_tecnica",
+      "title": "Audio Technica ATH-M20x: Ideal para Grabaciones de Estudio"
+    },
+    {
+      "slug": "audio-technica-ath-m20x-para-grabar",
+      "type": "post_educativo",
+      "title": "Audio Technica ATH-M20x: Tu Compañero Ideal para Grabar"
+    },
+    {
+      "slug": "audio-technica-ath-m20x-para-grabar",
+      "type": "snippet_social",
+      "title": "Audio Technica ATH-M20x: Ideal para tus Grabaciones"
+    },
+    {
+      "slug": "audio-technica-ath-m20x-para-grabar",
+      "type": "post_social",
+      "title": "Audio Technica ATH-M20x: Perfectos para tus Grabaciones"
+    },
+    {
+      "slug": "audio-technica-ath-m20x-para-grabar",
+      "type": "post_x",
+      "title": "Audio Technica ATH-M20x: Ideal para Grabaciones"
+    },
+    {
+      "slug": "audio-technica-ath-m20x-para-grabar",
+      "type": "respuesta_youtube",
+      "title": "Audio Technica ATH-M20x: Ideal para Grabaciones de Calidad"
+    },
+    {
+      "slug": "auriculares-para-bateria-electronica",
+      "type": "respuesta_tecnica",
+      "title": "Auriculares ideales para practicar batería electrónica"
+    },
+    {
+      "slug": "auriculares-para-bateria-electronica",
+      "type": "post_educativo",
+      "title": "Auriculares para disfrutar de tu batería electrónica"
+    },
+    {
+      "slug": "auriculares-para-bateria-electronica",
+      "type": "snippet_social",
+      "title": "Auriculares para disfrutar de tu batería electrónica"
+    },
+    {
+      "slug": "auriculares-para-bateria-electronica",
+      "type": "post_social",
+      "title": "Auriculares ideales para tu batería electrónica 🎧"
+    },
+    {
+      "slug": "auriculares-para-bateria-electronica",
+      "type": "post_x",
+      "title": "Auriculares ideales para tu batería electrónica"
+    },
+    {
+      "slug": "auriculares-para-bateria-electronica",
+      "type": "respuesta_youtube",
+      "title": "Auriculares ideales para practicar batería electrónica"
+    },
+    {
+      "slug": "placa-sonido-guitarra-voz",
+      "type": "respuesta_tecnica",
+      "title": "Placas de sonido para guitarra y voz: eligiendo la interfaz adecuada"
+    },
+    {
+      "slug": "placa-sonido-guitarra-voz",
+      "type": "post_educativo",
+      "title": "Placas de sonido para guitarra y voz: eligiendo la mejor interfaz"
+    },
+    {
+      "slug": "placa-sonido-guitarra-voz",
+      "type": "snippet_social",
+      "title": "Placas de sonido para guitarra y voz: elige la mejor interfaz"
+    },
+    {
+      "slug": "placa-sonido-guitarra-voz",
+      "type": "post_social",
+      "title": "Placas de sonido para guitarra y voz: ¡Elige la mejor opción!"
+    },
+    {
+      "slug": "placa-sonido-guitarra-voz",
+      "type": "post_x",
+      "title": "Placas de sonido para guitarra y voz: elige la mejor interfaz"
+    },
+    {
+      "slug": "placa-sonido-guitarra-voz",
+      "type": "respuesta_youtube",
+      "title": "Placas de sonido para guitarra y voz: elige la mejor interfaz"
+    },
+    {
+      "slug": "setup-para-beatmaking-efectivo",
+      "type": "respuesta_tecnica",
+      "title": "Crea el Setup Perfecto para Beatmaking"
+    },
+    {
+      "slug": "setup-para-beatmaking-efectivo",
+      "type": "post_educativo",
+      "title": "Crea el Setup Perfecto para Beatmaking"
+    },
+    {
+      "slug": "setup-para-beatmaking-efectivo",
+      "type": "snippet_social",
+      "title": "Crea el Setup Perfecto para Beatmaking"
+    },
+    {
+      "slug": "setup-para-beatmaking-efectivo",
+      "type": "post_social",
+      "title": "Crea el Setup Perfecto para Beatmaking 🎶"
+    },
+    {
+      "slug": "setup-para-beatmaking-efectivo",
+      "type": "post_x",
+      "title": "Crea el Setup Perfecto para Beatmaking"
+    },
+    {
+      "slug": "setup-para-beatmaking-efectivo",
+      "type": "respuesta_youtube",
+      "title": "Crea el Setup Perfecto para Beatmaking"
+    },
+    {
+      "slug": "setup-para-producir-musica-electronica",
+      "type": "respuesta_tecnica",
+      "title": "Arma tu setup para producir música electrónica de forma efectiva"
+    },
+    {
+      "slug": "setup-para-producir-musica-electronica",
+      "type": "post_educativo",
+      "title": "Arma tu setup para producir música electrónica"
+    },
+    {
+      "slug": "setup-para-producir-musica-electronica",
+      "type": "snippet_social",
+      "title": "Arma tu setup para producir música electrónica"
+    },
+    {
+      "slug": "setup-para-producir-musica-electronica",
+      "type": "post_social",
+      "title": "Arma tu setup para producir música electrónica fácilmente"
+    },
+    {
+      "slug": "setup-para-producir-musica-electronica",
+      "type": "post_x",
+      "title": "Arma tu setup para producir música electrónica"
+    },
+    {
+      "slug": "setup-para-producir-musica-electronica",
+      "type": "respuesta_youtube",
+      "title": "Arma tu setup para producir música electrónica con estos consejos"
+    },
+    {
+      "slug": "setup-portable-para-producir",
+      "type": "post_educativo",
+      "title": "Arma tu Setup Portable para Producir Música"
+    },
+    {
+      "slug": "setup-portable-para-producir",
+      "type": "snippet_social",
+      "title": "Arma tu Setup Portable para Producir Música"
+    },
+    {
+      "slug": "setup-portable-para-producir",
+      "type": "post_social",
+      "title": "Arma tu Setup Portable para Producir Música"
+    },
+    {
+      "slug": "setup-portable-para-producir",
+      "type": "post_x",
+      "title": "Arma tu Setup Portable para Producir Música"
+    },
+    {
+      "slug": "setup-portable-para-producir",
+      "type": "respuesta_youtube",
+      "title": "Arma tu Setup Portable para Producir Música"
+    },
+    {
+      "slug": "sintetizador-para-bajos",
+      "type": "respuesta_tecnica",
+      "title": "Sintetizadores para Crear Bajos Profundos: Guía Técnica"
+    },
+    {
+      "slug": "sintetizador-para-bajos",
+      "type": "post_educativo",
+      "title": "Sintetizadores para Crear Bajos Profundos: Guía Esencial"
+    },
+    {
+      "slug": "sintetizador-para-bajos",
+      "type": "snippet_social",
+      "title": "Sintetizadores para Crear Bajos Profundos"
+    },
+    {
+      "slug": "sintetizador-para-bajos",
+      "type": "post_social",
+      "title": "Sintetizadores para Crear Bajos Profundos"
+    },
+    {
+      "slug": "sintetizador-para-bajos",
+      "type": "post_x",
+      "title": "Sintetizadores para Crear Bajos Profundos"
+    },
+    {
+      "slug": "sintetizador-para-bajos",
+      "type": "respuesta_youtube",
+      "title": "Sintetizadores para Crear Bajos Profundos: Guía Esencial"
+    },
+    {
+      "slug": "sintetizador-para-ambient",
+      "type": "respuesta_tecnica",
+      "title": "Sintetizadores para crear música ambient: guía técnica"
+    },
+    {
+      "slug": "sintetizador-para-ambient",
+      "type": "post_x",
+      "title": "Sintetizadores para crear música ambient"
+    },
+    {
+      "slug": "sintetizador-para-ambient",
+      "type": "respuesta_youtube",
+      "title": "Sintetizadores para crear texturas ambient"
+    },
+    {
+      "slug": "secuenciador-hardware-para-sintetizadores",
+      "type": "snippet_social",
+      "title": "Encuentra el secuenciador perfecto para tus sintetizadores"
+    },
+    {
+      "slug": "secuenciador-hardware-para-sintetizadores",
+      "type": "post_x",
+      "title": "Encuentra el secuenciador perfecto para tus sintetizadores"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "guia-elegir-microfono-podcast-usb-xlr",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-elegir-microfono-podcast-usb-xlr",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-elegir-microfono-podcast-usb-xlr",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-arturia-minilab-3-home-studio-3",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-synido-tempokey-25-escritorio",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-61-teclas-home-studio",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-61-teclas-home-studio",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-61-teclas-home-studio",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-61-teclas-home-studio",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-61-teclas",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-61-teclas-escritorio-chico",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-61-teclas-escritorio-chico",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-studio-m-home-studio-audio",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-chico",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-chico",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-chico",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-chico",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-audio",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-audio",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-escritorio",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-creadores-contenido",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-creadores-contenido",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-creadores-contenido",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ms6-home-studio-creadores-contenido",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-ableton",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-ableton",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-ableton",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "arturia-minilab-3-fl-studio",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "arturia-minilab-3-fl-studio",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "arturia-minilab-3-fl-studio",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "arturia-minilab-3-fl-studio",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "arturia-minilab-3-fl-studio",
+      "type": "post_x",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "arturia-minilab-3-fl-studio",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "synido-livemix-streaming-creadores",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ak490-principiantes",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ak490-principiantes",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ak490-principiantes",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-ak490-principiantes",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-escritorio",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-akm322-controlador-compacto-escritorio",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-mi3-escritorio-chico",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-mi3-escritorio-chico",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-mi3-escritorio-chico",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "midiplus-mi3-escritorio-chico",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "setup-portable-para-producir",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controladores-midi-con-pads-para-produccion",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controladores-midi-con-pads-para-produccion",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controladores-midi-con-pads-para-produccion",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controladores-midi-con-pads-para-produccion",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controladores-midi-con-pads-para-produccion",
+      "type": "post_x",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 1665.04
+}

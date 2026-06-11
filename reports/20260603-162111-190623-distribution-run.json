@@ -1,0 +1,336 @@
+{
+  "timestamp_utc": "20260603-162111-190623",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260603-161712-999685",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 51,
+  "pieces_blocked": 9,
+  "proposed": [
+    {
+      "slug": "controlador-midi-para-reggaeton",
+      "type": "respuesta_tecnica",
+      "title": "Controladores MIDI para producir reggaeton: elección y tips"
+    },
+    {
+      "slug": "controlador-midi-para-reggaeton",
+      "type": "post_educativo",
+      "title": "Controladores MIDI para producir reggaeton: guía esencial"
+    },
+    {
+      "slug": "controlador-midi-para-reggaeton",
+      "type": "snippet_social",
+      "title": "Controladores MIDI para producir reggaeton"
+    },
+    {
+      "slug": "controlador-midi-para-reggaeton",
+      "type": "post_social",
+      "title": "Controladores MIDI ideales para producir reggaeton 🎶"
+    },
+    {
+      "slug": "controlador-midi-para-reggaeton",
+      "type": "post_x",
+      "title": "Controladores MIDI para producir reggaeton"
+    },
+    {
+      "slug": "controlador-midi-para-reggaeton",
+      "type": "respuesta_youtube",
+      "title": "Controladores MIDI ideales para producir reggaeton"
+    },
+    {
+      "slug": "controlador-midi-para-techno",
+      "type": "respuesta_tecnica",
+      "title": "Controladores MIDI ideales para producir Techno"
+    },
+    {
+      "slug": "controlador-midi-para-techno",
+      "type": "post_educativo",
+      "title": "Controladores MIDI ideales para producir Techno"
+    },
+    {
+      "slug": "controlador-midi-para-techno",
+      "type": "snippet_social",
+      "title": "Controladores MIDI ideales para producir Techno"
+    },
+    {
+      "slug": "controlador-midi-para-techno",
+      "type": "post_social",
+      "title": "Controladores MIDI ideales para producir Techno"
+    },
+    {
+      "slug": "controlador-midi-para-techno",
+      "type": "post_x",
+      "title": "Controladores MIDI ideales para producir Techno"
+    },
+    {
+      "slug": "controlador-midi-para-techno",
+      "type": "respuesta_youtube",
+      "title": "Controladores MIDI ideales para producir Techno"
+    },
+    {
+      "slug": "controlador-midi-para-sintetizadores-virtuales",
+      "type": "respuesta_tecnica",
+      "title": "Controladores MIDI ideales para sintetizadores virtuales"
+    },
+    {
+      "slug": "controlador-midi-para-sintetizadores-virtuales",
+      "type": "post_educativo",
+      "title": "Controladores MIDI ideales para tus sintetizadores virtuales"
+    },
+    {
+      "slug": "controlador-midi-para-sintetizadores-virtuales",
+      "type": "snippet_social",
+      "title": "Controladores MIDI ideales para tus sintetizadores virtuales"
+    },
+    {
+      "slug": "controlador-midi-para-sintetizadores-virtuales",
+      "type": "post_social",
+      "title": "Controladores MIDI ideales para tus sintetizadores virtuales"
+    },
+    {
+      "slug": "controlador-midi-para-sintetizadores-virtuales",
+      "type": "post_x",
+      "title": "Controladores MIDI ideales para tus sintetizadores virtuales"
+    },
+    {
+      "slug": "controlador-midi-para-sintetizadores-virtuales",
+      "type": "respuesta_youtube",
+      "title": "Controladores MIDI ideales para tus sintetizadores virtuales"
+    },
+    {
+      "slug": "controlador-midi-portable-viajar",
+      "type": "post_social",
+      "title": "Controladores MIDI Portables para tus Viajes Musicales"
+    },
+    {
+      "slug": "controlador-midi-portable-viajar",
+      "type": "post_x",
+      "title": "Controladores MIDI Portables para tus Viajes Musicales"
+    },
+    {
+      "slug": "controlador-midi-portable-viajar",
+      "type": "respuesta_youtube",
+      "title": "Controladores MIDI Portables: Claves para Elegir el Mejor"
+    },
+    {
+      "slug": "camara-streaming-microfono-setup",
+      "type": "respuesta_tecnica",
+      "title": "Cámara y micrófono ideales para tu streaming"
+    },
+    {
+      "slug": "camara-streaming-microfono-setup",
+      "type": "post_educativo",
+      "title": "Cámara y micrófono ideales para tu streaming"
+    },
+    {
+      "slug": "camara-streaming-microfono-setup",
+      "type": "snippet_social",
+      "title": "Cámara y micrófono ideales para tu streaming"
+    },
+    {
+      "slug": "camara-streaming-microfono-setup",
+      "type": "post_social",
+      "title": "Cámara y micrófono ideales para tu streaming"
+    },
+    {
+      "slug": "camara-streaming-microfono-setup",
+      "type": "post_x",
+      "title": "Cámara y micrófono ideales para tu streaming"
+    },
+    {
+      "slug": "camara-streaming-microfono-setup",
+      "type": "respuesta_youtube",
+      "title": "Cámara y micrófono ideales para tu streaming"
+    },
+    {
+      "slug": "camara-para-youtube-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Mejora tu Home Studio con Cámaras y Micrófonos de Calidad"
+    },
+    {
+      "slug": "camara-para-youtube-home-studio",
+      "type": "post_educativo",
+      "title": "Mejora tu Home Studio con las Mejores Cámaras y Micrófonos"
+    },
+    {
+      "slug": "camara-para-youtube-home-studio",
+      "type": "snippet_social",
+      "title": "Mejora tu Home Studio con Cámaras y Micrófonos de Calidad"
+    },
+    {
+      "slug": "camara-para-youtube-home-studio",
+      "type": "post_social",
+      "title": "Mejora tu Home Studio con Cámaras y Micrófonos"
+    },
+    {
+      "slug": "camara-para-youtube-home-studio",
+      "type": "post_x",
+      "title": "Mejora tu Home Studio con Cámaras y Micrófonos"
+    },
+    {
+      "slug": "camara-para-youtube-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Mejora tu Home Studio con Cámaras y Micrófonos de Calidad"
+    },
+    {
+      "slug": "home-studio-con-poco-espacio",
+      "type": "post_x",
+      "title": "Arma tu Home Studio en Espacios Reducidos"
+    },
+    {
+      "slug": "home-studio-para-voz-y-guitarra",
+      "type": "respuesta_tecnica",
+      "title": "Arma tu Home Studio para Voz y Guitarra de manera efectiva"
+    },
+    {
+      "slug": "home-studio-para-voz-y-guitarra",
+      "type": "post_educativo",
+      "title": "Arma tu Home Studio para Voz y Guitarra de Forma Efectiva"
+    },
+    {
+      "slug": "home-studio-para-voz-y-guitarra",
+      "type": "snippet_social",
+      "title": "Arma tu Home Studio para Voz y Guitarra"
+    },
+    {
+      "slug": "home-studio-para-voz-y-guitarra",
+      "type": "post_social",
+      "title": "Arma tu Home Studio para Voz y Guitarra 🎤🎸"
+    },
+    {
+      "slug": "home-studio-para-voz-y-guitarra",
+      "type": "post_x",
+      "title": "Arma tu Home Studio para Voz y Guitarra"
+    },
+    {
+      "slug": "home-studio-para-voz-y-guitarra",
+      "type": "respuesta_youtube",
+      "title": "Arma tu Home Studio para Voz y Guitarra"
+    },
+    {
+      "slug": "home-studio-piano-voz",
+      "type": "respuesta_tecnica",
+      "title": "Arma tu Home Studio para Piano y Voz de manera efectiva"
+    },
+    {
+      "slug": "home-studio-piano-voz",
+      "type": "snippet_social",
+      "title": "Arma tu Home Studio para Piano y Voz de manera efectiva"
+    },
+    {
+      "slug": "home-studio-piano-voz",
+      "type": "post_social",
+      "title": "Arma tu Home Studio para Piano y Voz con Estos Consejos"
+    },
+    {
+      "slug": "home-studio-piano-voz",
+      "type": "post_x",
+      "title": "Arma tu Home Studio para Piano y Voz"
+    },
+    {
+      "slug": "home-studio-piano-voz",
+      "type": "respuesta_youtube",
+      "title": "Arma tu Home Studio para Piano y Voz de manera efectiva"
+    },
+    {
+      "slug": "home-studio-para-crear-contenido",
+      "type": "respuesta_tecnica",
+      "title": "Arma tu Home Studio para Crear Contenido Efectivamente"
+    },
+    {
+      "slug": "home-studio-para-crear-contenido",
+      "type": "post_educativo",
+      "title": "Arma tu Home Studio para Crear Contenido de Calidad"
+    },
+    {
+      "slug": "home-studio-para-crear-contenido",
+      "type": "snippet_social",
+      "title": "Arma tu Home Studio para Crear Contenido"
+    },
+    {
+      "slug": "home-studio-para-crear-contenido",
+      "type": "post_social",
+      "title": "Arma tu Home Studio para Crear Contenido"
+    },
+    {
+      "slug": "home-studio-para-crear-contenido",
+      "type": "post_x",
+      "title": "Arma tu Home Studio para Crear Contenido"
+    },
+    {
+      "slug": "home-studio-para-crear-contenido",
+      "type": "respuesta_youtube",
+      "title": "Guía para Armar tu Home Studio y Crear Contenido de Calidad"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "controlador-midi-portable-viajar",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-portable-viajar",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "controlador-midi-portable-viajar",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "home-studio-con-poco-espacio",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "home-studio-con-poco-espacio",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "home-studio-con-poco-espacio",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "home-studio-con-poco-espacio",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "home-studio-con-poco-espacio",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "home-studio-piano-voz",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 238.19
+}

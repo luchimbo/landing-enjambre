@@ -1,0 +1,328 @@
+{
+  "timestamp_utc": "20260603-140304-139586",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260603-135811-210325",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 55,
+  "pieces_blocked": 5,
+  "proposed": [
+    {
+      "slug": "setup-con-microfono-para-streaming",
+      "type": "respuesta_tecnica",
+      "title": "Optimiza tu audio para streaming con el micrófono adecuado"
+    },
+    {
+      "slug": "setup-con-microfono-para-streaming",
+      "type": "post_educativo",
+      "title": "Optimiza tu audio para streaming con el micrófono adecuado"
+    },
+    {
+      "slug": "setup-con-microfono-para-streaming",
+      "type": "snippet_social",
+      "title": "Optimiza tu audio para streaming con el micrófono adecuado"
+    },
+    {
+      "slug": "setup-con-microfono-para-streaming",
+      "type": "post_social",
+      "title": "Optimiza tu audio para streaming con el micrófono adecuado"
+    },
+    {
+      "slug": "setup-con-microfono-para-streaming",
+      "type": "post_x",
+      "title": "Optimiza tu audio para streaming con el micrófono adecuado"
+    },
+    {
+      "slug": "setup-con-microfono-para-streaming",
+      "type": "respuesta_youtube",
+      "title": "Optimiza tu audio para streaming con el micrófono adecuado"
+    },
+    {
+      "slug": "microfono-para-streaming-para-principiantes",
+      "type": "respuesta_tecnica",
+      "title": "Micrófonos para streaming: calidad accesible para principiantes"
+    },
+    {
+      "slug": "microfono-para-streaming-para-principiantes",
+      "type": "post_educativo",
+      "title": "Micrófonos para streaming: calidad accesible para principiantes"
+    },
+    {
+      "slug": "microfono-para-streaming-para-principiantes",
+      "type": "snippet_social",
+      "title": "Micrófonos para streaming: calidad accesible para principiantes"
+    },
+    {
+      "slug": "microfono-para-streaming-para-principiantes",
+      "type": "post_social",
+      "title": "Micrófonos para streaming: calidad accesible para principiantes"
+    },
+    {
+      "slug": "microfono-para-streaming-para-principiantes",
+      "type": "post_x",
+      "title": "Micrófonos para streaming: calidad accesible para principiantes"
+    },
+    {
+      "slug": "microfono-para-streaming-para-principiantes",
+      "type": "respuesta_youtube",
+      "title": "Micrófonos para streaming: calidad accesible para principiantes"
+    },
+    {
+      "slug": "microfono-para-streaming-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Micrófonos para Streaming: Mejora el Audio de tu Home Studio"
+    },
+    {
+      "slug": "microfono-para-streaming-home-studio",
+      "type": "post_educativo",
+      "title": "Micrófonos para Streaming en tu Home Studio"
+    },
+    {
+      "slug": "microfono-para-streaming-home-studio",
+      "type": "snippet_social",
+      "title": "Mejora el Audio de tus Directos con el Micrófono Adecuado"
+    },
+    {
+      "slug": "microfono-para-streaming-home-studio",
+      "type": "post_social",
+      "title": "Mejora el Audio de tus Directos con el Micrófono Ideal 🎤"
+    },
+    {
+      "slug": "microfono-para-streaming-home-studio",
+      "type": "post_x",
+      "title": "Micrófonos para Streaming en tu Home Studio"
+    },
+    {
+      "slug": "microfono-para-streaming-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Mejora tu audio con micrófonos para streaming en home studio"
+    },
+    {
+      "slug": "microfono-para-streaming-departamento",
+      "type": "respuesta_tecnica",
+      "title": "Micrófonos para streaming en departamentos: guía técnica"
+    },
+    {
+      "slug": "microfono-para-streaming-departamento",
+      "type": "post_educativo",
+      "title": "Micrófonos para streaming en departamentos: Mejora tu audio"
+    },
+    {
+      "slug": "microfono-para-streaming-departamento",
+      "type": "snippet_social",
+      "title": "Micrófonos para streaming en departamentos: Mejora tu audio"
+    },
+    {
+      "slug": "microfono-para-streaming-departamento",
+      "type": "post_social",
+      "title": "Mejora tu audio en streaming desde casa"
+    },
+    {
+      "slug": "microfono-para-streaming-departamento",
+      "type": "post_x",
+      "title": "Micrófonos para streaming en departamentos"
+    },
+    {
+      "slug": "microfono-para-streaming-departamento",
+      "type": "respuesta_youtube",
+      "title": "Mejora tu audio en streaming con el micrófono adecuado"
+    },
+    {
+      "slug": "microfono-para-streaming-grabar-en-casa",
+      "type": "respuesta_tecnica",
+      "title": "Micrófonos para streaming y grabación en casa: Guía técnica"
+    },
+    {
+      "slug": "microfono-para-streaming-grabar-en-casa",
+      "type": "post_educativo",
+      "title": "Micrófonos para streaming y grabación en casa"
+    },
+    {
+      "slug": "microfono-para-streaming-grabar-en-casa",
+      "type": "snippet_social",
+      "title": "Micrófonos para streaming y grabación en casa"
+    },
+    {
+      "slug": "microfono-para-streaming-grabar-en-casa",
+      "type": "post_social",
+      "title": "Mejora tu audio en streaming con el micrófono adecuado"
+    },
+    {
+      "slug": "microfono-para-streaming-grabar-en-casa",
+      "type": "post_x",
+      "title": "Micrófonos para streaming y grabación en casa"
+    },
+    {
+      "slug": "microfono-para-streaming-grabar-en-casa",
+      "type": "respuesta_youtube",
+      "title": "Mejora tu audio para streaming con el micrófono adecuado"
+    },
+    {
+      "slug": "como-elegir-monitores-de-estudio-para-home-studio-chico",
+      "type": "respuesta_tecnica",
+      "title": "Elige los monitores de estudio ideales para tu home studio chico"
+    },
+    {
+      "slug": "como-elegir-monitores-de-estudio-para-home-studio-chico",
+      "type": "post_educativo",
+      "title": "Elige los monitores de estudio ideales para tu home studio chico"
+    },
+    {
+      "slug": "como-elegir-monitores-de-estudio-para-home-studio-chico",
+      "type": "snippet_social",
+      "title": "Elige los monitores de estudio ideales para tu home studio chico"
+    },
+    {
+      "slug": "como-elegir-monitores-de-estudio-para-home-studio-chico",
+      "type": "post_social",
+      "title": "Elige los monitores de estudio ideales para tu home studio chico"
+    },
+    {
+      "slug": "como-elegir-monitores-de-estudio-para-home-studio-chico",
+      "type": "post_x",
+      "title": "Elige los monitores de estudio ideales para tu home studio chico"
+    },
+    {
+      "slug": "como-elegir-monitores-de-estudio-para-home-studio-chico",
+      "type": "respuesta_youtube",
+      "title": "Elige los monitores de estudio ideales para tu home studio chico"
+    },
+    {
+      "slug": "guia-elegir-monitores-estudio-home-studio-chico",
+      "type": "post_social",
+      "title": "Elige los Mejores Monitores de Estudio para Tu Home Studio"
+    },
+    {
+      "slug": "guia-elegir-monitores-estudio-home-studio-chico",
+      "type": "post_x",
+      "title": "Elige los Mejores Monitores de Estudio para Tu Home Studio"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Auriculares Cerrados: Clave para Grabar Voces sin Bleed"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-home-studio",
+      "type": "post_educativo",
+      "title": "Auriculares Cerrados para Grabar Voces en tu Home Studio"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-home-studio",
+      "type": "snippet_social",
+      "title": "Auriculares Cerrados: Clave para Grabar Voces en tu Home Studio"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-home-studio",
+      "type": "post_social",
+      "title": "Auriculares Cerrados: Clave para Grabar Voces en Casa"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-home-studio",
+      "type": "post_x",
+      "title": "Auriculares Cerrados para Grabar Voces en tu Home Studio"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Auriculares Cerrados: Clave para Grabar Voces en Home Studio"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "El sintetizador perfecto para tu home studio"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-home-studio",
+      "type": "post_educativo",
+      "title": "El sintetizador perfecto para tu home studio"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-home-studio",
+      "type": "snippet_social",
+      "title": "El sintetizador ideal para tu home studio"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-home-studio",
+      "type": "post_social",
+      "title": "El sintetizador perfecto para tu home studio"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-home-studio",
+      "type": "post_x",
+      "title": "El sintetizador perfecto para tu home studio"
+    },
+    {
+      "slug": "sintetizador-para-aprender-sintesis-home-studio",
+      "type": "respuesta_youtube",
+      "title": "El sintetizador ideal para tu home studio"
+    },
+    {
+      "slug": "bateria-electronica-para-departamento-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Baterías Electrónicas: Ideal para Practicar en Casa"
+    },
+    {
+      "slug": "bateria-electronica-para-departamento-home-studio",
+      "type": "post_educativo",
+      "title": "Baterías Electrónicas: La Solución Ideal para Practicar en Casa"
+    },
+    {
+      "slug": "bateria-electronica-para-departamento-home-studio",
+      "type": "post_social",
+      "title": "Baterías Electrónicas: La Solución Perfecta para Practicar en Casa"
+    },
+    {
+      "slug": "bateria-electronica-para-departamento-home-studio",
+      "type": "post_x",
+      "title": "Baterías Electrónicas: Practica en Casa Sin Molestar"
+    },
+    {
+      "slug": "bateria-electronica-para-departamento-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Baterías Electrónicas: Ideal para Practicar en Casa"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "guia-elegir-monitores-estudio-home-studio-chico",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-elegir-monitores-estudio-home-studio-chico",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-elegir-monitores-estudio-home-studio-chico",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-elegir-monitores-estudio-home-studio-chico",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "bateria-electronica-para-departamento-home-studio",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 292.93
+}

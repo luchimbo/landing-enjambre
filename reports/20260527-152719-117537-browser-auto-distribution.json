@@ -1,0 +1,96 @@
+{
+  "timestamp_utc": "20260527-152719-117537",
+  "command": "auto-distribution",
+  "channels": [
+    "linkedin",
+    "reddit"
+  ],
+  "limit": 2,
+  "dry_run": true,
+  "allow_proposed": false,
+  "published_or_attempted": 0,
+  "blocked_seen": 16,
+  "results": [],
+  "blocked_sample": [
+    {
+      "id": "20260526-195410-369574:reddit-public:1to10es",
+      "channel": "reddit",
+      "status": "proposed",
+      "errors": [
+        "status no publicable: proposed"
+      ]
+    },
+    {
+      "id": "20260526-201515-628576:reddit:0",
+      "channel": "reddit",
+      "status": "proposed",
+      "errors": [
+        "status no publicable: proposed"
+      ]
+    },
+    {
+      "id": "20260527-142132-390942:monitores-5-pulgadas-vs-6-pulgadas:respuesta_tecnica:reddit:1779891697870",
+      "channel": "reddit",
+      "status": "proposed",
+      "errors": [
+        "status no publicable: proposed"
+      ]
+    },
+    {
+      "id": "20260527-142132-390942:monitores-5-pulgadas-vs-6-pulgadas:post_educativo:linkedin:1779891709970",
+      "channel": "linkedin",
+      "status": "proposed",
+      "errors": [
+        "status no publicable: proposed"
+      ]
+    },
+    {
+      "id": "20260527-142132-390942:controlador-midi-25-teclas-vs-49-teclas:respuesta_tecnica:reddit:1779891735233",
+      "channel": "reddit",
+      "status": "blocked",
+      "errors": [
+        "status no publicable: blocked"
+      ]
+    },
+    {
+      "id": "20260527-142132-390942:controlador-midi-25-teclas-vs-49-teclas:post_educativo:linkedin:1779891744838",
+      "channel": "linkedin",
+      "status": "blocked",
+      "errors": [
+        "status no publicable: blocked"
+      ]
+    },
+    {
+      "id": "20260527-143037-230075:controlador-midi-49-teclas-vs-61-teclas:respuesta_tecnica:reddit:1779892310738",
+      "channel": "reddit",
+      "status": "proposed",
+      "errors": [
+        "status no publicable: proposed"
+      ]
+    },
+    {
+      "id": "20260527-143037-230075:mejor-opcion-controlador-midi-fl-studio:respuesta_tecnica:reddit:1779892350438",
+      "channel": "reddit",
+      "status": "proposed",
+      "errors": [
+        "status no publicable: proposed"
+      ]
+    },
+    {
+      "id": "20260527-143037-230075:mejor-opcion-controlador-midi-fl-studio:post_educativo:linkedin:1779892373205",
+      "channel": "linkedin",
+      "status": "proposed",
+      "errors": [
+        "status no publicable: proposed"
+      ]
+    },
+    {
+      "id": "20260527-143037-230075:comparar-opciones-controlador-midi-fl-studio:respuesta_tecnica:reddit:1779892398425",
+      "channel": "reddit",
+      "status": "proposed",
+      "errors": [
+        "status no publicable: proposed"
+      ]
+    }
+  ]
+}

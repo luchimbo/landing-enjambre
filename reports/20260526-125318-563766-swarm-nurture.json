@@ -1,0 +1,23 @@
+{
+  "timestamp_utc": "20260526-125318-563766",
+  "command": "nurture",
+  "status": "ok",
+  "steps": [
+    {
+      "step": "nurture",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\agente_4_nurture.py",
+        "process",
+        "--limit",
+        "50",
+        "--dry-run",
+        "--retry"
+      ],
+      "started_utc": "20260526-125316-433432",
+      "finished_utc": "20260526-125318-563566",
+      "returncode": 0,
+      "status": "ok"
+    }
+  ]
+}

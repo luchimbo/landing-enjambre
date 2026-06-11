@@ -1,0 +1,170 @@
+{
+  "timestamp_utc": "20260610-125544-461275",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260610-125315-761085",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 5,
+  "pieces_proposed": 29,
+  "pieces_blocked": 1,
+  "proposed": [
+    {
+      "slug": "setup-streaming-buen-audio-conectar-monitores",
+      "type": "respuesta_tecnica",
+      "title": "Crea un Setup de Streaming con Excelente Calidad de Audio"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-conectar-monitores",
+      "type": "post_educativo",
+      "title": "Crea un Setup de Streaming con Excelente Calidad de Audio"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-conectar-monitores",
+      "type": "snippet_social",
+      "title": "Crea un Setup de Streaming con Excelente Calidad de Audio"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-conectar-monitores",
+      "type": "post_social",
+      "title": "Crea un Setup de Streaming con Excelente Calidad de Audio"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-conectar-monitores",
+      "type": "post_x",
+      "title": "Crea un Setup de Streaming con Excelente Calidad de Audio"
+    },
+    {
+      "slug": "setup-streaming-buen-audio-conectar-monitores",
+      "type": "respuesta_youtube",
+      "title": "Crea un Setup de Streaming con Excelente Calidad de Audio"
+    },
+    {
+      "slug": "arturia-polybrute-home-studio-3",
+      "type": "post_educativo",
+      "title": "Arturia PolyBrute: Potencia y Versatilidad para Tu Home Studio"
+    },
+    {
+      "slug": "arturia-polybrute-home-studio-3",
+      "type": "snippet_social",
+      "title": "Arturia PolyBrute: Potencia y Versatilidad para Tu Home Studio"
+    },
+    {
+      "slug": "arturia-polybrute-home-studio-3",
+      "type": "post_social",
+      "title": "Arturia PolyBrute: Potencia y Versatilidad para Tu Home Studio"
+    },
+    {
+      "slug": "arturia-polybrute-home-studio-3",
+      "type": "post_x",
+      "title": "Arturia PolyBrute: Potencia y Versatilidad para Tu Home Studio"
+    },
+    {
+      "slug": "arturia-polybrute-home-studio-3",
+      "type": "respuesta_youtube",
+      "title": "Arturia PolyBrute: Potencia y Versatilidad para Tu Home Studio"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-portable",
+      "type": "respuesta_tecnica",
+      "title": "Micrófonos USB para Podcast: Comienza Sin Interfaz"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-portable",
+      "type": "post_educativo",
+      "title": "Micrófonos USB para tu Podcast en Movimiento"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-portable",
+      "type": "snippet_social",
+      "title": "Micrófonos USB para tu Podcast en Movimiento"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-portable",
+      "type": "post_social",
+      "title": "Micrófonos USB: Perfectos para tu Podcast en Movimiento"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-portable",
+      "type": "post_x",
+      "title": "Micrófonos USB para tu Podcast en Movimiento"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-portable",
+      "type": "respuesta_youtube",
+      "title": "Micrófonos USB para un Podcast Portátil y Efectivo"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-sin-interfaz-15",
+      "type": "respuesta_tecnica",
+      "title": "Micrófonos USB para Podcast: Comienza a Grabar Sin Interfaz"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-sin-interfaz-15",
+      "type": "post_educativo",
+      "title": "Micrófonos USB para tu Podcast: Comienza a Grabar Hoy"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-sin-interfaz-15",
+      "type": "snippet_social",
+      "title": "Micrófonos USB para tu Podcast: Comienza a Grabar Hoy"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-sin-interfaz-15",
+      "type": "post_social",
+      "title": "Micrófonos USB: ¡Comienza tu Podcast sin Complicaciones!"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-sin-interfaz-15",
+      "type": "post_x",
+      "title": "Micrófonos USB para tu Podcast: Comienza a Grabar Hoy"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-sin-interfaz-15",
+      "type": "respuesta_youtube",
+      "title": "Micrófonos USB: Tu Aliado para Iniciar un Podcast"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-youtube",
+      "type": "respuesta_tecnica",
+      "title": "Inicia tu Podcast en YouTube con un Micrófono USB"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-youtube",
+      "type": "post_educativo",
+      "title": "Inicia tu Podcast en YouTube con un Micrófono USB"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-youtube",
+      "type": "snippet_social",
+      "title": "Inicia tu Podcast en YouTube con un Micrófono USB"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-youtube",
+      "type": "post_social",
+      "title": "Inicia tu Podcast en YouTube con un Micrófono USB"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-youtube",
+      "type": "post_x",
+      "title": "Inicia tu Podcast en YouTube con un Micrófono USB"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-youtube",
+      "type": "respuesta_youtube",
+      "title": "Inicia tu Podcast en YouTube con un Micrófono USB"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "arturia-polybrute-home-studio-3",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: precio"
+      ]
+    }
+  ],
+  "elapsed_seconds": 148.7
+}

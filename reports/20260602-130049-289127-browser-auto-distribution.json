@@ -1,0 +1,151 @@
+{
+  "timestamp_utc": "20260602-130049-289127",
+  "command": "auto-distribution",
+  "channels": [
+    "facebook",
+    "instagram",
+    "x",
+    "youtube"
+  ],
+  "unsupported_channels": [],
+  "limit": 8,
+  "per_channel": 1,
+  "dry_run": false,
+  "allow_proposed": false,
+  "published_or_attempted": 2,
+  "blocked_seen": 118,
+  "results": [
+    {
+      "id": "20260602-125819-215287:placa-sonido-guitarra-home-studio:snippet_social:social:1780405144055",
+      "channel": "x",
+      "slug": "placa-sonido-guitarra-home-studio",
+      "result": {
+        "ok": true,
+        "url": "https://x.com/compose/post",
+        "dismissed": [],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "x_compose",
+              "ok": true,
+              "prep": {
+                "ok": true,
+                "skipped": true
+              },
+              "open": {
+                "ok": true,
+                "skipped": true
+              },
+              "fill": {
+                "ok": true,
+                "selector": "[data-testid=\"tweetTextarea_0\"]",
+                "length": 275
+              },
+              "submit": {
+                "ok": true,
+                "selector": "[data-testid=\"tweetButtonInline\"]"
+              },
+              "keyboard_submit": {
+                "ok": false,
+                "skipped": true
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260602-125819-215287:como-elegir-microfono-para-podcast:respuesta_youtube:youtube:1780405238336",
+      "channel": "youtube",
+      "slug": "como-elegir-microfono-para-podcast",
+      "result": {
+        "ok": false,
+        "error": "YouTube requiere source_thread_url de un video"
+      }
+    }
+  ],
+  "blocked_sample": [
+    {
+      "id": "20260602-123802-430867:instagram:auto-listen:3",
+      "channel": "instagram",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260602-123802-430867:facebook:auto-listen:1",
+      "channel": "facebook",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260601-171406-993044:como-elegir-interfaz-de-audio-para-grabar-voz-en-casa:snippet_social:social:1780335221521",
+      "channel": "facebook",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260601-171406-993044:como-elegir-interfaz-de-audio-para-grabar-voz-en-casa:snippet_social:social:1780335221521",
+      "channel": "x",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260601-171406-993044:controlador-midi-ableton-fl-studio-comparativa:snippet_social:social:1780335175296",
+      "channel": "facebook",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260601-171406-993044:controlador-midi-ableton-fl-studio-comparativa:snippet_social:social:1780335175296",
+      "channel": "x",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260601-171406-993044:como-elegir-controlador-midi-para-ableton:snippet_social:social:1780335051639",
+      "channel": "facebook",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260601-171406-993044:como-elegir-controlador-midi-para-ableton:snippet_social:social:1780335051639",
+      "channel": "x",
+      "status": "published",
+      "errors": [
+        "status no publicable: published"
+      ]
+    },
+    {
+      "id": "20260601-171406-993044:alctron-um900-streaming-microfono-usb:respuesta_youtube:youtube:1780334514262",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    },
+    {
+      "id": "20260601-171406-993044:alctron-um900-streaming-microfono-usb:post_x:x:1780334507751",
+      "channel": "x",
+      "status": "approved",
+      "errors": [
+        "contexto no relacionado con musica/produccion/audio"
+      ]
+    }
+  ]
+}

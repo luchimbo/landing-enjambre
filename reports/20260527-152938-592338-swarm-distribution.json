@@ -1,0 +1,21 @@
+{
+  "timestamp_utc": "20260527-152938-592338",
+  "command": "distribution",
+  "status": "failed",
+  "steps": [
+    {
+      "step": "distribution",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\agente_distribucion.py",
+        "approve-all",
+        "--limit",
+        "9999"
+      ],
+      "started_utc": "20260527-152938-392352",
+      "finished_utc": "20260527-152938-591906",
+      "returncode": 2,
+      "status": "failed"
+    }
+  ]
+}

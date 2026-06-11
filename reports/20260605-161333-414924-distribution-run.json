@@ -1,0 +1,340 @@
+{
+  "timestamp_utc": "20260605-161333-414924",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260605-160734-172155",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 49,
+  "pieces_blocked": 11,
+  "proposed": [
+    {
+      "slug": "setup-arturia-minilab-3-ableton",
+      "type": "respuesta_tecnica",
+      "title": "Arma tu setup con Arturia MiniLab 3 y Ableton"
+    },
+    {
+      "slug": "setup-arturia-minilab-3-ableton",
+      "type": "post_educativo",
+      "title": "Arma tu setup con Arturia MiniLab 3 y Ableton"
+    },
+    {
+      "slug": "setup-arturia-minilab-3-ableton",
+      "type": "snippet_social",
+      "title": "Arma tu setup con Arturia MiniLab 3 y Ableton"
+    },
+    {
+      "slug": "setup-arturia-minilab-3-ableton",
+      "type": "post_social",
+      "title": "Arma tu setup con Arturia MiniLab 3 y Ableton"
+    },
+    {
+      "slug": "setup-arturia-minilab-3-ableton",
+      "type": "post_x",
+      "title": "Arma tu setup con Arturia MiniLab 3 y Ableton"
+    },
+    {
+      "slug": "setup-arturia-minilab-3-ableton",
+      "type": "respuesta_youtube",
+      "title": "Arma tu setup con Arturia MiniLab 3 y Ableton"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-para-ableton-principiantes",
+      "type": "respuesta_tecnica",
+      "title": "Arturia MiniLab 3: Ideal para Comenzar con Ableton"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-para-ableton-principiantes",
+      "type": "post_educativo",
+      "title": "Arturia MiniLab 3: El Controlador Ideal para Iniciar en Ableton"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-para-ableton-principiantes",
+      "type": "snippet_social",
+      "title": "Arturia MiniLab 3: Ideal para Iniciar en Ableton"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-para-ableton-principiantes",
+      "type": "post_social",
+      "title": "Arturia MiniLab 3: El Controlador Ideal para Iniciar en Ableton"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-para-ableton-principiantes",
+      "type": "post_x",
+      "title": "Arturia MiniLab 3: Ideal para Iniciar en Ableton"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-para-ableton-principiantes",
+      "type": "respuesta_youtube",
+      "title": "Arturia MiniLab 3: Ideal para Principiantes en Ableton"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-ableton-fl-studio",
+      "type": "respuesta_tecnica",
+      "title": "Arturia MiniLab 3: Ideal para Producción en FL Studio y Ableton"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-ableton-fl-studio",
+      "type": "post_educativo",
+      "title": "Arturia MiniLab 3: Tu Compañero Ideal para la Producción Musical"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-ableton-fl-studio",
+      "type": "snippet_social",
+      "title": "Arturia MiniLab 3: Ideal para Producción Musical Compacta"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-ableton-fl-studio",
+      "type": "post_social",
+      "title": "Arturia MiniLab 3: Tu Compañero Ideal para la Producción Musical"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-ableton-fl-studio",
+      "type": "post_x",
+      "title": "Arturia MiniLab 3: Ideal para Producción Musical Compacta"
+    },
+    {
+      "slug": "controlador-arturia-minilab-3-ableton-fl-studio",
+      "type": "respuesta_youtube",
+      "title": "Arturia MiniLab 3: Ideal para Producción Musical en FL Studio"
+    },
+    {
+      "slug": "controladores-midi-arturia-minilab-3-fl-studio",
+      "type": "respuesta_tecnica",
+      "title": "Controladores MIDI para potenciar tu Arturia MiniLab 3"
+    },
+    {
+      "slug": "controladores-midi-arturia-minilab-3-fl-studio",
+      "type": "post_educativo",
+      "title": "Controladores MIDI para potenciar tu Arturia MiniLab 3"
+    },
+    {
+      "slug": "controladores-midi-arturia-minilab-3-fl-studio",
+      "type": "snippet_social",
+      "title": "Controladores MIDI para potenciar tu Arturia MiniLab 3"
+    },
+    {
+      "slug": "controladores-midi-arturia-minilab-3-fl-studio",
+      "type": "post_social",
+      "title": "Controladores MIDI para potenciar tu Arturia MiniLab 3"
+    },
+    {
+      "slug": "controladores-midi-arturia-minilab-3-fl-studio",
+      "type": "post_x",
+      "title": "Controladores MIDI para potenciar tu Arturia MiniLab 3"
+    },
+    {
+      "slug": "controladores-midi-arturia-minilab-3-fl-studio",
+      "type": "respuesta_youtube",
+      "title": "Controladores MIDI para potenciar tu Arturia MiniLab 3"
+    },
+    {
+      "slug": "guia-elegir-arturia-minilab-3-fl-studio",
+      "type": "post_x",
+      "title": "Elige el Arturia MiniLab 3 para tus producciones en FL Studio"
+    },
+    {
+      "slug": "setup-arturia-minilab-3-fl-studio",
+      "type": "respuesta_tecnica",
+      "title": "Crea tu setup perfecto con Arturia MiniLab 3 para FL Studio"
+    },
+    {
+      "slug": "setup-arturia-minilab-3-fl-studio",
+      "type": "post_educativo",
+      "title": "Crea tu setup perfecto con Arturia MiniLab 3 para FL Studio"
+    },
+    {
+      "slug": "setup-arturia-minilab-3-fl-studio",
+      "type": "snippet_social",
+      "title": "Crea tu setup perfecto con Arturia MiniLab 3 para FL Studio"
+    },
+    {
+      "slug": "setup-arturia-minilab-3-fl-studio",
+      "type": "post_social",
+      "title": "Crea tu setup perfecto con Arturia MiniLab 3 para FL Studio"
+    },
+    {
+      "slug": "setup-arturia-minilab-3-fl-studio",
+      "type": "post_x",
+      "title": "Crea tu setup perfecto con Arturia MiniLab 3 para FL Studio"
+    },
+    {
+      "slug": "setup-arturia-minilab-3-fl-studio",
+      "type": "respuesta_youtube",
+      "title": "Crea tu setup perfecto con Arturia MiniLab 3 para FL Studio"
+    },
+    {
+      "slug": "controladores-secuenciadores-arturia-keystep-pro",
+      "type": "respuesta_tecnica",
+      "title": "Controladores ideales para tu Arturia KeyStep Pro"
+    },
+    {
+      "slug": "controladores-secuenciadores-arturia-keystep-pro",
+      "type": "post_educativo",
+      "title": "Controladores ideales para tu Arturia KeyStep Pro"
+    },
+    {
+      "slug": "controladores-secuenciadores-arturia-keystep-pro",
+      "type": "snippet_social",
+      "title": "Controladores ideales para tu Arturia KeyStep Pro"
+    },
+    {
+      "slug": "controladores-secuenciadores-arturia-keystep-pro",
+      "type": "post_social",
+      "title": "Controladores ideales para tu Arturia KeyStep Pro"
+    },
+    {
+      "slug": "controladores-secuenciadores-arturia-keystep-pro",
+      "type": "post_x",
+      "title": "Controladores ideales para tu Arturia KeyStep Pro"
+    },
+    {
+      "slug": "controladores-secuenciadores-arturia-keystep-pro",
+      "type": "respuesta_youtube",
+      "title": "Controladores ideales para Arturia KeyStep Pro"
+    },
+    {
+      "slug": "como-elegir-arturia-keystep-pro",
+      "type": "respuesta_tecnica",
+      "title": "Elige el Arturia KeyStep Pro para tu setup musical"
+    },
+    {
+      "slug": "como-elegir-arturia-keystep-pro",
+      "type": "post_educativo",
+      "title": "Elige el Arturia KeyStep Pro para tu setup musical"
+    },
+    {
+      "slug": "como-elegir-arturia-keystep-pro",
+      "type": "snippet_social",
+      "title": "Elige el Arturia KeyStep Pro para tu setup musical"
+    },
+    {
+      "slug": "como-elegir-arturia-keystep-pro",
+      "type": "post_social",
+      "title": "Elige el Arturia KeyStep Pro para tu setup musical"
+    },
+    {
+      "slug": "como-elegir-arturia-keystep-pro",
+      "type": "post_x",
+      "title": "Elige el Arturia KeyStep Pro para tu setup musical"
+    },
+    {
+      "slug": "como-elegir-arturia-keystep-pro",
+      "type": "respuesta_youtube",
+      "title": "Cómo elegir el Arturia KeyStep Pro para tu setup musical"
+    },
+    {
+      "slug": "arturia-keystep-pro-para-principiantes",
+      "type": "respuesta_tecnica",
+      "title": "Arturia KeyStep Pro: Ideal para Iniciar en Producción Musical"
+    },
+    {
+      "slug": "arturia-keystep-pro-para-principiantes",
+      "type": "post_educativo",
+      "title": "Arturia KeyStep Pro: Tu Compañero Ideal para Comenzar"
+    },
+    {
+      "slug": "arturia-keystep-pro-para-principiantes",
+      "type": "snippet_social",
+      "title": "Arturia KeyStep Pro: Tu Compañero Ideal para Comenzar"
+    },
+    {
+      "slug": "arturia-keystep-pro-para-principiantes",
+      "type": "post_social",
+      "title": "Arturia KeyStep Pro: Tu Compañero Ideal para Comenzar"
+    },
+    {
+      "slug": "arturia-keystep-pro-para-principiantes",
+      "type": "post_x",
+      "title": "Arturia KeyStep Pro: Ideal para Principiantes en Producción Musical"
+    },
+    {
+      "slug": "arturia-keystep-pro-para-principiantes",
+      "type": "respuesta_youtube",
+      "title": "Arturia KeyStep Pro: Ideal para Principiantes en Producción Musical"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "como-elegir-arturia-minilab-3-para-fl-studio",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "como-elegir-arturia-minilab-3-para-fl-studio",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "como-elegir-arturia-minilab-3-para-fl-studio",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "como-elegir-arturia-minilab-3-para-fl-studio",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "como-elegir-arturia-minilab-3-para-fl-studio",
+      "type": "post_x",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "como-elegir-arturia-minilab-3-para-fl-studio",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-elegir-arturia-minilab-3-fl-studio",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-elegir-arturia-minilab-3-fl-studio",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-elegir-arturia-minilab-3-fl-studio",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-elegir-arturia-minilab-3-fl-studio",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-elegir-arturia-minilab-3-fl-studio",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 359.24
+}

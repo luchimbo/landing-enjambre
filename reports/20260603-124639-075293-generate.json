@@ -1,0 +1,1382 @@
+{
+  "timestamp_utc": "20260603-124639-075293",
+  "command": "generate",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260603-123505-311735",
+  "dry_run": false,
+  "requested_limit": 5,
+  "effective_limit": 5,
+  "processed_count": 685,
+  "created_count": 5,
+  "stopped_reason": "limit_reached",
+  "elapsed_seconds": 693.76,
+  "max_seconds": 0,
+  "skipped_count": 616,
+  "blocked_count": 64,
+  "created": [
+    {
+      "slug": "guia-elegir-midiplus-ak490-principiantes",
+      "keyword": "guia para elegir MIDIPLUS AK490 para principiantes"
+    },
+    {
+      "slug": "como-elegir-midiplus-ed8-vs-ed6",
+      "keyword": "como elegir Midiplus ED8 vs ED6"
+    },
+    {
+      "slug": "microfono-para-streaming-creadores-contenido",
+      "keyword": "microfono para streaming para creadores de contenido"
+    },
+    {
+      "slug": "monitores-estudio-home-studio-chico-4",
+      "keyword": "monitores de estudio para home studio chico para cuarto chico"
+    },
+    {
+      "slug": "auriculares-cerrados-grabar-voces-guitarra",
+      "keyword": "auriculares cerrados para grabar voces para tocar guitarra"
+    }
+  ],
+  "skipped": [
+    {
+      "keyword": "controlador MIDI para FL Studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI para Ableton",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "interfaz de audio para grabar voz en casa",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "placa de sonido para guitarra",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "microfono para podcast",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "microfono para streaming",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "monitores de estudio para home studio chico",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "auriculares cerrados para grabar voces",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "sintetizador para aprender sintesis",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "bateria electronica para departamento",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup de streaming con buen audio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Arturia MiniLab 3 vs KeyLab",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "home studio para principiantes",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Arturia MiniLab 3 para Ableton",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Arturia MiniLab 3 para FL Studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Arturia KeyStep Pro para hardware",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Arturia MicroFreak para empezar en sintesis",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Arturia MiniFreak vs MicroFreak",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Arturia PolyBrute para estudio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Synido TempoKEY 25 para producir",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Synido TempoPAD para beats",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Synido LiveMix para streaming",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Synido LiveDock para directo",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "MIDIPLUS AK490 para principiantes",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "MIDIPLUS AKM322 para escritorio chico",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "MIDIPLUS i61 para tocar con mas teclas",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "MIDIPLUS Studio M para home studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Midiplus MS5 para home studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Midiplus MS6 para home studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Midiplus MI3 para escritorio chico",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Midiplus ED6 para practicar bateria",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Midiplus ED8 vs ED6",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "microfono USB para podcast",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "microfono XLR para podcast",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "microfono condensador para voz",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Audio Technica AT2020 para home studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Alctron UM900 para streaming",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "brazo para microfono de streaming",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "filtro pop para grabar voz",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "auriculares para grabar podcast",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Audio Technica ATH-M20x para grabar",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "Audio Technica ATH-M50x para monitoreo",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "auriculares para bateria electronica",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "monitores para mezclar en cuarto chico",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "monitores 5 pulgadas o 6 pulgadas",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "interfaz de audio para podcast",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "interfaz de audio para streaming",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "interfaz de audio con dos entradas",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "placa de sonido para guitarra y voz",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "home studio para rap",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "home studio para guitarra",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup para beatmaking",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup para producir musica electronica",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup portable para producir",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "teclado MIDI chico para notebook",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI con pads",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI 25 teclas vs 49 teclas",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI 49 teclas vs 61 teclas",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI para Logic",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI para Cubase",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI para Reaper",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "sintetizador para bajos",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "sintetizador para ambient",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "sintetizador hardware para home studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "secuenciador hardware para sintetizadores",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador para sintetizadores hardware",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "bateria electronica para principiantes",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "bateria electronica silenciosa",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "bateria electronica con MIDI",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "camara y microfono para streaming",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup para YouTube con buen audio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup para Twitch con microfono",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "regalo para productor musical",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "regalo para musico principiante",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "microfono para podcast con invitado",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "microfono para locucion en casa",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "microfono para grabar reels",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "microfono para clases online",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "microfono para cantar en home studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "microfono dinamico vs condensador para podcast",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "microfono USB vs interfaz de audio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "interfaz de audio para dos microfonos",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "interfaz de audio para bajo electrico",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "interfaz de audio para teclado y voz",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "interfaz de audio para notebook",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "interfaz de audio para iPad o mobile",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "interfaz con phantom power para microfono condensador",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "interfaz de audio para monitores de estudio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "monitores de estudio para escritorio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "monitores de estudio para cuarto sin tratar",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "monitores activos para producir",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "monitores de estudio vs auriculares",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "monitores para editar video con buen audio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "auriculares para producir musica",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "auriculares para mezclar de noche",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "auriculares cerrados vs abiertos para home studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "auriculares para streaming",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "auriculares para tocar guitarra con interfaz",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI para aprender piano",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI para tocar acordes",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI para beats de trap",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI para reggaeton",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI para techno",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI para sintetizadores virtuales",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI portable para viajar",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI con perillas",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "pads MIDI para finger drumming",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "pads MIDI para disparar samples",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "secuenciador para dawless",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "secuenciador para modular y sintes",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "sinte analogico para principiantes",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "sinte hibrido para directo",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "sintetizador para sonidos lead",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "sintetizador para pads y atmosferas",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "sintetizador con vocoder",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "bateria electronica para practicar de noche",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "bateria electronica para chicos",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "bateria electronica para tocar en vivo",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "bateria electronica para grabar MIDI",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "modulo de bateria electronica",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "pads y platillos para bateria electronica",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "camara para streaming con microfono",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "camara para YouTube home studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup para podcast de video",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup para cursos online",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup para transmisiones en vivo",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup para productor en departamento",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup para cantante compositor",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup para guitarrista productor",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup para beatmaker principiante",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup para musica urbana en casa",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup para musica electronica sin computadora",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup compacto para escritorio chico",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "home studio con poco espacio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "home studio para voz y guitarra",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "home studio para piano y voz",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "home studio para crear contenido",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "home studio sin molestar vecinos",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "que comprar primero para home studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "upgrade para home studio principiante",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "cadena de audio para grabar voz",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "cadena de audio para streaming",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "cadena de audio para guitarra",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "equipo para empezar a producir musica",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "equipo para grabar covers en casa",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "equipo para hacer beats en notebook",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "equipo para podcast economico",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "equipo para streaming sin complicarse",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "regalo para cantante",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "regalo para baterista",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "regalo para tecladista",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "regalo para streamer",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "que comprar para controlador MIDI para FL Studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "como elegir controlador MIDI para FL Studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "mejor opcion de controlador MIDI para FL Studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "guia para elegir controlador MIDI para FL Studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "comparar opciones de controlador MIDI para FL Studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup con controlador MIDI para FL Studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI para FL Studio para principiantes",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI para FL Studio para home studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI para FL Studio compatible con Ableton",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "que comprar para controlador MIDI para Ableton",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "como elegir controlador MIDI para Ableton",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "mejor opcion de controlador MIDI para Ableton",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "guia para elegir controlador MIDI para Ableton",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "comparar opciones de controlador MIDI para Ableton",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup con controlador MIDI para Ableton",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI para Ableton para principiantes",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI para Ableton para home studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI para Ableton compatible con Ableton",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "controlador MIDI para Ableton compatible con FL Studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "que comprar para interfaz de audio para grabar voz en casa",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "como elegir interfaz de audio para grabar voz en casa",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "mejor opcion de interfaz de audio para grabar voz en casa",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "guia para elegir interfaz de audio para grabar voz en casa",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "comparar opciones de interfaz de audio para grabar voz en casa",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup con interfaz de audio para grabar voz en casa",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "interfaz de audio para grabar voz en casa para principiantes",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "interfaz de audio para grabar voz en casa para home studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "interfaz de audio para grabar voz en casa para departamento",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "interfaz de audio para grabar voz en casa para streaming",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "que comprar para placa de sonido para guitarra",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "como elegir placa de sonido para guitarra",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "mejor opcion de placa de sonido para guitarra",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "guia para elegir placa de sonido para guitarra",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "comparar opciones de placa de sonido para guitarra",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup con placa de sonido para guitarra",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "placa de sonido para guitarra para principiantes",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "placa de sonido para guitarra para home studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "placa de sonido para guitarra para departamento",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "placa de sonido para guitarra para streaming",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "placa de sonido para guitarra para grabar en casa",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "que comprar para microfono para podcast",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "como elegir microfono para podcast",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "mejor opcion de microfono para podcast",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "comparar opciones de microfono para podcast",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "setup con microfono para podcast",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "microfono para podcast para principiantes",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "microfono para podcast para home studio",
+      "reason": "already_exists"
+    },
+    {
+      "keyword": "microfono para podcast para streaming",
+      "reason": "already_exists"
+    }
+  ],
+  "blocked": [
+    {
+      "keyword": "controlador MIDI para FL Studio compatible con FL Studio",
+      "slug": "controladores-midi-fl-studio-comparativa",
+      "reason": "validation_error",
+      "errors": [
+        "controladores-midi-fl-studio-comparativa: seo_title duplicado",
+        "controladores-midi-fl-studio-comparativa: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "interfaz de audio para grabar voz en casa para grabar en casa",
+      "slug": "interfaz-audio-grabar-voz-casa-1",
+      "reason": "validation_error",
+      "errors": [
+        "interfaz-audio-grabar-voz-casa-1: seo_title duplicado",
+        "interfaz-audio-grabar-voz-casa-1: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "guia para elegir microfono para podcast",
+      "slug": "guia-elegir-microfono-podcast-usb-xlr",
+      "reason": "validation_error",
+      "errors": [
+        "guia-elegir-microfono-podcast-usb-xlr: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "comparar opciones de monitores de estudio para home studio chico",
+      "slug": "comparar-monitores-estudio-home-studio-chico",
+      "reason": "validation_error",
+      "errors": [
+        "comparar-monitores-estudio-home-studio-chico: seo_title duplicado",
+        "comparar-monitores-estudio-home-studio-chico: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "monitores de estudio para home studio chico para principiantes",
+      "slug": "monitores-estudio-home-studio-principiantes",
+      "reason": "validation_error",
+      "errors": [
+        "monitores-estudio-home-studio-principiantes: seo_title duplicado",
+        "monitores-estudio-home-studio-principiantes: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "mejor opcion de auriculares cerrados para grabar voces",
+      "slug": "mejor-opcion-auriculares-cerrados-grabar-voces",
+      "reason": "validation_error",
+      "errors": [
+        "mejor-opcion-auriculares-cerrados-grabar-voces: seo_title duplicado"
+      ]
+    },
+    {
+      "keyword": "guia para elegir sintetizador para aprender sintesis",
+      "slug": "guia-para-elegir-sintetizador-aprender-sintesis",
+      "reason": "validation_error",
+      "errors": [
+        "guia-para-elegir-sintetizador-aprender-sintesis: seo_title duplicado"
+      ]
+    },
+    {
+      "keyword": "mejor opcion de Arturia MiniLab 3 vs KeyLab",
+      "slug": "arturia-minilab-3-vs-keylab-comparativa-1",
+      "reason": "validation_error",
+      "errors": [
+        "arturia-minilab-3-vs-keylab-comparativa-1: seo_title duplicado",
+        "arturia-minilab-3-vs-keylab-comparativa-1: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "guia para elegir Arturia MiniLab 3 vs KeyLab",
+      "slug": "guia-arturia-minilab-3-vs-keylab",
+      "reason": "validation_error",
+      "errors": [
+        "guia-arturia-minilab-3-vs-keylab: seo_title duplicado",
+        "guia-arturia-minilab-3-vs-keylab: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "comparar opciones de Arturia MiniLab 3 vs KeyLab",
+      "slug": "comparar-arturia-minilab-3-vs-keylab",
+      "reason": "validation_error",
+      "errors": [
+        "comparar-arturia-minilab-3-vs-keylab: seo_title duplicado",
+        "comparar-arturia-minilab-3-vs-keylab: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "guia para elegir Arturia KeyStep Pro para hardware",
+      "slug": "guia-elegir-arturia-keystep-pro",
+      "reason": "validation_error",
+      "errors": [
+        "guia-elegir-arturia-keystep-pro: seo_title duplicado"
+      ]
+    },
+    {
+      "keyword": "Arturia MicroFreak para empezar en sintesis para principiantes",
+      "slug": "arturia-microfreak-sintesis-principiantes",
+      "reason": "validation_error",
+      "errors": [
+        "arturia-microfreak-sintesis-principiantes: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "mejor opcion de Arturia MiniFreak vs MicroFreak",
+      "slug": "arturia-minifreak-vs-microfreak-comparativa",
+      "reason": "validation_error",
+      "errors": [
+        "arturia-minifreak-vs-microfreak-comparativa: seo_title duplicado",
+        "arturia-minifreak-vs-microfreak-comparativa: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "comparar opciones de Arturia MiniFreak vs MicroFreak",
+      "slug": "comparar-arturia-minifreak-microfreak",
+      "reason": "validation_error",
+      "errors": [
+        "comparar-arturia-minifreak-microfreak: seo_title duplicado"
+      ]
+    },
+    {
+      "keyword": "setup con Arturia MiniFreak vs MicroFreak",
+      "slug": "setup-arturia-minifreak-vs-microfreak",
+      "reason": "validation_error",
+      "errors": [
+        "setup-arturia-minifreak-vs-microfreak: seo_title duplicado"
+      ]
+    },
+    {
+      "keyword": "guia para elegir Midiplus MS5 para home studio",
+      "slug": "guia-elegir-midiplus-ms5-home-studio",
+      "reason": "validation_error",
+      "errors": [
+        "guia-elegir-midiplus-ms5-home-studio: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "comparar opciones de Midiplus ED8 vs ED6",
+      "slug": "comparar-midiplus-ed8-vs-ed6",
+      "reason": "validation_error",
+      "errors": [
+        "comparar-midiplus-ed8-vs-ed6: meta_description duplicado"
+      ]
+    },
+    {
+      "keyword": "guia para elegir microfono condensador para voz",
+      "slug": "guia-elegir-microfono-condensador-voz",
+      "reason": "validation_error",
+      "errors": [
+        "guia-elegir-microfono-condensador-voz: seo_title duplicado",
+        "guia-elegir-microfono-condensador-voz: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "Audio Technica AT2020 para home studio para grabar en casa",
+      "slug": "audio-technica-at2020-home-studio-grabacion",
+      "reason": "validation_error",
+      "errors": [
+        "audio-technica-at2020-home-studio-grabacion: seo_title duplicado"
+      ]
+    },
+    {
+      "keyword": "Alctron UM900 para streaming para home studio",
+      "slug": "alctron-um900-streaming-home-studio",
+      "reason": "validation_error",
+      "errors": [
+        "alctron-um900-streaming-home-studio: seo_title duplicado"
+      ]
+    },
+    {
+      "keyword": "guia para elegir auriculares para grabar podcast",
+      "slug": "guia-para-elegir-auriculares-para-grabar-podcast",
+      "reason": "validation_error",
+      "errors": [
+        "guia-para-elegir-auriculares-para-grabar-podcast: seo_title duplicado"
+      ]
+    },
+    {
+      "keyword": "que comprar para auriculares para bateria electronica",
+      "slug": "auriculares-para-bateria-electronica-3",
+      "reason": "validation_error",
+      "errors": [
+        "auriculares-para-bateria-electronica-3: seo_title duplicado",
+        "auriculares-para-bateria-electronica-3: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "como elegir auriculares para bateria electronica",
+      "slug": "como-elegir-auriculares-para-bateria-electronica",
+      "reason": "validation_error",
+      "errors": [
+        "como-elegir-auriculares-para-bateria-electronica: seo_title duplicado"
+      ]
+    },
+    {
+      "keyword": "como elegir interfaz de audio para podcast",
+      "slug": "como-elegir-interfaz-de-audio-para-podcast",
+      "reason": "validation_error",
+      "errors": [
+        "como-elegir-interfaz-de-audio-para-podcast: seo_title duplicado",
+        "como-elegir-interfaz-de-audio-para-podcast: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "guia para elegir interfaz de audio para podcast",
+      "slug": "guia-elegir-interfaz-audio-podcast",
+      "reason": "validation_error",
+      "errors": [
+        "guia-elegir-interfaz-audio-podcast: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "que comprar para interfaz de audio con dos entradas",
+      "slug": "interfaz-audio-dos-entradas-para-voz-e-instrumento",
+      "reason": "validation_error",
+      "errors": [
+        "interfaz-audio-dos-entradas-para-voz-e-instrumento: seo_title duplicado"
+      ]
+    },
+    {
+      "keyword": "controlador MIDI para FL Studio para producir musica electronica",
+      "slug": "controlador-midi-fl-studio-musica-electronica",
+      "reason": "validation_error",
+      "errors": [
+        "controlador-midi-fl-studio-musica-electronica: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "controlador MIDI para FL Studio para hacer beats",
+      "slug": "controladores-midi-fl-studio-beats",
+      "reason": "validation_error",
+      "errors": [
+        "controladores-midi-fl-studio-beats: seo_title duplicado",
+        "controladores-midi-fl-studio-beats: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "interfaz de audio para grabar voz en casa para home studio chico",
+      "slug": "interfaz-de-audio-para-grabar-voz-en-casa-3",
+      "reason": "validation_error",
+      "errors": [
+        "interfaz-de-audio-para-grabar-voz-en-casa-3: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "interfaz de audio para grabar voz en casa para creadores de contenido",
+      "slug": "interfaz-audio-grabar-voz-casa-creadores-contenido",
+      "reason": "validation_error",
+      "errors": [
+        "interfaz-audio-grabar-voz-casa-creadores-contenido: seo_title duplicado",
+        "interfaz-audio-grabar-voz-casa-creadores-contenido: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "interfaz de audio para grabar voz en casa para grabar contenido",
+      "slug": "interfaz-de-audio-para-grabar-voz-en-casa-3",
+      "reason": "validation_error",
+      "errors": [
+        "interfaz-de-audio-para-grabar-voz-en-casa-3: seo_title duplicado"
+      ]
+    },
+    {
+      "keyword": "interfaz de audio para grabar voz en casa para dos entradas",
+      "slug": "interfaz-audio-grabar-voz-dos-entradas",
+      "reason": "validation_error",
+      "errors": [
+        "interfaz-audio-grabar-voz-dos-entradas: seo_title duplicado"
+      ]
+    },
+    {
+      "keyword": "interfaz de audio para grabar voz en casa para voz",
+      "slug": "interfaz-audio-grabar-voz-casa-3",
+      "reason": "validation_error",
+      "errors": [
+        "interfaz-audio-grabar-voz-casa-3: seo_title duplicado"
+      ]
+    },
+    {
+      "keyword": "interfaz de audio para grabar voz en casa para notebook",
+      "slug": "interfaz-audio-grabar-voz-casa-notebook",
+      "reason": "validation_error",
+      "errors": [
+        "interfaz-audio-grabar-voz-casa-notebook: seo_title duplicado",
+        "interfaz-audio-grabar-voz-casa-notebook: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "interfaz de audio para grabar voz en casa para conectar monitores",
+      "slug": "interfaz-audio-grabar-voz-casa-conectar-monitores",
+      "reason": "validation_error",
+      "errors": [
+        "interfaz-audio-grabar-voz-casa-conectar-monitores: seo_title duplicado"
+      ]
+    },
+    {
+      "keyword": "interfaz de audio para grabar voz en casa para grabar voces",
+      "slug": "interfaz-audio-grabar-voz-casa-3",
+      "reason": "validation_error",
+      "errors": [
+        "interfaz-audio-grabar-voz-casa-3: seo_title duplicado",
+        "interfaz-audio-grabar-voz-casa-3: meta_description duplicado",
+        "interfaz-audio-grabar-voz-casa-3: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "interfaz de audio para grabar voz en casa para mezclar de noche",
+      "reason": "generation_error",
+      "error": "Expecting ',' delimiter: line 20 column 153 (char 1641)"
+    },
+    {
+      "keyword": "placa de sonido para guitarra para tocar guitarra",
+      "slug": "placa-sonido-guitarra-3",
+      "reason": "validation_error",
+      "errors": [
+        "placa-sonido-guitarra-3: seo_title duplicado"
+      ]
+    },
+    {
+      "keyword": "microfono para podcast para creadores de contenido",
+      "slug": "microfono-para-podcast-creadores-contenido-usb-xlr",
+      "reason": "validation_error",
+      "errors": [
+        "microfono-para-podcast-creadores-contenido-usb-xlr: seo_title duplicado"
+      ]
+    },
+    {
+      "keyword": "microfono para podcast para grabar contenido",
+      "slug": "microfono-para-podcast-usb-o-xlr-3",
+      "reason": "validation_error",
+      "errors": [
+        "microfono-para-podcast-usb-o-xlr-3: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "microfono para podcast para voces",
+      "slug": "microfono-para-podcast-voces-usb-o-xlr",
+      "reason": "validation_error",
+      "errors": [
+        "microfono-para-podcast-voces-usb-o-xlr: seo_title duplicado"
+      ]
+    },
+    {
+      "keyword": "microfono para podcast para locucion",
+      "slug": "microfono-para-podcast-locucion-usb-o-xlr",
+      "reason": "validation_error",
+      "errors": [
+        "microfono-para-podcast-locucion-usb-o-xlr: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "microfono para podcast con interfaz de audio",
+      "slug": "microfono-para-podcast-con-interfaz-de-audio",
+      "reason": "validation_error",
+      "errors": [
+        "microfono-para-podcast-con-interfaz-de-audio: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "microfono para podcast para notebook",
+      "slug": "microfono-para-podcast-para-notebook-usb-o-xlr",
+      "reason": "validation_error",
+      "errors": [
+        "microfono-para-podcast-para-notebook-usb-o-xlr: seo_title duplicado",
+        "microfono-para-podcast-para-notebook-usb-o-xlr: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "monitores de estudio para home studio chico para creadores de contenido",
+      "slug": "monitores-estudio-home-studio-chico-4",
+      "reason": "validation_error",
+      "errors": [
+        "monitores-estudio-home-studio-chico-4: seo_title duplicado",
+        "monitores-estudio-home-studio-chico-4: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "monitores de estudio para home studio chico para setup portable",
+      "slug": "monitores-estudio-home-studio-portable",
+      "reason": "validation_error",
+      "errors": [
+        "monitores-estudio-home-studio-portable: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "monitores de estudio para home studio chico para grabar contenido",
+      "slug": "monitores-estudio-home-studio-chico-4",
+      "reason": "validation_error",
+      "errors": [
+        "monitores-estudio-home-studio-chico-4: seo_title duplicado",
+        "monitores-estudio-home-studio-chico-4: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "monitores de estudio para home studio chico para grabar voces",
+      "slug": "monitores-estudio-home-studio-chico-4",
+      "reason": "validation_error",
+      "errors": [
+        "monitores-estudio-home-studio-chico-4: seo_title duplicado"
+      ]
+    },
+    {
+      "keyword": "monitores de estudio para home studio chico para mezclar de noche",
+      "slug": "monitores-estudio-home-studio-chico-4",
+      "reason": "validation_error",
+      "errors": [
+        "monitores-estudio-home-studio-chico-4: seo_title duplicado",
+        "monitores-estudio-home-studio-chico-4: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "monitores de estudio para home studio chico para tocar guitarra",
+      "slug": "monitores-estudio-home-studio-chico-guitarra",
+      "reason": "validation_error",
+      "errors": [
+        "monitores-estudio-home-studio-chico-guitarra: seo_title duplicado"
+      ]
+    },
+    {
+      "keyword": "monitores de estudio para home studio chico para streaming",
+      "slug": "monitores-estudio-home-studio-chico-streaming",
+      "reason": "validation_error",
+      "errors": [
+        "monitores-estudio-home-studio-chico-streaming: seo_title duplicado",
+        "monitores-estudio-home-studio-chico-streaming: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "monitores de estudio para home studio chico para escritorio",
+      "slug": "monitores-estudio-home-studio-chico-5",
+      "reason": "validation_error",
+      "errors": [
+        "monitores-estudio-home-studio-chico-5: seo_title duplicado"
+      ]
+    },
+    {
+      "keyword": "monitores de estudio para home studio chico para producir",
+      "slug": "monitores-estudio-home-studio-chico-5",
+      "reason": "validation_error",
+      "errors": [
+        "monitores-estudio-home-studio-chico-5: seo_title duplicado",
+        "monitores-estudio-home-studio-chico-5: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "monitores de estudio para home studio chico para editar video",
+      "slug": "monitores-estudio-home-studio-chico-editar-video",
+      "reason": "validation_error",
+      "errors": [
+        "monitores-estudio-home-studio-chico-editar-video: seo_title duplicado",
+        "monitores-estudio-home-studio-chico-editar-video: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "auriculares cerrados para grabar voces para home studio chico",
+      "slug": "auriculares-cerrados-grabar-voces-home-studio-5",
+      "reason": "validation_error",
+      "errors": [
+        "auriculares-cerrados-grabar-voces-home-studio-5: seo_title duplicado",
+        "auriculares-cerrados-grabar-voces-home-studio-5: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "auriculares cerrados para grabar voces para mejorar audio en casa",
+      "slug": "auriculares-cerrados-grabar-voces-5",
+      "reason": "validation_error",
+      "errors": [
+        "auriculares-cerrados-grabar-voces-5: seo_title duplicado"
+      ]
+    },
+    {
+      "keyword": "auriculares cerrados para grabar voces para grabar contenido",
+      "slug": "auriculares-cerrados-grabar-voces-contenido",
+      "reason": "validation_error",
+      "errors": [
+        "auriculares-cerrados-grabar-voces-contenido: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "auriculares cerrados para grabar voces para voces",
+      "slug": "auriculares-cerrados-grabar-voces-5",
+      "reason": "validation_error",
+      "errors": [
+        "auriculares-cerrados-grabar-voces-5: seo_title duplicado",
+        "auriculares-cerrados-grabar-voces-5: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "auriculares cerrados para grabar voces para locucion",
+      "slug": "auriculares-cerrados-grabar-voces-locucion",
+      "reason": "validation_error",
+      "errors": [
+        "auriculares-cerrados-grabar-voces-locucion: seo_title duplicado",
+        "auriculares-cerrados-grabar-voces-locucion: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "auriculares cerrados para grabar voces con interfaz de audio",
+      "slug": "auriculares-cerrados-grabar-voces-interfaz-audio",
+      "reason": "validation_error",
+      "errors": [
+        "auriculares-cerrados-grabar-voces-interfaz-audio: seo_title duplicado",
+        "auriculares-cerrados-grabar-voces-interfaz-audio: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "auriculares cerrados para grabar voces para grabar covers",
+      "slug": "auriculares-cerrados-grabar-voces-covers",
+      "reason": "validation_error",
+      "errors": [
+        "auriculares-cerrados-grabar-voces-covers: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "auriculares cerrados para grabar voces para dos entradas",
+      "slug": "auriculares-cerrados-grabar-voces-dos-entradas",
+      "reason": "validation_error",
+      "errors": [
+        "auriculares-cerrados-grabar-voces-dos-entradas: seo_title duplicado",
+        "auriculares-cerrados-grabar-voces-dos-entradas: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "auriculares cerrados para grabar voces para notebook",
+      "slug": "auriculares-cerrados-grabar-voces-notebook",
+      "reason": "validation_error",
+      "errors": [
+        "auriculares-cerrados-grabar-voces-notebook: seo_title duplicado",
+        "auriculares-cerrados-grabar-voces-notebook: h1 duplicado"
+      ]
+    },
+    {
+      "keyword": "auriculares cerrados para grabar voces para conectar monitores",
+      "slug": "auriculares-cerrados-grabar-voces-5",
+      "reason": "validation_error",
+      "errors": [
+        "auriculares-cerrados-grabar-voces-5: seo_title duplicado",
+        "auriculares-cerrados-grabar-voces-5: h1 duplicado"
+      ]
+    }
+  ]
+}

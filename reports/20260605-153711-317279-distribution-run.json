@@ -1,0 +1,346 @@
+{
+  "timestamp_utc": "20260605-153711-317279",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260605-153153-544760",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 46,
+  "pieces_blocked": 14,
+  "proposed": [
+    {
+      "slug": "como-elegir-placa-de-sonido-para-guitarra",
+      "type": "post_x",
+      "title": "Elige la placa de sonido perfecta para tu guitarra"
+    },
+    {
+      "slug": "guia-para-elegir-placa-de-sonido-para-guitarra",
+      "type": "post_x",
+      "title": "Elige la Placa de Sonido Ideal para tu Guitarra"
+    },
+    {
+      "slug": "setup-con-placa-de-sonido-para-guitarra",
+      "type": "respuesta_tecnica",
+      "title": "Configura tu guitarra con la interfaz de audio adecuada"
+    },
+    {
+      "slug": "setup-con-placa-de-sonido-para-guitarra",
+      "type": "post_educativo",
+      "title": "Configura tu guitarra con la interfaz de audio adecuada"
+    },
+    {
+      "slug": "setup-con-placa-de-sonido-para-guitarra",
+      "type": "snippet_social",
+      "title": "Configura tu guitarra con la interfaz de audio adecuada"
+    },
+    {
+      "slug": "setup-con-placa-de-sonido-para-guitarra",
+      "type": "post_social",
+      "title": "Configura tu guitarra con la interfaz de audio adecuada"
+    },
+    {
+      "slug": "setup-con-placa-de-sonido-para-guitarra",
+      "type": "post_x",
+      "title": "Configura tu guitarra con la interfaz de audio adecuada"
+    },
+    {
+      "slug": "setup-con-placa-de-sonido-para-guitarra",
+      "type": "respuesta_youtube",
+      "title": "Configura tu guitarra con la interfaz de audio adecuada"
+    },
+    {
+      "slug": "placa-sonido-guitarra-principiantes",
+      "type": "snippet_social",
+      "title": "Las Mejores Placas de Sonido para Guitarristas Principiantes"
+    },
+    {
+      "slug": "placa-sonido-guitarra-principiantes",
+      "type": "post_x",
+      "title": "Las Mejores Placas de Sonido para Guitarristas Principiantes"
+    },
+    {
+      "slug": "placa-sonido-guitarra-departamento",
+      "type": "respuesta_tecnica",
+      "title": "Placas de sonido ideales para grabar guitarra en departamento"
+    },
+    {
+      "slug": "placa-sonido-guitarra-departamento",
+      "type": "post_educativo",
+      "title": "Placas de sonido ideales para grabar guitarra en departamento"
+    },
+    {
+      "slug": "placa-sonido-guitarra-departamento",
+      "type": "snippet_social",
+      "title": "Placas de sonido ideales para grabar guitarra en departamento"
+    },
+    {
+      "slug": "placa-sonido-guitarra-departamento",
+      "type": "post_social",
+      "title": "Placas de sonido ideales para grabar guitarra en departamento"
+    },
+    {
+      "slug": "placa-sonido-guitarra-departamento",
+      "type": "post_x",
+      "title": "Placas de sonido para grabar guitarra en departamento"
+    },
+    {
+      "slug": "placa-sonido-guitarra-departamento",
+      "type": "respuesta_youtube",
+      "title": "Placas de sonido para grabar guitarra en departamento"
+    },
+    {
+      "slug": "placa-sonido-guitarra-streaming",
+      "type": "respuesta_tecnica",
+      "title": "Elige la mejor placa de sonido para tu guitarra"
+    },
+    {
+      "slug": "placa-sonido-guitarra-streaming",
+      "type": "post_educativo",
+      "title": "Elige la mejor placa de sonido para tu guitarra"
+    },
+    {
+      "slug": "placa-sonido-guitarra-streaming",
+      "type": "snippet_social",
+      "title": "Elige la mejor placa de sonido para tu guitarra"
+    },
+    {
+      "slug": "placa-sonido-guitarra-streaming",
+      "type": "post_social",
+      "title": "Elige la mejor placa de sonido para tu guitarra 🎸"
+    },
+    {
+      "slug": "placa-sonido-guitarra-streaming",
+      "type": "post_x",
+      "title": "Elige la mejor placa de sonido para tu guitarra"
+    },
+    {
+      "slug": "placa-sonido-guitarra-streaming",
+      "type": "respuesta_youtube",
+      "title": "Elige la mejor placa de sonido para tu guitarra"
+    },
+    {
+      "slug": "placa-sonido-guitarra-grabar-casa",
+      "type": "respuesta_tecnica",
+      "title": "Placas de sonido ideales para grabar tu guitarra"
+    },
+    {
+      "slug": "placa-sonido-guitarra-grabar-casa",
+      "type": "post_educativo",
+      "title": "Placas de sonido ideales para grabar tu guitarra"
+    },
+    {
+      "slug": "placa-sonido-guitarra-grabar-casa",
+      "type": "snippet_social",
+      "title": "Placas de sonido ideales para grabar tu guitarra"
+    },
+    {
+      "slug": "placa-sonido-guitarra-grabar-casa",
+      "type": "post_social",
+      "title": "Placas de sonido ideales para grabar tu guitarra 🎸"
+    },
+    {
+      "slug": "placa-sonido-guitarra-grabar-casa",
+      "type": "post_x",
+      "title": "Placas de sonido ideales para grabar tu guitarra"
+    },
+    {
+      "slug": "placa-sonido-guitarra-grabar-casa",
+      "type": "respuesta_youtube",
+      "title": "Placas de sonido ideales para grabar tu guitarra en casa"
+    },
+    {
+      "slug": "que-comprar-para-auriculares-cerrados-para-grabar-voces",
+      "type": "respuesta_tecnica",
+      "title": "Auriculares cerrados para grabar voces sin bleed"
+    },
+    {
+      "slug": "que-comprar-para-auriculares-cerrados-para-grabar-voces",
+      "type": "post_educativo",
+      "title": "Auriculares cerrados para grabar voces sin bleed"
+    },
+    {
+      "slug": "que-comprar-para-auriculares-cerrados-para-grabar-voces",
+      "type": "snippet_social",
+      "title": "Auriculares cerrados para grabar voces sin bleed"
+    },
+    {
+      "slug": "que-comprar-para-auriculares-cerrados-para-grabar-voces",
+      "type": "post_social",
+      "title": "Auriculares cerrados para grabar voces sin bleed"
+    },
+    {
+      "slug": "que-comprar-para-auriculares-cerrados-para-grabar-voces",
+      "type": "post_x",
+      "title": "Auriculares cerrados para grabar voces sin bleed"
+    },
+    {
+      "slug": "que-comprar-para-auriculares-cerrados-para-grabar-voces",
+      "type": "respuesta_youtube",
+      "title": "Auriculares cerrados para grabar voces sin bleed"
+    },
+    {
+      "slug": "como-elegir-auriculares-cerrados-para-grabar-voces",
+      "type": "respuesta_tecnica",
+      "title": "Elige los mejores auriculares cerrados para grabar voces"
+    },
+    {
+      "slug": "como-elegir-auriculares-cerrados-para-grabar-voces",
+      "type": "post_educativo",
+      "title": "Elige los mejores auriculares cerrados para grabar voces"
+    },
+    {
+      "slug": "como-elegir-auriculares-cerrados-para-grabar-voces",
+      "type": "snippet_social",
+      "title": "Elige los mejores auriculares cerrados para grabar voces"
+    },
+    {
+      "slug": "como-elegir-auriculares-cerrados-para-grabar-voces",
+      "type": "post_social",
+      "title": "Elige los mejores auriculares cerrados para grabar voces"
+    },
+    {
+      "slug": "como-elegir-auriculares-cerrados-para-grabar-voces",
+      "type": "post_x",
+      "title": "Elige los mejores auriculares cerrados para grabar voces"
+    },
+    {
+      "slug": "como-elegir-auriculares-cerrados-para-grabar-voces",
+      "type": "respuesta_youtube",
+      "title": "Elige auriculares cerrados para grabar voces sin bleed"
+    },
+    {
+      "slug": "setup-auriculares-cerrados-grabar-voces",
+      "type": "respuesta_tecnica",
+      "title": "Arma tu Setup con Auriculares Cerrados para Grabaciones Perfectas"
+    },
+    {
+      "slug": "setup-auriculares-cerrados-grabar-voces",
+      "type": "post_educativo",
+      "title": "Arma tu Setup con Auriculares Cerrados para Grabaciones Perfectas"
+    },
+    {
+      "slug": "setup-auriculares-cerrados-grabar-voces",
+      "type": "snippet_social",
+      "title": "Arma tu Setup con Auriculares Cerrados para Grabaciones Perfectas"
+    },
+    {
+      "slug": "setup-auriculares-cerrados-grabar-voces",
+      "type": "post_social",
+      "title": "Arma tu Setup con Auriculares Cerrados para Grabaciones Perfectas"
+    },
+    {
+      "slug": "setup-auriculares-cerrados-grabar-voces",
+      "type": "post_x",
+      "title": "Arma tu Setup con Auriculares Cerrados para Grabaciones Perfectas"
+    },
+    {
+      "slug": "setup-auriculares-cerrados-grabar-voces",
+      "type": "respuesta_youtube",
+      "title": "Arma tu Setup con Auriculares Cerrados para Grabaciones Perfectas"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "como-elegir-placa-de-sonido-para-guitarra",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "como-elegir-placa-de-sonido-para-guitarra",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "como-elegir-placa-de-sonido-para-guitarra",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "como-elegir-placa-de-sonido-para-guitarra",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "como-elegir-placa-de-sonido-para-guitarra",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-para-elegir-placa-de-sonido-para-guitarra",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-para-elegir-placa-de-sonido-para-guitarra",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-para-elegir-placa-de-sonido-para-guitarra",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-para-elegir-placa-de-sonido-para-guitarra",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-para-elegir-placa-de-sonido-para-guitarra",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "placa-sonido-guitarra-principiantes",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "placa-sonido-guitarra-principiantes",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "placa-sonido-guitarra-principiantes",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "placa-sonido-guitarra-principiantes",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 317.77
+}

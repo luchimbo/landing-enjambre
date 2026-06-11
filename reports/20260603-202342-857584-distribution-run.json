@@ -1,0 +1,332 @@
+{
+  "timestamp_utc": "20260603-202342-857584",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260603-202014-989978",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 53,
+  "pieces_blocked": 7,
+  "proposed": [
+    {
+      "slug": "microfono-condensador-para-voz-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Elige el micrófono condensador ideal para tu voz"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-home-studio",
+      "type": "post_educativo",
+      "title": "Elige el micrófono condensador ideal para tu voz"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-home-studio",
+      "type": "snippet_social",
+      "title": "Elige el micrófono condensador ideal para tu voz"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-home-studio",
+      "type": "post_social",
+      "title": "Elige el micrófono condensador ideal para tu voz 🎤"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-home-studio",
+      "type": "post_x",
+      "title": "Elige el micrófono condensador ideal para tu voz"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Elige el micrófono condensador ideal para tu voz"
+    },
+    {
+      "slug": "audio-technica-at2020-home-studio-streaming",
+      "type": "respuesta_tecnica",
+      "title": "Audio Technica AT2020: Ideal para Home Studio y Streaming"
+    },
+    {
+      "slug": "audio-technica-at2020-home-studio-streaming",
+      "type": "post_educativo",
+      "title": "Audio Technica AT2020: El micrófono ideal para tu home studio"
+    },
+    {
+      "slug": "audio-technica-at2020-home-studio-streaming",
+      "type": "post_social",
+      "title": "Audio Technica AT2020: El micrófono ideal para tu home studio"
+    },
+    {
+      "slug": "audio-technica-at2020-home-studio-streaming",
+      "type": "post_x",
+      "title": "Audio Technica AT2020: Ideal para tu home studio"
+    },
+    {
+      "slug": "audio-technica-at2020-home-studio-streaming",
+      "type": "respuesta_youtube",
+      "title": "Audio Technica AT2020: Ideal para Home Studio y Streaming"
+    },
+    {
+      "slug": "brazo-microfono-streaming-ergonomia-audio",
+      "type": "respuesta_tecnica",
+      "title": "Optimizá tu espacio de streaming con un brazo para micrófono"
+    },
+    {
+      "slug": "brazo-microfono-streaming-ergonomia-audio",
+      "type": "post_educativo",
+      "title": "Optimizá tu espacio de streaming con un brazo para micrófono"
+    },
+    {
+      "slug": "brazo-microfono-streaming-ergonomia-audio",
+      "type": "snippet_social",
+      "title": "Optimizá tu espacio de streaming con un brazo para micrófono"
+    },
+    {
+      "slug": "brazo-microfono-streaming-ergonomia-audio",
+      "type": "post_social",
+      "title": "Optimizá tu espacio de streaming con un brazo para micrófono"
+    },
+    {
+      "slug": "brazo-microfono-streaming-ergonomia-audio",
+      "type": "post_x",
+      "title": "Optimizá tu espacio de streaming con un brazo para micrófono"
+    },
+    {
+      "slug": "brazo-microfono-streaming-ergonomia-audio",
+      "type": "respuesta_youtube",
+      "title": "Mejorá tu streaming con un brazo para micrófono adecuado"
+    },
+    {
+      "slug": "filtro-pop-para-grabar-voz-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Mejora tus Grabaciones Vocales con un Filtro Pop"
+    },
+    {
+      "slug": "filtro-pop-para-grabar-voz-home-studio",
+      "type": "post_educativo",
+      "title": "Mejora tus Grabaciones Vocales con un Filtro Pop"
+    },
+    {
+      "slug": "filtro-pop-para-grabar-voz-home-studio",
+      "type": "snippet_social",
+      "title": "Mejora tus Grabaciones Vocales con un Filtro Pop"
+    },
+    {
+      "slug": "filtro-pop-para-grabar-voz-home-studio",
+      "type": "post_social",
+      "title": "Mejora tus Grabaciones Vocales con un Filtro Pop"
+    },
+    {
+      "slug": "filtro-pop-para-grabar-voz-home-studio",
+      "type": "post_x",
+      "title": "Mejora tus Grabaciones Vocales con un Filtro Pop"
+    },
+    {
+      "slug": "filtro-pop-para-grabar-voz-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Mejora tus Grabaciones Vocales con un Filtro Pop"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Auriculares cerrados para grabar tu podcast en casa"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast-home-studio",
+      "type": "post_educativo",
+      "title": "Auriculares cerrados para grabar tu podcast en casa"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast-home-studio",
+      "type": "snippet_social",
+      "title": "Auriculares cerrados para grabar tu podcast en casa"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast-home-studio",
+      "type": "post_social",
+      "title": "Auriculares cerrados para grabar tu podcast en casa"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast-home-studio",
+      "type": "post_x",
+      "title": "Auriculares cerrados para grabar tu podcast en casa"
+    },
+    {
+      "slug": "auriculares-para-grabar-podcast-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Auriculares cerrados: clave para grabar podcasts en casa"
+    },
+    {
+      "slug": "como-elegir-midiplus-studio-m-home-studio",
+      "type": "post_educativo",
+      "title": "Cómo elegir la MIDIPLUS Studio M para tu Home Studio"
+    },
+    {
+      "slug": "como-elegir-midiplus-studio-m-home-studio",
+      "type": "snippet_social",
+      "title": "Cómo elegir la MIDIPLUS Studio M para tu Home Studio"
+    },
+    {
+      "slug": "como-elegir-midiplus-studio-m-home-studio",
+      "type": "post_social",
+      "title": "Cómo elegir la MIDIPLUS Studio M para tu Home Studio"
+    },
+    {
+      "slug": "como-elegir-midiplus-studio-m-home-studio",
+      "type": "post_x",
+      "title": "Cómo elegir la MIDIPLUS Studio M para tu Home Studio"
+    },
+    {
+      "slug": "como-elegir-midiplus-studio-m-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Cómo elegir la MIDIPLUS Studio M para tu Home Studio"
+    },
+    {
+      "slug": "guia-elegir-audio-technica-at2020-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Guía para elegir el Audio Technica AT2020 en tu Home Studio"
+    },
+    {
+      "slug": "guia-elegir-audio-technica-at2020-home-studio",
+      "type": "post_educativo",
+      "title": "Guía para elegir el Audio Technica AT2020 en tu Home Studio"
+    },
+    {
+      "slug": "guia-elegir-audio-technica-at2020-home-studio",
+      "type": "snippet_social",
+      "title": "Guía para elegir el Audio Technica AT2020 en tu Home Studio"
+    },
+    {
+      "slug": "guia-elegir-audio-technica-at2020-home-studio",
+      "type": "post_social",
+      "title": "Guía para elegir el Audio Technica AT2020 en tu Home Studio"
+    },
+    {
+      "slug": "guia-elegir-audio-technica-at2020-home-studio",
+      "type": "post_x",
+      "title": "Guía para elegir el Audio Technica AT2020 en tu Home Studio"
+    },
+    {
+      "slug": "guia-elegir-audio-technica-at2020-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Guía para elegir el Audio Technica AT2020 en tu Home Studio"
+    },
+    {
+      "slug": "brazo-microfono-streaming-principiantes",
+      "type": "post_x",
+      "title": "Mejorá tu setup de streaming con un buen brazo para micrófono"
+    },
+    {
+      "slug": "audio-technica-ath-m20x-grabar-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Audio Technica ATH-M20x: Ideal para grabar en tu home studio"
+    },
+    {
+      "slug": "audio-technica-ath-m20x-grabar-home-studio",
+      "type": "post_educativo",
+      "title": "Audio Technica ATH-M20x: Tu aliado para grabar en casa"
+    },
+    {
+      "slug": "audio-technica-ath-m20x-grabar-home-studio",
+      "type": "snippet_social",
+      "title": "Audio Technica ATH-M20x: Tu aliado para grabar en casa"
+    },
+    {
+      "slug": "audio-technica-ath-m20x-grabar-home-studio",
+      "type": "post_social",
+      "title": "Audio Technica ATH-M20x: Perfectos para tu Home Studio"
+    },
+    {
+      "slug": "audio-technica-ath-m20x-grabar-home-studio",
+      "type": "post_x",
+      "title": "Audio Technica ATH-M20x: Auriculares ideales para grabar en casa"
+    },
+    {
+      "slug": "audio-technica-ath-m20x-grabar-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Audio Technica ATH-M20x: Ideal para grabaciones en home studio"
+    },
+    {
+      "slug": "como-elegir-audio-technica-ath-m50x-para-monitoreo",
+      "type": "respuesta_tecnica",
+      "title": "Cómo elegir el Audio Technica ATH-M50x para monitoreo"
+    },
+    {
+      "slug": "como-elegir-audio-technica-ath-m50x-para-monitoreo",
+      "type": "post_educativo",
+      "title": "Cómo elegir el Audio Technica ATH-M50x para monitoreo"
+    },
+    {
+      "slug": "como-elegir-audio-technica-ath-m50x-para-monitoreo",
+      "type": "snippet_social",
+      "title": "Cómo elegir el Audio Technica ATH-M50x para monitoreo"
+    },
+    {
+      "slug": "como-elegir-audio-technica-ath-m50x-para-monitoreo",
+      "type": "post_social",
+      "title": "Cómo elegir el Audio Technica ATH-M50x para monitoreo"
+    },
+    {
+      "slug": "como-elegir-audio-technica-ath-m50x-para-monitoreo",
+      "type": "post_x",
+      "title": "Cómo elegir el Audio Technica ATH-M50x para monitoreo"
+    },
+    {
+      "slug": "como-elegir-audio-technica-ath-m50x-para-monitoreo",
+      "type": "respuesta_youtube",
+      "title": "Cómo elegir el Audio Technica ATH-M50x para monitoreo"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "audio-technica-at2020-home-studio-streaming",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "como-elegir-midiplus-studio-m-home-studio",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "brazo-microfono-streaming-principiantes",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "brazo-microfono-streaming-principiantes",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "brazo-microfono-streaming-principiantes",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "brazo-microfono-streaming-principiantes",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "brazo-microfono-streaming-principiantes",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 207.87
+}

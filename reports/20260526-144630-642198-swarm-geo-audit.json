@@ -1,0 +1,22 @@
+{
+  "timestamp_utc": "20260526-144630-642198",
+  "command": "geo-audit",
+  "status": "ok",
+  "steps": [
+    {
+      "step": "geo-audit",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\agente_geo_audit.py",
+        "audit",
+        "--limit",
+        "2",
+        "--dry-run"
+      ],
+      "started_utc": "20260526-144232-974432",
+      "finished_utc": "20260526-144630-641872",
+      "returncode": 0,
+      "status": "ok"
+    }
+  ]
+}

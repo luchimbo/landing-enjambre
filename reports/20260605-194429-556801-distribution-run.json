@@ -1,0 +1,388 @@
+{
+  "timestamp_utc": "20260605-194429-556801",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260605-193801-587656",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 12,
+  "pieces_proposed": 67,
+  "pieces_blocked": 5,
+  "proposed": [
+    {
+      "slug": "midiplus-i61-controlador-teclado-principiantes",
+      "type": "respuesta_tecnica",
+      "title": "MIDIPLUS i61: Ideal para Principiantes en Controladores MIDI"
+    },
+    {
+      "slug": "midiplus-i61-controlador-teclado-principiantes",
+      "type": "post_educativo",
+      "title": "MIDIPLUS i61: Tu Compañero Ideal para Comenzar a Tocar"
+    },
+    {
+      "slug": "midiplus-i61-controlador-teclado-principiantes",
+      "type": "snippet_social",
+      "title": "MIDIPLUS i61: Tu Compañero Ideal para Comenzar a Tocar"
+    },
+    {
+      "slug": "midiplus-i61-controlador-teclado-principiantes",
+      "type": "post_social",
+      "title": "MIDIPLUS i61: Tu Compañero Ideal para Comenzar a Tocar"
+    },
+    {
+      "slug": "midiplus-i61-controlador-teclado-principiantes",
+      "type": "post_x",
+      "title": "MIDIPLUS i61: Ideal para Principiantes en el Teclado"
+    },
+    {
+      "slug": "midiplus-i61-controlador-teclado-principiantes",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS i61: Ideal para Principiantes en Producción Musical"
+    },
+    {
+      "slug": "que-comprar-para-midiplus-ed6-practicar-bateria",
+      "type": "respuesta_tecnica",
+      "title": "Elige los mejores accesorios para tu Midiplus ED6"
+    },
+    {
+      "slug": "que-comprar-para-midiplus-ed6-practicar-bateria",
+      "type": "post_educativo",
+      "title": "Elige los mejores accesorios para tu Midiplus ED6"
+    },
+    {
+      "slug": "que-comprar-para-midiplus-ed6-practicar-bateria",
+      "type": "snippet_social",
+      "title": "Elige los mejores accesorios para tu Midiplus ED6"
+    },
+    {
+      "slug": "que-comprar-para-midiplus-ed6-practicar-bateria",
+      "type": "post_social",
+      "title": "Elige los mejores accesorios para tu Midiplus ED6"
+    },
+    {
+      "slug": "que-comprar-para-midiplus-ed6-practicar-bateria",
+      "type": "post_x",
+      "title": "Elige los mejores accesorios para tu Midiplus ED6"
+    },
+    {
+      "slug": "que-comprar-para-midiplus-ed6-practicar-bateria",
+      "type": "respuesta_youtube",
+      "title": "Elige los mejores accesorios para tu Midiplus ED6"
+    },
+    {
+      "slug": "como-elegir-midiplus-ed6-para-practicar-bateria",
+      "type": "respuesta_tecnica",
+      "title": "Cómo elegir la Batería Electrónica MIDIPLUS ED6 para practicar"
+    },
+    {
+      "slug": "como-elegir-midiplus-ed6-para-practicar-bateria",
+      "type": "post_educativo",
+      "title": "Cómo elegir la Batería Electrónica MIDIPLUS ED6 para practicar"
+    },
+    {
+      "slug": "como-elegir-midiplus-ed6-para-practicar-bateria",
+      "type": "snippet_social",
+      "title": "Cómo elegir la Batería Electrónica MIDIPLUS ED6 para practicar"
+    },
+    {
+      "slug": "como-elegir-midiplus-ed6-para-practicar-bateria",
+      "type": "post_social",
+      "title": "Cómo elegir la Batería Electrónica MIDIPLUS ED6 para practicar"
+    },
+    {
+      "slug": "como-elegir-midiplus-ed6-para-practicar-bateria",
+      "type": "post_x",
+      "title": "Cómo elegir la Batería Electrónica MIDIPLUS ED6 para practicar"
+    },
+    {
+      "slug": "como-elegir-midiplus-ed6-para-practicar-bateria",
+      "type": "respuesta_youtube",
+      "title": "Cómo elegir la Batería Electrónica MIDIPLUS ED6 para practicar"
+    },
+    {
+      "slug": "guia-elegir-midiplus-ed6-practicar-bateria",
+      "type": "respuesta_tecnica",
+      "title": "Guía para elegir la MIDIPLUS ED6 para practicar batería"
+    },
+    {
+      "slug": "guia-elegir-midiplus-ed6-practicar-bateria",
+      "type": "post_educativo",
+      "title": "Guía para Elegir la Batería Electrónica MIDIPLUS ED6"
+    },
+    {
+      "slug": "guia-elegir-midiplus-ed6-practicar-bateria",
+      "type": "snippet_social",
+      "title": "Guía para elegir la Batería Electrónica MIDIPLUS ED6"
+    },
+    {
+      "slug": "guia-elegir-midiplus-ed6-practicar-bateria",
+      "type": "post_social",
+      "title": "Elige la Batería Electrónica MIDIPLUS ED6 para tus prácticas"
+    },
+    {
+      "slug": "guia-elegir-midiplus-ed6-practicar-bateria",
+      "type": "post_x",
+      "title": "Elige la Batería Electrónica MIDIPLUS ED6 para tus prácticas"
+    },
+    {
+      "slug": "guia-elegir-midiplus-ed6-practicar-bateria",
+      "type": "respuesta_youtube",
+      "title": "Guía para elegir la Batería Electrónica MIDIPLUS ED6"
+    },
+    {
+      "slug": "setup-con-midiplus-ed6-para-practicar-bateria",
+      "type": "respuesta_tecnica",
+      "title": "Crea tu setup de práctica con la Midiplus ED6"
+    },
+    {
+      "slug": "setup-con-midiplus-ed6-para-practicar-bateria",
+      "type": "post_educativo",
+      "title": "Crea tu setup de práctica con la Midiplus ED6"
+    },
+    {
+      "slug": "setup-con-midiplus-ed6-para-practicar-bateria",
+      "type": "snippet_social",
+      "title": "Crea tu setup de práctica con la Midiplus ED6"
+    },
+    {
+      "slug": "setup-con-midiplus-ed6-para-practicar-bateria",
+      "type": "post_social",
+      "title": "Crea tu setup de práctica con la Midiplus ED6"
+    },
+    {
+      "slug": "setup-con-midiplus-ed6-para-practicar-bateria",
+      "type": "post_x",
+      "title": "Crea tu setup de práctica con la Midiplus ED6"
+    },
+    {
+      "slug": "setup-con-midiplus-ed6-para-practicar-bateria",
+      "type": "respuesta_youtube",
+      "title": "Crea tu setup de práctica con la Midiplus ED6"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-principiantes",
+      "type": "respuesta_tecnica",
+      "title": "Batería Electrónica MIDIPLUS ED6: Ideal para Principiantes"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-principiantes",
+      "type": "post_educativo",
+      "title": "Batería Electrónica MIDIPLUS ED6: Tu Compañera de Práctica"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-principiantes",
+      "type": "snippet_social",
+      "title": "Batería Electrónica MIDIPLUS ED6: Tu Compañera de Práctica"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-principiantes",
+      "type": "post_social",
+      "title": "Batería Electrónica MIDIPLUS ED6: Tu Compañera de Práctica"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-principiantes",
+      "type": "post_x",
+      "title": "Batería Electrónica MIDIPLUS ED6: Tu Compañera de Práctica"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-principiantes",
+      "type": "respuesta_youtube",
+      "title": "Batería Electrónica MIDIPLUS ED6: Ideal para Principiantes"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-departamento",
+      "type": "respuesta_tecnica",
+      "title": "La Batería Electrónica MIDIPLUS ED6: Ideal para Practicar en Casa"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-departamento",
+      "type": "post_educativo",
+      "title": "La Batería Electrónica MIDIPLUS ED6: Ideal para Practicar en Casa"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-departamento",
+      "type": "snippet_social",
+      "title": "La Batería Electrónica MIDIPLUS ED6: Ideal para Practicar en Casa"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-departamento",
+      "type": "post_social",
+      "title": "La Batería Electrónica MIDIPLUS ED6: Perfecta para tu Departamento"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-departamento",
+      "type": "post_x",
+      "title": "La Batería Electrónica MIDIPLUS ED6: Ideal para Practicar en Casa"
+    },
+    {
+      "slug": "midiplus-ed6-practicar-bateria-departamento",
+      "type": "respuesta_youtube",
+      "title": "La MIDIPLUS ED6: Ideal para Practicar Batería en Departamentos"
+    },
+    {
+      "slug": "guia-elegir-midiplus-i61-teclado-controlador",
+      "type": "respuesta_tecnica",
+      "title": "Guía técnica para elegir el MIDIPLUS i61 como controlador"
+    },
+    {
+      "slug": "guia-elegir-midiplus-i61-teclado-controlador",
+      "type": "post_educativo",
+      "title": "Elige el MIDIPLUS i61 para expandir tu música"
+    },
+    {
+      "slug": "guia-elegir-midiplus-i61-teclado-controlador",
+      "type": "snippet_social",
+      "title": "Elige el MIDIPLUS i61 para expandir tu música"
+    },
+    {
+      "slug": "guia-elegir-midiplus-i61-teclado-controlador",
+      "type": "post_social",
+      "title": "Elige el MIDIPLUS i61 y expande tu música con 61 teclas"
+    },
+    {
+      "slug": "guia-elegir-midiplus-i61-teclado-controlador",
+      "type": "post_x",
+      "title": "Elige el MIDIPLUS i61 para expandir tu música"
+    },
+    {
+      "slug": "guia-elegir-midiplus-i61-teclado-controlador",
+      "type": "respuesta_youtube",
+      "title": "Guía para elegir el MIDIPLUS i61 y expandir tu música"
+    },
+    {
+      "slug": "que-comprar-para-alctron-um900-streaming",
+      "type": "respuesta_tecnica",
+      "title": "El mejor micrófono USB para tus transmisiones en vivo"
+    },
+    {
+      "slug": "que-comprar-para-alctron-um900-streaming",
+      "type": "post_educativo",
+      "title": "El mejor micrófono USB para tus transmisiones en vivo"
+    },
+    {
+      "slug": "que-comprar-para-alctron-um900-streaming",
+      "type": "snippet_social",
+      "title": "El mejor micrófono USB para tus transmisiones en vivo"
+    },
+    {
+      "slug": "que-comprar-para-alctron-um900-streaming",
+      "type": "post_social",
+      "title": "El mejor micrófono USB para tus transmisiones en vivo"
+    },
+    {
+      "slug": "que-comprar-para-alctron-um900-streaming",
+      "type": "post_x",
+      "title": "El mejor micrófono USB para tus transmisiones en vivo"
+    },
+    {
+      "slug": "que-comprar-para-alctron-um900-streaming",
+      "type": "respuesta_youtube",
+      "title": "El mejor micrófono USB para tus transmisiones en vivo"
+    },
+    {
+      "slug": "como-elegir-alctron-um900-para-streaming",
+      "type": "post_x",
+      "title": "Elige el Alctron UM900 para tus transmisiones en vivo"
+    },
+    {
+      "slug": "setup-con-alctron-um900-para-streaming",
+      "type": "respuesta_tecnica",
+      "title": "Arma tu Setup de Streaming con Alctron UM900"
+    },
+    {
+      "slug": "setup-con-alctron-um900-para-streaming",
+      "type": "post_educativo",
+      "title": "Arma tu Setup de Streaming con Alctron UM900"
+    },
+    {
+      "slug": "setup-con-alctron-um900-para-streaming",
+      "type": "snippet_social",
+      "title": "Arma tu Setup de Streaming con Alctron UM900"
+    },
+    {
+      "slug": "setup-con-alctron-um900-para-streaming",
+      "type": "post_social",
+      "title": "Arma tu Setup de Streaming con Alctron UM900"
+    },
+    {
+      "slug": "setup-con-alctron-um900-para-streaming",
+      "type": "post_x",
+      "title": "Arma tu Setup de Streaming con Alctron UM900"
+    },
+    {
+      "slug": "setup-con-alctron-um900-para-streaming",
+      "type": "respuesta_youtube",
+      "title": "Arma tu Setup de Streaming con Alctron UM900"
+    },
+    {
+      "slug": "alctron-um900-streaming-principiantes",
+      "type": "respuesta_tecnica",
+      "title": "Alctron UM900: Ideal para Streaming y Grabaciones en Casa"
+    },
+    {
+      "slug": "alctron-um900-streaming-principiantes",
+      "type": "post_educativo",
+      "title": "Alctron UM900: El Microfono USB Perfecto para Streaming"
+    },
+    {
+      "slug": "alctron-um900-streaming-principiantes",
+      "type": "snippet_social",
+      "title": "Alctron UM900: Ideal para Streaming y Grabaciones"
+    },
+    {
+      "slug": "alctron-um900-streaming-principiantes",
+      "type": "post_social",
+      "title": "Alctron UM900: Ideal para Streaming y Grabaciones"
+    },
+    {
+      "slug": "alctron-um900-streaming-principiantes",
+      "type": "post_x",
+      "title": "Alctron UM900: Ideal para Streaming y Grabaciones"
+    },
+    {
+      "slug": "alctron-um900-streaming-principiantes",
+      "type": "respuesta_youtube",
+      "title": "Alctron UM900: Ideal para Streaming y Grabaciones"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "como-elegir-alctron-um900-para-streaming",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "como-elegir-alctron-um900-para-streaming",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "como-elegir-alctron-um900-para-streaming",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "como-elegir-alctron-um900-para-streaming",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "como-elegir-alctron-um900-para-streaming",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 387.97
+}

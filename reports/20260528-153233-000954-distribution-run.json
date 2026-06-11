@@ -1,0 +1,167 @@
+{
+  "timestamp_utc": "20260528-153233-000954",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260528-153030-114313",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 5,
+  "pieces_proposed": 30,
+  "pieces_blocked": 0,
+  "proposed": [
+    {
+      "slug": "comparar-opciones-midiplus-ms5-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Compara las opciones de monitores Midiplus MS5 para tu home studio"
+    },
+    {
+      "slug": "comparar-opciones-midiplus-ms5-home-studio",
+      "type": "post_educativo",
+      "title": "Compara las opciones de monitores Midiplus MS5 para tu home studio"
+    },
+    {
+      "slug": "comparar-opciones-midiplus-ms5-home-studio",
+      "type": "snippet_social",
+      "title": "Compara las opciones de monitores Midiplus MS5 para tu home studio"
+    },
+    {
+      "slug": "comparar-opciones-midiplus-ms5-home-studio",
+      "type": "post_social",
+      "title": "Compara los monitores Midiplus MS5 para tu home studio"
+    },
+    {
+      "slug": "comparar-opciones-midiplus-ms5-home-studio",
+      "type": "post_x",
+      "title": "Compara monitores Midiplus MS5 para tu home studio"
+    },
+    {
+      "slug": "comparar-opciones-midiplus-ms5-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Compara los monitores Midiplus MS5 para tu home studio"
+    },
+    {
+      "slug": "comparar-opciones-midiplus-ms6-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Eligiendo Monitores Midiplus MS6 para tu Home Studio"
+    },
+    {
+      "slug": "comparar-opciones-midiplus-ms6-home-studio",
+      "type": "post_educativo",
+      "title": "Eligiendo Monitores Midiplus MS6 para tu Home Studio"
+    },
+    {
+      "slug": "comparar-opciones-midiplus-ms6-home-studio",
+      "type": "snippet_social",
+      "title": "Eligiendo Monitores Midiplus MS6 para tu Home Studio"
+    },
+    {
+      "slug": "comparar-opciones-midiplus-ms6-home-studio",
+      "type": "post_social",
+      "title": "Eligiendo Monitores Midiplus MS6 para tu Home Studio"
+    },
+    {
+      "slug": "comparar-opciones-midiplus-ms6-home-studio",
+      "type": "post_x",
+      "title": "Eligiendo Monitores Midiplus MS6 para tu Home Studio"
+    },
+    {
+      "slug": "comparar-opciones-midiplus-ms6-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Eligiendo Monitores Midiplus MS6 para tu Home Studio"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Midiplus ED8 vs ED6: ¿Cuál elegir para tu home studio?"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-home-studio",
+      "type": "post_educativo",
+      "title": "Midiplus ED8 vs ED6: ¿Cuál elegir para tu home studio?"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-home-studio",
+      "type": "snippet_social",
+      "title": "Midiplus ED8 vs ED6: ¿Cuál elegir para tu home studio?"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-home-studio",
+      "type": "post_social",
+      "title": "Midiplus ED8 vs ED6: ¿Cuál elegir para tu home studio?"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-home-studio",
+      "type": "post_x",
+      "title": "Midiplus ED8 vs ED6: ¿Cuál elegir para tu home studio?"
+    },
+    {
+      "slug": "midiplus-ed8-vs-ed6-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Midiplus ED8 vs ED6: ¿Cuál es mejor para tu home studio?"
+    },
+    {
+      "slug": "mejor-microfono-usb-para-podcast",
+      "type": "respuesta_tecnica",
+      "title": "El micrófono USB ideal para comenzar tu podcast"
+    },
+    {
+      "slug": "mejor-microfono-usb-para-podcast",
+      "type": "post_educativo",
+      "title": "El micrófono USB ideal para comenzar tu podcast"
+    },
+    {
+      "slug": "mejor-microfono-usb-para-podcast",
+      "type": "snippet_social",
+      "title": "El micrófono USB ideal para comenzar tu podcast"
+    },
+    {
+      "slug": "mejor-microfono-usb-para-podcast",
+      "type": "post_social",
+      "title": "El micrófono USB ideal para comenzar tu podcast"
+    },
+    {
+      "slug": "mejor-microfono-usb-para-podcast",
+      "type": "post_x",
+      "title": "El micrófono USB ideal para comenzar tu podcast"
+    },
+    {
+      "slug": "mejor-microfono-usb-para-podcast",
+      "type": "respuesta_youtube",
+      "title": "El micrófono USB ideal para comenzar tu podcast"
+    },
+    {
+      "slug": "comparar-microfonos-streaming",
+      "type": "respuesta_tecnica",
+      "title": "Guía para elegir el micrófono ideal para streaming"
+    },
+    {
+      "slug": "comparar-microfonos-streaming",
+      "type": "post_educativo",
+      "title": "Encuentra el micrófono perfecto para tus directos"
+    },
+    {
+      "slug": "comparar-microfonos-streaming",
+      "type": "snippet_social",
+      "title": "Encuentra el micrófono perfecto para tus directos"
+    },
+    {
+      "slug": "comparar-microfonos-streaming",
+      "type": "post_social",
+      "title": "Encuentra el micrófono perfecto para tus directos"
+    },
+    {
+      "slug": "comparar-microfonos-streaming",
+      "type": "post_x",
+      "title": "Encuentra el micrófono perfecto para tus directos"
+    },
+    {
+      "slug": "comparar-microfonos-streaming",
+      "type": "respuesta_youtube",
+      "title": "Encuentra el micrófono perfecto para tus directos"
+    }
+  ],
+  "blocked": [],
+  "elapsed_seconds": 122.89
+}

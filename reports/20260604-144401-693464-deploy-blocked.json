@@ -1,0 +1,14 @@
+{
+  "timestamp_utc": "20260604-144401-693464",
+  "command": "deploy",
+  "status": "blocked",
+  "target": "vercel",
+  "reason": "vercel_cli_missing",
+  "action": "Instalar Vercel CLI o ejecutar el deploy desde un entorno que tenga `vercel` disponible.",
+  "site_dir": "D:\\AgentesGuille\\site",
+  "project": {
+    "projectId": "prj_6WX3ahUwGKjYEO4BZ2nfFCBTjB3H",
+    "orgId": "team_esmSeA8KK9btqWR2jA3X6Pkm",
+    "projectName": "landing-enjambre"
+  }
+}

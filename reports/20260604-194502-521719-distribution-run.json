@@ -1,0 +1,390 @@
+{
+  "timestamp_utc": "20260604-194502-521719",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260604-193801-799987",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 12,
+  "pieces_proposed": 66,
+  "pieces_blocked": 6,
+  "proposed": [
+    {
+      "slug": "comparar-controladores-midi-ableton",
+      "type": "respuesta_tecnica",
+      "title": "Compará Controladores MIDI para tu Producción en Ableton"
+    },
+    {
+      "slug": "comparar-controladores-midi-ableton",
+      "type": "post_educativo",
+      "title": "Compará Controladores MIDI para tu Producción en Ableton"
+    },
+    {
+      "slug": "comparar-controladores-midi-ableton",
+      "type": "snippet_social",
+      "title": "Compará Controladores MIDI para tu Producción en Ableton"
+    },
+    {
+      "slug": "comparar-controladores-midi-ableton",
+      "type": "post_social",
+      "title": "Compará Controladores MIDI para tu Producción en Ableton"
+    },
+    {
+      "slug": "comparar-controladores-midi-ableton",
+      "type": "post_x",
+      "title": "Compará Controladores MIDI para tu Producción en Ableton"
+    },
+    {
+      "slug": "comparar-controladores-midi-ableton",
+      "type": "respuesta_youtube",
+      "title": "Compará Controladores MIDI para tu Producción en Ableton"
+    },
+    {
+      "slug": "mejor-opcion-placa-sonido-guitarra",
+      "type": "snippet_social",
+      "title": "La mejor opción de placa de sonido para guitarra"
+    },
+    {
+      "slug": "mejor-opcion-placa-sonido-guitarra",
+      "type": "post_social",
+      "title": "La mejor opción de placa de sonido para tu guitarra 🎸"
+    },
+    {
+      "slug": "mejor-opcion-placa-sonido-guitarra",
+      "type": "post_x",
+      "title": "La mejor opción de placa de sonido para guitarra"
+    },
+    {
+      "slug": "mejor-opcion-placa-sonido-guitarra",
+      "type": "respuesta_youtube",
+      "title": "La mejor opción de placa de sonido para guitarra"
+    },
+    {
+      "slug": "comparar-opciones-placa-sonido-guitarra",
+      "type": "respuesta_tecnica",
+      "title": "Encuentra la placa de sonido perfecta para tu guitarra"
+    },
+    {
+      "slug": "comparar-opciones-placa-sonido-guitarra",
+      "type": "post_educativo",
+      "title": "Encuentra la placa de sonido perfecta para tu guitarra"
+    },
+    {
+      "slug": "comparar-opciones-placa-sonido-guitarra",
+      "type": "snippet_social",
+      "title": "Encuentra la placa de sonido perfecta para tu guitarra"
+    },
+    {
+      "slug": "comparar-opciones-placa-sonido-guitarra",
+      "type": "post_x",
+      "title": "Encuentra la placa de sonido perfecta para tu guitarra"
+    },
+    {
+      "slug": "comparar-opciones-placa-sonido-guitarra",
+      "type": "respuesta_youtube",
+      "title": "Encuentra la placa de sonido perfecta para tu guitarra"
+    },
+    {
+      "slug": "mejor-opcion-sintetizador-aprender-sintesis",
+      "type": "respuesta_tecnica",
+      "title": "El sintetizador perfecto para principiantes en síntesis"
+    },
+    {
+      "slug": "mejor-opcion-sintetizador-aprender-sintesis",
+      "type": "post_educativo",
+      "title": "El sintetizador perfecto para principiantes en síntesis"
+    },
+    {
+      "slug": "mejor-opcion-sintetizador-aprender-sintesis",
+      "type": "snippet_social",
+      "title": "El sintetizador perfecto para principiantes en síntesis"
+    },
+    {
+      "slug": "mejor-opcion-sintetizador-aprender-sintesis",
+      "type": "post_social",
+      "title": "El sintetizador perfecto para principiantes en síntesis"
+    },
+    {
+      "slug": "mejor-opcion-sintetizador-aprender-sintesis",
+      "type": "post_x",
+      "title": "El sintetizador perfecto para principiantes en síntesis"
+    },
+    {
+      "slug": "mejor-opcion-sintetizador-aprender-sintesis",
+      "type": "respuesta_youtube",
+      "title": "El sintetizador ideal para principiantes en síntesis"
+    },
+    {
+      "slug": "comparar-sintetizadores-para-aprender-sintesis",
+      "type": "respuesta_tecnica",
+      "title": "Encuentra el sintetizador perfecto para aprender síntesis"
+    },
+    {
+      "slug": "comparar-sintetizadores-para-aprender-sintesis",
+      "type": "snippet_social",
+      "title": "Encuentra el sintetizador perfecto para aprender síntesis"
+    },
+    {
+      "slug": "comparar-sintetizadores-para-aprender-sintesis",
+      "type": "post_social",
+      "title": "Encuentra el sintetizador perfecto para aprender síntesis"
+    },
+    {
+      "slug": "comparar-sintetizadores-para-aprender-sintesis",
+      "type": "post_x",
+      "title": "Encuentra el sintetizador perfecto para aprender síntesis"
+    },
+    {
+      "slug": "comparar-sintetizadores-para-aprender-sintesis",
+      "type": "respuesta_youtube",
+      "title": "Encuentra el sintetizador ideal para comenzar tu viaje musical"
+    },
+    {
+      "slug": "mejor-opcion-bateria-electronica-departamento",
+      "type": "respuesta_tecnica",
+      "title": "Las Mejores Baterías Electrónicas para Practicar en Casa"
+    },
+    {
+      "slug": "mejor-opcion-bateria-electronica-departamento",
+      "type": "post_educativo",
+      "title": "Las Mejores Baterías Electrónicas para Practicar en Casa"
+    },
+    {
+      "slug": "mejor-opcion-bateria-electronica-departamento",
+      "type": "snippet_social",
+      "title": "Las Mejores Baterías Electrónicas para Practicar en Casa"
+    },
+    {
+      "slug": "mejor-opcion-bateria-electronica-departamento",
+      "type": "post_social",
+      "title": "Las Mejores Baterías Electrónicas para Practicar en Casa"
+    },
+    {
+      "slug": "mejor-opcion-bateria-electronica-departamento",
+      "type": "post_x",
+      "title": "Las Mejores Baterías Electrónicas para Practicar en Casa"
+    },
+    {
+      "slug": "comparar-baterias-electronicas-departamento",
+      "type": "respuesta_tecnica",
+      "title": "Baterías Electrónicas para Practicar en Espacios Reducidos"
+    },
+    {
+      "slug": "comparar-baterias-electronicas-departamento",
+      "type": "post_educativo",
+      "title": "Baterías Electrónicas para Practicar en Espacios Reducidos"
+    },
+    {
+      "slug": "comparar-baterias-electronicas-departamento",
+      "type": "snippet_social",
+      "title": "Baterías Electrónicas para Practicar en Espacios Reducidos"
+    },
+    {
+      "slug": "comparar-baterias-electronicas-departamento",
+      "type": "post_social",
+      "title": "Baterías Electrónicas para Practicar en Espacios Reducidos"
+    },
+    {
+      "slug": "comparar-baterias-electronicas-departamento",
+      "type": "post_x",
+      "title": "Baterías Electrónicas para Practicar en Espacios Reducidos"
+    },
+    {
+      "slug": "comparar-baterias-electronicas-departamento",
+      "type": "respuesta_youtube",
+      "title": "Baterías Electrónicas para Practicar en Espacios Reducidos"
+    },
+    {
+      "slug": "comparativa-arturia-minilab-3-vs-keylab",
+      "type": "respuesta_tecnica",
+      "title": "Comparativa entre Arturia MiniLab 3 y KeyLab para tu producción"
+    },
+    {
+      "slug": "comparativa-arturia-minilab-3-vs-keylab",
+      "type": "post_educativo",
+      "title": "¿MiniLab 3 o KeyLab? Elegí el controlador ideal para vos"
+    },
+    {
+      "slug": "comparativa-arturia-minilab-3-vs-keylab",
+      "type": "snippet_social",
+      "title": "¿MiniLab 3 o KeyLab? Elegí el controlador ideal para vos"
+    },
+    {
+      "slug": "comparativa-arturia-minilab-3-vs-keylab",
+      "type": "post_social",
+      "title": "¿MiniLab 3 o KeyLab? Elegí el controlador ideal para vos"
+    },
+    {
+      "slug": "comparativa-arturia-minilab-3-vs-keylab",
+      "type": "post_x",
+      "title": "¿MiniLab 3 o KeyLab? Elegí el controlador ideal para vos"
+    },
+    {
+      "slug": "comparativa-arturia-minilab-3-vs-keylab",
+      "type": "respuesta_youtube",
+      "title": "¿MiniLab 3 o KeyLab? Elegí el controlador ideal para vos"
+    },
+    {
+      "slug": "setup-arturia-minilab-3-vs-keylab",
+      "type": "respuesta_tecnica",
+      "title": "Comparativa técnica entre Arturia MiniLab 3 y KeyLab 88 MK3"
+    },
+    {
+      "slug": "setup-arturia-minilab-3-vs-keylab",
+      "type": "post_educativo",
+      "title": "Comparativa entre Arturia MiniLab 3 y KeyLab 88 MK3"
+    },
+    {
+      "slug": "setup-arturia-minilab-3-vs-keylab",
+      "type": "snippet_social",
+      "title": "Comparativa entre Arturia MiniLab 3 y KeyLab 88 MK3"
+    },
+    {
+      "slug": "setup-arturia-minilab-3-vs-keylab",
+      "type": "post_social",
+      "title": "Comparativa entre Arturia MiniLab 3 y KeyLab 88 MK3"
+    },
+    {
+      "slug": "setup-arturia-minilab-3-vs-keylab",
+      "type": "post_x",
+      "title": "Comparativa: Arturia MiniLab 3 vs KeyLab 88 MK3"
+    },
+    {
+      "slug": "setup-arturia-minilab-3-vs-keylab",
+      "type": "respuesta_youtube",
+      "title": "Comparativa entre Arturia MiniLab 3 y KeyLab 88 MK3"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-para-principiantes",
+      "type": "post_educativo",
+      "title": "Arturia MiniLab 3 vs KeyLab: ¿Cuál elegir para empezar?"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-para-principiantes",
+      "type": "snippet_social",
+      "title": "Arturia MiniLab 3 vs KeyLab: ¿Cuál elegir para empezar?"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-para-principiantes",
+      "type": "post_social",
+      "title": "Arturia MiniLab 3 vs KeyLab: ¿Cuál elegir para empezar?"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-para-principiantes",
+      "type": "post_x",
+      "title": "Arturia MiniLab 3 vs KeyLab: ¿Cuál elegir para empezar?"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-para-principiantes",
+      "type": "respuesta_youtube",
+      "title": "Arturia MiniLab 3 vs KeyLab: ¿Cuál elegir para principiantes?"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-fl-studio",
+      "type": "respuesta_tecnica",
+      "title": "Comparativa de controladores Arturia: MiniLab 3 vs KeyLab"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-fl-studio",
+      "type": "post_educativo",
+      "title": "¿MiniLab 3 o KeyLab? Comparativa para FL Studio"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-fl-studio",
+      "type": "snippet_social",
+      "title": "¿MiniLab 3 o KeyLab? Elige el mejor controlador para FL Studio"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-fl-studio",
+      "type": "post_social",
+      "title": "¿MiniLab 3 o KeyLab? Descubre cuál es mejor para FL Studio"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-fl-studio",
+      "type": "post_x",
+      "title": "MiniLab 3 vs KeyLab: ¿Cuál es mejor para FL Studio?"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-fl-studio",
+      "type": "respuesta_youtube",
+      "title": "Comparativa entre Arturia MiniLab 3 y KeyLab para FL Studio"
+    },
+    {
+      "slug": "comparar-auriculares-cerrados-grabar-voces",
+      "type": "respuesta_tecnica",
+      "title": "Los Mejores Auriculares Cerrados para Grabar Voces"
+    },
+    {
+      "slug": "comparar-auriculares-cerrados-grabar-voces",
+      "type": "post_educativo",
+      "title": "Los Mejores Auriculares Cerrados para Grabar Voces"
+    },
+    {
+      "slug": "comparar-auriculares-cerrados-grabar-voces",
+      "type": "snippet_social",
+      "title": "Los Mejores Auriculares Cerrados para Grabar Voces"
+    },
+    {
+      "slug": "comparar-auriculares-cerrados-grabar-voces",
+      "type": "post_social",
+      "title": "Los Mejores Auriculares Cerrados para Grabar Voces"
+    },
+    {
+      "slug": "comparar-auriculares-cerrados-grabar-voces",
+      "type": "post_x",
+      "title": "Los Mejores Auriculares Cerrados para Grabar Voces"
+    },
+    {
+      "slug": "comparar-auriculares-cerrados-grabar-voces",
+      "type": "respuesta_youtube",
+      "title": "Los Mejores Auriculares Cerrados para Grabar Voces"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "mejor-opcion-placa-sonido-guitarra",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "mejor-opcion-placa-sonido-guitarra",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "comparar-opciones-placa-sonido-guitarra",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "comparar-sintetizadores-para-aprender-sintesis",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "mejor-opcion-bateria-electronica-departamento",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-para-principiantes",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 420.72
+}

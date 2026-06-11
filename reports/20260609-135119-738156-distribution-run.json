@@ -1,0 +1,317 @@
+{
+  "timestamp_utc": "20260609-135119-738156",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260609-134652-905443",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 60,
+  "pieces_blocked": 0,
+  "proposed": [
+    {
+      "slug": "synido-tempopad-beats-samples",
+      "type": "respuesta_tecnica",
+      "title": "Crea Beats y Samples con el Synido TempoPAD"
+    },
+    {
+      "slug": "synido-tempopad-beats-samples",
+      "type": "post_educativo",
+      "title": "Crea Beats y Samples con el Synido TempoPAD"
+    },
+    {
+      "slug": "synido-tempopad-beats-samples",
+      "type": "snippet_social",
+      "title": "Crea Beats y Samples con el Synido TempoPAD"
+    },
+    {
+      "slug": "synido-tempopad-beats-samples",
+      "type": "post_social",
+      "title": "Crea Beats y Samples con el Synido TempoPAD"
+    },
+    {
+      "slug": "synido-tempopad-beats-samples",
+      "type": "post_x",
+      "title": "Crea Beats y Samples con el Synido TempoPAD"
+    },
+    {
+      "slug": "synido-tempopad-beats-samples",
+      "type": "respuesta_youtube",
+      "title": "Crea Beats Únicos con el Synido TempoPAD"
+    },
+    {
+      "slug": "synido-livemix-streaming-creadores-contenido",
+      "type": "respuesta_tecnica",
+      "title": "Potenciá tu Streaming con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-creadores-contenido",
+      "type": "post_educativo",
+      "title": "Potenciá tu Streaming con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-creadores-contenido",
+      "type": "snippet_social",
+      "title": "Potenciá tu Streaming con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-creadores-contenido",
+      "type": "post_social",
+      "title": "Potenciá tu Streaming con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-creadores-contenido",
+      "type": "post_x",
+      "title": "Potenciá tu Streaming con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-creadores-contenido",
+      "type": "respuesta_youtube",
+      "title": "Potenciá tu Streaming con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-youtube",
+      "type": "respuesta_tecnica",
+      "title": "Mejora tu streaming en YouTube con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-youtube",
+      "type": "post_educativo",
+      "title": "Mejora tu streaming en YouTube con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-youtube",
+      "type": "snippet_social",
+      "title": "Mejora tu streaming en YouTube con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-youtube",
+      "type": "post_social",
+      "title": "Mejora tu streaming en YouTube con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-youtube",
+      "type": "post_x",
+      "title": "Mejora tu streaming en YouTube con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-youtube",
+      "type": "respuesta_youtube",
+      "title": "Mejora tu streaming en YouTube con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-twitch",
+      "type": "respuesta_tecnica",
+      "title": "Mejorá tu streaming en Twitch con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-twitch",
+      "type": "post_educativo",
+      "title": "Mejorá tu streaming en Twitch con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-twitch",
+      "type": "snippet_social",
+      "title": "Mejorá tu streaming en Twitch con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-twitch",
+      "type": "post_social",
+      "title": "Mejorá tu streaming en Twitch con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-twitch",
+      "type": "post_x",
+      "title": "Mejorá tu streaming en Twitch con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-twitch",
+      "type": "respuesta_youtube",
+      "title": "Mejorá tu streaming en Twitch con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-podcast",
+      "type": "respuesta_tecnica",
+      "title": "Mejorá tu Streaming y Podcasting con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-podcast",
+      "type": "post_educativo",
+      "title": "Mejorá tu Streaming y Podcasting con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-podcast",
+      "type": "snippet_social",
+      "title": "Mejorá tu Streaming y Podcasting con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-podcast",
+      "type": "post_social",
+      "title": "Mejorá tu Streaming y Podcasting con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-podcast",
+      "type": "post_x",
+      "title": "Mejorá tu Streaming y Podcasting con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-podcast",
+      "type": "respuesta_youtube",
+      "title": "Mejorá tu Streaming y Podcasting con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-voces",
+      "type": "respuesta_tecnica",
+      "title": "Optimiza tu Streaming de Voces con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-voces",
+      "type": "post_educativo",
+      "title": "Optimiza tu Streaming de Voces con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-voces",
+      "type": "snippet_social",
+      "title": "Optimiza tu Streaming de Voces con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-voces",
+      "type": "post_social",
+      "title": "Optimiza tu Streaming de Voces con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-voces",
+      "type": "post_x",
+      "title": "Optimiza tu Streaming de Voces con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-voces",
+      "type": "respuesta_youtube",
+      "title": "Optimiza tu Streaming de Voces con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-locucion",
+      "type": "respuesta_tecnica",
+      "title": "Sincroniza tu voz con Synido LiveMix para streaming"
+    },
+    {
+      "slug": "synido-livemix-streaming-locucion",
+      "type": "post_educativo",
+      "title": "Sincroniza tu voz con Synido LiveMix para streaming"
+    },
+    {
+      "slug": "synido-livemix-streaming-locucion",
+      "type": "snippet_social",
+      "title": "Sincroniza tu voz con Synido LiveMix para streaming"
+    },
+    {
+      "slug": "synido-livemix-streaming-locucion",
+      "type": "post_social",
+      "title": "Sincroniza tu voz con Synido LiveMix para streaming"
+    },
+    {
+      "slug": "synido-livemix-streaming-locucion",
+      "type": "post_x",
+      "title": "Sincroniza tu voz con Synido LiveMix para streaming"
+    },
+    {
+      "slug": "synido-livemix-streaming-locucion",
+      "type": "respuesta_youtube",
+      "title": "Sincroniza tu voz con Synido LiveMix para streaming"
+    },
+    {
+      "slug": "synido-livemix-streaming-guitarra",
+      "type": "respuesta_tecnica",
+      "title": "Optimiza tu streaming de guitarra con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-guitarra",
+      "type": "post_educativo",
+      "title": "Optimiza tu streaming de guitarra con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-guitarra",
+      "type": "snippet_social",
+      "title": "Optimiza tu streaming de guitarra con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-guitarra",
+      "type": "post_social",
+      "title": "Optimiza tu streaming de guitarra con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-guitarra",
+      "type": "post_x",
+      "title": "Optimiza tu streaming de guitarra con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-guitarra",
+      "type": "respuesta_youtube",
+      "title": "Optimiza tu streaming de guitarra con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-voz",
+      "type": "respuesta_tecnica",
+      "title": "Optimiza tu streaming de voz con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-voz",
+      "type": "post_educativo",
+      "title": "Optimiza tu streaming de voz con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-voz",
+      "type": "snippet_social",
+      "title": "Optimiza tu streaming de voz con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-voz",
+      "type": "post_social",
+      "title": "Optimiza tu streaming de voz con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-voz",
+      "type": "post_x",
+      "title": "Optimiza tu streaming de voz con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livemix-streaming-voz",
+      "type": "respuesta_youtube",
+      "title": "Optimiza tu streaming de voz con Synido LiveMix"
+    },
+    {
+      "slug": "synido-livedock-directo-creadores-contenido",
+      "type": "respuesta_tecnica",
+      "title": "Potenciá tu Streaming con Synido LiveDock"
+    },
+    {
+      "slug": "synido-livedock-directo-creadores-contenido",
+      "type": "post_educativo",
+      "title": "Potenciá tu Streaming con Synido LiveDock"
+    },
+    {
+      "slug": "synido-livedock-directo-creadores-contenido",
+      "type": "snippet_social",
+      "title": "Potenciá tu Streaming con Synido LiveDock"
+    },
+    {
+      "slug": "synido-livedock-directo-creadores-contenido",
+      "type": "post_social",
+      "title": "Potenciá tu Streaming con Synido LiveDock"
+    },
+    {
+      "slug": "synido-livedock-directo-creadores-contenido",
+      "type": "post_x",
+      "title": "Potenciá tu Streaming con Synido LiveDock"
+    },
+    {
+      "slug": "synido-livedock-directo-creadores-contenido",
+      "type": "respuesta_youtube",
+      "title": "Potenciá tu Streaming con Synido LiveDock"
+    }
+  ],
+  "blocked": [],
+  "elapsed_seconds": 266.83
+}

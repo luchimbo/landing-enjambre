@@ -1,0 +1,12 @@
+{
+  "timestamp_utc": "20260527-152224-702414",
+  "command": [
+    "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "--remote-debugging-port=9222",
+    "--user-data-dir=D:\\AgentesGuille\\session\\chrome-personal",
+    "--no-first-run",
+    "--no-default-browser-check"
+  ],
+  "cdp_url": "http://127.0.0.1:9222",
+  "session_dir": "D:\\AgentesGuille\\session\\chrome-personal"
+}

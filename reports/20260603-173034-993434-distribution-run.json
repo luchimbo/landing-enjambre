@@ -1,0 +1,332 @@
+{
+  "timestamp_utc": "20260603-173034-993434",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260603-172603-570283",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 53,
+  "pieces_blocked": 7,
+  "proposed": [
+    {
+      "slug": "controlador-midi-61-teclas-ableton",
+      "type": "respuesta_tecnica",
+      "title": "El MIDIPLUS i61: Ideal para Producción Musical con 61 Teclas"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-ableton",
+      "type": "post_educativo",
+      "title": "El MIDIPLUS i61: Tu Compañero Ideal para Producción Musical"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-ableton",
+      "type": "snippet_social",
+      "title": "El MIDIPLUS i61: Ideal para tus Producciones Musicales"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-ableton",
+      "type": "post_social",
+      "title": "Descubre el MIDIPLUS i61 para tus producciones musicales"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-ableton",
+      "type": "post_x",
+      "title": "El MIDIPLUS i61: Ideal para tu Producción Musical"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-ableton",
+      "type": "respuesta_youtube",
+      "title": "El MIDIPLUS i61: Ideal para Expandir tu Producción Musical"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-fl-studio",
+      "type": "respuesta_tecnica",
+      "title": "MIDIPLUS i61: Tu aliado para producir con FL Studio"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-fl-studio",
+      "type": "post_educativo",
+      "title": "MIDIPLUS i61: Tu aliado para producir con FL Studio"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-fl-studio",
+      "type": "snippet_social",
+      "title": "MIDIPLUS i61: Tu aliado para producir con FL Studio"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-fl-studio",
+      "type": "post_social",
+      "title": "MIDIPLUS i61: Tu aliado para producir con FL Studio"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-fl-studio",
+      "type": "post_x",
+      "title": "MIDIPLUS i61: Tu aliado para producir con FL Studio"
+    },
+    {
+      "slug": "controlador-midi-61-teclas-fl-studio",
+      "type": "respuesta_youtube",
+      "title": "MIDIPLUS i61: Ideal para FL Studio y más"
+    },
+    {
+      "slug": "que-comprar-para-midiplus-studio-m-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Eligiendo la interfaz de audio ideal para tu MIDIPLUS Studio M"
+    },
+    {
+      "slug": "que-comprar-para-midiplus-studio-m-home-studio",
+      "type": "post_educativo",
+      "title": "Eligiendo la interfaz de audio ideal para tu MIDIPLUS Studio M"
+    },
+    {
+      "slug": "que-comprar-para-midiplus-studio-m-home-studio",
+      "type": "snippet_social",
+      "title": "Eligiendo la interfaz de audio ideal para tu MIDIPLUS Studio M"
+    },
+    {
+      "slug": "que-comprar-para-midiplus-studio-m-home-studio",
+      "type": "post_social",
+      "title": "Elige la interfaz de audio perfecta para tu MIDIPLUS Studio M"
+    },
+    {
+      "slug": "que-comprar-para-midiplus-studio-m-home-studio",
+      "type": "post_x",
+      "title": "Eligiendo la interfaz de audio ideal para tu MIDIPLUS Studio M"
+    },
+    {
+      "slug": "que-comprar-para-midiplus-studio-m-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Eligiendo la interfaz de audio ideal para tu MIDIPLUS Studio M"
+    },
+    {
+      "slug": "guia-elegir-midiplus-studio-m-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Guía para elegir la MIDIPLUS Studio M en tu home studio"
+    },
+    {
+      "slug": "guia-elegir-midiplus-studio-m-home-studio",
+      "type": "post_educativo",
+      "title": "Guía para elegir la MIDIPLUS Studio M en tu home studio"
+    },
+    {
+      "slug": "guia-elegir-midiplus-studio-m-home-studio",
+      "type": "snippet_social",
+      "title": "Guía para elegir la MIDIPLUS Studio M en tu home studio"
+    },
+    {
+      "slug": "guia-elegir-midiplus-studio-m-home-studio",
+      "type": "post_social",
+      "title": "Elige la MIDIPLUS Studio M para tu home studio"
+    },
+    {
+      "slug": "guia-elegir-midiplus-studio-m-home-studio",
+      "type": "post_x",
+      "title": "Elige la MIDIPLUS Studio M para tu home studio"
+    },
+    {
+      "slug": "guia-elegir-midiplus-studio-m-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Guía para elegir la MIDIPLUS Studio M en tu home studio"
+    },
+    {
+      "slug": "setup-con-midiplus-studio-m-para-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Crea tu Home Studio con MIDIPLUS Studio M"
+    },
+    {
+      "slug": "setup-con-midiplus-studio-m-para-home-studio",
+      "type": "post_educativo",
+      "title": "Crea tu Home Studio con MIDIPLUS Studio M"
+    },
+    {
+      "slug": "setup-con-midiplus-studio-m-para-home-studio",
+      "type": "snippet_social",
+      "title": "Crea tu Home Studio con MIDIPLUS Studio M"
+    },
+    {
+      "slug": "setup-con-midiplus-studio-m-para-home-studio",
+      "type": "post_social",
+      "title": "Crea tu Home Studio con MIDIPLUS Studio M"
+    },
+    {
+      "slug": "setup-con-midiplus-studio-m-para-home-studio",
+      "type": "post_x",
+      "title": "Crea tu Home Studio con MIDIPLUS Studio M"
+    },
+    {
+      "slug": "que-comprar-para-midiplus-ms5-home-studio",
+      "type": "post_educativo",
+      "title": "Elige los mejores monitores para tu Midiplus MS5"
+    },
+    {
+      "slug": "que-comprar-para-midiplus-ms5-home-studio",
+      "type": "snippet_social",
+      "title": "Elige los mejores monitores para tu Midiplus MS5"
+    },
+    {
+      "slug": "que-comprar-para-midiplus-ms5-home-studio",
+      "type": "post_social",
+      "title": "Elige los mejores monitores para tu Midiplus MS5"
+    },
+    {
+      "slug": "que-comprar-para-midiplus-ms5-home-studio",
+      "type": "post_x",
+      "title": "Elige los mejores monitores para tu Midiplus MS5"
+    },
+    {
+      "slug": "que-comprar-para-midiplus-ms5-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Elige los mejores monitores para tu Midiplus MS5"
+    },
+    {
+      "slug": "como-elegir-midiplus-ms5-para-home-studio",
+      "type": "post_x",
+      "title": "Elige monitores Midiplus MS5 para tu home studio"
+    },
+    {
+      "slug": "setup-con-midiplus-ms5-para-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Arma tu Home Studio con los Monitores Midiplus MS5"
+    },
+    {
+      "slug": "setup-con-midiplus-ms5-para-home-studio",
+      "type": "post_educativo",
+      "title": "Arma tu Home Studio con los Monitores Midiplus MS5"
+    },
+    {
+      "slug": "setup-con-midiplus-ms5-para-home-studio",
+      "type": "snippet_social",
+      "title": "Arma tu Home Studio con los Monitores Midiplus MS5"
+    },
+    {
+      "slug": "setup-con-midiplus-ms5-para-home-studio",
+      "type": "post_social",
+      "title": "Arma tu Home Studio con los Monitores Midiplus MS5"
+    },
+    {
+      "slug": "setup-con-midiplus-ms5-para-home-studio",
+      "type": "post_x",
+      "title": "Arma tu Home Studio con los Monitores Midiplus MS5"
+    },
+    {
+      "slug": "setup-con-midiplus-ms5-para-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Arma tu Home Studio con los Monitores Midiplus MS5"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-principiantes",
+      "type": "respuesta_tecnica",
+      "title": "Monitores Midiplus MS5: Ideal para Home Studios Pequeños"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-principiantes",
+      "type": "post_educativo",
+      "title": "Monitores Midiplus MS5: Tu mejor opción para comenzar"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-principiantes",
+      "type": "snippet_social",
+      "title": "Monitores Midiplus MS5: Perfectos para tu Home Studio"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-principiantes",
+      "type": "post_social",
+      "title": "Monitores Midiplus MS5: Perfectos para tu Home Studio"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-principiantes",
+      "type": "post_x",
+      "title": "Monitores Midiplus MS5: Perfectos para tu home studio"
+    },
+    {
+      "slug": "midiplus-ms5-home-studio-principiantes",
+      "type": "respuesta_youtube",
+      "title": "Monitores Midiplus MS5: Ideal para tu Home Studio"
+    },
+    {
+      "slug": "monitores-6-pulgadas-home-studio",
+      "type": "respuesta_tecnica",
+      "title": "Elige Monitores de 6 Pulgadas para tu Home Studio"
+    },
+    {
+      "slug": "monitores-6-pulgadas-home-studio",
+      "type": "post_educativo",
+      "title": "Elige los Monitores de 6 Pulgadas Perfectos para tu Home Studio"
+    },
+    {
+      "slug": "monitores-6-pulgadas-home-studio",
+      "type": "snippet_social",
+      "title": "Elige los Monitores de 6 Pulgadas Perfectos para tu Home Studio"
+    },
+    {
+      "slug": "monitores-6-pulgadas-home-studio",
+      "type": "post_social",
+      "title": "Elige los Monitores de 6 Pulgadas Perfectos para tu Home Studio"
+    },
+    {
+      "slug": "monitores-6-pulgadas-home-studio",
+      "type": "post_x",
+      "title": "Elige Monitores de 6 Pulgadas para tu Home Studio"
+    },
+    {
+      "slug": "monitores-6-pulgadas-home-studio",
+      "type": "respuesta_youtube",
+      "title": "Elige los Monitores de 6 Pulgadas Perfectos para tu Home Studio"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "setup-con-midiplus-studio-m-para-home-studio",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: precio"
+      ]
+    },
+    {
+      "slug": "que-comprar-para-midiplus-ms5-home-studio",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "como-elegir-midiplus-ms5-para-home-studio",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "como-elegir-midiplus-ms5-para-home-studio",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "como-elegir-midiplus-ms5-para-home-studio",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "como-elegir-midiplus-ms5-para-home-studio",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "como-elegir-midiplus-ms5-para-home-studio",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 271.42
+}

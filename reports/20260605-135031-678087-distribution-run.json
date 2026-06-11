@@ -1,0 +1,330 @@
+{
+  "timestamp_utc": "20260605-135031-678087",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260605-134502-994974",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 54,
+  "pieces_blocked": 6,
+  "proposed": [
+    {
+      "slug": "como-elegir-midiplus-ed8-vs-ed6",
+      "type": "respuesta_tecnica",
+      "title": "Comparativa entre la Midiplus ED8 y ED6"
+    },
+    {
+      "slug": "como-elegir-midiplus-ed8-vs-ed6",
+      "type": "post_educativo",
+      "title": "Comparativa entre la Midiplus ED8 y ED6 para músicos"
+    },
+    {
+      "slug": "como-elegir-midiplus-ed8-vs-ed6",
+      "type": "snippet_social",
+      "title": "Comparativa entre la Midiplus ED8 y ED6"
+    },
+    {
+      "slug": "como-elegir-midiplus-ed8-vs-ed6",
+      "type": "post_social",
+      "title": "Comparativa entre la Midiplus ED8 y ED6: ¿Cuál elegir?"
+    },
+    {
+      "slug": "como-elegir-midiplus-ed8-vs-ed6",
+      "type": "post_x",
+      "title": "Comparativa entre la Midiplus ED8 y ED6"
+    },
+    {
+      "slug": "como-elegir-midiplus-ed8-vs-ed6",
+      "type": "respuesta_youtube",
+      "title": "Comparativa entre las baterías electrónicas Midiplus ED8 y ED6"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-creadores-contenido",
+      "type": "respuesta_tecnica",
+      "title": "Arturia MiniLab 3 vs KeyLab: ¿Cuál elegir para tu contenido?"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-creadores-contenido",
+      "type": "post_educativo",
+      "title": "Arturia MiniLab 3 vs KeyLab: ¿Cuál elegir para tu contenido?"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-creadores-contenido",
+      "type": "snippet_social",
+      "title": "Arturia MiniLab 3 vs KeyLab: ¿Cuál elegir para tu contenido?"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-creadores-contenido",
+      "type": "post_social",
+      "title": "Arturia MiniLab 3 vs KeyLab: ¿Cuál elegir para tu contenido?"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-creadores-contenido",
+      "type": "post_x",
+      "title": "Arturia MiniLab 3 vs KeyLab: ¿Cuál elegir para tu contenido?"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-creadores-contenido",
+      "type": "respuesta_youtube",
+      "title": "Arturia MiniLab 3 vs KeyLab: ¿Cuál elegir para tu contenido?"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-producir-musica-electronica",
+      "type": "respuesta_tecnica",
+      "title": "Arturia MiniLab 3 vs KeyLab: ¿Cuál es el mejor controlador MIDI?"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-producir-musica-electronica",
+      "type": "post_educativo",
+      "title": "Arturia MiniLab 3 vs KeyLab: ¿Cuál es el mejor controlador MIDI?"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-producir-musica-electronica",
+      "type": "snippet_social",
+      "title": "Arturia MiniLab 3 vs KeyLab: ¿Cuál elegir para producir música?"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-producir-musica-electronica",
+      "type": "post_social",
+      "title": "Arturia MiniLab 3 vs KeyLab: ¿Cuál elegir para tu música?"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-producir-musica-electronica",
+      "type": "post_x",
+      "title": "Arturia MiniLab 3 vs KeyLab: ¿Cuál elegir para producción?"
+    },
+    {
+      "slug": "arturia-minilab-3-vs-keylab-producir-musica-electronica",
+      "type": "respuesta_youtube",
+      "title": "Arturia MiniLab 3 vs KeyLab: ¿Cuál elegir para producción musical?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-para-bajos",
+      "type": "respuesta_tecnica",
+      "title": "Arturia MiniFreak vs MicroFreak: ¿Cuál es mejor para bajos?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-para-bajos",
+      "type": "post_educativo",
+      "title": "Arturia MiniFreak vs MicroFreak: ¿Cuál es mejor para bajos?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-para-bajos",
+      "type": "snippet_social",
+      "title": "Arturia MiniFreak vs MicroFreak: ¿Cuál elegir para bajos?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-para-bajos",
+      "type": "post_social",
+      "title": "Arturia MiniFreak vs MicroFreak: ¿Cuál es mejor para bajos?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-para-bajos",
+      "type": "post_x",
+      "title": "Arturia MiniFreak vs MicroFreak: ¿Cuál es mejor para bajos?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-para-bajos",
+      "type": "respuesta_youtube",
+      "title": "Arturia MiniFreak vs MicroFreak: Comparativa para bajos"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-para-pads",
+      "type": "respuesta_tecnica",
+      "title": "Arturia MiniFreak vs MicroFreak: ¿Cuál elegir para pads?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-para-pads",
+      "type": "post_educativo",
+      "title": "Arturia MiniFreak vs MicroFreak: ¿Cuál elegir para pads?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-para-pads",
+      "type": "snippet_social",
+      "title": "Arturia MiniFreak vs MicroFreak: ¿Cuál elegir para pads?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-para-pads",
+      "type": "post_social",
+      "title": "Arturia MiniFreak vs MicroFreak: ¿Cuál elegir para pads?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-para-pads",
+      "type": "post_x",
+      "title": "Arturia MiniFreak vs MicroFreak: ¿Cuál elegir para pads?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-para-pads",
+      "type": "respuesta_youtube",
+      "title": "Arturia MiniFreak vs MicroFreak: ¿Cuál elegir para pads?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-aprender-sintesis",
+      "type": "respuesta_tecnica",
+      "title": "Comparativa técnica: Arturia MiniFreak vs MicroFreak"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-aprender-sintesis",
+      "type": "post_educativo",
+      "title": "Comparativa: Arturia MiniFreak vs MicroFreak para aprender síntesis"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-aprender-sintesis",
+      "type": "snippet_social",
+      "title": "Comparativa: Arturia MiniFreak vs MicroFreak para aprender síntesis"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-aprender-sintesis",
+      "type": "post_social",
+      "title": "Comparativa: Arturia MiniFreak vs MicroFreak para Sintetizar"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-aprender-sintesis",
+      "type": "post_x",
+      "title": "Comparativa: Arturia MiniFreak vs MicroFreak"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-aprender-sintesis",
+      "type": "respuesta_youtube",
+      "title": "Comparativa: Arturia MiniFreak vs MicroFreak para Sintesis"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-vocoder",
+      "type": "respuesta_tecnica",
+      "title": "Comparativa técnica entre Arturia MiniFreak y MicroFreak"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-vocoder",
+      "type": "post_educativo",
+      "title": "Comparativa entre Arturia MiniFreak y MicroFreak con Vocoder"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-vocoder",
+      "type": "snippet_social",
+      "title": "Comparativa entre Arturia MiniFreak y MicroFreak con Vocoder"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-vocoder",
+      "type": "post_social",
+      "title": "Comparativa entre Arturia MiniFreak y MicroFreak con Vocoder"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-vocoder",
+      "type": "post_x",
+      "title": "Comparativa entre Arturia MiniFreak y MicroFreak con Vocoder"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-vocoder",
+      "type": "respuesta_youtube",
+      "title": "Comparativa entre Arturia MiniFreak y MicroFreak con Vocoder"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-setup-portable",
+      "type": "respuesta_tecnica",
+      "title": "Arturia MiniFreak vs MicroFreak: Comparativa para tu setup"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-setup-portable",
+      "type": "post_educativo",
+      "title": "Arturia MiniFreak vs MicroFreak: Comparativa para tu setup"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-setup-portable",
+      "type": "snippet_social",
+      "title": "Arturia MiniFreak vs MicroFreak: Comparativa para tu setup"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-setup-portable",
+      "type": "post_social",
+      "title": "Arturia MiniFreak vs MicroFreak: ¿Cuál elegir para tu setup?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-setup-portable",
+      "type": "post_x",
+      "title": "Arturia MiniFreak vs MicroFreak: ¿Cuál elegir para tu setup?"
+    },
+    {
+      "slug": "arturia-minifreak-vs-microfreak-setup-portable",
+      "type": "respuesta_youtube",
+      "title": "Arturia MiniFreak vs MicroFreak: ¿Cuál elegir para tu setup?"
+    },
+    {
+      "slug": "auriculares-cerrados-para-grabar-voces",
+      "type": "respuesta_tecnica",
+      "title": "Auriculares Cerrados para Grabación de Voces: Clave para Evitar Bleed"
+    },
+    {
+      "slug": "auriculares-cerrados-para-grabar-voces",
+      "type": "post_educativo",
+      "title": "Auriculares Cerrados para Grabación de Voces: Claves para Evitar Bleed"
+    },
+    {
+      "slug": "auriculares-cerrados-para-grabar-voces",
+      "type": "snippet_social",
+      "title": "Auriculares Cerrados para Grabación de Voces"
+    },
+    {
+      "slug": "auriculares-cerrados-para-grabar-voces",
+      "type": "post_social",
+      "title": "Auriculares Cerrados: Clave para Grabaciones Limpias 🎤"
+    },
+    {
+      "slug": "auriculares-cerrados-para-grabar-voces",
+      "type": "post_x",
+      "title": "Auriculares Cerrados para Grabación de Voces"
+    },
+    {
+      "slug": "auriculares-cerrados-para-grabar-voces",
+      "type": "respuesta_youtube",
+      "title": "Auriculares Cerrados para Grabación de Voces: Clave para Evitar Bleed"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "guia-arturia-minilab-3-vs-keylab",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-arturia-minilab-3-vs-keylab",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-arturia-minilab-3-vs-keylab",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-arturia-minilab-3-vs-keylab",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-arturia-minilab-3-vs-keylab",
+      "type": "post_x",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "guia-arturia-minilab-3-vs-keylab",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 328.68
+}

@@ -1,0 +1,38 @@
+{
+  "timestamp_utc": "20260527-153009-977175",
+  "command": "auto-distribution",
+  "channels": [
+    "linkedin",
+    "reddit"
+  ],
+  "limit": 2,
+  "dry_run": true,
+  "allow_proposed": false,
+  "published_or_attempted": 2,
+  "blocked_seen": 0,
+  "results": [
+    {
+      "id": "20260526-195410-369574:reddit-public:1to10es",
+      "channel": "reddit",
+      "slug": "arturia-minilab-3-vs-keylab",
+      "result": {
+        "ok": true,
+        "dry_run": true,
+        "url": "https://www.reddit.com/r/edmproduction/comments/1to10es/beginner_looking_for_help_with_shaperbox_3_or/",
+        "text_length": 1267
+      }
+    },
+    {
+      "id": "20260526-201515-628576:reddit:0",
+      "channel": "reddit",
+      "slug": "controlador-midi-para-fl-studio",
+      "result": {
+        "ok": true,
+        "dry_run": true,
+        "url": "https://www.reddit.com/r/FL_Studio/comments/1toig6v/cant_hear_my_guitar_and_i_cant_find_a_single/",
+        "text_length": 1119
+      }
+    }
+  ],
+  "blocked_sample": []
+}
