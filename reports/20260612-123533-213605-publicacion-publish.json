@@ -1,0 +1,9 @@
+{
+  "timestamp_utc": "20260612-123533-213605",
+  "published": 0,
+  "failed": 0,
+  "skipped": 0,
+  "command": "publish",
+  "dry_run": false,
+  "elapsed_seconds": 0.12
+}

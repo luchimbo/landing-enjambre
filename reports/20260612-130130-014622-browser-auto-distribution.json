@@ -1,0 +1,285 @@
+{
+  "timestamp_utc": "20260612-130130-014622",
+  "command": "auto-distribution",
+  "channels": [
+    "facebook",
+    "instagram",
+    "x",
+    "youtube"
+  ],
+  "unsupported_channels": [],
+  "limit": 16,
+  "per_channel": 2,
+  "dry_run": false,
+  "allow_proposed": false,
+  "published_or_attempted": 6,
+  "blocked_seen": 1304,
+  "results": [
+    {
+      "id": "20260612-125843-634291:midiplus-ms6-home-studio-chico-7:respuesta_youtube:youtube:1781269238913",
+      "channel": "youtube",
+      "slug": "midiplus-ms6-home-studio-chico-7",
+      "result": {
+        "ok": false,
+        "error": "YouTube requiere source_thread_url de un video"
+      }
+    },
+    {
+      "id": "20260612-125843-634291:midiplus-ms6-home-studio-chico-7:snippet_social:social:1781269226674",
+      "channel": "facebook",
+      "slug": "midiplus-ms6-home-studio-chico-7",
+      "result": {
+        "ok": false,
+        "url": "https://www.facebook.com/",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "¿qué estás pensando",
+            "what's on your mind",
+            "crear publicación"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "publicar"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260612-125843-634291:midiplus-ms6-home-studio-chico-7:snippet_social:social:1781269226674",
+      "channel": "x",
+      "slug": "midiplus-ms6-home-studio-chico-7",
+      "result": {
+        "ok": true,
+        "url": "https://x.com/compose/post",
+        "dismissed": [],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "x_compose",
+              "ok": true,
+              "prep": {
+                "ok": true,
+                "skipped": true
+              },
+              "open": {
+                "ok": true,
+                "skipped": true
+              },
+              "fill": {
+                "ok": true,
+                "selector": "[data-testid=\"tweetTextarea_0\"]",
+                "length": 275
+              },
+              "submit": {
+                "ok": true,
+                "selector": "[data-testid=\"tweetButtonInline\"]"
+              },
+              "keyboard_submit": {
+                "ok": false,
+                "skipped": true
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260612-125843-634291:midiplus-studio-m-home-studio-chico:respuesta_youtube:youtube:1781269188517",
+      "channel": "youtube",
+      "slug": "midiplus-studio-m-home-studio-chico",
+      "result": {
+        "ok": false,
+        "error": "YouTube requiere source_thread_url de un video"
+      }
+    },
+    {
+      "id": "20260612-125843-634291:midiplus-studio-m-home-studio-chico:snippet_social:social:1781269179715",
+      "channel": "facebook",
+      "slug": "midiplus-studio-m-home-studio-chico",
+      "result": {
+        "ok": false,
+        "url": "https://www.facebook.com/",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "¿qué estás pensando",
+            "what's on your mind",
+            "crear publicación"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "publicar"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260612-125843-634291:midiplus-studio-m-home-studio-chico:snippet_social:social:1781269179715",
+      "channel": "x",
+      "slug": "midiplus-studio-m-home-studio-chico",
+      "result": {
+        "ok": true,
+        "url": "https://x.com/compose/post",
+        "dismissed": [],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "x_compose",
+              "ok": true,
+              "prep": {
+                "ok": true,
+                "skipped": true
+              },
+              "open": {
+                "ok": true,
+                "skipped": true
+              },
+              "fill": {
+                "ok": true,
+                "selector": "[data-testid=\"tweetTextarea_0\"]",
+                "length": 275
+              },
+              "submit": {
+                "ok": true,
+                "selector": "[data-testid=\"tweetButtonInline\"]"
+              },
+              "keyboard_submit": {
+                "ok": false,
+                "skipped": true
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "blocked_sample": [
+    {
+      "id": "20260612-123803-141778:youtube:auto-listen:27",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260612-123803-141778:youtube:auto-listen:26",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260612-123803-141778:youtube:auto-listen:25",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260612-123803-141778:youtube:auto-listen:24",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260612-123803-141778:youtube:auto-listen:23",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260612-123803-141778:youtube:auto-listen:22",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260612-123803-141778:youtube:auto-listen:21",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260612-123803-141778:youtube:auto-listen:20",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260612-123803-141778:youtube:auto-listen:19",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260612-123803-141778:youtube:auto-listen:18",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    }
+  ]
+}

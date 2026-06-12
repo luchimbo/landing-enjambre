@@ -1,0 +1,119 @@
+{
+  "timestamp_utc": "20260611-203802-959037",
+  "command": "auto-distribution",
+  "channels": [
+    "facebook",
+    "instagram",
+    "x",
+    "youtube"
+  ],
+  "unsupported_channels": [],
+  "limit": 25,
+  "per_channel": 2,
+  "dry_run": false,
+  "allow_proposed": false,
+  "published_or_attempted": 2,
+  "blocked_seen": 1253,
+  "results": [
+    {
+      "id": "20260611-203655-636918:youtube:auto-listen:4",
+      "channel": "youtube",
+      "slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "result": {
+        "ok": false,
+        "error": "CDP Runtime.evaluate fallo: {'code': -32000, 'message': 'Inspected target navigated or closed'}"
+      }
+    },
+    {
+      "id": "20260609-142143-100551:arturia-microfreak-para-empezar-en-sintesis-3:respuesta_youtube:youtube:1781015071287",
+      "channel": "youtube",
+      "slug": "arturia-microfreak-para-empezar-en-sintesis-3",
+      "result": {
+        "ok": false,
+        "error": "YouTube requiere source_thread_url de un video"
+      }
+    }
+  ],
+  "blocked_sample": [
+    {
+      "id": "20260611-203655-636918:youtube:auto-listen:5",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260611-203655-636918:instagram:auto-listen:2",
+      "channel": "instagram",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260611-203655-636918:instagram:auto-listen:1",
+      "channel": "instagram",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260611-203655-636918:instagram:auto-listen:0",
+      "channel": "instagram",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260611-194844-847403:youtube:auto-listen:4",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260611-194844-847403:youtube:auto-listen:3",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260611-194844-847403:instagram:auto-listen:2",
+      "channel": "instagram",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260611-194844-847403:instagram:auto-listen:1",
+      "channel": "instagram",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260611-194844-847403:instagram:auto-listen:0",
+      "channel": "instagram",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260611-193802-512090:youtube:auto-listen:30",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    }
+  ]
+}

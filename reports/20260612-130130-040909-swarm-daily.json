@@ -1,0 +1,199 @@
+{
+  "timestamp_utc": "20260612-130130-040909",
+  "command": "daily",
+  "status": "ok",
+  "dry_run": false,
+  "steps": [
+    {
+      "step": "nurture",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\agente_4_nurture.py",
+        "process",
+        "--limit",
+        "5"
+      ],
+      "started_utc": "20260612-123002-101037",
+      "finished_utc": "20260612-123005-953112",
+      "returncode": 0,
+      "status": "ok"
+    },
+    {
+      "step": "conversion",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\agente_conversion.py",
+        "run",
+        "--window-days",
+        "30",
+        "--min-views",
+        "50",
+        "--limit",
+        "50"
+      ],
+      "started_utc": "20260612-123005-953451",
+      "finished_utc": "20260612-123008-397079",
+      "returncode": 0,
+      "status": "ok"
+    },
+    {
+      "step": "discover",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\build_landings.py",
+        "discover",
+        "--limit",
+        "30"
+      ],
+      "started_utc": "20260612-123008-397206",
+      "finished_utc": "20260612-123638-708146",
+      "returncode": 0,
+      "status": "ok"
+    },
+    {
+      "step": "generate",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\build_landings.py",
+        "generate",
+        "--limit",
+        "5"
+      ],
+      "started_utc": "20260612-123638-708363",
+      "finished_utc": "20260612-125347-519232",
+      "returncode": 0,
+      "status": "ok"
+    },
+    {
+      "step": "lead-magnets",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\agente_lead_magnets.py",
+        "--limit",
+        "5"
+      ],
+      "started_utc": "20260612-125347-519500",
+      "finished_utc": "20260612-125504-620234",
+      "returncode": 0,
+      "status": "ok"
+    },
+    {
+      "step": "validate-after-generate",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\build_landings.py",
+        "validate"
+      ],
+      "started_utc": "20260612-125504-620373",
+      "finished_utc": "20260612-125504-809673",
+      "returncode": 0,
+      "status": "ok"
+    },
+    {
+      "step": "build",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\build_landings.py",
+        "build",
+        "--base-url",
+        "https://blog.pcmidicenter.com"
+      ],
+      "started_utc": "20260612-125504-809810",
+      "finished_utc": "20260612-125608-651098",
+      "returncode": 0,
+      "status": "ok"
+    },
+    {
+      "step": "deploy",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\build_landings.py",
+        "deploy",
+        "--base-url",
+        "https://blog.pcmidicenter.com"
+      ],
+      "started_utc": "20260612-125608-651209",
+      "finished_utc": "20260612-125843-519120",
+      "returncode": 0,
+      "status": "ok"
+    },
+    {
+      "step": "distribution-generate",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\agente_distribucion.py",
+        "generate",
+        "--limit",
+        "5"
+      ],
+      "started_utc": "20260612-125843-519289",
+      "finished_utc": "20260612-130038-942836",
+      "returncode": 0,
+      "status": "ok"
+    },
+    {
+      "step": "distribution-approve",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\agente_distribucion.py",
+        "approve",
+        "--limit",
+        "5"
+      ],
+      "started_utc": "20260612-130038-942950",
+      "finished_utc": "20260612-130039-209314",
+      "returncode": 0,
+      "status": "ok"
+    },
+    {
+      "step": "search-threads",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\agente_publicacion.py",
+        "search",
+        "--channel",
+        "reddit-public",
+        "--limit",
+        "5"
+      ],
+      "started_utc": "20260612-130039-209444",
+      "finished_utc": "20260612-130041-419351",
+      "returncode": 0,
+      "status": "ok"
+    },
+    {
+      "step": "publish",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\agente_publicacion.py",
+        "publish",
+        "--limit",
+        "5",
+        "--channel",
+        "reddit-public"
+      ],
+      "started_utc": "20260612-130041-419502",
+      "finished_utc": "20260612-130041-664882",
+      "returncode": 0,
+      "status": "ok"
+    },
+    {
+      "step": "auto-distribution",
+      "command": [
+        "C:\\Python313\\python.exe",
+        "D:\\AgentesGuille\\agente_browser_cdp.py",
+        "auto-distribution",
+        "--channels",
+        "facebook,instagram,youtube,x",
+        "--limit",
+        "16",
+        "--per-channel",
+        "2"
+      ],
+      "started_utc": "20260612-130041-664998",
+      "finished_utc": "20260612-130130-040610",
+      "returncode": 0,
+      "status": "ok"
+    }
+  ]
+}

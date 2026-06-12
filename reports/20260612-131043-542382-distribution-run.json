@@ -1,0 +1,336 @@
+{
+  "timestamp_utc": "20260612-131043-542382",
+  "command": "distribution",
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "run_id": "20260612-130553-443985",
+  "dry_run": false,
+  "channel_filter": null,
+  "since_last_deploy": false,
+  "landings_selected": 10,
+  "pieces_proposed": 51,
+  "pieces_blocked": 9,
+  "proposed": [
+    {
+      "slug": "microfono-usb-para-podcast-en-casa-9",
+      "type": "respuesta_tecnica",
+      "title": "Micrófonos USB para un Podcast de Calidad en Casa"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-en-casa-9",
+      "type": "post_educativo",
+      "title": "Micrófonos USB para un Podcast de Calidad en Casa"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-en-casa-9",
+      "type": "snippet_social",
+      "title": "Micrófonos USB para un Podcast de Calidad en Casa"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-en-casa-9",
+      "type": "post_social",
+      "title": "Micrófonos USB: Tu Aliado para un Podcast de Calidad en Casa"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-en-casa-9",
+      "type": "post_x",
+      "title": "Micrófonos USB para un Podcast de Calidad en Casa"
+    },
+    {
+      "slug": "microfono-usb-para-podcast-en-casa-9",
+      "type": "respuesta_youtube",
+      "title": "Guía para Elegir un Micrófono USB para tu Podcast en Casa"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-creadores-contenido",
+      "type": "respuesta_tecnica",
+      "title": "Guía para elegir un micrófono XLR para tus podcasts"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-creadores-contenido",
+      "type": "snippet_social",
+      "title": "Encuentra el micrófono XLR perfecto para tus podcasts"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-creadores-contenido",
+      "type": "post_social",
+      "title": "Encuentra el micrófono XLR perfecto para tus podcasts"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-creadores-contenido",
+      "type": "post_x",
+      "title": "Encuentra el micrófono XLR perfecto para tus podcasts"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-creadores-contenido",
+      "type": "respuesta_youtube",
+      "title": "Elige el micrófono XLR ideal para tus podcasts"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-setup-portable",
+      "type": "respuesta_tecnica",
+      "title": "Guía para elegir un micrófono XLR para podcast portátil"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-setup-portable",
+      "type": "post_educativo",
+      "title": "Encuentra el micrófono XLR ideal para tu podcast portátil"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-setup-portable",
+      "type": "snippet_social",
+      "title": "Encuentra el micrófono XLR ideal para tu podcast portátil"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-setup-portable",
+      "type": "post_social",
+      "title": "Encuentra el micrófono XLR ideal para tu podcast portátil"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-setup-portable",
+      "type": "post_x",
+      "title": "Encuentra el micrófono XLR ideal para tu podcast portátil"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-setup-portable",
+      "type": "respuesta_youtube",
+      "title": "Elige el micrófono XLR perfecto para tu podcast portátil"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-guitarra",
+      "type": "respuesta_tecnica",
+      "title": "Guía para elegir un micrófono XLR para podcast y guitarra"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-guitarra",
+      "type": "post_educativo",
+      "title": "Elige el micrófono XLR ideal para tu podcast y guitarra"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-guitarra",
+      "type": "snippet_social",
+      "title": "Encuentra el micrófono XLR perfecto para tu podcast y guitarra"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-guitarra",
+      "type": "post_social",
+      "title": "Encuentra el micrófono XLR perfecto para tu podcast y guitarra"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-guitarra",
+      "type": "post_x",
+      "title": "Elige el micrófono XLR ideal para tu podcast y guitarra"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-guitarra",
+      "type": "respuesta_youtube",
+      "title": "Elige el micrófono XLR ideal para podcast y guitarra"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-voz",
+      "type": "respuesta_tecnica",
+      "title": "Los mejores micrófonos XLR para tus podcasts"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-voz",
+      "type": "snippet_social",
+      "title": "Los mejores micrófonos XLR para tus podcasts"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-voz",
+      "type": "post_social",
+      "title": "Los mejores micrófonos XLR para tus podcasts"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-voz",
+      "type": "post_x",
+      "title": "Los mejores micrófonos XLR para tus podcasts"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-voz",
+      "type": "respuesta_youtube",
+      "title": "Los mejores micrófonos XLR para tus podcasts"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-notebook",
+      "type": "respuesta_tecnica",
+      "title": "Micrófonos XLR ideales para grabar tu podcast"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-notebook",
+      "type": "post_educativo",
+      "title": "Micrófonos XLR ideales para grabar tu podcast"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-notebook",
+      "type": "snippet_social",
+      "title": "Micrófonos XLR ideales para grabar tu podcast"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-notebook",
+      "type": "post_social",
+      "title": "Micrófonos XLR ideales para grabar tu podcast"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-notebook",
+      "type": "post_x",
+      "title": "Micrófonos XLR ideales para grabar tu podcast"
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-notebook",
+      "type": "respuesta_youtube",
+      "title": "Micrófonos XLR ideales para grabar tu podcast"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-setup-portable",
+      "type": "respuesta_tecnica",
+      "title": "Micrófonos Condensadores para Voz en Setup Portable"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-setup-portable",
+      "type": "post_educativo",
+      "title": "Micrófonos Condensadores para Voz en Setup Portable"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-setup-portable",
+      "type": "snippet_social",
+      "title": "Micrófonos Condensadores para Voz en Setup Portable"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-setup-portable",
+      "type": "post_social",
+      "title": "Elige el Mejor Micrófono Condensador para Tu Setup Portable"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-setup-portable",
+      "type": "post_x",
+      "title": "Micrófonos Condensadores para Voz en Setup Portable"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-setup-portable",
+      "type": "respuesta_youtube",
+      "title": "Guía para Elegir Micrófonos Condensadores en Setup Portable"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-audio-en-casa",
+      "type": "post_educativo",
+      "title": "Elige el Mejor Micrófono Condensador para Voz en Casa"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-audio-en-casa",
+      "type": "snippet_social",
+      "title": "Elige el Mejor Micrófono Condensador para Voz en Casa"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-audio-en-casa",
+      "type": "post_social",
+      "title": "Elige el Mejor Micrófono Condensador para Voz en Casa"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-audio-en-casa",
+      "type": "post_x",
+      "title": "Elige el Mejor Micrófono Condensador para Voz en Casa"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-audio-en-casa",
+      "type": "respuesta_youtube",
+      "title": "Elige el Mejor Micrófono Condensador para Voz en Casa"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-grabar-contenido",
+      "type": "respuesta_tecnica",
+      "title": "El micrófono condensador perfecto para grabar voz"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-grabar-contenido",
+      "type": "post_educativo",
+      "title": "El micrófono condensador perfecto para tu voz"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-grabar-contenido",
+      "type": "snippet_social",
+      "title": "El micrófono condensador perfecto para tu voz"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-grabar-contenido",
+      "type": "post_social",
+      "title": "El micrófono condensador perfecto para tu voz"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-grabar-contenido",
+      "type": "post_x",
+      "title": "El micrófono condensador perfecto para tu voz"
+    },
+    {
+      "slug": "microfono-condensador-para-voz-grabar-contenido",
+      "type": "respuesta_youtube",
+      "title": "El micrófono condensador ideal para grabar voces"
+    }
+  ],
+  "blocked": [
+    {
+      "slug": "microfono-xlr-para-podcast-creadores-contenido",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "microfono-xlr-para-podcast-voz",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "microfono-condensador-para-voz-home-studio-chico",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "microfono-condensador-para-voz-home-studio-chico",
+      "type": "post_educativo",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "microfono-condensador-para-voz-home-studio-chico",
+      "type": "snippet_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "microfono-condensador-para-voz-home-studio-chico",
+      "type": "post_social",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "microfono-condensador-para-voz-home-studio-chico",
+      "type": "post_x",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "microfono-condensador-para-voz-home-studio-chico",
+      "type": "respuesta_youtube",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    },
+    {
+      "slug": "microfono-condensador-para-voz-audio-en-casa",
+      "type": "respuesta_tecnica",
+      "errors": [
+        "claim prohibido: disponible"
+      ]
+    }
+  ],
+  "elapsed_seconds": 290.1
+}

@@ -1,0 +1,8 @@
+{
+  "timestamp_utc": "20260612-123802-917643",
+  "command": "distribution approve",
+  "status": "ok",
+  "dry_run": false,
+  "approved": 0,
+  "channel": null
+}

@@ -1,0 +1,763 @@
+{
+  "timestamp_utc": "20260612-124432-682985",
+  "command": "auto-distribution",
+  "channels": [
+    "facebook",
+    "instagram",
+    "linkedin",
+    "reddit",
+    "x",
+    "youtube"
+  ],
+  "unsupported_channels": [],
+  "limit": 18,
+  "per_channel": 3,
+  "dry_run": false,
+  "allow_proposed": false,
+  "published_or_attempted": 18,
+  "blocked_seen": 993,
+  "results": [
+    {
+      "id": "20260612-123803-141778:reddit:auto-listen:16",
+      "channel": "reddit",
+      "slug": "microfono-para-podcast-usb-o-xlr",
+      "result": {
+        "ok": false,
+        "url": "https://www.reddit.com/r/suenosypesadillas/comments/1u3rv8z/relatos_desde_la_oscurida_los_cadejos_podcast/",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "añadir un comentario",
+            "add a comment"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comentar",
+            "comment",
+            "reply"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260612-123803-141778:reddit:auto-listen:15",
+      "channel": "reddit",
+      "slug": "controlador-midi-para-ableton-comparativa",
+      "result": {
+        "ok": false,
+        "url": "https://www.reddit.com/user/CafeDelCadence/comments/1u3q8hn/modulate_music_with_videos/",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "añadir un comentario",
+            "add a comment"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comentar",
+            "comment",
+            "reply"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260612-123803-141778:reddit:auto-listen:14",
+      "channel": "reddit",
+      "slug": "controlador-midi-para-ableton-comparativa",
+      "result": {
+        "ok": false,
+        "url": "https://www.reddit.com/r/IsotonikStudios/comments/1u3sd4s/new_video_max_for_live_control_device_jellygon_by/",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "añadir un comentario",
+            "add a comment"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comentar",
+            "comment",
+            "reply"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260612-123803-141778:linkedin:auto-listen:12",
+      "channel": "linkedin",
+      "slug": "microfono-para-streaming",
+      "result": {
+        "ok": false,
+        "url": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgWCVndtB&urlhash=Uvfp&mt=vR1b0XCP2C0GnSDuKQ-vsfdJvo3lETY97ISk-n2H6VFf_FMnPHcw89hYSQt_lZ6dlXqQp14rPp5TWlVnSjEBePEpQEkuBB0jxJYLMAl8oDItw2yrOSXYLMDjJcM&isSdui=true",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comenzar publicación",
+            "start a post",
+            "crear publicación",
+            "post"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "publicar"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260611-203655-636918:instagram:auto-listen:3",
+      "channel": "instagram",
+      "slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "result": {
+        "ok": true,
+        "url": "https://www.instagram.com/p/DVA6RPKk4h7/",
+        "dismissed": [],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "instagram_comment_selector",
+              "ok": true,
+              "prep": {
+                "ok": true,
+                "tries": 1,
+                "tag": "TEXTAREA"
+              },
+              "open": {
+                "ok": true,
+                "selector": "textarea[aria-label*=\"comentario\"]"
+              },
+              "fill": {
+                "ok": true,
+                "selector": "textarea",
+                "length": 139
+              },
+              "submit": {
+                "ok": true,
+                "label": "publicar"
+              },
+              "keyboard_submit": {
+                "ok": false,
+                "skipped": true
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260611-183802-968145:instagram:auto-listen:6",
+      "channel": "instagram",
+      "slug": "microfono-para-podcast-usb-o-xlr",
+      "result": {
+        "ok": true,
+        "url": "https://www.instagram.com/p/DWIlDCcEf-s/",
+        "dismissed": [],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "instagram_comment_selector",
+              "ok": true,
+              "prep": {
+                "ok": true,
+                "tries": 1,
+                "tag": "TEXTAREA"
+              },
+              "open": {
+                "ok": true,
+                "selector": "textarea[aria-label*=\"comentario\"]"
+              },
+              "fill": {
+                "ok": true,
+                "selector": "textarea",
+                "length": 147
+              },
+              "submit": {
+                "ok": true,
+                "label": "publicar"
+              },
+              "keyboard_submit": {
+                "ok": false,
+                "skipped": true
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260611-183802-968145:instagram:auto-listen:2",
+      "channel": "instagram",
+      "slug": "interfaz-de-audio-para-grabar-voz-en-casa",
+      "result": {
+        "ok": true,
+        "url": "https://www.instagram.com/p/C_t3pB6yNNr/",
+        "dismissed": [],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "instagram_comment_selector",
+              "ok": true,
+              "prep": {
+                "ok": true,
+                "tries": 1,
+                "tag": "TEXTAREA"
+              },
+              "open": {
+                "ok": true,
+                "selector": "textarea[aria-label*=\"comentario\"]"
+              },
+              "fill": {
+                "ok": true,
+                "selector": "textarea",
+                "length": 143
+              },
+              "submit": {
+                "ok": true,
+                "label": "publicar"
+              },
+              "keyboard_submit": {
+                "ok": false,
+                "skipped": true
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260611-133802-274631:arturia-keystep-pro-departamento:post_x:x:1781185106082",
+      "channel": "x",
+      "slug": "arturia-keystep-pro-departamento",
+      "result": {
+        "ok": true,
+        "url": "https://x.com/compose/post",
+        "dismissed": [],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "x_compose",
+              "ok": true,
+              "prep": {
+                "ok": true,
+                "skipped": true
+              },
+              "open": {
+                "ok": true,
+                "skipped": true
+              },
+              "fill": {
+                "ok": true,
+                "selector": "[data-testid=\"tweetTextarea_0\"]",
+                "length": 260
+              },
+              "submit": {
+                "ok": true,
+                "selector": "[data-testid=\"tweetButtonInline\"]"
+              },
+              "keyboard_submit": {
+                "ok": false,
+                "skipped": true
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260611-130552-738145:midiplus-ed8-vs-ed6-para-tocar-en-vivo:post_x:x:1781183408236",
+      "channel": "x",
+      "slug": "midiplus-ed8-vs-ed6-para-tocar-en-vivo",
+      "result": {
+        "ok": true,
+        "url": "https://x.com/compose/post",
+        "dismissed": [],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "x_compose",
+              "ok": true,
+              "prep": {
+                "ok": true,
+                "skipped": true
+              },
+              "open": {
+                "ok": true,
+                "skipped": true
+              },
+              "fill": {
+                "ok": true,
+                "selector": "[data-testid=\"tweetTextarea_0\"]",
+                "length": 222
+              },
+              "submit": {
+                "ok": true,
+                "selector": "[data-testid=\"tweetButtonInline\"]"
+              },
+              "keyboard_submit": {
+                "ok": false,
+                "skipped": true
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260611-130552-738145:midiplus-ed8-vs-ed6-para-tocar-en-vivo:post_social:facebook:1781183405447",
+      "channel": "facebook",
+      "slug": "midiplus-ed8-vs-ed6-para-tocar-en-vivo",
+      "result": {
+        "ok": false,
+        "url": "https://www.facebook.com/",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "¿qué estás pensando",
+            "what's on your mind",
+            "crear publicación"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "publicar"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260611-130552-738145:midiplus-ed8-vs-ed6-para-tocar-en-vivo:snippet_social:social:1781183402925",
+      "channel": "facebook",
+      "slug": "midiplus-ed8-vs-ed6-para-tocar-en-vivo",
+      "result": {
+        "ok": false,
+        "url": "https://www.facebook.com/",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "¿qué estás pensando",
+            "what's on your mind",
+            "crear publicación"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "publicar"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260611-130552-738145:midiplus-ed8-vs-ed6-para-tocar-en-vivo:snippet_social:social:1781183402925",
+      "channel": "x",
+      "slug": "midiplus-ed8-vs-ed6-para-tocar-en-vivo",
+      "result": {
+        "ok": true,
+        "url": "https://x.com/compose/post",
+        "dismissed": [],
+        "interaction": {
+          "ok": true,
+          "mode": "comment_or_post",
+          "attempts": [
+            {
+              "strategy": "x_compose",
+              "ok": true,
+              "prep": {
+                "ok": true,
+                "skipped": true
+              },
+              "open": {
+                "ok": true,
+                "skipped": true
+              },
+              "fill": {
+                "ok": true,
+                "selector": "[data-testid=\"tweetTextarea_0\"]",
+                "length": 275
+              },
+              "submit": {
+                "ok": true,
+                "selector": "[data-testid=\"tweetButtonInline\"]"
+              },
+              "keyboard_submit": {
+                "ok": false,
+                "skipped": true
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260611-130552-738145:midiplus-ed8-vs-ed6-setup-portable:post_social:facebook:1781183376998",
+      "channel": "facebook",
+      "slug": "midiplus-ed8-vs-ed6-setup-portable",
+      "result": {
+        "ok": false,
+        "url": "https://www.facebook.com/",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "¿qué estás pensando",
+            "what's on your mind",
+            "crear publicación"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "publicar"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260610-173802-227978:linkedin:auto-listen:17",
+      "channel": "linkedin",
+      "slug": "microfono-para-streaming",
+      "result": {
+        "ok": false,
+        "url": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgWCVndtB&urlhash=Uvfp&mt=CMPbe5xVhqF17VdvQvphJDm8M6BYK3KJDzXfW0rmTM4dSPMTGUS_-Yp0lasmH7INX5dOX2MpVMS97W4xqTuaUoqOLp7QGxA1IHPj5Ys56TIkyCldvMDIjDqTEF0&isSdui=true",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comenzar publicación",
+            "start a post",
+            "crear publicación",
+            "post"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "publicar"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260610-163802-240257:linkedin:auto-listen:11",
+      "channel": "linkedin",
+      "slug": "microfono-para-streaming",
+      "result": {
+        "ok": false,
+        "url": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgWCVndtB&urlhash=Uvfp&mt=K70OepduPK_em2GFP8YaH17Ijjo2-c4OTVZF7jmkLyCowLNuLInMiRBbVjelJCWDrWafzZgHqONnq5StLGqbbsTa7zpMpBCj5TmXPX8dwjRAHM1n3qRr1923OuI&isSdui=true",
+        "dismissed": [],
+        "open": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "comenzar publicación",
+            "start a post",
+            "crear publicación",
+            "post"
+          ]
+        },
+        "fill": {
+          "ok": false,
+          "error": "editor visible no encontrado"
+        },
+        "post": {
+          "ok": false,
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "publicar"
+          ]
+        },
+        "fallback_like": {
+          "ok": false,
+          "mode": "text",
+          "error": "boton por texto no encontrado",
+          "texts": [
+            "me gusta",
+            "like",
+            "upvote",
+            "votar positivo",
+            "reaccionar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20260609-142143-100551:guia-elegir-arturia-keystep-pro:respuesta_youtube:youtube:1781015023142",
+      "channel": "youtube",
+      "slug": "guia-elegir-arturia-keystep-pro",
+      "result": {
+        "ok": false,
+        "error": "YouTube requiere source_thread_url de un video"
+      }
+    },
+    {
+      "id": "20260609-142143-100551:synido-livedock-directo-guitarra:respuesta_youtube:youtube:1781014938985",
+      "channel": "youtube",
+      "slug": "synido-livedock-directo-guitarra",
+      "result": {
+        "ok": false,
+        "error": "YouTube requiere source_thread_url de un video"
+      }
+    },
+    {
+      "id": "20260609-134652-905443:synido-livemix-streaming-locucion:respuesta_youtube:youtube:1781013000467",
+      "channel": "youtube",
+      "slug": "synido-livemix-streaming-locucion",
+      "result": {
+        "ok": false,
+        "error": "YouTube requiere source_thread_url de un video"
+      }
+    }
+  ],
+  "blocked_sample": [
+    {
+      "id": "20260612-123803-141778:youtube:auto-listen:27",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260612-123803-141778:youtube:auto-listen:26",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260612-123803-141778:youtube:auto-listen:25",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260612-123803-141778:youtube:auto-listen:24",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260612-123803-141778:youtube:auto-listen:23",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260612-123803-141778:youtube:auto-listen:22",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260612-123803-141778:youtube:auto-listen:21",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260612-123803-141778:youtube:auto-listen:20",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260612-123803-141778:youtube:auto-listen:19",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    },
+    {
+      "id": "20260612-123803-141778:youtube:auto-listen:18",
+      "channel": "youtube",
+      "status": "approved",
+      "errors": [
+        "Destino/contenido ya usado en este canal"
+      ]
+    }
+  ]
+}
