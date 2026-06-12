@@ -1,7 +1,8 @@
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 import re
-from api.dashboard._base import base_handler, send
+from api.dashboard._base import base_handler
 from lib import dashboard_data as dd
-from http.server import BaseHTTPRequestHandler
 
 def _get(qs):
     day = qs.get("day", "").strip()

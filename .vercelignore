@@ -7,7 +7,8 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 outputs/
-reports/
+reports/*.log
+reports/*.md
 logs/
 tmp_*
 session/
@@ -18,12 +19,8 @@ data/browser_action_memory.json
 data/auto_browser_*.json
 data/catalogo_engagement.json
 data/catalogoTN.csv
-data/content_feedback.jsonl
 data/conversion_sales.jsonl
-data/distribution_log.jsonl
 data/distribution_search_tasks.jsonl
-data/engagement_log.jsonl
-data/geo_audits.jsonl
 data/geo_prompts.csv
 data/nurture_metrics.json
 data/social_intel.jsonl
