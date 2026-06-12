@@ -4,7 +4,9 @@
   "cleanUrls": true,
   "trailingSlash": true,
   "rewrites": [
-{ "source": "/api/:path*/", "destination": "/api/:path*" }
+    { "source": "/api/dashboard/:path*/", "destination": "/api/dashboard?_path=:path*" },
+    { "source": "/api/dashboard/:path*", "destination": "/api/dashboard?_path=:path*" },
+    { "source": "/api/:path*/", "destination": "/api/:path*" }
   ],
   "crons": [
     {
