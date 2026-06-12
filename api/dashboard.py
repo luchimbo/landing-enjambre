@@ -53,8 +53,9 @@ class handler(BaseHTTPRequestHandler):
         self.end_headers()
 
     def do_GET(self):
-        route = _route(self.path)
         qs = _qs(self.path)
+        # Vercel rewrites pass the sub-path as ?_path=...
+        route = qs.pop("_path", None) or _route(self.path)
         try:
             self._dispatch(route, qs)
         except Exception as exc:
